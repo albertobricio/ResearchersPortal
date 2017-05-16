@@ -1,0 +1,4 @@
+name: Hola Drupal
+description: 'Este es un modulo de prueba.'
+type: module
+core: '8.x'

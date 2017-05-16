@@ -1,0 +1,7 @@
+hola_drupal_settings:
+  path:  '/hola_drupal'
+  defaults:
+    _controller:  '\Drupal\hola_drupal\Controller\HolaDrupalController::sayHello'
+    _title: 'Hola Drupal'
+  requirements:
+    _permission: 'access content'
