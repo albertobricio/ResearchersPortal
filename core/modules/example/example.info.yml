@@ -1,0 +1,4 @@
+name: Ejemplo Dynamic Routes
+description: 'Este es un modulo de prueba.'
+type: module
+core: '8.x'

@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * Implements hook user_login();
+ */
+
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Drupal\Core\Url;
+
+function example_user_login($account)
+{
+  //Redirect to an existing route
+  $url = Url::fromRoute('<front>');
+
+  //Redirect to internal node
+  $url = Url::fromUserInput('/hola_drupal');
+
+  $new_url = new RedirectResponse($url->toString());
+  $new_url->send();
+}
