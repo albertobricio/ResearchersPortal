@@ -1,0 +1,27 @@
+id: researchers_migration
+migration_tags: null
+migration_group: null
+label: 'Researchers migration from CSV'
+source:
+  plugin: csv
+  path: 'C:/xampp/htdocs/ResearchersPortal/sites/default/files/MigrateResearchers/researchers_migrate.csv'
+  header_row_count: 1
+  keys:
+    - ID
+process:
+  title: title
+  type:
+    plugin: default_value
+    default_value: investigador
+  field_nombre_investigador: nombre
+  field_apellidos: apellidos
+  field_biografia: biografia
+  field_datos_contacto: contacto
+  field_foto: foto
+  field_publicaciones: publicaciones
+  field_web_personal:  web
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required: {  }
+  optional: {  }
