@@ -4,9 +4,107 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a08384957bf1bb5c0b27d25316bb164d",
-    "content-hash": "e617a68dd836a4f4ed387922f3b5ebf9",
+    "hash": "11d5fc6816b52c9da7f547776193dbc2",
+    "content-hash": "17811ccaedad6f1d2d821e03b63ec9c2",
     "packages": [
+        {
+            "name": "academicpuma/citeproc-php",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seboettg/citeproc-php-old.git",
+                "reference": "41da9655943bc495439df92ff68890b61277d724"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seboettg/citeproc-php-old/zipball/41da9655943bc495439df92ff68890b61277d724",
+                "reference": "41da9655943bc495439df92ff68890b61277d724",
+                "shasum": ""
+            },
+            "require": {
+                "academicpuma/locales": ">=1.0",
+                "academicpuma/styles": ">=1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "phpunit/phpunit-skeleton-generator": "2.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AcademicPuma\\CiteProc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL v3"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Böttger",
+                    "email": "boettger@cs.uni-kassel.de"
+                }
+            ],
+            "description": "This is an effort to implement a full-featured standalone CSL processor in PHP. The code based on the implementation of Ron Jerome.",
+            "abandoned": "seboettg/citeproc-php",
+            "time": "2015-09-15 09:01:39"
+        },
+        {
+            "name": "academicpuma/locales",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seboettg/locales.git",
+                "reference": "e5985dbc979f6a285e74006466daab40fd53573f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seboettg/locales/zipball/e5985dbc979f6a285e74006466daab40fd53573f",
+                "reference": "e5985dbc979f6a285e74006466daab40fd53573f",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Creative Commons Attribution-ShareAlike 3.0 License"
+            ],
+            "authors": [
+                {
+                    "name": "seboettg",
+                    "email": "boettger@cs.uni-kassel.de"
+                }
+            ],
+            "description": "Citation Style Language (CSL) Locales Repository",
+            "time": "2015-09-08 14:33:33"
+        },
+        {
+            "name": "academicpuma/styles",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seboettg/styles.git",
+                "reference": "24a0ab9277d3cc7d344e621721b2f4c2ed2f2ecc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seboettg/styles/zipball/24a0ab9277d3cc7d344e621721b2f4c2ed2f2ecc",
+                "reference": "24a0ab9277d3cc7d344e621721b2f4c2ed2f2ecc",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Creative Commons Attribution-ShareAlike 3.0 License"
+            ],
+            "authors": [
+                {
+                    "name": "seboettg",
+                    "email": "boettger@cs.uni-kassel.de"
+                }
+            ],
+            "description": "Citation Style Language (CSL) Stylesheet Repository",
+            "time": "2015-09-08 14:22:08"
+        },
         {
             "name": "alchemy/zippy",
             "version": "0.4.3",
@@ -122,6 +220,50 @@
                 "stack"
             ],
             "time": "2017-04-11 20:03:41"
+        },
+        {
+            "name": "audiolabs/bibtexparser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/audiolabs/bibtexparser.git",
+                "reference": "b2d7794f49887ee7801c780b215d4d66b0f2e475"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/audiolabs/bibtexparser/zipball/b2d7794f49887ee7801c780b215d4d66b0f2e475",
+                "reference": "b2d7794f49887ee7801c780b215d4d66b0f2e475",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "AudioLabs": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nils Werner",
+                    "email": "nils.werner@audiolabs-erlangen.de",
+                    "homepage": "http://www.audiolabs-erlangen.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Bibtex parser for PHP 5.3",
+            "homepage": "http://github.com/alabs/bibtexparser",
+            "keywords": [
+                "bibtex",
+                "latex",
+                "parsing"
+            ],
+            "time": "2014-04-07 10:08:24"
         },
         {
             "name": "composer/installers",
@@ -399,6 +541,49 @@
             ],
             "description": "Format text by applying transformations provided by plug-in formatters.",
             "time": "2017-05-08 15:59:33"
+        },
+        {
+            "name": "davidgorges/human-name-parser",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davidgorges/HumanNameParser.php.git",
+                "reference": "0418268e7c6fdb4f624cb6f977fa4e84278a3a60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davidgorges/HumanNameParser.php/zipball/0418268e7c6fdb4f624cb6f977fa4e84278a3a60",
+                "reference": "0418268e7c6fdb4f624cb6f977fa4e84278a3a60",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HumanNameParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Gorges",
+                    "email": "david.gorges@leaphub.de"
+                },
+                {
+                    "name": "Jason Priem",
+                    "email": "jason@jasonpriem.com"
+                }
+            ],
+            "description": "Parses a human name",
+            "time": "2014-10-08 19:01:21"
         },
         {
             "name": "dflydev/dot-access-configuration",
@@ -3945,6 +4130,49 @@
             "time": "2017-05-01 14:31:55"
         },
         {
+            "name": "technosophos/LibRIS",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/technosophos/LibRIS.git",
+                "reference": "5b6628ece0e57e90bd54f3b2d8de922dc4cc662c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/technosophos/LibRIS/zipball/5b6628ece0e57e90bd54f3b2d8de922dc4cc662c",
+                "reference": "5b6628ece0e57e90bd54f3b2d8de922dc4cc662c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "LibRIS": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT or GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "M Butcher",
+                    "homepage": "http://technosophos.com"
+                }
+            ],
+            "description": "An RIS parser. RIS is a format for reference metadata.",
+            "homepage": "https://github.com/technosophos/LibRIS",
+            "keywords": [
+                "Bibliography",
+                "File parser",
+                "RIS",
+                "Reference"
+            ],
+            "time": "2012-03-14 16:36:15"
+        },
+        {
             "name": "twig/twig",
             "version": "v1.33.2",
             "source": {
@@ -5812,6 +6040,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "audiolabs/bibtexparser": 20,
         "behat/mink": 20
     },
     "prefer-stable": true,
