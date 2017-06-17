@@ -1,0 +1,6 @@
+import_external_publications.admin:
+  title: 'Importar publicaciones desde APIs externas'
+  description: 'Este módulo, se encarga de importar publicaciones desde APIs externas.'
+  parent: system.admin_config_media
+  route_name: import_external_publications.admin_settings
+  weight: 100

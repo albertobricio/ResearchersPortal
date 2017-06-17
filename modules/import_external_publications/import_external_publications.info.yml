@@ -1,0 +1,5 @@
+name: Importar publicaciones desde APIs externas
+description: 'Este módulo, se encarga de importar publicaciones desde APIs externas.'
+type: module
+core: '8.x'
+configure: import_external_publications.admin_settings:

@@ -1,0 +1,7 @@
+import_publications_bib.content:
+  path:  'admin/config/import_publications_bib'
+  defaults:
+    _form: '\Drupal\import_publications_bib\Form\ImportPublicationsFromBibForm'
+    _title: 'Importar publicaciones desde .bib'
+  requirements:
+    _permission: 'administer site configuration'
