@@ -1,0 +1,5 @@
+name: Importar publicaciones desde archivos bibliograficos (.bib)
+description: 'Este módulo, se encarga de importar publicaciones desde archivos en formato .bib.'
+type: module
+core: '8.x'
+configure: import_publications_bib.content

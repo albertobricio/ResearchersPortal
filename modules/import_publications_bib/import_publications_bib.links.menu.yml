@@ -1,0 +1,6 @@
+import_publications_bib.admin:
+  title: 'Importar publicaciones desde archivos bibliográficos (.bib)'
+  description: 'Este módulo, se encarga de importar publicaciones desde archivos en formato .bib.'
+  parent: system.admin_config_media
+  route_name: import_publications_bib.content
+  weight: 100

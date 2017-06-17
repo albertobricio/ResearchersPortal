@@ -1,0 +1,7 @@
+import_external_publications.admin_settings:
+  path:  'admin/config/import_external_publications'
+  defaults:
+    _form: '\Drupal\import_external_publications\Form\ImportExternalPublicationsForm'
+    _title: 'Importar publicaciones externas'
+  requirements:
+    _permission: 'administer site configuration'
