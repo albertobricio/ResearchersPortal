@@ -11,7 +11,10 @@
         "academicpuma/citeproc-php": "~1.0",
         "davidgorges/human-name-parser": "~0.2",
         "technosophos/LibRIS": "~2.0",
-        "audiolabs/bibtexparser": "dev-master"
+        "audiolabs/bibtexparser": "dev-master",
+        "clue/graph": "~0.9.0",
+        "graphp/graphviz": "^0.2.1",
+        "seboettg/citeproc-php": "^2.0"
     },
     "replace": {
         "drupal/core": "~8.3"

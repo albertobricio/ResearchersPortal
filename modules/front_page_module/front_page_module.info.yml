@@ -1,0 +1,4 @@
+name: Front page module
+description: 'Este modulo se encarga de redirigir a la página principal de la ETSISI.'
+type: module
+core: '8.x'

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "11d5fc6816b52c9da7f547776193dbc2",
-    "content-hash": "17811ccaedad6f1d2d821e03b63ec9c2",
+    "hash": "755d35fb6de4e3e025900c0e3a3e9d89",
+    "content-hash": "d4a7b96cb8ce301cef8088d6d035fcd4",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -264,6 +264,51 @@
                 "parsing"
             ],
             "time": "2014-04-07 10:08:24"
+        },
+        {
+            "name": "clue/graph",
+            "version": "v0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clue/graph.git",
+                "reference": "0336a4d5229fa61a20ccceaeab25e52ac9542700"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clue/graph/zipball/0336a4d5229fa61a20ccceaeab25e52ac9542700",
+                "reference": "0336a4d5229fa61a20ccceaeab25e52ac9542700",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "graphp/algorithms": "Common graph algorithms, such as Dijkstra and Moore-Bellman-Ford (shortest path), minimum spanning tree (MST), Kruskal, Prim and many more..",
+                "graphp/graphviz": "GraphViz graph drawing / DOT output"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fhaculty\\Graph\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A mathematical graph/network library written in PHP",
+            "homepage": "https://github.com/clue/graph",
+            "keywords": [
+                "edge",
+                "graph",
+                "mathematical",
+                "network",
+                "vertex"
+            ],
+            "time": "2015-03-07 18:11:31"
         },
         {
             "name": "composer/installers",
@@ -1702,6 +1747,194 @@
             "time": "2017-03-07 22:26:54"
         },
         {
+            "name": "graphp/algorithms",
+            "version": "v0.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/graphp/algorithms.git",
+                "reference": "81db4049c35730767ec8f97fb5c4844234b86cef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/graphp/algorithms/zipball/81db4049c35730767ec8f97fb5c4844234b86cef",
+                "reference": "81db4049c35730767ec8f97fb5c4844234b86cef",
+                "shasum": ""
+            },
+            "require": {
+                "clue/graph": "~0.9.0|~0.8.0",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Graphp\\Algorithms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@lueck.tv"
+                }
+            ],
+            "description": "Common mathematical graph algorithms",
+            "homepage": "https://github.com/graphp/algorithms",
+            "keywords": [
+                "Graph algorithms",
+                "dijkstra",
+                "kruskal",
+                "minimum spanning tree",
+                "moore-bellman-ford",
+                "prim",
+                "shortest path"
+            ],
+            "time": "2015-03-08 10:12:01"
+        },
+        {
+            "name": "graphp/graphviz",
+            "version": "v0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/graphp/graphviz.git",
+                "reference": "2676522dfcd907fd3cb52891ea64a052c4ac4c2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/graphp/graphviz/zipball/2676522dfcd907fd3cb52891ea64a052c4ac4c2a",
+                "reference": "2676522dfcd907fd3cb52891ea64a052c4ac4c2a",
+                "shasum": ""
+            },
+            "require": {
+                "clue/graph": "~0.9.0|~0.8.0",
+                "graphp/algorithms": "~0.8.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Graphp\\GraphViz\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "GraphViz graph drawing for mathematical graph/network",
+            "homepage": "https://github.com/graphp/graphviz",
+            "keywords": [
+                "dot output",
+                "graph drawing",
+                "graph image",
+                "graphviz"
+            ],
+            "time": "2015-03-08 10:30:28"
+        },
+        {
+            "name": "guzzle/guzzle",
+            "version": "v3.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle3.git",
+                "reference": "0645b70d953bc1c067bbc8d5bc53194706b628d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle3/zipball/0645b70d953bc1c067bbc8d5bc53194706b628d9",
+                "reference": "0645b70d953bc1c067bbc8d5bc53194706b628d9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.3",
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "replace": {
+                "guzzle/batch": "self.version",
+                "guzzle/cache": "self.version",
+                "guzzle/common": "self.version",
+                "guzzle/http": "self.version",
+                "guzzle/inflection": "self.version",
+                "guzzle/iterator": "self.version",
+                "guzzle/log": "self.version",
+                "guzzle/parser": "self.version",
+                "guzzle/plugin": "self.version",
+                "guzzle/plugin-async": "self.version",
+                "guzzle/plugin-backoff": "self.version",
+                "guzzle/plugin-cache": "self.version",
+                "guzzle/plugin-cookie": "self.version",
+                "guzzle/plugin-curlauth": "self.version",
+                "guzzle/plugin-error-response": "self.version",
+                "guzzle/plugin-history": "self.version",
+                "guzzle/plugin-log": "self.version",
+                "guzzle/plugin-md5": "self.version",
+                "guzzle/plugin-mock": "self.version",
+                "guzzle/plugin-oauth": "self.version",
+                "guzzle/service": "self.version",
+                "guzzle/stream": "self.version"
+            },
+            "require-dev": {
+                "doctrine/cache": "~1.3",
+                "monolog/monolog": "~1.0",
+                "phpunit/phpunit": "3.7.*",
+                "psr/log": "~1.0",
+                "symfony/class-loader": "~2.1",
+                "zendframework/zend-cache": "2.*,<2.3",
+                "zendframework/zend-log": "2.*,<2.3"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "Guzzle 5 has moved to a new package name. The package you have installed, Guzzle 3, is deprecated."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle": "src/",
+                    "Guzzle\\Tests": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Guzzle Community",
+                    "homepage": "https://github.com/guzzle/guzzle/contributors"
+                }
+            ],
+            "description": "PHP HTTP client. This library is deprecated in favor of https://packagist.org/packages/guzzlehttp/guzzle",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "abandoned": "guzzlehttp/guzzle",
+            "time": "2015-03-18 18:23:50"
+        },
+        {
             "name": "guzzlehttp/guzzle",
             "version": "6.2.3",
             "source": {
@@ -2072,6 +2305,50 @@
                 "xml"
             ],
             "time": "2016-09-22 11:01:11"
+        },
+        {
+            "name": "myclabs/php-enum",
+            "version": "1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/php-enum.git",
+                "reference": "61f4a24da5be216301447f3278ea6562609d61f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/61f4a24da5be216301447f3278ea6562609d61f5",
+                "reference": "61f4a24da5be216301447f3278ea6562609d61f5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "squizlabs/php_codesniffer": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MyCLabs\\Enum\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP Enum contributors",
+                    "homepage": "https://github.com/myclabs/php-enum/graphs/contributors"
+                }
+            ],
+            "description": "PHP Enum implementation",
+            "homepage": "http://github.com/myclabs/php-enum",
+            "keywords": [
+                "enum"
+            ],
+            "time": "2017-03-26 10:24:21"
         },
         {
             "name": "nikic/php-parser",
@@ -2445,6 +2722,144 @@
                 "shell"
             ],
             "time": "2017-06-04 10:34:20"
+        },
+        {
+            "name": "satooshi/php-coveralls",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/satooshi/php-coveralls.git",
+                "reference": "da51d304fe8622bf9a6da39a8446e7afd432115c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/satooshi/php-coveralls/zipball/da51d304fe8622bf9a6da39a8446e7afd432115c",
+                "reference": "da51d304fe8622bf9a6da39a8446e7afd432115c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-simplexml": "*",
+                "guzzle/guzzle": "^2.8|^3.0",
+                "php": ">=5.3.3",
+                "psr/log": "^1.0",
+                "symfony/config": "^2.1|^3.0",
+                "symfony/console": "^2.1|^3.0",
+                "symfony/stopwatch": "^2.0|^3.0",
+                "symfony/yaml": "^2.0|^3.0"
+            },
+            "suggest": {
+                "symfony/http-kernel": "Allows Symfony integration"
+            },
+            "bin": [
+                "bin/coveralls"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Satooshi\\": "src/Satooshi/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kitamura Satoshi",
+                    "email": "with.no.parachute@gmail.com",
+                    "homepage": "https://www.facebook.com/satooshi.jp"
+                }
+            ],
+            "description": "PHP client library for Coveralls API",
+            "homepage": "https://github.com/satooshi/php-coveralls",
+            "keywords": [
+                "ci",
+                "coverage",
+                "github",
+                "test"
+            ],
+            "time": "2016-01-20 17:35:46"
+        },
+        {
+            "name": "seboettg/citeproc-php",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seboettg/citeproc-php.git",
+                "reference": "b916e4ef77ece2093bfd1acf9e54dba408277406"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seboettg/citeproc-php/zipball/b916e4ef77ece2093bfd1acf9e54dba408277406",
+                "reference": "b916e4ef77ece2093bfd1acf9e54dba408277406",
+                "shasum": ""
+            },
+            "require": {
+                "myclabs/php-enum": "^1.5",
+                "seboettg/collection": "^1.1",
+                "symfony/polyfill-mbstring": "^1.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0",
+                "satooshi/php-coveralls": "^1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Böttger",
+                    "email": "seboettg@gmail.com",
+                    "homepage": "http://sebastianboettger.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Full-featured CSL processor (https://citationstyles.org)",
+            "time": "2017-05-23 16:46:25"
+        },
+        {
+            "name": "seboettg/collection",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seboettg/Collection.git",
+                "reference": "3ab8d8f3dfa4a03ab51d670859c7763b0e61344f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seboettg/Collection/zipball/3ab8d8f3dfa4a03ab51d670859c7763b0e61344f",
+                "reference": "3ab8d8f3dfa4a03ab51d670859c7763b0e61344f",
+                "shasum": ""
+            },
+            "require": {
+                "satooshi/php-coveralls": "^1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Böttger",
+                    "email": "seboettg@gmail.com"
+                }
+            ],
+            "description": "Simple PHP ArrayList collection",
+            "time": "2016-08-17 13:16:08"
         },
         {
             "name": "stack/builder",
@@ -3875,6 +4290,55 @@
             "description": "Symfony Serializer Component",
             "homepage": "https://symfony.com",
             "time": "2017-06-01 20:52:29"
+        },
+        {
+            "name": "symfony/stopwatch",
+            "version": "v3.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/stopwatch.git",
+                "reference": "602a15299dc01556013b07167d4f5d3a60e90d15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/602a15299dc01556013b07167d4f5d3a60e90d15",
+                "reference": "602a15299dc01556013b07167d4f5d3a60e90d15",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Stopwatch\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Stopwatch Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-04-12 14:14:56"
         },
         {
             "name": "symfony/translation",

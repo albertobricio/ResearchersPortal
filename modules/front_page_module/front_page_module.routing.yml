@@ -1,0 +1,7 @@
+front_page_module_settings:
+  path:  '/index'
+  defaults:
+    _controller:  '\Drupal\front_page_module\Controller\FrontPageController::content'
+    _title: 'Front page module'
+  requirements:
+    _permission: 'access content'
