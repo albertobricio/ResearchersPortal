@@ -45,7 +45,7 @@ void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!=
   }
 })();
 ;
-window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","closed":"cerrado","Save":"Guardar","Open":"Abierta","OK":"OK","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Extend":"Ampliar","Hide":"Ocultar","Quick edit":"Edici\u00f3n r\u00e1pida","@label":"@label","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","Collapse":"Plegar","You have unsaved changes":"Usted tiene cambios no guaradados","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","Network problem!":"Problema de red!"}},"pluralFormula":{"1":0,"default":1}};;
+window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","Next":"Siguiente","closed":"cerrado","Cancel":"Cancelar","Edit":"Editar","Link":"Enlace","Image":"Imagen","Save":"Guardar","Open":"Abierta","Sunday":"Domingo","Monday":"Lunes","Tuesday":"Martes","Wednesday":"Mi\u00e9rcoles","Thursday":"Jueves","Friday":"Viernes","Saturday":"S\u00e1bado","Add":"Agregar","Keywords":"Palabras clave","Continue":"Continuar","Done":"Hecho","OK":"OK","Prev":"Previo","Mon":"Lun","Tue":"Mar","Wed":"Mi\u00e9","Thu":"Jue","Fri":"Vie","Sat":"S\u00e1b","Sun":"Dom","May":"Mayo","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Today":"Hoy","Jan":"Ene","Feb":"Feb","Mar":"Mar","Apr":"Abr","Jun":"Jun","Jul":"Jul","Aug":"Ago","Sep":"Sep","Oct":"Oct","Nov":"Nov","Dec":"Dic","Extend":"Ampliar","Su":"Do","Mo":"Lu","Tu":"Ma","We":"Mi","Th":"Ju","Fr":"Vi","Sa":"Sa","Not published":"No publicado","Loading...":"Cargando...","Hide":"Ocultar","Unlink":"Desvincular","Not promoted":"No publicado en p\u00e1gina principal","mm\/dd\/yy":"mm\/dd\/yy","Quick edit":"Edici\u00f3n r\u00e1pida","Edit Link":"Editar enlace","Remove group":"Eliminar grupo","By @name on @date":"Por @name en @date","By @name":"Por @name","Not in menu":"No est\u00e1 en un men\u00fa","Alias: @alias":"Alias: @alias","No alias":"Sin alias","@label":"@label","New revision":"Nueva revisi\u00f3n","Drag to re-order":"Arrastre para reordenar","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","No revision":"Sin revisi\u00f3n","Requires a title":"Necesita un t\u00edtulo","Not restricted":"Sin restricci\u00f3n","(active tab)":"(solapa activa)","Restricted to certain pages":"Restringido a algunas p\u00e1ginas","The block cannot be placed in this region.":"El bloque no se puede colocar en esta regi\u00f3n.","Hide summary":"Ocultar resumen","Edit summary":"Editar resumen","Don\u0027t display post information":"No mostrar informaci\u00f3n del env\u00edo","Collapse":"Plegar","The selected file %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions.":"El archivo seleccionado %filename no se puede subir al srvidor. Solo se permiten archivos con las siguientes extensiones: %extensions.","Re-order rows by numerical weight instead of dragging.":"Reordenar las filas por peso num\u00e9rico en lugar de arrastrar.","Show row weights":"Mostrar pesos de la fila","Hide row weights":"Ocultar pesos de la fila","Apply (all displays)":"Aplicar (todas las presentaciones)","Apply (this display)":"Aplicar (esta presentaci\u00f3n)","Revert to default":"Volver al valor inicial","You have unsaved changes":"Usted tiene cambios no guaradados","Needs to be updated":"Necesita ser actualizado","Does not need to be updated":"No necesita ser actualizado","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","List additional actions":"Lista adicional de acciones","Flag other translations as outdated":"Marcar las otras traducciones como desfasadas","Do not flag other translations as outdated":"No marcar las otras traducciones como desfasadas","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","You have unsaved changes.":"Tiene cambios sin guardar.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Changing the text format to %text_format will permanently remove content that is not allowed in that text format.\u003Cbr\u003E\u003Cbr\u003ESave your changes before switching the text format to avoid losing data.":"Cambiar el formato de texto a %text_format eliminar\u00e1 permanentemente el contenido que no est\u00e1 permitido en ese formato de texto.\u003Cbr\u003E\u003Cbr\u003EGuarde sus datos antes de cambiar el formato de texto para evitar perder datos.","Change text format?":"\u00bfCambiar el formato de texto?","Rich Text Editor, !label field":"Editor de texto con formato, campo !label","Leave preview?":"\u00bfSalir de la vista previa?","Leave preview":"Salir de la vista previa","Leaving the preview will cause unsaved changes to be lost. Are you sure you want to leave the preview?":"La salida de la vista previa provocar\u00e1 la p\u00e9rdida de los cambios no guardados. \u00bfEst\u00e1 seguro de que desea abandonar la vista previa?","CTRL+Left click will prevent this dialog from showing and proceed to the clicked link.":"CTRL+Clic izquierdo evitar\u00e1 que aparezca este di\u00e1logo e ir\u00e1 directamente al enlace pulsado.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!","Authored on @date":"Escrito el @date","Latitude":"Latitud","Longitude":"Longitud","No location data found. Reason: POSITION_UNAVAILABLE.":"No se encontraron datos de localizaci\u00f3n. Razon: POSICION_NO_DISPONIBLE","No location data found. Reason: TIMEOUT.":"No se encontraron datos de localizaci\u00f3n. Razon: TIEMPO EXPIRADO"},"Long month name":{"January":"Enero","February":"Febrero","March":"Marzo","April":"Abril","May":"Mayo","June":"Junio","July":"Julio","August":"Agosto","September":"Septiembre","October":"Octubre","November":"Noviembre","December":"Diciembre"}},"pluralFormula":{"1":0,"default":1}};;
 /**
  * @file
  * Defines the Drupal JavaScript API.
@@ -1309,6 +1309,259 @@ document.documentElement.className += ' js';
 ;
 /**
  * @file
+ * Define vertical tabs functionality.
+ */
+
+/**
+ * Triggers when form values inside a vertical tab changes.
+ *
+ * This is used to update the summary in vertical tabs in order to know what
+ * are the important fields' values.
+ *
+ * @event summaryUpdated
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * This script transforms a set of details into a stack of vertical tabs.
+   *
+   * Each tab may have a summary which can be updated by another
+   * script. For that to work, each details element has an associated
+   * 'verticalTabCallback' (with jQuery.data() attached to the details),
+   * which is called every time the user performs an update to a form
+   * element inside the tab pane.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behaviors for vertical tabs.
+   */
+  Drupal.behaviors.verticalTabs = {
+    attach: function (context) {
+      var width = drupalSettings.widthBreakpoint || 640;
+      var mq = '(max-width: ' + width + 'px)';
+
+      if (window.matchMedia(mq).matches) {
+        return;
+      }
+
+      $(context).find('[data-vertical-tabs-panes]').once('vertical-tabs').each(function () {
+        var $this = $(this).addClass('vertical-tabs__panes');
+        var focusID = $this.find(':hidden.vertical-tabs__active-tab').val();
+        var tab_focus;
+
+        // Check if there are some details that can be converted to
+        // vertical-tabs.
+        var $details = $this.find('> details');
+        if ($details.length === 0) {
+          return;
+        }
+
+        // Create the tab column.
+        var tab_list = $('<ul class="vertical-tabs__menu"></ul>');
+        $this.wrap('<div class="vertical-tabs clearfix"></div>').before(tab_list);
+
+        // Transform each details into a tab.
+        $details.each(function () {
+          var $that = $(this);
+          var vertical_tab = new Drupal.verticalTab({
+            title: $that.find('> summary').text(),
+            details: $that
+          });
+          tab_list.append(vertical_tab.item);
+          $that
+            .removeClass('collapsed')
+            // prop() can't be used on browsers not supporting details element,
+            // the style won't apply to them if prop() is used.
+            .attr('open', true)
+            .addClass('vertical-tabs__pane')
+            .data('verticalTab', vertical_tab);
+          if (this.id === focusID) {
+            tab_focus = $that;
+          }
+        });
+
+        $(tab_list).find('> li').eq(0).addClass('first');
+        $(tab_list).find('> li').eq(-1).addClass('last');
+
+        if (!tab_focus) {
+          // If the current URL has a fragment and one of the tabs contains an
+          // element that matches the URL fragment, activate that tab.
+          var $locationHash = $this.find(window.location.hash);
+          if (window.location.hash && $locationHash.length) {
+            tab_focus = $locationHash.closest('.vertical-tabs__pane');
+          }
+          else {
+            tab_focus = $this.find('> .vertical-tabs__pane').eq(0);
+          }
+        }
+        if (tab_focus.length) {
+          tab_focus.data('verticalTab').focus();
+        }
+      });
+    }
+  };
+
+  /**
+   * The vertical tab object represents a single tab within a tab group.
+   *
+   * @constructor
+   *
+   * @param {object} settings
+   *   Settings object.
+   * @param {string} settings.title
+   *   The name of the tab.
+   * @param {jQuery} settings.details
+   *   The jQuery object of the details element that is the tab pane.
+   *
+   * @fires event:summaryUpdated
+   *
+   * @listens event:summaryUpdated
+   */
+  Drupal.verticalTab = function (settings) {
+    var self = this;
+    $.extend(this, settings, Drupal.theme('verticalTab', settings));
+
+    this.link.attr('href', '#' + settings.details.attr('id'));
+
+    this.link.on('click', function (e) {
+      e.preventDefault();
+      self.focus();
+    });
+
+    // Keyboard events added:
+    // Pressing the Enter key will open the tab pane.
+    this.link.on('keydown', function (event) {
+      if (event.keyCode === 13) {
+        event.preventDefault();
+        self.focus();
+        // Set focus on the first input field of the visible details/tab pane.
+        $('.vertical-tabs__pane :input:visible:enabled').eq(0).trigger('focus');
+      }
+    });
+
+    this.details
+      .on('summaryUpdated', function () {
+        self.updateSummary();
+      })
+      .trigger('summaryUpdated');
+  };
+
+  Drupal.verticalTab.prototype = {
+
+    /**
+     * Displays the tab's content pane.
+     */
+    focus: function () {
+      this.details
+        .siblings('.vertical-tabs__pane')
+        .each(function () {
+          var tab = $(this).data('verticalTab');
+          tab.details.hide();
+          tab.item.removeClass('is-selected');
+        })
+        .end()
+        .show()
+        .siblings(':hidden.vertical-tabs__active-tab')
+        .val(this.details.attr('id'));
+      this.item.addClass('is-selected');
+      // Mark the active tab for screen readers.
+      $('#active-vertical-tab').remove();
+      this.link.append('<span id="active-vertical-tab" class="visually-hidden">' + Drupal.t('(active tab)') + '</span>');
+    },
+
+    /**
+     * Updates the tab's summary.
+     */
+    updateSummary: function () {
+      this.summary.html(this.details.drupalGetSummary());
+    },
+
+    /**
+     * Shows a vertical tab pane.
+     *
+     * @return {Drupal.verticalTab}
+     *   The verticalTab instance.
+     */
+    tabShow: function () {
+      // Display the tab.
+      this.item.show();
+      // Show the vertical tabs.
+      this.item.closest('.js-form-type-vertical-tabs').show();
+      // Update .first marker for items. We need recurse from parent to retain
+      // the actual DOM element order as jQuery implements sortOrder, but not
+      // as public method.
+      this.item.parent().children('.vertical-tabs__menu-item').removeClass('first')
+        .filter(':visible').eq(0).addClass('first');
+      // Display the details element.
+      this.details.removeClass('vertical-tab--hidden').show();
+      // Focus this tab.
+      this.focus();
+      return this;
+    },
+
+    /**
+     * Hides a vertical tab pane.
+     *
+     * @return {Drupal.verticalTab}
+     *   The verticalTab instance.
+     */
+    tabHide: function () {
+      // Hide this tab.
+      this.item.hide();
+      // Update .first marker for items. We need recurse from parent to retain
+      // the actual DOM element order as jQuery implements sortOrder, but not
+      // as public method.
+      this.item.parent().children('.vertical-tabs__menu-item').removeClass('first')
+        .filter(':visible').eq(0).addClass('first');
+      // Hide the details element.
+      this.details.addClass('vertical-tab--hidden').hide();
+      // Focus the first visible tab (if there is one).
+      var $firstTab = this.details.siblings('.vertical-tabs__pane:not(.vertical-tab--hidden)').eq(0);
+      if ($firstTab.length) {
+        $firstTab.data('verticalTab').focus();
+      }
+      // Hide the vertical tabs (if no tabs remain).
+      else {
+        this.item.closest('.js-form-type-vertical-tabs').hide();
+      }
+      return this;
+    }
+  };
+
+  /**
+   * Theme function for a vertical tab.
+   *
+   * @param {object} settings
+   *   An object with the following keys:
+   * @param {string} settings.title
+   *   The name of the tab.
+   *
+   * @return {object}
+   *   This function has to return an object with at least these keys:
+   *   - item: The root tab jQuery element
+   *   - link: The anchor tag that acts as the clickable area of the tab
+   *       (jQuery version)
+   *   - summary: The jQuery element that contains the tab summary
+   */
+  Drupal.theme.verticalTab = function (settings) {
+    var tab = {};
+    tab.item = $('<li class="vertical-tabs__menu-item" tabindex="-1"></li>')
+      .append(tab.link = $('<a href="#"></a>')
+        .append(tab.title = $('<strong class="vertical-tabs__menu-item-title"></strong>').text(settings.title))
+        .append(tab.summary = $('<span class="vertical-tabs__menu-item-summary"></span>')
+        )
+      );
+    return tab;
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
  * Attaches behaviors for Drupal's active link marking.
  */
 
@@ -1376,7 +1629,74 @@ document.documentElement.className += ' js';
 
 })(Drupal, drupalSettings);
 ;
-window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.styleMedia||window.media;if(!e){var t=document.createElement("style"),i=document.getElementsByTagName("script")[0],n=null;t.type="text/css";t.id="matchmediajs-test";i.parentNode.insertBefore(t,i);n="getComputedStyle"in window&&window.getComputedStyle(t,null)||t.currentStyle;e={matchMedium:function(e){var i="@media "+e+"{ #matchmediajs-test { width: 1px; } }";if(t.styleSheet){t.styleSheet.cssText=i}else{t.textContent=i}return n.width==="1px"}}}return function(t){return{matches:e.matchMedium(t||"all"),media:t||"all"}}}());
+/**
+ * @file
+ * Menu UI admin behaviors.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   *
+   * @type {Drupal~behavior}
+   */
+  Drupal.behaviors.menuUiChangeParentItems = {
+    attach: function (context, settings) {
+      var $menu = $('#edit-menu').once('menu-parent');
+      if ($menu.length) {
+        // Update the list of available parent menu items to match the initial
+        // available menus.
+        Drupal.menuUiUpdateParentList();
+
+        // Update list of available parent menu items.
+        $menu.on('change', 'input', Drupal.menuUiUpdateParentList);
+      }
+    }
+  };
+
+  /**
+   * Function to set the options of the menu parent item dropdown.
+   */
+  Drupal.menuUiUpdateParentList = function () {
+    var $menu = $('#edit-menu');
+    var values = [];
+
+    $menu.find('input:checked').each(function () {
+      // Get the names of all checked menus.
+      values.push(Drupal.checkPlain($.trim($(this).val())));
+    });
+
+    $.ajax({
+      url: location.protocol + '//' + location.host + Drupal.url('admin/structure/menu/parents'),
+      type: 'POST',
+      data: {'menus[]': values},
+      dataType: 'json',
+      success: function (options) {
+        var $select = $('#edit-menu-parent');
+        // Save key of last selected element.
+        var selected = $select.val();
+        // Remove all existing options from dropdown.
+        $select.children().remove();
+        // Add new options to dropdown. Keep a count of options for testing later.
+        var totalOptions = 0;
+        for (var machineName in options) {
+          if (options.hasOwnProperty(machineName)) {
+            $select.append(
+              $('<option ' + (machineName === selected ? ' selected="selected"' : '') + '></option>').val(machineName).text(options[machineName])
+            );
+            totalOptions++;
+          }
+        }
+
+        // Hide the parent options if there are no options for it.
+        $select.closest('div').toggle(totalOptions > 0).attr('hidden', totalOptions === 0);
+      }
+    });
+  };
+
+})(jQuery, Drupal);
 ;
 /**
  * @file
@@ -1431,61 +1751,712 @@ Drupal.debounce = function (func, wait, immediate) {
   };
 };
 ;
+/*! jquery.cookie v1.4.1 | MIT */
+!function(a){"function"==typeof define&&define.amd?define(["jquery"],a):"object"==typeof exports?a(require("jquery")):a(jQuery)}(function(a){function b(a){return h.raw?a:encodeURIComponent(a)}function c(a){return h.raw?a:decodeURIComponent(a)}function d(a){return b(h.json?JSON.stringify(a):String(a))}function e(a){0===a.indexOf('"')&&(a=a.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,"\\"));try{return a=decodeURIComponent(a.replace(g," ")),h.json?JSON.parse(a):a}catch(b){}}function f(b,c){var d=h.raw?b:e(b);return a.isFunction(c)?c(d):d}var g=/\+/g,h=a.cookie=function(e,g,i){if(void 0!==g&&!a.isFunction(g)){if(i=a.extend({},h.defaults,i),"number"==typeof i.expires){var j=i.expires,k=i.expires=new Date;k.setTime(+k+864e5*j)}return document.cookie=[b(e),"=",d(g),i.expires?"; expires="+i.expires.toUTCString():"",i.path?"; path="+i.path:"",i.domain?"; domain="+i.domain:"",i.secure?"; secure":""].join("")}for(var l=e?void 0:{},m=document.cookie?document.cookie.split("; "):[],n=0,o=m.length;o>n;n++){var p=m[n].split("="),q=c(p.shift()),r=p.join("=");if(e&&e===q){l=f(r,g);break}e||void 0===(r=f(r))||(l[q]=r)}return l};h.defaults={},a.removeCookie=function(b,c){return void 0===a.cookie(b)?!1:(a.cookie(b,"",a.extend({},c,{expires:-1})),!a.cookie(b))}});;
 /**
  * @file
- * Responsive navigation tabs.
- *
- * This also supports collapsible navigable is the 'is-collapsible' class is
- * added to the main element, and a target element is included.
+ * Form features.
  */
-(function ($, Drupal) {
+
+/**
+ * Triggers when a value in the form changed.
+ *
+ * The event triggers when content is typed or pasted in a text field, before
+ * the change event triggers.
+ *
+ * @event formUpdated
+ */
+
+(function ($, Drupal, debounce) {
 
   'use strict';
 
-  function init(i, tab) {
-    var $tab = $(tab);
-    var $target = $tab.find('[data-drupal-nav-tabs-target]');
-    var isCollapsible = $tab.hasClass('is-collapsible');
+  /**
+   * Retrieves the summary for the first element.
+   *
+   * @return {string}
+   *   The text of the summary.
+   */
+  $.fn.drupalGetSummary = function () {
+    var callback = this.data('summaryCallback');
+    return (this[0] && callback) ? $.trim(callback(this[0])) : '';
+  };
 
-    function openMenu(e) {
-      $target.toggleClass('is-open');
+  /**
+   * Sets the summary for all matched elements.
+   *
+   * @param {function} callback
+   *   Either a function that will be called each time the summary is
+   *   retrieved or a string (which is returned each time).
+   *
+   * @return {jQuery}
+   *   jQuery collection of the current element.
+   *
+   * @fires event:summaryUpdated
+   *
+   * @listens event:formUpdated
+   */
+  $.fn.drupalSetSummary = function (callback) {
+    var self = this;
+
+    // To facilitate things, the callback should always be a function. If it's
+    // not, we wrap it into an anonymous function which just returns the value.
+    if (typeof callback !== 'function') {
+      var val = callback;
+      callback = function () { return val; };
     }
 
-    function handleResize(e) {
-      $tab.addClass('is-horizontal');
-      var $tabs = $tab.find('.tabs');
-      var isHorizontal = $tabs.outerHeight() <= $tabs.find('.tabs__tab').outerHeight();
-      $tab.toggleClass('is-horizontal', isHorizontal);
-      if (isCollapsible) {
-        $tab.toggleClass('is-collapse-enabled', !isHorizontal);
+    return this
+      .data('summaryCallback', callback)
+      // To prevent duplicate events, the handlers are first removed and then
+      // (re-)added.
+      .off('formUpdated.summary')
+      .on('formUpdated.summary', function () {
+        self.trigger('summaryUpdated');
+      })
+      // The actual summaryUpdated handler doesn't fire when the callback is
+      // changed, so we have to do this manually.
+      .trigger('summaryUpdated');
+  };
+
+  /**
+   * Prevents consecutive form submissions of identical form values.
+   *
+   * Repetitive form submissions that would submit the identical form values
+   * are prevented, unless the form values are different to the previously
+   * submitted values.
+   *
+   * This is a simplified re-implementation of a user-agent behavior that
+   * should be natively supported by major web browsers, but at this time, only
+   * Firefox has a built-in protection.
+   *
+   * A form value-based approach ensures that the constraint is triggered for
+   * consecutive, identical form submissions only. Compared to that, a form
+   * button-based approach would (1) rely on [visible] buttons to exist where
+   * technically not required and (2) require more complex state management if
+   * there are multiple buttons in a form.
+   *
+   * This implementation is based on form-level submit events only and relies
+   * on jQuery's serialize() method to determine submitted form values. As such,
+   * the following limitations exist:
+   *
+   * - Event handlers on form buttons that preventDefault() do not receive a
+   *   double-submit protection. That is deemed to be fine, since such button
+   *   events typically trigger reversible client-side or server-side
+   *   operations that are local to the context of a form only.
+   * - Changed values in advanced form controls, such as file inputs, are not
+   *   part of the form values being compared between consecutive form submits
+   *   (due to limitations of jQuery.serialize()). That is deemed to be
+   *   acceptable, because if the user forgot to attach a file, then the size of
+   *   HTTP payload will most likely be small enough to be fully passed to the
+   *   server endpoint within (milli)seconds. If a user mistakenly attached a
+   *   wrong file and is technically versed enough to cancel the form submission
+   *   (and HTTP payload) in order to attach a different file, then that
+   *   edge-case is not supported here.
+   *
+   * Lastly, all forms submitted via HTTP GET are idempotent by definition of
+   * HTTP standards, so excluded in this implementation.
+   *
+   * @type {Drupal~behavior}
+   */
+  Drupal.behaviors.formSingleSubmit = {
+    attach: function () {
+      function onFormSubmit(e) {
+        var $form = $(e.currentTarget);
+        var formValues = $form.serialize();
+        var previousValues = $form.attr('data-drupal-form-submit-last');
+        if (previousValues === formValues) {
+          e.preventDefault();
+        }
+        else {
+          $form.attr('data-drupal-form-submit-last', formValues);
+        }
       }
-      if (isHorizontal) {
-        $target.removeClass('is-open');
-      }
+
+      $('body').once('form-single-submit')
+        .on('submit.singleSubmit', 'form:not([method~="GET"])', onFormSubmit);
     }
+  };
 
-    $tab.addClass('position-container is-horizontal-enabled');
-
-    $tab.on('click.tabs', '[data-drupal-nav-tabs-trigger]', openMenu);
-    $(window).on('resize.tabs', Drupal.debounce(handleResize, 150)).trigger('resize.tabs');
+  /**
+   * Sends a 'formUpdated' event each time a form element is modified.
+   *
+   * @param {HTMLElement} element
+   *   The element to trigger a form updated event on.
+   *
+   * @fires event:formUpdated
+   */
+  function triggerFormUpdated(element) {
+    $(element).trigger('formUpdated');
   }
 
   /**
-   * Initialise the tabs JS.
+   * Collects the IDs of all form fields in the given form.
+   *
+   * @param {HTMLFormElement} form
+   *   The form element to search.
+   *
+   * @return {Array}
+   *   Array of IDs for form fields.
    */
-  Drupal.behaviors.navTabs = {
-    attach: function (context, settings) {
-      var $tabs = $(context).find('[data-drupal-nav-tabs]');
-      if ($tabs.length) {
-        var notSmartPhone = window.matchMedia('(min-width: 300px)');
-        if (notSmartPhone.matches) {
-          $tabs.once('nav-tabs').each(init);
+  function fieldsList(form) {
+    var $fieldList = $(form).find('[name]').map(function (index, element) {
+      // We use id to avoid name duplicates on radio fields and filter out
+      // elements with a name but no id.
+      return element.getAttribute('id');
+    });
+    // Return a true array.
+    return $.makeArray($fieldList);
+  }
+
+  /**
+   * Triggers the 'formUpdated' event on form elements when they are modified.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches formUpdated behaviors.
+   * @prop {Drupal~behaviorDetach} detach
+   *   Detaches formUpdated behaviors.
+   *
+   * @fires event:formUpdated
+   */
+  Drupal.behaviors.formUpdated = {
+    attach: function (context) {
+      var $context = $(context);
+      var contextIsForm = $context.is('form');
+      var $forms = (contextIsForm ? $context : $context.find('form')).once('form-updated');
+      var formFields;
+
+      if ($forms.length) {
+        // Initialize form behaviors, use $.makeArray to be able to use native
+        // forEach array method and have the callback parameters in the right
+        // order.
+        $.makeArray($forms).forEach(function (form) {
+          var events = 'change.formUpdated input.formUpdated ';
+          var eventHandler = debounce(function (event) { triggerFormUpdated(event.target); }, 300);
+          formFields = fieldsList(form).join(',');
+
+          form.setAttribute('data-drupal-form-fields', formFields);
+          $(form).on(events, eventHandler);
+        });
+      }
+      // On ajax requests context is the form element.
+      if (contextIsForm) {
+        formFields = fieldsList(context).join(',');
+        // @todo replace with form.getAttribute() when #1979468 is in.
+        var currentFields = $(context).attr('data-drupal-form-fields');
+        // If there has been a change in the fields or their order, trigger
+        // formUpdated.
+        if (formFields !== currentFields) {
+          triggerFormUpdated(context);
+        }
+      }
+
+    },
+    detach: function (context, settings, trigger) {
+      var $context = $(context);
+      var contextIsForm = $context.is('form');
+      if (trigger === 'unload') {
+        var $forms = (contextIsForm ? $context : $context.find('form')).removeOnce('form-updated');
+        if ($forms.length) {
+          $.makeArray($forms).forEach(function (form) {
+            form.removeAttribute('data-drupal-form-fields');
+            $(form).off('.formUpdated');
+          });
         }
       }
     }
   };
 
+  /**
+   * Prepopulate form fields with information from the visitor browser.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches the behavior for filling user info from browser.
+   */
+  Drupal.behaviors.fillUserInfoFromBrowser = {
+    attach: function (context, settings) {
+      var userInfo = ['name', 'mail', 'homepage'];
+      var $forms = $('[data-user-info-from-browser]').once('user-info-from-browser');
+      if ($forms.length) {
+        userInfo.map(function (info) {
+          var $element = $forms.find('[name=' + info + ']');
+          var browserData = localStorage.getItem('Drupal.visitor.' + info);
+          var emptyOrDefault = ($element.val() === '' || ($element.attr('data-drupal-default-value') === $element.val()));
+          if ($element.length && emptyOrDefault && browserData) {
+            $element.val(browserData);
+          }
+        });
+      }
+      $forms.on('submit', function () {
+        userInfo.map(function (info) {
+          var $element = $forms.find('[name=' + info + ']');
+          if ($element.length) {
+            localStorage.setItem('Drupal.visitor.' + info, $element.val());
+          }
+        });
+      });
+    }
+  };
+
+})(jQuery, Drupal, Drupal.debounce);
+;
+/**
+ * @file
+ * Add aria attribute handling for details and summary elements.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * Handles `aria-expanded` and `aria-pressed` attributes on details elements.
+   *
+   * @type {Drupal~behavior}
+   */
+  Drupal.behaviors.detailsAria = {
+    attach: function () {
+      $('body').once('detailsAria').on('click.detailsAria', 'summary', function (event) {
+        var $summary = $(event.currentTarget);
+        var open = $(event.currentTarget.parentNode).attr('open') === 'open' ? 'false' : 'true';
+
+        $summary.attr({
+          'aria-expanded': open,
+          'aria-pressed': open
+        });
+      });
+    }
+  };
+
 })(jQuery, Drupal);
+;
+/**
+ * @file
+ * Polyfill for HTML5 details elements.
+ */
+
+(function ($, Modernizr, Drupal) {
+
+  'use strict';
+
+  /**
+   * The collapsible details object represents a single details element.
+   *
+   * @constructor Drupal.CollapsibleDetails
+   *
+   * @param {HTMLElement} node
+   *   The details element.
+   */
+  function CollapsibleDetails(node) {
+    this.$node = $(node);
+    this.$node.data('details', this);
+    // Expand details if there are errors inside, or if it contains an
+    // element that is targeted by the URI fragment identifier.
+    var anchor = location.hash && location.hash !== '#' ? ', ' + location.hash : '';
+    if (this.$node.find('.error' + anchor).length) {
+      this.$node.attr('open', true);
+    }
+    // Initialize and setup the summary,
+    this.setupSummary();
+    // Initialize and setup the legend.
+    this.setupLegend();
+  }
+
+  $.extend(CollapsibleDetails, /** @lends Drupal.CollapsibleDetails */{
+
+    /**
+     * Holds references to instantiated CollapsibleDetails objects.
+     *
+     * @type {Array.<Drupal.CollapsibleDetails>}
+     */
+    instances: []
+  });
+
+  $.extend(CollapsibleDetails.prototype, /** @lends Drupal.CollapsibleDetails# */{
+
+    /**
+     * Initialize and setup summary events and markup.
+     *
+     * @fires event:summaryUpdated
+     *
+     * @listens event:summaryUpdated
+     */
+    setupSummary: function () {
+      this.$summary = $('<span class="summary"></span>');
+      this.$node
+        .on('summaryUpdated', $.proxy(this.onSummaryUpdated, this))
+        .trigger('summaryUpdated');
+    },
+
+    /**
+     * Initialize and setup legend markup.
+     */
+    setupLegend: function () {
+      // Turn the summary into a clickable link.
+      var $legend = this.$node.find('> summary');
+
+      $('<span class="details-summary-prefix visually-hidden"></span>')
+        .append(this.$node.attr('open') ? Drupal.t('Hide') : Drupal.t('Show'))
+        .prependTo($legend)
+        .after(document.createTextNode(' '));
+
+      // .wrapInner() does not retain bound events.
+      $('<a class="details-title"></a>')
+        .attr('href', '#' + this.$node.attr('id'))
+        .prepend($legend.contents())
+        .appendTo($legend);
+
+      $legend
+        .append(this.$summary)
+        .on('click', $.proxy(this.onLegendClick, this));
+    },
+
+    /**
+     * Handle legend clicks.
+     *
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    onLegendClick: function (e) {
+      this.toggle();
+      e.preventDefault();
+    },
+
+    /**
+     * Update summary.
+     */
+    onSummaryUpdated: function () {
+      var text = $.trim(this.$node.drupalGetSummary());
+      this.$summary.html(text ? ' (' + text + ')' : '');
+    },
+
+    /**
+     * Toggle the visibility of a details element using smooth animations.
+     */
+    toggle: function () {
+      var isOpen = !!this.$node.attr('open');
+      var $summaryPrefix = this.$node.find('> summary span.details-summary-prefix');
+      if (isOpen) {
+        $summaryPrefix.html(Drupal.t('Show'));
+      }
+      else {
+        $summaryPrefix.html(Drupal.t('Hide'));
+      }
+      // Delay setting the attribute to emulate chrome behavior and make
+      // details-aria.js work as expected with this polyfill.
+      setTimeout(function () {
+        this.$node.attr('open', !isOpen);
+      }.bind(this), 0);
+    }
+  });
+
+  /**
+   * Polyfill HTML5 details element.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behavior for the details element.
+   */
+  Drupal.behaviors.collapse = {
+    attach: function (context) {
+      if (Modernizr.details) {
+        return;
+      }
+      var $collapsibleDetails = $(context).find('details').once('collapse').addClass('collapse-processed');
+      if ($collapsibleDetails.length) {
+        for (var i = 0; i < $collapsibleDetails.length; i++) {
+          CollapsibleDetails.instances.push(new CollapsibleDetails($collapsibleDetails[i]));
+        }
+      }
+    }
+  };
+
+  // Expose constructor in the public space.
+  Drupal.CollapsibleDetails = CollapsibleDetails;
+
+})(jQuery, Modernizr, Drupal);
+;
+/**
+ * @file
+ * Javascript for the node content editing form.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * Behaviors for setting summaries on content type form.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches summary behaviors on content type edit forms.
+   */
+  Drupal.behaviors.contentTypes = {
+    attach: function (context) {
+      var $context = $(context);
+      // Provide the vertical tab summaries.
+      $context.find('#edit-submission').drupalSetSummary(function (context) {
+        var vals = [];
+        vals.push(Drupal.checkPlain($(context).find('#edit-title-label').val()) || Drupal.t('Requires a title'));
+        return vals.join(', ');
+      });
+      $context.find('#edit-workflow').drupalSetSummary(function (context) {
+        var vals = [];
+        $(context).find('input[name^="options"]:checked').parent().each(function () {
+          vals.push(Drupal.checkPlain($(this).text()));
+        });
+        if (!$(context).find('#edit-options-status').is(':checked')) {
+          vals.unshift(Drupal.t('Not published'));
+        }
+        return vals.join(', ');
+      });
+      $('#edit-language', context).drupalSetSummary(function (context) {
+        var vals = [];
+
+        vals.push($('.js-form-item-language-configuration-langcode select option:selected', context).text());
+
+        $('input:checked', context).next('label').each(function () {
+          vals.push(Drupal.checkPlain($(this).text()));
+        });
+
+        return vals.join(', ');
+      });
+      $context.find('#edit-display').drupalSetSummary(function (context) {
+        var vals = [];
+        var $editContext = $(context);
+        $editContext.find('input:checked').next('label').each(function () {
+          vals.push(Drupal.checkPlain($(this).text()));
+        });
+        if (!$editContext.find('#edit-display-submitted').is(':checked')) {
+          vals.unshift(Drupal.t("Don't display post information"));
+        }
+        return vals.join(', ');
+      });
+    }
+  };
+
+})(jQuery, Drupal);
+;
+window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.styleMedia||window.media;if(!e){var t=document.createElement("style"),i=document.getElementsByTagName("script")[0],n=null;t.type="text/css";t.id="matchmediajs-test";i.parentNode.insertBefore(t,i);n="getComputedStyle"in window&&window.getComputedStyle(t,null)||t.currentStyle;e={matchMedium:function(e){var i="@media "+e+"{ #matchmediajs-test { width: 1px; } }";if(t.styleSheet){t.styleSheet.cssText=i}else{t.textContent=i}return n.width==="1px"}}}return function(t){return{matches:e.matchMedium(t||"all"),media:t||"all"}}}());
+;
+/**
+ * @file
+ * Machine name functionality.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * Attach the machine-readable name form element behavior.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches machine-name behaviors.
+   */
+  Drupal.behaviors.machineName = {
+
+    /**
+     * Attaches the behavior.
+     *
+     * @param {Element} context
+     *   The context for attaching the behavior.
+     * @param {object} settings
+     *   Settings object.
+     * @param {object} settings.machineName
+     *   A list of elements to process, keyed by the HTML ID of the form
+     *   element containing the human-readable value. Each element is an object
+     *   defining the following properties:
+     *   - target: The HTML ID of the machine name form element.
+     *   - suffix: The HTML ID of a container to show the machine name preview
+     *     in (usually a field suffix after the human-readable name
+     *     form element).
+     *   - label: The label to show for the machine name preview.
+     *   - replace_pattern: A regular expression (without modifiers) matching
+     *     disallowed characters in the machine name; e.g., '[^a-z0-9]+'.
+     *   - replace: A character to replace disallowed characters with; e.g.,
+     *     '_' or '-'.
+     *   - standalone: Whether the preview should stay in its own element
+     *     rather than the suffix of the source element.
+     *   - field_prefix: The #field_prefix of the form element.
+     *   - field_suffix: The #field_suffix of the form element.
+     */
+    attach: function (context, settings) {
+      var self = this;
+      var $context = $(context);
+      var timeout = null;
+      var xhr = null;
+
+      function clickEditHandler(e) {
+        var data = e.data;
+        data.$wrapper.removeClass('visually-hidden');
+        data.$target.trigger('focus');
+        data.$suffix.hide();
+        data.$source.off('.machineName');
+      }
+
+      function machineNameHandler(e) {
+        var data = e.data;
+        var options = data.options;
+        var baseValue = $(e.target).val();
+
+        var rx = new RegExp(options.replace_pattern, 'g');
+        var expected = baseValue.toLowerCase().replace(rx, options.replace).substr(0, options.maxlength);
+
+        // Abort the last pending request because the label has changed and it
+        // is no longer valid.
+        if (xhr && xhr.readystate !== 4) {
+          xhr.abort();
+          xhr = null;
+        }
+
+        // Wait 300 milliseconds for Ajax request since the last event to update
+        // the machine name i.e., after the user has stopped typing.
+        if (timeout) {
+          clearTimeout(timeout);
+          timeout = null;
+        }
+        if (baseValue.toLowerCase() !== expected) {
+          timeout = setTimeout(function () {
+            xhr = self.transliterate(baseValue, options).done(function (machine) {
+              self.showMachineName(machine.substr(0, options.maxlength), data);
+            });
+          }, 300);
+        }
+        else {
+          self.showMachineName(expected, data);
+        }
+      }
+
+      Object.keys(settings.machineName).forEach(function (source_id) {
+        var machine = '';
+        var eventData;
+        var options = settings.machineName[source_id];
+
+        var $source = $context.find(source_id).addClass('machine-name-source').once('machine-name');
+        var $target = $context.find(options.target).addClass('machine-name-target');
+        var $suffix = $context.find(options.suffix);
+        var $wrapper = $target.closest('.js-form-item');
+        // All elements have to exist.
+        if (!$source.length || !$target.length || !$suffix.length || !$wrapper.length) {
+          return;
+        }
+        // Skip processing upon a form validation error on the machine name.
+        if ($target.hasClass('error')) {
+          return;
+        }
+        // Figure out the maximum length for the machine name.
+        options.maxlength = $target.attr('maxlength');
+        // Hide the form item container of the machine name form element.
+        $wrapper.addClass('visually-hidden');
+        // Determine the initial machine name value. Unless the machine name
+        // form element is disabled or not empty, the initial default value is
+        // based on the human-readable form element value.
+        if ($target.is(':disabled') || $target.val() !== '') {
+          machine = $target.val();
+        }
+        else if ($source.val() !== '') {
+          machine = self.transliterate($source.val(), options);
+        }
+        // Append the machine name preview to the source field.
+        var $preview = $('<span class="machine-name-value">' + options.field_prefix + Drupal.checkPlain(machine) + options.field_suffix + '</span>');
+        $suffix.empty();
+        if (options.label) {
+          $suffix.append('<span class="machine-name-label">' + options.label + ': </span>');
+        }
+        $suffix.append($preview);
+
+        // If the machine name cannot be edited, stop further processing.
+        if ($target.is(':disabled')) {
+          return;
+        }
+
+        eventData = {
+          $source: $source,
+          $target: $target,
+          $suffix: $suffix,
+          $wrapper: $wrapper,
+          $preview: $preview,
+          options: options
+        };
+        // If it is editable, append an edit link.
+        var $link = $('<span class="admin-link"><button type="button" class="link">' + Drupal.t('Edit') + '</button></span>').on('click', eventData, clickEditHandler);
+        $suffix.append($link);
+
+        // Preview the machine name in realtime when the human-readable name
+        // changes, but only if there is no machine name yet; i.e., only upon
+        // initial creation, not when editing.
+        if ($target.val() === '') {
+          $source.on('formUpdated.machineName', eventData, machineNameHandler)
+            // Initialize machine name preview.
+            .trigger('formUpdated.machineName');
+        }
+
+        // Add a listener for an invalid event on the machine name input
+        // to show its container and focus it.
+        $target.on('invalid', eventData, clickEditHandler);
+      });
+    },
+
+    showMachineName: function (machine, data) {
+      var settings = data.options;
+      // Set the machine name to the transliterated value.
+      if (machine !== '') {
+        if (machine !== settings.replace) {
+          data.$target.val(machine);
+          data.$preview.html(settings.field_prefix + Drupal.checkPlain(machine) + settings.field_suffix);
+        }
+        data.$suffix.show();
+      }
+      else {
+        data.$suffix.hide();
+        data.$target.val(machine);
+        data.$preview.empty();
+      }
+    },
+
+    /**
+     * Transliterate a human-readable name to a machine name.
+     *
+     * @param {string} source
+     *   A string to transliterate.
+     * @param {object} settings
+     *   The machine name settings for the corresponding field.
+     * @param {string} settings.replace_pattern
+     *   A regular expression (without modifiers) matching disallowed characters
+     *   in the machine name; e.g., '[^a-z0-9]+'.
+     * @param {string} settings.replace_token
+     *   A token to validate the regular expression.
+     * @param {string} settings.replace
+     *   A character to replace disallowed characters with; e.g., '_' or '-'.
+     * @param {number} settings.maxlength
+     *   The maximum length of the machine name.
+     *
+     * @return {jQuery}
+     *   The transliterated source string.
+     */
+    transliterate: function (source, settings) {
+      return $.get(Drupal.url('machine_name/transliterate'), {
+        text: source,
+        langcode: drupalSettings.langcode,
+        replace_pattern: settings.replace_pattern,
+        replace_token: settings.replace_token,
+        replace: settings.replace,
+        lowercase: true
+      });
+    }
+  };
+
+})(jQuery, Drupal, drupalSettings);
 ;
 /**
  * @file
@@ -4474,8 +5445,6 @@ Drupal.debounce = function (func, wait, immediate) {
 
 }(jQuery, Drupal, drupalSettings, Backbone));
 ;
-/*! jquery.cookie v1.4.1 | MIT */
-!function(a){"function"==typeof define&&define.amd?define(["jquery"],a):"object"==typeof exports?a(require("jquery")):a(jQuery)}(function(a){function b(a){return h.raw?a:encodeURIComponent(a)}function c(a){return h.raw?a:decodeURIComponent(a)}function d(a){return b(h.json?JSON.stringify(a):String(a))}function e(a){0===a.indexOf('"')&&(a=a.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,"\\"));try{return a=decodeURIComponent(a.replace(g," ")),h.json?JSON.parse(a):a}catch(b){}}function f(b,c){var d=h.raw?b:e(b);return a.isFunction(c)?c(d):d}var g=/\+/g,h=a.cookie=function(e,g,i){if(void 0!==g&&!a.isFunction(g)){if(i=a.extend({},h.defaults,i),"number"==typeof i.expires){var j=i.expires,k=i.expires=new Date;k.setTime(+k+864e5*j)}return document.cookie=[b(e),"=",d(g),i.expires?"; expires="+i.expires.toUTCString():"",i.path?"; path="+i.path:"",i.domain?"; domain="+i.domain:"",i.secure?"; secure":""].join("")}for(var l=e?void 0:{},m=document.cookie?document.cookie.split("; "):[],n=0,o=m.length;o>n;n++){var p=m[n].split("="),q=c(p.shift()),r=p.join("=");if(e&&e===q){l=f(r,g);break}e||void 0===(r=f(r))||(l[q]=r)}return l};h.defaults={},a.removeCookie=function(b,c){return void 0===a.cookie(b)?!1:(a.cookie(b,"",a.extend({},c,{expires:-1})),!a.cookie(b))}});;
 /* jQuery Foundation Joyride Plugin 2.1 | Copyright 2012, ZURB | www.opensource.org/licenses/mit-license.php */
 (function(e,t,n){"use strict";var r={version:"2.0.3",tipLocation:"bottom",nubPosition:"auto",scroll:!0,scrollSpeed:300,timer:0,autoStart:!1,startTimerOnClick:!0,startOffset:0,nextButton:!0,tipAnimation:"fade",pauseAfter:[],tipAnimationFadeSpeed:300,cookieMonster:!1,cookieName:"joyride",cookieDomain:!1,cookiePath:!1,localStorage:!1,localStorageKey:"joyride",tipContainer:"body",modal:!1,expose:!1,postExposeCallback:e.noop,preRideCallback:e.noop,postRideCallback:e.noop,preStepCallback:e.noop,postStepCallback:e.noop,template:{link:'<a href="#close" class="joyride-close-tip">X</a>',timer:'<div class="joyride-timer-indicator-wrap"><span class="joyride-timer-indicator"></span></div>',tip:'<div class="joyride-tip-guide"><span class="joyride-nub"></span></div>',wrapper:'<div class="joyride-content-wrapper" role="dialog"></div>',button:'<a href="#" class="joyride-next-tip"></a>',modal:'<div class="joyride-modal-bg"></div>',expose:'<div class="joyride-expose-wrapper"></div>',exposeCover:'<div class="joyride-expose-cover"></div>'}},i=i||!1,s={},o={init:function(n){return this.each(function(){e.isEmptyObject(s)?(s=e.extend(!0,r,n),s.document=t.document,s.$document=e(s.document),s.$window=e(t),s.$content_el=e(this),s.$body=e(s.tipContainer),s.body_offset=e(s.tipContainer).position(),s.$tip_content=e("> li",s.$content_el),s.paused=!1,s.attempts=0,s.tipLocationPatterns={top:["bottom"],bottom:[],left:["right","top","bottom"],right:["left","top","bottom"]},o.jquery_check(),e.isFunction(e.cookie)||(s.cookieMonster=!1),(!s.cookieMonster||!e.cookie(s.cookieName))&&(!s.localStorage||!o.support_localstorage()||!localStorage.getItem(s.localStorageKey))&&(s.$tip_content.each(function(t){o.create({$li:e(this),index:t})}),s.autoStart&&(!s.startTimerOnClick&&s.timer>0?(o.show("init"),o.startTimer()):o.show("init"))),s.$document.on("click.joyride",".joyride-next-tip, .joyride-modal-bg",function(e){e.preventDefault(),s.$li.next().length<1?o.end():s.timer>0?(clearTimeout(s.automate),o.hide(),o.show(),o.startTimer()):(o.hide(),o.show())}),s.$document.on("click.joyride",".joyride-close-tip",function(e){e.preventDefault(),o.end()}),s.$window.bind("resize.joyride",function(t){if(s.$li){if(s.exposed&&s.exposed.length>0){var n=e(s.exposed);n.each(function(){var t=e(this);o.un_expose(t),o.expose(t)})}o.is_phone()?o.pos_phone():o.pos_default()}})):o.restart()})},resume:function(){o.set_li(),o.show()},nextTip:function(){s.$li.next().length<1?o.end():s.timer>0?(clearTimeout(s.automate),o.hide(),o.show(),o.startTimer()):(o.hide(),o.show())},tip_template:function(t){var n,r,i;return t.tip_class=t.tip_class||"",n=e(s.template.tip).addClass(t.tip_class),r=e.trim(e(t.li).html())+o.button_text(t.button_text)+s.template.link+o.timer_instance(t.index),i=e(s.template.wrapper),t.li.attr("data-aria-labelledby")&&i.attr("aria-labelledby",t.li.attr("data-aria-labelledby")),t.li.attr("data-aria-describedby")&&i.attr("aria-describedby",t.li.attr("data-aria-describedby")),n.append(i),n.first().attr("data-index",t.index),e(".joyride-content-wrapper",n).append(r),n[0]},timer_instance:function(t){var n;return t===0&&s.startTimerOnClick&&s.timer>0||s.timer===0?n="":n=o.outerHTML(e(s.template.timer)[0]),n},button_text:function(t){return s.nextButton?(t=e.trim(t)||"Next",t=o.outerHTML(e(s.template.button).append(t)[0])):t="",t},create:function(t){var n=t.$li.attr("data-button")||t.$li.attr("data-text"),r=t.$li.attr("class"),i=e(o.tip_template({tip_class:r,index:t.index,button_text:n,li:t.$li}));e(s.tipContainer).append(i)},show:function(t){var r={},i,u=[],a=0,f,l=null;if(s.$li===n||e.inArray(s.$li.index(),s.pauseAfter)===-1){s.paused?s.paused=!1:o.set_li(t),s.attempts=0;if(s.$li.length&&s.$target.length>0){t&&(s.preRideCallback(s.$li.index(),s.$next_tip),s.modal&&o.show_modal()),s.preStepCallback(s.$li.index(),s.$next_tip),u=(s.$li.data("options")||":").split(";"),a=u.length;for(i=a-1;i>=0;i--)f=u[i].split(":"),f.length===2&&(r[e.trim(f[0])]=e.trim(f[1]));s.tipSettings=e.extend({},s,r),s.tipSettings.tipLocationPattern=s.tipLocationPatterns[s.tipSettings.tipLocation],s.modal&&s.expose&&o.expose(),!/body/i.test(s.$target.selector)&&s.scroll&&o.scroll_to(),o.is_phone()?o.pos_phone(!0):o.pos_default(!0),l=e(".joyride-timer-indicator",s.$next_tip),/pop/i.test(s.tipAnimation)?(l.outerWidth(0),s.timer>0?(s.$next_tip.show(),l.animate({width:e(".joyride-timer-indicator-wrap",s.$next_tip).outerWidth()},s.timer)):s.$next_tip.show()):/fade/i.test(s.tipAnimation)&&(l.outerWidth(0),s.timer>0?(s.$next_tip.fadeIn(s.tipAnimationFadeSpeed),s.$next_tip.show(),l.animate({width:e(".joyride-timer-indicator-wrap",s.$next_tip).outerWidth()},s.timer)):s.$next_tip.fadeIn(s.tipAnimationFadeSpeed)),s.$current_tip=s.$next_tip,e(".joyride-next-tip",s.$current_tip).focus(),o.tabbable(s.$current_tip)}else s.$li&&s.$target.length<1?o.show():o.end()}else s.paused=!0},is_phone:function(){return i?i.mq("only screen and (max-width: 767px)"):s.$window.width()<767?!0:!1},support_localstorage:function(){return i?i.localstorage:!!t.localStorage},hide:function(){s.modal&&s.expose&&o.un_expose(),s.modal||e(".joyride-modal-bg").hide(),s.$current_tip.hide(),s.postStepCallback(s.$li.index(),s.$current_tip)},set_li:function(e){e?(s.$li=s.$tip_content.eq(s.startOffset),o.set_next_tip(),s.$current_tip=s.$next_tip):(s.$li=s.$li.next(),o.set_next_tip()),o.set_target()},set_next_tip:function(){s.$next_tip=e(".joyride-tip-guide[data-index="+s.$li.index()+"]")},set_target:function(){var t=s.$li.attr("data-class"),n=s.$li.attr("data-id"),r=function(){return n?e(s.document.getElementById(n)):t?e("."+t).filter(":visible").first():e("body")};s.$target=r()},scroll_to:function(){var t,n;t=s.$window.height()/2,n=Math.ceil(s.$target.offset().top-t+s.$next_tip.outerHeight()),e("html, body").stop().animate({scrollTop:n},s.scrollSpeed)},paused:function(){return e.inArray(s.$li.index()+1,s.pauseAfter)===-1?!0:!1},destroy:function(){e.isEmptyObject(s)||s.$document.off(".joyride"),e(t).off(".joyride"),e(".joyride-close-tip, .joyride-next-tip, .joyride-modal-bg").off(".joyride"),e(".joyride-tip-guide, .joyride-modal-bg").remove(),clearTimeout(s.automate),s={}},restart:function(){s.autoStart?(o.hide(),s.$li=n,o.show("init")):(!s.startTimerOnClick&&s.timer>0?(o.show("init"),o.startTimer()):o.show("init"),s.autoStart=!0)},pos_default:function(t){var n=Math.ceil(s.$window.height()/2),r=s.$next_tip.offset(),i=e(".joyride-nub",s.$next_tip),u=Math.ceil(i.outerWidth()/2),a=Math.ceil(i.outerHeight()/2),f=t||!1;f&&(s.$next_tip.css("visibility","hidden"),s.$next_tip.show());if(!/body/i.test(s.$target.selector)){var l=s.tipSettings.tipAdjustmentY?parseInt(s.tipSettings.tipAdjustmentY):0,c=s.tipSettings.tipAdjustmentX?parseInt(s.tipSettings.tipAdjustmentX):0;o.bottom()?(s.$next_tip.css({top:s.$target.offset().top+a+s.$target.outerHeight()+l,left:s.$target.offset().left+c}),/right/i.test(s.tipSettings.nubPosition)&&s.$next_tip.css("left",s.$target.offset().left-s.$next_tip.outerWidth()+s.$target.outerWidth()),o.nub_position(i,s.tipSettings.nubPosition,"top")):o.top()?(s.$next_tip.css({top:s.$target.offset().top-s.$next_tip.outerHeight()-a+l,left:s.$target.offset().left+c}),o.nub_position(i,s.tipSettings.nubPosition,"bottom")):o.right()?(s.$next_tip.css({top:s.$target.offset().top+l,left:s.$target.outerWidth()+s.$target.offset().left+u+c}),o.nub_position(i,s.tipSettings.nubPosition,"left")):o.left()&&(s.$next_tip.css({top:s.$target.offset().top+l,left:s.$target.offset().left-s.$next_tip.outerWidth()-u+c}),o.nub_position(i,s.tipSettings.nubPosition,"right")),!o.visible(o.corners(s.$next_tip))&&s.attempts<s.tipSettings.tipLocationPattern.length&&(i.removeClass("bottom").removeClass("top").removeClass("right").removeClass("left"),s.tipSettings.tipLocation=s.tipSettings.tipLocationPattern[s.attempts],s.attempts++,o.pos_default(!0))}else s.$li.length&&o.pos_modal(i);f&&(s.$next_tip.hide(),s.$next_tip.css("visibility","visible"))},pos_phone:function(t){var n=s.$next_tip.outerHeight(),r=s.$next_tip.offset(),i=s.$target.outerHeight(),u=e(".joyride-nub",s.$next_tip),a=Math.ceil(u.outerHeight()/2),f=t||!1;u.removeClass("bottom").removeClass("top").removeClass("right").removeClass("left"),f&&(s.$next_tip.css("visibility","hidden"),s.$next_tip.show()),/body/i.test(s.$target.selector)?s.$li.length&&o.pos_modal(u):o.top()?(s.$next_tip.offset({top:s.$target.offset().top-n-a}),u.addClass("bottom")):(s.$next_tip.offset({top:s.$target.offset().top+i+a}),u.addClass("top")),f&&(s.$next_tip.hide(),s.$next_tip.css("visibility","visible"))},pos_modal:function(e){o.center(),e.hide(),o.show_modal()},show_modal:function(){e(".joyride-modal-bg").length<1&&e("body").append(s.template.modal).show(),/pop/i.test(s.tipAnimation)?e(".joyride-modal-bg").show():e(".joyride-modal-bg").fadeIn(s.tipAnimationFadeSpeed)},expose:function(){var n,r,i,u,a="expose-"+Math.floor(Math.random()*1e4);if(arguments.length>0&&arguments[0]instanceof e)i=arguments[0];else{if(!s.$target||!!/body/i.test(s.$target.selector))return!1;i=s.$target}if(i.length<1)return t.console&&console.error("element not valid",i),!1;n=e(s.template.expose),s.$body.append(n),n.css({top:i.offset().top,left:i.offset().left,width:i.outerWidth(!0),height:i.outerHeight(!0)}),r=e(s.template.exposeCover),u={zIndex:i.css("z-index"),position:i.css("position")},i.css("z-index",n.css("z-index")*1+1),u.position=="static"&&i.css("position","relative"),i.data("expose-css",u),r.css({top:i.offset().top,left:i.offset().left,width:i.outerWidth(!0),height:i.outerHeight(!0)}),s.$body.append(r),n.addClass(a),r.addClass(a),s.tipSettings.exposeClass&&(n.addClass(s.tipSettings.exposeClass),r.addClass(s.tipSettings.exposeClass)),i.data("expose",a),s.postExposeCallback(s.$li.index(),s.$next_tip,i),o.add_exposed(i)},un_expose:function(){var n,r,i,u,a=!1;if(arguments.length>0&&arguments[0]instanceof e)r=arguments[0];else{if(!s.$target||!!/body/i.test(s.$target.selector))return!1;r=s.$target}if(r.length<1)return t.console&&console.error("element not valid",r),!1;n=r.data("expose"),i=e("."+n),arguments.length>1&&(a=arguments[1]),a===!0?e(".joyride-expose-wrapper,.joyride-expose-cover").remove():i.remove(),u=r.data("expose-css"),u.zIndex=="auto"?r.css("z-index",""):r.css("z-index",u.zIndex),u.position!=r.css("position")&&(u.position=="static"?r.css("position",""):r.css("position",u.position)),r.removeData("expose"),r.removeData("expose-z-index"),o.remove_exposed(r)},add_exposed:function(t){s.exposed=s.exposed||[],t instanceof e?s.exposed.push(t[0]):typeof t=="string"&&s.exposed.push(t)},remove_exposed:function(t){var n;t instanceof e?n=t[0]:typeof t=="string"&&(n=t),s.exposed=s.exposed||[];for(var r=0;r<s.exposed.length;r++)if(s.exposed[r]==n){s.exposed.splice(r,1);return}},center:function(){var e=s.$window;return s.$next_tip.css({top:(e.height()-s.$next_tip.outerHeight())/2+e.scrollTop(),left:(e.width()-s.$next_tip.outerWidth())/2+e.scrollLeft()}),!0},bottom:function(){return/bottom/i.test(s.tipSettings.tipLocation)},top:function(){return/top/i.test(s.tipSettings.tipLocation)},right:function(){return/right/i.test(s.tipSettings.tipLocation)},left:function(){return/left/i.test(s.tipSettings.tipLocation)},corners:function(e){var t=s.$window,n=t.height()/2,r=Math.ceil(s.$target.offset().top-n+s.$next_tip.outerHeight()),i=t.width()+t.scrollLeft(),o=t.height()+r,u=t.height()+t.scrollTop(),a=t.scrollTop();return r<a&&(r<0?a=0:a=r),o>u&&(u=o),[e.offset().top<a,i<e.offset().left+e.outerWidth(),u<e.offset().top+e.outerHeight(),t.scrollLeft()>e.offset().left]},visible:function(e){var t=e.length;while(t--)if(e[t])return!1;return!0},nub_position:function(e,t,n){t==="auto"?e.addClass(n):e.addClass(t)},startTimer:function(){s.$li.length?s.automate=setTimeout(function(){o.hide(),o.show(),o.startTimer()},s.timer):clearTimeout(s.automate)},end:function(){s.cookieMonster&&e.cookie(s.cookieName,"ridden",{expires:365,domain:s.cookieDomain,path:s.cookiePath}),s.localStorage&&localStorage.setItem(s.localStorageKey,!0),s.timer>0&&clearTimeout(s.automate),s.modal&&s.expose&&o.un_expose(),s.$current_tip&&s.$current_tip.hide(),s.$li&&(s.postStepCallback(s.$li.index(),s.$current_tip),s.postRideCallback(s.$li.index(),s.$current_tip)),e(".joyride-modal-bg").hide()},jquery_check:function(){return e.isFunction(e.fn.on)?!0:(e.fn.on=function(e,t,n){return this.delegate(t,e,n)},e.fn.off=function(e,t,n){return this.undelegate(t,e,n)},!1)},outerHTML:function(e){return e.outerHTML||(new XMLSerializer).serializeToString(e)},version:function(){return s.version},tabbable:function(t){e(t).on("keydown",function(n){if(!n.isDefaultPrevented()&&n.keyCode&&n.keyCode===27){n.preventDefault(),o.end();return}if(n.keyCode!==9)return;var r=e(t).find(":tabbable"),i=r.filter(":first"),s=r.filter(":last");n.target===s[0]&&!n.shiftKey?(i.focus(1),n.preventDefault()):n.target===i[0]&&n.shiftKey&&(s.focus(1),n.preventDefault())})}};e.fn.joyride=function(t){if(o[t])return o[t].apply(this,Array.prototype.slice.call(arguments,1));if(typeof t=="object"||!t)return o.init.apply(this,arguments);e.error("Method "+t+" does not exist on jQuery.joyride")}})(jQuery,this);
 ;
