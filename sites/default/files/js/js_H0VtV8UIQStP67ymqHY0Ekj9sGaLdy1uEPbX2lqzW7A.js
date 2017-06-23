@@ -9,8 +9,6 @@ void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!=
 //     Underscore may be freely distributed under the MIT license.
 (function(){function n(n){function t(t,r,e,u,i,o){for(;i>=0&&o>i;i+=n){var a=u?u[i]:i;e=r(e,t[a],a,t)}return e}return function(r,e,u,i){e=b(e,i,4);var o=!k(r)&&m.keys(r),a=(o||r).length,c=n>0?0:a-1;return arguments.length<3&&(u=r[o?o[c]:c],c+=n),t(r,e,u,o,c,a)}}function t(n){return function(t,r,e){r=x(r,e);for(var u=O(t),i=n>0?0:u-1;i>=0&&u>i;i+=n)if(r(t[i],i,t))return i;return-1}}function r(n,t,r){return function(e,u,i){var o=0,a=O(e);if("number"==typeof i)n>0?o=i>=0?i:Math.max(i+a,o):a=i>=0?Math.min(i+1,a):i+a+1;else if(r&&i&&a)return i=r(e,u),e[i]===u?i:-1;if(u!==u)return i=t(l.call(e,o,a),m.isNaN),i>=0?i+o:-1;for(i=n>0?o:a-1;i>=0&&a>i;i+=n)if(e[i]===u)return i;return-1}}function e(n,t){var r=I.length,e=n.constructor,u=m.isFunction(e)&&e.prototype||a,i="constructor";for(m.has(n,i)&&!m.contains(t,i)&&t.push(i);r--;)i=I[r],i in n&&n[i]!==u[i]&&!m.contains(t,i)&&t.push(i)}var u=this,i=u._,o=Array.prototype,a=Object.prototype,c=Function.prototype,f=o.push,l=o.slice,s=a.toString,p=a.hasOwnProperty,h=Array.isArray,v=Object.keys,g=c.bind,y=Object.create,d=function(){},m=function(n){return n instanceof m?n:this instanceof m?void(this._wrapped=n):new m(n)};"undefined"!=typeof exports?("undefined"!=typeof module&&module.exports&&(exports=module.exports=m),exports._=m):u._=m,m.VERSION="1.8.3";var b=function(n,t,r){if(t===void 0)return n;switch(null==r?3:r){case 1:return function(r){return n.call(t,r)};case 2:return function(r,e){return n.call(t,r,e)};case 3:return function(r,e,u){return n.call(t,r,e,u)};case 4:return function(r,e,u,i){return n.call(t,r,e,u,i)}}return function(){return n.apply(t,arguments)}},x=function(n,t,r){return null==n?m.identity:m.isFunction(n)?b(n,t,r):m.isObject(n)?m.matcher(n):m.property(n)};m.iteratee=function(n,t){return x(n,t,1/0)};var _=function(n,t){return function(r){var e=arguments.length;if(2>e||null==r)return r;for(var u=1;e>u;u++)for(var i=arguments[u],o=n(i),a=o.length,c=0;a>c;c++){var f=o[c];t&&r[f]!==void 0||(r[f]=i[f])}return r}},j=function(n){if(!m.isObject(n))return{};if(y)return y(n);d.prototype=n;var t=new d;return d.prototype=null,t},w=function(n){return function(t){return null==t?void 0:t[n]}},A=Math.pow(2,53)-1,O=w("length"),k=function(n){var t=O(n);return"number"==typeof t&&t>=0&&A>=t};m.each=m.forEach=function(n,t,r){t=b(t,r);var e,u;if(k(n))for(e=0,u=n.length;u>e;e++)t(n[e],e,n);else{var i=m.keys(n);for(e=0,u=i.length;u>e;e++)t(n[i[e]],i[e],n)}return n},m.map=m.collect=function(n,t,r){t=x(t,r);for(var e=!k(n)&&m.keys(n),u=(e||n).length,i=Array(u),o=0;u>o;o++){var a=e?e[o]:o;i[o]=t(n[a],a,n)}return i},m.reduce=m.foldl=m.inject=n(1),m.reduceRight=m.foldr=n(-1),m.find=m.detect=function(n,t,r){var e;return e=k(n)?m.findIndex(n,t,r):m.findKey(n,t,r),e!==void 0&&e!==-1?n[e]:void 0},m.filter=m.select=function(n,t,r){var e=[];return t=x(t,r),m.each(n,function(n,r,u){t(n,r,u)&&e.push(n)}),e},m.reject=function(n,t,r){return m.filter(n,m.negate(x(t)),r)},m.every=m.all=function(n,t,r){t=x(t,r);for(var e=!k(n)&&m.keys(n),u=(e||n).length,i=0;u>i;i++){var o=e?e[i]:i;if(!t(n[o],o,n))return!1}return!0},m.some=m.any=function(n,t,r){t=x(t,r);for(var e=!k(n)&&m.keys(n),u=(e||n).length,i=0;u>i;i++){var o=e?e[i]:i;if(t(n[o],o,n))return!0}return!1},m.contains=m.includes=m.include=function(n,t,r,e){return k(n)||(n=m.values(n)),("number"!=typeof r||e)&&(r=0),m.indexOf(n,t,r)>=0},m.invoke=function(n,t){var r=l.call(arguments,2),e=m.isFunction(t);return m.map(n,function(n){var u=e?t:n[t];return null==u?u:u.apply(n,r)})},m.pluck=function(n,t){return m.map(n,m.property(t))},m.where=function(n,t){return m.filter(n,m.matcher(t))},m.findWhere=function(n,t){return m.find(n,m.matcher(t))},m.max=function(n,t,r){var e,u,i=-1/0,o=-1/0;if(null==t&&null!=n){n=k(n)?n:m.values(n);for(var a=0,c=n.length;c>a;a++)e=n[a],e>i&&(i=e)}else t=x(t,r),m.each(n,function(n,r,e){u=t(n,r,e),(u>o||u===-1/0&&i===-1/0)&&(i=n,o=u)});return i},m.min=function(n,t,r){var e,u,i=1/0,o=1/0;if(null==t&&null!=n){n=k(n)?n:m.values(n);for(var a=0,c=n.length;c>a;a++)e=n[a],i>e&&(i=e)}else t=x(t,r),m.each(n,function(n,r,e){u=t(n,r,e),(o>u||1/0===u&&1/0===i)&&(i=n,o=u)});return i},m.shuffle=function(n){for(var t,r=k(n)?n:m.values(n),e=r.length,u=Array(e),i=0;e>i;i++)t=m.random(0,i),t!==i&&(u[i]=u[t]),u[t]=r[i];return u},m.sample=function(n,t,r){return null==t||r?(k(n)||(n=m.values(n)),n[m.random(n.length-1)]):m.shuffle(n).slice(0,Math.max(0,t))},m.sortBy=function(n,t,r){return t=x(t,r),m.pluck(m.map(n,function(n,r,e){return{value:n,index:r,criteria:t(n,r,e)}}).sort(function(n,t){var r=n.criteria,e=t.criteria;if(r!==e){if(r>e||r===void 0)return 1;if(e>r||e===void 0)return-1}return n.index-t.index}),"value")};var F=function(n){return function(t,r,e){var u={};return r=x(r,e),m.each(t,function(e,i){var o=r(e,i,t);n(u,e,o)}),u}};m.groupBy=F(function(n,t,r){m.has(n,r)?n[r].push(t):n[r]=[t]}),m.indexBy=F(function(n,t,r){n[r]=t}),m.countBy=F(function(n,t,r){m.has(n,r)?n[r]++:n[r]=1}),m.toArray=function(n){return n?m.isArray(n)?l.call(n):k(n)?m.map(n,m.identity):m.values(n):[]},m.size=function(n){return null==n?0:k(n)?n.length:m.keys(n).length},m.partition=function(n,t,r){t=x(t,r);var e=[],u=[];return m.each(n,function(n,r,i){(t(n,r,i)?e:u).push(n)}),[e,u]},m.first=m.head=m.take=function(n,t,r){return null==n?void 0:null==t||r?n[0]:m.initial(n,n.length-t)},m.initial=function(n,t,r){return l.call(n,0,Math.max(0,n.length-(null==t||r?1:t)))},m.last=function(n,t,r){return null==n?void 0:null==t||r?n[n.length-1]:m.rest(n,Math.max(0,n.length-t))},m.rest=m.tail=m.drop=function(n,t,r){return l.call(n,null==t||r?1:t)},m.compact=function(n){return m.filter(n,m.identity)};var S=function(n,t,r,e){for(var u=[],i=0,o=e||0,a=O(n);a>o;o++){var c=n[o];if(k(c)&&(m.isArray(c)||m.isArguments(c))){t||(c=S(c,t,r));var f=0,l=c.length;for(u.length+=l;l>f;)u[i++]=c[f++]}else r||(u[i++]=c)}return u};m.flatten=function(n,t){return S(n,t,!1)},m.without=function(n){return m.difference(n,l.call(arguments,1))},m.uniq=m.unique=function(n,t,r,e){m.isBoolean(t)||(e=r,r=t,t=!1),null!=r&&(r=x(r,e));for(var u=[],i=[],o=0,a=O(n);a>o;o++){var c=n[o],f=r?r(c,o,n):c;t?(o&&i===f||u.push(c),i=f):r?m.contains(i,f)||(i.push(f),u.push(c)):m.contains(u,c)||u.push(c)}return u},m.union=function(){return m.uniq(S(arguments,!0,!0))},m.intersection=function(n){for(var t=[],r=arguments.length,e=0,u=O(n);u>e;e++){var i=n[e];if(!m.contains(t,i)){for(var o=1;r>o&&m.contains(arguments[o],i);o++);o===r&&t.push(i)}}return t},m.difference=function(n){var t=S(arguments,!0,!0,1);return m.filter(n,function(n){return!m.contains(t,n)})},m.zip=function(){return m.unzip(arguments)},m.unzip=function(n){for(var t=n&&m.max(n,O).length||0,r=Array(t),e=0;t>e;e++)r[e]=m.pluck(n,e);return r},m.object=function(n,t){for(var r={},e=0,u=O(n);u>e;e++)t?r[n[e]]=t[e]:r[n[e][0]]=n[e][1];return r},m.findIndex=t(1),m.findLastIndex=t(-1),m.sortedIndex=function(n,t,r,e){r=x(r,e,1);for(var u=r(t),i=0,o=O(n);o>i;){var a=Math.floor((i+o)/2);r(n[a])<u?i=a+1:o=a}return i},m.indexOf=r(1,m.findIndex,m.sortedIndex),m.lastIndexOf=r(-1,m.findLastIndex),m.range=function(n,t,r){null==t&&(t=n||0,n=0),r=r||1;for(var e=Math.max(Math.ceil((t-n)/r),0),u=Array(e),i=0;e>i;i++,n+=r)u[i]=n;return u};var E=function(n,t,r,e,u){if(!(e instanceof t))return n.apply(r,u);var i=j(n.prototype),o=n.apply(i,u);return m.isObject(o)?o:i};m.bind=function(n,t){if(g&&n.bind===g)return g.apply(n,l.call(arguments,1));if(!m.isFunction(n))throw new TypeError("Bind must be called on a function");var r=l.call(arguments,2),e=function(){return E(n,e,t,this,r.concat(l.call(arguments)))};return e},m.partial=function(n){var t=l.call(arguments,1),r=function(){for(var e=0,u=t.length,i=Array(u),o=0;u>o;o++)i[o]=t[o]===m?arguments[e++]:t[o];for(;e<arguments.length;)i.push(arguments[e++]);return E(n,r,this,this,i)};return r},m.bindAll=function(n){var t,r,e=arguments.length;if(1>=e)throw new Error("bindAll must be passed function names");for(t=1;e>t;t++)r=arguments[t],n[r]=m.bind(n[r],n);return n},m.memoize=function(n,t){var r=function(e){var u=r.cache,i=""+(t?t.apply(this,arguments):e);return m.has(u,i)||(u[i]=n.apply(this,arguments)),u[i]};return r.cache={},r},m.delay=function(n,t){var r=l.call(arguments,2);return setTimeout(function(){return n.apply(null,r)},t)},m.defer=m.partial(m.delay,m,1),m.throttle=function(n,t,r){var e,u,i,o=null,a=0;r||(r={});var c=function(){a=r.leading===!1?0:m.now(),o=null,i=n.apply(e,u),o||(e=u=null)};return function(){var f=m.now();a||r.leading!==!1||(a=f);var l=t-(f-a);return e=this,u=arguments,0>=l||l>t?(o&&(clearTimeout(o),o=null),a=f,i=n.apply(e,u),o||(e=u=null)):o||r.trailing===!1||(o=setTimeout(c,l)),i}},m.debounce=function(n,t,r){var e,u,i,o,a,c=function(){var f=m.now()-o;t>f&&f>=0?e=setTimeout(c,t-f):(e=null,r||(a=n.apply(i,u),e||(i=u=null)))};return function(){i=this,u=arguments,o=m.now();var f=r&&!e;return e||(e=setTimeout(c,t)),f&&(a=n.apply(i,u),i=u=null),a}},m.wrap=function(n,t){return m.partial(t,n)},m.negate=function(n){return function(){return!n.apply(this,arguments)}},m.compose=function(){var n=arguments,t=n.length-1;return function(){for(var r=t,e=n[t].apply(this,arguments);r--;)e=n[r].call(this,e);return e}},m.after=function(n,t){return function(){return--n<1?t.apply(this,arguments):void 0}},m.before=function(n,t){var r;return function(){return--n>0&&(r=t.apply(this,arguments)),1>=n&&(t=null),r}},m.once=m.partial(m.before,2);var M=!{toString:null}.propertyIsEnumerable("toString"),I=["valueOf","isPrototypeOf","toString","propertyIsEnumerable","hasOwnProperty","toLocaleString"];m.keys=function(n){if(!m.isObject(n))return[];if(v)return v(n);var t=[];for(var r in n)m.has(n,r)&&t.push(r);return M&&e(n,t),t},m.allKeys=function(n){if(!m.isObject(n))return[];var t=[];for(var r in n)t.push(r);return M&&e(n,t),t},m.values=function(n){for(var t=m.keys(n),r=t.length,e=Array(r),u=0;r>u;u++)e[u]=n[t[u]];return e},m.mapObject=function(n,t,r){t=x(t,r);for(var e,u=m.keys(n),i=u.length,o={},a=0;i>a;a++)e=u[a],o[e]=t(n[e],e,n);return o},m.pairs=function(n){for(var t=m.keys(n),r=t.length,e=Array(r),u=0;r>u;u++)e[u]=[t[u],n[t[u]]];return e},m.invert=function(n){for(var t={},r=m.keys(n),e=0,u=r.length;u>e;e++)t[n[r[e]]]=r[e];return t},m.functions=m.methods=function(n){var t=[];for(var r in n)m.isFunction(n[r])&&t.push(r);return t.sort()},m.extend=_(m.allKeys),m.extendOwn=m.assign=_(m.keys),m.findKey=function(n,t,r){t=x(t,r);for(var e,u=m.keys(n),i=0,o=u.length;o>i;i++)if(e=u[i],t(n[e],e,n))return e},m.pick=function(n,t,r){var e,u,i={},o=n;if(null==o)return i;m.isFunction(t)?(u=m.allKeys(o),e=b(t,r)):(u=S(arguments,!1,!1,1),e=function(n,t,r){return t in r},o=Object(o));for(var a=0,c=u.length;c>a;a++){var f=u[a],l=o[f];e(l,f,o)&&(i[f]=l)}return i},m.omit=function(n,t,r){if(m.isFunction(t))t=m.negate(t);else{var e=m.map(S(arguments,!1,!1,1),String);t=function(n,t){return!m.contains(e,t)}}return m.pick(n,t,r)},m.defaults=_(m.allKeys,!0),m.create=function(n,t){var r=j(n);return t&&m.extendOwn(r,t),r},m.clone=function(n){return m.isObject(n)?m.isArray(n)?n.slice():m.extend({},n):n},m.tap=function(n,t){return t(n),n},m.isMatch=function(n,t){var r=m.keys(t),e=r.length;if(null==n)return!e;for(var u=Object(n),i=0;e>i;i++){var o=r[i];if(t[o]!==u[o]||!(o in u))return!1}return!0};var N=function(n,t,r,e){if(n===t)return 0!==n||1/n===1/t;if(null==n||null==t)return n===t;n instanceof m&&(n=n._wrapped),t instanceof m&&(t=t._wrapped);var u=s.call(n);if(u!==s.call(t))return!1;switch(u){case"[object RegExp]":case"[object String]":return""+n==""+t;case"[object Number]":return+n!==+n?+t!==+t:0===+n?1/+n===1/t:+n===+t;case"[object Date]":case"[object Boolean]":return+n===+t}var i="[object Array]"===u;if(!i){if("object"!=typeof n||"object"!=typeof t)return!1;var o=n.constructor,a=t.constructor;if(o!==a&&!(m.isFunction(o)&&o instanceof o&&m.isFunction(a)&&a instanceof a)&&"constructor"in n&&"constructor"in t)return!1}r=r||[],e=e||[];for(var c=r.length;c--;)if(r[c]===n)return e[c]===t;if(r.push(n),e.push(t),i){if(c=n.length,c!==t.length)return!1;for(;c--;)if(!N(n[c],t[c],r,e))return!1}else{var f,l=m.keys(n);if(c=l.length,m.keys(t).length!==c)return!1;for(;c--;)if(f=l[c],!m.has(t,f)||!N(n[f],t[f],r,e))return!1}return r.pop(),e.pop(),!0};m.isEqual=function(n,t){return N(n,t)},m.isEmpty=function(n){return null==n?!0:k(n)&&(m.isArray(n)||m.isString(n)||m.isArguments(n))?0===n.length:0===m.keys(n).length},m.isElement=function(n){return!(!n||1!==n.nodeType)},m.isArray=h||function(n){return"[object Array]"===s.call(n)},m.isObject=function(n){var t=typeof n;return"function"===t||"object"===t&&!!n},m.each(["Arguments","Function","String","Number","Date","RegExp","Error"],function(n){m["is"+n]=function(t){return s.call(t)==="[object "+n+"]"}}),m.isArguments(arguments)||(m.isArguments=function(n){return m.has(n,"callee")}),"function"!=typeof/./&&"object"!=typeof Int8Array&&(m.isFunction=function(n){return"function"==typeof n||!1}),m.isFinite=function(n){return isFinite(n)&&!isNaN(parseFloat(n))},m.isNaN=function(n){return m.isNumber(n)&&n!==+n},m.isBoolean=function(n){return n===!0||n===!1||"[object Boolean]"===s.call(n)},m.isNull=function(n){return null===n},m.isUndefined=function(n){return n===void 0},m.has=function(n,t){return null!=n&&p.call(n,t)},m.noConflict=function(){return u._=i,this},m.identity=function(n){return n},m.constant=function(n){return function(){return n}},m.noop=function(){},m.property=w,m.propertyOf=function(n){return null==n?function(){}:function(t){return n[t]}},m.matcher=m.matches=function(n){return n=m.extendOwn({},n),function(t){return m.isMatch(t,n)}},m.times=function(n,t,r){var e=Array(Math.max(0,n));t=b(t,r,1);for(var u=0;n>u;u++)e[u]=t(u);return e},m.random=function(n,t){return null==t&&(t=n,n=0),n+Math.floor(Math.random()*(t-n+1))},m.now=Date.now||function(){return(new Date).getTime()};var B={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","`":"&#x60;"},T=m.invert(B),R=function(n){var t=function(t){return n[t]},r="(?:"+m.keys(n).join("|")+")",e=RegExp(r),u=RegExp(r,"g");return function(n){return n=null==n?"":""+n,e.test(n)?n.replace(u,t):n}};m.escape=R(B),m.unescape=R(T),m.result=function(n,t,r){var e=null==n?void 0:n[t];return e===void 0&&(e=r),m.isFunction(e)?e.call(n):e};var q=0;m.uniqueId=function(n){var t=++q+"";return n?n+t:t},m.templateSettings={evaluate:/<%([\s\S]+?)%>/g,interpolate:/<%=([\s\S]+?)%>/g,escape:/<%-([\s\S]+?)%>/g};var K=/(.)^/,z={"'":"'","\\":"\\","\r":"r","\n":"n","\u2028":"u2028","\u2029":"u2029"},D=/\\|'|\r|\n|\u2028|\u2029/g,L=function(n){return"\\"+z[n]};m.template=function(n,t,r){!t&&r&&(t=r),t=m.defaults({},t,m.templateSettings);var e=RegExp([(t.escape||K).source,(t.interpolate||K).source,(t.evaluate||K).source].join("|")+"|$","g"),u=0,i="__p+='";n.replace(e,function(t,r,e,o,a){return i+=n.slice(u,a).replace(D,L),u=a+t.length,r?i+="'+\n((__t=("+r+"))==null?'':_.escape(__t))+\n'":e?i+="'+\n((__t=("+e+"))==null?'':__t)+\n'":o&&(i+="';\n"+o+"\n__p+='"),t}),i+="';\n",t.variable||(i="with(obj||{}){\n"+i+"}\n"),i="var __t,__p='',__j=Array.prototype.join,"+"print=function(){__p+=__j.call(arguments,'');};\n"+i+"return __p;\n";try{var o=new Function(t.variable||"obj","_",i)}catch(a){throw a.source=i,a}var c=function(n){return o.call(this,n,m)},f=t.variable||"obj";return c.source="function("+f+"){\n"+i+"}",c},m.chain=function(n){var t=m(n);return t._chain=!0,t};var P=function(n,t){return n._chain?m(t).chain():t};m.mixin=function(n){m.each(m.functions(n),function(t){var r=m[t]=n[t];m.prototype[t]=function(){var n=[this._wrapped];return f.apply(n,arguments),P(this,r.apply(m,n))}})},m.mixin(m),m.each(["pop","push","reverse","shift","sort","splice","unshift"],function(n){var t=o[n];m.prototype[n]=function(){var r=this._wrapped;return t.apply(r,arguments),"shift"!==n&&"splice"!==n||0!==r.length||delete r[0],P(this,r)}}),m.each(["concat","join","slice"],function(n){var t=o[n];m.prototype[n]=function(){return P(this,t.apply(this._wrapped,arguments))}}),m.prototype.value=function(){return this._wrapped},m.prototype.valueOf=m.prototype.toJSON=m.prototype.value,m.prototype.toString=function(){return""+this._wrapped},"function"==typeof define&&define.amd&&define("underscore",[],function(){return m})}).call(this);
 
-(function(t){var e=typeof self=="object"&&self.self==self&&self||typeof global=="object"&&global.global==global&&global;if(typeof define==="function"&&define.amd){define(["underscore","jquery","exports"],function(i,r,n){e.Backbone=t(e,n,i,r)})}else if(typeof exports!=="undefined"){var i=require("underscore"),r;try{r=require("jquery")}catch(n){}t(e,exports,i,r)}else{e.Backbone=t(e,{},e._,e.jQuery||e.Zepto||e.ender||e.$)}})(function(t,e,i,r){var n=t.Backbone;var s=Array.prototype.slice;e.VERSION="1.2.3";e.$=r;e.noConflict=function(){t.Backbone=n;return this};e.emulateHTTP=false;e.emulateJSON=false;var a=function(t,e,r){switch(t){case 1:return function(){return i[e](this[r])};case 2:return function(t){return i[e](this[r],t)};case 3:return function(t,n){return i[e](this[r],h(t,this),n)};case 4:return function(t,n,s){return i[e](this[r],h(t,this),n,s)};default:return function(){var t=s.call(arguments);t.unshift(this[r]);return i[e].apply(i,t)}}};var o=function(t,e,r){i.each(e,function(e,n){if(i[n])t.prototype[n]=a(e,n,r)})};var h=function(t,e){if(i.isFunction(t))return t;if(i.isObject(t)&&!e._isModel(t))return u(t);if(i.isString(t))return function(e){return e.get(t)};return t};var u=function(t){var e=i.matches(t);return function(t){return e(t.attributes)}};var l=e.Events={};var c=/\s+/;var f=function(t,e,r,n,s){var a=0,o;if(r&&typeof r==="object"){if(n!==void 0&&"context"in s&&s.context===void 0)s.context=n;for(o=i.keys(r);a<o.length;a++){e=f(t,e,o[a],r[o[a]],s)}}else if(r&&c.test(r)){for(o=r.split(c);a<o.length;a++){e=t(e,o[a],n,s)}}else{e=t(e,r,n,s)}return e};l.on=function(t,e,i){return d(this,t,e,i)};var d=function(t,e,i,r,n){t._events=f(v,t._events||{},e,i,{context:r,ctx:t,listening:n});if(n){var s=t._listeners||(t._listeners={});s[n.id]=n}return t};l.listenTo=function(t,e,r){if(!t)return this;var n=t._listenId||(t._listenId=i.uniqueId("l"));var s=this._listeningTo||(this._listeningTo={});var a=s[n];if(!a){var o=this._listenId||(this._listenId=i.uniqueId("l"));a=s[n]={obj:t,objId:n,id:o,listeningTo:s,count:0}}d(t,e,r,this,a);return this};var v=function(t,e,i,r){if(i){var n=t[e]||(t[e]=[]);var s=r.context,a=r.ctx,o=r.listening;if(o)o.count++;n.push({callback:i,context:s,ctx:s||a,listening:o})}return t};l.off=function(t,e,i){if(!this._events)return this;this._events=f(g,this._events,t,e,{context:i,listeners:this._listeners});return this};l.stopListening=function(t,e,r){var n=this._listeningTo;if(!n)return this;var s=t?[t._listenId]:i.keys(n);for(var a=0;a<s.length;a++){var o=n[s[a]];if(!o)break;o.obj.off(e,r,this)}if(i.isEmpty(n))this._listeningTo=void 0;return this};var g=function(t,e,r,n){if(!t)return;var s=0,a;var o=n.context,h=n.listeners;if(!e&&!r&&!o){var u=i.keys(h);for(;s<u.length;s++){a=h[u[s]];delete h[a.id];delete a.listeningTo[a.objId]}return}var l=e?[e]:i.keys(t);for(;s<l.length;s++){e=l[s];var c=t[e];if(!c)break;var f=[];for(var d=0;d<c.length;d++){var v=c[d];if(r&&r!==v.callback&&r!==v.callback._callback||o&&o!==v.context){f.push(v)}else{a=v.listening;if(a&&--a.count===0){delete h[a.id];delete a.listeningTo[a.objId]}}}if(f.length){t[e]=f}else{delete t[e]}}if(i.size(t))return t};l.once=function(t,e,r){var n=f(p,{},t,e,i.bind(this.off,this));return this.on(n,void 0,r)};l.listenToOnce=function(t,e,r){var n=f(p,{},e,r,i.bind(this.stopListening,this,t));return this.listenTo(t,n)};var p=function(t,e,r,n){if(r){var s=t[e]=i.once(function(){n(e,s);r.apply(this,arguments)});s._callback=r}return t};l.trigger=function(t){if(!this._events)return this;var e=Math.max(0,arguments.length-1);var i=Array(e);for(var r=0;r<e;r++)i[r]=arguments[r+1];f(m,this._events,t,void 0,i);return this};var m=function(t,e,i,r){if(t){var n=t[e];var s=t.all;if(n&&s)s=s.slice();if(n)_(n,r);if(s)_(s,[e].concat(r))}return t};var _=function(t,e){var i,r=-1,n=t.length,s=e[0],a=e[1],o=e[2];switch(e.length){case 0:while(++r<n)(i=t[r]).callback.call(i.ctx);return;case 1:while(++r<n)(i=t[r]).callback.call(i.ctx,s);return;case 2:while(++r<n)(i=t[r]).callback.call(i.ctx,s,a);return;case 3:while(++r<n)(i=t[r]).callback.call(i.ctx,s,a,o);return;default:while(++r<n)(i=t[r]).callback.apply(i.ctx,e);return}};l.bind=l.on;l.unbind=l.off;i.extend(e,l);var y=e.Model=function(t,e){var r=t||{};e||(e={});this.cid=i.uniqueId(this.cidPrefix);this.attributes={};if(e.collection)this.collection=e.collection;if(e.parse)r=this.parse(r,e)||{};r=i.defaults({},r,i.result(this,"defaults"));this.set(r,e);this.changed={};this.initialize.apply(this,arguments)};i.extend(y.prototype,l,{changed:null,validationError:null,idAttribute:"id",cidPrefix:"c",initialize:function(){},toJSON:function(t){return i.clone(this.attributes)},sync:function(){return e.sync.apply(this,arguments)},get:function(t){return this.attributes[t]},escape:function(t){return i.escape(this.get(t))},has:function(t){return this.get(t)!=null},matches:function(t){return!!i.iteratee(t,this)(this.attributes)},set:function(t,e,r){if(t==null)return this;var n;if(typeof t==="object"){n=t;r=e}else{(n={})[t]=e}r||(r={});if(!this._validate(n,r))return false;var s=r.unset;var a=r.silent;var o=[];var h=this._changing;this._changing=true;if(!h){this._previousAttributes=i.clone(this.attributes);this.changed={}}var u=this.attributes;var l=this.changed;var c=this._previousAttributes;for(var f in n){e=n[f];if(!i.isEqual(u[f],e))o.push(f);if(!i.isEqual(c[f],e)){l[f]=e}else{delete l[f]}s?delete u[f]:u[f]=e}this.id=this.get(this.idAttribute);if(!a){if(o.length)this._pending=r;for(var d=0;d<o.length;d++){this.trigger("change:"+o[d],this,u[o[d]],r)}}if(h)return this;if(!a){while(this._pending){r=this._pending;this._pending=false;this.trigger("change",this,r)}}this._pending=false;this._changing=false;return this},unset:function(t,e){return this.set(t,void 0,i.extend({},e,{unset:true}))},clear:function(t){var e={};for(var r in this.attributes)e[r]=void 0;return this.set(e,i.extend({},t,{unset:true}))},hasChanged:function(t){if(t==null)return!i.isEmpty(this.changed);return i.has(this.changed,t)},changedAttributes:function(t){if(!t)return this.hasChanged()?i.clone(this.changed):false;var e=this._changing?this._previousAttributes:this.attributes;var r={};for(var n in t){var s=t[n];if(i.isEqual(e[n],s))continue;r[n]=s}return i.size(r)?r:false},previous:function(t){if(t==null||!this._previousAttributes)return null;return this._previousAttributes[t]},previousAttributes:function(){return i.clone(this._previousAttributes)},fetch:function(t){t=i.extend({parse:true},t);var e=this;var r=t.success;t.success=function(i){var n=t.parse?e.parse(i,t):i;if(!e.set(n,t))return false;if(r)r.call(t.context,e,i,t);e.trigger("sync",e,i,t)};z(this,t);return this.sync("read",this,t)},save:function(t,e,r){var n;if(t==null||typeof t==="object"){n=t;r=e}else{(n={})[t]=e}r=i.extend({validate:true,parse:true},r);var s=r.wait;if(n&&!s){if(!this.set(n,r))return false}else{if(!this._validate(n,r))return false}var a=this;var o=r.success;var h=this.attributes;r.success=function(t){a.attributes=h;var e=r.parse?a.parse(t,r):t;if(s)e=i.extend({},n,e);if(e&&!a.set(e,r))return false;if(o)o.call(r.context,a,t,r);a.trigger("sync",a,t,r)};z(this,r);if(n&&s)this.attributes=i.extend({},h,n);var u=this.isNew()?"create":r.patch?"patch":"update";if(u==="patch"&&!r.attrs)r.attrs=n;var l=this.sync(u,this,r);this.attributes=h;return l},destroy:function(t){t=t?i.clone(t):{};var e=this;var r=t.success;var n=t.wait;var s=function(){e.stopListening();e.trigger("destroy",e,e.collection,t)};t.success=function(i){if(n)s();if(r)r.call(t.context,e,i,t);if(!e.isNew())e.trigger("sync",e,i,t)};var a=false;if(this.isNew()){i.defer(t.success)}else{z(this,t);a=this.sync("delete",this,t)}if(!n)s();return a},url:function(){var t=i.result(this,"urlRoot")||i.result(this.collection,"url")||F();if(this.isNew())return t;var e=this.get(this.idAttribute);return t.replace(/[^\/]$/,"$&/")+encodeURIComponent(e)},parse:function(t,e){return t},clone:function(){return new this.constructor(this.attributes)},isNew:function(){return!this.has(this.idAttribute)},isValid:function(t){return this._validate({},i.defaults({validate:true},t))},_validate:function(t,e){if(!e.validate||!this.validate)return true;t=i.extend({},this.attributes,t);var r=this.validationError=this.validate(t,e)||null;if(!r)return true;this.trigger("invalid",this,r,i.extend(e,{validationError:r}));return false}});var b={keys:1,values:1,pairs:1,invert:1,pick:0,omit:0,chain:1,isEmpty:1};o(y,b,"attributes");var x=e.Collection=function(t,e){e||(e={});if(e.model)this.model=e.model;if(e.comparator!==void 0)this.comparator=e.comparator;this._reset();this.initialize.apply(this,arguments);if(t)this.reset(t,i.extend({silent:true},e))};var w={add:true,remove:true,merge:true};var E={add:true,remove:false};var k=function(t,e,i){i=Math.min(Math.max(i,0),t.length);var r=Array(t.length-i);var n=e.length;for(var s=0;s<r.length;s++)r[s]=t[s+i];for(s=0;s<n;s++)t[s+i]=e[s];for(s=0;s<r.length;s++)t[s+n+i]=r[s]};i.extend(x.prototype,l,{model:y,initialize:function(){},toJSON:function(t){return this.map(function(e){return e.toJSON(t)})},sync:function(){return e.sync.apply(this,arguments)},add:function(t,e){return this.set(t,i.extend({merge:false},e,E))},remove:function(t,e){e=i.extend({},e);var r=!i.isArray(t);t=r?[t]:i.clone(t);var n=this._removeModels(t,e);if(!e.silent&&n)this.trigger("update",this,e);return r?n[0]:n},set:function(t,e){if(t==null)return;e=i.defaults({},e,w);if(e.parse&&!this._isModel(t))t=this.parse(t,e);var r=!i.isArray(t);t=r?[t]:t.slice();var n=e.at;if(n!=null)n=+n;if(n<0)n+=this.length+1;var s=[];var a=[];var o=[];var h={};var u=e.add;var l=e.merge;var c=e.remove;var f=false;var d=this.comparator&&n==null&&e.sort!==false;var v=i.isString(this.comparator)?this.comparator:null;var g;for(var p=0;p<t.length;p++){g=t[p];var m=this.get(g);if(m){if(l&&g!==m){var _=this._isModel(g)?g.attributes:g;if(e.parse)_=m.parse(_,e);m.set(_,e);if(d&&!f)f=m.hasChanged(v)}if(!h[m.cid]){h[m.cid]=true;s.push(m)}t[p]=m}else if(u){g=t[p]=this._prepareModel(g,e);if(g){a.push(g);this._addReference(g,e);h[g.cid]=true;s.push(g)}}}if(c){for(p=0;p<this.length;p++){g=this.models[p];if(!h[g.cid])o.push(g)}if(o.length)this._removeModels(o,e)}var y=false;var b=!d&&u&&c;if(s.length&&b){y=this.length!=s.length||i.some(this.models,function(t,e){return t!==s[e]});this.models.length=0;k(this.models,s,0);this.length=this.models.length}else if(a.length){if(d)f=true;k(this.models,a,n==null?this.length:n);this.length=this.models.length}if(f)this.sort({silent:true});if(!e.silent){for(p=0;p<a.length;p++){if(n!=null)e.index=n+p;g=a[p];g.trigger("add",g,this,e)}if(f||y)this.trigger("sort",this,e);if(a.length||o.length)this.trigger("update",this,e)}return r?t[0]:t},reset:function(t,e){e=e?i.clone(e):{};for(var r=0;r<this.models.length;r++){this._removeReference(this.models[r],e)}e.previousModels=this.models;this._reset();t=this.add(t,i.extend({silent:true},e));if(!e.silent)this.trigger("reset",this,e);return t},push:function(t,e){return this.add(t,i.extend({at:this.length},e))},pop:function(t){var e=this.at(this.length-1);return this.remove(e,t)},unshift:function(t,e){return this.add(t,i.extend({at:0},e))},shift:function(t){var e=this.at(0);return this.remove(e,t)},slice:function(){return s.apply(this.models,arguments)},get:function(t){if(t==null)return void 0;var e=this.modelId(this._isModel(t)?t.attributes:t);return this._byId[t]||this._byId[e]||this._byId[t.cid]},at:function(t){if(t<0)t+=this.length;return this.models[t]},where:function(t,e){return this[e?"find":"filter"](t)},findWhere:function(t){return this.where(t,true)},sort:function(t){var e=this.comparator;if(!e)throw new Error("Cannot sort a set without a comparator");t||(t={});var r=e.length;if(i.isFunction(e))e=i.bind(e,this);if(r===1||i.isString(e)){this.models=this.sortBy(e)}else{this.models.sort(e)}if(!t.silent)this.trigger("sort",this,t);return this},pluck:function(t){return i.invoke(this.models,"get",t)},fetch:function(t){t=i.extend({parse:true},t);var e=t.success;var r=this;t.success=function(i){var n=t.reset?"reset":"set";r[n](i,t);if(e)e.call(t.context,r,i,t);r.trigger("sync",r,i,t)};z(this,t);return this.sync("read",this,t)},create:function(t,e){e=e?i.clone(e):{};var r=e.wait;t=this._prepareModel(t,e);if(!t)return false;if(!r)this.add(t,e);var n=this;var s=e.success;e.success=function(t,e,i){if(r)n.add(t,i);if(s)s.call(i.context,t,e,i)};t.save(null,e);return t},parse:function(t,e){return t},clone:function(){return new this.constructor(this.models,{model:this.model,comparator:this.comparator})},modelId:function(t){return t[this.model.prototype.idAttribute||"id"]},_reset:function(){this.length=0;this.models=[];this._byId={}},_prepareModel:function(t,e){if(this._isModel(t)){if(!t.collection)t.collection=this;return t}e=e?i.clone(e):{};e.collection=this;var r=new this.model(t,e);if(!r.validationError)return r;this.trigger("invalid",this,r.validationError,e);return false},_removeModels:function(t,e){var i=[];for(var r=0;r<t.length;r++){var n=this.get(t[r]);if(!n)continue;var s=this.indexOf(n);this.models.splice(s,1);this.length--;if(!e.silent){e.index=s;n.trigger("remove",n,this,e)}i.push(n);this._removeReference(n,e)}return i.length?i:false},_isModel:function(t){return t instanceof y},_addReference:function(t,e){this._byId[t.cid]=t;var i=this.modelId(t.attributes);if(i!=null)this._byId[i]=t;t.on("all",this._onModelEvent,this)},_removeReference:function(t,e){delete this._byId[t.cid];var i=this.modelId(t.attributes);if(i!=null)delete this._byId[i];if(this===t.collection)delete t.collection;t.off("all",this._onModelEvent,this)},_onModelEvent:function(t,e,i,r){if((t==="add"||t==="remove")&&i!==this)return;if(t==="destroy")this.remove(e,r);if(t==="change"){var n=this.modelId(e.previousAttributes());var s=this.modelId(e.attributes);if(n!==s){if(n!=null)delete this._byId[n];if(s!=null)this._byId[s]=e}}this.trigger.apply(this,arguments)}});var S={forEach:3,each:3,map:3,collect:3,reduce:4,foldl:4,inject:4,reduceRight:4,foldr:4,find:3,detect:3,filter:3,select:3,reject:3,every:3,all:3,some:3,any:3,include:3,includes:3,contains:3,invoke:0,max:3,min:3,toArray:1,size:1,first:3,head:3,take:3,initial:3,rest:3,tail:3,drop:3,last:3,without:0,difference:0,indexOf:3,shuffle:1,lastIndexOf:3,isEmpty:1,chain:1,sample:3,partition:3,groupBy:3,countBy:3,sortBy:3,indexBy:3};o(x,S,"models");var I=e.View=function(t){this.cid=i.uniqueId("view");i.extend(this,i.pick(t,P));this._ensureElement();this.initialize.apply(this,arguments)};var T=/^(\S+)\s*(.*)$/;var P=["model","collection","el","id","attributes","className","tagName","events"];i.extend(I.prototype,l,{tagName:"div",$:function(t){return this.$el.find(t)},initialize:function(){},render:function(){return this},remove:function(){this._removeElement();this.stopListening();return this},_removeElement:function(){this.$el.remove()},setElement:function(t){this.undelegateEvents();this._setElement(t);this.delegateEvents();return this},_setElement:function(t){this.$el=t instanceof e.$?t:e.$(t);this.el=this.$el[0]},delegateEvents:function(t){t||(t=i.result(this,"events"));if(!t)return this;this.undelegateEvents();for(var e in t){var r=t[e];if(!i.isFunction(r))r=this[r];if(!r)continue;var n=e.match(T);this.delegate(n[1],n[2],i.bind(r,this))}return this},delegate:function(t,e,i){this.$el.on(t+".delegateEvents"+this.cid,e,i);return this},undelegateEvents:function(){if(this.$el)this.$el.off(".delegateEvents"+this.cid);return this},undelegate:function(t,e,i){this.$el.off(t+".delegateEvents"+this.cid,e,i);return this},_createElement:function(t){return document.createElement(t)},_ensureElement:function(){if(!this.el){var t=i.extend({},i.result(this,"attributes"));if(this.id)t.id=i.result(this,"id");if(this.className)t["class"]=i.result(this,"className");this.setElement(this._createElement(i.result(this,"tagName")));this._setAttributes(t)}else{this.setElement(i.result(this,"el"))}},_setAttributes:function(t){this.$el.attr(t)}});e.sync=function(t,r,n){var s=H[t];i.defaults(n||(n={}),{emulateHTTP:e.emulateHTTP,emulateJSON:e.emulateJSON});var a={type:s,dataType:"json"};if(!n.url){a.url=i.result(r,"url")||F()}if(n.data==null&&r&&(t==="create"||t==="update"||t==="patch")){a.contentType="application/json";a.data=JSON.stringify(n.attrs||r.toJSON(n))}if(n.emulateJSON){a.contentType="application/x-www-form-urlencoded";a.data=a.data?{model:a.data}:{}}if(n.emulateHTTP&&(s==="PUT"||s==="DELETE"||s==="PATCH")){a.type="POST";if(n.emulateJSON)a.data._method=s;var o=n.beforeSend;n.beforeSend=function(t){t.setRequestHeader("X-HTTP-Method-Override",s);if(o)return o.apply(this,arguments)}}if(a.type!=="GET"&&!n.emulateJSON){a.processData=false}var h=n.error;n.error=function(t,e,i){n.textStatus=e;n.errorThrown=i;if(h)h.call(n.context,t,e,i)};var u=n.xhr=e.ajax(i.extend(a,n));r.trigger("request",r,u,n);return u};var H={create:"POST",update:"PUT",patch:"PATCH","delete":"DELETE",read:"GET"};e.ajax=function(){return e.$.ajax.apply(e.$,arguments)};var $=e.Router=function(t){t||(t={});if(t.routes)this.routes=t.routes;this._bindRoutes();this.initialize.apply(this,arguments)};var A=/\((.*?)\)/g;var C=/(\(\?)?:\w+/g;var R=/\*\w+/g;var j=/[\-{}\[\]+?.,\\\^$|#\s]/g;i.extend($.prototype,l,{initialize:function(){},route:function(t,r,n){if(!i.isRegExp(t))t=this._routeToRegExp(t);if(i.isFunction(r)){n=r;r=""}if(!n)n=this[r];var s=this;e.history.route(t,function(i){var a=s._extractParameters(t,i);if(s.execute(n,a,r)!==false){s.trigger.apply(s,["route:"+r].concat(a));s.trigger("route",r,a);e.history.trigger("route",s,r,a)}});return this},execute:function(t,e,i){if(t)t.apply(this,e)},navigate:function(t,i){e.history.navigate(t,i);return this},_bindRoutes:function(){if(!this.routes)return;this.routes=i.result(this,"routes");var t,e=i.keys(this.routes);while((t=e.pop())!=null){this.route(t,this.routes[t])}},_routeToRegExp:function(t){t=t.replace(j,"\\$&").replace(A,"(?:$1)?").replace(C,function(t,e){return e?t:"([^/?]+)"}).replace(R,"([^?]*?)");return new RegExp("^"+t+"(?:\\?([\\s\\S]*))?$")},_extractParameters:function(t,e){var r=t.exec(e).slice(1);return i.map(r,function(t,e){if(e===r.length-1)return t||null;return t?decodeURIComponent(t):null})}});var M=e.History=function(){this.handlers=[];this.checkUrl=i.bind(this.checkUrl,this);if(typeof window!=="undefined"){this.location=window.location;this.history=window.history}};var N=/^[#\/]|\s+$/g;var O=/^\/+|\/+$/g;var U=/#.*$/;M.started=false;i.extend(M.prototype,l,{interval:50,atRoot:function(){var t=this.location.pathname.replace(/[^\/]$/,"$&/");return t===this.root&&!this.getSearch()},matchRoot:function(){var t=this.decodeFragment(this.location.pathname);var e=t.slice(0,this.root.length-1)+"/";return e===this.root},decodeFragment:function(t){return decodeURI(t.replace(/%25/g,"%2525"))},getSearch:function(){var t=this.location.href.replace(/#.*/,"").match(/\?.+/);return t?t[0]:""},getHash:function(t){var e=(t||this).location.href.match(/#(.*)$/);return e?e[1]:""},getPath:function(){var t=this.decodeFragment(this.location.pathname+this.getSearch()).slice(this.root.length-1);return t.charAt(0)==="/"?t.slice(1):t},getFragment:function(t){if(t==null){if(this._usePushState||!this._wantsHashChange){t=this.getPath()}else{t=this.getHash()}}return t.replace(N,"")},start:function(t){if(M.started)throw new Error("Backbone.history has already been started");M.started=true;this.options=i.extend({root:"/"},this.options,t);this.root=this.options.root;this._wantsHashChange=this.options.hashChange!==false;this._hasHashChange="onhashchange"in window&&(document.documentMode===void 0||document.documentMode>7);this._useHashChange=this._wantsHashChange&&this._hasHashChange;this._wantsPushState=!!this.options.pushState;this._hasPushState=!!(this.history&&this.history.pushState);this._usePushState=this._wantsPushState&&this._hasPushState;this.fragment=this.getFragment();this.root=("/"+this.root+"/").replace(O,"/");if(this._wantsHashChange&&this._wantsPushState){if(!this._hasPushState&&!this.atRoot()){var e=this.root.slice(0,-1)||"/";this.location.replace(e+"#"+this.getPath());return true}else if(this._hasPushState&&this.atRoot()){this.navigate(this.getHash(),{replace:true})}}if(!this._hasHashChange&&this._wantsHashChange&&!this._usePushState){this.iframe=document.createElement("iframe");this.iframe.src="javascript:0";this.iframe.style.display="none";this.iframe.tabIndex=-1;var r=document.body;var n=r.insertBefore(this.iframe,r.firstChild).contentWindow;n.document.open();n.document.close();n.location.hash="#"+this.fragment}var s=window.addEventListener||function(t,e){return attachEvent("on"+t,e)};if(this._usePushState){s("popstate",this.checkUrl,false)}else if(this._useHashChange&&!this.iframe){s("hashchange",this.checkUrl,false)}else if(this._wantsHashChange){this._checkUrlInterval=setInterval(this.checkUrl,this.interval)}if(!this.options.silent)return this.loadUrl()},stop:function(){var t=window.removeEventListener||function(t,e){return detachEvent("on"+t,e)};if(this._usePushState){t("popstate",this.checkUrl,false)}else if(this._useHashChange&&!this.iframe){t("hashchange",this.checkUrl,false)}if(this.iframe){document.body.removeChild(this.iframe);this.iframe=null}if(this._checkUrlInterval)clearInterval(this._checkUrlInterval);M.started=false},route:function(t,e){this.handlers.unshift({route:t,callback:e})},checkUrl:function(t){var e=this.getFragment();if(e===this.fragment&&this.iframe){e=this.getHash(this.iframe.contentWindow)}if(e===this.fragment)return false;if(this.iframe)this.navigate(e);this.loadUrl()},loadUrl:function(t){if(!this.matchRoot())return false;t=this.fragment=this.getFragment(t);return i.some(this.handlers,function(e){if(e.route.test(t)){e.callback(t);return true}})},navigate:function(t,e){if(!M.started)return false;if(!e||e===true)e={trigger:!!e};t=this.getFragment(t||"");var i=this.root;if(t===""||t.charAt(0)==="?"){i=i.slice(0,-1)||"/"}var r=i+t;t=this.decodeFragment(t.replace(U,""));if(this.fragment===t)return;this.fragment=t;if(this._usePushState){this.history[e.replace?"replaceState":"pushState"]({},document.title,r)}else if(this._wantsHashChange){this._updateHash(this.location,t,e.replace);if(this.iframe&&t!==this.getHash(this.iframe.contentWindow)){var n=this.iframe.contentWindow;if(!e.replace){n.document.open();n.document.close()}this._updateHash(n.location,t,e.replace)}}else{return this.location.assign(r)}if(e.trigger)return this.loadUrl(t)},_updateHash:function(t,e,i){if(i){var r=t.href.replace(/(javascript:|#).*$/,"");t.replace(r+"#"+e)}else{t.hash="#"+e}}});e.history=new M;var q=function(t,e){var r=this;var n;if(t&&i.has(t,"constructor")){n=t.constructor}else{n=function(){return r.apply(this,arguments)}}i.extend(n,r,e);var s=function(){this.constructor=n};s.prototype=r.prototype;n.prototype=new s;if(t)i.extend(n.prototype,t);n.__super__=r.prototype;return n};y.extend=x.extend=$.extend=I.extend=M.extend=q;var F=function(){throw new Error('A "url" property or function must be specified')};var z=function(t,e){var i=e.error;e.error=function(r){if(i)i.call(e.context,t,r,e);t.trigger("error",t,r,e)}};return e});
-
 /*!
  * jQuery Once v2.1.1 - http://github.com/robloach/jquery-once
  * @license MIT, GPL-2.0
@@ -18,6 +16,8 @@ void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!=
  *   http://opensource.org/licenses/GPL-2.0
  */
 (function(e){"use strict";if(typeof exports==="object"){e(require("jquery"))}else if(typeof define==="function"&&define.amd){define(["jquery"],e)}else{e(jQuery)}})(function(e){"use strict";var n=function(e){e=e||"once";if(typeof e!=="string"){throw new Error("The jQuery Once id parameter must be a string")}return e};e.fn.once=function(t){var r="jquery-once-"+n(t);return this.filter(function(){return e(this).data(r)!==true}).data(r,true)};e.fn.removeOnce=function(e){return this.findOnce(e).removeData("jquery-once-"+n(e))};e.fn.findOnce=function(t){var r="jquery-once-"+n(t);return this.filter(function(){return e(this).data(r)===true})}});
+
+(function(t){var e=typeof self=="object"&&self.self==self&&self||typeof global=="object"&&global.global==global&&global;if(typeof define==="function"&&define.amd){define(["underscore","jquery","exports"],function(i,r,n){e.Backbone=t(e,n,i,r)})}else if(typeof exports!=="undefined"){var i=require("underscore"),r;try{r=require("jquery")}catch(n){}t(e,exports,i,r)}else{e.Backbone=t(e,{},e._,e.jQuery||e.Zepto||e.ender||e.$)}})(function(t,e,i,r){var n=t.Backbone;var s=Array.prototype.slice;e.VERSION="1.2.3";e.$=r;e.noConflict=function(){t.Backbone=n;return this};e.emulateHTTP=false;e.emulateJSON=false;var a=function(t,e,r){switch(t){case 1:return function(){return i[e](this[r])};case 2:return function(t){return i[e](this[r],t)};case 3:return function(t,n){return i[e](this[r],h(t,this),n)};case 4:return function(t,n,s){return i[e](this[r],h(t,this),n,s)};default:return function(){var t=s.call(arguments);t.unshift(this[r]);return i[e].apply(i,t)}}};var o=function(t,e,r){i.each(e,function(e,n){if(i[n])t.prototype[n]=a(e,n,r)})};var h=function(t,e){if(i.isFunction(t))return t;if(i.isObject(t)&&!e._isModel(t))return u(t);if(i.isString(t))return function(e){return e.get(t)};return t};var u=function(t){var e=i.matches(t);return function(t){return e(t.attributes)}};var l=e.Events={};var c=/\s+/;var f=function(t,e,r,n,s){var a=0,o;if(r&&typeof r==="object"){if(n!==void 0&&"context"in s&&s.context===void 0)s.context=n;for(o=i.keys(r);a<o.length;a++){e=f(t,e,o[a],r[o[a]],s)}}else if(r&&c.test(r)){for(o=r.split(c);a<o.length;a++){e=t(e,o[a],n,s)}}else{e=t(e,r,n,s)}return e};l.on=function(t,e,i){return d(this,t,e,i)};var d=function(t,e,i,r,n){t._events=f(v,t._events||{},e,i,{context:r,ctx:t,listening:n});if(n){var s=t._listeners||(t._listeners={});s[n.id]=n}return t};l.listenTo=function(t,e,r){if(!t)return this;var n=t._listenId||(t._listenId=i.uniqueId("l"));var s=this._listeningTo||(this._listeningTo={});var a=s[n];if(!a){var o=this._listenId||(this._listenId=i.uniqueId("l"));a=s[n]={obj:t,objId:n,id:o,listeningTo:s,count:0}}d(t,e,r,this,a);return this};var v=function(t,e,i,r){if(i){var n=t[e]||(t[e]=[]);var s=r.context,a=r.ctx,o=r.listening;if(o)o.count++;n.push({callback:i,context:s,ctx:s||a,listening:o})}return t};l.off=function(t,e,i){if(!this._events)return this;this._events=f(g,this._events,t,e,{context:i,listeners:this._listeners});return this};l.stopListening=function(t,e,r){var n=this._listeningTo;if(!n)return this;var s=t?[t._listenId]:i.keys(n);for(var a=0;a<s.length;a++){var o=n[s[a]];if(!o)break;o.obj.off(e,r,this)}if(i.isEmpty(n))this._listeningTo=void 0;return this};var g=function(t,e,r,n){if(!t)return;var s=0,a;var o=n.context,h=n.listeners;if(!e&&!r&&!o){var u=i.keys(h);for(;s<u.length;s++){a=h[u[s]];delete h[a.id];delete a.listeningTo[a.objId]}return}var l=e?[e]:i.keys(t);for(;s<l.length;s++){e=l[s];var c=t[e];if(!c)break;var f=[];for(var d=0;d<c.length;d++){var v=c[d];if(r&&r!==v.callback&&r!==v.callback._callback||o&&o!==v.context){f.push(v)}else{a=v.listening;if(a&&--a.count===0){delete h[a.id];delete a.listeningTo[a.objId]}}}if(f.length){t[e]=f}else{delete t[e]}}if(i.size(t))return t};l.once=function(t,e,r){var n=f(p,{},t,e,i.bind(this.off,this));return this.on(n,void 0,r)};l.listenToOnce=function(t,e,r){var n=f(p,{},e,r,i.bind(this.stopListening,this,t));return this.listenTo(t,n)};var p=function(t,e,r,n){if(r){var s=t[e]=i.once(function(){n(e,s);r.apply(this,arguments)});s._callback=r}return t};l.trigger=function(t){if(!this._events)return this;var e=Math.max(0,arguments.length-1);var i=Array(e);for(var r=0;r<e;r++)i[r]=arguments[r+1];f(m,this._events,t,void 0,i);return this};var m=function(t,e,i,r){if(t){var n=t[e];var s=t.all;if(n&&s)s=s.slice();if(n)_(n,r);if(s)_(s,[e].concat(r))}return t};var _=function(t,e){var i,r=-1,n=t.length,s=e[0],a=e[1],o=e[2];switch(e.length){case 0:while(++r<n)(i=t[r]).callback.call(i.ctx);return;case 1:while(++r<n)(i=t[r]).callback.call(i.ctx,s);return;case 2:while(++r<n)(i=t[r]).callback.call(i.ctx,s,a);return;case 3:while(++r<n)(i=t[r]).callback.call(i.ctx,s,a,o);return;default:while(++r<n)(i=t[r]).callback.apply(i.ctx,e);return}};l.bind=l.on;l.unbind=l.off;i.extend(e,l);var y=e.Model=function(t,e){var r=t||{};e||(e={});this.cid=i.uniqueId(this.cidPrefix);this.attributes={};if(e.collection)this.collection=e.collection;if(e.parse)r=this.parse(r,e)||{};r=i.defaults({},r,i.result(this,"defaults"));this.set(r,e);this.changed={};this.initialize.apply(this,arguments)};i.extend(y.prototype,l,{changed:null,validationError:null,idAttribute:"id",cidPrefix:"c",initialize:function(){},toJSON:function(t){return i.clone(this.attributes)},sync:function(){return e.sync.apply(this,arguments)},get:function(t){return this.attributes[t]},escape:function(t){return i.escape(this.get(t))},has:function(t){return this.get(t)!=null},matches:function(t){return!!i.iteratee(t,this)(this.attributes)},set:function(t,e,r){if(t==null)return this;var n;if(typeof t==="object"){n=t;r=e}else{(n={})[t]=e}r||(r={});if(!this._validate(n,r))return false;var s=r.unset;var a=r.silent;var o=[];var h=this._changing;this._changing=true;if(!h){this._previousAttributes=i.clone(this.attributes);this.changed={}}var u=this.attributes;var l=this.changed;var c=this._previousAttributes;for(var f in n){e=n[f];if(!i.isEqual(u[f],e))o.push(f);if(!i.isEqual(c[f],e)){l[f]=e}else{delete l[f]}s?delete u[f]:u[f]=e}this.id=this.get(this.idAttribute);if(!a){if(o.length)this._pending=r;for(var d=0;d<o.length;d++){this.trigger("change:"+o[d],this,u[o[d]],r)}}if(h)return this;if(!a){while(this._pending){r=this._pending;this._pending=false;this.trigger("change",this,r)}}this._pending=false;this._changing=false;return this},unset:function(t,e){return this.set(t,void 0,i.extend({},e,{unset:true}))},clear:function(t){var e={};for(var r in this.attributes)e[r]=void 0;return this.set(e,i.extend({},t,{unset:true}))},hasChanged:function(t){if(t==null)return!i.isEmpty(this.changed);return i.has(this.changed,t)},changedAttributes:function(t){if(!t)return this.hasChanged()?i.clone(this.changed):false;var e=this._changing?this._previousAttributes:this.attributes;var r={};for(var n in t){var s=t[n];if(i.isEqual(e[n],s))continue;r[n]=s}return i.size(r)?r:false},previous:function(t){if(t==null||!this._previousAttributes)return null;return this._previousAttributes[t]},previousAttributes:function(){return i.clone(this._previousAttributes)},fetch:function(t){t=i.extend({parse:true},t);var e=this;var r=t.success;t.success=function(i){var n=t.parse?e.parse(i,t):i;if(!e.set(n,t))return false;if(r)r.call(t.context,e,i,t);e.trigger("sync",e,i,t)};z(this,t);return this.sync("read",this,t)},save:function(t,e,r){var n;if(t==null||typeof t==="object"){n=t;r=e}else{(n={})[t]=e}r=i.extend({validate:true,parse:true},r);var s=r.wait;if(n&&!s){if(!this.set(n,r))return false}else{if(!this._validate(n,r))return false}var a=this;var o=r.success;var h=this.attributes;r.success=function(t){a.attributes=h;var e=r.parse?a.parse(t,r):t;if(s)e=i.extend({},n,e);if(e&&!a.set(e,r))return false;if(o)o.call(r.context,a,t,r);a.trigger("sync",a,t,r)};z(this,r);if(n&&s)this.attributes=i.extend({},h,n);var u=this.isNew()?"create":r.patch?"patch":"update";if(u==="patch"&&!r.attrs)r.attrs=n;var l=this.sync(u,this,r);this.attributes=h;return l},destroy:function(t){t=t?i.clone(t):{};var e=this;var r=t.success;var n=t.wait;var s=function(){e.stopListening();e.trigger("destroy",e,e.collection,t)};t.success=function(i){if(n)s();if(r)r.call(t.context,e,i,t);if(!e.isNew())e.trigger("sync",e,i,t)};var a=false;if(this.isNew()){i.defer(t.success)}else{z(this,t);a=this.sync("delete",this,t)}if(!n)s();return a},url:function(){var t=i.result(this,"urlRoot")||i.result(this.collection,"url")||F();if(this.isNew())return t;var e=this.get(this.idAttribute);return t.replace(/[^\/]$/,"$&/")+encodeURIComponent(e)},parse:function(t,e){return t},clone:function(){return new this.constructor(this.attributes)},isNew:function(){return!this.has(this.idAttribute)},isValid:function(t){return this._validate({},i.defaults({validate:true},t))},_validate:function(t,e){if(!e.validate||!this.validate)return true;t=i.extend({},this.attributes,t);var r=this.validationError=this.validate(t,e)||null;if(!r)return true;this.trigger("invalid",this,r,i.extend(e,{validationError:r}));return false}});var b={keys:1,values:1,pairs:1,invert:1,pick:0,omit:0,chain:1,isEmpty:1};o(y,b,"attributes");var x=e.Collection=function(t,e){e||(e={});if(e.model)this.model=e.model;if(e.comparator!==void 0)this.comparator=e.comparator;this._reset();this.initialize.apply(this,arguments);if(t)this.reset(t,i.extend({silent:true},e))};var w={add:true,remove:true,merge:true};var E={add:true,remove:false};var k=function(t,e,i){i=Math.min(Math.max(i,0),t.length);var r=Array(t.length-i);var n=e.length;for(var s=0;s<r.length;s++)r[s]=t[s+i];for(s=0;s<n;s++)t[s+i]=e[s];for(s=0;s<r.length;s++)t[s+n+i]=r[s]};i.extend(x.prototype,l,{model:y,initialize:function(){},toJSON:function(t){return this.map(function(e){return e.toJSON(t)})},sync:function(){return e.sync.apply(this,arguments)},add:function(t,e){return this.set(t,i.extend({merge:false},e,E))},remove:function(t,e){e=i.extend({},e);var r=!i.isArray(t);t=r?[t]:i.clone(t);var n=this._removeModels(t,e);if(!e.silent&&n)this.trigger("update",this,e);return r?n[0]:n},set:function(t,e){if(t==null)return;e=i.defaults({},e,w);if(e.parse&&!this._isModel(t))t=this.parse(t,e);var r=!i.isArray(t);t=r?[t]:t.slice();var n=e.at;if(n!=null)n=+n;if(n<0)n+=this.length+1;var s=[];var a=[];var o=[];var h={};var u=e.add;var l=e.merge;var c=e.remove;var f=false;var d=this.comparator&&n==null&&e.sort!==false;var v=i.isString(this.comparator)?this.comparator:null;var g;for(var p=0;p<t.length;p++){g=t[p];var m=this.get(g);if(m){if(l&&g!==m){var _=this._isModel(g)?g.attributes:g;if(e.parse)_=m.parse(_,e);m.set(_,e);if(d&&!f)f=m.hasChanged(v)}if(!h[m.cid]){h[m.cid]=true;s.push(m)}t[p]=m}else if(u){g=t[p]=this._prepareModel(g,e);if(g){a.push(g);this._addReference(g,e);h[g.cid]=true;s.push(g)}}}if(c){for(p=0;p<this.length;p++){g=this.models[p];if(!h[g.cid])o.push(g)}if(o.length)this._removeModels(o,e)}var y=false;var b=!d&&u&&c;if(s.length&&b){y=this.length!=s.length||i.some(this.models,function(t,e){return t!==s[e]});this.models.length=0;k(this.models,s,0);this.length=this.models.length}else if(a.length){if(d)f=true;k(this.models,a,n==null?this.length:n);this.length=this.models.length}if(f)this.sort({silent:true});if(!e.silent){for(p=0;p<a.length;p++){if(n!=null)e.index=n+p;g=a[p];g.trigger("add",g,this,e)}if(f||y)this.trigger("sort",this,e);if(a.length||o.length)this.trigger("update",this,e)}return r?t[0]:t},reset:function(t,e){e=e?i.clone(e):{};for(var r=0;r<this.models.length;r++){this._removeReference(this.models[r],e)}e.previousModels=this.models;this._reset();t=this.add(t,i.extend({silent:true},e));if(!e.silent)this.trigger("reset",this,e);return t},push:function(t,e){return this.add(t,i.extend({at:this.length},e))},pop:function(t){var e=this.at(this.length-1);return this.remove(e,t)},unshift:function(t,e){return this.add(t,i.extend({at:0},e))},shift:function(t){var e=this.at(0);return this.remove(e,t)},slice:function(){return s.apply(this.models,arguments)},get:function(t){if(t==null)return void 0;var e=this.modelId(this._isModel(t)?t.attributes:t);return this._byId[t]||this._byId[e]||this._byId[t.cid]},at:function(t){if(t<0)t+=this.length;return this.models[t]},where:function(t,e){return this[e?"find":"filter"](t)},findWhere:function(t){return this.where(t,true)},sort:function(t){var e=this.comparator;if(!e)throw new Error("Cannot sort a set without a comparator");t||(t={});var r=e.length;if(i.isFunction(e))e=i.bind(e,this);if(r===1||i.isString(e)){this.models=this.sortBy(e)}else{this.models.sort(e)}if(!t.silent)this.trigger("sort",this,t);return this},pluck:function(t){return i.invoke(this.models,"get",t)},fetch:function(t){t=i.extend({parse:true},t);var e=t.success;var r=this;t.success=function(i){var n=t.reset?"reset":"set";r[n](i,t);if(e)e.call(t.context,r,i,t);r.trigger("sync",r,i,t)};z(this,t);return this.sync("read",this,t)},create:function(t,e){e=e?i.clone(e):{};var r=e.wait;t=this._prepareModel(t,e);if(!t)return false;if(!r)this.add(t,e);var n=this;var s=e.success;e.success=function(t,e,i){if(r)n.add(t,i);if(s)s.call(i.context,t,e,i)};t.save(null,e);return t},parse:function(t,e){return t},clone:function(){return new this.constructor(this.models,{model:this.model,comparator:this.comparator})},modelId:function(t){return t[this.model.prototype.idAttribute||"id"]},_reset:function(){this.length=0;this.models=[];this._byId={}},_prepareModel:function(t,e){if(this._isModel(t)){if(!t.collection)t.collection=this;return t}e=e?i.clone(e):{};e.collection=this;var r=new this.model(t,e);if(!r.validationError)return r;this.trigger("invalid",this,r.validationError,e);return false},_removeModels:function(t,e){var i=[];for(var r=0;r<t.length;r++){var n=this.get(t[r]);if(!n)continue;var s=this.indexOf(n);this.models.splice(s,1);this.length--;if(!e.silent){e.index=s;n.trigger("remove",n,this,e)}i.push(n);this._removeReference(n,e)}return i.length?i:false},_isModel:function(t){return t instanceof y},_addReference:function(t,e){this._byId[t.cid]=t;var i=this.modelId(t.attributes);if(i!=null)this._byId[i]=t;t.on("all",this._onModelEvent,this)},_removeReference:function(t,e){delete this._byId[t.cid];var i=this.modelId(t.attributes);if(i!=null)delete this._byId[i];if(this===t.collection)delete t.collection;t.off("all",this._onModelEvent,this)},_onModelEvent:function(t,e,i,r){if((t==="add"||t==="remove")&&i!==this)return;if(t==="destroy")this.remove(e,r);if(t==="change"){var n=this.modelId(e.previousAttributes());var s=this.modelId(e.attributes);if(n!==s){if(n!=null)delete this._byId[n];if(s!=null)this._byId[s]=e}}this.trigger.apply(this,arguments)}});var S={forEach:3,each:3,map:3,collect:3,reduce:4,foldl:4,inject:4,reduceRight:4,foldr:4,find:3,detect:3,filter:3,select:3,reject:3,every:3,all:3,some:3,any:3,include:3,includes:3,contains:3,invoke:0,max:3,min:3,toArray:1,size:1,first:3,head:3,take:3,initial:3,rest:3,tail:3,drop:3,last:3,without:0,difference:0,indexOf:3,shuffle:1,lastIndexOf:3,isEmpty:1,chain:1,sample:3,partition:3,groupBy:3,countBy:3,sortBy:3,indexBy:3};o(x,S,"models");var I=e.View=function(t){this.cid=i.uniqueId("view");i.extend(this,i.pick(t,P));this._ensureElement();this.initialize.apply(this,arguments)};var T=/^(\S+)\s*(.*)$/;var P=["model","collection","el","id","attributes","className","tagName","events"];i.extend(I.prototype,l,{tagName:"div",$:function(t){return this.$el.find(t)},initialize:function(){},render:function(){return this},remove:function(){this._removeElement();this.stopListening();return this},_removeElement:function(){this.$el.remove()},setElement:function(t){this.undelegateEvents();this._setElement(t);this.delegateEvents();return this},_setElement:function(t){this.$el=t instanceof e.$?t:e.$(t);this.el=this.$el[0]},delegateEvents:function(t){t||(t=i.result(this,"events"));if(!t)return this;this.undelegateEvents();for(var e in t){var r=t[e];if(!i.isFunction(r))r=this[r];if(!r)continue;var n=e.match(T);this.delegate(n[1],n[2],i.bind(r,this))}return this},delegate:function(t,e,i){this.$el.on(t+".delegateEvents"+this.cid,e,i);return this},undelegateEvents:function(){if(this.$el)this.$el.off(".delegateEvents"+this.cid);return this},undelegate:function(t,e,i){this.$el.off(t+".delegateEvents"+this.cid,e,i);return this},_createElement:function(t){return document.createElement(t)},_ensureElement:function(){if(!this.el){var t=i.extend({},i.result(this,"attributes"));if(this.id)t.id=i.result(this,"id");if(this.className)t["class"]=i.result(this,"className");this.setElement(this._createElement(i.result(this,"tagName")));this._setAttributes(t)}else{this.setElement(i.result(this,"el"))}},_setAttributes:function(t){this.$el.attr(t)}});e.sync=function(t,r,n){var s=H[t];i.defaults(n||(n={}),{emulateHTTP:e.emulateHTTP,emulateJSON:e.emulateJSON});var a={type:s,dataType:"json"};if(!n.url){a.url=i.result(r,"url")||F()}if(n.data==null&&r&&(t==="create"||t==="update"||t==="patch")){a.contentType="application/json";a.data=JSON.stringify(n.attrs||r.toJSON(n))}if(n.emulateJSON){a.contentType="application/x-www-form-urlencoded";a.data=a.data?{model:a.data}:{}}if(n.emulateHTTP&&(s==="PUT"||s==="DELETE"||s==="PATCH")){a.type="POST";if(n.emulateJSON)a.data._method=s;var o=n.beforeSend;n.beforeSend=function(t){t.setRequestHeader("X-HTTP-Method-Override",s);if(o)return o.apply(this,arguments)}}if(a.type!=="GET"&&!n.emulateJSON){a.processData=false}var h=n.error;n.error=function(t,e,i){n.textStatus=e;n.errorThrown=i;if(h)h.call(n.context,t,e,i)};var u=n.xhr=e.ajax(i.extend(a,n));r.trigger("request",r,u,n);return u};var H={create:"POST",update:"PUT",patch:"PATCH","delete":"DELETE",read:"GET"};e.ajax=function(){return e.$.ajax.apply(e.$,arguments)};var $=e.Router=function(t){t||(t={});if(t.routes)this.routes=t.routes;this._bindRoutes();this.initialize.apply(this,arguments)};var A=/\((.*?)\)/g;var C=/(\(\?)?:\w+/g;var R=/\*\w+/g;var j=/[\-{}\[\]+?.,\\\^$|#\s]/g;i.extend($.prototype,l,{initialize:function(){},route:function(t,r,n){if(!i.isRegExp(t))t=this._routeToRegExp(t);if(i.isFunction(r)){n=r;r=""}if(!n)n=this[r];var s=this;e.history.route(t,function(i){var a=s._extractParameters(t,i);if(s.execute(n,a,r)!==false){s.trigger.apply(s,["route:"+r].concat(a));s.trigger("route",r,a);e.history.trigger("route",s,r,a)}});return this},execute:function(t,e,i){if(t)t.apply(this,e)},navigate:function(t,i){e.history.navigate(t,i);return this},_bindRoutes:function(){if(!this.routes)return;this.routes=i.result(this,"routes");var t,e=i.keys(this.routes);while((t=e.pop())!=null){this.route(t,this.routes[t])}},_routeToRegExp:function(t){t=t.replace(j,"\\$&").replace(A,"(?:$1)?").replace(C,function(t,e){return e?t:"([^/?]+)"}).replace(R,"([^?]*?)");return new RegExp("^"+t+"(?:\\?([\\s\\S]*))?$")},_extractParameters:function(t,e){var r=t.exec(e).slice(1);return i.map(r,function(t,e){if(e===r.length-1)return t||null;return t?decodeURIComponent(t):null})}});var M=e.History=function(){this.handlers=[];this.checkUrl=i.bind(this.checkUrl,this);if(typeof window!=="undefined"){this.location=window.location;this.history=window.history}};var N=/^[#\/]|\s+$/g;var O=/^\/+|\/+$/g;var U=/#.*$/;M.started=false;i.extend(M.prototype,l,{interval:50,atRoot:function(){var t=this.location.pathname.replace(/[^\/]$/,"$&/");return t===this.root&&!this.getSearch()},matchRoot:function(){var t=this.decodeFragment(this.location.pathname);var e=t.slice(0,this.root.length-1)+"/";return e===this.root},decodeFragment:function(t){return decodeURI(t.replace(/%25/g,"%2525"))},getSearch:function(){var t=this.location.href.replace(/#.*/,"").match(/\?.+/);return t?t[0]:""},getHash:function(t){var e=(t||this).location.href.match(/#(.*)$/);return e?e[1]:""},getPath:function(){var t=this.decodeFragment(this.location.pathname+this.getSearch()).slice(this.root.length-1);return t.charAt(0)==="/"?t.slice(1):t},getFragment:function(t){if(t==null){if(this._usePushState||!this._wantsHashChange){t=this.getPath()}else{t=this.getHash()}}return t.replace(N,"")},start:function(t){if(M.started)throw new Error("Backbone.history has already been started");M.started=true;this.options=i.extend({root:"/"},this.options,t);this.root=this.options.root;this._wantsHashChange=this.options.hashChange!==false;this._hasHashChange="onhashchange"in window&&(document.documentMode===void 0||document.documentMode>7);this._useHashChange=this._wantsHashChange&&this._hasHashChange;this._wantsPushState=!!this.options.pushState;this._hasPushState=!!(this.history&&this.history.pushState);this._usePushState=this._wantsPushState&&this._hasPushState;this.fragment=this.getFragment();this.root=("/"+this.root+"/").replace(O,"/");if(this._wantsHashChange&&this._wantsPushState){if(!this._hasPushState&&!this.atRoot()){var e=this.root.slice(0,-1)||"/";this.location.replace(e+"#"+this.getPath());return true}else if(this._hasPushState&&this.atRoot()){this.navigate(this.getHash(),{replace:true})}}if(!this._hasHashChange&&this._wantsHashChange&&!this._usePushState){this.iframe=document.createElement("iframe");this.iframe.src="javascript:0";this.iframe.style.display="none";this.iframe.tabIndex=-1;var r=document.body;var n=r.insertBefore(this.iframe,r.firstChild).contentWindow;n.document.open();n.document.close();n.location.hash="#"+this.fragment}var s=window.addEventListener||function(t,e){return attachEvent("on"+t,e)};if(this._usePushState){s("popstate",this.checkUrl,false)}else if(this._useHashChange&&!this.iframe){s("hashchange",this.checkUrl,false)}else if(this._wantsHashChange){this._checkUrlInterval=setInterval(this.checkUrl,this.interval)}if(!this.options.silent)return this.loadUrl()},stop:function(){var t=window.removeEventListener||function(t,e){return detachEvent("on"+t,e)};if(this._usePushState){t("popstate",this.checkUrl,false)}else if(this._useHashChange&&!this.iframe){t("hashchange",this.checkUrl,false)}if(this.iframe){document.body.removeChild(this.iframe);this.iframe=null}if(this._checkUrlInterval)clearInterval(this._checkUrlInterval);M.started=false},route:function(t,e){this.handlers.unshift({route:t,callback:e})},checkUrl:function(t){var e=this.getFragment();if(e===this.fragment&&this.iframe){e=this.getHash(this.iframe.contentWindow)}if(e===this.fragment)return false;if(this.iframe)this.navigate(e);this.loadUrl()},loadUrl:function(t){if(!this.matchRoot())return false;t=this.fragment=this.getFragment(t);return i.some(this.handlers,function(e){if(e.route.test(t)){e.callback(t);return true}})},navigate:function(t,e){if(!M.started)return false;if(!e||e===true)e={trigger:!!e};t=this.getFragment(t||"");var i=this.root;if(t===""||t.charAt(0)==="?"){i=i.slice(0,-1)||"/"}var r=i+t;t=this.decodeFragment(t.replace(U,""));if(this.fragment===t)return;this.fragment=t;if(this._usePushState){this.history[e.replace?"replaceState":"pushState"]({},document.title,r)}else if(this._wantsHashChange){this._updateHash(this.location,t,e.replace);if(this.iframe&&t!==this.getHash(this.iframe.contentWindow)){var n=this.iframe.contentWindow;if(!e.replace){n.document.open();n.document.close()}this._updateHash(n.location,t,e.replace)}}else{return this.location.assign(r)}if(e.trigger)return this.loadUrl(t)},_updateHash:function(t,e,i){if(i){var r=t.href.replace(/(javascript:|#).*$/,"");t.replace(r+"#"+e)}else{t.hash="#"+e}}});e.history=new M;var q=function(t,e){var r=this;var n;if(t&&i.has(t,"constructor")){n=t.constructor}else{n=function(){return r.apply(this,arguments)}}i.extend(n,r,e);var s=function(){this.constructor=n};s.prototype=r.prototype;n.prototype=new s;if(t)i.extend(n.prototype,t);n.__super__=r.prototype;return n};y.extend=x.extend=$.extend=I.extend=M.extend=q;var F=function(){throw new Error('A "url" property or function must be specified')};var z=function(t,e){var i=e.error;e.error=function(r){if(i)i.call(e.context,t,r,e);t.trigger("error",t,r,e)}};return e});
 
 /**
  * @file
@@ -45,7 +45,7 @@ void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!=
   }
 })();
 ;
-window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","closed":"cerrado","Cancel":"Cancelar","Edit":"Editar","Link":"Enlace","Image":"Imagen","Save":"Guardar","Open":"Abierta","Continue":"Continuar","OK":"OK","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Extend":"Ampliar","Not published":"No publicado","Loading...":"Cargando...","Hide":"Ocultar","Unlink":"Desvincular","Quick edit":"Edici\u00f3n r\u00e1pida","Edit Link":"Editar enlace","@label":"@label","New revision":"Nueva revisi\u00f3n","Drag to re-order":"Arrastre para reordenar","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","No revision":"Sin revisi\u00f3n","Requires a title":"Necesita un t\u00edtulo","Not restricted":"Sin restricci\u00f3n","(active tab)":"(solapa activa)","Restricted to certain pages":"Restringido a algunas p\u00e1ginas","The block cannot be placed in this region.":"El bloque no se puede colocar en esta regi\u00f3n.","Hide summary":"Ocultar resumen","Edit summary":"Editar resumen","Don\u0027t display post information":"No mostrar informaci\u00f3n del env\u00edo","Collapse":"Plegar","The selected file %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions.":"El archivo seleccionado %filename no se puede subir al srvidor. Solo se permiten archivos con las siguientes extensiones: %extensions.","Re-order rows by numerical weight instead of dragging.":"Reordenar las filas por peso num\u00e9rico en lugar de arrastrar.","Show row weights":"Mostrar pesos de la fila","Hide row weights":"Ocultar pesos de la fila","You have unsaved changes":"Usted tiene cambios no guaradados","Needs to be updated":"Necesita ser actualizado","Does not need to be updated":"No necesita ser actualizado","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","List additional actions":"Lista adicional de acciones","Flag other translations as outdated":"Marcar las otras traducciones como desfasadas","Do not flag other translations as outdated":"No marcar las otras traducciones como desfasadas","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","You have unsaved changes.":"Tiene cambios sin guardar.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Changing the text format to %text_format will permanently remove content that is not allowed in that text format.\u003Cbr\u003E\u003Cbr\u003ESave your changes before switching the text format to avoid losing data.":"Cambiar el formato de texto a %text_format eliminar\u00e1 permanentemente el contenido que no est\u00e1 permitido en ese formato de texto.\u003Cbr\u003E\u003Cbr\u003EGuarde sus datos antes de cambiar el formato de texto para evitar perder datos.","Change text format?":"\u00bfCambiar el formato de texto?","Rich Text Editor, !label field":"Editor de texto con formato, campo !label","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!"}},"pluralFormula":{"1":0,"default":1}};;
+window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","Next":"Siguiente","closed":"cerrado","Cancel":"Cancelar","Edit":"Editar","Link":"Enlace","Image":"Imagen","Save":"Guardar","Open":"Abierta","Sunday":"Domingo","Monday":"Lunes","Tuesday":"Martes","Wednesday":"Mi\u00e9rcoles","Thursday":"Jueves","Friday":"Viernes","Saturday":"S\u00e1bado","Add":"Agregar","Keywords":"Palabras clave","Continue":"Continuar","Done":"Hecho","OK":"OK","Prev":"Previo","Mon":"Lun","Tue":"Mar","Wed":"Mi\u00e9","Thu":"Jue","Fri":"Vie","Sat":"S\u00e1b","Sun":"Dom","May":"Mayo","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Today":"Hoy","Jan":"Ene","Feb":"Feb","Mar":"Mar","Apr":"Abr","Jun":"Jun","Jul":"Jul","Aug":"Ago","Sep":"Sep","Oct":"Oct","Nov":"Nov","Dec":"Dic","Extend":"Ampliar","Su":"Do","Mo":"Lu","Tu":"Ma","We":"Mi","Th":"Ju","Fr":"Vi","Sa":"Sa","Not published":"No publicado","Loading...":"Cargando...","Hide":"Ocultar","Unlink":"Desvincular","Not promoted":"No publicado en p\u00e1gina principal","mm\/dd\/yy":"mm\/dd\/yy","Quick edit":"Edici\u00f3n r\u00e1pida","Edit Link":"Editar enlace","Remove group":"Eliminar grupo","By @name on @date":"Por @name en @date","By @name":"Por @name","Not in menu":"No est\u00e1 en un men\u00fa","Alias: @alias":"Alias: @alias","No alias":"Sin alias","@label":"@label","New revision":"Nueva revisi\u00f3n","Drag to re-order":"Arrastre para reordenar","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","No revision":"Sin revisi\u00f3n","Requires a title":"Necesita un t\u00edtulo","Not restricted":"Sin restricci\u00f3n","(active tab)":"(solapa activa)","Restricted to certain pages":"Restringido a algunas p\u00e1ginas","The block cannot be placed in this region.":"El bloque no se puede colocar en esta regi\u00f3n.","Hide summary":"Ocultar resumen","Edit summary":"Editar resumen","Don\u0027t display post information":"No mostrar informaci\u00f3n del env\u00edo","Collapse":"Plegar","The selected file %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions.":"El archivo seleccionado %filename no se puede subir al srvidor. Solo se permiten archivos con las siguientes extensiones: %extensions.","Re-order rows by numerical weight instead of dragging.":"Reordenar las filas por peso num\u00e9rico en lugar de arrastrar.","Show row weights":"Mostrar pesos de la fila","Hide row weights":"Ocultar pesos de la fila","Apply (all displays)":"Aplicar (todas las presentaciones)","Apply (this display)":"Aplicar (esta presentaci\u00f3n)","Revert to default":"Volver al valor inicial","You have unsaved changes":"Usted tiene cambios no guaradados","Needs to be updated":"Necesita ser actualizado","Does not need to be updated":"No necesita ser actualizado","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","List additional actions":"Lista adicional de acciones","Flag other translations as outdated":"Marcar las otras traducciones como desfasadas","Do not flag other translations as outdated":"No marcar las otras traducciones como desfasadas","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","You have unsaved changes.":"Tiene cambios sin guardar.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Changing the text format to %text_format will permanently remove content that is not allowed in that text format.\u003Cbr\u003E\u003Cbr\u003ESave your changes before switching the text format to avoid losing data.":"Cambiar el formato de texto a %text_format eliminar\u00e1 permanentemente el contenido que no est\u00e1 permitido en ese formato de texto.\u003Cbr\u003E\u003Cbr\u003EGuarde sus datos antes de cambiar el formato de texto para evitar perder datos.","Change text format?":"\u00bfCambiar el formato de texto?","Rich Text Editor, !label field":"Editor de texto con formato, campo !label","Leave preview?":"\u00bfSalir de la vista previa?","Leave preview":"Salir de la vista previa","Leaving the preview will cause unsaved changes to be lost. Are you sure you want to leave the preview?":"La salida de la vista previa provocar\u00e1 la p\u00e9rdida de los cambios no guardados. \u00bfEst\u00e1 seguro de que desea abandonar la vista previa?","CTRL+Left click will prevent this dialog from showing and proceed to the clicked link.":"CTRL+Clic izquierdo evitar\u00e1 que aparezca este di\u00e1logo e ir\u00e1 directamente al enlace pulsado.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!","Authored on @date":"Escrito el @date","Latitude":"Latitud","Longitude":"Longitud","No location data found. Reason: POSITION_UNAVAILABLE.":"No se encontraron datos de localizaci\u00f3n. Razon: POSICION_NO_DISPONIBLE","No location data found. Reason: TIMEOUT.":"No se encontraron datos de localizaci\u00f3n. Razon: TIEMPO EXPIRADO"},"Long month name":{"January":"Enero","February":"Febrero","March":"Marzo","April":"Abril","May":"Mayo","June":"Junio","July":"Julio","August":"Agosto","September":"Septiembre","October":"Octubre","November":"Noviembre","December":"Diciembre"}},"pluralFormula":{"1":0,"default":1}};;
 /**
  * @file
  * Defines the Drupal JavaScript API.
@@ -660,6 +660,16 @@ document.documentElement.className += ' js';
  *
  * http://api.jqueryui.com/category/ui-core/
  */(function(e){typeof define=="function"&&define.amd?define(["jquery"],e):e(jQuery)})(function(e){function t(t,r){var i,s,o,u=t.nodeName.toLowerCase();return"area"===u?(i=t.parentNode,s=i.name,!t.href||!s||i.nodeName.toLowerCase()!=="map"?!1:(o=e("img[usemap='#"+s+"']")[0],!!o&&n(o))):(/^(input|select|textarea|button|object)$/.test(u)?!t.disabled:"a"===u?t.href||r:r)&&n(t)}function n(t){return e.expr.filters.visible(t)&&!e(t).parents().addBack().filter(function(){return e.css(this,"visibility")==="hidden"}).length}e.ui=e.ui||{},e.extend(e.ui,{version:"1.11.4",keyCode:{BACKSPACE:8,COMMA:188,DELETE:46,DOWN:40,END:35,ENTER:13,ESCAPE:27,HOME:36,LEFT:37,PAGE_DOWN:34,PAGE_UP:33,PERIOD:190,RIGHT:39,SPACE:32,TAB:9,UP:38}}),e.fn.extend({scrollParent:function(t){var n=this.css("position"),r=n==="absolute",i=t?/(auto|scroll|hidden)/:/(auto|scroll)/,s=this.parents().filter(function(){var t=e(this);return r&&t.css("position")==="static"?!1:i.test(t.css("overflow")+t.css("overflow-y")+t.css("overflow-x"))}).eq(0);return n==="fixed"||!s.length?e(this[0].ownerDocument||document):s},uniqueId:function(){var e=0;return function(){return this.each(function(){this.id||(this.id="ui-id-"+ ++e)})}}(),removeUniqueId:function(){return this.each(function(){/^ui-id-\d+$/.test(this.id)&&e(this).removeAttr("id")})}}),e.extend(e.expr[":"],{data:e.expr.createPseudo?e.expr.createPseudo(function(t){return function(n){return!!e.data(n,t)}}):function(t,n,r){return!!e.data(t,r[3])},focusable:function(n){return t(n,!isNaN(e.attr(n,"tabindex")))},tabbable:function(n){var r=e.attr(n,"tabindex"),i=isNaN(r);return(i||r>=0)&&t(n,!i)}}),e("<a>").outerWidth(1).jquery||e.each(["Width","Height"],function(t,n){function o(t,n,i,s){return e.each(r,function(){n-=parseFloat(e.css(t,"padding"+this))||0,i&&(n-=parseFloat(e.css(t,"border"+this+"Width"))||0),s&&(n-=parseFloat(e.css(t,"margin"+this))||0)}),n}var r=n==="Width"?["Left","Right"]:["Top","Bottom"],i=n.toLowerCase(),s={innerWidth:e.fn.innerWidth,innerHeight:e.fn.innerHeight,outerWidth:e.fn.outerWidth,outerHeight:e.fn.outerHeight};e.fn["inner"+n]=function(t){return t===undefined?s["inner"+n].call(this):this.each(function(){e(this).css(i,o(this,t)+"px")})},e.fn["outer"+n]=function(t,r){return typeof t!="number"?s["outer"+n].call(this,t):this.each(function(){e(this).css(i,o(this,t,!0,r)+"px")})}}),e.fn.addBack||(e.fn.addBack=function(e){return this.add(e==null?this.prevObject:this.prevObject.filter(e))}),e("<a>").data("a-b","a").removeData("a-b").data("a-b")&&(e.fn.removeData=function(t){return function(n){return arguments.length?t.call(this,e.camelCase(n)):t.call(this)}}(e.fn.removeData)),e.ui.ie=!!/msie [\w.]+/.exec(navigator.userAgent.toLowerCase()),e.fn.extend({focus:function(t){return function(n,r){return typeof n=="number"?this.each(function(){var t=this;setTimeout(function(){e(t).focus(),r&&r.call(t)},n)}):t.apply(this,arguments)}}(e.fn.focus),disableSelection:function(){var e="onselectstart"in document.createElement("div")?"selectstart":"mousedown";return function(){return this.bind(e+".ui-disableSelection",function(e){e.preventDefault()})}}(),enableSelection:function(){return this.unbind(".ui-disableSelection")},zIndex:function(t){if(t!==undefined)return this.css("zIndex",t);if(this.length){var n=e(this[0]),r,i;while(n.length&&n[0]!==document){r=n.css("position");if(r==="absolute"||r==="relative"||r==="fixed"){i=parseInt(n.css("zIndex"),10);if(!isNaN(i)&&i!==0)return i}n=n.parent()}}return 0}}),e.ui.plugin={add:function(t,n,r){var i,s=e.ui[t].prototype;for(i in r)s.plugins[i]=s.plugins[i]||[],s.plugins[i].push([n,r[i]])},call:function(e,t,n,r){var i,s=e.plugins[t];if(!s)return;if(!r&&(!e.element[0].parentNode||e.element[0].parentNode.nodeType===11))return;for(i=0;i<s.length;i++)e.options[s[i][0]]&&s[i][1].apply(e.element,n)}}});;
+/*!
+ * jQuery UI Widget 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/jQuery.widget/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery"],e):e(jQuery)})(function(e){var t=0,n=Array.prototype.slice;return e.cleanData=function(t){return function(n){var r,i,s;for(s=0;(i=n[s])!=null;s++)try{r=e._data(i,"events"),r&&r.remove&&e(i).triggerHandler("remove")}catch(o){}t(n)}}(e.cleanData),e.widget=function(t,n,r){var i,s,o,u,a={},f=t.split(".")[0];return t=t.split(".")[1],i=f+"-"+t,r||(r=n,n=e.Widget),e.expr[":"][i.toLowerCase()]=function(t){return!!e.data(t,i)},e[f]=e[f]||{},s=e[f][t],o=e[f][t]=function(e,t){if(!this._createWidget)return new o(e,t);arguments.length&&this._createWidget(e,t)},e.extend(o,s,{version:r.version,_proto:e.extend({},r),_childConstructors:[]}),u=new n,u.options=e.widget.extend({},u.options),e.each(r,function(t,r){if(!e.isFunction(r)){a[t]=r;return}a[t]=function(){var e=function(){return n.prototype[t].apply(this,arguments)},i=function(e){return n.prototype[t].apply(this,e)};return function(){var t=this._super,n=this._superApply,s;return this._super=e,this._superApply=i,s=r.apply(this,arguments),this._super=t,this._superApply=n,s}}()}),o.prototype=e.widget.extend(u,{widgetEventPrefix:s?u.widgetEventPrefix||t:t},a,{constructor:o,namespace:f,widgetName:t,widgetFullName:i}),s?(e.each(s._childConstructors,function(t,n){var r=n.prototype;e.widget(r.namespace+"."+r.widgetName,o,n._proto)}),delete s._childConstructors):n._childConstructors.push(o),e.widget.bridge(t,o),o},e.widget.extend=function(t){var r=n.call(arguments,1),i=0,s=r.length,o,u;for(;i<s;i++)for(o in r[i])u=r[i][o],r[i].hasOwnProperty(o)&&u!==undefined&&(e.isPlainObject(u)?t[o]=e.isPlainObject(t[o])?e.widget.extend({},t[o],u):e.widget.extend({},u):t[o]=u);return t},e.widget.bridge=function(t,r){var i=r.prototype.widgetFullName||t;e.fn[t]=function(s){var o=typeof s=="string",u=n.call(arguments,1),a=this;return o?this.each(function(){var n,r=e.data(this,i);if(s==="instance")return a=r,!1;if(!r)return e.error("cannot call methods on "+t+" prior to initialization; "+"attempted to call method '"+s+"'");if(!e.isFunction(r[s])||s.charAt(0)==="_")return e.error("no such method '"+s+"' for "+t+" widget instance");n=r[s].apply(r,u);if(n!==r&&n!==undefined)return a=n&&n.jquery?a.pushStack(n.get()):n,!1}):(u.length&&(s=e.widget.extend.apply(null,[s].concat(u))),this.each(function(){var t=e.data(this,i);t?(t.option(s||{}),t._init&&t._init()):e.data(this,i,new r(s,this))})),a}},e.Widget=function(){},e.Widget._childConstructors=[],e.Widget.prototype={widgetName:"widget",widgetEventPrefix:"",defaultElement:"<div>",options:{disabled:!1,create:null},_createWidget:function(n,r){r=e(r||this.defaultElement||this)[0],this.element=e(r),this.uuid=t++,this.eventNamespace="."+this.widgetName+this.uuid,this.bindings=e(),this.hoverable=e(),this.focusable=e(),r!==this&&(e.data(r,this.widgetFullName,this),this._on(!0,this.element,{remove:function(e){e.target===r&&this.destroy()}}),this.document=e(r.style?r.ownerDocument:r.document||r),this.window=e(this.document[0].defaultView||this.document[0].parentWindow)),this.options=e.widget.extend({},this.options,this._getCreateOptions(),n),this._create(),this._trigger("create",null,this._getCreateEventData()),this._init()},_getCreateOptions:e.noop,_getCreateEventData:e.noop,_create:e.noop,_init:e.noop,destroy:function(){this._destroy(),this.element.unbind(this.eventNamespace).removeData(this.widgetFullName).removeData(e.camelCase(this.widgetFullName)),this.widget().unbind(this.eventNamespace).removeAttr("aria-disabled").removeClass(this.widgetFullName+"-disabled "+"ui-state-disabled"),this.bindings.unbind(this.eventNamespace),this.hoverable.removeClass("ui-state-hover"),this.focusable.removeClass("ui-state-focus")},_destroy:e.noop,widget:function(){return this.element},option:function(t,n){var r=t,i,s,o;if(arguments.length===0)return e.widget.extend({},this.options);if(typeof t=="string"){r={},i=t.split("."),t=i.shift();if(i.length){s=r[t]=e.widget.extend({},this.options[t]);for(o=0;o<i.length-1;o++)s[i[o]]=s[i[o]]||{},s=s[i[o]];t=i.pop();if(arguments.length===1)return s[t]===undefined?null:s[t];s[t]=n}else{if(arguments.length===1)return this.options[t]===undefined?null:this.options[t];r[t]=n}}return this._setOptions(r),this},_setOptions:function(e){var t;for(t in e)this._setOption(t,e[t]);return this},_setOption:function(e,t){return this.options[e]=t,e==="disabled"&&(this.widget().toggleClass(this.widgetFullName+"-disabled",!!t),t&&(this.hoverable.removeClass("ui-state-hover"),this.focusable.removeClass("ui-state-focus"))),this},enable:function(){return this._setOptions({disabled:!1})},disable:function(){return this._setOptions({disabled:!0})},_on:function(t,n,r){var i,s=this;typeof t!="boolean"&&(r=n,n=t,t=!1),r?(n=i=e(n),this.bindings=this.bindings.add(n)):(r=n,n=this.element,i=this.widget()),e.each(r,function(r,o){function u(){if(!t&&(s.options.disabled===!0||e(this).hasClass("ui-state-disabled")))return;return(typeof o=="string"?s[o]:o).apply(s,arguments)}typeof o!="string"&&(u.guid=o.guid=o.guid||u.guid||e.guid++);var a=r.match(/^([\w:-]*)\s*(.*)$/),f=a[1]+s.eventNamespace,l=a[2];l?i.delegate(l,f,u):n.bind(f,u)})},_off:function(t,n){n=(n||"").split(" ").join(this.eventNamespace+" ")+this.eventNamespace,t.unbind(n).undelegate(n),this.bindings=e(this.bindings.not(t).get()),this.focusable=e(this.focusable.not(t).get()),this.hoverable=e(this.hoverable.not(t).get())},_delay:function(e,t){function n(){return(typeof e=="string"?r[e]:e).apply(r,arguments)}var r=this;return setTimeout(n,t||0)},_hoverable:function(t){this.hoverable=this.hoverable.add(t),this._on(t,{mouseenter:function(t){e(t.currentTarget).addClass("ui-state-hover")},mouseleave:function(t){e(t.currentTarget).removeClass("ui-state-hover")}})},_focusable:function(t){this.focusable=this.focusable.add(t),this._on(t,{focusin:function(t){e(t.currentTarget).addClass("ui-state-focus")},focusout:function(t){e(t.currentTarget).removeClass("ui-state-focus")}})},_trigger:function(t,n,r){var i,s,o=this.options[t];r=r||{},n=e.Event(n),n.type=(t===this.widgetEventPrefix?t:this.widgetEventPrefix+t).toLowerCase(),n.target=this.element[0],s=n.originalEvent;if(s)for(i in s)i in n||(n[i]=s[i]);return this.element.trigger(n,r),!(e.isFunction(o)&&o.apply(this.element[0],[n].concat(r))===!1||n.isDefaultPrevented())}},e.each({show:"fadeIn",hide:"fadeOut"},function(t,n){e.Widget.prototype["_"+t]=function(r,i,s){typeof i=="string"&&(i={effect:i});var o,u=i?i===!0||typeof i=="number"?n:i.effect||n:t;i=i||{},typeof i=="number"&&(i={duration:i}),o=!e.isEmptyObject(i),i.complete=s,i.delay&&r.delay(i.delay),o&&e.effects&&e.effects.effect[u]?r[t](i):u!==t&&r[u]?r[u](i.duration,i.easing,s):r.queue(function(n){e(this)[t](),s&&s.call(r[0]),n()})}}),e.widget});;
 /**
  * @file
  * Attaches behaviors for the Contextual module.
@@ -2865,6 +2875,282 @@ document.documentElement.className += ' js';
 
 })(jQuery, Drupal, drupalSettings);
 ;
+/*! jquery.cookie v1.4.1 | MIT */
+!function(a){"function"==typeof define&&define.amd?define(["jquery"],a):"object"==typeof exports?a(require("jquery")):a(jQuery)}(function(a){function b(a){return h.raw?a:encodeURIComponent(a)}function c(a){return h.raw?a:decodeURIComponent(a)}function d(a){return b(h.json?JSON.stringify(a):String(a))}function e(a){0===a.indexOf('"')&&(a=a.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,"\\"));try{return a=decodeURIComponent(a.replace(g," ")),h.json?JSON.parse(a):a}catch(b){}}function f(b,c){var d=h.raw?b:e(b);return a.isFunction(c)?c(d):d}var g=/\+/g,h=a.cookie=function(e,g,i){if(void 0!==g&&!a.isFunction(g)){if(i=a.extend({},h.defaults,i),"number"==typeof i.expires){var j=i.expires,k=i.expires=new Date;k.setTime(+k+864e5*j)}return document.cookie=[b(e),"=",d(g),i.expires?"; expires="+i.expires.toUTCString():"",i.path?"; path="+i.path:"",i.domain?"; domain="+i.domain:"",i.secure?"; secure":""].join("")}for(var l=e?void 0:{},m=document.cookie?document.cookie.split("; "):[],n=0,o=m.length;o>n;n++){var p=m[n].split("="),q=c(p.shift()),r=p.join("=");if(e&&e===q){l=f(r,g);break}e||void 0===(r=f(r))||(l[q]=r)}return l};h.defaults={},a.removeCookie=function(b,c){return void 0===a.cookie(b)?!1:(a.cookie(b,"",a.extend({},c,{expires:-1})),!a.cookie(b))}});;
+/* jQuery Foundation Joyride Plugin 2.1 | Copyright 2012, ZURB | www.opensource.org/licenses/mit-license.php */
+(function(e,t,n){"use strict";var r={version:"2.0.3",tipLocation:"bottom",nubPosition:"auto",scroll:!0,scrollSpeed:300,timer:0,autoStart:!1,startTimerOnClick:!0,startOffset:0,nextButton:!0,tipAnimation:"fade",pauseAfter:[],tipAnimationFadeSpeed:300,cookieMonster:!1,cookieName:"joyride",cookieDomain:!1,cookiePath:!1,localStorage:!1,localStorageKey:"joyride",tipContainer:"body",modal:!1,expose:!1,postExposeCallback:e.noop,preRideCallback:e.noop,postRideCallback:e.noop,preStepCallback:e.noop,postStepCallback:e.noop,template:{link:'<a href="#close" class="joyride-close-tip">X</a>',timer:'<div class="joyride-timer-indicator-wrap"><span class="joyride-timer-indicator"></span></div>',tip:'<div class="joyride-tip-guide"><span class="joyride-nub"></span></div>',wrapper:'<div class="joyride-content-wrapper" role="dialog"></div>',button:'<a href="#" class="joyride-next-tip"></a>',modal:'<div class="joyride-modal-bg"></div>',expose:'<div class="joyride-expose-wrapper"></div>',exposeCover:'<div class="joyride-expose-cover"></div>'}},i=i||!1,s={},o={init:function(n){return this.each(function(){e.isEmptyObject(s)?(s=e.extend(!0,r,n),s.document=t.document,s.$document=e(s.document),s.$window=e(t),s.$content_el=e(this),s.$body=e(s.tipContainer),s.body_offset=e(s.tipContainer).position(),s.$tip_content=e("> li",s.$content_el),s.paused=!1,s.attempts=0,s.tipLocationPatterns={top:["bottom"],bottom:[],left:["right","top","bottom"],right:["left","top","bottom"]},o.jquery_check(),e.isFunction(e.cookie)||(s.cookieMonster=!1),(!s.cookieMonster||!e.cookie(s.cookieName))&&(!s.localStorage||!o.support_localstorage()||!localStorage.getItem(s.localStorageKey))&&(s.$tip_content.each(function(t){o.create({$li:e(this),index:t})}),s.autoStart&&(!s.startTimerOnClick&&s.timer>0?(o.show("init"),o.startTimer()):o.show("init"))),s.$document.on("click.joyride",".joyride-next-tip, .joyride-modal-bg",function(e){e.preventDefault(),s.$li.next().length<1?o.end():s.timer>0?(clearTimeout(s.automate),o.hide(),o.show(),o.startTimer()):(o.hide(),o.show())}),s.$document.on("click.joyride",".joyride-close-tip",function(e){e.preventDefault(),o.end()}),s.$window.bind("resize.joyride",function(t){if(s.$li){if(s.exposed&&s.exposed.length>0){var n=e(s.exposed);n.each(function(){var t=e(this);o.un_expose(t),o.expose(t)})}o.is_phone()?o.pos_phone():o.pos_default()}})):o.restart()})},resume:function(){o.set_li(),o.show()},nextTip:function(){s.$li.next().length<1?o.end():s.timer>0?(clearTimeout(s.automate),o.hide(),o.show(),o.startTimer()):(o.hide(),o.show())},tip_template:function(t){var n,r,i;return t.tip_class=t.tip_class||"",n=e(s.template.tip).addClass(t.tip_class),r=e.trim(e(t.li).html())+o.button_text(t.button_text)+s.template.link+o.timer_instance(t.index),i=e(s.template.wrapper),t.li.attr("data-aria-labelledby")&&i.attr("aria-labelledby",t.li.attr("data-aria-labelledby")),t.li.attr("data-aria-describedby")&&i.attr("aria-describedby",t.li.attr("data-aria-describedby")),n.append(i),n.first().attr("data-index",t.index),e(".joyride-content-wrapper",n).append(r),n[0]},timer_instance:function(t){var n;return t===0&&s.startTimerOnClick&&s.timer>0||s.timer===0?n="":n=o.outerHTML(e(s.template.timer)[0]),n},button_text:function(t){return s.nextButton?(t=e.trim(t)||"Next",t=o.outerHTML(e(s.template.button).append(t)[0])):t="",t},create:function(t){var n=t.$li.attr("data-button")||t.$li.attr("data-text"),r=t.$li.attr("class"),i=e(o.tip_template({tip_class:r,index:t.index,button_text:n,li:t.$li}));e(s.tipContainer).append(i)},show:function(t){var r={},i,u=[],a=0,f,l=null;if(s.$li===n||e.inArray(s.$li.index(),s.pauseAfter)===-1){s.paused?s.paused=!1:o.set_li(t),s.attempts=0;if(s.$li.length&&s.$target.length>0){t&&(s.preRideCallback(s.$li.index(),s.$next_tip),s.modal&&o.show_modal()),s.preStepCallback(s.$li.index(),s.$next_tip),u=(s.$li.data("options")||":").split(";"),a=u.length;for(i=a-1;i>=0;i--)f=u[i].split(":"),f.length===2&&(r[e.trim(f[0])]=e.trim(f[1]));s.tipSettings=e.extend({},s,r),s.tipSettings.tipLocationPattern=s.tipLocationPatterns[s.tipSettings.tipLocation],s.modal&&s.expose&&o.expose(),!/body/i.test(s.$target.selector)&&s.scroll&&o.scroll_to(),o.is_phone()?o.pos_phone(!0):o.pos_default(!0),l=e(".joyride-timer-indicator",s.$next_tip),/pop/i.test(s.tipAnimation)?(l.outerWidth(0),s.timer>0?(s.$next_tip.show(),l.animate({width:e(".joyride-timer-indicator-wrap",s.$next_tip).outerWidth()},s.timer)):s.$next_tip.show()):/fade/i.test(s.tipAnimation)&&(l.outerWidth(0),s.timer>0?(s.$next_tip.fadeIn(s.tipAnimationFadeSpeed),s.$next_tip.show(),l.animate({width:e(".joyride-timer-indicator-wrap",s.$next_tip).outerWidth()},s.timer)):s.$next_tip.fadeIn(s.tipAnimationFadeSpeed)),s.$current_tip=s.$next_tip,e(".joyride-next-tip",s.$current_tip).focus(),o.tabbable(s.$current_tip)}else s.$li&&s.$target.length<1?o.show():o.end()}else s.paused=!0},is_phone:function(){return i?i.mq("only screen and (max-width: 767px)"):s.$window.width()<767?!0:!1},support_localstorage:function(){return i?i.localstorage:!!t.localStorage},hide:function(){s.modal&&s.expose&&o.un_expose(),s.modal||e(".joyride-modal-bg").hide(),s.$current_tip.hide(),s.postStepCallback(s.$li.index(),s.$current_tip)},set_li:function(e){e?(s.$li=s.$tip_content.eq(s.startOffset),o.set_next_tip(),s.$current_tip=s.$next_tip):(s.$li=s.$li.next(),o.set_next_tip()),o.set_target()},set_next_tip:function(){s.$next_tip=e(".joyride-tip-guide[data-index="+s.$li.index()+"]")},set_target:function(){var t=s.$li.attr("data-class"),n=s.$li.attr("data-id"),r=function(){return n?e(s.document.getElementById(n)):t?e("."+t).filter(":visible").first():e("body")};s.$target=r()},scroll_to:function(){var t,n;t=s.$window.height()/2,n=Math.ceil(s.$target.offset().top-t+s.$next_tip.outerHeight()),e("html, body").stop().animate({scrollTop:n},s.scrollSpeed)},paused:function(){return e.inArray(s.$li.index()+1,s.pauseAfter)===-1?!0:!1},destroy:function(){e.isEmptyObject(s)||s.$document.off(".joyride"),e(t).off(".joyride"),e(".joyride-close-tip, .joyride-next-tip, .joyride-modal-bg").off(".joyride"),e(".joyride-tip-guide, .joyride-modal-bg").remove(),clearTimeout(s.automate),s={}},restart:function(){s.autoStart?(o.hide(),s.$li=n,o.show("init")):(!s.startTimerOnClick&&s.timer>0?(o.show("init"),o.startTimer()):o.show("init"),s.autoStart=!0)},pos_default:function(t){var n=Math.ceil(s.$window.height()/2),r=s.$next_tip.offset(),i=e(".joyride-nub",s.$next_tip),u=Math.ceil(i.outerWidth()/2),a=Math.ceil(i.outerHeight()/2),f=t||!1;f&&(s.$next_tip.css("visibility","hidden"),s.$next_tip.show());if(!/body/i.test(s.$target.selector)){var l=s.tipSettings.tipAdjustmentY?parseInt(s.tipSettings.tipAdjustmentY):0,c=s.tipSettings.tipAdjustmentX?parseInt(s.tipSettings.tipAdjustmentX):0;o.bottom()?(s.$next_tip.css({top:s.$target.offset().top+a+s.$target.outerHeight()+l,left:s.$target.offset().left+c}),/right/i.test(s.tipSettings.nubPosition)&&s.$next_tip.css("left",s.$target.offset().left-s.$next_tip.outerWidth()+s.$target.outerWidth()),o.nub_position(i,s.tipSettings.nubPosition,"top")):o.top()?(s.$next_tip.css({top:s.$target.offset().top-s.$next_tip.outerHeight()-a+l,left:s.$target.offset().left+c}),o.nub_position(i,s.tipSettings.nubPosition,"bottom")):o.right()?(s.$next_tip.css({top:s.$target.offset().top+l,left:s.$target.outerWidth()+s.$target.offset().left+u+c}),o.nub_position(i,s.tipSettings.nubPosition,"left")):o.left()&&(s.$next_tip.css({top:s.$target.offset().top+l,left:s.$target.offset().left-s.$next_tip.outerWidth()-u+c}),o.nub_position(i,s.tipSettings.nubPosition,"right")),!o.visible(o.corners(s.$next_tip))&&s.attempts<s.tipSettings.tipLocationPattern.length&&(i.removeClass("bottom").removeClass("top").removeClass("right").removeClass("left"),s.tipSettings.tipLocation=s.tipSettings.tipLocationPattern[s.attempts],s.attempts++,o.pos_default(!0))}else s.$li.length&&o.pos_modal(i);f&&(s.$next_tip.hide(),s.$next_tip.css("visibility","visible"))},pos_phone:function(t){var n=s.$next_tip.outerHeight(),r=s.$next_tip.offset(),i=s.$target.outerHeight(),u=e(".joyride-nub",s.$next_tip),a=Math.ceil(u.outerHeight()/2),f=t||!1;u.removeClass("bottom").removeClass("top").removeClass("right").removeClass("left"),f&&(s.$next_tip.css("visibility","hidden"),s.$next_tip.show()),/body/i.test(s.$target.selector)?s.$li.length&&o.pos_modal(u):o.top()?(s.$next_tip.offset({top:s.$target.offset().top-n-a}),u.addClass("bottom")):(s.$next_tip.offset({top:s.$target.offset().top+i+a}),u.addClass("top")),f&&(s.$next_tip.hide(),s.$next_tip.css("visibility","visible"))},pos_modal:function(e){o.center(),e.hide(),o.show_modal()},show_modal:function(){e(".joyride-modal-bg").length<1&&e("body").append(s.template.modal).show(),/pop/i.test(s.tipAnimation)?e(".joyride-modal-bg").show():e(".joyride-modal-bg").fadeIn(s.tipAnimationFadeSpeed)},expose:function(){var n,r,i,u,a="expose-"+Math.floor(Math.random()*1e4);if(arguments.length>0&&arguments[0]instanceof e)i=arguments[0];else{if(!s.$target||!!/body/i.test(s.$target.selector))return!1;i=s.$target}if(i.length<1)return t.console&&console.error("element not valid",i),!1;n=e(s.template.expose),s.$body.append(n),n.css({top:i.offset().top,left:i.offset().left,width:i.outerWidth(!0),height:i.outerHeight(!0)}),r=e(s.template.exposeCover),u={zIndex:i.css("z-index"),position:i.css("position")},i.css("z-index",n.css("z-index")*1+1),u.position=="static"&&i.css("position","relative"),i.data("expose-css",u),r.css({top:i.offset().top,left:i.offset().left,width:i.outerWidth(!0),height:i.outerHeight(!0)}),s.$body.append(r),n.addClass(a),r.addClass(a),s.tipSettings.exposeClass&&(n.addClass(s.tipSettings.exposeClass),r.addClass(s.tipSettings.exposeClass)),i.data("expose",a),s.postExposeCallback(s.$li.index(),s.$next_tip,i),o.add_exposed(i)},un_expose:function(){var n,r,i,u,a=!1;if(arguments.length>0&&arguments[0]instanceof e)r=arguments[0];else{if(!s.$target||!!/body/i.test(s.$target.selector))return!1;r=s.$target}if(r.length<1)return t.console&&console.error("element not valid",r),!1;n=r.data("expose"),i=e("."+n),arguments.length>1&&(a=arguments[1]),a===!0?e(".joyride-expose-wrapper,.joyride-expose-cover").remove():i.remove(),u=r.data("expose-css"),u.zIndex=="auto"?r.css("z-index",""):r.css("z-index",u.zIndex),u.position!=r.css("position")&&(u.position=="static"?r.css("position",""):r.css("position",u.position)),r.removeData("expose"),r.removeData("expose-z-index"),o.remove_exposed(r)},add_exposed:function(t){s.exposed=s.exposed||[],t instanceof e?s.exposed.push(t[0]):typeof t=="string"&&s.exposed.push(t)},remove_exposed:function(t){var n;t instanceof e?n=t[0]:typeof t=="string"&&(n=t),s.exposed=s.exposed||[];for(var r=0;r<s.exposed.length;r++)if(s.exposed[r]==n){s.exposed.splice(r,1);return}},center:function(){var e=s.$window;return s.$next_tip.css({top:(e.height()-s.$next_tip.outerHeight())/2+e.scrollTop(),left:(e.width()-s.$next_tip.outerWidth())/2+e.scrollLeft()}),!0},bottom:function(){return/bottom/i.test(s.tipSettings.tipLocation)},top:function(){return/top/i.test(s.tipSettings.tipLocation)},right:function(){return/right/i.test(s.tipSettings.tipLocation)},left:function(){return/left/i.test(s.tipSettings.tipLocation)},corners:function(e){var t=s.$window,n=t.height()/2,r=Math.ceil(s.$target.offset().top-n+s.$next_tip.outerHeight()),i=t.width()+t.scrollLeft(),o=t.height()+r,u=t.height()+t.scrollTop(),a=t.scrollTop();return r<a&&(r<0?a=0:a=r),o>u&&(u=o),[e.offset().top<a,i<e.offset().left+e.outerWidth(),u<e.offset().top+e.outerHeight(),t.scrollLeft()>e.offset().left]},visible:function(e){var t=e.length;while(t--)if(e[t])return!1;return!0},nub_position:function(e,t,n){t==="auto"?e.addClass(n):e.addClass(t)},startTimer:function(){s.$li.length?s.automate=setTimeout(function(){o.hide(),o.show(),o.startTimer()},s.timer):clearTimeout(s.automate)},end:function(){s.cookieMonster&&e.cookie(s.cookieName,"ridden",{expires:365,domain:s.cookieDomain,path:s.cookiePath}),s.localStorage&&localStorage.setItem(s.localStorageKey,!0),s.timer>0&&clearTimeout(s.automate),s.modal&&s.expose&&o.un_expose(),s.$current_tip&&s.$current_tip.hide(),s.$li&&(s.postStepCallback(s.$li.index(),s.$current_tip),s.postRideCallback(s.$li.index(),s.$current_tip)),e(".joyride-modal-bg").hide()},jquery_check:function(){return e.isFunction(e.fn.on)?!0:(e.fn.on=function(e,t,n){return this.delegate(t,e,n)},e.fn.off=function(e,t,n){return this.undelegate(t,e,n)},!1)},outerHTML:function(e){return e.outerHTML||(new XMLSerializer).serializeToString(e)},version:function(){return s.version},tabbable:function(t){e(t).on("keydown",function(n){if(!n.isDefaultPrevented()&&n.keyCode&&n.keyCode===27){n.preventDefault(),o.end();return}if(n.keyCode!==9)return;var r=e(t).find(":tabbable"),i=r.filter(":first"),s=r.filter(":last");n.target===s[0]&&!n.shiftKey?(i.focus(1),n.preventDefault()):n.target===i[0]&&n.shiftKey&&(s.focus(1),n.preventDefault())})}};e.fn.joyride=function(t){if(o[t])return o[t].apply(this,Array.prototype.slice.call(arguments,1));if(typeof t=="object"||!t)return o.init.apply(this,arguments);e.error("Method "+t+" does not exist on jQuery.joyride")}})(jQuery,this);
+;
+/**
+ * @file
+ * Attaches behaviors for the Tour module's toolbar tab.
+ */
+
+(function ($, Backbone, Drupal, document) {
+
+  'use strict';
+
+  var queryString = decodeURI(window.location.search);
+
+  /**
+   * Attaches the tour's toolbar tab behavior.
+   *
+   * It uses the query string for:
+   * - tour: When ?tour=1 is present, the tour will start automatically after
+   *   the page has loaded.
+   * - tips: Pass ?tips=class in the url to filter the available tips to the
+   *   subset which match the given class.
+   *
+   * @example
+   * http://example.com/foo?tour=1&tips=bar
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attach tour functionality on `tour` events.
+   */
+  Drupal.behaviors.tour = {
+    attach: function (context) {
+      $('body').once('tour').each(function () {
+        var model = new Drupal.tour.models.StateModel();
+        new Drupal.tour.views.ToggleTourView({
+          el: $(context).find('#toolbar-tab-tour'),
+          model: model
+        });
+
+        model
+          // Allow other scripts to respond to tour events.
+          .on('change:isActive', function (model, isActive) {
+            $(document).trigger((isActive) ? 'drupalTourStarted' : 'drupalTourStopped');
+          })
+          // Initialization: check whether a tour is available on the current
+          // page.
+          .set('tour', $(context).find('ol#tour'));
+
+        // Start the tour immediately if toggled via query string.
+        if (/tour=?/i.test(queryString)) {
+          model.set('isActive', true);
+        }
+      });
+    }
+  };
+
+  /**
+   * @namespace
+   */
+  Drupal.tour = Drupal.tour || {
+
+    /**
+     * @namespace Drupal.tour.models
+     */
+    models: {},
+
+    /**
+     * @namespace Drupal.tour.views
+     */
+    views: {}
+  };
+
+  /**
+   * Backbone Model for tours.
+   *
+   * @constructor
+   *
+   * @augments Backbone.Model
+   */
+  Drupal.tour.models.StateModel = Backbone.Model.extend(/** @lends Drupal.tour.models.StateModel# */{
+
+    /**
+     * @type {object}
+     */
+    defaults: /** @lends Drupal.tour.models.StateModel# */{
+
+      /**
+       * Indicates whether the Drupal root window has a tour.
+       *
+       * @type {Array}
+       */
+      tour: [],
+
+      /**
+       * Indicates whether the tour is currently running.
+       *
+       * @type {bool}
+       */
+      isActive: false,
+
+      /**
+       * Indicates which tour is the active one (necessary to cleanly stop).
+       *
+       * @type {Array}
+       */
+      activeTour: []
+    }
+  });
+
+  Drupal.tour.views.ToggleTourView = Backbone.View.extend(/** @lends Drupal.tour.views.ToggleTourView# */{
+
+    /**
+     * @type {object}
+     */
+    events: {click: 'onClick'},
+
+    /**
+     * Handles edit mode toggle interactions.
+     *
+     * @constructs
+     *
+     * @augments Backbone.View
+     */
+    initialize: function () {
+      this.listenTo(this.model, 'change:tour change:isActive', this.render);
+      this.listenTo(this.model, 'change:isActive', this.toggleTour);
+    },
+
+    /**
+     * @inheritdoc
+     *
+     * @return {Drupal.tour.views.ToggleTourView}
+     *   The `ToggleTourView` view.
+     */
+    render: function () {
+      // Render the visibility.
+      this.$el.toggleClass('hidden', this._getTour().length === 0);
+      // Render the state.
+      var isActive = this.model.get('isActive');
+      this.$el.find('button')
+        .toggleClass('is-active', isActive)
+        .prop('aria-pressed', isActive);
+      return this;
+    },
+
+    /**
+     * Model change handler; starts or stops the tour.
+     */
+    toggleTour: function () {
+      if (this.model.get('isActive')) {
+        var $tour = this._getTour();
+        this._removeIrrelevantTourItems($tour, this._getDocument());
+        var that = this;
+        if ($tour.find('li').length) {
+          $tour.joyride({
+            autoStart: true,
+            postRideCallback: function () { that.model.set('isActive', false); },
+            // HTML segments for tip layout.
+            template: {
+              link: '<a href=\"#close\" class=\"joyride-close-tip\">&times;</a>',
+              button: '<a href=\"#\" class=\"button button--primary joyride-next-tip\"></a>'
+            }
+          });
+          this.model.set({isActive: true, activeTour: $tour});
+        }
+      }
+      else {
+        this.model.get('activeTour').joyride('destroy');
+        this.model.set({isActive: false, activeTour: []});
+      }
+    },
+
+    /**
+     * Toolbar tab click event handler; toggles isActive.
+     *
+     * @param {jQuery.Event} event
+     *   The click event.
+     */
+    onClick: function (event) {
+      this.model.set('isActive', !this.model.get('isActive'));
+      event.preventDefault();
+      event.stopPropagation();
+    },
+
+    /**
+     * Gets the tour.
+     *
+     * @return {jQuery}
+     *   A jQuery element pointing to a `<ol>` containing tour items.
+     */
+    _getTour: function () {
+      return this.model.get('tour');
+    },
+
+    /**
+     * Gets the relevant document as a jQuery element.
+     *
+     * @return {jQuery}
+     *   A jQuery element pointing to the document within which a tour would be
+     *   started given the current state.
+     */
+    _getDocument: function () {
+      return $(document);
+    },
+
+    /**
+     * Removes tour items for elements that don't have matching page elements.
+     *
+     * Or that are explicitly filtered out via the 'tips' query string.
+     *
+     * @example
+     * <caption>This will filter out tips that do not have a matching
+     * page element or don't have the "bar" class.</caption>
+     * http://example.com/foo?tips=bar
+     *
+     * @param {jQuery} $tour
+     *   A jQuery element pointing to a `<ol>` containing tour items.
+     * @param {jQuery} $document
+     *   A jQuery element pointing to the document within which the elements
+     *   should be sought.
+     *
+     * @see Drupal.tour.views.ToggleTourView#_getDocument
+     */
+    _removeIrrelevantTourItems: function ($tour, $document) {
+      var removals = false;
+      var tips = /tips=([^&]+)/.exec(queryString);
+      $tour
+        .find('li')
+        .each(function () {
+          var $this = $(this);
+          var itemId = $this.attr('data-id');
+          var itemClass = $this.attr('data-class');
+          // If the query parameter 'tips' is set, remove all tips that don't
+          // have the matching class.
+          if (tips && !$(this).hasClass(tips[1])) {
+            removals = true;
+            $this.remove();
+            return;
+          }
+          // Remove tip from the DOM if there is no corresponding page element.
+          if ((!itemId && !itemClass) ||
+            (itemId && $document.find('#' + itemId).length) ||
+            (itemClass && $document.find('.' + itemClass).length)) {
+            return;
+          }
+          removals = true;
+          $this.remove();
+        });
+
+      // If there were removals, we'll have to do some clean-up.
+      if (removals) {
+        var total = $tour.find('li').length;
+        if (!total) {
+          this.model.set({tour: []});
+        }
+
+        $tour
+          .find('li')
+          // Rebuild the progress data.
+          .each(function (index) {
+            var progress = Drupal.t('!tour_item of !total', {'!tour_item': index + 1, '!total': total});
+            $(this).find('.tour-progress').text(progress);
+          })
+          // Update the last item to have "End tour" as the button.
+          .eq(-1)
+          .attr('data-text', Drupal.t('End tour'));
+      }
+    }
+
+  });
+
+})(jQuery, Backbone, Drupal, document);
+;
 /**
  * @file
  * Attaches behaviors for Drupal's active link marking.
@@ -2933,342 +3219,6 @@ document.documentElement.className += ' js';
   };
 
 })(Drupal, drupalSettings);
-;
-/**
- * @file
- * Attaches the behaviors for the Field UI module.
- */
-
-(function ($, Drupal, drupalSettings) {
-
-  'use strict';
-
-  /**
-   * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Adds behaviors to the field storage add form.
-   */
-  Drupal.behaviors.fieldUIFieldStorageAddForm = {
-    attach: function (context) {
-      var $form = $(context).find('[data-drupal-selector="field-ui-field-storage-add-form"]').once('field_ui_add');
-      if ($form.length) {
-        // Add a few 'js-form-required' and 'form-required' css classes here.
-        // We can not use the Form API '#required' property because both label
-        // elements for "add new" and "re-use existing" can never be filled and
-        // submitted at the same time. The actual validation will happen
-        // server-side.
-        $form.find(
-          '.js-form-item-label label,' +
-          '.js-form-item-field-name label,' +
-          '.js-form-item-existing-storage-label label')
-          .addClass('js-form-required form-required');
-
-        var $newFieldType = $form.find('select[name="new_storage_type"]');
-        var $existingStorageName = $form.find('select[name="existing_storage_name"]');
-        var $existingStorageLabel = $form.find('input[name="existing_storage_label"]');
-
-        // When the user selects a new field type, clear the "existing field"
-        // selection.
-        $newFieldType.on('change', function () {
-          if ($(this).val() !== '') {
-            // Reset the "existing storage name" selection.
-            $existingStorageName.val('').trigger('change');
-          }
-        });
-
-        // When the user selects an existing storage name, clear the "new field
-        // type" selection and populate the 'existing_storage_label' element.
-        $existingStorageName.on('change', function () {
-          var value = $(this).val();
-          if (value !== '') {
-            // Reset the "new field type" selection.
-            $newFieldType.val('').trigger('change');
-
-            // Pre-populate the "existing storage label" element.
-            if (typeof drupalSettings.existingFieldLabels[value] !== 'undefined') {
-              $existingStorageLabel.val(drupalSettings.existingFieldLabels[value]);
-            }
-          }
-        });
-      }
-    }
-  };
-
-  /**
-   * Attaches the fieldUIOverview behavior.
-   *
-   * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Attaches the fieldUIOverview behavior.
-   *
-   * @see Drupal.fieldUIOverview.attach
-   */
-  Drupal.behaviors.fieldUIDisplayOverview = {
-    attach: function (context, settings) {
-      $(context).find('table#field-display-overview').once('field-display-overview').each(function () {
-        Drupal.fieldUIOverview.attach(this, settings.fieldUIRowsData, Drupal.fieldUIDisplayOverview);
-      });
-    }
-  };
-
-  /**
-   * Namespace for the field UI overview.
-   *
-   * @namespace
-   */
-  Drupal.fieldUIOverview = {
-
-    /**
-     * Attaches the fieldUIOverview behavior.
-     *
-     * @param {HTMLTableElement} table
-     *   The table element for the overview.
-     * @param {object} rowsData
-     *   The data of the rows in the table.
-     * @param {object} rowHandlers
-     *   Handlers to be added to the rows.
-     */
-    attach: function (table, rowsData, rowHandlers) {
-      var tableDrag = Drupal.tableDrag[table.id];
-
-      // Add custom tabledrag callbacks.
-      tableDrag.onDrop = this.onDrop;
-      tableDrag.row.prototype.onSwap = this.onSwap;
-
-      // Create row handlers.
-      $(table).find('tr.draggable').each(function () {
-        // Extract server-side data for the row.
-        var row = this;
-        if (row.id in rowsData) {
-          var data = rowsData[row.id];
-          data.tableDrag = tableDrag;
-
-          // Create the row handler, make it accessible from the DOM row
-          // element.
-          var rowHandler = new rowHandlers[data.rowHandler](row, data);
-          $(row).data('fieldUIRowHandler', rowHandler);
-        }
-      });
-    },
-
-    /**
-     * Event handler to be attached to form inputs triggering a region change.
-     */
-    onChange: function () {
-      var $trigger = $(this);
-      var $row = $trigger.closest('tr');
-      var rowHandler = $row.data('fieldUIRowHandler');
-
-      var refreshRows = {};
-      refreshRows[rowHandler.name] = $trigger.get(0);
-
-      // Handle region change.
-      var region = rowHandler.getRegion();
-      if (region !== rowHandler.region) {
-        // Remove parenting.
-        $row.find('select.js-field-parent').val('');
-        // Let the row handler deal with the region change.
-        $.extend(refreshRows, rowHandler.regionChange(region));
-        // Update the row region.
-        rowHandler.region = region;
-      }
-
-      // Ajax-update the rows.
-      Drupal.fieldUIOverview.AJAXRefreshRows(refreshRows);
-    },
-
-    /**
-     * Lets row handlers react when a row is dropped into a new region.
-     */
-    onDrop: function () {
-      var dragObject = this;
-      var row = dragObject.rowObject.element;
-      var $row = $(row);
-      var rowHandler = $row.data('fieldUIRowHandler');
-      if (typeof rowHandler !== 'undefined') {
-        var regionRow = $row.prevAll('tr.region-message').get(0);
-        var region = regionRow.className.replace(/([^ ]+[ ]+)*region-([^ ]+)-message([ ]+[^ ]+)*/, '$2');
-
-        if (region !== rowHandler.region) {
-          // Let the row handler deal with the region change.
-          var refreshRows = rowHandler.regionChange(region);
-          // Update the row region.
-          rowHandler.region = region;
-          // Ajax-update the rows.
-          Drupal.fieldUIOverview.AJAXRefreshRows(refreshRows);
-        }
-      }
-    },
-
-    /**
-     * Refreshes placeholder rows in empty regions while a row is being dragged.
-     *
-     * Copied from block.js.
-     *
-     * @param {HTMLElement} draggedRow
-     *   The tableDrag rowObject for the row being dragged.
-     */
-    onSwap: function (draggedRow) {
-      var rowObject = this;
-      $(rowObject.table).find('tr.region-message').each(function () {
-        var $this = $(this);
-        // If the dragged row is in this region, but above the message row, swap
-        // it down one space.
-        if ($this.prev('tr').get(0) === rowObject.group[rowObject.group.length - 1]) {
-          // Prevent a recursion problem when using the keyboard to move rows
-          // up.
-          if ((rowObject.method !== 'keyboard' || rowObject.direction === 'down')) {
-            rowObject.swap('after', this);
-          }
-        }
-        // This region has become empty.
-        if ($this.next('tr').is(':not(.draggable)') || $this.next('tr').length === 0) {
-          $this.removeClass('region-populated').addClass('region-empty');
-        }
-        // This region has become populated.
-        else if ($this.is('.region-empty')) {
-          $this.removeClass('region-empty').addClass('region-populated');
-        }
-      });
-    },
-
-    /**
-     * Triggers Ajax refresh of selected rows.
-     *
-     * The 'format type' selects can trigger a series of changes in child rows.
-     * The #ajax behavior is therefore not attached directly to the selects, but
-     * triggered manually through a hidden #ajax 'Refresh' button.
-     *
-     * @param {object} rows
-     *   A hash object, whose keys are the names of the rows to refresh (they
-     *   will receive the 'ajax-new-content' effect on the server side), and
-     *   whose values are the DOM element in the row that should get an Ajax
-     *   throbber.
-     */
-    AJAXRefreshRows: function (rows) {
-      // Separate keys and values.
-      var rowNames = [];
-      var ajaxElements = [];
-      var rowName;
-      for (rowName in rows) {
-        if (rows.hasOwnProperty(rowName)) {
-          rowNames.push(rowName);
-          ajaxElements.push(rows[rowName]);
-        }
-      }
-
-      if (rowNames.length) {
-        // Add a throbber next each of the ajaxElements.
-        $(ajaxElements).after('<div class="ajax-progress ajax-progress-throbber"><div class="throbber">&nbsp;</div></div>');
-
-        // Fire the Ajax update.
-        $('input[name=refresh_rows]').val(rowNames.join(' '));
-        $('input[data-drupal-selector="edit-refresh"]').trigger('mousedown');
-
-        // Disabled elements do not appear in POST ajax data, so we mark the
-        // elements disabled only after firing the request.
-        $(ajaxElements).prop('disabled', true);
-      }
-    }
-  };
-
-  /**
-   * Row handlers for the 'Manage display' screen.
-   *
-   * @namespace
-   */
-  Drupal.fieldUIDisplayOverview = {};
-
-  /**
-   * Constructor for a 'field' row handler.
-   *
-   * This handler is used for both fields and 'extra fields' rows.
-   *
-   * @constructor
-   *
-   * @param {HTMLTableRowElement} row
-   *   The row DOM element.
-   * @param {object} data
-   *   Additional data to be populated in the constructed object.
-   *
-   * @return {Drupal.fieldUIDisplayOverview.field}
-   *   The field row handler constructed.
-   */
-  Drupal.fieldUIDisplayOverview.field = function (row, data) {
-    this.row = row;
-    this.name = data.name;
-    this.region = data.region;
-    this.tableDrag = data.tableDrag;
-    this.defaultPlugin = data.defaultPlugin;
-
-    // Attach change listener to the 'plugin type' select.
-    this.$pluginSelect = $(row).find('.field-plugin-type');
-    this.$pluginSelect.on('change', Drupal.fieldUIOverview.onChange);
-
-    // Attach change listener to the 'region' select.
-    this.$regionSelect = $(row).find('select.field-region');
-    this.$regionSelect.on('change', Drupal.fieldUIOverview.onChange);
-
-    return this;
-  };
-
-  Drupal.fieldUIDisplayOverview.field.prototype = {
-
-    /**
-     * Returns the region corresponding to the current form values of the row.
-     *
-     * @return {string}
-     *   Either 'hidden' or 'content'.
-     */
-    getRegion: function () {
-      return this.$regionSelect.val();
-    },
-
-    /**
-     * Reacts to a row being changed regions.
-     *
-     * This function is called when the row is moved to a different region, as
-     * a
-     * result of either :
-     * - a drag-and-drop action (the row's form elements then probably need to
-     * be updated accordingly)
-     * - user input in one of the form elements watched by the
-     *   {@link Drupal.fieldUIOverview.onChange} change listener.
-     *
-     * @param {string} region
-     *   The name of the new region for the row.
-     *
-     * @return {object}
-     *   A hash object indicating which rows should be Ajax-updated as a result
-     *   of the change, in the format expected by
-     *   {@link Drupal.fieldUIOverview.AJAXRefreshRows}.
-     */
-    regionChange: function (region) {
-      // Replace dashes with underscores.
-      region = region.replace(/-/g, '_');
-
-      // Set the region of the select list.
-      this.$regionSelect.val(region);
-
-      // Restore the formatter back to the default formatter. Pseudo-fields
-      // do not have default formatters, we just return to 'visible' for
-      // those.
-      var value = (typeof this.defaultPlugin !== 'undefined') ? this.defaultPlugin : this.$pluginSelect.find('option').val();
-
-      if (typeof value !== 'undefined') {
-        this.$pluginSelect.val(value);
-      }
-
-      var refreshRows = {};
-      refreshRows[this.name] = this.$pluginSelect.get(0);
-
-      return refreshRows;
-    }
-  };
-
-})(jQuery, Drupal, drupalSettings);
 ;
 /*!
  * jQuery Form Plugin
@@ -4797,6 +4747,801 @@ document.documentElement.className += ' js';
 
 })(jQuery, window, Drupal, drupalSettings);
 ;
+/*!
+ * jQuery UI Tabs 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/tabs/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery","./core","./widget"],e):e(jQuery)})(function(e){return e.widget("ui.tabs",{version:"1.11.4",delay:300,options:{active:null,collapsible:!1,event:"click",heightStyle:"content",hide:null,show:null,activate:null,beforeActivate:null,beforeLoad:null,load:null},_isLocal:function(){var e=/#.*$/;return function(t){var n,r;t=t.cloneNode(!1),n=t.href.replace(e,""),r=location.href.replace(e,"");try{n=decodeURIComponent(n)}catch(i){}try{r=decodeURIComponent(r)}catch(i){}return t.hash.length>1&&n===r}}(),_create:function(){var t=this,n=this.options;this.running=!1,this.element.addClass("ui-tabs ui-widget ui-widget-content ui-corner-all").toggleClass("ui-tabs-collapsible",n.collapsible),this._processTabs(),n.active=this._initialActive(),e.isArray(n.disabled)&&(n.disabled=e.unique(n.disabled.concat(e.map(this.tabs.filter(".ui-state-disabled"),function(e){return t.tabs.index(e)}))).sort()),this.options.active!==!1&&this.anchors.length?this.active=this._findActive(n.active):this.active=e(),this._refresh(),this.active.length&&this.load(n.active)},_initialActive:function(){var t=this.options.active,n=this.options.collapsible,r=location.hash.substring(1);if(t===null){r&&this.tabs.each(function(n,i){if(e(i).attr("aria-controls")===r)return t=n,!1}),t===null&&(t=this.tabs.index(this.tabs.filter(".ui-tabs-active")));if(t===null||t===-1)t=this.tabs.length?0:!1}return t!==!1&&(t=this.tabs.index(this.tabs.eq(t)),t===-1&&(t=n?!1:0)),!n&&t===!1&&this.anchors.length&&(t=0),t},_getCreateEventData:function(){return{tab:this.active,panel:this.active.length?this._getPanelForTab(this.active):e()}},_tabKeydown:function(t){var n=e(this.document[0].activeElement).closest("li"),r=this.tabs.index(n),i=!0;if(this._handlePageNav(t))return;switch(t.keyCode){case e.ui.keyCode.RIGHT:case e.ui.keyCode.DOWN:r++;break;case e.ui.keyCode.UP:case e.ui.keyCode.LEFT:i=!1,r--;break;case e.ui.keyCode.END:r=this.anchors.length-1;break;case e.ui.keyCode.HOME:r=0;break;case e.ui.keyCode.SPACE:t.preventDefault(),clearTimeout(this.activating),this._activate(r);return;case e.ui.keyCode.ENTER:t.preventDefault(),clearTimeout(this.activating),this._activate(r===this.options.active?!1:r);return;default:return}t.preventDefault(),clearTimeout(this.activating),r=this._focusNextTab(r,i),!t.ctrlKey&&!t.metaKey&&(n.attr("aria-selected","false"),this.tabs.eq(r).attr("aria-selected","true"),this.activating=this._delay(function(){this.option("active",r)},this.delay))},_panelKeydown:function(t){if(this._handlePageNav(t))return;t.ctrlKey&&t.keyCode===e.ui.keyCode.UP&&(t.preventDefault(),this.active.focus())},_handlePageNav:function(t){if(t.altKey&&t.keyCode===e.ui.keyCode.PAGE_UP)return this._activate(this._focusNextTab(this.options.active-1,!1)),!0;if(t.altKey&&t.keyCode===e.ui.keyCode.PAGE_DOWN)return this._activate(this._focusNextTab(this.options.active+1,!0)),!0},_findNextTab:function(t,n){function i(){return t>r&&(t=0),t<0&&(t=r),t}var r=this.tabs.length-1;while(e.inArray(i(),this.options.disabled)!==-1)t=n?t+1:t-1;return t},_focusNextTab:function(e,t){return e=this._findNextTab(e,t),this.tabs.eq(e).focus(),e},_setOption:function(e,t){if(e==="active"){this._activate(t);return}if(e==="disabled"){this._setupDisabled(t);return}this._super(e,t),e==="collapsible"&&(this.element.toggleClass("ui-tabs-collapsible",t),!t&&this.options.active===!1&&this._activate(0)),e==="event"&&this._setupEvents(t),e==="heightStyle"&&this._setupHeightStyle(t)},_sanitizeSelector:function(e){return e?e.replace(/[!"$%&'()*+,.\/:;<=>?@\[\]\^`{|}~]/g,"\\$&"):""},refresh:function(){var t=this.options,n=this.tablist.children(":has(a[href])");t.disabled=e.map(n.filter(".ui-state-disabled"),function(e){return n.index(e)}),this._processTabs(),t.active===!1||!this.anchors.length?(t.active=!1,this.active=e()):this.active.length&&!e.contains(this.tablist[0],this.active[0])?this.tabs.length===t.disabled.length?(t.active=!1,this.active=e()):this._activate(this._findNextTab(Math.max(0,t.active-1),!1)):t.active=this.tabs.index(this.active),this._refresh()},_refresh:function(){this._setupDisabled(this.options.disabled),this._setupEvents(this.options.event),this._setupHeightStyle(this.options.heightStyle),this.tabs.not(this.active).attr({"aria-selected":"false","aria-expanded":"false",tabIndex:-1}),this.panels.not(this._getPanelForTab(this.active)).hide().attr({"aria-hidden":"true"}),this.active.length?(this.active.addClass("ui-tabs-active ui-state-active").attr({"aria-selected":"true","aria-expanded":"true",tabIndex:0}),this._getPanelForTab(this.active).show().attr({"aria-hidden":"false"})):this.tabs.eq(0).attr("tabIndex",0)},_processTabs:function(){var t=this,n=this.tabs,r=this.anchors,i=this.panels;this.tablist=this._getList().addClass("ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all").attr("role","tablist").delegate("> li","mousedown"+this.eventNamespace,function(t){e(this).is(".ui-state-disabled")&&t.preventDefault()}).delegate(".ui-tabs-anchor","focus"+this.eventNamespace,function(){e(this).closest("li").is(".ui-state-disabled")&&this.blur()}),this.tabs=this.tablist.find("> li:has(a[href])").addClass("ui-state-default ui-corner-top").attr({role:"tab",tabIndex:-1}),this.anchors=this.tabs.map(function(){return e("a",this)[0]}).addClass("ui-tabs-anchor").attr({role:"presentation",tabIndex:-1}),this.panels=e(),this.anchors.each(function(n,r){var i,s,o,u=e(r).uniqueId().attr("id"),a=e(r).closest("li"),f=a.attr("aria-controls");t._isLocal(r)?(i=r.hash,o=i.substring(1),s=t.element.find(t._sanitizeSelector(i))):(o=a.attr("aria-controls")||e({}).uniqueId()[0].id,i="#"+o,s=t.element.find(i),s.length||(s=t._createPanel(o),s.insertAfter(t.panels[n-1]||t.tablist)),s.attr("aria-live","polite")),s.length&&(t.panels=t.panels.add(s)),f&&a.data("ui-tabs-aria-controls",f),a.attr({"aria-controls":o,"aria-labelledby":u}),s.attr("aria-labelledby",u)}),this.panels.addClass("ui-tabs-panel ui-widget-content ui-corner-bottom").attr("role","tabpanel"),n&&(this._off(n.not(this.tabs)),this._off(r.not(this.anchors)),this._off(i.not(this.panels)))},_getList:function(){return this.tablist||this.element.find("ol,ul").eq(0)},_createPanel:function(t){return e("<div>").attr("id",t).addClass("ui-tabs-panel ui-widget-content ui-corner-bottom").data("ui-tabs-destroy",!0)},_setupDisabled:function(t){e.isArray(t)&&(t.length?t.length===this.anchors.length&&(t=!0):t=!1);for(var n=0,r;r=this.tabs[n];n++)t===!0||e.inArray(n,t)!==-1?e(r).addClass("ui-state-disabled").attr("aria-disabled","true"):e(r).removeClass("ui-state-disabled").removeAttr("aria-disabled");this.options.disabled=t},_setupEvents:function(t){var n={};t&&e.each(t.split(" "),function(e,t){n[t]="_eventHandler"}),this._off(this.anchors.add(this.tabs).add(this.panels)),this._on(!0,this.anchors,{click:function(e){e.preventDefault()}}),this._on(this.anchors,n),this._on(this.tabs,{keydown:"_tabKeydown"}),this._on(this.panels,{keydown:"_panelKeydown"}),this._focusable(this.tabs),this._hoverable(this.tabs)},_setupHeightStyle:function(t){var n,r=this.element.parent();t==="fill"?(n=r.height(),n-=this.element.outerHeight()-this.element.height(),this.element.siblings(":visible").each(function(){var t=e(this),r=t.css("position");if(r==="absolute"||r==="fixed")return;n-=t.outerHeight(!0)}),this.element.children().not(this.panels).each(function(){n-=e(this).outerHeight(!0)}),this.panels.each(function(){e(this).height(Math.max(0,n-e(this).innerHeight()+e(this).height()))}).css("overflow","auto")):t==="auto"&&(n=0,this.panels.each(function(){n=Math.max(n,e(this).height("").height())}).height(n))},_eventHandler:function(t){var n=this.options,r=this.active,i=e(t.currentTarget),s=i.closest("li"),o=s[0]===r[0],u=o&&n.collapsible,a=u?e():this._getPanelForTab(s),f=r.length?this._getPanelForTab(r):e(),l={oldTab:r,oldPanel:f,newTab:u?e():s,newPanel:a};t.preventDefault();if(s.hasClass("ui-state-disabled")||s.hasClass("ui-tabs-loading")||this.running||o&&!n.collapsible||this._trigger("beforeActivate",t,l)===!1)return;n.active=u?!1:this.tabs.index(s),this.active=o?e():s,this.xhr&&this.xhr.abort(),!f.length&&!a.length&&e.error("jQuery UI Tabs: Mismatching fragment identifier."),a.length&&this.load(this.tabs.index(s),t),this._toggle(t,l)},_toggle:function(t,n){function o(){r.running=!1,r._trigger("activate",t,n)}function u(){n.newTab.closest("li").addClass("ui-tabs-active ui-state-active"),i.length&&r.options.show?r._show(i,r.options.show,o):(i.show(),o())}var r=this,i=n.newPanel,s=n.oldPanel;this.running=!0,s.length&&this.options.hide?this._hide(s,this.options.hide,function(){n.oldTab.closest("li").removeClass("ui-tabs-active ui-state-active"),u()}):(n.oldTab.closest("li").removeClass("ui-tabs-active ui-state-active"),s.hide(),u()),s.attr("aria-hidden","true"),n.oldTab.attr({"aria-selected":"false","aria-expanded":"false"}),i.length&&s.length?n.oldTab.attr("tabIndex",-1):i.length&&this.tabs.filter(function(){return e(this).attr("tabIndex")===0}).attr("tabIndex",-1),i.attr("aria-hidden","false"),n.newTab.attr({"aria-selected":"true","aria-expanded":"true",tabIndex:0})},_activate:function(t){var n,r=this._findActive(t);if(r[0]===this.active[0])return;r.length||(r=this.active),n=r.find(".ui-tabs-anchor")[0],this._eventHandler({target:n,currentTarget:n,preventDefault:e.noop})},_findActive:function(t){return t===!1?e():this.tabs.eq(t)},_getIndex:function(e){return typeof e=="string"&&(e=this.anchors.index(this.anchors.filter("[href$='"+e+"']"))),e},_destroy:function(){this.xhr&&this.xhr.abort(),this.element.removeClass("ui-tabs ui-widget ui-widget-content ui-corner-all ui-tabs-collapsible"),this.tablist.removeClass("ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all").removeAttr("role"),this.anchors.removeClass("ui-tabs-anchor").removeAttr("role").removeAttr("tabIndex").removeUniqueId(),this.tablist.unbind(this.eventNamespace),this.tabs.add(this.panels).each(function(){e.data(this,"ui-tabs-destroy")?e(this).remove():e(this).removeClass("ui-state-default ui-state-active ui-state-disabled ui-corner-top ui-corner-bottom ui-widget-content ui-tabs-active ui-tabs-panel").removeAttr("tabIndex").removeAttr("aria-live").removeAttr("aria-busy").removeAttr("aria-selected").removeAttr("aria-labelledby").removeAttr("aria-hidden").removeAttr("aria-expanded").removeAttr("role")}),this.tabs.each(function(){var t=e(this),n=t.data("ui-tabs-aria-controls");n?t.attr("aria-controls",n).removeData("ui-tabs-aria-controls"):t.removeAttr("aria-controls")}),this.panels.show(),this.options.heightStyle!=="content"&&this.panels.css("height","")},enable:function(t){var n=this.options.disabled;if(n===!1)return;t===undefined?n=!1:(t=this._getIndex(t),e.isArray(n)?n=e.map(n,function(e){return e!==t?e:null}):n=e.map(this.tabs,function(e,n){return n!==t?n:null})),this._setupDisabled(n)},disable:function(t){var n=this.options.disabled;if(n===!0)return;if(t===undefined)n=!0;else{t=this._getIndex(t);if(e.inArray(t,n)!==-1)return;e.isArray(n)?n=e.merge([t],n).sort():n=[t]}this._setupDisabled(n)},load:function(t,n){t=this._getIndex(t);var r=this,i=this.tabs.eq(t),s=i.find(".ui-tabs-anchor"),o=this._getPanelForTab(i),u={tab:i,panel:o},a=function(e,t){t==="abort"&&r.panels.stop(!1,!0),i.removeClass("ui-tabs-loading"),o.removeAttr("aria-busy"),e===r.xhr&&delete r.xhr};if(this._isLocal(s[0]))return;this.xhr=e.ajax(this._ajaxSettings(s,n,u)),this.xhr&&this.xhr.statusText!=="canceled"&&(i.addClass("ui-tabs-loading"),o.attr("aria-busy","true"),this.xhr.done(function(e,t,i){setTimeout(function(){o.html(e),r._trigger("load",n,u),a(i,t)},1)}).fail(function(e,t){setTimeout(function(){a(e,t)},1)}))},_ajaxSettings:function(t,n,r){var i=this;return{url:t.attr("href"),beforeSend:function(t,s){return i._trigger("beforeLoad",n,e.extend({jqXHR:t,ajaxSettings:s},r))}}},_getPanelForTab:function(t){var n=e(t).attr("aria-controls");return this.element.find(this._sanitizeSelector("#"+n))}})});;
+/*!
+ * jQuery UI Button 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/button/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery","./core","./widget"],e):e(jQuery)})(function(e){var t,n="ui-button ui-widget ui-state-default ui-corner-all",r="ui-button-icons-only ui-button-icon-only ui-button-text-icons ui-button-text-icon-primary ui-button-text-icon-secondary ui-button-text-only",i=function(){var t=e(this);setTimeout(function(){t.find(":ui-button").button("refresh")},1)},s=function(t){var n=t.name,r=t.form,i=e([]);return n&&(n=n.replace(/'/g,"\\'"),r?i=e(r).find("[name='"+n+"'][type=radio]"):i=e("[name='"+n+"'][type=radio]",t.ownerDocument).filter(function(){return!this.form})),i};return e.widget("ui.button",{version:"1.11.4",defaultElement:"<button>",options:{disabled:null,text:!0,label:null,icons:{primary:null,secondary:null}},_create:function(){this.element.closest("form").unbind("reset"+this.eventNamespace).bind("reset"+this.eventNamespace,i),typeof this.options.disabled!="boolean"?this.options.disabled=!!this.element.prop("disabled"):this.element.prop("disabled",this.options.disabled),this._determineButtonType(),this.hasTitle=!!this.buttonElement.attr("title");var r=this,o=this.options,u=this.type==="checkbox"||this.type==="radio",a=u?"":"ui-state-active";o.label===null&&(o.label=this.type==="input"?this.buttonElement.val():this.buttonElement.html()),this._hoverable(this.buttonElement),this.buttonElement.addClass(n).attr("role","button").bind("mouseenter"+this.eventNamespace,function(){if(o.disabled)return;this===t&&e(this).addClass("ui-state-active")}).bind("mouseleave"+this.eventNamespace,function(){if(o.disabled)return;e(this).removeClass(a)}).bind("click"+this.eventNamespace,function(e){o.disabled&&(e.preventDefault(),e.stopImmediatePropagation())}),this._on({focus:function(){this.buttonElement.addClass("ui-state-focus")},blur:function(){this.buttonElement.removeClass("ui-state-focus")}}),u&&this.element.bind("change"+this.eventNamespace,function(){r.refresh()}),this.type==="checkbox"?this.buttonElement.bind("click"+this.eventNamespace,function(){if(o.disabled)return!1}):this.type==="radio"?this.buttonElement.bind("click"+this.eventNamespace,function(){if(o.disabled)return!1;e(this).addClass("ui-state-active"),r.buttonElement.attr("aria-pressed","true");var t=r.element[0];s(t).not(t).map(function(){return e(this).button("widget")[0]}).removeClass("ui-state-active").attr("aria-pressed","false")}):(this.buttonElement.bind("mousedown"+this.eventNamespace,function(){if(o.disabled)return!1;e(this).addClass("ui-state-active"),t=this,r.document.one("mouseup",function(){t=null})}).bind("mouseup"+this.eventNamespace,function(){if(o.disabled)return!1;e(this).removeClass("ui-state-active")}).bind("keydown"+this.eventNamespace,function(t){if(o.disabled)return!1;(t.keyCode===e.ui.keyCode.SPACE||t.keyCode===e.ui.keyCode.ENTER)&&e(this).addClass("ui-state-active")}).bind("keyup"+this.eventNamespace+" blur"+this.eventNamespace,function(){e(this).removeClass("ui-state-active")}),this.buttonElement.is("a")&&this.buttonElement.keyup(function(t){t.keyCode===e.ui.keyCode.SPACE&&e(this).click()})),this._setOption("disabled",o.disabled),this._resetButton()},_determineButtonType:function(){var e,t,n;this.element.is("[type=checkbox]")?this.type="checkbox":this.element.is("[type=radio]")?this.type="radio":this.element.is("input")?this.type="input":this.type="button",this.type==="checkbox"||this.type==="radio"?(e=this.element.parents().last(),t="label[for='"+this.element.attr("id")+"']",this.buttonElement=e.find(t),this.buttonElement.length||(e=e.length?e.siblings():this.element.siblings(),this.buttonElement=e.filter(t),this.buttonElement.length||(this.buttonElement=e.find(t))),this.element.addClass("ui-helper-hidden-accessible"),n=this.element.is(":checked"),n&&this.buttonElement.addClass("ui-state-active"),this.buttonElement.prop("aria-pressed",n)):this.buttonElement=this.element},widget:function(){return this.buttonElement},_destroy:function(){this.element.removeClass("ui-helper-hidden-accessible"),this.buttonElement.removeClass(n+" ui-state-active "+r).removeAttr("role").removeAttr("aria-pressed").html(this.buttonElement.find(".ui-button-text").html()),this.hasTitle||this.buttonElement.removeAttr("title")},_setOption:function(e,t){this._super(e,t);if(e==="disabled"){this.widget().toggleClass("ui-state-disabled",!!t),this.element.prop("disabled",!!t),t&&(this.type==="checkbox"||this.type==="radio"?this.buttonElement.removeClass("ui-state-focus"):this.buttonElement.removeClass("ui-state-focus ui-state-active"));return}this._resetButton()},refresh:function(){var t=this.element.is("input, button")?this.element.is(":disabled"):this.element.hasClass("ui-button-disabled");t!==this.options.disabled&&this._setOption("disabled",t),this.type==="radio"?s(this.element[0]).each(function(){e(this).is(":checked")?e(this).button("widget").addClass("ui-state-active").attr("aria-pressed","true"):e(this).button("widget").removeClass("ui-state-active").attr("aria-pressed","false")}):this.type==="checkbox"&&(this.element.is(":checked")?this.buttonElement.addClass("ui-state-active").attr("aria-pressed","true"):this.buttonElement.removeClass("ui-state-active").attr("aria-pressed","false"))},_resetButton:function(){if(this.type==="input"){this.options.label&&this.element.val(this.options.label);return}var t=this.buttonElement.removeClass(r),n=e("<span></span>",this.document[0]).addClass("ui-button-text").html(this.options.label).appendTo(t.empty()).text(),i=this.options.icons,s=i.primary&&i.secondary,o=[];i.primary||i.secondary?(this.options.text&&o.push("ui-button-text-icon"+(s?"s":i.primary?"-primary":"-secondary")),i.primary&&t.prepend("<span class='ui-button-icon-primary ui-icon "+i.primary+"'></span>"),i.secondary&&t.append("<span class='ui-button-icon-secondary ui-icon "+i.secondary+"'></span>"),this.options.text||(o.push(s?"ui-button-icons-only":"ui-button-icon-only"),this.hasTitle||t.attr("title",e.trim(n)))):o.push("ui-button-text-only"),t.addClass(o.join(" "))}}),e.widget("ui.buttonset",{version:"1.11.4",options:{items:"button, input[type=button], input[type=submit], input[type=reset], input[type=checkbox], input[type=radio], a, :data(ui-button)"},_create:function(){this.element.addClass("ui-buttonset")},_init:function(){this.refresh()},_setOption:function(e,t){e==="disabled"&&this.buttons.button("option",e,t),this._super(e,t)},refresh:function(){var t=this.element.css("direction")==="rtl",n=this.element.find(this.options.items),r=n.filter(":ui-button");n.not(":ui-button").button(),r.button("refresh"),this.buttons=n.map(function(){return e(this).button("widget")[0]}).removeClass("ui-corner-all ui-corner-left ui-corner-right").filter(":first").addClass(t?"ui-corner-right":"ui-corner-left").end().filter(":last").addClass(t?"ui-corner-left":"ui-corner-right").end().end()},_destroy:function(){this.element.removeClass("ui-buttonset"),this.buttons.map(function(){return e(this).button("widget")[0]}).removeClass("ui-corner-left ui-corner-right").end().button("destroy")}}),e.ui.button});;
+/*!
+ * jQuery UI Mouse 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/mouse/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery","./widget"],e):e(jQuery)})(function(e){var t=!1;return e(document).mouseup(function(){t=!1}),e.widget("ui.mouse",{version:"1.11.4",options:{cancel:"input,textarea,button,select,option",distance:1,delay:0},_mouseInit:function(){var t=this;this.element.bind("mousedown."+this.widgetName,function(e){return t._mouseDown(e)}).bind("click."+this.widgetName,function(n){if(!0===e.data(n.target,t.widgetName+".preventClickEvent"))return e.removeData(n.target,t.widgetName+".preventClickEvent"),n.stopImmediatePropagation(),!1}),this.started=!1},_mouseDestroy:function(){this.element.unbind("."+this.widgetName),this._mouseMoveDelegate&&this.document.unbind("mousemove."+this.widgetName,this._mouseMoveDelegate).unbind("mouseup."+this.widgetName,this._mouseUpDelegate)},_mouseDown:function(n){if(t)return;this._mouseMoved=!1,this._mouseStarted&&this._mouseUp(n),this._mouseDownEvent=n;var r=this,i=n.which===1,s=typeof this.options.cancel=="string"&&n.target.nodeName?e(n.target).closest(this.options.cancel).length:!1;if(!i||s||!this._mouseCapture(n))return!0;this.mouseDelayMet=!this.options.delay,this.mouseDelayMet||(this._mouseDelayTimer=setTimeout(function(){r.mouseDelayMet=!0},this.options.delay));if(this._mouseDistanceMet(n)&&this._mouseDelayMet(n)){this._mouseStarted=this._mouseStart(n)!==!1;if(!this._mouseStarted)return n.preventDefault(),!0}return!0===e.data(n.target,this.widgetName+".preventClickEvent")&&e.removeData(n.target,this.widgetName+".preventClickEvent"),this._mouseMoveDelegate=function(e){return r._mouseMove(e)},this._mouseUpDelegate=function(e){return r._mouseUp(e)},this.document.bind("mousemove."+this.widgetName,this._mouseMoveDelegate).bind("mouseup."+this.widgetName,this._mouseUpDelegate),n.preventDefault(),t=!0,!0},_mouseMove:function(t){if(this._mouseMoved){if(e.ui.ie&&(!document.documentMode||document.documentMode<9)&&!t.button)return this._mouseUp(t);if(!t.which)return this._mouseUp(t)}if(t.which||t.button)this._mouseMoved=!0;return this._mouseStarted?(this._mouseDrag(t),t.preventDefault()):(this._mouseDistanceMet(t)&&this._mouseDelayMet(t)&&(this._mouseStarted=this._mouseStart(this._mouseDownEvent,t)!==!1,this._mouseStarted?this._mouseDrag(t):this._mouseUp(t)),!this._mouseStarted)},_mouseUp:function(n){return this.document.unbind("mousemove."+this.widgetName,this._mouseMoveDelegate).unbind("mouseup."+this.widgetName,this._mouseUpDelegate),this._mouseStarted&&(this._mouseStarted=!1,n.target===this._mouseDownEvent.target&&e.data(n.target,this.widgetName+".preventClickEvent",!0),this._mouseStop(n)),t=!1,!1},_mouseDistanceMet:function(e){return Math.max(Math.abs(this._mouseDownEvent.pageX-e.pageX),Math.abs(this._mouseDownEvent.pageY-e.pageY))>=this.options.distance},_mouseDelayMet:function(){return this.mouseDelayMet},_mouseStart:function(){},_mouseDrag:function(){},_mouseStop:function(){},_mouseCapture:function(){return!0}})});;
+/*!
+ * jQuery UI Draggable 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/draggable/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery","./core","./mouse","./widget"],e):e(jQuery)})(function(e){return e.widget("ui.draggable",e.ui.mouse,{version:"1.11.4",widgetEventPrefix:"drag",options:{addClasses:!0,appendTo:"parent",axis:!1,connectToSortable:!1,containment:!1,cursor:"auto",cursorAt:!1,grid:!1,handle:!1,helper:"original",iframeFix:!1,opacity:!1,refreshPositions:!1,revert:!1,revertDuration:500,scope:"default",scroll:!0,scrollSensitivity:20,scrollSpeed:20,snap:!1,snapMode:"both",snapTolerance:20,stack:!1,zIndex:!1,drag:null,start:null,stop:null},_create:function(){this.options.helper==="original"&&this._setPositionRelative(),this.options.addClasses&&this.element.addClass("ui-draggable"),this.options.disabled&&this.element.addClass("ui-draggable-disabled"),this._setHandleClassName(),this._mouseInit()},_setOption:function(e,t){this._super(e,t),e==="handle"&&(this._removeHandleClassName(),this._setHandleClassName())},_destroy:function(){if((this.helper||this.element).is(".ui-draggable-dragging")){this.destroyOnClear=!0;return}this.element.removeClass("ui-draggable ui-draggable-dragging ui-draggable-disabled"),this._removeHandleClassName(),this._mouseDestroy()},_mouseCapture:function(t){var n=this.options;return this._blurActiveElement(t),this.helper||n.disabled||e(t.target).closest(".ui-resizable-handle").length>0?!1:(this.handle=this._getHandle(t),this.handle?(this._blockFrames(n.iframeFix===!0?"iframe":n.iframeFix),!0):!1)},_blockFrames:function(t){this.iframeBlocks=this.document.find(t).map(function(){var t=e(this);return e("<div>").css("position","absolute").appendTo(t.parent()).outerWidth(t.outerWidth()).outerHeight(t.outerHeight()).offset(t.offset())[0]})},_unblockFrames:function(){this.iframeBlocks&&(this.iframeBlocks.remove(),delete this.iframeBlocks)},_blurActiveElement:function(t){var n=this.document[0];if(!this.handleElement.is(t.target))return;try{n.activeElement&&n.activeElement.nodeName.toLowerCase()!=="body"&&e(n.activeElement).blur()}catch(r){}},_mouseStart:function(t){var n=this.options;return this.helper=this._createHelper(t),this.helper.addClass("ui-draggable-dragging"),this._cacheHelperProportions(),e.ui.ddmanager&&(e.ui.ddmanager.current=this),this._cacheMargins(),this.cssPosition=this.helper.css("position"),this.scrollParent=this.helper.scrollParent(!0),this.offsetParent=this.helper.offsetParent(),this.hasFixedAncestor=this.helper.parents().filter(function(){return e(this).css("position")==="fixed"}).length>0,this.positionAbs=this.element.offset(),this._refreshOffsets(t),this.originalPosition=this.position=this._generatePosition(t,!1),this.originalPageX=t.pageX,this.originalPageY=t.pageY,n.cursorAt&&this._adjustOffsetFromHelper(n.cursorAt),this._setContainment(),this._trigger("start",t)===!1?(this._clear(),!1):(this._cacheHelperProportions(),e.ui.ddmanager&&!n.dropBehaviour&&e.ui.ddmanager.prepareOffsets(this,t),this._normalizeRightBottom(),this._mouseDrag(t,!0),e.ui.ddmanager&&e.ui.ddmanager.dragStart(this,t),!0)},_refreshOffsets:function(e){this.offset={top:this.positionAbs.top-this.margins.top,left:this.positionAbs.left-this.margins.left,scroll:!1,parent:this._getParentOffset(),relative:this._getRelativeOffset()},this.offset.click={left:e.pageX-this.offset.left,top:e.pageY-this.offset.top}},_mouseDrag:function(t,n){this.hasFixedAncestor&&(this.offset.parent=this._getParentOffset()),this.position=this._generatePosition(t,!0),this.positionAbs=this._convertPositionTo("absolute");if(!n){var r=this._uiHash();if(this._trigger("drag",t,r)===!1)return this._mouseUp({}),!1;this.position=r.position}return this.helper[0].style.left=this.position.left+"px",this.helper[0].style.top=this.position.top+"px",e.ui.ddmanager&&e.ui.ddmanager.drag(this,t),!1},_mouseStop:function(t){var n=this,r=!1;return e.ui.ddmanager&&!this.options.dropBehaviour&&(r=e.ui.ddmanager.drop(this,t)),this.dropped&&(r=this.dropped,this.dropped=!1),this.options.revert==="invalid"&&!r||this.options.revert==="valid"&&r||this.options.revert===!0||e.isFunction(this.options.revert)&&this.options.revert.call(this.element,r)?e(this.helper).animate(this.originalPosition,parseInt(this.options.revertDuration,10),function(){n._trigger("stop",t)!==!1&&n._clear()}):this._trigger("stop",t)!==!1&&this._clear(),!1},_mouseUp:function(t){return this._unblockFrames(),e.ui.ddmanager&&e.ui.ddmanager.dragStop(this,t),this.handleElement.is(t.target)&&this.element.focus(),e.ui.mouse.prototype._mouseUp.call(this,t)},cancel:function(){return this.helper.is(".ui-draggable-dragging")?this._mouseUp({}):this._clear(),this},_getHandle:function(t){return this.options.handle?!!e(t.target).closest(this.element.find(this.options.handle)).length:!0},_setHandleClassName:function(){this.handleElement=this.options.handle?this.element.find(this.options.handle):this.element,this.handleElement.addClass("ui-draggable-handle")},_removeHandleClassName:function(){this.handleElement.removeClass("ui-draggable-handle")},_createHelper:function(t){var n=this.options,r=e.isFunction(n.helper),i=r?e(n.helper.apply(this.element[0],[t])):n.helper==="clone"?this.element.clone().removeAttr("id"):this.element;return i.parents("body").length||i.appendTo(n.appendTo==="parent"?this.element[0].parentNode:n.appendTo),r&&i[0]===this.element[0]&&this._setPositionRelative(),i[0]!==this.element[0]&&!/(fixed|absolute)/.test(i.css("position"))&&i.css("position","absolute"),i},_setPositionRelative:function(){/^(?:r|a|f)/.test(this.element.css("position"))||(this.element[0].style.position="relative")},_adjustOffsetFromHelper:function(t){typeof t=="string"&&(t=t.split(" ")),e.isArray(t)&&(t={left:+t[0],top:+t[1]||0}),"left"in t&&(this.offset.click.left=t.left+this.margins.left),"right"in t&&(this.offset.click.left=this.helperProportions.width-t.right+this.margins.left),"top"in t&&(this.offset.click.top=t.top+this.margins.top),"bottom"in t&&(this.offset.click.top=this.helperProportions.height-t.bottom+this.margins.top)},_isRootNode:function(e){return/(html|body)/i.test(e.tagName)||e===this.document[0]},_getParentOffset:function(){var t=this.offsetParent.offset(),n=this.document[0];return this.cssPosition==="absolute"&&this.scrollParent[0]!==n&&e.contains(this.scrollParent[0],this.offsetParent[0])&&(t.left+=this.scrollParent.scrollLeft(),t.top+=this.scrollParent.scrollTop()),this._isRootNode(this.offsetParent[0])&&(t={top:0,left:0}),{top:t.top+(parseInt(this.offsetParent.css("borderTopWidth"),10)||0),left:t.left+(parseInt(this.offsetParent.css("borderLeftWidth"),10)||0)}},_getRelativeOffset:function(){if(this.cssPosition!=="relative")return{top:0,left:0};var e=this.element.position(),t=this._isRootNode(this.scrollParent[0]);return{top:e.top-(parseInt(this.helper.css("top"),10)||0)+(t?0:this.scrollParent.scrollTop()),left:e.left-(parseInt(this.helper.css("left"),10)||0)+(t?0:this.scrollParent.scrollLeft())}},_cacheMargins:function(){this.margins={left:parseInt(this.element.css("marginLeft"),10)||0,top:parseInt(this.element.css("marginTop"),10)||0,right:parseInt(this.element.css("marginRight"),10)||0,bottom:parseInt(this.element.css("marginBottom"),10)||0}},_cacheHelperProportions:function(){this.helperProportions={width:this.helper.outerWidth(),height:this.helper.outerHeight()}},_setContainment:function(){var t,n,r,i=this.options,s=this.document[0];this.relativeContainer=null;if(!i.containment){this.containment=null;return}if(i.containment==="window"){this.containment=[e(window).scrollLeft()-this.offset.relative.left-this.offset.parent.left,e(window).scrollTop()-this.offset.relative.top-this.offset.parent.top,e(window).scrollLeft()+e(window).width()-this.helperProportions.width-this.margins.left,e(window).scrollTop()+(e(window).height()||s.body.parentNode.scrollHeight)-this.helperProportions.height-this.margins.top];return}if(i.containment==="document"){this.containment=[0,0,e(s).width()-this.helperProportions.width-this.margins.left,(e(s).height()||s.body.parentNode.scrollHeight)-this.helperProportions.height-this.margins.top];return}if(i.containment.constructor===Array){this.containment=i.containment;return}i.containment==="parent"&&(i.containment=this.helper[0].parentNode),n=e(i.containment),r=n[0];if(!r)return;t=/(scroll|auto)/.test(n.css("overflow")),this.containment=[(parseInt(n.css("borderLeftWidth"),10)||0)+(parseInt(n.css("paddingLeft"),10)||0),(parseInt(n.css("borderTopWidth"),10)||0)+(parseInt(n.css("paddingTop"),10)||0),(t?Math.max(r.scrollWidth,r.offsetWidth):r.offsetWidth)-(parseInt(n.css("borderRightWidth"),10)||0)-(parseInt(n.css("paddingRight"),10)||0)-this.helperProportions.width-this.margins.left-this.margins.right,(t?Math.max(r.scrollHeight,r.offsetHeight):r.offsetHeight)-(parseInt(n.css("borderBottomWidth"),10)||0)-(parseInt(n.css("paddingBottom"),10)||0)-this.helperProportions.height-this.margins.top-this.margins.bottom],this.relativeContainer=n},_convertPositionTo:function(e,t){t||(t=this.position);var n=e==="absolute"?1:-1,r=this._isRootNode(this.scrollParent[0]);return{top:t.top+this.offset.relative.top*n+this.offset.parent.top*n-(this.cssPosition==="fixed"?-this.offset.scroll.top:r?0:this.offset.scroll.top)*n,left:t.left+this.offset.relative.left*n+this.offset.parent.left*n-(this.cssPosition==="fixed"?-this.offset.scroll.left:r?0:this.offset.scroll.left)*n}},_generatePosition:function(e,t){var n,r,i,s,o=this.options,u=this._isRootNode(this.scrollParent[0]),a=e.pageX,f=e.pageY;if(!u||!this.offset.scroll)this.offset.scroll={top:this.scrollParent.scrollTop(),left:this.scrollParent.scrollLeft()};return t&&(this.containment&&(this.relativeContainer?(r=this.relativeContainer.offset(),n=[this.containment[0]+r.left,this.containment[1]+r.top,this.containment[2]+r.left,this.containment[3]+r.top]):n=this.containment,e.pageX-this.offset.click.left<n[0]&&(a=n[0]+this.offset.click.left),e.pageY-this.offset.click.top<n[1]&&(f=n[1]+this.offset.click.top),e.pageX-this.offset.click.left>n[2]&&(a=n[2]+this.offset.click.left),e.pageY-this.offset.click.top>n[3]&&(f=n[3]+this.offset.click.top)),o.grid&&(i=o.grid[1]?this.originalPageY+Math.round((f-this.originalPageY)/o.grid[1])*o.grid[1]:this.originalPageY,f=n?i-this.offset.click.top>=n[1]||i-this.offset.click.top>n[3]?i:i-this.offset.click.top>=n[1]?i-o.grid[1]:i+o.grid[1]:i,s=o.grid[0]?this.originalPageX+Math.round((a-this.originalPageX)/o.grid[0])*o.grid[0]:this.originalPageX,a=n?s-this.offset.click.left>=n[0]||s-this.offset.click.left>n[2]?s:s-this.offset.click.left>=n[0]?s-o.grid[0]:s+o.grid[0]:s),o.axis==="y"&&(a=this.originalPageX),o.axis==="x"&&(f=this.originalPageY)),{top:f-this.offset.click.top-this.offset.relative.top-this.offset.parent.top+(this.cssPosition==="fixed"?-this.offset.scroll.top:u?0:this.offset.scroll.top),left:a-this.offset.click.left-this.offset.relative.left-this.offset.parent.left+(this.cssPosition==="fixed"?-this.offset.scroll.left:u?0:this.offset.scroll.left)}},_clear:function(){this.helper.removeClass("ui-draggable-dragging"),this.helper[0]!==this.element[0]&&!this.cancelHelperRemoval&&this.helper.remove(),this.helper=null,this.cancelHelperRemoval=!1,this.destroyOnClear&&this.destroy()},_normalizeRightBottom:function(){this.options.axis!=="y"&&this.helper.css("right")!=="auto"&&(this.helper.width(this.helper.width()),this.helper.css("right","auto")),this.options.axis!=="x"&&this.helper.css("bottom")!=="auto"&&(this.helper.height(this.helper.height()),this.helper.css("bottom","auto"))},_trigger:function(t,n,r){return r=r||this._uiHash(),e.ui.plugin.call(this,t,[n,r,this],!0),/^(drag|start|stop)/.test(t)&&(this.positionAbs=this._convertPositionTo("absolute"),r.offset=this.positionAbs),e.Widget.prototype._trigger.call(this,t,n,r)},plugins:{},_uiHash:function(){return{helper:this.helper,position:this.position,originalPosition:this.originalPosition,offset:this.positionAbs}}}),e.ui.plugin.add("draggable","connectToSortable",{start:function(t,n,r){var i=e.extend({},n,{item:r.element});r.sortables=[],e(r.options.connectToSortable).each(function(){var n=e(this).sortable("instance");n&&!n.options.disabled&&(r.sortables.push(n),n.refreshPositions(),n._trigger("activate",t,i))})},stop:function(t,n,r){var i=e.extend({},n,{item:r.element});r.cancelHelperRemoval=!1,e.each(r.sortables,function(){var e=this;e.isOver?(e.isOver=0,r.cancelHelperRemoval=!0,e.cancelHelperRemoval=!1,e._storedCSS={position:e.placeholder.css("position"),top:e.placeholder.css("top"),left:e.placeholder.css("left")},e._mouseStop(t),e.options.helper=e.options._helper):(e.cancelHelperRemoval=!0,e._trigger("deactivate",t,i))})},drag:function(t,n,r){e.each(r.sortables,function(){var i=!1,s=this;s.positionAbs=r.positionAbs,s.helperProportions=r.helperProportions,s.offset.click=r.offset.click,s._intersectsWith(s.containerCache)&&(i=!0,e.each(r.sortables,function(){return this.positionAbs=r.positionAbs,this.helperProportions=r.helperProportions,this.offset.click=r.offset.click,this!==s&&this._intersectsWith(this.containerCache)&&e.contains(s.element[0],this.element[0])&&(i=!1),i})),i?(s.isOver||(s.isOver=1,r._parent=n.helper.parent(),s.currentItem=n.helper.appendTo(s.element).data("ui-sortable-item",!0),s.options._helper=s.options.helper,s.options.helper=function(){return n.helper[0]},t.target=s.currentItem[0],s._mouseCapture(t,!0),s._mouseStart(t,!0,!0),s.offset.click.top=r.offset.click.top,s.offset.click.left=r.offset.click.left,s.offset.parent.left-=r.offset.parent.left-s.offset.parent.left,s.offset.parent.top-=r.offset.parent.top-s.offset.parent.top,r._trigger("toSortable",t),r.dropped=s.element,e.each(r.sortables,function(){this.refreshPositions()}),r.currentItem=r.element,s.fromOutside=r),s.currentItem&&(s._mouseDrag(t),n.position=s.position)):s.isOver&&(s.isOver=0,s.cancelHelperRemoval=!0,s.options._revert=s.options.revert,s.options.revert=!1,s._trigger("out",t,s._uiHash(s)),s._mouseStop(t,!0),s.options.revert=s.options._revert,s.options.helper=s.options._helper,s.placeholder&&s.placeholder.remove(),n.helper.appendTo(r._parent),r._refreshOffsets(t),n.position=r._generatePosition(t,!0),r._trigger("fromSortable",t),r.dropped=!1,e.each(r.sortables,function(){this.refreshPositions()}))})}}),e.ui.plugin.add("draggable","cursor",{start:function(t,n,r){var i=e("body"),s=r.options;i.css("cursor")&&(s._cursor=i.css("cursor")),i.css("cursor",s.cursor)},stop:function(t,n,r){var i=r.options;i._cursor&&e("body").css("cursor",i._cursor)}}),e.ui.plugin.add("draggable","opacity",{start:function(t,n,r){var i=e(n.helper),s=r.options;i.css("opacity")&&(s._opacity=i.css("opacity")),i.css("opacity",s.opacity)},stop:function(t,n,r){var i=r.options;i._opacity&&e(n.helper).css("opacity",i._opacity)}}),e.ui.plugin.add("draggable","scroll",{start:function(e,t,n){n.scrollParentNotHidden||(n.scrollParentNotHidden=n.helper.scrollParent(!1)),n.scrollParentNotHidden[0]!==n.document[0]&&n.scrollParentNotHidden[0].tagName!=="HTML"&&(n.overflowOffset=n.scrollParentNotHidden.offset())},drag:function(t,n,r){var i=r.options,s=!1,o=r.scrollParentNotHidden[0],u=r.document[0];if(o!==u&&o.tagName!=="HTML"){if(!i.axis||i.axis!=="x")r.overflowOffset.top+o.offsetHeight-t.pageY<i.scrollSensitivity?o.scrollTop=s=o.scrollTop+i.scrollSpeed:t.pageY-r.overflowOffset.top<i.scrollSensitivity&&(o.scrollTop=s=o.scrollTop-i.scrollSpeed);if(!i.axis||i.axis!=="y")r.overflowOffset.left+o.offsetWidth-t.pageX<i.scrollSensitivity?o.scrollLeft=s=o.scrollLeft+i.scrollSpeed:t.pageX-r.overflowOffset.left<i.scrollSensitivity&&(o.scrollLeft=s=o.scrollLeft-i.scrollSpeed)}else{if(!i.axis||i.axis!=="x")t.pageY-e(u).scrollTop()<i.scrollSensitivity?s=e(u).scrollTop(e(u).scrollTop()-i.scrollSpeed):e(window).height()-(t.pageY-e(u).scrollTop())<i.scrollSensitivity&&(s=e(u).scrollTop(e(u).scrollTop()+i.scrollSpeed));if(!i.axis||i.axis!=="y")t.pageX-e(u).scrollLeft()<i.scrollSensitivity?s=e(u).scrollLeft(e(u).scrollLeft()-i.scrollSpeed):e(window).width()-(t.pageX-e(u).scrollLeft())<i.scrollSensitivity&&(s=e(u).scrollLeft(e(u).scrollLeft()+i.scrollSpeed))}s!==!1&&e.ui.ddmanager&&!i.dropBehaviour&&e.ui.ddmanager.prepareOffsets(r,t)}}),e.ui.plugin.add("draggable","snap",{start:function(t,n,r){var i=r.options;r.snapElements=[],e(i.snap.constructor!==String?i.snap.items||":data(ui-draggable)":i.snap).each(function(){var t=e(this),n=t.offset();this!==r.element[0]&&r.snapElements.push({item:this,width:t.outerWidth(),height:t.outerHeight(),top:n.top,left:n.left})})},drag:function(t,n,r){var i,s,o,u,a,f,l,c,h,p,d=r.options,v=d.snapTolerance,m=n.offset.left,g=m+r.helperProportions.width,y=n.offset.top,b=y+r.helperProportions.height;for(h=r.snapElements.length-1;h>=0;h--){a=r.snapElements[h].left-r.margins.left,f=a+r.snapElements[h].width,l=r.snapElements[h].top-r.margins.top,c=l+r.snapElements[h].height;if(g<a-v||m>f+v||b<l-v||y>c+v||!e.contains(r.snapElements[h].item.ownerDocument,r.snapElements[h].item)){r.snapElements[h].snapping&&r.options.snap.release&&r.options.snap.release.call(r.element,t,e.extend(r._uiHash(),{snapItem:r.snapElements[h].item})),r.snapElements[h].snapping=!1;continue}d.snapMode!=="inner"&&(i=Math.abs(l-b)<=v,s=Math.abs(c-y)<=v,o=Math.abs(a-g)<=v,u=Math.abs(f-m)<=v,i&&(n.position.top=r._convertPositionTo("relative",{top:l-r.helperProportions.height,left:0}).top),s&&(n.position.top=r._convertPositionTo("relative",{top:c,left:0}).top),o&&(n.position.left=r._convertPositionTo("relative",{top:0,left:a-r.helperProportions.width}).left),u&&(n.position.left=r._convertPositionTo("relative",{top:0,left:f}).left)),p=i||s||o||u,d.snapMode!=="outer"&&(i=Math.abs(l-y)<=v,s=Math.abs(c-b)<=v,o=Math.abs(a-m)<=v,u=Math.abs(f-g)<=v,i&&(n.position.top=r._convertPositionTo("relative",{top:l,left:0}).top),s&&(n.position.top=r._convertPositionTo("relative",{top:c-r.helperProportions.height,left:0}).top),o&&(n.position.left=r._convertPositionTo("relative",{top:0,left:a}).left),u&&(n.position.left=r._convertPositionTo("relative",{top:0,left:f-r.helperProportions.width}).left)),!r.snapElements[h].snapping&&(i||s||o||u||p)&&r.options.snap.snap&&r.options.snap.snap.call(r.element,t,e.extend(r._uiHash(),{snapItem:r.snapElements[h].item})),r.snapElements[h].snapping=i||s||o||u||p}}}),e.ui.plugin.add("draggable","stack",{start:function(t,n,r){var i,s=r.options,o=e.makeArray(e(s.stack)).sort(function(t,n){return(parseInt(e(t).css("zIndex"),10)||0)-(parseInt(e(n).css("zIndex"),10)||0)});if(!o.length)return;i=parseInt(e(o[0]).css("zIndex"),10)||0,e(o).each(function(t){e(this).css("zIndex",i+t)}),this.css("zIndex",i+o.length)}}),e.ui.plugin.add("draggable","zIndex",{start:function(t,n,r){var i=e(n.helper),s=r.options;i.css("zIndex")&&(s._zIndex=i.css("zIndex")),i.css("zIndex",s.zIndex)},stop:function(t,n,r){var i=r.options;i._zIndex&&e(n.helper).css("zIndex",i._zIndex)}}),e.ui.draggable});;
+/*!
+ * jQuery UI Position 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/position/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery"],e):e(jQuery)})(function(e){return function(){function h(e,t,n){return[parseFloat(e[0])*(l.test(e[0])?t/100:1),parseFloat(e[1])*(l.test(e[1])?n/100:1)]}function p(t,n){return parseInt(e.css(t,n),10)||0}function d(t){var n=t[0];return n.nodeType===9?{width:t.width(),height:t.height(),offset:{top:0,left:0}}:e.isWindow(n)?{width:t.width(),height:t.height(),offset:{top:t.scrollTop(),left:t.scrollLeft()}}:n.preventDefault?{width:0,height:0,offset:{top:n.pageY,left:n.pageX}}:{width:t.outerWidth(),height:t.outerHeight(),offset:t.offset()}}e.ui=e.ui||{};var t,n,r=Math.max,i=Math.abs,s=Math.round,o=/left|center|right/,u=/top|center|bottom/,a=/[\+\-]\d+(\.[\d]+)?%?/,f=/^\w+/,l=/%$/,c=e.fn.position;e.position={scrollbarWidth:function(){if(t!==undefined)return t;var n,r,i=e("<div style='display:block;position:absolute;width:50px;height:50px;overflow:hidden;'><div style='height:100px;width:auto;'></div></div>"),s=i.children()[0];return e("body").append(i),n=s.offsetWidth,i.css("overflow","scroll"),r=s.offsetWidth,n===r&&(r=i[0].clientWidth),i.remove(),t=n-r},getScrollInfo:function(t){var n=t.isWindow||t.isDocument?"":t.element.css("overflow-x"),r=t.isWindow||t.isDocument?"":t.element.css("overflow-y"),i=n==="scroll"||n==="auto"&&t.width<t.element[0].scrollWidth,s=r==="scroll"||r==="auto"&&t.height<t.element[0].scrollHeight;return{width:s?e.position.scrollbarWidth():0,height:i?e.position.scrollbarWidth():0}},getWithinInfo:function(t){var n=e(t||window),r=e.isWindow(n[0]),i=!!n[0]&&n[0].nodeType===9;return{element:n,isWindow:r,isDocument:i,offset:n.offset()||{left:0,top:0},scrollLeft:n.scrollLeft(),scrollTop:n.scrollTop(),width:r||i?n.width():n.outerWidth(),height:r||i?n.height():n.outerHeight()}}},e.fn.position=function(t){if(!t||!t.of)return c.apply(this,arguments);t=e.extend({},t);var l,v,m,g,y,b,w=e(t.of),E=e.position.getWithinInfo(t.within),S=e.position.getScrollInfo(E),x=(t.collision||"flip").split(" "),T={};return b=d(w),w[0].preventDefault&&(t.at="left top"),v=b.width,m=b.height,g=b.offset,y=e.extend({},g),e.each(["my","at"],function(){var e=(t[this]||"").split(" "),n,r;e.length===1&&(e=o.test(e[0])?e.concat(["center"]):u.test(e[0])?["center"].concat(e):["center","center"]),e[0]=o.test(e[0])?e[0]:"center",e[1]=u.test(e[1])?e[1]:"center",n=a.exec(e[0]),r=a.exec(e[1]),T[this]=[n?n[0]:0,r?r[0]:0],t[this]=[f.exec(e[0])[0],f.exec(e[1])[0]]}),x.length===1&&(x[1]=x[0]),t.at[0]==="right"?y.left+=v:t.at[0]==="center"&&(y.left+=v/2),t.at[1]==="bottom"?y.top+=m:t.at[1]==="center"&&(y.top+=m/2),l=h(T.at,v,m),y.left+=l[0],y.top+=l[1],this.each(function(){var o,u,a=e(this),f=a.outerWidth(),c=a.outerHeight(),d=p(this,"marginLeft"),b=p(this,"marginTop"),N=f+d+p(this,"marginRight")+S.width,C=c+b+p(this,"marginBottom")+S.height,k=e.extend({},y),L=h(T.my,a.outerWidth(),a.outerHeight());t.my[0]==="right"?k.left-=f:t.my[0]==="center"&&(k.left-=f/2),t.my[1]==="bottom"?k.top-=c:t.my[1]==="center"&&(k.top-=c/2),k.left+=L[0],k.top+=L[1],n||(k.left=s(k.left),k.top=s(k.top)),o={marginLeft:d,marginTop:b},e.each(["left","top"],function(n,r){e.ui.position[x[n]]&&e.ui.position[x[n]][r](k,{targetWidth:v,targetHeight:m,elemWidth:f,elemHeight:c,collisionPosition:o,collisionWidth:N,collisionHeight:C,offset:[l[0]+L[0],l[1]+L[1]],my:t.my,at:t.at,within:E,elem:a})}),t.using&&(u=function(e){var n=g.left-k.left,s=n+v-f,o=g.top-k.top,u=o+m-c,l={target:{element:w,left:g.left,top:g.top,width:v,height:m},element:{element:a,left:k.left,top:k.top,width:f,height:c},horizontal:s<0?"left":n>0?"right":"center",vertical:u<0?"top":o>0?"bottom":"middle"};v<f&&i(n+s)<v&&(l.horizontal="center"),m<c&&i(o+u)<m&&(l.vertical="middle"),r(i(n),i(s))>r(i(o),i(u))?l.important="horizontal":l.important="vertical",t.using.call(this,e,l)}),a.offset(e.extend(k,{using:u}))})},e.ui.position={fit:{left:function(e,t){var n=t.within,i=n.isWindow?n.scrollLeft:n.offset.left,s=n.width,o=e.left-t.collisionPosition.marginLeft,u=i-o,a=o+t.collisionWidth-s-i,f;t.collisionWidth>s?u>0&&a<=0?(f=e.left+u+t.collisionWidth-s-i,e.left+=u-f):a>0&&u<=0?e.left=i:u>a?e.left=i+s-t.collisionWidth:e.left=i:u>0?e.left+=u:a>0?e.left-=a:e.left=r(e.left-o,e.left)},top:function(e,t){var n=t.within,i=n.isWindow?n.scrollTop:n.offset.top,s=t.within.height,o=e.top-t.collisionPosition.marginTop,u=i-o,a=o+t.collisionHeight-s-i,f;t.collisionHeight>s?u>0&&a<=0?(f=e.top+u+t.collisionHeight-s-i,e.top+=u-f):a>0&&u<=0?e.top=i:u>a?e.top=i+s-t.collisionHeight:e.top=i:u>0?e.top+=u:a>0?e.top-=a:e.top=r(e.top-o,e.top)}},flip:{left:function(e,t){var n=t.within,r=n.offset.left+n.scrollLeft,s=n.width,o=n.isWindow?n.scrollLeft:n.offset.left,u=e.left-t.collisionPosition.marginLeft,a=u-o,f=u+t.collisionWidth-s-o,l=t.my[0]==="left"?-t.elemWidth:t.my[0]==="right"?t.elemWidth:0,c=t.at[0]==="left"?t.targetWidth:t.at[0]==="right"?-t.targetWidth:0,h=-2*t.offset[0],p,d;if(a<0){p=e.left+l+c+h+t.collisionWidth-s-r;if(p<0||p<i(a))e.left+=l+c+h}else if(f>0){d=e.left-t.collisionPosition.marginLeft+l+c+h-o;if(d>0||i(d)<f)e.left+=l+c+h}},top:function(e,t){var n=t.within,r=n.offset.top+n.scrollTop,s=n.height,o=n.isWindow?n.scrollTop:n.offset.top,u=e.top-t.collisionPosition.marginTop,a=u-o,f=u+t.collisionHeight-s-o,l=t.my[1]==="top",c=l?-t.elemHeight:t.my[1]==="bottom"?t.elemHeight:0,h=t.at[1]==="top"?t.targetHeight:t.at[1]==="bottom"?-t.targetHeight:0,p=-2*t.offset[1],d,v;if(a<0){v=e.top+c+h+p+t.collisionHeight-s-r;if(v<0||v<i(a))e.top+=c+h+p}else if(f>0){d=e.top-t.collisionPosition.marginTop+c+h+p-o;if(d>0||i(d)<f)e.top+=c+h+p}}},flipfit:{left:function(){e.ui.position.flip.left.apply(this,arguments),e.ui.position.fit.left.apply(this,arguments)},top:function(){e.ui.position.flip.top.apply(this,arguments),e.ui.position.fit.top.apply(this,arguments)}}},function(){var t,r,i,s,o,u=document.getElementsByTagName("body")[0],a=document.createElement("div");t=document.createElement(u?"div":"body"),i={visibility:"hidden",width:0,height:0,border:0,margin:0,background:"none"},u&&e.extend(i,{position:"absolute",left:"-1000px",top:"-1000px"});for(o in i)t.style[o]=i[o];t.appendChild(a),r=u||document.documentElement,r.insertBefore(t,r.firstChild),a.style.cssText="position: absolute; left: 10.7432222px;",s=e(a).offset().left,n=s>10&&s<11,t.innerHTML="",r.removeChild(t)}()}(),e.ui.position});;
+/*!
+ * jQuery UI Resizable 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/resizable/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery","./core","./mouse","./widget"],e):e(jQuery)})(function(e){return e.widget("ui.resizable",e.ui.mouse,{version:"1.11.4",widgetEventPrefix:"resize",options:{alsoResize:!1,animate:!1,animateDuration:"slow",animateEasing:"swing",aspectRatio:!1,autoHide:!1,containment:!1,ghost:!1,grid:!1,handles:"e,s,se",helper:!1,maxHeight:null,maxWidth:null,minHeight:10,minWidth:10,zIndex:90,resize:null,start:null,stop:null},_num:function(e){return parseInt(e,10)||0},_isNumber:function(e){return!isNaN(parseInt(e,10))},_hasScroll:function(t,n){if(e(t).css("overflow")==="hidden")return!1;var r=n&&n==="left"?"scrollLeft":"scrollTop",i=!1;return t[r]>0?!0:(t[r]=1,i=t[r]>0,t[r]=0,i)},_create:function(){var t,n,r,i,s,o=this,u=this.options;this.element.addClass("ui-resizable"),e.extend(this,{_aspectRatio:!!u.aspectRatio,aspectRatio:u.aspectRatio,originalElement:this.element,_proportionallyResizeElements:[],_helper:u.helper||u.ghost||u.animate?u.helper||"ui-resizable-helper":null}),this.element[0].nodeName.match(/^(canvas|textarea|input|select|button|img)$/i)&&(this.element.wrap(e("<div class='ui-wrapper' style='overflow: hidden;'></div>").css({position:this.element.css("position"),width:this.element.outerWidth(),height:this.element.outerHeight(),top:this.element.css("top"),left:this.element.css("left")})),this.element=this.element.parent().data("ui-resizable",this.element.resizable("instance")),this.elementIsWrapper=!0,this.element.css({marginLeft:this.originalElement.css("marginLeft"),marginTop:this.originalElement.css("marginTop"),marginRight:this.originalElement.css("marginRight"),marginBottom:this.originalElement.css("marginBottom")}),this.originalElement.css({marginLeft:0,marginTop:0,marginRight:0,marginBottom:0}),this.originalResizeStyle=this.originalElement.css("resize"),this.originalElement.css("resize","none"),this._proportionallyResizeElements.push(this.originalElement.css({position:"static",zoom:1,display:"block"})),this.originalElement.css({margin:this.originalElement.css("margin")}),this._proportionallyResize()),this.handles=u.handles||(e(".ui-resizable-handle",this.element).length?{n:".ui-resizable-n",e:".ui-resizable-e",s:".ui-resizable-s",w:".ui-resizable-w",se:".ui-resizable-se",sw:".ui-resizable-sw",ne:".ui-resizable-ne",nw:".ui-resizable-nw"}:"e,s,se"),this._handles=e();if(this.handles.constructor===String){this.handles==="all"&&(this.handles="n,e,s,w,se,sw,ne,nw"),t=this.handles.split(","),this.handles={};for(n=0;n<t.length;n++)r=e.trim(t[n]),s="ui-resizable-"+r,i=e("<div class='ui-resizable-handle "+s+"'></div>"),i.css({zIndex:u.zIndex}),"se"===r&&i.addClass("ui-icon ui-icon-gripsmall-diagonal-se"),this.handles[r]=".ui-resizable-"+r,this.element.append(i)}this._renderAxis=function(t){var n,r,i,s;t=t||this.element;for(n in this.handles){if(this.handles[n].constructor===String)this.handles[n]=this.element.children(this.handles[n]).first().show();else if(this.handles[n].jquery||this.handles[n].nodeType)this.handles[n]=e(this.handles[n]),this._on(this.handles[n],{mousedown:o._mouseDown});this.elementIsWrapper&&this.originalElement[0].nodeName.match(/^(textarea|input|select|button)$/i)&&(r=e(this.handles[n],this.element),s=/sw|ne|nw|se|n|s/.test(n)?r.outerHeight():r.outerWidth(),i=["padding",/ne|nw|n/.test(n)?"Top":/se|sw|s/.test(n)?"Bottom":/^e$/.test(n)?"Right":"Left"].join(""),t.css(i,s),this._proportionallyResize()),this._handles=this._handles.add(this.handles[n])}},this._renderAxis(this.element),this._handles=this._handles.add(this.element.find(".ui-resizable-handle")),this._handles.disableSelection(),this._handles.mouseover(function(){o.resizing||(this.className&&(i=this.className.match(/ui-resizable-(se|sw|ne|nw|n|e|s|w)/i)),o.axis=i&&i[1]?i[1]:"se")}),u.autoHide&&(this._handles.hide(),e(this.element).addClass("ui-resizable-autohide").mouseenter(function(){if(u.disabled)return;e(this).removeClass("ui-resizable-autohide"),o._handles.show()}).mouseleave(function(){if(u.disabled)return;o.resizing||(e(this).addClass("ui-resizable-autohide"),o._handles.hide())})),this._mouseInit()},_destroy:function(){this._mouseDestroy();var t,n=function(t){e(t).removeClass("ui-resizable ui-resizable-disabled ui-resizable-resizing").removeData("resizable").removeData("ui-resizable").unbind(".resizable").find(".ui-resizable-handle").remove()};return this.elementIsWrapper&&(n(this.element),t=this.element,this.originalElement.css({position:t.css("position"),width:t.outerWidth(),height:t.outerHeight(),top:t.css("top"),left:t.css("left")}).insertAfter(t),t.remove()),this.originalElement.css("resize",this.originalResizeStyle),n(this.originalElement),this},_mouseCapture:function(t){var n,r,i=!1;for(n in this.handles){r=e(this.handles[n])[0];if(r===t.target||e.contains(r,t.target))i=!0}return!this.options.disabled&&i},_mouseStart:function(t){var n,r,i,s=this.options,o=this.element;return this.resizing=!0,this._renderProxy(),n=this._num(this.helper.css("left")),r=this._num(this.helper.css("top")),s.containment&&(n+=e(s.containment).scrollLeft()||0,r+=e(s.containment).scrollTop()||0),this.offset=this.helper.offset(),this.position={left:n,top:r},this.size=this._helper?{width:this.helper.width(),height:this.helper.height()}:{width:o.width(),height:o.height()},this.originalSize=this._helper?{width:o.outerWidth(),height:o.outerHeight()}:{width:o.width(),height:o.height()},this.sizeDiff={width:o.outerWidth()-o.width(),height:o.outerHeight()-o.height()},this.originalPosition={left:n,top:r},this.originalMousePosition={left:t.pageX,top:t.pageY},this.aspectRatio=typeof s.aspectRatio=="number"?s.aspectRatio:this.originalSize.width/this.originalSize.height||1,i=e(".ui-resizable-"+this.axis).css("cursor"),e("body").css("cursor",i==="auto"?this.axis+"-resize":i),o.addClass("ui-resizable-resizing"),this._propagate("start",t),!0},_mouseDrag:function(t){var n,r,i=this.originalMousePosition,s=this.axis,o=t.pageX-i.left||0,u=t.pageY-i.top||0,a=this._change[s];this._updatePrevProperties();if(!a)return!1;n=a.apply(this,[t,o,u]),this._updateVirtualBoundaries(t.shiftKey);if(this._aspectRatio||t.shiftKey)n=this._updateRatio(n,t);return n=this._respectSize(n,t),this._updateCache(n),this._propagate("resize",t),r=this._applyChanges(),!this._helper&&this._proportionallyResizeElements.length&&this._proportionallyResize(),e.isEmptyObject(r)||(this._updatePrevProperties(),this._trigger("resize",t,this.ui()),this._applyChanges()),!1},_mouseStop:function(t){this.resizing=!1;var n,r,i,s,o,u,a,f=this.options,l=this;return this._helper&&(n=this._proportionallyResizeElements,r=n.length&&/textarea/i.test(n[0].nodeName),i=r&&this._hasScroll(n[0],"left")?0:l.sizeDiff.height,s=r?0:l.sizeDiff.width,o={width:l.helper.width()-s,height:l.helper.height()-i},u=parseInt(l.element.css("left"),10)+(l.position.left-l.originalPosition.left)||null,a=parseInt(l.element.css("top"),10)+(l.position.top-l.originalPosition.top)||null,f.animate||this.element.css(e.extend(o,{top:a,left:u})),l.helper.height(l.size.height),l.helper.width(l.size.width),this._helper&&!f.animate&&this._proportionallyResize()),e("body").css("cursor","auto"),this.element.removeClass("ui-resizable-resizing"),this._propagate("stop",t),this._helper&&this.helper.remove(),!1},_updatePrevProperties:function(){this.prevPosition={top:this.position.top,left:this.position.left},this.prevSize={width:this.size.width,height:this.size.height}},_applyChanges:function(){var e={};return this.position.top!==this.prevPosition.top&&(e.top=this.position.top+"px"),this.position.left!==this.prevPosition.left&&(e.left=this.position.left+"px"),this.size.width!==this.prevSize.width&&(e.width=this.size.width+"px"),this.size.height!==this.prevSize.height&&(e.height=this.size.height+"px"),this.helper.css(e),e},_updateVirtualBoundaries:function(e){var t,n,r,i,s,o=this.options;s={minWidth:this._isNumber(o.minWidth)?o.minWidth:0,maxWidth:this._isNumber(o.maxWidth)?o.maxWidth:Infinity,minHeight:this._isNumber(o.minHeight)?o.minHeight:0,maxHeight:this._isNumber(o.maxHeight)?o.maxHeight:Infinity};if(this._aspectRatio||e)t=s.minHeight*this.aspectRatio,r=s.minWidth/this.aspectRatio,n=s.maxHeight*this.aspectRatio,i=s.maxWidth/this.aspectRatio,t>s.minWidth&&(s.minWidth=t),r>s.minHeight&&(s.minHeight=r),n<s.maxWidth&&(s.maxWidth=n),i<s.maxHeight&&(s.maxHeight=i);this._vBoundaries=s},_updateCache:function(e){this.offset=this.helper.offset(),this._isNumber(e.left)&&(this.position.left=e.left),this._isNumber(e.top)&&(this.position.top=e.top),this._isNumber(e.height)&&(this.size.height=e.height),this._isNumber(e.width)&&(this.size.width=e.width)},_updateRatio:function(e){var t=this.position,n=this.size,r=this.axis;return this._isNumber(e.height)?e.width=e.height*this.aspectRatio:this._isNumber(e.width)&&(e.height=e.width/this.aspectRatio),r==="sw"&&(e.left=t.left+(n.width-e.width),e.top=null),r==="nw"&&(e.top=t.top+(n.height-e.height),e.left=t.left+(n.width-e.width)),e},_respectSize:function(e){var t=this._vBoundaries,n=this.axis,r=this._isNumber(e.width)&&t.maxWidth&&t.maxWidth<e.width,i=this._isNumber(e.height)&&t.maxHeight&&t.maxHeight<e.height,s=this._isNumber(e.width)&&t.minWidth&&t.minWidth>e.width,o=this._isNumber(e.height)&&t.minHeight&&t.minHeight>e.height,u=this.originalPosition.left+this.originalSize.width,a=this.position.top+this.size.height,f=/sw|nw|w/.test(n),l=/nw|ne|n/.test(n);return s&&(e.width=t.minWidth),o&&(e.height=t.minHeight),r&&(e.width=t.maxWidth),i&&(e.height=t.maxHeight),s&&f&&(e.left=u-t.minWidth),r&&f&&(e.left=u-t.maxWidth),o&&l&&(e.top=a-t.minHeight),i&&l&&(e.top=a-t.maxHeight),!e.width&&!e.height&&!e.left&&e.top?e.top=null:!e.width&&!e.height&&!e.top&&e.left&&(e.left=null),e},_getPaddingPlusBorderDimensions:function(e){var t=0,n=[],r=[e.css("borderTopWidth"),e.css("borderRightWidth"),e.css("borderBottomWidth"),e.css("borderLeftWidth")],i=[e.css("paddingTop"),e.css("paddingRight"),e.css("paddingBottom"),e.css("paddingLeft")];for(;t<4;t++)n[t]=parseInt(r[t],10)||0,n[t]+=parseInt(i[t],10)||0;return{height:n[0]+n[2],width:n[1]+n[3]}},_proportionallyResize:function(){if(!this._proportionallyResizeElements.length)return;var e,t=0,n=this.helper||this.element;for(;t<this._proportionallyResizeElements.length;t++)e=this._proportionallyResizeElements[t],this.outerDimensions||(this.outerDimensions=this._getPaddingPlusBorderDimensions(e)),e.css({height:n.height()-this.outerDimensions.height||0,width:n.width()-this.outerDimensions.width||0})},_renderProxy:function(){var t=this.element,n=this.options;this.elementOffset=t.offset(),this._helper?(this.helper=this.helper||e("<div style='overflow:hidden;'></div>"),this.helper.addClass(this._helper).css({width:this.element.outerWidth()-1,height:this.element.outerHeight()-1,position:"absolute",left:this.elementOffset.left+"px",top:this.elementOffset.top+"px",zIndex:++n.zIndex}),this.helper.appendTo("body").disableSelection()):this.helper=this.element},_change:{e:function(e,t){return{width:this.originalSize.width+t}},w:function(e,t){var n=this.originalSize,r=this.originalPosition;return{left:r.left+t,width:n.width-t}},n:function(e,t,n){var r=this.originalSize,i=this.originalPosition;return{top:i.top+n,height:r.height-n}},s:function(e,t,n){return{height:this.originalSize.height+n}},se:function(t,n,r){return e.extend(this._change.s.apply(this,arguments),this._change.e.apply(this,[t,n,r]))},sw:function(t,n,r){return e.extend(this._change.s.apply(this,arguments),this._change.w.apply(this,[t,n,r]))},ne:function(t,n,r){return e.extend(this._change.n.apply(this,arguments),this._change.e.apply(this,[t,n,r]))},nw:function(t,n,r){return e.extend(this._change.n.apply(this,arguments),this._change.w.apply(this,[t,n,r]))}},_propagate:function(t,n){e.ui.plugin.call(this,t,[n,this.ui()]),t!=="resize"&&this._trigger(t,n,this.ui())},plugins:{},ui:function(){return{originalElement:this.originalElement,element:this.element,helper:this.helper,position:this.position,size:this.size,originalSize:this.originalSize,originalPosition:this.originalPosition}}}),e.ui.plugin.add("resizable","animate",{stop:function(t){var n=e(this).resizable("instance"),r=n.options,i=n._proportionallyResizeElements,s=i.length&&/textarea/i.test(i[0].nodeName),o=s&&n._hasScroll(i[0],"left")?0:n.sizeDiff.height,u=s?0:n.sizeDiff.width,a={width:n.size.width-u,height:n.size.height-o},f=parseInt(n.element.css("left"),10)+(n.position.left-n.originalPosition.left)||null,l=parseInt(n.element.css("top"),10)+(n.position.top-n.originalPosition.top)||null;n.element.animate(e.extend(a,l&&f?{top:l,left:f}:{}),{duration:r.animateDuration,easing:r.animateEasing,step:function(){var r={width:parseInt(n.element.css("width"),10),height:parseInt(n.element.css("height"),10),top:parseInt(n.element.css("top"),10),left:parseInt(n.element.css("left"),10)};i&&i.length&&e(i[0]).css({width:r.width,height:r.height}),n._updateCache(r),n._propagate("resize",t)}})}}),e.ui.plugin.add("resizable","containment",{start:function(){var t,n,r,i,s,o,u,a=e(this).resizable("instance"),f=a.options,l=a.element,c=f.containment,h=c instanceof e?c.get(0):/parent/.test(c)?l.parent().get(0):c;if(!h)return;a.containerElement=e(h),/document/.test(c)||c===document?(a.containerOffset={left:0,top:0},a.containerPosition={left:0,top:0},a.parentData={element:e(document),left:0,top:0,width:e(document).width(),height:e(document).height()||document.body.parentNode.scrollHeight}):(t=e(h),n=[],e(["Top","Right","Left","Bottom"]).each(function(e,r){n[e]=a._num(t.css("padding"+r))}),a.containerOffset=t.offset(),a.containerPosition=t.position(),a.containerSize={height:t.innerHeight()-n[3],width:t.innerWidth()-n[1]},r=a.containerOffset,i=a.containerSize.height,s=a.containerSize.width,o=a._hasScroll(h,"left")?h.scrollWidth:s,u=a._hasScroll(h)?h.scrollHeight:i,a.parentData={element:h,left:r.left,top:r.top,width:o,height:u})},resize:function(t){var n,r,i,s,o=e(this).resizable("instance"),u=o.options,a=o.containerOffset,f=o.position,l=o._aspectRatio||t.shiftKey,c={top:0,left:0},h=o.containerElement,p=!0;h[0]!==document&&/static/.test(h.css("position"))&&(c=a),f.left<(o._helper?a.left:0)&&(o.size.width=o.size.width+(o._helper?o.position.left-a.left:o.position.left-c.left),l&&(o.size.height=o.size.width/o.aspectRatio,p=!1),o.position.left=u.helper?a.left:0),f.top<(o._helper?a.top:0)&&(o.size.height=o.size.height+(o._helper?o.position.top-a.top:o.position.top),l&&(o.size.width=o.size.height*o.aspectRatio,p=!1),o.position.top=o._helper?a.top:0),i=o.containerElement.get(0)===o.element.parent().get(0),s=/relative|absolute/.test(o.containerElement.css("position")),i&&s?(o.offset.left=o.parentData.left+o.position.left,o.offset.top=o.parentData.top+o.position.top):(o.offset.left=o.element.offset().left,o.offset.top=o.element.offset().top),n=Math.abs(o.sizeDiff.width+(o._helper?o.offset.left-c.left:o.offset.left-a.left)),r=Math.abs(o.sizeDiff.height+(o._helper?o.offset.top-c.top:o.offset.top-a.top)),n+o.size.width>=o.parentData.width&&(o.size.width=o.parentData.width-n,l&&(o.size.height=o.size.width/o.aspectRatio,p=!1)),r+o.size.height>=o.parentData.height&&(o.size.height=o.parentData.height-r,l&&(o.size.width=o.size.height*o.aspectRatio,p=!1)),p||(o.position.left=o.prevPosition.left,o.position.top=o.prevPosition.top,o.size.width=o.prevSize.width,o.size.height=o.prevSize.height)},stop:function(){var t=e(this).resizable("instance"),n=t.options,r=t.containerOffset,i=t.containerPosition,s=t.containerElement,o=e(t.helper),u=o.offset(),a=o.outerWidth()-t.sizeDiff.width,f=o.outerHeight()-t.sizeDiff.height;t._helper&&!n.animate&&/relative/.test(s.css("position"))&&e(this).css({left:u.left-i.left-r.left,width:a,height:f}),t._helper&&!n.animate&&/static/.test(s.css("position"))&&e(this).css({left:u.left-i.left-r.left,width:a,height:f})}}),e.ui.plugin.add("resizable","alsoResize",{start:function(){var t=e(this).resizable("instance"),n=t.options;e(n.alsoResize).each(function(){var t=e(this);t.data("ui-resizable-alsoresize",{width:parseInt(t.width(),10),height:parseInt(t.height(),10),left:parseInt(t.css("left"),10),top:parseInt(t.css("top"),10)})})},resize:function(t,n){var r=e(this).resizable("instance"),i=r.options,s=r.originalSize,o=r.originalPosition,u={height:r.size.height-s.height||0,width:r.size.width-s.width||0,top:r.position.top-o.top||0,left:r.position.left-o.left||0};e(i.alsoResize).each(function(){var t=e(this),r=e(this).data("ui-resizable-alsoresize"),i={},s=t.parents(n.originalElement[0]).length?["width","height"]:["width","height","top","left"];e.each(s,function(e,t){var n=(r[t]||0)+(u[t]||0);n&&n>=0&&(i[t]=n||null)}),t.css(i)})},stop:function(){e(this).removeData("resizable-alsoresize")}}),e.ui.plugin.add("resizable","ghost",{start:function(){var t=e(this).resizable("instance"),n=t.options,r=t.size;t.ghost=t.originalElement.clone(),t.ghost.css({opacity:.25,display:"block",position:"relative",height:r.height,width:r.width,margin:0,left:0,top:0}).addClass("ui-resizable-ghost").addClass(typeof n.ghost=="string"?n.ghost:""),t.ghost.appendTo(t.helper)},resize:function(){var t=e(this).resizable("instance");t.ghost&&t.ghost.css({position:"relative",height:t.size.height,width:t.size.width})},stop:function(){var t=e(this).resizable("instance");t.ghost&&t.helper&&t.helper.get(0).removeChild(t.ghost.get(0))}}),e.ui.plugin.add("resizable","grid",{resize:function(){var t,n=e(this).resizable("instance"),r=n.options,i=n.size,s=n.originalSize,o=n.originalPosition,u=n.axis,a=typeof r.grid=="number"?[r.grid,r.grid]:r.grid,f=a[0]||1,l=a[1]||1,c=Math.round((i.width-s.width)/f)*f,h=Math.round((i.height-s.height)/l)*l,p=s.width+c,d=s.height+h,v=r.maxWidth&&r.maxWidth<p,m=r.maxHeight&&r.maxHeight<d,g=r.minWidth&&r.minWidth>p,y=r.minHeight&&r.minHeight>d;r.grid=a,g&&(p+=f),y&&(d+=l),v&&(p-=f),m&&(d-=l);if(/^(se|s|e)$/.test(u))n.size.width=p,n.size.height=d;else if(/^(ne)$/.test(u))n.size.width=p,n.size.height=d,n.position.top=o.top-h;else if(/^(sw)$/.test(u))n.size.width=p,n.size.height=d,n.position.left=o.left-c;else{if(d-l<=0||p-f<=0)t=n._getPaddingPlusBorderDimensions(this);d-l>0?(n.size.height=d,n.position.top=o.top-h):(d=l-t.height,n.size.height=d,n.position.top=o.top+s.height-d),p-f>0?(n.size.width=p,n.position.left=o.left-c):(p=f-t.width,n.size.width=p,n.position.left=o.left+s.width-p)}}}),e.ui.resizable});;
+/*!
+ * jQuery UI Dialog 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/dialog/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery","./core","./widget","./button","./draggable","./mouse","./position","./resizable"],e):e(jQuery)})(function(e){return e.widget("ui.dialog",{version:"1.11.4",options:{appendTo:"body",autoOpen:!0,buttons:[],closeOnEscape:!0,closeText:"Close",dialogClass:"",draggable:!0,hide:null,height:"auto",maxHeight:null,maxWidth:null,minHeight:150,minWidth:150,modal:!1,position:{my:"center",at:"center",of:window,collision:"fit",using:function(t){var n=e(this).css(t).offset().top;n<0&&e(this).css("top",t.top-n)}},resizable:!0,show:null,title:null,width:300,beforeClose:null,close:null,drag:null,dragStart:null,dragStop:null,focus:null,open:null,resize:null,resizeStart:null,resizeStop:null},sizeRelatedOptions:{buttons:!0,height:!0,maxHeight:!0,maxWidth:!0,minHeight:!0,minWidth:!0,width:!0},resizableRelatedOptions:{maxHeight:!0,maxWidth:!0,minHeight:!0,minWidth:!0},_create:function(){this.originalCss={display:this.element[0].style.display,width:this.element[0].style.width,minHeight:this.element[0].style.minHeight,maxHeight:this.element[0].style.maxHeight,height:this.element[0].style.height},this.originalPosition={parent:this.element.parent(),index:this.element.parent().children().index(this.element)},this.originalTitle=this.element.attr("title"),this.options.title=this.options.title||this.originalTitle,this._createWrapper(),this.element.show().removeAttr("title").addClass("ui-dialog-content ui-widget-content").appendTo(this.uiDialog),this._createTitlebar(),this._createButtonPane(),this.options.draggable&&e.fn.draggable&&this._makeDraggable(),this.options.resizable&&e.fn.resizable&&this._makeResizable(),this._isOpen=!1,this._trackFocus()},_init:function(){this.options.autoOpen&&this.open()},_appendTo:function(){var t=this.options.appendTo;return t&&(t.jquery||t.nodeType)?e(t):this.document.find(t||"body").eq(0)},_destroy:function(){var e,t=this.originalPosition;this._untrackInstance(),this._destroyOverlay(),this.element.removeUniqueId().removeClass("ui-dialog-content ui-widget-content").css(this.originalCss).detach(),this.uiDialog.stop(!0,!0).remove(),this.originalTitle&&this.element.attr("title",this.originalTitle),e=t.parent.children().eq(t.index),e.length&&e[0]!==this.element[0]?e.before(this.element):t.parent.append(this.element)},widget:function(){return this.uiDialog},disable:e.noop,enable:e.noop,close:function(t){var n,r=this;if(!this._isOpen||this._trigger("beforeClose",t)===!1)return;this._isOpen=!1,this._focusedElement=null,this._destroyOverlay(),this._untrackInstance();if(!this.opener.filter(":focusable").focus().length)try{n=this.document[0].activeElement,n&&n.nodeName.toLowerCase()!=="body"&&e(n).blur()}catch(i){}this._hide(this.uiDialog,this.options.hide,function(){r._trigger("close",t)})},isOpen:function(){return this._isOpen},moveToTop:function(){this._moveToTop()},_moveToTop:function(t,n){var r=!1,i=this.uiDialog.siblings(".ui-front:visible").map(function(){return+e(this).css("z-index")}).get(),s=Math.max.apply(null,i);return s>=+this.uiDialog.css("z-index")&&(this.uiDialog.css("z-index",s+1),r=!0),r&&!n&&this._trigger("focus",t),r},open:function(){var t=this;if(this._isOpen){this._moveToTop()&&this._focusTabbable();return}this._isOpen=!0,this.opener=e(this.document[0].activeElement),this._size(),this._position(),this._createOverlay(),this._moveToTop(null,!0),this.overlay&&this.overlay.css("z-index",this.uiDialog.css("z-index")-1),this._show(this.uiDialog,this.options.show,function(){t._focusTabbable(),t._trigger("focus")}),this._makeFocusTarget(),this._trigger("open")},_focusTabbable:function(){var e=this._focusedElement;e||(e=this.element.find("[autofocus]")),e.length||(e=this.element.find(":tabbable")),e.length||(e=this.uiDialogButtonPane.find(":tabbable")),e.length||(e=this.uiDialogTitlebarClose.filter(":tabbable")),e.length||(e=this.uiDialog),e.eq(0).focus()},_keepFocus:function(t){function n(){var t=this.document[0].activeElement,n=this.uiDialog[0]===t||e.contains(this.uiDialog[0],t);n||this._focusTabbable()}t.preventDefault(),n.call(this),this._delay(n)},_createWrapper:function(){this.uiDialog=e("<div>").addClass("ui-dialog ui-widget ui-widget-content ui-corner-all ui-front "+this.options.dialogClass).hide().attr({tabIndex:-1,role:"dialog"}).appendTo(this._appendTo()),this._on(this.uiDialog,{keydown:function(t){if(this.options.closeOnEscape&&!t.isDefaultPrevented()&&t.keyCode&&t.keyCode===e.ui.keyCode.ESCAPE){t.preventDefault(),this.close(t);return}if(t.keyCode!==e.ui.keyCode.TAB||t.isDefaultPrevented())return;var n=this.uiDialog.find(":tabbable"),r=n.filter(":first"),i=n.filter(":last");t.target!==i[0]&&t.target!==this.uiDialog[0]||!!t.shiftKey?(t.target===r[0]||t.target===this.uiDialog[0])&&t.shiftKey&&(this._delay(function(){i.focus()}),t.preventDefault()):(this._delay(function(){r.focus()}),t.preventDefault())},mousedown:function(e){this._moveToTop(e)&&this._focusTabbable()}}),this.element.find("[aria-describedby]").length||this.uiDialog.attr({"aria-describedby":this.element.uniqueId().attr("id")})},_createTitlebar:function(){var t;this.uiDialogTitlebar=e("<div>").addClass("ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix").prependTo(this.uiDialog),this._on(this.uiDialogTitlebar,{mousedown:function(t){e(t.target).closest(".ui-dialog-titlebar-close")||this.uiDialog.focus()}}),this.uiDialogTitlebarClose=e("<button type='button'></button>").button({label:this.options.closeText,icons:{primary:"ui-icon-closethick"},text:!1}).addClass("ui-dialog-titlebar-close").appendTo(this.uiDialogTitlebar),this._on(this.uiDialogTitlebarClose,{click:function(e){e.preventDefault(),this.close(e)}}),t=e("<span>").uniqueId().addClass("ui-dialog-title").prependTo(this.uiDialogTitlebar),this._title(t),this.uiDialog.attr({"aria-labelledby":t.attr("id")})},_title:function(e){this.options.title||e.html("&#160;"),e.text(this.options.title)},_createButtonPane:function(){this.uiDialogButtonPane=e("<div>").addClass("ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"),this.uiButtonSet=e("<div>").addClass("ui-dialog-buttonset").appendTo(this.uiDialogButtonPane),this._createButtons()},_createButtons:function(){var t=this,n=this.options.buttons;this.uiDialogButtonPane.remove(),this.uiButtonSet.empty();if(e.isEmptyObject(n)||e.isArray(n)&&!n.length){this.uiDialog.removeClass("ui-dialog-buttons");return}e.each(n,function(n,r){var i,s;r=e.isFunction(r)?{click:r,text:n}:r,r=e.extend({type:"button"},r),i=r.click,r.click=function(){i.apply(t.element[0],arguments)},s={icons:r.icons,text:r.showText},delete r.icons,delete r.showText,e("<button></button>",r).button(s).appendTo(t.uiButtonSet)}),this.uiDialog.addClass("ui-dialog-buttons"),this.uiDialogButtonPane.appendTo(this.uiDialog)},_makeDraggable:function(){function r(e){return{position:e.position,offset:e.offset}}var t=this,n=this.options;this.uiDialog.draggable({cancel:".ui-dialog-content, .ui-dialog-titlebar-close",handle:".ui-dialog-titlebar",containment:"document",start:function(n,i){e(this).addClass("ui-dialog-dragging"),t._blockFrames(),t._trigger("dragStart",n,r(i))},drag:function(e,n){t._trigger("drag",e,r(n))},stop:function(i,s){var o=s.offset.left-t.document.scrollLeft(),u=s.offset.top-t.document.scrollTop();n.position={my:"left top",at:"left"+(o>=0?"+":"")+o+" "+"top"+(u>=0?"+":"")+u,of:t.window},e(this).removeClass("ui-dialog-dragging"),t._unblockFrames(),t._trigger("dragStop",i,r(s))}})},_makeResizable:function(){function o(e){return{originalPosition:e.originalPosition,originalSize:e.originalSize,position:e.position,size:e.size}}var t=this,n=this.options,r=n.resizable,i=this.uiDialog.css("position"),s=typeof r=="string"?r:"n,e,s,w,se,sw,ne,nw";this.uiDialog.resizable({cancel:".ui-dialog-content",containment:"document",alsoResize:this.element,maxWidth:n.maxWidth,maxHeight:n.maxHeight,minWidth:n.minWidth,minHeight:this._minHeight(),handles:s,start:function(n,r){e(this).addClass("ui-dialog-resizing"),t._blockFrames(),t._trigger("resizeStart",n,o(r))},resize:function(e,n){t._trigger("resize",e,o(n))},stop:function(r,i){var s=t.uiDialog.offset(),u=s.left-t.document.scrollLeft(),a=s.top-t.document.scrollTop();n.height=t.uiDialog.height(),n.width=t.uiDialog.width(),n.position={my:"left top",at:"left"+(u>=0?"+":"")+u+" "+"top"+(a>=0?"+":"")+a,of:t.window},e(this).removeClass("ui-dialog-resizing"),t._unblockFrames(),t._trigger("resizeStop",r,o(i))}}).css("position",i)},_trackFocus:function(){this._on(this.widget(),{focusin:function(t){this._makeFocusTarget(),this._focusedElement=e(t.target)}})},_makeFocusTarget:function(){this._untrackInstance(),this._trackingInstances().unshift(this)},_untrackInstance:function(){var t=this._trackingInstances(),n=e.inArray(this,t);n!==-1&&t.splice(n,1)},_trackingInstances:function(){var e=this.document.data("ui-dialog-instances");return e||(e=[],this.document.data("ui-dialog-instances",e)),e},_minHeight:function(){var e=this.options;return e.height==="auto"?e.minHeight:Math.min(e.minHeight,e.height)},_position:function(){var e=this.uiDialog.is(":visible");e||this.uiDialog.show(),this.uiDialog.position(this.options.position),e||this.uiDialog.hide()},_setOptions:function(t){var n=this,r=!1,i={};e.each(t,function(e,t){n._setOption(e,t),e in n.sizeRelatedOptions&&(r=!0),e in n.resizableRelatedOptions&&(i[e]=t)}),r&&(this._size(),this._position()),this.uiDialog.is(":data(ui-resizable)")&&this.uiDialog.resizable("option",i)},_setOption:function(e,t){var n,r,i=this.uiDialog;e==="dialogClass"&&i.removeClass(this.options.dialogClass).addClass(t);if(e==="disabled")return;this._super(e,t),e==="appendTo"&&this.uiDialog.appendTo(this._appendTo()),e==="buttons"&&this._createButtons(),e==="closeText"&&this.uiDialogTitlebarClose.button({label:""+t}),e==="draggable"&&(n=i.is(":data(ui-draggable)"),n&&!t&&i.draggable("destroy"),!n&&t&&this._makeDraggable()),e==="position"&&this._position(),e==="resizable"&&(r=i.is(":data(ui-resizable)"),r&&!t&&i.resizable("destroy"),r&&typeof t=="string"&&i.resizable("option","handles",t),!r&&t!==!1&&this._makeResizable()),e==="title"&&this._title(this.uiDialogTitlebar.find(".ui-dialog-title"))},_size:function(){var e,t,n,r=this.options;this.element.show().css({width:"auto",minHeight:0,maxHeight:"none",height:0}),r.minWidth>r.width&&(r.width=r.minWidth),e=this.uiDialog.css({height:"auto",width:r.width}).outerHeight(),t=Math.max(0,r.minHeight-e),n=typeof r.maxHeight=="number"?Math.max(0,r.maxHeight-e):"none",r.height==="auto"?this.element.css({minHeight:t,maxHeight:n,height:"auto"}):this.element.height(Math.max(0,r.height-e)),this.uiDialog.is(":data(ui-resizable)")&&this.uiDialog.resizable("option","minHeight",this._minHeight())},_blockFrames:function(){this.iframeBlocks=this.document.find("iframe").map(function(){var t=e(this);return e("<div>").css({position:"absolute",width:t.outerWidth(),height:t.outerHeight()}).appendTo(t.parent()).offset(t.offset())[0]})},_unblockFrames:function(){this.iframeBlocks&&(this.iframeBlocks.remove(),delete this.iframeBlocks)},_allowInteraction:function(t){return e(t.target).closest(".ui-dialog").length?!0:!!e(t.target).closest(".ui-datepicker").length},_createOverlay:function(){if(!this.options.modal)return;var t=!0;this._delay(function(){t=!1}),this.document.data("ui-dialog-overlays")||this._on(this.document,{focusin:function(e){if(t)return;this._allowInteraction(e)||(e.preventDefault(),this._trackingInstances()[0]._focusTabbable())}}),this.overlay=e("<div>").addClass("ui-widget-overlay ui-front").appendTo(this._appendTo()),this._on(this.overlay,{mousedown:"_keepFocus"}),this.document.data("ui-dialog-overlays",(this.document.data("ui-dialog-overlays")||0)+1)},_destroyOverlay:function(){if(!this.options.modal)return;if(this.overlay){var e=this.document.data("ui-dialog-overlays")-1;e?this.document.data("ui-dialog-overlays",e):this.document.unbind("focusin").removeData("ui-dialog-overlays"),this.overlay.remove(),this.overlay=null}}})});;
+/**
+ * @file
+ * Drupal's states library.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * The base States namespace.
+   *
+   * Having the local states variable allows us to use the States namespace
+   * without having to always declare "Drupal.states".
+   *
+   * @namespace Drupal.states
+   */
+  var states = Drupal.states = {
+
+    /**
+     * An array of functions that should be postponed.
+     */
+    postponed: []
+  };
+
+  /**
+   * Attaches the states.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches states behaviors.
+   */
+  Drupal.behaviors.states = {
+    attach: function (context, settings) {
+      var $states = $(context).find('[data-drupal-states]');
+      var config;
+      var state;
+      var il = $states.length;
+      for (var i = 0; i < il; i++) {
+        config = JSON.parse($states[i].getAttribute('data-drupal-states'));
+        for (state in config) {
+          if (config.hasOwnProperty(state)) {
+            new states.Dependent({
+              element: $($states[i]),
+              state: states.State.sanitize(state),
+              constraints: config[state]
+            });
+          }
+        }
+      }
+
+      // Execute all postponed functions now.
+      while (states.postponed.length) {
+        (states.postponed.shift())();
+      }
+    }
+  };
+
+  /**
+   * Object representing an element that depends on other elements.
+   *
+   * @constructor Drupal.states.Dependent
+   *
+   * @param {object} args
+   *   Object with the following keys (all of which are required)
+   * @param {jQuery} args.element
+   *   A jQuery object of the dependent element
+   * @param {Drupal.states.State} args.state
+   *   A State object describing the state that is dependent
+   * @param {object} args.constraints
+   *   An object with dependency specifications. Lists all elements that this
+   *   element depends on. It can be nested and can contain
+   *   arbitrary AND and OR clauses.
+   */
+  states.Dependent = function (args) {
+    $.extend(this, {values: {}, oldValue: null}, args);
+
+    this.dependees = this.getDependees();
+    for (var selector in this.dependees) {
+      if (this.dependees.hasOwnProperty(selector)) {
+        this.initializeDependee(selector, this.dependees[selector]);
+      }
+    }
+  };
+
+  /**
+   * Comparison functions for comparing the value of an element with the
+   * specification from the dependency settings. If the object type can't be
+   * found in this list, the === operator is used by default.
+   *
+   * @name Drupal.states.Dependent.comparisons
+   *
+   * @prop {function} RegExp
+   * @prop {function} Function
+   * @prop {function} Number
+   */
+  states.Dependent.comparisons = {
+    RegExp: function (reference, value) {
+      return reference.test(value);
+    },
+    Function: function (reference, value) {
+      // The "reference" variable is a comparison function.
+      return reference(value);
+    },
+    Number: function (reference, value) {
+      // If "reference" is a number and "value" is a string, then cast
+      // reference as a string before applying the strict comparison in
+      // compare().
+      // Otherwise numeric keys in the form's #states array fail to match
+      // string values returned from jQuery's val().
+      return (typeof value === 'string') ? compare(reference.toString(), value) : compare(reference, value);
+    }
+  };
+
+  states.Dependent.prototype = {
+
+    /**
+     * Initializes one of the elements this dependent depends on.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string} selector
+     *   The CSS selector describing the dependee.
+     * @param {object} dependeeStates
+     *   The list of states that have to be monitored for tracking the
+     *   dependee's compliance status.
+     */
+    initializeDependee: function (selector, dependeeStates) {
+      var state;
+      var self = this;
+
+      function stateEventHandler(e) {
+        self.update(e.data.selector, e.data.state, e.value);
+      }
+
+      // Cache for the states of this dependee.
+      this.values[selector] = {};
+
+      for (var i in dependeeStates) {
+        if (dependeeStates.hasOwnProperty(i)) {
+          state = dependeeStates[i];
+          // Make sure we're not initializing this selector/state combination
+          // twice.
+          if ($.inArray(state, dependeeStates) === -1) {
+            continue;
+          }
+
+          state = states.State.sanitize(state);
+
+          // Initialize the value of this state.
+          this.values[selector][state.name] = null;
+
+          // Monitor state changes of the specified state for this dependee.
+          $(selector).on('state:' + state, {selector: selector, state: state}, stateEventHandler);
+
+          // Make sure the event we just bound ourselves to is actually fired.
+          new states.Trigger({selector: selector, state: state});
+        }
+      }
+    },
+
+    /**
+     * Compares a value with a reference value.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {object} reference
+     *   The value used for reference.
+     * @param {string} selector
+     *   CSS selector describing the dependee.
+     * @param {Drupal.states.State} state
+     *   A State object describing the dependee's updated state.
+     *
+     * @return {bool}
+     *   true or false.
+     */
+    compare: function (reference, selector, state) {
+      var value = this.values[selector][state.name];
+      if (reference.constructor.name in states.Dependent.comparisons) {
+        // Use a custom compare function for certain reference value types.
+        return states.Dependent.comparisons[reference.constructor.name](reference, value);
+      }
+      else {
+        // Do a plain comparison otherwise.
+        return compare(reference, value);
+      }
+    },
+
+    /**
+     * Update the value of a dependee's state.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string} selector
+     *   CSS selector describing the dependee.
+     * @param {Drupal.states.state} state
+     *   A State object describing the dependee's updated state.
+     * @param {string} value
+     *   The new value for the dependee's updated state.
+     */
+    update: function (selector, state, value) {
+      // Only act when the 'new' value is actually new.
+      if (value !== this.values[selector][state.name]) {
+        this.values[selector][state.name] = value;
+        this.reevaluate();
+      }
+    },
+
+    /**
+     * Triggers change events in case a state changed.
+     *
+     * @memberof Drupal.states.Dependent#
+     */
+    reevaluate: function () {
+      // Check whether any constraint for this dependent state is satisfied.
+      var value = this.verifyConstraints(this.constraints);
+
+      // Only invoke a state change event when the value actually changed.
+      if (value !== this.oldValue) {
+        // Store the new value so that we can compare later whether the value
+        // actually changed.
+        this.oldValue = value;
+
+        // Normalize the value to match the normalized state name.
+        value = invert(value, this.state.invert);
+
+        // By adding "trigger: true", we ensure that state changes don't go into
+        // infinite loops.
+        this.element.trigger({type: 'state:' + this.state, value: value, trigger: true});
+      }
+    },
+
+    /**
+     * Evaluates child constraints to determine if a constraint is satisfied.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {object|Array} constraints
+     *   A constraint object or an array of constraints.
+     * @param {string} selector
+     *   The selector for these constraints. If undefined, there isn't yet a
+     *   selector that these constraints apply to. In that case, the keys of the
+     *   object are interpreted as the selector if encountered.
+     *
+     * @return {bool}
+     *   true or false, depending on whether these constraints are satisfied.
+     */
+    verifyConstraints: function (constraints, selector) {
+      var result;
+      if ($.isArray(constraints)) {
+        // This constraint is an array (OR or XOR).
+        var hasXor = $.inArray('xor', constraints) === -1;
+        var len = constraints.length;
+        for (var i = 0; i < len; i++) {
+          if (constraints[i] !== 'xor') {
+            var constraint = this.checkConstraints(constraints[i], selector, i);
+            // Return if this is OR and we have a satisfied constraint or if
+            // this is XOR and we have a second satisfied constraint.
+            if (constraint && (hasXor || result)) {
+              return hasXor;
+            }
+            result = result || constraint;
+          }
+        }
+      }
+      // Make sure we don't try to iterate over things other than objects. This
+      // shouldn't normally occur, but in case the condition definition is
+      // bogus, we don't want to end up with an infinite loop.
+      else if ($.isPlainObject(constraints)) {
+        // This constraint is an object (AND).
+        for (var n in constraints) {
+          if (constraints.hasOwnProperty(n)) {
+            result = ternary(result, this.checkConstraints(constraints[n], selector, n));
+            // False and anything else will evaluate to false, so return when
+            // any false condition is found.
+            if (result === false) { return false; }
+          }
+        }
+      }
+      return result;
+    },
+
+    /**
+     * Checks whether the value matches the requirements for this constraint.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string|Array|object} value
+     *   Either the value of a state or an array/object of constraints. In the
+     *   latter case, resolving the constraint continues.
+     * @param {string} [selector]
+     *   The selector for this constraint. If undefined, there isn't yet a
+     *   selector that this constraint applies to. In that case, the state key
+     *   is propagates to a selector and resolving continues.
+     * @param {Drupal.states.State} [state]
+     *   The state to check for this constraint. If undefined, resolving
+     *   continues. If both selector and state aren't undefined and valid
+     *   non-numeric strings, a lookup for the actual value of that selector's
+     *   state is performed. This parameter is not a State object but a pristine
+     *   state string.
+     *
+     * @return {bool}
+     *   true or false, depending on whether this constraint is satisfied.
+     */
+    checkConstraints: function (value, selector, state) {
+      // Normalize the last parameter. If it's non-numeric, we treat it either
+      // as a selector (in case there isn't one yet) or as a trigger/state.
+      if (typeof state !== 'string' || (/[0-9]/).test(state[0])) {
+        state = null;
+      }
+      else if (typeof selector === 'undefined') {
+        // Propagate the state to the selector when there isn't one yet.
+        selector = state;
+        state = null;
+      }
+
+      if (state !== null) {
+        // Constraints is the actual constraints of an element to check for.
+        state = states.State.sanitize(state);
+        return invert(this.compare(value, selector, state), state.invert);
+      }
+      else {
+        // Resolve this constraint as an AND/OR operator.
+        return this.verifyConstraints(value, selector);
+      }
+    },
+
+    /**
+     * Gathers information about all required triggers.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @return {object}
+     *   An object describing the required triggers.
+     */
+    getDependees: function () {
+      var cache = {};
+      // Swivel the lookup function so that we can record all available
+      // selector- state combinations for initialization.
+      var _compare = this.compare;
+      this.compare = function (reference, selector, state) {
+        (cache[selector] || (cache[selector] = [])).push(state.name);
+        // Return nothing (=== undefined) so that the constraint loops are not
+        // broken.
+      };
+
+      // This call doesn't actually verify anything but uses the resolving
+      // mechanism to go through the constraints array, trying to look up each
+      // value. Since we swivelled the compare function, this comparison returns
+      // undefined and lookup continues until the very end. Instead of lookup up
+      // the value, we record that combination of selector and state so that we
+      // can initialize all triggers.
+      this.verifyConstraints(this.constraints);
+      // Restore the original function.
+      this.compare = _compare;
+
+      return cache;
+    }
+  };
+
+  /**
+   * @constructor Drupal.states.Trigger
+   *
+   * @param {object} args
+   *   Trigger arguments.
+   */
+  states.Trigger = function (args) {
+    $.extend(this, args);
+
+    if (this.state in states.Trigger.states) {
+      this.element = $(this.selector);
+
+      // Only call the trigger initializer when it wasn't yet attached to this
+      // element. Otherwise we'd end up with duplicate events.
+      if (!this.element.data('trigger:' + this.state)) {
+        this.initialize();
+      }
+    }
+  };
+
+  states.Trigger.prototype = {
+
+    /**
+     * @memberof Drupal.states.Trigger#
+     */
+    initialize: function () {
+      var trigger = states.Trigger.states[this.state];
+
+      if (typeof trigger === 'function') {
+        // We have a custom trigger initialization function.
+        trigger.call(window, this.element);
+      }
+      else {
+        for (var event in trigger) {
+          if (trigger.hasOwnProperty(event)) {
+            this.defaultTrigger(event, trigger[event]);
+          }
+        }
+      }
+
+      // Mark this trigger as initialized for this element.
+      this.element.data('trigger:' + this.state, true);
+    },
+
+    /**
+     * @memberof Drupal.states.Trigger#
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered.
+     * @param {function} valueFn
+     *   The function to call.
+     */
+    defaultTrigger: function (event, valueFn) {
+      var oldValue = valueFn.call(this.element);
+
+      // Attach the event callback.
+      this.element.on(event, $.proxy(function (e) {
+        var value = valueFn.call(this.element, e);
+        // Only trigger the event if the value has actually changed.
+        if (oldValue !== value) {
+          this.element.trigger({type: 'state:' + this.state, value: value, oldValue: oldValue});
+          oldValue = value;
+        }
+      }, this));
+
+      states.postponed.push($.proxy(function () {
+        // Trigger the event once for initialization purposes.
+        this.element.trigger({type: 'state:' + this.state, value: oldValue, oldValue: null});
+      }, this));
+    }
+  };
+
+  /**
+   * This list of states contains functions that are used to monitor the state
+   * of an element. Whenever an element depends on the state of another element,
+   * one of these trigger functions is added to the dependee so that the
+   * dependent element can be updated.
+   *
+   * @name Drupal.states.Trigger.states
+   *
+   * @prop empty
+   * @prop checked
+   * @prop value
+   * @prop collapsed
+   */
+  states.Trigger.states = {
+    // 'empty' describes the state to be monitored.
+    empty: {
+      // 'keyup' is the (native DOM) event that we watch for.
+      keyup: function () {
+        // The function associated with that trigger returns the new value for
+        // the state.
+        return this.val() === '';
+      }
+    },
+
+    checked: {
+      change: function () {
+        // prop() and attr() only takes the first element into account. To
+        // support selectors matching multiple checkboxes, iterate over all and
+        // return whether any is checked.
+        var checked = false;
+        this.each(function () {
+          // Use prop() here as we want a boolean of the checkbox state.
+          // @see http://api.jquery.com/prop/
+          checked = $(this).prop('checked');
+          // Break the each() loop if this is checked.
+          return !checked;
+        });
+        return checked;
+      }
+    },
+
+    // For radio buttons, only return the value if the radio button is selected.
+    value: {
+      keyup: function () {
+        // Radio buttons share the same :input[name="key"] selector.
+        if (this.length > 1) {
+          // Initial checked value of radios is undefined, so we return false.
+          return this.filter(':checked').val() || false;
+        }
+        return this.val();
+      },
+      change: function () {
+        // Radio buttons share the same :input[name="key"] selector.
+        if (this.length > 1) {
+          // Initial checked value of radios is undefined, so we return false.
+          return this.filter(':checked').val() || false;
+        }
+        return this.val();
+      }
+    },
+
+    collapsed: {
+      collapsed: function (e) {
+        return (typeof e !== 'undefined' && 'value' in e) ? e.value : !this.is('[open]');
+      }
+    }
+  };
+
+  /**
+   * A state object is used for describing the state and performing aliasing.
+   *
+   * @constructor Drupal.states.State
+   *
+   * @param {string} state
+   *   The name of the state.
+   */
+  states.State = function (state) {
+
+    /**
+     * Original unresolved name.
+     */
+    this.pristine = this.name = state;
+
+    // Normalize the state name.
+    var process = true;
+    do {
+      // Iteratively remove exclamation marks and invert the value.
+      while (this.name.charAt(0) === '!') {
+        this.name = this.name.substring(1);
+        this.invert = !this.invert;
+      }
+
+      // Replace the state with its normalized name.
+      if (this.name in states.State.aliases) {
+        this.name = states.State.aliases[this.name];
+      }
+      else {
+        process = false;
+      }
+    } while (process);
+  };
+
+  /**
+   * Creates a new State object by sanitizing the passed value.
+   *
+   * @name Drupal.states.State.sanitize
+   *
+   * @param {string|Drupal.states.State} state
+   *   A state object or the name of a state.
+   *
+   * @return {Drupal.states.state}
+   *   A state object.
+   */
+  states.State.sanitize = function (state) {
+    if (state instanceof states.State) {
+      return state;
+    }
+    else {
+      return new states.State(state);
+    }
+  };
+
+  /**
+   * This list of aliases is used to normalize states and associates negated
+   * names with their respective inverse state.
+   *
+   * @name Drupal.states.State.aliases
+   */
+  states.State.aliases = {
+    enabled: '!disabled',
+    invisible: '!visible',
+    invalid: '!valid',
+    untouched: '!touched',
+    optional: '!required',
+    filled: '!empty',
+    unchecked: '!checked',
+    irrelevant: '!relevant',
+    expanded: '!collapsed',
+    open: '!collapsed',
+    closed: 'collapsed',
+    readwrite: '!readonly'
+  };
+
+  states.State.prototype = {
+
+    /**
+     * @memberof Drupal.states.State#
+     */
+    invert: false,
+
+    /**
+     * Ensures that just using the state object returns the name.
+     *
+     * @memberof Drupal.states.State#
+     *
+     * @return {string}
+     *   The name of the state.
+     */
+    toString: function () {
+      return this.name;
+    }
+  };
+
+  /**
+   * Global state change handlers. These are bound to "document" to cover all
+   * elements whose state changes. Events sent to elements within the page
+   * bubble up to these handlers. We use this system so that themes and modules
+   * can override these state change handlers for particular parts of a page.
+   */
+
+  var $document = $(document);
+  $document.on('state:disabled', function (e) {
+    // Only act when this change was triggered by a dependency and not by the
+    // element monitoring itself.
+    if (e.trigger) {
+      $(e.target)
+        .prop('disabled', e.value)
+        .closest('.js-form-item, .js-form-submit, .js-form-wrapper').toggleClass('form-disabled', e.value)
+        .find('select, input, textarea').prop('disabled', e.value);
+
+      // Note: WebKit nightlies don't reflect that change correctly.
+      // See https://bugs.webkit.org/show_bug.cgi?id=23789
+    }
+  });
+
+  $document.on('state:required', function (e) {
+    if (e.trigger) {
+      if (e.value) {
+        var label = 'label' + (e.target.id ? '[for=' + e.target.id + ']' : '');
+        var $label = $(e.target).attr({'required': 'required', 'aria-required': 'aria-required'}).closest('.js-form-item, .js-form-wrapper').find(label);
+        // Avoids duplicate required markers on initialization.
+        if (!$label.hasClass('js-form-required').length) {
+          $label.addClass('js-form-required form-required');
+        }
+      }
+      else {
+        $(e.target).removeAttr('required aria-required').closest('.js-form-item, .js-form-wrapper').find('label.js-form-required').removeClass('js-form-required form-required');
+      }
+    }
+  });
+
+  $document.on('state:visible', function (e) {
+    if (e.trigger) {
+      $(e.target).closest('.js-form-item, .js-form-submit, .js-form-wrapper').toggle(e.value);
+    }
+  });
+
+  $document.on('state:checked', function (e) {
+    if (e.trigger) {
+      $(e.target).prop('checked', e.value);
+    }
+  });
+
+  $document.on('state:collapsed', function (e) {
+    if (e.trigger) {
+      if ($(e.target).is('[open]') === e.value) {
+        $(e.target).find('> summary').trigger('click');
+      }
+    }
+  });
+
+  /**
+   * These are helper functions implementing addition "operators" and don't
+   * implement any logic that is particular to states.
+   */
+
+  /**
+   * Bitwise AND with a third undefined state.
+   *
+   * @function Drupal.states~ternary
+   *
+   * @param {*} a
+   *   Value a.
+   * @param {*} b
+   *   Value b
+   *
+   * @return {bool}
+   *   The result.
+   */
+  function ternary(a, b) {
+    if (typeof a === 'undefined') {
+      return b;
+    }
+    else if (typeof b === 'undefined') {
+      return a;
+    }
+    else {
+      return a && b;
+    }
+  }
+
+  /**
+   * Inverts a (if it's not undefined) when invertState is true.
+   *
+   * @function Drupal.states~invert
+   *
+   * @param {*} a
+   *   The value to maybe invert.
+   * @param {bool} invertState
+   *   Whether to invert state or not.
+   *
+   * @return {bool}
+   *   The result.
+   */
+  function invert(a, invertState) {
+    return (invertState && typeof a !== 'undefined') ? !a : a;
+  }
+
+  /**
+   * Compares two values while ignoring undefined values.
+   *
+   * @function Drupal.states~compare
+   *
+   * @param {*} a
+   *   Value a.
+   * @param {*} b
+   *   Value b.
+   *
+   * @return {bool}
+   *   The comparison result.
+   */
+  function compare(a, b) {
+    if (a === b) {
+      return typeof a === 'undefined' ? a : true;
+    }
+    else {
+      return typeof a === 'undefined' || typeof b === 'undefined';
+    }
+  }
+
+})(jQuery, Drupal);
+;
 /**
  * @file
  * Adapted from underscore.js with the addition Drupal namespace.
@@ -4850,8 +5595,6 @@ Drupal.debounce = function (func, wait, immediate) {
   };
 };
 ;
-/*! jquery.cookie v1.4.1 | MIT */
-!function(a){"function"==typeof define&&define.amd?define(["jquery"],a):"object"==typeof exports?a(require("jquery")):a(jQuery)}(function(a){function b(a){return h.raw?a:encodeURIComponent(a)}function c(a){return h.raw?a:decodeURIComponent(a)}function d(a){return b(h.json?JSON.stringify(a):String(a))}function e(a){0===a.indexOf('"')&&(a=a.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,"\\"));try{return a=decodeURIComponent(a.replace(g," ")),h.json?JSON.parse(a):a}catch(b){}}function f(b,c){var d=h.raw?b:e(b);return a.isFunction(c)?c(d):d}var g=/\+/g,h=a.cookie=function(e,g,i){if(void 0!==g&&!a.isFunction(g)){if(i=a.extend({},h.defaults,i),"number"==typeof i.expires){var j=i.expires,k=i.expires=new Date;k.setTime(+k+864e5*j)}return document.cookie=[b(e),"=",d(g),i.expires?"; expires="+i.expires.toUTCString():"",i.path?"; path="+i.path:"",i.domain?"; domain="+i.domain:"",i.secure?"; secure":""].join("")}for(var l=e?void 0:{},m=document.cookie?document.cookie.split("; "):[],n=0,o=m.length;o>n;n++){var p=m[n].split("="),q=c(p.shift()),r=p.join("=");if(e&&e===q){l=f(r,g);break}e||void 0===(r=f(r))||(l[q]=r)}return l};h.defaults={},a.removeCookie=function(b,c){return void 0===a.cookie(b)?!1:(a.cookie(b,"",a.extend({},c,{expires:-1})),!a.cookie(b))}});;
 /**
  * @file
  * Form features.
@@ -5105,6 +5848,2059 @@ Drupal.debounce = function (func, wait, immediate) {
 ;
 /**
  * @file
+ * Dropbutton feature.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * Process elements with the .dropbutton class on page load.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches dropButton behaviors.
+   */
+  Drupal.behaviors.dropButton = {
+    attach: function (context, settings) {
+      var $dropbuttons = $(context).find('.dropbutton-wrapper').once('dropbutton');
+      if ($dropbuttons.length) {
+        // Adds the delegated handler that will toggle dropdowns on click.
+        var $body = $('body').once('dropbutton-click');
+        if ($body.length) {
+          $body.on('click', '.dropbutton-toggle', dropbuttonClickHandler);
+        }
+        // Initialize all buttons.
+        var il = $dropbuttons.length;
+        for (var i = 0; i < il; i++) {
+          DropButton.dropbuttons.push(new DropButton($dropbuttons[i], settings.dropbutton));
+        }
+      }
+    }
+  };
+
+  /**
+   * Delegated callback for opening and closing dropbutton secondary actions.
+   *
+   * @function Drupal.DropButton~dropbuttonClickHandler
+   *
+   * @param {jQuery.Event} e
+   *   The event triggered.
+   */
+  function dropbuttonClickHandler(e) {
+    e.preventDefault();
+    $(e.target).closest('.dropbutton-wrapper').toggleClass('open');
+  }
+
+  /**
+   * A DropButton presents an HTML list as a button with a primary action.
+   *
+   * All secondary actions beyond the first in the list are presented in a
+   * dropdown list accessible through a toggle arrow associated with the button.
+   *
+   * @constructor Drupal.DropButton
+   *
+   * @param {HTMLElement} dropbutton
+   *   A DOM element.
+   * @param {object} settings
+   *   A list of options including:
+   * @param {string} settings.title
+   *   The text inside the toggle link element. This text is hidden
+   *   from visual UAs.
+   */
+  function DropButton(dropbutton, settings) {
+    // Merge defaults with settings.
+    var options = $.extend({title: Drupal.t('List additional actions')}, settings);
+    var $dropbutton = $(dropbutton);
+
+    /**
+     * @type {jQuery}
+     */
+    this.$dropbutton = $dropbutton;
+
+    /**
+     * @type {jQuery}
+     */
+    this.$list = $dropbutton.find('.dropbutton');
+
+    /**
+     * Find actions and mark them.
+     *
+     * @type {jQuery}
+     */
+    this.$actions = this.$list.find('li').addClass('dropbutton-action');
+
+    // Add the special dropdown only if there are hidden actions.
+    if (this.$actions.length > 1) {
+      // Identify the first element of the collection.
+      var $primary = this.$actions.slice(0, 1);
+      // Identify the secondary actions.
+      var $secondary = this.$actions.slice(1);
+      $secondary.addClass('secondary-action');
+      // Add toggle link.
+      $primary.after(Drupal.theme('dropbuttonToggle', options));
+      // Bind mouse events.
+      this.$dropbutton
+        .addClass('dropbutton-multiple')
+        .on({
+
+          /**
+           * Adds a timeout to close the dropdown on mouseleave.
+           *
+           * @ignore
+           */
+          'mouseleave.dropbutton': $.proxy(this.hoverOut, this),
+
+          /**
+           * Clears timeout when mouseout of the dropdown.
+           *
+           * @ignore
+           */
+          'mouseenter.dropbutton': $.proxy(this.hoverIn, this),
+
+          /**
+           * Similar to mouseleave/mouseenter, but for keyboard navigation.
+           *
+           * @ignore
+           */
+          'focusout.dropbutton': $.proxy(this.focusOut, this),
+
+          /**
+           * @ignore
+           */
+          'focusin.dropbutton': $.proxy(this.focusIn, this)
+        });
+    }
+    else {
+      this.$dropbutton.addClass('dropbutton-single');
+    }
+  }
+
+  /**
+   * Extend the DropButton constructor.
+   */
+  $.extend(DropButton, /** @lends Drupal.DropButton */{
+    /**
+     * Store all processed DropButtons.
+     *
+     * @type {Array.<Drupal.DropButton>}
+     */
+    dropbuttons: []
+  });
+
+  /**
+   * Extend the DropButton prototype.
+   */
+  $.extend(DropButton.prototype, /** @lends Drupal.DropButton# */{
+
+    /**
+     * Toggle the dropbutton open and closed.
+     *
+     * @param {bool} [show]
+     *   Force the dropbutton to open by passing true or to close by
+     *   passing false.
+     */
+    toggle: function (show) {
+      var isBool = typeof show === 'boolean';
+      show = isBool ? show : !this.$dropbutton.hasClass('open');
+      this.$dropbutton.toggleClass('open', show);
+    },
+
+    /**
+     * @method
+     */
+    hoverIn: function () {
+      // Clear any previous timer we were using.
+      if (this.timerID) {
+        window.clearTimeout(this.timerID);
+      }
+    },
+
+    /**
+     * @method
+     */
+    hoverOut: function () {
+      // Wait half a second before closing.
+      this.timerID = window.setTimeout($.proxy(this, 'close'), 500);
+    },
+
+    /**
+     * @method
+     */
+    open: function () {
+      this.toggle(true);
+    },
+
+    /**
+     * @method
+     */
+    close: function () {
+      this.toggle(false);
+    },
+
+    /**
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    focusOut: function (e) {
+      this.hoverOut.call(this, e);
+    },
+
+    /**
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    focusIn: function (e) {
+      this.hoverIn.call(this, e);
+    }
+  });
+
+  $.extend(Drupal.theme, /** @lends Drupal.theme */{
+
+    /**
+     * A toggle is an interactive element often bound to a click handler.
+     *
+     * @param {object} options
+     *   Options object.
+     * @param {string} [options.title]
+     *   The HTML anchor title attribute and text for the inner span element.
+     *
+     * @return {string}
+     *   A string representing a DOM fragment.
+     */
+    dropbuttonToggle: function (options) {
+      return '<li class="dropbutton-toggle"><button type="button"><span class="dropbutton-arrow"><span class="visually-hidden">' + options.title + '</span></span></button></li>';
+    }
+  });
+
+  // Expose constructor in the public space.
+  Drupal.DropButton = DropButton;
+
+})(jQuery, Drupal);
+;
+/**
+ * @file
+ * Some basic behaviors and utility functions for Views.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * @namespace
+   */
+  Drupal.Views = {};
+
+  /**
+   * Helper function to parse a querystring.
+   *
+   * @param {string} query
+   *   The querystring to parse.
+   *
+   * @return {object}
+   *   A map of query parameters.
+   */
+  Drupal.Views.parseQueryString = function (query) {
+    var args = {};
+    var pos = query.indexOf('?');
+    if (pos !== -1) {
+      query = query.substring(pos + 1);
+    }
+    var pair;
+    var pairs = query.split('&');
+    for (var i = 0; i < pairs.length; i++) {
+      pair = pairs[i].split('=');
+      // Ignore the 'q' path argument, if present.
+      if (pair[0] !== 'q' && pair[1]) {
+        args[decodeURIComponent(pair[0].replace(/\+/g, ' '))] = decodeURIComponent(pair[1].replace(/\+/g, ' '));
+      }
+    }
+    return args;
+  };
+
+  /**
+   * Helper function to return a view's arguments based on a path.
+   *
+   * @param {string} href
+   *   The href to check.
+   * @param {string} viewPath
+   *   The views path to check.
+   *
+   * @return {object}
+   *   An object containing `view_args` and `view_path`.
+   */
+  Drupal.Views.parseViewArgs = function (href, viewPath) {
+    var returnObj = {};
+    var path = Drupal.Views.getPath(href);
+    // Get viewPath url without baseUrl portion.
+    var viewHref = Drupal.url(viewPath).substring(drupalSettings.path.baseUrl.length);
+    // Ensure we have a correct path.
+    if (viewHref && path.substring(0, viewHref.length + 1) === viewHref + '/') {
+      returnObj.view_args = decodeURIComponent(path.substring(viewHref.length + 1, path.length));
+      returnObj.view_path = path;
+    }
+    return returnObj;
+  };
+
+  /**
+   * Strip off the protocol plus domain from an href.
+   *
+   * @param {string} href
+   *   The href to strip.
+   *
+   * @return {string}
+   *   The href without the protocol and domain.
+   */
+  Drupal.Views.pathPortion = function (href) {
+    // Remove e.g. http://example.com if present.
+    var protocol = window.location.protocol;
+    if (href.substring(0, protocol.length) === protocol) {
+      // 2 is the length of the '//' that normally follows the protocol.
+      href = href.substring(href.indexOf('/', protocol.length + 2));
+    }
+    return href;
+  };
+
+  /**
+   * Return the Drupal path portion of an href.
+   *
+   * @param {string} href
+   *   The href to check.
+   *
+   * @return {string}
+   *   An internal path.
+   */
+  Drupal.Views.getPath = function (href) {
+    href = Drupal.Views.pathPortion(href);
+    href = href.substring(drupalSettings.path.baseUrl.length, href.length);
+    // 3 is the length of the '?q=' added to the url without clean urls.
+    if (href.substring(0, 3) === '?q=') {
+      href = href.substring(3, href.length);
+    }
+    var chars = ['#', '?', '&'];
+    for (var i = 0; i < chars.length; i++) {
+      if (href.indexOf(chars[i]) > -1) {
+        href = href.substr(0, href.indexOf(chars[i]));
+      }
+    }
+    return href;
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Handles AJAX fetching of views, including filter submission and response.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * Attaches the AJAX behavior to exposed filters forms and key View links.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches ajaxView functionality to relevant elements.
+   */
+  Drupal.behaviors.ViewsAjaxView = {};
+  Drupal.behaviors.ViewsAjaxView.attach = function () {
+    if (drupalSettings && drupalSettings.views && drupalSettings.views.ajaxViews) {
+      var ajaxViews = drupalSettings.views.ajaxViews;
+      for (var i in ajaxViews) {
+        if (ajaxViews.hasOwnProperty(i)) {
+          Drupal.views.instances[i] = new Drupal.views.ajaxView(ajaxViews[i]);
+        }
+      }
+    }
+  };
+
+  /**
+   * @namespace
+   */
+  Drupal.views = {};
+
+  /**
+   * @type {object.<string, Drupal.views.ajaxView>}
+   */
+  Drupal.views.instances = {};
+
+  /**
+   * Javascript object for a certain view.
+   *
+   * @constructor
+   *
+   * @param {object} settings
+   *   Settings object for the ajax view.
+   * @param {string} settings.view_dom_id
+   *   The DOM id of the view.
+   */
+  Drupal.views.ajaxView = function (settings) {
+    var selector = '.js-view-dom-id-' + settings.view_dom_id;
+    this.$view = $(selector);
+
+    // Retrieve the path to use for views' ajax.
+    var ajax_path = drupalSettings.views.ajax_path;
+
+    // If there are multiple views this might've ended up showing up multiple
+    // times.
+    if (ajax_path.constructor.toString().indexOf('Array') !== -1) {
+      ajax_path = ajax_path[0];
+    }
+
+    // Check if there are any GET parameters to send to views.
+    var queryString = window.location.search || '';
+    if (queryString !== '') {
+      // Remove the question mark and Drupal path component if any.
+      queryString = queryString.slice(1).replace(/q=[^&]+&?|&?render=[^&]+/, '');
+      if (queryString !== '') {
+        // If there is a '?' in ajax_path, clean url are on and & should be
+        // used to add parameters.
+        queryString = ((/\?/.test(ajax_path)) ? '&' : '?') + queryString;
+      }
+    }
+
+    this.element_settings = {
+      url: ajax_path + queryString,
+      submit: settings,
+      setClick: true,
+      event: 'click',
+      selector: selector,
+      progress: {type: 'fullscreen'}
+    };
+
+    this.settings = settings;
+
+    // Add the ajax to exposed forms.
+    this.$exposed_form = $('form#views-exposed-form-' + settings.view_name.replace(/_/g, '-') + '-' + settings.view_display_id.replace(/_/g, '-'));
+    this.$exposed_form.once('exposed-form').each($.proxy(this.attachExposedFormAjax, this));
+
+    // Add the ajax to pagers.
+    this.$view
+      // Don't attach to nested views. Doing so would attach multiple behaviors
+      // to a given element.
+      .filter($.proxy(this.filterNestedViews, this))
+      .once('ajax-pager').each($.proxy(this.attachPagerAjax, this));
+
+    // Add a trigger to update this view specifically. In order to trigger a
+    // refresh use the following code.
+    //
+    // @code
+    // $('.view-name').trigger('RefreshView');
+    // @endcode
+    var self_settings = $.extend({}, this.element_settings, {
+      event: 'RefreshView',
+      base: this.selector,
+      element: this.$view.get(0)
+    });
+    this.refreshViewAjax = Drupal.ajax(self_settings);
+  };
+
+  /**
+   * @method
+   */
+  Drupal.views.ajaxView.prototype.attachExposedFormAjax = function () {
+    var that = this;
+    this.exposedFormAjax = [];
+    // Exclude the reset buttons so no AJAX behaviours are bound. Many things
+    // break during the form reset phase if using AJAX.
+    $('input[type=submit], input[type=image]', this.$exposed_form).not('[data-drupal-selector=edit-reset]').each(function (index) {
+      var self_settings = $.extend({}, that.element_settings, {
+        base: $(this).attr('id'),
+        element: this
+      });
+      that.exposedFormAjax[index] = Drupal.ajax(self_settings);
+    });
+  };
+
+  /**
+   * @return {bool}
+   *   If there is at least one parent with a view class return false.
+   */
+  Drupal.views.ajaxView.prototype.filterNestedViews = function () {
+    // If there is at least one parent with a view class, this view
+    // is nested (e.g., an attachment). Bail.
+    return !this.$view.parents('.view').length;
+  };
+
+  /**
+   * Attach the ajax behavior to each link.
+   */
+  Drupal.views.ajaxView.prototype.attachPagerAjax = function () {
+    this.$view.find('ul.js-pager__items > li > a, th.views-field a, .attachment .views-summary a')
+      .each($.proxy(this.attachPagerLinkAjax, this));
+  };
+
+  /**
+   * Attach the ajax behavior to a singe link.
+   *
+   * @param {string} [id]
+   *   The ID of the link.
+   * @param {HTMLElement} link
+   *   The link element.
+   */
+  Drupal.views.ajaxView.prototype.attachPagerLinkAjax = function (id, link) {
+    var $link = $(link);
+    var viewData = {};
+    var href = $link.attr('href');
+    // Construct an object using the settings defaults and then overriding
+    // with data specific to the link.
+    $.extend(
+      viewData,
+      this.settings,
+      Drupal.Views.parseQueryString(href),
+      // Extract argument data from the URL.
+      Drupal.Views.parseViewArgs(href, this.settings.view_base_path)
+    );
+
+    var self_settings = $.extend({}, this.element_settings, {
+      submit: viewData,
+      base: false,
+      element: link
+    });
+    this.pagerAjax = Drupal.ajax(self_settings);
+  };
+
+  /**
+   * Views scroll to top ajax command.
+   *
+   * @param {Drupal.Ajax} [ajax]
+   *   A {@link Drupal.ajax} object.
+   * @param {object} response
+   *   Ajax response.
+   * @param {string} response.selector
+   *   Selector to use.
+   */
+  Drupal.AjaxCommands.prototype.viewsScrollTop = function (ajax, response) {
+    // Scroll to the top of the view. This will allow users
+    // to browse newly loaded content after e.g. clicking a pager
+    // link.
+    var offset = $(response.selector).offset();
+    // We can't guarantee that the scrollable object should be
+    // the body, as the view could be embedded in something
+    // more complex such as a modal popup. Recurse up the DOM
+    // and scroll the first element that has a non-zero top.
+    var scrollTarget = response.selector;
+    while ($(scrollTarget).scrollTop() === 0 && $(scrollTarget).parent()) {
+      scrollTarget = $(scrollTarget).parent();
+    }
+    // Only scroll upward.
+    if (offset.top - 10 < $(scrollTarget).scrollTop()) {
+      $(scrollTarget).animate({scrollTop: (offset.top - 10)}, 500);
+    }
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Handles AJAX submission and response in Views UI.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * Ajax command for highlighting elements.
+   *
+   * @param {Drupal.Ajax} [ajax]
+   *   An Ajax object.
+   * @param {object} response
+   *   The Ajax response.
+   * @param {string} response.selector
+   *   The selector in question.
+   * @param {number} [status]
+   *   The HTTP status code.
+   */
+  Drupal.AjaxCommands.prototype.viewsHighlight = function (ajax, response, status) {
+    $('.hilited').removeClass('hilited');
+    $(response.selector).addClass('hilited');
+  };
+
+  /**
+   * Ajax command to set the form submit action in the views modal edit form.
+   *
+   * @param {Drupal.Ajax} [ajax]
+   *   An Ajax object.
+   * @param {object} response
+   *   The Ajax response. Contains .url
+   * @param {string} [status]
+   *   The XHR status code?
+   */
+  Drupal.AjaxCommands.prototype.viewsSetForm = function (ajax, response, status) {
+    var $form = $('.js-views-ui-dialog form');
+    // Identify the button that was clicked so that .ajaxSubmit() can use it.
+    // We need to do this for both .click() and .mousedown() since JavaScript
+    // code might trigger either behavior.
+    var $submit_buttons = $form.find('input[type=submit].js-form-submit, button.js-form-submit').once('views-ajax-submit');
+    $submit_buttons.on('click mousedown', function () {
+      this.form.clk = this;
+    });
+    $form.once('views-ajax-submit').each(function () {
+      var $form = $(this);
+      var element_settings = {
+        url: response.url,
+        event: 'submit',
+        base: $form.attr('id'),
+        element: this
+      };
+      var ajaxForm = Drupal.ajax(element_settings);
+      ajaxForm.$form = $form;
+    });
+  };
+
+  /**
+   * Ajax command to show certain buttons in the views edit form.
+   *
+   * @param {Drupal.Ajax} [ajax]
+   *   An Ajax object.
+   * @param {object} response
+   *   The Ajax response.
+   * @param {bool} response.changed
+   *   Whether the state changed for the buttons or not.
+   * @param {number} [status]
+   *   The HTTP status code.
+   */
+  Drupal.AjaxCommands.prototype.viewsShowButtons = function (ajax, response, status) {
+    $('div.views-edit-view div.form-actions').removeClass('js-hide');
+    if (response.changed) {
+      $('div.views-edit-view div.view-changed.messages').removeClass('js-hide');
+    }
+  };
+
+  /**
+   * Ajax command for triggering preview.
+   *
+   * @param {Drupal.Ajax} [ajax]
+   *   An Ajax object.
+   * @param {object} [response]
+   *   The Ajax response.
+   * @param {number} [status]
+   *   The HTTP status code.
+   */
+  Drupal.AjaxCommands.prototype.viewsTriggerPreview = function (ajax, response, status) {
+    if ($('input#edit-displays-live-preview').is(':checked')) {
+      $('#preview-submit').trigger('click');
+    }
+  };
+
+  /**
+   * Ajax command to replace the title of a page.
+   *
+   * @param {Drupal.Ajax} [ajax]
+   *   An Ajax object.
+   * @param {object} response
+   *   The Ajax response.
+   * @param {string} response.siteName
+   *   The site name.
+   * @param {string} response.title
+   *   The new page title.
+   * @param {number} [status]
+   *   The HTTP status code.
+   */
+  Drupal.AjaxCommands.prototype.viewsReplaceTitle = function (ajax, response, status) {
+    var doc = document;
+    // For the <title> element, make a best-effort attempt to replace the page
+    // title and leave the site name alone. If the theme doesn't use the site
+    // name in the <title> element, this will fail.
+    var oldTitle = doc.title;
+    // Escape the site name, in case it has special characters in it, so we can
+    // use it in our regex.
+    var escapedSiteName = response.siteName.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
+    var re = new RegExp('.+ (.) ' + escapedSiteName);
+    doc.title = oldTitle.replace(re, response.title + ' $1 ' + response.siteName);
+
+    $('h1.page-title').text(response.title);
+  };
+
+  /**
+   * Get rid of irritating tabledrag messages.
+   *
+   * @return {Array}
+   *   An array of messages. Always empty array, to get rid of the messages.
+   */
+  Drupal.theme.tableDragChangedWarning = function () {
+    return [];
+  };
+
+  /**
+   * Trigger preview when the "live preview" checkbox is checked.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behavior to trigger live preview if the live preview option is
+   *   checked.
+   */
+  Drupal.behaviors.livePreview = {
+    attach: function (context) {
+      $('input#edit-displays-live-preview', context).once('views-ajax').on('click', function () {
+        if ($(this).is(':checked')) {
+          $('#preview-submit').trigger('click');
+        }
+      });
+    }
+  };
+
+  /**
+   * Sync preview display.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behavior to sync the preview display when needed.
+   */
+  Drupal.behaviors.syncPreviewDisplay = {
+    attach: function (context) {
+      $('#views-tabset a').once('views-ajax').on('click', function () {
+        var href = $(this).attr('href');
+        // Cut of #views-tabset.
+        var display_id = href.substr(11);
+        // Set the form element.
+        $('#views-live-preview #preview-display-id').val(display_id);
+      });
+    }
+  };
+
+  /**
+   * Ajax behaviors for the views_ui module.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches ajax behaviors to the elements with the classes in question.
+   */
+  Drupal.behaviors.viewsAjax = {
+    collapseReplaced: false,
+    attach: function (context, settings) {
+      var base_element_settings = {
+        event: 'click',
+        progress: {type: 'fullscreen'}
+      };
+      // Bind AJAX behaviors to all items showing the class.
+      $('a.views-ajax-link', context).once('views-ajax').each(function () {
+        var element_settings = base_element_settings;
+        element_settings.base = $(this).attr('id');
+        element_settings.element = this;
+        // Set the URL to go to the anchor.
+        if ($(this).attr('href')) {
+          element_settings.url = $(this).attr('href');
+        }
+        Drupal.ajax(element_settings);
+      });
+
+      $('div#views-live-preview a')
+        .once('views-ajax').each(function () {
+          // We don't bind to links without a URL.
+          if (!$(this).attr('href')) {
+            return true;
+          }
+
+          var element_settings = base_element_settings;
+          // Set the URL to go to the anchor.
+          element_settings.url = $(this).attr('href');
+          if (Drupal.Views.getPath(element_settings.url).substring(0, 21) !== 'admin/structure/views') {
+            return true;
+          }
+
+          element_settings.wrapper = 'views-preview-wrapper';
+          element_settings.method = 'replaceWith';
+          element_settings.base = $(this).attr('id');
+          element_settings.element = this;
+          Drupal.ajax(element_settings);
+        });
+
+      // Within a live preview, make exposed widget form buttons re-trigger the
+      // Preview button.
+      // @todo Revisit this after fixing Views UI to display a Preview outside
+      //   of the main Edit form.
+      $('div#views-live-preview input[type=submit]')
+        .once('views-ajax').each(function (event) {
+          $(this).on('click', function () {
+            this.form.clk = this;
+            return true;
+          });
+          var element_settings = base_element_settings;
+          // Set the URL to go to the anchor.
+          element_settings.url = $(this.form).attr('action');
+          if (Drupal.Views.getPath(element_settings.url).substring(0, 21) !== 'admin/structure/views') {
+            return true;
+          }
+
+          element_settings.wrapper = 'views-preview-wrapper';
+          element_settings.method = 'replaceWith';
+          element_settings.event = 'click';
+          element_settings.base = $(this).attr('id');
+          element_settings.element = this;
+
+          Drupal.ajax(element_settings);
+        });
+
+    }
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Views dialog behaviors.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  function handleDialogResize(e) {
+    var $modal = $(e.currentTarget);
+    var $viewsOverride = $modal.find('[data-drupal-views-offset]');
+    var $scroll = $modal.find('[data-drupal-views-scroll]');
+    var offset = 0;
+    var modalHeight;
+    if ($scroll.length) {
+      // Add a class to do some styles adjustments.
+      $modal.closest('.views-ui-dialog').addClass('views-ui-dialog-scroll');
+      // Let scroll element take all the height available.
+      $scroll.css({overflow: 'visible', height: 'auto'});
+      modalHeight = $modal.height();
+      $viewsOverride.each(function () { offset += $(this).outerHeight(); });
+
+      // Take internal padding into account.
+      var scrollOffset = $scroll.outerHeight() - $scroll.height();
+      $scroll.height(modalHeight - offset - scrollOffset);
+      // Reset scrolling properties.
+      $modal.css('overflow', 'hidden');
+      $scroll.css('overflow', 'auto');
+    }
+  }
+
+  /**
+   * Functionality for views modals.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches modal functionality for views.
+   * @prop {Drupal~behaviorDetach} detach
+   *   Detaches the modal functionality.
+   */
+  Drupal.behaviors.viewsModalContent = {
+    attach: function (context) {
+      $('body').once('viewsDialog').on('dialogContentResize.viewsDialog', '.ui-dialog-content', handleDialogResize);
+      // When expanding details, make sure the modal is resized.
+      $(context).find('.scroll').once('detailsUpdate').on('click', 'summary', function (e) {
+        $(e.currentTarget).trigger('dialogContentResize');
+      });
+    },
+    detach: function (context, settings, trigger) {
+      if (trigger === 'unload') {
+        $('body').removeOnce('viewsDialog').off('.viewsDialog');
+      }
+    }
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Some basic behaviors and utility functions for Views UI.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * @namespace
+   */
+  Drupal.viewsUi = {};
+
+  /**
+   * Improve the user experience of the views edit interface.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches toggling of SQL rewrite warning on the corresponding checkbox.
+   */
+  Drupal.behaviors.viewsUiEditView = {
+    attach: function () {
+      // Only show the SQL rewrite warning when the user has chosen the
+      // corresponding checkbox.
+      $('[data-drupal-selector="edit-query-options-disable-sql-rewrite"]').on('click', function () {
+        $('.sql-rewrite-warning').toggleClass('js-hide');
+      });
+    }
+  };
+
+  /**
+   * In the add view wizard, use the view name to prepopulate form fields such
+   * as page title and menu link.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behavior for prepopulating page title and menu links, based on
+   *   view name.
+   */
+  Drupal.behaviors.viewsUiAddView = {
+    attach: function (context) {
+      var $context = $(context);
+      // Set up regular expressions to allow only numbers, letters, and dashes.
+      var exclude = new RegExp('[^a-z0-9\\-]+', 'g');
+      var replace = '-';
+      var suffix;
+
+      // The page title, block title, and menu link fields can all be
+      // prepopulated with the view name - no regular expression needed.
+      var $fields = $context.find('[id^="edit-page-title"], [id^="edit-block-title"], [id^="edit-page-link-properties-title"]');
+      if ($fields.length) {
+        if (!this.fieldsFiller) {
+          this.fieldsFiller = new Drupal.viewsUi.FormFieldFiller($fields);
+        }
+        else {
+          // After an AJAX response, this.fieldsFiller will still have event
+          // handlers bound to the old version of the form fields (which don't
+          // exist anymore). The event handlers need to be unbound and then
+          // rebound to the new markup. Note that jQuery.live is difficult to
+          // make work in this case because the IDs of the form fields change
+          // on every AJAX response.
+          this.fieldsFiller.rebind($fields);
+        }
+      }
+
+      // Prepopulate the path field with a URLified version of the view name.
+      var $pathField = $context.find('[id^="edit-page-path"]');
+      if ($pathField.length) {
+        if (!this.pathFiller) {
+          this.pathFiller = new Drupal.viewsUi.FormFieldFiller($pathField, exclude, replace);
+        }
+        else {
+          this.pathFiller.rebind($pathField);
+        }
+      }
+
+      // Populate the RSS feed field with a URLified version of the view name,
+      // and an .xml suffix (to make it unique).
+      var $feedField = $context.find('[id^="edit-page-feed-properties-path"]');
+      if ($feedField.length) {
+        if (!this.feedFiller) {
+          suffix = '.xml';
+          this.feedFiller = new Drupal.viewsUi.FormFieldFiller($feedField, exclude, replace, suffix);
+        }
+        else {
+          this.feedFiller.rebind($feedField);
+        }
+      }
+    }
+  };
+
+  /**
+   * Constructor for the {@link Drupal.viewsUi.FormFieldFiller} object.
+   *
+   * Prepopulates a form field based on the view name.
+   *
+   * @constructor
+   *
+   * @param {jQuery} $target
+   *   A jQuery object representing the form field or fields to prepopulate.
+   * @param {bool} [exclude=false]
+   *   A regular expression representing characters to exclude from
+   *   the target field.
+   * @param {string} [replace='']
+   *   A string to use as the replacement value for disallowed characters.
+   * @param {string} [suffix='']
+   *   A suffix to append at the end of the target field content.
+   */
+  Drupal.viewsUi.FormFieldFiller = function ($target, exclude, replace, suffix) {
+
+    /**
+     *
+     * @type {jQuery}
+     */
+    this.source = $('#edit-label');
+
+    /**
+     *
+     * @type {jQuery}
+     */
+    this.target = $target;
+
+    /**
+     *
+     * @type {bool}
+     */
+    this.exclude = exclude || false;
+
+    /**
+     *
+     * @type {string}
+     */
+    this.replace = replace || '';
+
+    /**
+     *
+     * @type {string}
+     */
+    this.suffix = suffix || '';
+
+    // Create bound versions of this instance's object methods to use as event
+    // handlers. This will let us easily unbind those specific handlers later
+    // on. NOTE: jQuery.proxy will not work for this because it assumes we want
+    // only one bound version of an object method, whereas we need one version
+    // per object instance.
+    var self = this;
+
+    /**
+     * Populate the target form field with the altered source field value.
+     *
+     * @return {*}
+     *   The result of the _populate call, which should be undefined.
+     */
+    this.populate = function () { return self._populate.call(self); };
+
+    /**
+     * Stop prepopulating the form fields.
+     *
+     * @return {*}
+     *   The result of the _unbind call, which should be undefined.
+     */
+    this.unbind = function () { return self._unbind.call(self); };
+
+    this.bind();
+    // Object constructor; no return value.
+  };
+
+  $.extend(Drupal.viewsUi.FormFieldFiller.prototype, /** @lends Drupal.viewsUi.FormFieldFiller# */{
+
+    /**
+     * Bind the form-filling behavior.
+     */
+    bind: function () {
+      this.unbind();
+      // Populate the form field when the source changes.
+      this.source.on('keyup.viewsUi change.viewsUi', this.populate);
+      // Quit populating the field as soon as it gets focus.
+      this.target.on('focus.viewsUi', this.unbind);
+    },
+
+    /**
+     * Get the source form field value as altered by the passed-in parameters.
+     *
+     * @return {string}
+     *   The source form field value.
+     */
+    getTransliterated: function () {
+      var from = this.source.val();
+      if (this.exclude) {
+        from = from.toLowerCase().replace(this.exclude, this.replace);
+      }
+      return from;
+    },
+
+    /**
+     * Populate the target form field with the altered source field value.
+     */
+    _populate: function () {
+      var transliterated = this.getTransliterated();
+      var suffix = this.suffix;
+      this.target.each(function (i) {
+        // Ensure that the maxlength is not exceeded by prepopulating the field.
+        var maxlength = $(this).attr('maxlength') - suffix.length;
+        $(this).val(transliterated.substr(0, maxlength) + suffix);
+      });
+    },
+
+    /**
+     * Stop prepopulating the form fields.
+     */
+    _unbind: function () {
+      this.source.off('keyup.viewsUi change.viewsUi', this.populate);
+      this.target.off('focus.viewsUi', this.unbind);
+    },
+
+    /**
+     * Bind event handlers to new form fields, after they're replaced via Ajax.
+     *
+     * @param {jQuery} $fields
+     *   Fields to rebind functionality to.
+     */
+    rebind: function ($fields) {
+      this.target = $fields;
+      this.bind();
+    }
+  });
+
+  /**
+   * Adds functionality for the add item form.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches the functionality in {@link Drupal.viewsUi.AddItemForm} to the
+   *   forms in question.
+   */
+  Drupal.behaviors.addItemForm = {
+    attach: function (context) {
+      var $context = $(context);
+      var $form = $context;
+      // The add handler form may have an id of views-ui-add-handler-form--n.
+      if (!$context.is('form[id^="views-ui-add-handler-form"]')) {
+        $form = $context.find('form[id^="views-ui-add-handler-form"]');
+      }
+      if ($form.once('views-ui-add-handler-form').length) {
+        // If we we have an unprocessed views-ui-add-handler-form, let's
+        // instantiate.
+        new Drupal.viewsUi.AddItemForm($form);
+      }
+    }
+  };
+
+  /**
+   * Constructs a new AddItemForm.
+   *
+   * @constructor
+   *
+   * @param {jQuery} $form
+   *   The form element used.
+   */
+  Drupal.viewsUi.AddItemForm = function ($form) {
+
+    /**
+     *
+     * @type {jQuery}
+     */
+    this.$form = $form;
+    this.$form.find('.views-filterable-options :checkbox').on('click', $.proxy(this.handleCheck, this));
+
+    /**
+     * Find the wrapper of the displayed text.
+     */
+    this.$selected_div = this.$form.find('.views-selected-options').parent();
+    this.$selected_div.hide();
+
+    /**
+     *
+     * @type {Array}
+     */
+    this.checkedItems = [];
+  };
+
+  /**
+   * Handles a checkbox check.
+   *
+   * @param {jQuery.Event} event
+   *   The event triggered.
+   */
+  Drupal.viewsUi.AddItemForm.prototype.handleCheck = function (event) {
+    var $target = $(event.target);
+    var label = $.trim($target.closest('td').next().html());
+    // Add/remove the checked item to the list.
+    if ($target.is(':checked')) {
+      this.$selected_div.show().css('display', 'block');
+      this.checkedItems.push(label);
+    }
+    else {
+      var position = $.inArray(label, this.checkedItems);
+      // Delete the item from the list and make sure that the list doesn't have
+      // undefined items left.
+      for (var i = 0; i < this.checkedItems.length; i++) {
+        if (i === position) {
+          this.checkedItems.splice(i, 1);
+          i--;
+          break;
+        }
+      }
+      // Hide it again if none item is selected.
+      if (this.checkedItems.length === 0) {
+        this.$selected_div.hide();
+      }
+    }
+    this.refreshCheckedItems();
+  };
+
+  /**
+   * Refresh the display of the checked items.
+   */
+  Drupal.viewsUi.AddItemForm.prototype.refreshCheckedItems = function () {
+    // Perhaps we should precache the text div, too.
+    this.$selected_div.find('.views-selected-options')
+      .html(this.checkedItems.join(', '))
+      .trigger('dialogContentResize');
+  };
+
+  /**
+   * The input field items that add displays must be rendered as `<input>`
+   * elements. The following behavior detaches the `<input>` elements from the
+   * DOM, wraps them in an unordered list, then appends them to the list of
+   * tabs.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Fixes the input elements needed.
+   */
+  Drupal.behaviors.viewsUiRenderAddViewButton = {
+    attach: function (context) {
+      // Build the add display menu and pull the display input buttons into it.
+      var $menu = $(context).find('#views-display-menu-tabs').once('views-ui-render-add-view-button');
+      if (!$menu.length) {
+        return;
+      }
+
+      var $addDisplayDropdown = $('<li class="add"><a href="#"><span class="icon add"></span>' + Drupal.t('Add') + '</a><ul class="action-list" style="display:none;"></ul></li>');
+      var $displayButtons = $menu.nextAll('input.add-display').detach();
+      $displayButtons.appendTo($addDisplayDropdown.find('.action-list')).wrap('<li>')
+        .parent().eq(0).addClass('first').end().eq(-1).addClass('last');
+      // Remove the 'Add ' prefix from the button labels since they're being
+      // placed in an 'Add' dropdown. @todo This assumes English, but so does
+      // $addDisplayDropdown above. Add support for translation.
+      $displayButtons.each(function () {
+        var label = $(this).val();
+        if (label.substr(0, 4) === 'Add ') {
+          $(this).val(label.substr(4));
+        }
+      });
+      $addDisplayDropdown.appendTo($menu);
+
+      // Add the click handler for the add display button.
+      $menu.find('li.add > a').on('click', function (event) {
+        event.preventDefault();
+        var $trigger = $(this);
+        Drupal.behaviors.viewsUiRenderAddViewButton.toggleMenu($trigger);
+      });
+      // Add a mouseleave handler to close the dropdown when the user mouses
+      // away from the item. We use mouseleave instead of mouseout because
+      // the user is going to trigger mouseout when she moves from the trigger
+      // link to the sub menu items.
+      // We use the live binder because the open class on this item will be
+      // toggled on and off and we want the handler to take effect in the cases
+      // that the class is present, but not when it isn't.
+      $('li.add', $menu).on('mouseleave', function (event) {
+        var $this = $(this);
+        var $trigger = $this.children('a[href="#"]');
+        if ($this.children('.action-list').is(':visible')) {
+          Drupal.behaviors.viewsUiRenderAddViewButton.toggleMenu($trigger);
+        }
+      });
+    }
+  };
+
+  /**
+   * Toggle menu visibility.
+   *
+   * @param {jQuery} $trigger
+   *   The element where the toggle was triggered.
+   *
+   *
+   * @note [@jessebeach] I feel like the following should be a more generic
+   *   function and not written specifically for this UI, but I'm not sure
+   *   where to put it.
+   */
+  Drupal.behaviors.viewsUiRenderAddViewButton.toggleMenu = function ($trigger) {
+    $trigger.parent().toggleClass('open');
+    $trigger.next().slideToggle('fast');
+  };
+
+  /**
+   * Add search options to the views ui.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches {@link Drupal.viewsUi.OptionsSearch} to the views ui filter
+   *   options.
+   */
+  Drupal.behaviors.viewsUiSearchOptions = {
+    attach: function (context) {
+      var $context = $(context);
+      var $form = $context;
+      // The add handler form may have an id of views-ui-add-handler-form--n.
+      if (!$context.is('form[id^="views-ui-add-handler-form"]')) {
+        $form = $context.find('form[id^="views-ui-add-handler-form"]');
+      }
+      // Make sure we don't add more than one event handler to the same form.
+      if ($form.once('views-ui-filter-options').length) {
+        new Drupal.viewsUi.OptionsSearch($form);
+      }
+    }
+  };
+
+  /**
+   * Constructor for the viewsUi.OptionsSearch object.
+   *
+   * The OptionsSearch object filters the available options on a form according
+   * to the user's search term. Typing in "taxonomy" will show only those
+   * options containing "taxonomy" in their label.
+   *
+   * @constructor
+   *
+   * @param {jQuery} $form
+   *   The form element.
+   */
+  Drupal.viewsUi.OptionsSearch = function ($form) {
+
+    /**
+     *
+     * @type {jQuery}
+     */
+    this.$form = $form;
+
+    // Click on the title checks the box.
+    this.$form.on('click', 'td.title', function (event) {
+      var $target = $(event.currentTarget);
+      $target.closest('tr').find('input').trigger('click');
+    });
+
+    var searchBoxSelector = '[data-drupal-selector="edit-override-controls-options-search"]';
+    var controlGroupSelector = '[data-drupal-selector="edit-override-controls-group"]';
+    this.$form.on('formUpdated', searchBoxSelector + ',' + controlGroupSelector, $.proxy(this.handleFilter, this));
+
+    this.$searchBox = this.$form.find(searchBoxSelector);
+    this.$controlGroup = this.$form.find(controlGroupSelector);
+
+    /**
+     * Get a list of option labels and their corresponding divs and maintain it
+     * in memory, so we have as little overhead as possible at keyup time.
+     */
+    this.options = this.getOptions(this.$form.find('.filterable-option'));
+
+    // Trap the ENTER key in the search box so that it doesn't submit the form.
+    this.$searchBox.on('keypress', function (event) {
+      if (event.which === 13) {
+        event.preventDefault();
+      }
+    });
+  };
+
+  $.extend(Drupal.viewsUi.OptionsSearch.prototype, /** @lends Drupal.viewsUi.OptionsSearch# */{
+
+    /**
+     * Assemble a list of all the filterable options on the form.
+     *
+     * @param {jQuery} $allOptions
+     *   A jQuery object representing the rows of filterable options to be
+     *   shown and hidden depending on the user's search terms.
+     *
+     * @return {Array}
+     *   An array of all the filterable options.
+     */
+    getOptions: function ($allOptions) {
+      var $title;
+      var $description;
+      var $option;
+      var options = [];
+      var length = $allOptions.length;
+      for (var i = 0; i < length; i++) {
+        $option = $($allOptions[i]);
+        $title = $option.find('.title');
+        $description = $option.find('.description');
+        options[i] = {
+          // Search on the lowercase version of the title text + description.
+          searchText: $title.text().toLowerCase() + ' ' + $description.text().toLowerCase(),
+          // Maintain a reference to the jQuery object for each row, so we don't
+          // have to create a new object inside the performance-sensitive keyup
+          // handler.
+          $div: $option
+        };
+      }
+      return options;
+    },
+
+    /**
+     * Filter handler for the search box and type select that hides or shows the relevant
+     * options.
+     *
+     * @param {jQuery.Event} event
+     *   The formUpdated event.
+     */
+    handleFilter: function (event) {
+      // Determine the user's search query. The search text has been converted
+      // to lowercase.
+      var search = this.$searchBox.val().toLowerCase();
+      var words = search.split(' ');
+      // Get selected Group
+      var group = this.$controlGroup.val();
+
+      // Search through the search texts in the form for matching text.
+      this.options.forEach(function (option) {
+        function hasWord(word) {
+          return option.searchText.indexOf(word) !== -1;
+        }
+
+        var found = true;
+        // Each word in the search string has to match the item in order for the
+        // item to be shown.
+        if (search) {
+          found = words.every(hasWord);
+        }
+        if (found && group !== 'all') {
+          found = option.$div.hasClass(group);
+        }
+
+        option.$div.toggle(found);
+      });
+
+      // Adapt dialog to content size.
+      $(event.target).trigger('dialogContentResize');
+    }
+  });
+
+  /**
+   * Preview functionality in the views edit form.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches the preview functionality to the view edit form.
+   */
+  Drupal.behaviors.viewsUiPreview = {
+    attach: function (context) {
+      // Only act on the edit view form.
+      var $contextualFiltersBucket = $(context).find('.views-display-column .views-ui-display-tab-bucket.argument');
+      if ($contextualFiltersBucket.length === 0) {
+        return;
+      }
+
+      // If the display has no contextual filters, hide the form where you
+      // enter the contextual filters for the live preview. If it has contextual
+      // filters, show the form.
+      var $contextualFilters = $contextualFiltersBucket.find('.views-display-setting a');
+      if ($contextualFilters.length) {
+        $('#preview-args').parent().show();
+      }
+      else {
+        $('#preview-args').parent().hide();
+      }
+
+      // Executes an initial preview.
+      if ($('#edit-displays-live-preview').once('edit-displays-live-preview').is(':checked')) {
+        $('#preview-submit').once('edit-displays-live-preview').trigger('click');
+      }
+    }
+  };
+
+  /**
+   * Rearranges the filters.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attach handlers to make it possible to rearange the filters in the form
+   *   in question.
+   *   @see Drupal.viewsUi.RearrangeFilterHandler
+   */
+  Drupal.behaviors.viewsUiRearrangeFilter = {
+    attach: function (context) {
+      // Only act on the rearrange filter form.
+      if (typeof Drupal.tableDrag === 'undefined' || typeof Drupal.tableDrag['views-rearrange-filters'] === 'undefined') {
+        return;
+      }
+      var $context = $(context);
+      var $table = $context.find('#views-rearrange-filters').once('views-rearrange-filters');
+      var $operator = $context.find('.js-form-item-filter-groups-operator').once('views-rearrange-filters');
+      if ($table.length) {
+        new Drupal.viewsUi.RearrangeFilterHandler($table, $operator);
+      }
+    }
+  };
+
+  /**
+   * Improve the UI of the rearrange filters dialog box.
+   *
+   * @constructor
+   *
+   * @param {jQuery} $table
+   *   The table in the filter form.
+   * @param {jQuery} $operator
+   *   The filter groups operator element.
+   */
+  Drupal.viewsUi.RearrangeFilterHandler = function ($table, $operator) {
+
+    /**
+     * Keep a reference to the `<table>` being altered and to the div containing
+     * the filter groups operator dropdown (if it exists).
+     */
+    this.table = $table;
+
+    /**
+     *
+     * @type {jQuery}
+     */
+    this.operator = $operator;
+
+    /**
+     *
+     * @type {bool}
+     */
+    this.hasGroupOperator = this.operator.length > 0;
+
+    /**
+     * Keep a reference to all draggable rows within the table.
+     *
+     * @type {jQuery}
+     */
+    this.draggableRows = $table.find('.draggable');
+
+    /**
+     * Keep a reference to the buttons for adding and removing filter groups.
+     *
+     * @type {jQuery}
+     */
+    this.addGroupButton = $('input#views-add-group');
+
+    /**
+     * @type {jQuery}
+     */
+    this.removeGroupButtons = $table.find('input.views-remove-group');
+
+    // Add links that duplicate the functionality of the (hidden) add and remove
+    // buttons.
+    this.insertAddRemoveFilterGroupLinks();
+
+    // When there is a filter groups operator dropdown on the page, create
+    // duplicates of the dropdown between each pair of filter groups.
+    if (this.hasGroupOperator) {
+
+      /**
+       * @type {jQuery}
+       */
+      this.dropdowns = this.duplicateGroupsOperator();
+      this.syncGroupsOperators();
+    }
+
+    // Add methods to the tableDrag instance to account for operator cells
+    // (which span multiple rows), the operator labels next to each filter
+    // (e.g., "And" or "Or"), the filter groups, and other special aspects of
+    // this tableDrag instance.
+    this.modifyTableDrag();
+
+    // Initialize the operator labels (e.g., "And" or "Or") that are displayed
+    // next to the filters in each group, and bind a handler so that they change
+    // based on the values of the operator dropdown within that group.
+    this.redrawOperatorLabels();
+    $table.find('.views-group-title select')
+      .once('views-rearrange-filter-handler')
+      .on('change.views-rearrange-filter-handler', $.proxy(this, 'redrawOperatorLabels'));
+
+    // Bind handlers so that when a "Remove" link is clicked, we:
+    // - Update the rowspans of cells containing an operator dropdown (since
+    //   they need to change to reflect the number of rows in each group).
+    // - Redraw the operator labels next to the filters in the group (since the
+    //   filter that is currently displayed last in each group is not supposed
+    //   to have a label display next to it).
+    $table.find('a.views-groups-remove-link')
+      .once('views-rearrange-filter-handler')
+      .on('click.views-rearrange-filter-handler', $.proxy(this, 'updateRowspans'))
+      .on('click.views-rearrange-filter-handler', $.proxy(this, 'redrawOperatorLabels'));
+  };
+
+  $.extend(Drupal.viewsUi.RearrangeFilterHandler.prototype, /** @lends Drupal.viewsUi.RearrangeFilterHandler# */{
+
+    /**
+     * Insert links that allow filter groups to be added and removed.
+     */
+    insertAddRemoveFilterGroupLinks: function () {
+
+      // Insert a link for adding a new group at the top of the page, and make
+      // it match the action link styling used in a typical page.html.twig.
+      // Since Drupal does not provide a theme function for this markup this is
+      // the best we can do.
+      $('<ul class="action-links"><li><a id="views-add-group-link" href="#">' + this.addGroupButton.val() + '</a></li></ul>')
+        .prependTo(this.table.parent())
+        // When the link is clicked, dynamically click the hidden form button
+        // for adding a new filter group.
+        .once('views-rearrange-filter-handler')
+        .find('#views-add-group-link')
+        .on('click.views-rearrange-filter-handler', $.proxy(this, 'clickAddGroupButton'));
+
+      // Find each (visually hidden) button for removing a filter group and
+      // insert a link next to it.
+      var length = this.removeGroupButtons.length;
+      var i;
+      for (i = 0; i < length; i++) {
+        var $removeGroupButton = $(this.removeGroupButtons[i]);
+        var buttonId = $removeGroupButton.attr('id');
+        $('<a href="#" class="views-remove-group-link">' + Drupal.t('Remove group') + '</a>')
+          .insertBefore($removeGroupButton)
+          // When the link is clicked, dynamically click the corresponding form
+          // button.
+          .once('views-rearrange-filter-handler')
+          .on('click.views-rearrange-filter-handler', {buttonId: buttonId}, $.proxy(this, 'clickRemoveGroupButton'));
+      }
+    },
+
+    /**
+     * Dynamically click the button that adds a new filter group.
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered.
+     */
+    clickAddGroupButton: function (event) {
+      this.addGroupButton.trigger('mousedown');
+      event.preventDefault();
+    },
+
+    /**
+     * Dynamically click a button for removing a filter group.
+     *
+     * @param {jQuery.Event} event
+     *   Event being triggered, with event.data.buttonId set to the ID of the
+     *   form button that should be clicked.
+     */
+    clickRemoveGroupButton: function (event) {
+      this.table.find('#' + event.data.buttonId).trigger('mousedown');
+      event.preventDefault();
+    },
+
+    /**
+     * Move the groups operator so that it's between the first two groups, and
+     * duplicate it between any subsequent groups.
+     *
+     * @return {jQuery}
+     *   An operator element.
+     */
+    duplicateGroupsOperator: function () {
+      var dropdowns;
+      var newRow;
+      var titleRow;
+
+      var titleRows = $('tr.views-group-title').once('duplicateGroupsOperator');
+
+      if (!titleRows.length) {
+        return this.operator;
+      }
+
+      // Get rid of the explanatory text around the operator; its placement is
+      // explanatory enough.
+      this.operator.find('label').add('div.description').addClass('visually-hidden');
+      this.operator.find('select').addClass('form-select');
+
+      // Keep a list of the operator dropdowns, so we can sync their behavior
+      // later.
+      dropdowns = this.operator;
+
+      // Move the operator to a new row just above the second group.
+      titleRow = $('tr#views-group-title-2');
+      newRow = $('<tr class="filter-group-operator-row"><td colspan="5"></td></tr>');
+      newRow.find('td').append(this.operator);
+      newRow.insertBefore(titleRow);
+      var length = titleRows.length;
+      // Starting with the third group, copy the operator to a new row above the
+      // group title.
+      for (var i = 2; i < length; i++) {
+        titleRow = $(titleRows[i]);
+        // Make a copy of the operator dropdown and put it in a new table row.
+        var fakeOperator = this.operator.clone();
+        fakeOperator.attr('id', '');
+        newRow = $('<tr class="filter-group-operator-row"><td colspan="5"></td></tr>');
+        newRow.find('td').append(fakeOperator);
+        newRow.insertBefore(titleRow);
+        dropdowns.add(fakeOperator);
+      }
+
+      return dropdowns;
+    },
+
+    /**
+     * Make the duplicated groups operators change in sync with each other.
+     */
+    syncGroupsOperators: function () {
+      if (this.dropdowns.length < 2) {
+        // We only have one dropdown (or none at all), so there's nothing to
+        // sync.
+        return;
+      }
+
+      this.dropdowns.on('change', $.proxy(this, 'operatorChangeHandler'));
+    },
+
+    /**
+     * Click handler for the operators that appear between filter groups.
+     *
+     * Forces all operator dropdowns to have the same value.
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered.
+     */
+    operatorChangeHandler: function (event) {
+      var $target = $(event.target);
+      var operators = this.dropdowns.find('select').not($target);
+
+      // Change the other operators to match this new value.
+      operators.val($target.val());
+    },
+
+    /**
+     * @method
+     */
+    modifyTableDrag: function () {
+      var tableDrag = Drupal.tableDrag['views-rearrange-filters'];
+      var filterHandler = this;
+
+      /**
+       * Override the row.onSwap method from tabledrag.js.
+       *
+       * When a row is dragged to another place in the table, several things
+       * need to occur.
+       * - The row needs to be moved so that it's within one of the filter
+       * groups.
+       * - The operator cells that span multiple rows need their rowspan
+       * attributes updated to reflect the number of rows in each group.
+       * - The operator labels that are displayed next to each filter need to
+       * be redrawn, to account for the row's new location.
+       */
+      tableDrag.row.prototype.onSwap = function () {
+        if (filterHandler.hasGroupOperator) {
+          // Make sure the row that just got moved (this.group) is inside one
+          // of the filter groups (i.e. below an empty marker row or a
+          // draggable). If it isn't, move it down one.
+          var thisRow = $(this.group);
+          var previousRow = thisRow.prev('tr');
+          if (previousRow.length && !previousRow.hasClass('group-message') && !previousRow.hasClass('draggable')) {
+            // Move the dragged row down one.
+            var next = thisRow.next();
+            if (next.is('tr')) {
+              this.swap('after', next);
+            }
+          }
+          filterHandler.updateRowspans();
+        }
+        // Redraw the operator labels that are displayed next to each filter, to
+        // account for the row's new location.
+        filterHandler.redrawOperatorLabels();
+      };
+
+      /**
+       * Override the onDrop method from tabledrag.js.
+       */
+      tableDrag.onDrop = function () {
+        // If the tabledrag change marker (i.e., the "*") has been inserted
+        // inside a row after the operator label (i.e., "And" or "Or")
+        // rearrange the items so the operator label continues to appear last.
+        var changeMarker = $(this.oldRowElement).find('.tabledrag-changed');
+        if (changeMarker.length) {
+          // Search for occurrences of the operator label before the change
+          // marker, and reverse them.
+          var operatorLabel = changeMarker.prevAll('.views-operator-label');
+          if (operatorLabel.length) {
+            operatorLabel.insertAfter(changeMarker);
+          }
+        }
+
+        // Make sure the "group" dropdown is properly updated when rows are
+        // dragged into an empty filter group. This is borrowed heavily from
+        // the block.js implementation of tableDrag.onDrop().
+        var groupRow = $(this.rowObject.element).prevAll('tr.group-message').get(0);
+        var groupName = groupRow.className.replace(/([^ ]+[ ]+)*group-([^ ]+)-message([ ]+[^ ]+)*/, '$2');
+        var groupField = $('select.views-group-select', this.rowObject.element);
+        if ($(this.rowObject.element).prev('tr').is('.group-message') && !groupField.is('.views-group-select-' + groupName)) {
+          var oldGroupName = groupField.attr('class').replace(/([^ ]+[ ]+)*views-group-select-([^ ]+)([ ]+[^ ]+)*/, '$2');
+          groupField.removeClass('views-group-select-' + oldGroupName).addClass('views-group-select-' + groupName);
+          groupField.val(groupName);
+        }
+      };
+    },
+
+    /**
+     * Redraw the operator labels that are displayed next to each filter.
+     */
+    redrawOperatorLabels: function () {
+      for (var i = 0; i < this.draggableRows.length; i++) {
+        // Within the row, the operator labels are displayed inside the first
+        // table cell (next to the filter name).
+        var $draggableRow = $(this.draggableRows[i]);
+        var $firstCell = $draggableRow.find('td').eq(0);
+        if ($firstCell.length) {
+          // The value of the operator label ("And" or "Or") is taken from the
+          // first operator dropdown we encounter, going backwards from the
+          // current row. This dropdown is the one associated with the current
+          // row's filter group.
+          var operatorValue = $draggableRow.prevAll('.views-group-title').find('option:selected').html();
+          var operatorLabel = '<span class="views-operator-label">' + operatorValue + '</span>';
+          // If the next visible row after this one is a draggable filter row,
+          // display the operator label next to the current row. (Checking for
+          // visibility is necessary here since the "Remove" links hide the
+          // removed row but don't actually remove it from the document).
+          var $nextRow = $draggableRow.nextAll(':visible').eq(0);
+          var $existingOperatorLabel = $firstCell.find('.views-operator-label');
+          if ($nextRow.hasClass('draggable')) {
+            // If an operator label was already there, replace it with the new
+            // one.
+            if ($existingOperatorLabel.length) {
+              $existingOperatorLabel.replaceWith(operatorLabel);
+            }
+            // Otherwise, append the operator label to the end of the table
+            // cell.
+            else {
+              $firstCell.append(operatorLabel);
+            }
+          }
+          // If the next row doesn't contain a filter, then this is the last row
+          // in the group. We don't want to display the operator there (since
+          // operators should only display between two related filters, e.g.
+          // "filter1 AND filter2 AND filter3"). So we remove any existing label
+          // that this row has.
+          else {
+            $existingOperatorLabel.remove();
+          }
+        }
+      }
+    },
+
+    /**
+     * Update the rowspan attribute of each cell containing an operator
+     * dropdown.
+     */
+    updateRowspans: function () {
+      var $row;
+      var $currentEmptyRow;
+      var draggableCount;
+      var $operatorCell;
+      var rows = $(this.table).find('tr');
+      var length = rows.length;
+      for (var i = 0; i < length; i++) {
+        $row = $(rows[i]);
+        if ($row.hasClass('views-group-title')) {
+          // This row is a title row.
+          // Keep a reference to the cell containing the dropdown operator.
+          $operatorCell = $row.find('td.group-operator');
+          // Assume this filter group is empty, until we find otherwise.
+          draggableCount = 0;
+          $currentEmptyRow = $row.next('tr');
+          $currentEmptyRow.removeClass('group-populated').addClass('group-empty');
+          // The cell with the dropdown operator should span the title row and
+          // the "this group is empty" row.
+          $operatorCell.attr('rowspan', 2);
+        }
+        else if ($row.hasClass('draggable') && $row.is(':visible')) {
+          // We've found a visible filter row, so we now know the group isn't
+          // empty.
+          draggableCount++;
+          $currentEmptyRow.removeClass('group-empty').addClass('group-populated');
+          // The operator cell should span all draggable rows, plus the title.
+          $operatorCell.attr('rowspan', draggableCount + 1);
+        }
+      }
+    }
+  });
+
+  /**
+   * Add a select all checkbox, which checks each checkbox at once.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches select all functionality to the views filter form.
+   */
+  Drupal.behaviors.viewsFilterConfigSelectAll = {
+    attach: function (context) {
+      var $context = $(context);
+
+      var $selectAll = $context.find('.js-form-item-options-value-all').once('filterConfigSelectAll');
+      var $selectAllCheckbox = $selectAll.find('input[type=checkbox]');
+      var $checkboxes = $selectAll.closest('.form-checkboxes').find('.js-form-type-checkbox:not(.js-form-item-options-value-all) input[type="checkbox"]');
+
+      if ($selectAll.length) {
+         // Show the select all checkbox.
+        $selectAll.show();
+        $selectAllCheckbox.on('click', function () {
+          // Update all checkbox beside the select all checkbox.
+          $checkboxes.prop('checked', $(this).is(':checked'));
+        });
+
+        // Uncheck the select all checkbox if any of the others are unchecked.
+        $checkboxes.on('click', function () {
+          if ($(this).is('checked') === false) {
+            $selectAllCheckbox.prop('checked', false);
+          }
+        });
+      }
+    }
+  };
+
+  /**
+   * Remove icon class from elements that are themed as buttons or dropbuttons.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Removes the icon class from certain views elements.
+   */
+  Drupal.behaviors.viewsRemoveIconClass = {
+    attach: function (context) {
+      $(context).find('.dropbutton').once('dropbutton-icon').find('.icon').removeClass('icon');
+    }
+  };
+
+  /**
+   * Change "Expose filter" buttons into checkboxes.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Changes buttons into checkboxes via {@link Drupal.viewsUi.Checkboxifier}.
+   */
+  Drupal.behaviors.viewsUiCheckboxify = {
+    attach: function (context, settings) {
+      var $buttons = $('[data-drupal-selector="edit-options-expose-button-button"], [data-drupal-selector="edit-options-group-button-button"]').once('views-ui-checkboxify');
+      var length = $buttons.length;
+      var i;
+      for (i = 0; i < length; i++) {
+        new Drupal.viewsUi.Checkboxifier($buttons[i]);
+      }
+    }
+  };
+
+  /**
+   * Change the default widget to select the default group according to the
+   * selected widget for the exposed group.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Changes the default widget based on user input.
+   */
+  Drupal.behaviors.viewsUiChangeDefaultWidget = {
+    attach: function (context) {
+      var $context = $(context);
+
+      function changeDefaultWidget(event) {
+        if ($(event.target).prop('checked')) {
+          $context.find('input.default-radios').parent().hide();
+          $context.find('td.any-default-radios-row').parent().hide();
+          $context.find('input.default-checkboxes').parent().show();
+        }
+        else {
+          $context.find('input.default-checkboxes').parent().hide();
+          $context.find('td.any-default-radios-row').parent().show();
+          $context.find('input.default-radios').parent().show();
+        }
+      }
+
+      // Update on widget change.
+      $context.find('input[name="options[group_info][multiple]"]')
+        .on('change', changeDefaultWidget)
+        // Update the first time the form is rendered.
+        .trigger('change');
+    }
+  };
+
+  /**
+   * Attaches expose filter button to a checkbox that triggers its click event.
+   *
+   * @constructor
+   *
+   * @param {HTMLElement} button
+   *   The DOM object representing the button to be checkboxified.
+   */
+  Drupal.viewsUi.Checkboxifier = function (button) {
+    this.$button = $(button);
+    this.$parent = this.$button.parent('div.views-expose, div.views-grouped');
+    this.$input = this.$parent.find('input:checkbox, input:radio');
+    // Hide the button and its description.
+    this.$button.hide();
+    this.$parent.find('.exposed-description, .grouped-description').hide();
+
+    this.$input.on('click', $.proxy(this, 'clickHandler'));
+
+  };
+
+  /**
+   * When the checkbox is checked or unchecked, simulate a button press.
+   *
+   * @param {jQuery.Event} e
+   *   The event triggered.
+   */
+  Drupal.viewsUi.Checkboxifier.prototype.clickHandler = function (e) {
+    this.$button
+      .trigger('click')
+      .trigger('submit');
+  };
+
+  /**
+   * Change the Apply button text based upon the override select state.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behavior to change the Apply button according to the current
+   *   state.
+   */
+  Drupal.behaviors.viewsUiOverrideSelect = {
+    attach: function (context) {
+      $(context).find('[data-drupal-selector="edit-override-dropdown"]').once('views-ui-override-button-text').each(function () {
+        // Closures! :(
+        var $context = $(context);
+        var $submit = $context.find('[id^=edit-submit]');
+        var old_value = $submit.val();
+
+        $submit.once('views-ui-override-button-text')
+          .on('mouseup', function () {
+            $(this).val(old_value);
+            return true;
+          });
+
+        $(this).on('change', function () {
+          var $this = $(this);
+          if ($this.val() === 'default') {
+            $submit.val(Drupal.t('Apply (all displays)'));
+          }
+          else if ($this.val() === 'default_revert') {
+            $submit.val(Drupal.t('Revert to default'));
+          }
+          else {
+            $submit.val(Drupal.t('Apply (this display)'));
+          }
+          var $dialog = $context.closest('.ui-dialog-content');
+          $dialog.trigger('dialogButtonsChange');
+        })
+          .trigger('change');
+      });
+
+    }
+  };
+
+  /**
+   * Functionality for the remove link in the views UI.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behavior for the remove view and remove display links.
+   */
+  Drupal.behaviors.viewsUiHandlerRemoveLink = {
+    attach: function (context) {
+      var $context = $(context);
+      // Handle handler deletion by looking for the hidden checkbox and hiding
+      // the row.
+      $context.find('a.views-remove-link').once('views').on('click', function (event) {
+        var id = $(this).attr('id').replace('views-remove-link-', '');
+        $context.find('#views-row-' + id).hide();
+        $context.find('#views-removed-' + id).prop('checked', true);
+        event.preventDefault();
+      });
+
+      // Handle display deletion by looking for the hidden checkbox and hiding
+      // the row.
+      $context.find('a.display-remove-link').once('display').on('click', function (event) {
+        var id = $(this).attr('id').replace('display-remove-link-', '');
+        $context.find('#display-row-' + id).hide();
+        $context.find('#display-removed-' + id).prop('checked', true);
+        event.preventDefault();
+      });
+    }
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
  * Add aria attribute handling for details and summary elements.
  */
 
@@ -5282,239 +8078,6 @@ Drupal.debounce = function (func, wait, immediate) {
 ;
 /**
  * @file
- * Responsive table functionality.
- */
-
-(function ($, Drupal, window) {
-
-  'use strict';
-
-  /**
-   * Attach the tableResponsive function to {@link Drupal.behaviors}.
-   *
-   * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Attaches tableResponsive functionality.
-   */
-  Drupal.behaviors.tableResponsive = {
-    attach: function (context, settings) {
-      var $tables = $(context).find('table.responsive-enabled').once('tableresponsive');
-      if ($tables.length) {
-        var il = $tables.length;
-        for (var i = 0; i < il; i++) {
-          TableResponsive.tables.push(new TableResponsive($tables[i]));
-        }
-      }
-    }
-  };
-
-  /**
-   * The TableResponsive object optimizes table presentation for screen size.
-   *
-   * A responsive table hides columns at small screen sizes, leaving the most
-   * important columns visible to the end user. Users should not be prevented
-   * from accessing all columns, however. This class adds a toggle to a table
-   * with hidden columns that exposes the columns. Exposing the columns will
-   * likely break layouts, but it provides the user with a means to access
-   * data, which is a guiding principle of responsive design.
-   *
-   * @constructor Drupal.TableResponsive
-   *
-   * @param {HTMLElement} table
-   *   The table element to initialize the responsive table on.
-   */
-  function TableResponsive(table) {
-    this.table = table;
-    this.$table = $(table);
-    this.showText = Drupal.t('Show all columns');
-    this.hideText = Drupal.t('Hide lower priority columns');
-    // Store a reference to the header elements of the table so that the DOM is
-    // traversed only once to find them.
-    this.$headers = this.$table.find('th');
-    // Add a link before the table for users to show or hide weight columns.
-    this.$link = $('<button type="button" class="link tableresponsive-toggle"></button>')
-      .attr('title', Drupal.t('Show table cells that were hidden to make the table fit within a small screen.'))
-      .on('click', $.proxy(this, 'eventhandlerToggleColumns'));
-
-    this.$table.before($('<div class="tableresponsive-toggle-columns"></div>').append(this.$link));
-
-    // Attach a resize handler to the window.
-    $(window)
-      .on('resize.tableresponsive', $.proxy(this, 'eventhandlerEvaluateColumnVisibility'))
-      .trigger('resize.tableresponsive');
-  }
-
-  /**
-   * Extend the TableResponsive function with a list of managed tables.
-   */
-  $.extend(TableResponsive, /** @lends Drupal.TableResponsive */{
-
-    /**
-     * Store all created instances.
-     *
-     * @type {Array.<Drupal.TableResponsive>}
-     */
-    tables: []
-  });
-
-  /**
-   * Associates an action link with the table that will show hidden columns.
-   *
-   * Columns are assumed to be hidden if their header has the class priority-low
-   * or priority-medium.
-   */
-  $.extend(TableResponsive.prototype, /** @lends Drupal.TableResponsive# */{
-
-    /**
-     * @param {jQuery.Event} e
-     *   The event triggered.
-     */
-    eventhandlerEvaluateColumnVisibility: function (e) {
-      var pegged = parseInt(this.$link.data('pegged'), 10);
-      var hiddenLength = this.$headers.filter('.priority-medium:hidden, .priority-low:hidden').length;
-      // If the table has hidden columns, associate an action link with the
-      // table to show the columns.
-      if (hiddenLength > 0) {
-        this.$link.show().text(this.showText);
-      }
-      // When the toggle is pegged, its presence is maintained because the user
-      // has interacted with it. This is necessary to keep the link visible if
-      // the user adjusts screen size and changes the visibility of columns.
-      if (!pegged && hiddenLength === 0) {
-        this.$link.hide().text(this.hideText);
-      }
-    },
-
-    /**
-     * Toggle the visibility of columns based on their priority.
-     *
-     * Columns are classed with either 'priority-low' or 'priority-medium'.
-     *
-     * @param {jQuery.Event} e
-     *   The event triggered.
-     */
-    eventhandlerToggleColumns: function (e) {
-      e.preventDefault();
-      var self = this;
-      var $hiddenHeaders = this.$headers.filter('.priority-medium:hidden, .priority-low:hidden');
-      this.$revealedCells = this.$revealedCells || $();
-      // Reveal hidden columns.
-      if ($hiddenHeaders.length > 0) {
-        $hiddenHeaders.each(function (index, element) {
-          var $header = $(this);
-          var position = $header.prevAll('th').length;
-          self.$table.find('tbody tr').each(function () {
-            var $cells = $(this).find('td').eq(position);
-            $cells.show();
-            // Keep track of the revealed cells, so they can be hidden later.
-            self.$revealedCells = $().add(self.$revealedCells).add($cells);
-          });
-          $header.show();
-          // Keep track of the revealed headers, so they can be hidden later.
-          self.$revealedCells = $().add(self.$revealedCells).add($header);
-        });
-        this.$link.text(this.hideText).data('pegged', 1);
-      }
-      // Hide revealed columns.
-      else {
-        this.$revealedCells.hide();
-        // Strip the 'display:none' declaration from the style attributes of
-        // the table cells that .hide() added.
-        this.$revealedCells.each(function (index, element) {
-          var $cell = $(this);
-          var properties = $cell.attr('style').split(';');
-          var newProps = [];
-          // The hide method adds display none to the element. The element
-          // should be returned to the same state it was in before the columns
-          // were revealed, so it is necessary to remove the display none value
-          // from the style attribute.
-          var match = /^display\s*\:\s*none$/;
-          for (var i = 0; i < properties.length; i++) {
-            var prop = properties[i];
-            prop.trim();
-            // Find the display:none property and remove it.
-            var isDisplayNone = match.exec(prop);
-            if (isDisplayNone) {
-              continue;
-            }
-            newProps.push(prop);
-          }
-          // Return the rest of the style attribute values to the element.
-          $cell.attr('style', newProps.join(';'));
-        });
-        this.$link.text(this.showText).data('pegged', 0);
-        // Refresh the toggle link.
-        $(window).trigger('resize.tableresponsive');
-      }
-    }
-  });
-
-  // Make the TableResponsive object available in the Drupal namespace.
-  Drupal.TableResponsive = TableResponsive;
-
-})(jQuery, Drupal, window);
-;
-window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.styleMedia||window.media;if(!e){var t=document.createElement("style"),i=document.getElementsByTagName("script")[0],n=null;t.type="text/css";t.id="matchmediajs-test";i.parentNode.insertBefore(t,i);n="getComputedStyle"in window&&window.getComputedStyle(t,null)||t.currentStyle;e={matchMedium:function(e){var i="@media "+e+"{ #matchmediajs-test { width: 1px; } }";if(t.styleSheet){t.styleSheet.cssText=i}else{t.textContent=i}return n.width==="1px"}}}return function(t){return{matches:e.matchMedium(t||"all"),media:t||"all"}}}());
-;
-/**
- * @file
- * Responsive navigation tabs.
- *
- * This also supports collapsible navigable is the 'is-collapsible' class is
- * added to the main element, and a target element is included.
- */
-(function ($, Drupal) {
-
-  'use strict';
-
-  function init(i, tab) {
-    var $tab = $(tab);
-    var $target = $tab.find('[data-drupal-nav-tabs-target]');
-    var isCollapsible = $tab.hasClass('is-collapsible');
-
-    function openMenu(e) {
-      $target.toggleClass('is-open');
-    }
-
-    function handleResize(e) {
-      $tab.addClass('is-horizontal');
-      var $tabs = $tab.find('.tabs');
-      var isHorizontal = $tabs.outerHeight() <= $tabs.find('.tabs__tab').outerHeight();
-      $tab.toggleClass('is-horizontal', isHorizontal);
-      if (isCollapsible) {
-        $tab.toggleClass('is-collapse-enabled', !isHorizontal);
-      }
-      if (isHorizontal) {
-        $target.removeClass('is-open');
-      }
-    }
-
-    $tab.addClass('position-container is-horizontal-enabled');
-
-    $tab.on('click.tabs', '[data-drupal-nav-tabs-trigger]', openMenu);
-    $(window).on('resize.tabs', Drupal.debounce(handleResize, 150)).trigger('resize.tabs');
-  }
-
-  /**
-   * Initialise the tabs JS.
-   */
-  Drupal.behaviors.navTabs = {
-    attach: function (context, settings) {
-      var $tabs = $(context).find('[data-drupal-nav-tabs]');
-      if ($tabs.length) {
-        var notSmartPhone = window.matchMedia('(min-width: 300px)');
-        if (notSmartPhone.matches) {
-          $tabs.once('nav-tabs').each(init);
-        }
-      }
-    }
-  };
-
-})(jQuery, Drupal);
-;
-/**
- * @file
  * Adds an HTML element and method to trigger audio UAs to read system messages.
  *
  * Use {@link Drupal.announce} to indicate to screen reader users that an
@@ -5633,6 +8196,8 @@ window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.style
     return (debounce(announce, 200)());
   };
 }(Drupal, Drupal.debounce));
+;
+window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.styleMedia||window.media;if(!e){var t=document.createElement("style"),i=document.getElementsByTagName("script")[0],n=null;t.type="text/css";t.id="matchmediajs-test";i.parentNode.insertBefore(t,i);n="getComputedStyle"in window&&window.getComputedStyle(t,null)||t.currentStyle;e={matchMedium:function(e){var i="@media "+e+"{ #matchmediajs-test { width: 1px; } }";if(t.styleSheet){t.styleSheet.cssText=i}else{t.textContent=i}return n.width==="1px"}}}return function(t){return{matches:e.matchMedium(t||"all"),media:t||"all"}}}());
 ;
 (function(){if(window.matchMedia&&window.matchMedia("all").addListener){return false}var e=window.matchMedia,i=e("only all").matches,n=false,t=0,a=[],r=function(i){clearTimeout(t);t=setTimeout(function(){for(var i=0,n=a.length;i<n;i++){var t=a[i].mql,r=a[i].listeners||[],o=e(t.media).matches;if(o!==t.matches){t.matches=o;for(var s=0,l=r.length;s<l;s++){r[s].call(window,t)}}}},30)};window.matchMedia=function(t){var o=e(t),s=[],l=0;o.addListener=function(e){if(!i){return}if(!n){n=true;window.addEventListener("resize",r,true)}if(l===0){l=a.push({mql:o,listeners:s})}s.push(e)};o.removeListener=function(e){for(var i=0,n=s.length;i<n;i++){if(s[i]===e){s.splice(i,1)}}};return o}})();
 ;
@@ -6984,280 +9549,6 @@ window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.style
   });
 
 }(jQuery, Drupal, drupalSettings, Backbone));
-;
-/* jQuery Foundation Joyride Plugin 2.1 | Copyright 2012, ZURB | www.opensource.org/licenses/mit-license.php */
-(function(e,t,n){"use strict";var r={version:"2.0.3",tipLocation:"bottom",nubPosition:"auto",scroll:!0,scrollSpeed:300,timer:0,autoStart:!1,startTimerOnClick:!0,startOffset:0,nextButton:!0,tipAnimation:"fade",pauseAfter:[],tipAnimationFadeSpeed:300,cookieMonster:!1,cookieName:"joyride",cookieDomain:!1,cookiePath:!1,localStorage:!1,localStorageKey:"joyride",tipContainer:"body",modal:!1,expose:!1,postExposeCallback:e.noop,preRideCallback:e.noop,postRideCallback:e.noop,preStepCallback:e.noop,postStepCallback:e.noop,template:{link:'<a href="#close" class="joyride-close-tip">X</a>',timer:'<div class="joyride-timer-indicator-wrap"><span class="joyride-timer-indicator"></span></div>',tip:'<div class="joyride-tip-guide"><span class="joyride-nub"></span></div>',wrapper:'<div class="joyride-content-wrapper" role="dialog"></div>',button:'<a href="#" class="joyride-next-tip"></a>',modal:'<div class="joyride-modal-bg"></div>',expose:'<div class="joyride-expose-wrapper"></div>',exposeCover:'<div class="joyride-expose-cover"></div>'}},i=i||!1,s={},o={init:function(n){return this.each(function(){e.isEmptyObject(s)?(s=e.extend(!0,r,n),s.document=t.document,s.$document=e(s.document),s.$window=e(t),s.$content_el=e(this),s.$body=e(s.tipContainer),s.body_offset=e(s.tipContainer).position(),s.$tip_content=e("> li",s.$content_el),s.paused=!1,s.attempts=0,s.tipLocationPatterns={top:["bottom"],bottom:[],left:["right","top","bottom"],right:["left","top","bottom"]},o.jquery_check(),e.isFunction(e.cookie)||(s.cookieMonster=!1),(!s.cookieMonster||!e.cookie(s.cookieName))&&(!s.localStorage||!o.support_localstorage()||!localStorage.getItem(s.localStorageKey))&&(s.$tip_content.each(function(t){o.create({$li:e(this),index:t})}),s.autoStart&&(!s.startTimerOnClick&&s.timer>0?(o.show("init"),o.startTimer()):o.show("init"))),s.$document.on("click.joyride",".joyride-next-tip, .joyride-modal-bg",function(e){e.preventDefault(),s.$li.next().length<1?o.end():s.timer>0?(clearTimeout(s.automate),o.hide(),o.show(),o.startTimer()):(o.hide(),o.show())}),s.$document.on("click.joyride",".joyride-close-tip",function(e){e.preventDefault(),o.end()}),s.$window.bind("resize.joyride",function(t){if(s.$li){if(s.exposed&&s.exposed.length>0){var n=e(s.exposed);n.each(function(){var t=e(this);o.un_expose(t),o.expose(t)})}o.is_phone()?o.pos_phone():o.pos_default()}})):o.restart()})},resume:function(){o.set_li(),o.show()},nextTip:function(){s.$li.next().length<1?o.end():s.timer>0?(clearTimeout(s.automate),o.hide(),o.show(),o.startTimer()):(o.hide(),o.show())},tip_template:function(t){var n,r,i;return t.tip_class=t.tip_class||"",n=e(s.template.tip).addClass(t.tip_class),r=e.trim(e(t.li).html())+o.button_text(t.button_text)+s.template.link+o.timer_instance(t.index),i=e(s.template.wrapper),t.li.attr("data-aria-labelledby")&&i.attr("aria-labelledby",t.li.attr("data-aria-labelledby")),t.li.attr("data-aria-describedby")&&i.attr("aria-describedby",t.li.attr("data-aria-describedby")),n.append(i),n.first().attr("data-index",t.index),e(".joyride-content-wrapper",n).append(r),n[0]},timer_instance:function(t){var n;return t===0&&s.startTimerOnClick&&s.timer>0||s.timer===0?n="":n=o.outerHTML(e(s.template.timer)[0]),n},button_text:function(t){return s.nextButton?(t=e.trim(t)||"Next",t=o.outerHTML(e(s.template.button).append(t)[0])):t="",t},create:function(t){var n=t.$li.attr("data-button")||t.$li.attr("data-text"),r=t.$li.attr("class"),i=e(o.tip_template({tip_class:r,index:t.index,button_text:n,li:t.$li}));e(s.tipContainer).append(i)},show:function(t){var r={},i,u=[],a=0,f,l=null;if(s.$li===n||e.inArray(s.$li.index(),s.pauseAfter)===-1){s.paused?s.paused=!1:o.set_li(t),s.attempts=0;if(s.$li.length&&s.$target.length>0){t&&(s.preRideCallback(s.$li.index(),s.$next_tip),s.modal&&o.show_modal()),s.preStepCallback(s.$li.index(),s.$next_tip),u=(s.$li.data("options")||":").split(";"),a=u.length;for(i=a-1;i>=0;i--)f=u[i].split(":"),f.length===2&&(r[e.trim(f[0])]=e.trim(f[1]));s.tipSettings=e.extend({},s,r),s.tipSettings.tipLocationPattern=s.tipLocationPatterns[s.tipSettings.tipLocation],s.modal&&s.expose&&o.expose(),!/body/i.test(s.$target.selector)&&s.scroll&&o.scroll_to(),o.is_phone()?o.pos_phone(!0):o.pos_default(!0),l=e(".joyride-timer-indicator",s.$next_tip),/pop/i.test(s.tipAnimation)?(l.outerWidth(0),s.timer>0?(s.$next_tip.show(),l.animate({width:e(".joyride-timer-indicator-wrap",s.$next_tip).outerWidth()},s.timer)):s.$next_tip.show()):/fade/i.test(s.tipAnimation)&&(l.outerWidth(0),s.timer>0?(s.$next_tip.fadeIn(s.tipAnimationFadeSpeed),s.$next_tip.show(),l.animate({width:e(".joyride-timer-indicator-wrap",s.$next_tip).outerWidth()},s.timer)):s.$next_tip.fadeIn(s.tipAnimationFadeSpeed)),s.$current_tip=s.$next_tip,e(".joyride-next-tip",s.$current_tip).focus(),o.tabbable(s.$current_tip)}else s.$li&&s.$target.length<1?o.show():o.end()}else s.paused=!0},is_phone:function(){return i?i.mq("only screen and (max-width: 767px)"):s.$window.width()<767?!0:!1},support_localstorage:function(){return i?i.localstorage:!!t.localStorage},hide:function(){s.modal&&s.expose&&o.un_expose(),s.modal||e(".joyride-modal-bg").hide(),s.$current_tip.hide(),s.postStepCallback(s.$li.index(),s.$current_tip)},set_li:function(e){e?(s.$li=s.$tip_content.eq(s.startOffset),o.set_next_tip(),s.$current_tip=s.$next_tip):(s.$li=s.$li.next(),o.set_next_tip()),o.set_target()},set_next_tip:function(){s.$next_tip=e(".joyride-tip-guide[data-index="+s.$li.index()+"]")},set_target:function(){var t=s.$li.attr("data-class"),n=s.$li.attr("data-id"),r=function(){return n?e(s.document.getElementById(n)):t?e("."+t).filter(":visible").first():e("body")};s.$target=r()},scroll_to:function(){var t,n;t=s.$window.height()/2,n=Math.ceil(s.$target.offset().top-t+s.$next_tip.outerHeight()),e("html, body").stop().animate({scrollTop:n},s.scrollSpeed)},paused:function(){return e.inArray(s.$li.index()+1,s.pauseAfter)===-1?!0:!1},destroy:function(){e.isEmptyObject(s)||s.$document.off(".joyride"),e(t).off(".joyride"),e(".joyride-close-tip, .joyride-next-tip, .joyride-modal-bg").off(".joyride"),e(".joyride-tip-guide, .joyride-modal-bg").remove(),clearTimeout(s.automate),s={}},restart:function(){s.autoStart?(o.hide(),s.$li=n,o.show("init")):(!s.startTimerOnClick&&s.timer>0?(o.show("init"),o.startTimer()):o.show("init"),s.autoStart=!0)},pos_default:function(t){var n=Math.ceil(s.$window.height()/2),r=s.$next_tip.offset(),i=e(".joyride-nub",s.$next_tip),u=Math.ceil(i.outerWidth()/2),a=Math.ceil(i.outerHeight()/2),f=t||!1;f&&(s.$next_tip.css("visibility","hidden"),s.$next_tip.show());if(!/body/i.test(s.$target.selector)){var l=s.tipSettings.tipAdjustmentY?parseInt(s.tipSettings.tipAdjustmentY):0,c=s.tipSettings.tipAdjustmentX?parseInt(s.tipSettings.tipAdjustmentX):0;o.bottom()?(s.$next_tip.css({top:s.$target.offset().top+a+s.$target.outerHeight()+l,left:s.$target.offset().left+c}),/right/i.test(s.tipSettings.nubPosition)&&s.$next_tip.css("left",s.$target.offset().left-s.$next_tip.outerWidth()+s.$target.outerWidth()),o.nub_position(i,s.tipSettings.nubPosition,"top")):o.top()?(s.$next_tip.css({top:s.$target.offset().top-s.$next_tip.outerHeight()-a+l,left:s.$target.offset().left+c}),o.nub_position(i,s.tipSettings.nubPosition,"bottom")):o.right()?(s.$next_tip.css({top:s.$target.offset().top+l,left:s.$target.outerWidth()+s.$target.offset().left+u+c}),o.nub_position(i,s.tipSettings.nubPosition,"left")):o.left()&&(s.$next_tip.css({top:s.$target.offset().top+l,left:s.$target.offset().left-s.$next_tip.outerWidth()-u+c}),o.nub_position(i,s.tipSettings.nubPosition,"right")),!o.visible(o.corners(s.$next_tip))&&s.attempts<s.tipSettings.tipLocationPattern.length&&(i.removeClass("bottom").removeClass("top").removeClass("right").removeClass("left"),s.tipSettings.tipLocation=s.tipSettings.tipLocationPattern[s.attempts],s.attempts++,o.pos_default(!0))}else s.$li.length&&o.pos_modal(i);f&&(s.$next_tip.hide(),s.$next_tip.css("visibility","visible"))},pos_phone:function(t){var n=s.$next_tip.outerHeight(),r=s.$next_tip.offset(),i=s.$target.outerHeight(),u=e(".joyride-nub",s.$next_tip),a=Math.ceil(u.outerHeight()/2),f=t||!1;u.removeClass("bottom").removeClass("top").removeClass("right").removeClass("left"),f&&(s.$next_tip.css("visibility","hidden"),s.$next_tip.show()),/body/i.test(s.$target.selector)?s.$li.length&&o.pos_modal(u):o.top()?(s.$next_tip.offset({top:s.$target.offset().top-n-a}),u.addClass("bottom")):(s.$next_tip.offset({top:s.$target.offset().top+i+a}),u.addClass("top")),f&&(s.$next_tip.hide(),s.$next_tip.css("visibility","visible"))},pos_modal:function(e){o.center(),e.hide(),o.show_modal()},show_modal:function(){e(".joyride-modal-bg").length<1&&e("body").append(s.template.modal).show(),/pop/i.test(s.tipAnimation)?e(".joyride-modal-bg").show():e(".joyride-modal-bg").fadeIn(s.tipAnimationFadeSpeed)},expose:function(){var n,r,i,u,a="expose-"+Math.floor(Math.random()*1e4);if(arguments.length>0&&arguments[0]instanceof e)i=arguments[0];else{if(!s.$target||!!/body/i.test(s.$target.selector))return!1;i=s.$target}if(i.length<1)return t.console&&console.error("element not valid",i),!1;n=e(s.template.expose),s.$body.append(n),n.css({top:i.offset().top,left:i.offset().left,width:i.outerWidth(!0),height:i.outerHeight(!0)}),r=e(s.template.exposeCover),u={zIndex:i.css("z-index"),position:i.css("position")},i.css("z-index",n.css("z-index")*1+1),u.position=="static"&&i.css("position","relative"),i.data("expose-css",u),r.css({top:i.offset().top,left:i.offset().left,width:i.outerWidth(!0),height:i.outerHeight(!0)}),s.$body.append(r),n.addClass(a),r.addClass(a),s.tipSettings.exposeClass&&(n.addClass(s.tipSettings.exposeClass),r.addClass(s.tipSettings.exposeClass)),i.data("expose",a),s.postExposeCallback(s.$li.index(),s.$next_tip,i),o.add_exposed(i)},un_expose:function(){var n,r,i,u,a=!1;if(arguments.length>0&&arguments[0]instanceof e)r=arguments[0];else{if(!s.$target||!!/body/i.test(s.$target.selector))return!1;r=s.$target}if(r.length<1)return t.console&&console.error("element not valid",r),!1;n=r.data("expose"),i=e("."+n),arguments.length>1&&(a=arguments[1]),a===!0?e(".joyride-expose-wrapper,.joyride-expose-cover").remove():i.remove(),u=r.data("expose-css"),u.zIndex=="auto"?r.css("z-index",""):r.css("z-index",u.zIndex),u.position!=r.css("position")&&(u.position=="static"?r.css("position",""):r.css("position",u.position)),r.removeData("expose"),r.removeData("expose-z-index"),o.remove_exposed(r)},add_exposed:function(t){s.exposed=s.exposed||[],t instanceof e?s.exposed.push(t[0]):typeof t=="string"&&s.exposed.push(t)},remove_exposed:function(t){var n;t instanceof e?n=t[0]:typeof t=="string"&&(n=t),s.exposed=s.exposed||[];for(var r=0;r<s.exposed.length;r++)if(s.exposed[r]==n){s.exposed.splice(r,1);return}},center:function(){var e=s.$window;return s.$next_tip.css({top:(e.height()-s.$next_tip.outerHeight())/2+e.scrollTop(),left:(e.width()-s.$next_tip.outerWidth())/2+e.scrollLeft()}),!0},bottom:function(){return/bottom/i.test(s.tipSettings.tipLocation)},top:function(){return/top/i.test(s.tipSettings.tipLocation)},right:function(){return/right/i.test(s.tipSettings.tipLocation)},left:function(){return/left/i.test(s.tipSettings.tipLocation)},corners:function(e){var t=s.$window,n=t.height()/2,r=Math.ceil(s.$target.offset().top-n+s.$next_tip.outerHeight()),i=t.width()+t.scrollLeft(),o=t.height()+r,u=t.height()+t.scrollTop(),a=t.scrollTop();return r<a&&(r<0?a=0:a=r),o>u&&(u=o),[e.offset().top<a,i<e.offset().left+e.outerWidth(),u<e.offset().top+e.outerHeight(),t.scrollLeft()>e.offset().left]},visible:function(e){var t=e.length;while(t--)if(e[t])return!1;return!0},nub_position:function(e,t,n){t==="auto"?e.addClass(n):e.addClass(t)},startTimer:function(){s.$li.length?s.automate=setTimeout(function(){o.hide(),o.show(),o.startTimer()},s.timer):clearTimeout(s.automate)},end:function(){s.cookieMonster&&e.cookie(s.cookieName,"ridden",{expires:365,domain:s.cookieDomain,path:s.cookiePath}),s.localStorage&&localStorage.setItem(s.localStorageKey,!0),s.timer>0&&clearTimeout(s.automate),s.modal&&s.expose&&o.un_expose(),s.$current_tip&&s.$current_tip.hide(),s.$li&&(s.postStepCallback(s.$li.index(),s.$current_tip),s.postRideCallback(s.$li.index(),s.$current_tip)),e(".joyride-modal-bg").hide()},jquery_check:function(){return e.isFunction(e.fn.on)?!0:(e.fn.on=function(e,t,n){return this.delegate(t,e,n)},e.fn.off=function(e,t,n){return this.undelegate(t,e,n)},!1)},outerHTML:function(e){return e.outerHTML||(new XMLSerializer).serializeToString(e)},version:function(){return s.version},tabbable:function(t){e(t).on("keydown",function(n){if(!n.isDefaultPrevented()&&n.keyCode&&n.keyCode===27){n.preventDefault(),o.end();return}if(n.keyCode!==9)return;var r=e(t).find(":tabbable"),i=r.filter(":first"),s=r.filter(":last");n.target===s[0]&&!n.shiftKey?(i.focus(1),n.preventDefault()):n.target===i[0]&&n.shiftKey&&(s.focus(1),n.preventDefault())})}};e.fn.joyride=function(t){if(o[t])return o[t].apply(this,Array.prototype.slice.call(arguments,1));if(typeof t=="object"||!t)return o.init.apply(this,arguments);e.error("Method "+t+" does not exist on jQuery.joyride")}})(jQuery,this);
-;
-/**
- * @file
- * Attaches behaviors for the Tour module's toolbar tab.
- */
-
-(function ($, Backbone, Drupal, document) {
-
-  'use strict';
-
-  var queryString = decodeURI(window.location.search);
-
-  /**
-   * Attaches the tour's toolbar tab behavior.
-   *
-   * It uses the query string for:
-   * - tour: When ?tour=1 is present, the tour will start automatically after
-   *   the page has loaded.
-   * - tips: Pass ?tips=class in the url to filter the available tips to the
-   *   subset which match the given class.
-   *
-   * @example
-   * http://example.com/foo?tour=1&tips=bar
-   *
-   * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Attach tour functionality on `tour` events.
-   */
-  Drupal.behaviors.tour = {
-    attach: function (context) {
-      $('body').once('tour').each(function () {
-        var model = new Drupal.tour.models.StateModel();
-        new Drupal.tour.views.ToggleTourView({
-          el: $(context).find('#toolbar-tab-tour'),
-          model: model
-        });
-
-        model
-          // Allow other scripts to respond to tour events.
-          .on('change:isActive', function (model, isActive) {
-            $(document).trigger((isActive) ? 'drupalTourStarted' : 'drupalTourStopped');
-          })
-          // Initialization: check whether a tour is available on the current
-          // page.
-          .set('tour', $(context).find('ol#tour'));
-
-        // Start the tour immediately if toggled via query string.
-        if (/tour=?/i.test(queryString)) {
-          model.set('isActive', true);
-        }
-      });
-    }
-  };
-
-  /**
-   * @namespace
-   */
-  Drupal.tour = Drupal.tour || {
-
-    /**
-     * @namespace Drupal.tour.models
-     */
-    models: {},
-
-    /**
-     * @namespace Drupal.tour.views
-     */
-    views: {}
-  };
-
-  /**
-   * Backbone Model for tours.
-   *
-   * @constructor
-   *
-   * @augments Backbone.Model
-   */
-  Drupal.tour.models.StateModel = Backbone.Model.extend(/** @lends Drupal.tour.models.StateModel# */{
-
-    /**
-     * @type {object}
-     */
-    defaults: /** @lends Drupal.tour.models.StateModel# */{
-
-      /**
-       * Indicates whether the Drupal root window has a tour.
-       *
-       * @type {Array}
-       */
-      tour: [],
-
-      /**
-       * Indicates whether the tour is currently running.
-       *
-       * @type {bool}
-       */
-      isActive: false,
-
-      /**
-       * Indicates which tour is the active one (necessary to cleanly stop).
-       *
-       * @type {Array}
-       */
-      activeTour: []
-    }
-  });
-
-  Drupal.tour.views.ToggleTourView = Backbone.View.extend(/** @lends Drupal.tour.views.ToggleTourView# */{
-
-    /**
-     * @type {object}
-     */
-    events: {click: 'onClick'},
-
-    /**
-     * Handles edit mode toggle interactions.
-     *
-     * @constructs
-     *
-     * @augments Backbone.View
-     */
-    initialize: function () {
-      this.listenTo(this.model, 'change:tour change:isActive', this.render);
-      this.listenTo(this.model, 'change:isActive', this.toggleTour);
-    },
-
-    /**
-     * @inheritdoc
-     *
-     * @return {Drupal.tour.views.ToggleTourView}
-     *   The `ToggleTourView` view.
-     */
-    render: function () {
-      // Render the visibility.
-      this.$el.toggleClass('hidden', this._getTour().length === 0);
-      // Render the state.
-      var isActive = this.model.get('isActive');
-      this.$el.find('button')
-        .toggleClass('is-active', isActive)
-        .prop('aria-pressed', isActive);
-      return this;
-    },
-
-    /**
-     * Model change handler; starts or stops the tour.
-     */
-    toggleTour: function () {
-      if (this.model.get('isActive')) {
-        var $tour = this._getTour();
-        this._removeIrrelevantTourItems($tour, this._getDocument());
-        var that = this;
-        if ($tour.find('li').length) {
-          $tour.joyride({
-            autoStart: true,
-            postRideCallback: function () { that.model.set('isActive', false); },
-            // HTML segments for tip layout.
-            template: {
-              link: '<a href=\"#close\" class=\"joyride-close-tip\">&times;</a>',
-              button: '<a href=\"#\" class=\"button button--primary joyride-next-tip\"></a>'
-            }
-          });
-          this.model.set({isActive: true, activeTour: $tour});
-        }
-      }
-      else {
-        this.model.get('activeTour').joyride('destroy');
-        this.model.set({isActive: false, activeTour: []});
-      }
-    },
-
-    /**
-     * Toolbar tab click event handler; toggles isActive.
-     *
-     * @param {jQuery.Event} event
-     *   The click event.
-     */
-    onClick: function (event) {
-      this.model.set('isActive', !this.model.get('isActive'));
-      event.preventDefault();
-      event.stopPropagation();
-    },
-
-    /**
-     * Gets the tour.
-     *
-     * @return {jQuery}
-     *   A jQuery element pointing to a `<ol>` containing tour items.
-     */
-    _getTour: function () {
-      return this.model.get('tour');
-    },
-
-    /**
-     * Gets the relevant document as a jQuery element.
-     *
-     * @return {jQuery}
-     *   A jQuery element pointing to the document within which a tour would be
-     *   started given the current state.
-     */
-    _getDocument: function () {
-      return $(document);
-    },
-
-    /**
-     * Removes tour items for elements that don't have matching page elements.
-     *
-     * Or that are explicitly filtered out via the 'tips' query string.
-     *
-     * @example
-     * <caption>This will filter out tips that do not have a matching
-     * page element or don't have the "bar" class.</caption>
-     * http://example.com/foo?tips=bar
-     *
-     * @param {jQuery} $tour
-     *   A jQuery element pointing to a `<ol>` containing tour items.
-     * @param {jQuery} $document
-     *   A jQuery element pointing to the document within which the elements
-     *   should be sought.
-     *
-     * @see Drupal.tour.views.ToggleTourView#_getDocument
-     */
-    _removeIrrelevantTourItems: function ($tour, $document) {
-      var removals = false;
-      var tips = /tips=([^&]+)/.exec(queryString);
-      $tour
-        .find('li')
-        .each(function () {
-          var $this = $(this);
-          var itemId = $this.attr('data-id');
-          var itemClass = $this.attr('data-class');
-          // If the query parameter 'tips' is set, remove all tips that don't
-          // have the matching class.
-          if (tips && !$(this).hasClass(tips[1])) {
-            removals = true;
-            $this.remove();
-            return;
-          }
-          // Remove tip from the DOM if there is no corresponding page element.
-          if ((!itemId && !itemClass) ||
-            (itemId && $document.find('#' + itemId).length) ||
-            (itemClass && $document.find('.' + itemClass).length)) {
-            return;
-          }
-          removals = true;
-          $this.remove();
-        });
-
-      // If there were removals, we'll have to do some clean-up.
-      if (removals) {
-        var total = $tour.find('li').length;
-        if (!total) {
-          this.model.set({tour: []});
-        }
-
-        $tour
-          .find('li')
-          // Rebuild the progress data.
-          .each(function (index) {
-            var progress = Drupal.t('!tour_item of !total', {'!tour_item': index + 1, '!total': total});
-            $(this).find('.tour-progress').text(progress);
-          })
-          // Update the last item to have "End tour" as the button.
-          .eq(-1)
-          .attr('data-text', Drupal.t('End tour'));
-      }
-    }
-
-  });
-
-})(jQuery, Backbone, Drupal, document);
 ;
 /**
  * @file
