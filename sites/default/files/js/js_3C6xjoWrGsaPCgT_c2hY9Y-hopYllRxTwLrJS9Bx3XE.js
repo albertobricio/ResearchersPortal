@@ -45,7 +45,7 @@ void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!=
   }
 })();
 ;
-window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","closed":"cerrado","Save":"Guardar","Open":"Abierta","OK":"OK","Close":"Cerrar","Extend":"Ampliar","Quick edit":"Edici\u00f3n r\u00e1pida","@label":"@label","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","Collapse":"Plegar","You have unsaved changes":"Usted tiene cambios no guaradados","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Network problem!":"Problema de red!"}},"pluralFormula":{"1":0,"default":1}};;
+window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","Next":"Siguiente","closed":"cerrado","Cancel":"Cancelar","Edit":"Editar","Link":"Enlace","Image":"Imagen","Save":"Guardar","Open":"Abierta","Sunday":"Domingo","Monday":"Lunes","Tuesday":"Martes","Wednesday":"Mi\u00e9rcoles","Thursday":"Jueves","Friday":"Viernes","Saturday":"S\u00e1bado","Add":"Agregar","Keywords":"Palabras clave","Continue":"Continuar","Done":"Hecho","OK":"OK","Prev":"Previo","Mon":"Lun","Tue":"Mar","Wed":"Mi\u00e9","Thu":"Jue","Fri":"Vie","Sat":"S\u00e1b","Sun":"Dom","May":"Mayo","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Today":"Hoy","Jan":"Ene","Feb":"Feb","Mar":"Mar","Apr":"Abr","Jun":"Jun","Jul":"Jul","Aug":"Ago","Sep":"Sep","Oct":"Oct","Nov":"Nov","Dec":"Dic","Extend":"Ampliar","Su":"Do","Mo":"Lu","Tu":"Ma","We":"Mi","Th":"Ju","Fr":"Vi","Sa":"Sa","Not published":"No publicado","Loading...":"Cargando...","Hide":"Ocultar","Unlink":"Desvincular","Not promoted":"No publicado en p\u00e1gina principal","mm\/dd\/yy":"mm\/dd\/yy","Quick edit":"Edici\u00f3n r\u00e1pida","Edit Link":"Editar enlace","Remove group":"Eliminar grupo","By @name on @date":"Por @name en @date","By @name":"Por @name","Not in menu":"No est\u00e1 en un men\u00fa","Alias: @alias":"Alias: @alias","No alias":"Sin alias","@label":"@label","New revision":"Nueva revisi\u00f3n","Drag to re-order":"Arrastre para reordenar","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","No revision":"Sin revisi\u00f3n","Requires a title":"Necesita un t\u00edtulo","Not restricted":"Sin restricci\u00f3n","(active tab)":"(solapa activa)","Restricted to certain pages":"Restringido a algunas p\u00e1ginas","The block cannot be placed in this region.":"El bloque no se puede colocar en esta regi\u00f3n.","Hide summary":"Ocultar resumen","Edit summary":"Editar resumen","Don\u0027t display post information":"No mostrar informaci\u00f3n del env\u00edo","Collapse":"Plegar","The selected file %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions.":"El archivo seleccionado %filename no se puede subir al srvidor. Solo se permiten archivos con las siguientes extensiones: %extensions.","Re-order rows by numerical weight instead of dragging.":"Reordenar las filas por peso num\u00e9rico en lugar de arrastrar.","Show row weights":"Mostrar pesos de la fila","Hide row weights":"Ocultar pesos de la fila","Apply (all displays)":"Aplicar (todas las presentaciones)","Apply (this display)":"Aplicar (esta presentaci\u00f3n)","Revert to default":"Volver al valor inicial","You have unsaved changes":"Usted tiene cambios no guaradados","Needs to be updated":"Necesita ser actualizado","Does not need to be updated":"No necesita ser actualizado","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","List additional actions":"Lista adicional de acciones","Flag other translations as outdated":"Marcar las otras traducciones como desfasadas","Do not flag other translations as outdated":"No marcar las otras traducciones como desfasadas","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","You have unsaved changes.":"Tiene cambios sin guardar.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Changing the text format to %text_format will permanently remove content that is not allowed in that text format.\u003Cbr\u003E\u003Cbr\u003ESave your changes before switching the text format to avoid losing data.":"Cambiar el formato de texto a %text_format eliminar\u00e1 permanentemente el contenido que no est\u00e1 permitido en ese formato de texto.\u003Cbr\u003E\u003Cbr\u003EGuarde sus datos antes de cambiar el formato de texto para evitar perder datos.","Change text format?":"\u00bfCambiar el formato de texto?","Rich Text Editor, !label field":"Editor de texto con formato, campo !label","Leave preview?":"\u00bfSalir de la vista previa?","Leave preview":"Salir de la vista previa","Leaving the preview will cause unsaved changes to be lost. Are you sure you want to leave the preview?":"La salida de la vista previa provocar\u00e1 la p\u00e9rdida de los cambios no guardados. \u00bfEst\u00e1 seguro de que desea abandonar la vista previa?","CTRL+Left click will prevent this dialog from showing and proceed to the clicked link.":"CTRL+Clic izquierdo evitar\u00e1 que aparezca este di\u00e1logo e ir\u00e1 directamente al enlace pulsado.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!","Authored on @date":"Escrito el @date","Latitude":"Latitud","Longitude":"Longitud","No location data found. Reason: POSITION_UNAVAILABLE.":"No se encontraron datos de localizaci\u00f3n. Razon: POSICION_NO_DISPONIBLE","No location data found. Reason: TIMEOUT.":"No se encontraron datos de localizaci\u00f3n. Razon: TIEMPO EXPIRADO"},"Long month name":{"January":"Enero","February":"Febrero","March":"Marzo","April":"Abril","May":"Mayo","June":"Junio","July":"Julio","August":"Agosto","September":"Septiembre","October":"Octubre","November":"Noviembre","December":"Diciembre"}},"pluralFormula":{"1":0,"default":1}};;
 /**
  * @file
  * Defines the Drupal JavaScript API.
@@ -1375,6 +1375,415 @@ document.documentElement.className += ' js';
   };
 
 })(Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Responsive table functionality.
+ */
+
+(function ($, Drupal, window) {
+
+  'use strict';
+
+  /**
+   * Attach the tableResponsive function to {@link Drupal.behaviors}.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches tableResponsive functionality.
+   */
+  Drupal.behaviors.tableResponsive = {
+    attach: function (context, settings) {
+      var $tables = $(context).find('table.responsive-enabled').once('tableresponsive');
+      if ($tables.length) {
+        var il = $tables.length;
+        for (var i = 0; i < il; i++) {
+          TableResponsive.tables.push(new TableResponsive($tables[i]));
+        }
+      }
+    }
+  };
+
+  /**
+   * The TableResponsive object optimizes table presentation for screen size.
+   *
+   * A responsive table hides columns at small screen sizes, leaving the most
+   * important columns visible to the end user. Users should not be prevented
+   * from accessing all columns, however. This class adds a toggle to a table
+   * with hidden columns that exposes the columns. Exposing the columns will
+   * likely break layouts, but it provides the user with a means to access
+   * data, which is a guiding principle of responsive design.
+   *
+   * @constructor Drupal.TableResponsive
+   *
+   * @param {HTMLElement} table
+   *   The table element to initialize the responsive table on.
+   */
+  function TableResponsive(table) {
+    this.table = table;
+    this.$table = $(table);
+    this.showText = Drupal.t('Show all columns');
+    this.hideText = Drupal.t('Hide lower priority columns');
+    // Store a reference to the header elements of the table so that the DOM is
+    // traversed only once to find them.
+    this.$headers = this.$table.find('th');
+    // Add a link before the table for users to show or hide weight columns.
+    this.$link = $('<button type="button" class="link tableresponsive-toggle"></button>')
+      .attr('title', Drupal.t('Show table cells that were hidden to make the table fit within a small screen.'))
+      .on('click', $.proxy(this, 'eventhandlerToggleColumns'));
+
+    this.$table.before($('<div class="tableresponsive-toggle-columns"></div>').append(this.$link));
+
+    // Attach a resize handler to the window.
+    $(window)
+      .on('resize.tableresponsive', $.proxy(this, 'eventhandlerEvaluateColumnVisibility'))
+      .trigger('resize.tableresponsive');
+  }
+
+  /**
+   * Extend the TableResponsive function with a list of managed tables.
+   */
+  $.extend(TableResponsive, /** @lends Drupal.TableResponsive */{
+
+    /**
+     * Store all created instances.
+     *
+     * @type {Array.<Drupal.TableResponsive>}
+     */
+    tables: []
+  });
+
+  /**
+   * Associates an action link with the table that will show hidden columns.
+   *
+   * Columns are assumed to be hidden if their header has the class priority-low
+   * or priority-medium.
+   */
+  $.extend(TableResponsive.prototype, /** @lends Drupal.TableResponsive# */{
+
+    /**
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    eventhandlerEvaluateColumnVisibility: function (e) {
+      var pegged = parseInt(this.$link.data('pegged'), 10);
+      var hiddenLength = this.$headers.filter('.priority-medium:hidden, .priority-low:hidden').length;
+      // If the table has hidden columns, associate an action link with the
+      // table to show the columns.
+      if (hiddenLength > 0) {
+        this.$link.show().text(this.showText);
+      }
+      // When the toggle is pegged, its presence is maintained because the user
+      // has interacted with it. This is necessary to keep the link visible if
+      // the user adjusts screen size and changes the visibility of columns.
+      if (!pegged && hiddenLength === 0) {
+        this.$link.hide().text(this.hideText);
+      }
+    },
+
+    /**
+     * Toggle the visibility of columns based on their priority.
+     *
+     * Columns are classed with either 'priority-low' or 'priority-medium'.
+     *
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    eventhandlerToggleColumns: function (e) {
+      e.preventDefault();
+      var self = this;
+      var $hiddenHeaders = this.$headers.filter('.priority-medium:hidden, .priority-low:hidden');
+      this.$revealedCells = this.$revealedCells || $();
+      // Reveal hidden columns.
+      if ($hiddenHeaders.length > 0) {
+        $hiddenHeaders.each(function (index, element) {
+          var $header = $(this);
+          var position = $header.prevAll('th').length;
+          self.$table.find('tbody tr').each(function () {
+            var $cells = $(this).find('td').eq(position);
+            $cells.show();
+            // Keep track of the revealed cells, so they can be hidden later.
+            self.$revealedCells = $().add(self.$revealedCells).add($cells);
+          });
+          $header.show();
+          // Keep track of the revealed headers, so they can be hidden later.
+          self.$revealedCells = $().add(self.$revealedCells).add($header);
+        });
+        this.$link.text(this.hideText).data('pegged', 1);
+      }
+      // Hide revealed columns.
+      else {
+        this.$revealedCells.hide();
+        // Strip the 'display:none' declaration from the style attributes of
+        // the table cells that .hide() added.
+        this.$revealedCells.each(function (index, element) {
+          var $cell = $(this);
+          var properties = $cell.attr('style').split(';');
+          var newProps = [];
+          // The hide method adds display none to the element. The element
+          // should be returned to the same state it was in before the columns
+          // were revealed, so it is necessary to remove the display none value
+          // from the style attribute.
+          var match = /^display\s*\:\s*none$/;
+          for (var i = 0; i < properties.length; i++) {
+            var prop = properties[i];
+            prop.trim();
+            // Find the display:none property and remove it.
+            var isDisplayNone = match.exec(prop);
+            if (isDisplayNone) {
+              continue;
+            }
+            newProps.push(prop);
+          }
+          // Return the rest of the style attribute values to the element.
+          $cell.attr('style', newProps.join(';'));
+        });
+        this.$link.text(this.showText).data('pegged', 0);
+        // Refresh the toggle link.
+        $(window).trigger('resize.tableresponsive');
+      }
+    }
+  });
+
+  // Make the TableResponsive object available in the Drupal namespace.
+  Drupal.TableResponsive = TableResponsive;
+
+})(jQuery, Drupal, window);
+;
+/**
+ * @file
+ * Dropbutton feature.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * Process elements with the .dropbutton class on page load.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches dropButton behaviors.
+   */
+  Drupal.behaviors.dropButton = {
+    attach: function (context, settings) {
+      var $dropbuttons = $(context).find('.dropbutton-wrapper').once('dropbutton');
+      if ($dropbuttons.length) {
+        // Adds the delegated handler that will toggle dropdowns on click.
+        var $body = $('body').once('dropbutton-click');
+        if ($body.length) {
+          $body.on('click', '.dropbutton-toggle', dropbuttonClickHandler);
+        }
+        // Initialize all buttons.
+        var il = $dropbuttons.length;
+        for (var i = 0; i < il; i++) {
+          DropButton.dropbuttons.push(new DropButton($dropbuttons[i], settings.dropbutton));
+        }
+      }
+    }
+  };
+
+  /**
+   * Delegated callback for opening and closing dropbutton secondary actions.
+   *
+   * @function Drupal.DropButton~dropbuttonClickHandler
+   *
+   * @param {jQuery.Event} e
+   *   The event triggered.
+   */
+  function dropbuttonClickHandler(e) {
+    e.preventDefault();
+    $(e.target).closest('.dropbutton-wrapper').toggleClass('open');
+  }
+
+  /**
+   * A DropButton presents an HTML list as a button with a primary action.
+   *
+   * All secondary actions beyond the first in the list are presented in a
+   * dropdown list accessible through a toggle arrow associated with the button.
+   *
+   * @constructor Drupal.DropButton
+   *
+   * @param {HTMLElement} dropbutton
+   *   A DOM element.
+   * @param {object} settings
+   *   A list of options including:
+   * @param {string} settings.title
+   *   The text inside the toggle link element. This text is hidden
+   *   from visual UAs.
+   */
+  function DropButton(dropbutton, settings) {
+    // Merge defaults with settings.
+    var options = $.extend({title: Drupal.t('List additional actions')}, settings);
+    var $dropbutton = $(dropbutton);
+
+    /**
+     * @type {jQuery}
+     */
+    this.$dropbutton = $dropbutton;
+
+    /**
+     * @type {jQuery}
+     */
+    this.$list = $dropbutton.find('.dropbutton');
+
+    /**
+     * Find actions and mark them.
+     *
+     * @type {jQuery}
+     */
+    this.$actions = this.$list.find('li').addClass('dropbutton-action');
+
+    // Add the special dropdown only if there are hidden actions.
+    if (this.$actions.length > 1) {
+      // Identify the first element of the collection.
+      var $primary = this.$actions.slice(0, 1);
+      // Identify the secondary actions.
+      var $secondary = this.$actions.slice(1);
+      $secondary.addClass('secondary-action');
+      // Add toggle link.
+      $primary.after(Drupal.theme('dropbuttonToggle', options));
+      // Bind mouse events.
+      this.$dropbutton
+        .addClass('dropbutton-multiple')
+        .on({
+
+          /**
+           * Adds a timeout to close the dropdown on mouseleave.
+           *
+           * @ignore
+           */
+          'mouseleave.dropbutton': $.proxy(this.hoverOut, this),
+
+          /**
+           * Clears timeout when mouseout of the dropdown.
+           *
+           * @ignore
+           */
+          'mouseenter.dropbutton': $.proxy(this.hoverIn, this),
+
+          /**
+           * Similar to mouseleave/mouseenter, but for keyboard navigation.
+           *
+           * @ignore
+           */
+          'focusout.dropbutton': $.proxy(this.focusOut, this),
+
+          /**
+           * @ignore
+           */
+          'focusin.dropbutton': $.proxy(this.focusIn, this)
+        });
+    }
+    else {
+      this.$dropbutton.addClass('dropbutton-single');
+    }
+  }
+
+  /**
+   * Extend the DropButton constructor.
+   */
+  $.extend(DropButton, /** @lends Drupal.DropButton */{
+    /**
+     * Store all processed DropButtons.
+     *
+     * @type {Array.<Drupal.DropButton>}
+     */
+    dropbuttons: []
+  });
+
+  /**
+   * Extend the DropButton prototype.
+   */
+  $.extend(DropButton.prototype, /** @lends Drupal.DropButton# */{
+
+    /**
+     * Toggle the dropbutton open and closed.
+     *
+     * @param {bool} [show]
+     *   Force the dropbutton to open by passing true or to close by
+     *   passing false.
+     */
+    toggle: function (show) {
+      var isBool = typeof show === 'boolean';
+      show = isBool ? show : !this.$dropbutton.hasClass('open');
+      this.$dropbutton.toggleClass('open', show);
+    },
+
+    /**
+     * @method
+     */
+    hoverIn: function () {
+      // Clear any previous timer we were using.
+      if (this.timerID) {
+        window.clearTimeout(this.timerID);
+      }
+    },
+
+    /**
+     * @method
+     */
+    hoverOut: function () {
+      // Wait half a second before closing.
+      this.timerID = window.setTimeout($.proxy(this, 'close'), 500);
+    },
+
+    /**
+     * @method
+     */
+    open: function () {
+      this.toggle(true);
+    },
+
+    /**
+     * @method
+     */
+    close: function () {
+      this.toggle(false);
+    },
+
+    /**
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    focusOut: function (e) {
+      this.hoverOut.call(this, e);
+    },
+
+    /**
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    focusIn: function (e) {
+      this.hoverIn.call(this, e);
+    }
+  });
+
+  $.extend(Drupal.theme, /** @lends Drupal.theme */{
+
+    /**
+     * A toggle is an interactive element often bound to a click handler.
+     *
+     * @param {object} options
+     *   Options object.
+     * @param {string} [options.title]
+     *   The HTML anchor title attribute and text for the inner span element.
+     *
+     * @return {string}
+     *   A string representing a DOM fragment.
+     */
+    dropbuttonToggle: function (options) {
+      return '<li class="dropbutton-toggle"><button type="button"><span class="dropbutton-arrow"><span class="visually-hidden">' + options.title + '</span></span></button></li>';
+    }
+  });
+
+  // Expose constructor in the public space.
+  Drupal.DropButton = DropButton;
+
+})(jQuery, Drupal);
 ;
 /**
  * @file
