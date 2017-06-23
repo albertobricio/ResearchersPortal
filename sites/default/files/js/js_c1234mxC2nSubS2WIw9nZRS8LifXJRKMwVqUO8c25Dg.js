@@ -45,7 +45,7 @@ void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!=
   }
 })();
 ;
-window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","closed":"cerrado","Cancel":"Cancelar","Edit":"Editar","Link":"Enlace","Image":"Imagen","Save":"Guardar","Open":"Abierta","Continue":"Continuar","OK":"OK","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Extend":"Ampliar","Not published":"No publicado","Loading...":"Cargando...","Hide":"Ocultar","Unlink":"Desvincular","Quick edit":"Edici\u00f3n r\u00e1pida","Edit Link":"Editar enlace","@label":"@label","New revision":"Nueva revisi\u00f3n","Drag to re-order":"Arrastre para reordenar","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","No revision":"Sin revisi\u00f3n","Requires a title":"Necesita un t\u00edtulo","Not restricted":"Sin restricci\u00f3n","(active tab)":"(solapa activa)","Restricted to certain pages":"Restringido a algunas p\u00e1ginas","The block cannot be placed in this region.":"El bloque no se puede colocar en esta regi\u00f3n.","Hide summary":"Ocultar resumen","Edit summary":"Editar resumen","Don\u0027t display post information":"No mostrar informaci\u00f3n del env\u00edo","Collapse":"Plegar","Re-order rows by numerical weight instead of dragging.":"Reordenar las filas por peso num\u00e9rico en lugar de arrastrar.","Show row weights":"Mostrar pesos de la fila","Hide row weights":"Ocultar pesos de la fila","You have unsaved changes":"Usted tiene cambios no guaradados","Needs to be updated":"Necesita ser actualizado","Does not need to be updated":"No necesita ser actualizado","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","List additional actions":"Lista adicional de acciones","Flag other translations as outdated":"Marcar las otras traducciones como desfasadas","Do not flag other translations as outdated":"No marcar las otras traducciones como desfasadas","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","You have unsaved changes.":"Tiene cambios sin guardar.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Changing the text format to %text_format will permanently remove content that is not allowed in that text format.\u003Cbr\u003E\u003Cbr\u003ESave your changes before switching the text format to avoid losing data.":"Cambiar el formato de texto a %text_format eliminar\u00e1 permanentemente el contenido que no est\u00e1 permitido en ese formato de texto.\u003Cbr\u003E\u003Cbr\u003EGuarde sus datos antes de cambiar el formato de texto para evitar perder datos.","Change text format?":"\u00bfCambiar el formato de texto?","Rich Text Editor, !label field":"Editor de texto con formato, campo !label","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!"}},"pluralFormula":{"1":0,"default":1}};;
+window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","Next":"Siguiente","closed":"cerrado","Cancel":"Cancelar","Edit":"Editar","Link":"Enlace","Image":"Imagen","Save":"Guardar","Open":"Abierta","Sunday":"Domingo","Monday":"Lunes","Tuesday":"Martes","Wednesday":"Mi\u00e9rcoles","Thursday":"Jueves","Friday":"Viernes","Saturday":"S\u00e1bado","Add":"Agregar","Keywords":"Palabras clave","Continue":"Continuar","Done":"Hecho","OK":"OK","Prev":"Previo","Mon":"Lun","Tue":"Mar","Wed":"Mi\u00e9","Thu":"Jue","Fri":"Vie","Sat":"S\u00e1b","Sun":"Dom","May":"Mayo","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Today":"Hoy","Jan":"Ene","Feb":"Feb","Mar":"Mar","Apr":"Abr","Jun":"Jun","Jul":"Jul","Aug":"Ago","Sep":"Sep","Oct":"Oct","Nov":"Nov","Dec":"Dic","Extend":"Ampliar","Su":"Do","Mo":"Lu","Tu":"Ma","We":"Mi","Th":"Ju","Fr":"Vi","Sa":"Sa","Not published":"No publicado","Loading...":"Cargando...","Hide":"Ocultar","Unlink":"Desvincular","Not promoted":"No publicado en p\u00e1gina principal","mm\/dd\/yy":"mm\/dd\/yy","Quick edit":"Edici\u00f3n r\u00e1pida","Edit Link":"Editar enlace","Remove group":"Eliminar grupo","By @name on @date":"Por @name en @date","By @name":"Por @name","Not in menu":"No est\u00e1 en un men\u00fa","Alias: @alias":"Alias: @alias","No alias":"Sin alias","@label":"@label","New revision":"Nueva revisi\u00f3n","Drag to re-order":"Arrastre para reordenar","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","No revision":"Sin revisi\u00f3n","Requires a title":"Necesita un t\u00edtulo","Not restricted":"Sin restricci\u00f3n","(active tab)":"(solapa activa)","Restricted to certain pages":"Restringido a algunas p\u00e1ginas","The block cannot be placed in this region.":"El bloque no se puede colocar en esta regi\u00f3n.","Hide summary":"Ocultar resumen","Edit summary":"Editar resumen","Don\u0027t display post information":"No mostrar informaci\u00f3n del env\u00edo","Collapse":"Plegar","The selected file %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions.":"El archivo seleccionado %filename no se puede subir al srvidor. Solo se permiten archivos con las siguientes extensiones: %extensions.","Re-order rows by numerical weight instead of dragging.":"Reordenar las filas por peso num\u00e9rico en lugar de arrastrar.","Show row weights":"Mostrar pesos de la fila","Hide row weights":"Ocultar pesos de la fila","Apply (all displays)":"Aplicar (todas las presentaciones)","Apply (this display)":"Aplicar (esta presentaci\u00f3n)","Revert to default":"Volver al valor inicial","You have unsaved changes":"Usted tiene cambios no guaradados","Needs to be updated":"Necesita ser actualizado","Does not need to be updated":"No necesita ser actualizado","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","List additional actions":"Lista adicional de acciones","Flag other translations as outdated":"Marcar las otras traducciones como desfasadas","Do not flag other translations as outdated":"No marcar las otras traducciones como desfasadas","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","You have unsaved changes.":"Tiene cambios sin guardar.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Changing the text format to %text_format will permanently remove content that is not allowed in that text format.\u003Cbr\u003E\u003Cbr\u003ESave your changes before switching the text format to avoid losing data.":"Cambiar el formato de texto a %text_format eliminar\u00e1 permanentemente el contenido que no est\u00e1 permitido en ese formato de texto.\u003Cbr\u003E\u003Cbr\u003EGuarde sus datos antes de cambiar el formato de texto para evitar perder datos.","Change text format?":"\u00bfCambiar el formato de texto?","Rich Text Editor, !label field":"Editor de texto con formato, campo !label","Leave preview?":"\u00bfSalir de la vista previa?","Leave preview":"Salir de la vista previa","Leaving the preview will cause unsaved changes to be lost. Are you sure you want to leave the preview?":"La salida de la vista previa provocar\u00e1 la p\u00e9rdida de los cambios no guardados. \u00bfEst\u00e1 seguro de que desea abandonar la vista previa?","CTRL+Left click will prevent this dialog from showing and proceed to the clicked link.":"CTRL+Clic izquierdo evitar\u00e1 que aparezca este di\u00e1logo e ir\u00e1 directamente al enlace pulsado.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!","Authored on @date":"Escrito el @date","Latitude":"Latitud","Longitude":"Longitud","No location data found. Reason: POSITION_UNAVAILABLE.":"No se encontraron datos de localizaci\u00f3n. Razon: POSICION_NO_DISPONIBLE","No location data found. Reason: TIMEOUT.":"No se encontraron datos de localizaci\u00f3n. Razon: TIEMPO EXPIRADO"},"Long month name":{"January":"Enero","February":"Febrero","March":"Marzo","April":"Abril","May":"Mayo","June":"Junio","July":"Julio","August":"Agosto","September":"Septiembre","October":"Octubre","November":"Noviembre","December":"Diciembre"}},"pluralFormula":{"1":0,"default":1}};;
 /**
  * @file
  * Defines the Drupal JavaScript API.
@@ -1378,182 +1378,7 @@ document.documentElement.className += ' js';
 ;
 /**
  * @file
- * Responsive table functionality.
- */
-
-(function ($, Drupal, window) {
-
-  'use strict';
-
-  /**
-   * Attach the tableResponsive function to {@link Drupal.behaviors}.
-   *
-   * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Attaches tableResponsive functionality.
-   */
-  Drupal.behaviors.tableResponsive = {
-    attach: function (context, settings) {
-      var $tables = $(context).find('table.responsive-enabled').once('tableresponsive');
-      if ($tables.length) {
-        var il = $tables.length;
-        for (var i = 0; i < il; i++) {
-          TableResponsive.tables.push(new TableResponsive($tables[i]));
-        }
-      }
-    }
-  };
-
-  /**
-   * The TableResponsive object optimizes table presentation for screen size.
-   *
-   * A responsive table hides columns at small screen sizes, leaving the most
-   * important columns visible to the end user. Users should not be prevented
-   * from accessing all columns, however. This class adds a toggle to a table
-   * with hidden columns that exposes the columns. Exposing the columns will
-   * likely break layouts, but it provides the user with a means to access
-   * data, which is a guiding principle of responsive design.
-   *
-   * @constructor Drupal.TableResponsive
-   *
-   * @param {HTMLElement} table
-   *   The table element to initialize the responsive table on.
-   */
-  function TableResponsive(table) {
-    this.table = table;
-    this.$table = $(table);
-    this.showText = Drupal.t('Show all columns');
-    this.hideText = Drupal.t('Hide lower priority columns');
-    // Store a reference to the header elements of the table so that the DOM is
-    // traversed only once to find them.
-    this.$headers = this.$table.find('th');
-    // Add a link before the table for users to show or hide weight columns.
-    this.$link = $('<button type="button" class="link tableresponsive-toggle"></button>')
-      .attr('title', Drupal.t('Show table cells that were hidden to make the table fit within a small screen.'))
-      .on('click', $.proxy(this, 'eventhandlerToggleColumns'));
-
-    this.$table.before($('<div class="tableresponsive-toggle-columns"></div>').append(this.$link));
-
-    // Attach a resize handler to the window.
-    $(window)
-      .on('resize.tableresponsive', $.proxy(this, 'eventhandlerEvaluateColumnVisibility'))
-      .trigger('resize.tableresponsive');
-  }
-
-  /**
-   * Extend the TableResponsive function with a list of managed tables.
-   */
-  $.extend(TableResponsive, /** @lends Drupal.TableResponsive */{
-
-    /**
-     * Store all created instances.
-     *
-     * @type {Array.<Drupal.TableResponsive>}
-     */
-    tables: []
-  });
-
-  /**
-   * Associates an action link with the table that will show hidden columns.
-   *
-   * Columns are assumed to be hidden if their header has the class priority-low
-   * or priority-medium.
-   */
-  $.extend(TableResponsive.prototype, /** @lends Drupal.TableResponsive# */{
-
-    /**
-     * @param {jQuery.Event} e
-     *   The event triggered.
-     */
-    eventhandlerEvaluateColumnVisibility: function (e) {
-      var pegged = parseInt(this.$link.data('pegged'), 10);
-      var hiddenLength = this.$headers.filter('.priority-medium:hidden, .priority-low:hidden').length;
-      // If the table has hidden columns, associate an action link with the
-      // table to show the columns.
-      if (hiddenLength > 0) {
-        this.$link.show().text(this.showText);
-      }
-      // When the toggle is pegged, its presence is maintained because the user
-      // has interacted with it. This is necessary to keep the link visible if
-      // the user adjusts screen size and changes the visibility of columns.
-      if (!pegged && hiddenLength === 0) {
-        this.$link.hide().text(this.hideText);
-      }
-    },
-
-    /**
-     * Toggle the visibility of columns based on their priority.
-     *
-     * Columns are classed with either 'priority-low' or 'priority-medium'.
-     *
-     * @param {jQuery.Event} e
-     *   The event triggered.
-     */
-    eventhandlerToggleColumns: function (e) {
-      e.preventDefault();
-      var self = this;
-      var $hiddenHeaders = this.$headers.filter('.priority-medium:hidden, .priority-low:hidden');
-      this.$revealedCells = this.$revealedCells || $();
-      // Reveal hidden columns.
-      if ($hiddenHeaders.length > 0) {
-        $hiddenHeaders.each(function (index, element) {
-          var $header = $(this);
-          var position = $header.prevAll('th').length;
-          self.$table.find('tbody tr').each(function () {
-            var $cells = $(this).find('td').eq(position);
-            $cells.show();
-            // Keep track of the revealed cells, so they can be hidden later.
-            self.$revealedCells = $().add(self.$revealedCells).add($cells);
-          });
-          $header.show();
-          // Keep track of the revealed headers, so they can be hidden later.
-          self.$revealedCells = $().add(self.$revealedCells).add($header);
-        });
-        this.$link.text(this.hideText).data('pegged', 1);
-      }
-      // Hide revealed columns.
-      else {
-        this.$revealedCells.hide();
-        // Strip the 'display:none' declaration from the style attributes of
-        // the table cells that .hide() added.
-        this.$revealedCells.each(function (index, element) {
-          var $cell = $(this);
-          var properties = $cell.attr('style').split(';');
-          var newProps = [];
-          // The hide method adds display none to the element. The element
-          // should be returned to the same state it was in before the columns
-          // were revealed, so it is necessary to remove the display none value
-          // from the style attribute.
-          var match = /^display\s*\:\s*none$/;
-          for (var i = 0; i < properties.length; i++) {
-            var prop = properties[i];
-            prop.trim();
-            // Find the display:none property and remove it.
-            var isDisplayNone = match.exec(prop);
-            if (isDisplayNone) {
-              continue;
-            }
-            newProps.push(prop);
-          }
-          // Return the rest of the style attribute values to the element.
-          $cell.attr('style', newProps.join(';'));
-        });
-        this.$link.text(this.showText).data('pegged', 0);
-        // Refresh the toggle link.
-        $(window).trigger('resize.tableresponsive');
-      }
-    }
-  });
-
-  // Make the TableResponsive object available in the Drupal namespace.
-  Drupal.TableResponsive = TableResponsive;
-
-})(jQuery, Drupal, window);
-;
-/**
- * @file
- * Dropbutton feature.
+ * Drupal's states library.
  */
 
 (function ($, Drupal) {
@@ -1561,227 +1386,718 @@ document.documentElement.className += ' js';
   'use strict';
 
   /**
-   * Process elements with the .dropbutton class on page load.
+   * The base States namespace.
+   *
+   * Having the local states variable allows us to use the States namespace
+   * without having to always declare "Drupal.states".
+   *
+   * @namespace Drupal.states
+   */
+  var states = Drupal.states = {
+
+    /**
+     * An array of functions that should be postponed.
+     */
+    postponed: []
+  };
+
+  /**
+   * Attaches the states.
    *
    * @type {Drupal~behavior}
    *
    * @prop {Drupal~behaviorAttach} attach
-   *   Attaches dropButton behaviors.
+   *   Attaches states behaviors.
    */
-  Drupal.behaviors.dropButton = {
+  Drupal.behaviors.states = {
     attach: function (context, settings) {
-      var $dropbuttons = $(context).find('.dropbutton-wrapper').once('dropbutton');
-      if ($dropbuttons.length) {
-        // Adds the delegated handler that will toggle dropdowns on click.
-        var $body = $('body').once('dropbutton-click');
-        if ($body.length) {
-          $body.on('click', '.dropbutton-toggle', dropbuttonClickHandler);
+      var $states = $(context).find('[data-drupal-states]');
+      var config;
+      var state;
+      var il = $states.length;
+      for (var i = 0; i < il; i++) {
+        config = JSON.parse($states[i].getAttribute('data-drupal-states'));
+        for (state in config) {
+          if (config.hasOwnProperty(state)) {
+            new states.Dependent({
+              element: $($states[i]),
+              state: states.State.sanitize(state),
+              constraints: config[state]
+            });
+          }
         }
-        // Initialize all buttons.
-        var il = $dropbuttons.length;
-        for (var i = 0; i < il; i++) {
-          DropButton.dropbuttons.push(new DropButton($dropbuttons[i], settings.dropbutton));
-        }
+      }
+
+      // Execute all postponed functions now.
+      while (states.postponed.length) {
+        (states.postponed.shift())();
       }
     }
   };
 
   /**
-   * Delegated callback for opening and closing dropbutton secondary actions.
+   * Object representing an element that depends on other elements.
    *
-   * @function Drupal.DropButton~dropbuttonClickHandler
+   * @constructor Drupal.states.Dependent
    *
-   * @param {jQuery.Event} e
-   *   The event triggered.
+   * @param {object} args
+   *   Object with the following keys (all of which are required)
+   * @param {jQuery} args.element
+   *   A jQuery object of the dependent element
+   * @param {Drupal.states.State} args.state
+   *   A State object describing the state that is dependent
+   * @param {object} args.constraints
+   *   An object with dependency specifications. Lists all elements that this
+   *   element depends on. It can be nested and can contain
+   *   arbitrary AND and OR clauses.
    */
-  function dropbuttonClickHandler(e) {
-    e.preventDefault();
-    $(e.target).closest('.dropbutton-wrapper').toggleClass('open');
-  }
+  states.Dependent = function (args) {
+    $.extend(this, {values: {}, oldValue: null}, args);
 
-  /**
-   * A DropButton presents an HTML list as a button with a primary action.
-   *
-   * All secondary actions beyond the first in the list are presented in a
-   * dropdown list accessible through a toggle arrow associated with the button.
-   *
-   * @constructor Drupal.DropButton
-   *
-   * @param {HTMLElement} dropbutton
-   *   A DOM element.
-   * @param {object} settings
-   *   A list of options including:
-   * @param {string} settings.title
-   *   The text inside the toggle link element. This text is hidden
-   *   from visual UAs.
-   */
-  function DropButton(dropbutton, settings) {
-    // Merge defaults with settings.
-    var options = $.extend({title: Drupal.t('List additional actions')}, settings);
-    var $dropbutton = $(dropbutton);
-
-    /**
-     * @type {jQuery}
-     */
-    this.$dropbutton = $dropbutton;
-
-    /**
-     * @type {jQuery}
-     */
-    this.$list = $dropbutton.find('.dropbutton');
-
-    /**
-     * Find actions and mark them.
-     *
-     * @type {jQuery}
-     */
-    this.$actions = this.$list.find('li').addClass('dropbutton-action');
-
-    // Add the special dropdown only if there are hidden actions.
-    if (this.$actions.length > 1) {
-      // Identify the first element of the collection.
-      var $primary = this.$actions.slice(0, 1);
-      // Identify the secondary actions.
-      var $secondary = this.$actions.slice(1);
-      $secondary.addClass('secondary-action');
-      // Add toggle link.
-      $primary.after(Drupal.theme('dropbuttonToggle', options));
-      // Bind mouse events.
-      this.$dropbutton
-        .addClass('dropbutton-multiple')
-        .on({
-
-          /**
-           * Adds a timeout to close the dropdown on mouseleave.
-           *
-           * @ignore
-           */
-          'mouseleave.dropbutton': $.proxy(this.hoverOut, this),
-
-          /**
-           * Clears timeout when mouseout of the dropdown.
-           *
-           * @ignore
-           */
-          'mouseenter.dropbutton': $.proxy(this.hoverIn, this),
-
-          /**
-           * Similar to mouseleave/mouseenter, but for keyboard navigation.
-           *
-           * @ignore
-           */
-          'focusout.dropbutton': $.proxy(this.focusOut, this),
-
-          /**
-           * @ignore
-           */
-          'focusin.dropbutton': $.proxy(this.focusIn, this)
-        });
+    this.dependees = this.getDependees();
+    for (var selector in this.dependees) {
+      if (this.dependees.hasOwnProperty(selector)) {
+        this.initializeDependee(selector, this.dependees[selector]);
+      }
     }
-    else {
-      this.$dropbutton.addClass('dropbutton-single');
-    }
-  }
+  };
 
   /**
-   * Extend the DropButton constructor.
+   * Comparison functions for comparing the value of an element with the
+   * specification from the dependency settings. If the object type can't be
+   * found in this list, the === operator is used by default.
+   *
+   * @name Drupal.states.Dependent.comparisons
+   *
+   * @prop {function} RegExp
+   * @prop {function} Function
+   * @prop {function} Number
    */
-  $.extend(DropButton, /** @lends Drupal.DropButton */{
-    /**
-     * Store all processed DropButtons.
-     *
-     * @type {Array.<Drupal.DropButton>}
-     */
-    dropbuttons: []
-  });
-
-  /**
-   * Extend the DropButton prototype.
-   */
-  $.extend(DropButton.prototype, /** @lends Drupal.DropButton# */{
-
-    /**
-     * Toggle the dropbutton open and closed.
-     *
-     * @param {bool} [show]
-     *   Force the dropbutton to open by passing true or to close by
-     *   passing false.
-     */
-    toggle: function (show) {
-      var isBool = typeof show === 'boolean';
-      show = isBool ? show : !this.$dropbutton.hasClass('open');
-      this.$dropbutton.toggleClass('open', show);
+  states.Dependent.comparisons = {
+    RegExp: function (reference, value) {
+      return reference.test(value);
     },
+    Function: function (reference, value) {
+      // The "reference" variable is a comparison function.
+      return reference(value);
+    },
+    Number: function (reference, value) {
+      // If "reference" is a number and "value" is a string, then cast
+      // reference as a string before applying the strict comparison in
+      // compare().
+      // Otherwise numeric keys in the form's #states array fail to match
+      // string values returned from jQuery's val().
+      return (typeof value === 'string') ? compare(reference.toString(), value) : compare(reference, value);
+    }
+  };
+
+  states.Dependent.prototype = {
 
     /**
-     * @method
+     * Initializes one of the elements this dependent depends on.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string} selector
+     *   The CSS selector describing the dependee.
+     * @param {object} dependeeStates
+     *   The list of states that have to be monitored for tracking the
+     *   dependee's compliance status.
      */
-    hoverIn: function () {
-      // Clear any previous timer we were using.
-      if (this.timerID) {
-        window.clearTimeout(this.timerID);
+    initializeDependee: function (selector, dependeeStates) {
+      var state;
+      var self = this;
+
+      function stateEventHandler(e) {
+        self.update(e.data.selector, e.data.state, e.value);
+      }
+
+      // Cache for the states of this dependee.
+      this.values[selector] = {};
+
+      for (var i in dependeeStates) {
+        if (dependeeStates.hasOwnProperty(i)) {
+          state = dependeeStates[i];
+          // Make sure we're not initializing this selector/state combination
+          // twice.
+          if ($.inArray(state, dependeeStates) === -1) {
+            continue;
+          }
+
+          state = states.State.sanitize(state);
+
+          // Initialize the value of this state.
+          this.values[selector][state.name] = null;
+
+          // Monitor state changes of the specified state for this dependee.
+          $(selector).on('state:' + state, {selector: selector, state: state}, stateEventHandler);
+
+          // Make sure the event we just bound ourselves to is actually fired.
+          new states.Trigger({selector: selector, state: state});
+        }
       }
     },
 
     /**
-     * @method
-     */
-    hoverOut: function () {
-      // Wait half a second before closing.
-      this.timerID = window.setTimeout($.proxy(this, 'close'), 500);
-    },
-
-    /**
-     * @method
-     */
-    open: function () {
-      this.toggle(true);
-    },
-
-    /**
-     * @method
-     */
-    close: function () {
-      this.toggle(false);
-    },
-
-    /**
-     * @param {jQuery.Event} e
-     *   The event triggered.
-     */
-    focusOut: function (e) {
-      this.hoverOut.call(this, e);
-    },
-
-    /**
-     * @param {jQuery.Event} e
-     *   The event triggered.
-     */
-    focusIn: function (e) {
-      this.hoverIn.call(this, e);
-    }
-  });
-
-  $.extend(Drupal.theme, /** @lends Drupal.theme */{
-
-    /**
-     * A toggle is an interactive element often bound to a click handler.
+     * Compares a value with a reference value.
      *
-     * @param {object} options
-     *   Options object.
-     * @param {string} [options.title]
-     *   The HTML anchor title attribute and text for the inner span element.
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {object} reference
+     *   The value used for reference.
+     * @param {string} selector
+     *   CSS selector describing the dependee.
+     * @param {Drupal.states.State} state
+     *   A State object describing the dependee's updated state.
+     *
+     * @return {bool}
+     *   true or false.
+     */
+    compare: function (reference, selector, state) {
+      var value = this.values[selector][state.name];
+      if (reference.constructor.name in states.Dependent.comparisons) {
+        // Use a custom compare function for certain reference value types.
+        return states.Dependent.comparisons[reference.constructor.name](reference, value);
+      }
+      else {
+        // Do a plain comparison otherwise.
+        return compare(reference, value);
+      }
+    },
+
+    /**
+     * Update the value of a dependee's state.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string} selector
+     *   CSS selector describing the dependee.
+     * @param {Drupal.states.state} state
+     *   A State object describing the dependee's updated state.
+     * @param {string} value
+     *   The new value for the dependee's updated state.
+     */
+    update: function (selector, state, value) {
+      // Only act when the 'new' value is actually new.
+      if (value !== this.values[selector][state.name]) {
+        this.values[selector][state.name] = value;
+        this.reevaluate();
+      }
+    },
+
+    /**
+     * Triggers change events in case a state changed.
+     *
+     * @memberof Drupal.states.Dependent#
+     */
+    reevaluate: function () {
+      // Check whether any constraint for this dependent state is satisfied.
+      var value = this.verifyConstraints(this.constraints);
+
+      // Only invoke a state change event when the value actually changed.
+      if (value !== this.oldValue) {
+        // Store the new value so that we can compare later whether the value
+        // actually changed.
+        this.oldValue = value;
+
+        // Normalize the value to match the normalized state name.
+        value = invert(value, this.state.invert);
+
+        // By adding "trigger: true", we ensure that state changes don't go into
+        // infinite loops.
+        this.element.trigger({type: 'state:' + this.state, value: value, trigger: true});
+      }
+    },
+
+    /**
+     * Evaluates child constraints to determine if a constraint is satisfied.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {object|Array} constraints
+     *   A constraint object or an array of constraints.
+     * @param {string} selector
+     *   The selector for these constraints. If undefined, there isn't yet a
+     *   selector that these constraints apply to. In that case, the keys of the
+     *   object are interpreted as the selector if encountered.
+     *
+     * @return {bool}
+     *   true or false, depending on whether these constraints are satisfied.
+     */
+    verifyConstraints: function (constraints, selector) {
+      var result;
+      if ($.isArray(constraints)) {
+        // This constraint is an array (OR or XOR).
+        var hasXor = $.inArray('xor', constraints) === -1;
+        var len = constraints.length;
+        for (var i = 0; i < len; i++) {
+          if (constraints[i] !== 'xor') {
+            var constraint = this.checkConstraints(constraints[i], selector, i);
+            // Return if this is OR and we have a satisfied constraint or if
+            // this is XOR and we have a second satisfied constraint.
+            if (constraint && (hasXor || result)) {
+              return hasXor;
+            }
+            result = result || constraint;
+          }
+        }
+      }
+      // Make sure we don't try to iterate over things other than objects. This
+      // shouldn't normally occur, but in case the condition definition is
+      // bogus, we don't want to end up with an infinite loop.
+      else if ($.isPlainObject(constraints)) {
+        // This constraint is an object (AND).
+        for (var n in constraints) {
+          if (constraints.hasOwnProperty(n)) {
+            result = ternary(result, this.checkConstraints(constraints[n], selector, n));
+            // False and anything else will evaluate to false, so return when
+            // any false condition is found.
+            if (result === false) { return false; }
+          }
+        }
+      }
+      return result;
+    },
+
+    /**
+     * Checks whether the value matches the requirements for this constraint.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string|Array|object} value
+     *   Either the value of a state or an array/object of constraints. In the
+     *   latter case, resolving the constraint continues.
+     * @param {string} [selector]
+     *   The selector for this constraint. If undefined, there isn't yet a
+     *   selector that this constraint applies to. In that case, the state key
+     *   is propagates to a selector and resolving continues.
+     * @param {Drupal.states.State} [state]
+     *   The state to check for this constraint. If undefined, resolving
+     *   continues. If both selector and state aren't undefined and valid
+     *   non-numeric strings, a lookup for the actual value of that selector's
+     *   state is performed. This parameter is not a State object but a pristine
+     *   state string.
+     *
+     * @return {bool}
+     *   true or false, depending on whether this constraint is satisfied.
+     */
+    checkConstraints: function (value, selector, state) {
+      // Normalize the last parameter. If it's non-numeric, we treat it either
+      // as a selector (in case there isn't one yet) or as a trigger/state.
+      if (typeof state !== 'string' || (/[0-9]/).test(state[0])) {
+        state = null;
+      }
+      else if (typeof selector === 'undefined') {
+        // Propagate the state to the selector when there isn't one yet.
+        selector = state;
+        state = null;
+      }
+
+      if (state !== null) {
+        // Constraints is the actual constraints of an element to check for.
+        state = states.State.sanitize(state);
+        return invert(this.compare(value, selector, state), state.invert);
+      }
+      else {
+        // Resolve this constraint as an AND/OR operator.
+        return this.verifyConstraints(value, selector);
+      }
+    },
+
+    /**
+     * Gathers information about all required triggers.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @return {object}
+     *   An object describing the required triggers.
+     */
+    getDependees: function () {
+      var cache = {};
+      // Swivel the lookup function so that we can record all available
+      // selector- state combinations for initialization.
+      var _compare = this.compare;
+      this.compare = function (reference, selector, state) {
+        (cache[selector] || (cache[selector] = [])).push(state.name);
+        // Return nothing (=== undefined) so that the constraint loops are not
+        // broken.
+      };
+
+      // This call doesn't actually verify anything but uses the resolving
+      // mechanism to go through the constraints array, trying to look up each
+      // value. Since we swivelled the compare function, this comparison returns
+      // undefined and lookup continues until the very end. Instead of lookup up
+      // the value, we record that combination of selector and state so that we
+      // can initialize all triggers.
+      this.verifyConstraints(this.constraints);
+      // Restore the original function.
+      this.compare = _compare;
+
+      return cache;
+    }
+  };
+
+  /**
+   * @constructor Drupal.states.Trigger
+   *
+   * @param {object} args
+   *   Trigger arguments.
+   */
+  states.Trigger = function (args) {
+    $.extend(this, args);
+
+    if (this.state in states.Trigger.states) {
+      this.element = $(this.selector);
+
+      // Only call the trigger initializer when it wasn't yet attached to this
+      // element. Otherwise we'd end up with duplicate events.
+      if (!this.element.data('trigger:' + this.state)) {
+        this.initialize();
+      }
+    }
+  };
+
+  states.Trigger.prototype = {
+
+    /**
+     * @memberof Drupal.states.Trigger#
+     */
+    initialize: function () {
+      var trigger = states.Trigger.states[this.state];
+
+      if (typeof trigger === 'function') {
+        // We have a custom trigger initialization function.
+        trigger.call(window, this.element);
+      }
+      else {
+        for (var event in trigger) {
+          if (trigger.hasOwnProperty(event)) {
+            this.defaultTrigger(event, trigger[event]);
+          }
+        }
+      }
+
+      // Mark this trigger as initialized for this element.
+      this.element.data('trigger:' + this.state, true);
+    },
+
+    /**
+     * @memberof Drupal.states.Trigger#
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered.
+     * @param {function} valueFn
+     *   The function to call.
+     */
+    defaultTrigger: function (event, valueFn) {
+      var oldValue = valueFn.call(this.element);
+
+      // Attach the event callback.
+      this.element.on(event, $.proxy(function (e) {
+        var value = valueFn.call(this.element, e);
+        // Only trigger the event if the value has actually changed.
+        if (oldValue !== value) {
+          this.element.trigger({type: 'state:' + this.state, value: value, oldValue: oldValue});
+          oldValue = value;
+        }
+      }, this));
+
+      states.postponed.push($.proxy(function () {
+        // Trigger the event once for initialization purposes.
+        this.element.trigger({type: 'state:' + this.state, value: oldValue, oldValue: null});
+      }, this));
+    }
+  };
+
+  /**
+   * This list of states contains functions that are used to monitor the state
+   * of an element. Whenever an element depends on the state of another element,
+   * one of these trigger functions is added to the dependee so that the
+   * dependent element can be updated.
+   *
+   * @name Drupal.states.Trigger.states
+   *
+   * @prop empty
+   * @prop checked
+   * @prop value
+   * @prop collapsed
+   */
+  states.Trigger.states = {
+    // 'empty' describes the state to be monitored.
+    empty: {
+      // 'keyup' is the (native DOM) event that we watch for.
+      keyup: function () {
+        // The function associated with that trigger returns the new value for
+        // the state.
+        return this.val() === '';
+      }
+    },
+
+    checked: {
+      change: function () {
+        // prop() and attr() only takes the first element into account. To
+        // support selectors matching multiple checkboxes, iterate over all and
+        // return whether any is checked.
+        var checked = false;
+        this.each(function () {
+          // Use prop() here as we want a boolean of the checkbox state.
+          // @see http://api.jquery.com/prop/
+          checked = $(this).prop('checked');
+          // Break the each() loop if this is checked.
+          return !checked;
+        });
+        return checked;
+      }
+    },
+
+    // For radio buttons, only return the value if the radio button is selected.
+    value: {
+      keyup: function () {
+        // Radio buttons share the same :input[name="key"] selector.
+        if (this.length > 1) {
+          // Initial checked value of radios is undefined, so we return false.
+          return this.filter(':checked').val() || false;
+        }
+        return this.val();
+      },
+      change: function () {
+        // Radio buttons share the same :input[name="key"] selector.
+        if (this.length > 1) {
+          // Initial checked value of radios is undefined, so we return false.
+          return this.filter(':checked').val() || false;
+        }
+        return this.val();
+      }
+    },
+
+    collapsed: {
+      collapsed: function (e) {
+        return (typeof e !== 'undefined' && 'value' in e) ? e.value : !this.is('[open]');
+      }
+    }
+  };
+
+  /**
+   * A state object is used for describing the state and performing aliasing.
+   *
+   * @constructor Drupal.states.State
+   *
+   * @param {string} state
+   *   The name of the state.
+   */
+  states.State = function (state) {
+
+    /**
+     * Original unresolved name.
+     */
+    this.pristine = this.name = state;
+
+    // Normalize the state name.
+    var process = true;
+    do {
+      // Iteratively remove exclamation marks and invert the value.
+      while (this.name.charAt(0) === '!') {
+        this.name = this.name.substring(1);
+        this.invert = !this.invert;
+      }
+
+      // Replace the state with its normalized name.
+      if (this.name in states.State.aliases) {
+        this.name = states.State.aliases[this.name];
+      }
+      else {
+        process = false;
+      }
+    } while (process);
+  };
+
+  /**
+   * Creates a new State object by sanitizing the passed value.
+   *
+   * @name Drupal.states.State.sanitize
+   *
+   * @param {string|Drupal.states.State} state
+   *   A state object or the name of a state.
+   *
+   * @return {Drupal.states.state}
+   *   A state object.
+   */
+  states.State.sanitize = function (state) {
+    if (state instanceof states.State) {
+      return state;
+    }
+    else {
+      return new states.State(state);
+    }
+  };
+
+  /**
+   * This list of aliases is used to normalize states and associates negated
+   * names with their respective inverse state.
+   *
+   * @name Drupal.states.State.aliases
+   */
+  states.State.aliases = {
+    enabled: '!disabled',
+    invisible: '!visible',
+    invalid: '!valid',
+    untouched: '!touched',
+    optional: '!required',
+    filled: '!empty',
+    unchecked: '!checked',
+    irrelevant: '!relevant',
+    expanded: '!collapsed',
+    open: '!collapsed',
+    closed: 'collapsed',
+    readwrite: '!readonly'
+  };
+
+  states.State.prototype = {
+
+    /**
+     * @memberof Drupal.states.State#
+     */
+    invert: false,
+
+    /**
+     * Ensures that just using the state object returns the name.
+     *
+     * @memberof Drupal.states.State#
      *
      * @return {string}
-     *   A string representing a DOM fragment.
+     *   The name of the state.
      */
-    dropbuttonToggle: function (options) {
-      return '<li class="dropbutton-toggle"><button type="button"><span class="dropbutton-arrow"><span class="visually-hidden">' + options.title + '</span></span></button></li>';
+    toString: function () {
+      return this.name;
+    }
+  };
+
+  /**
+   * Global state change handlers. These are bound to "document" to cover all
+   * elements whose state changes. Events sent to elements within the page
+   * bubble up to these handlers. We use this system so that themes and modules
+   * can override these state change handlers for particular parts of a page.
+   */
+
+  var $document = $(document);
+  $document.on('state:disabled', function (e) {
+    // Only act when this change was triggered by a dependency and not by the
+    // element monitoring itself.
+    if (e.trigger) {
+      $(e.target)
+        .prop('disabled', e.value)
+        .closest('.js-form-item, .js-form-submit, .js-form-wrapper').toggleClass('form-disabled', e.value)
+        .find('select, input, textarea').prop('disabled', e.value);
+
+      // Note: WebKit nightlies don't reflect that change correctly.
+      // See https://bugs.webkit.org/show_bug.cgi?id=23789
     }
   });
 
-  // Expose constructor in the public space.
-  Drupal.DropButton = DropButton;
+  $document.on('state:required', function (e) {
+    if (e.trigger) {
+      if (e.value) {
+        var label = 'label' + (e.target.id ? '[for=' + e.target.id + ']' : '');
+        var $label = $(e.target).attr({'required': 'required', 'aria-required': 'aria-required'}).closest('.js-form-item, .js-form-wrapper').find(label);
+        // Avoids duplicate required markers on initialization.
+        if (!$label.hasClass('js-form-required').length) {
+          $label.addClass('js-form-required form-required');
+        }
+      }
+      else {
+        $(e.target).removeAttr('required aria-required').closest('.js-form-item, .js-form-wrapper').find('label.js-form-required').removeClass('js-form-required form-required');
+      }
+    }
+  });
+
+  $document.on('state:visible', function (e) {
+    if (e.trigger) {
+      $(e.target).closest('.js-form-item, .js-form-submit, .js-form-wrapper').toggle(e.value);
+    }
+  });
+
+  $document.on('state:checked', function (e) {
+    if (e.trigger) {
+      $(e.target).prop('checked', e.value);
+    }
+  });
+
+  $document.on('state:collapsed', function (e) {
+    if (e.trigger) {
+      if ($(e.target).is('[open]') === e.value) {
+        $(e.target).find('> summary').trigger('click');
+      }
+    }
+  });
+
+  /**
+   * These are helper functions implementing addition "operators" and don't
+   * implement any logic that is particular to states.
+   */
+
+  /**
+   * Bitwise AND with a third undefined state.
+   *
+   * @function Drupal.states~ternary
+   *
+   * @param {*} a
+   *   Value a.
+   * @param {*} b
+   *   Value b
+   *
+   * @return {bool}
+   *   The result.
+   */
+  function ternary(a, b) {
+    if (typeof a === 'undefined') {
+      return b;
+    }
+    else if (typeof b === 'undefined') {
+      return a;
+    }
+    else {
+      return a && b;
+    }
+  }
+
+  /**
+   * Inverts a (if it's not undefined) when invertState is true.
+   *
+   * @function Drupal.states~invert
+   *
+   * @param {*} a
+   *   The value to maybe invert.
+   * @param {bool} invertState
+   *   Whether to invert state or not.
+   *
+   * @return {bool}
+   *   The result.
+   */
+  function invert(a, invertState) {
+    return (invertState && typeof a !== 'undefined') ? !a : a;
+  }
+
+  /**
+   * Compares two values while ignoring undefined values.
+   *
+   * @function Drupal.states~compare
+   *
+   * @param {*} a
+   *   Value a.
+   * @param {*} b
+   *   Value b.
+   *
+   * @return {bool}
+   *   The comparison result.
+   */
+  function compare(a, b) {
+    if (a === b) {
+      return typeof a === 'undefined' ? a : true;
+    }
+    else {
+      return typeof a === 'undefined' || typeof b === 'undefined';
+    }
+  }
 
 })(jQuery, Drupal);
 ;

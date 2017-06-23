@@ -45,7 +45,7 @@ void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!=
   }
 })();
 ;
-window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","Next":"Siguiente","closed":"cerrado","Cancel":"Cancelar","Edit":"Editar","Link":"Enlace","Image":"Imagen","Save":"Guardar","Open":"Abierta","Sunday":"Domingo","Monday":"Lunes","Tuesday":"Martes","Wednesday":"Mi\u00e9rcoles","Thursday":"Jueves","Friday":"Viernes","Saturday":"S\u00e1bado","Continue":"Continuar","Done":"Hecho","OK":"OK","Prev":"Previo","Mon":"Lun","Tue":"Mar","Wed":"Mi\u00e9","Thu":"Jue","Fri":"Vie","Sat":"S\u00e1b","Sun":"Dom","May":"Mayo","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Today":"Hoy","Jan":"Ene","Feb":"Feb","Mar":"Mar","Apr":"Abr","Jun":"Jun","Jul":"Jul","Aug":"Ago","Sep":"Sep","Oct":"Oct","Nov":"Nov","Dec":"Dic","Extend":"Ampliar","Su":"Do","Mo":"Lu","Tu":"Ma","We":"Mi","Th":"Ju","Fr":"Vi","Sa":"Sa","Not published":"No publicado","Loading...":"Cargando...","Hide":"Ocultar","Unlink":"Desvincular","Not promoted":"No publicado en p\u00e1gina principal","mm\/dd\/yy":"mm\/dd\/yy","Quick edit":"Edici\u00f3n r\u00e1pida","Edit Link":"Editar enlace","By @name on @date":"Por @name en @date","By @name":"Por @name","Not in menu":"No est\u00e1 en un men\u00fa","Alias: @alias":"Alias: @alias","No alias":"Sin alias","@label":"@label","New revision":"Nueva revisi\u00f3n","Drag to re-order":"Arrastre para reordenar","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","No revision":"Sin revisi\u00f3n","Requires a title":"Necesita un t\u00edtulo","Not restricted":"Sin restricci\u00f3n","(active tab)":"(solapa activa)","Restricted to certain pages":"Restringido a algunas p\u00e1ginas","The block cannot be placed in this region.":"El bloque no se puede colocar en esta regi\u00f3n.","Hide summary":"Ocultar resumen","Edit summary":"Editar resumen","Don\u0027t display post information":"No mostrar informaci\u00f3n del env\u00edo","Collapse":"Plegar","The selected file %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions.":"El archivo seleccionado %filename no se puede subir al srvidor. Solo se permiten archivos con las siguientes extensiones: %extensions.","Re-order rows by numerical weight instead of dragging.":"Reordenar las filas por peso num\u00e9rico en lugar de arrastrar.","Show row weights":"Mostrar pesos de la fila","Hide row weights":"Ocultar pesos de la fila","You have unsaved changes":"Usted tiene cambios no guaradados","Needs to be updated":"Necesita ser actualizado","Does not need to be updated":"No necesita ser actualizado","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","List additional actions":"Lista adicional de acciones","Flag other translations as outdated":"Marcar las otras traducciones como desfasadas","Do not flag other translations as outdated":"No marcar las otras traducciones como desfasadas","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","You have unsaved changes.":"Tiene cambios sin guardar.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Changing the text format to %text_format will permanently remove content that is not allowed in that text format.\u003Cbr\u003E\u003Cbr\u003ESave your changes before switching the text format to avoid losing data.":"Cambiar el formato de texto a %text_format eliminar\u00e1 permanentemente el contenido que no est\u00e1 permitido en ese formato de texto.\u003Cbr\u003E\u003Cbr\u003EGuarde sus datos antes de cambiar el formato de texto para evitar perder datos.","Change text format?":"\u00bfCambiar el formato de texto?","Rich Text Editor, !label field":"Editor de texto con formato, campo !label","Leave preview?":"\u00bfSalir de la vista previa?","Leave preview":"Salir de la vista previa","Leaving the preview will cause unsaved changes to be lost. Are you sure you want to leave the preview?":"La salida de la vista previa provocar\u00e1 la p\u00e9rdida de los cambios no guardados. \u00bfEst\u00e1 seguro de que desea abandonar la vista previa?","CTRL+Left click will prevent this dialog from showing and proceed to the clicked link.":"CTRL+Clic izquierdo evitar\u00e1 que aparezca este di\u00e1logo e ir\u00e1 directamente al enlace pulsado.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!","Authored on @date":"Escrito el @date","Latitude":"Latitud","Longitude":"Longitud","No location data found. Reason: POSITION_UNAVAILABLE.":"No se encontraron datos de localizaci\u00f3n. Razon: POSICION_NO_DISPONIBLE","No location data found. Reason: TIMEOUT.":"No se encontraron datos de localizaci\u00f3n. Razon: TIEMPO EXPIRADO"},"Long month name":{"January":"Enero","February":"Febrero","March":"Marzo","April":"Abril","May":"Mayo","June":"Junio","July":"Julio","August":"Agosto","September":"Septiembre","October":"Octubre","November":"Noviembre","December":"Diciembre"}},"pluralFormula":{"1":0,"default":1}};;
+window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","Next":"Siguiente","closed":"cerrado","Cancel":"Cancelar","Edit":"Editar","Link":"Enlace","Image":"Imagen","Save":"Guardar","Open":"Abierta","Sunday":"Domingo","Monday":"Lunes","Tuesday":"Martes","Wednesday":"Mi\u00e9rcoles","Thursday":"Jueves","Friday":"Viernes","Saturday":"S\u00e1bado","Add":"Agregar","Keywords":"Palabras clave","Continue":"Continuar","Done":"Hecho","OK":"OK","Prev":"Previo","Mon":"Lun","Tue":"Mar","Wed":"Mi\u00e9","Thu":"Jue","Fri":"Vie","Sat":"S\u00e1b","Sun":"Dom","May":"Mayo","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Today":"Hoy","Jan":"Ene","Feb":"Feb","Mar":"Mar","Apr":"Abr","Jun":"Jun","Jul":"Jul","Aug":"Ago","Sep":"Sep","Oct":"Oct","Nov":"Nov","Dec":"Dic","Extend":"Ampliar","Su":"Do","Mo":"Lu","Tu":"Ma","We":"Mi","Th":"Ju","Fr":"Vi","Sa":"Sa","Not published":"No publicado","Loading...":"Cargando...","Hide":"Ocultar","Unlink":"Desvincular","Not promoted":"No publicado en p\u00e1gina principal","mm\/dd\/yy":"mm\/dd\/yy","Quick edit":"Edici\u00f3n r\u00e1pida","Edit Link":"Editar enlace","Remove group":"Eliminar grupo","By @name on @date":"Por @name en @date","By @name":"Por @name","Not in menu":"No est\u00e1 en un men\u00fa","Alias: @alias":"Alias: @alias","No alias":"Sin alias","@label":"@label","New revision":"Nueva revisi\u00f3n","Drag to re-order":"Arrastre para reordenar","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","No revision":"Sin revisi\u00f3n","Requires a title":"Necesita un t\u00edtulo","Not restricted":"Sin restricci\u00f3n","(active tab)":"(solapa activa)","Restricted to certain pages":"Restringido a algunas p\u00e1ginas","The block cannot be placed in this region.":"El bloque no se puede colocar en esta regi\u00f3n.","Hide summary":"Ocultar resumen","Edit summary":"Editar resumen","Don\u0027t display post information":"No mostrar informaci\u00f3n del env\u00edo","Collapse":"Plegar","The selected file %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions.":"El archivo seleccionado %filename no se puede subir al srvidor. Solo se permiten archivos con las siguientes extensiones: %extensions.","Re-order rows by numerical weight instead of dragging.":"Reordenar las filas por peso num\u00e9rico en lugar de arrastrar.","Show row weights":"Mostrar pesos de la fila","Hide row weights":"Ocultar pesos de la fila","Apply (all displays)":"Aplicar (todas las presentaciones)","Apply (this display)":"Aplicar (esta presentaci\u00f3n)","Revert to default":"Volver al valor inicial","You have unsaved changes":"Usted tiene cambios no guaradados","Needs to be updated":"Necesita ser actualizado","Does not need to be updated":"No necesita ser actualizado","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","List additional actions":"Lista adicional de acciones","Flag other translations as outdated":"Marcar las otras traducciones como desfasadas","Do not flag other translations as outdated":"No marcar las otras traducciones como desfasadas","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","You have unsaved changes.":"Tiene cambios sin guardar.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Changing the text format to %text_format will permanently remove content that is not allowed in that text format.\u003Cbr\u003E\u003Cbr\u003ESave your changes before switching the text format to avoid losing data.":"Cambiar el formato de texto a %text_format eliminar\u00e1 permanentemente el contenido que no est\u00e1 permitido en ese formato de texto.\u003Cbr\u003E\u003Cbr\u003EGuarde sus datos antes de cambiar el formato de texto para evitar perder datos.","Change text format?":"\u00bfCambiar el formato de texto?","Rich Text Editor, !label field":"Editor de texto con formato, campo !label","Leave preview?":"\u00bfSalir de la vista previa?","Leave preview":"Salir de la vista previa","Leaving the preview will cause unsaved changes to be lost. Are you sure you want to leave the preview?":"La salida de la vista previa provocar\u00e1 la p\u00e9rdida de los cambios no guardados. \u00bfEst\u00e1 seguro de que desea abandonar la vista previa?","CTRL+Left click will prevent this dialog from showing and proceed to the clicked link.":"CTRL+Clic izquierdo evitar\u00e1 que aparezca este di\u00e1logo e ir\u00e1 directamente al enlace pulsado.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!","Authored on @date":"Escrito el @date","Latitude":"Latitud","Longitude":"Longitud","No location data found. Reason: POSITION_UNAVAILABLE.":"No se encontraron datos de localizaci\u00f3n. Razon: POSICION_NO_DISPONIBLE","No location data found. Reason: TIMEOUT.":"No se encontraron datos de localizaci\u00f3n. Razon: TIEMPO EXPIRADO"},"Long month name":{"January":"Enero","February":"Febrero","March":"Marzo","April":"Abril","May":"Mayo","June":"Junio","July":"Julio","August":"Agosto","September":"Septiembre","October":"Octubre","November":"Noviembre","December":"Diciembre"}},"pluralFormula":{"1":0,"default":1}};;
 /**
  * @file
  * Defines the Drupal JavaScript API.
@@ -660,6 +660,16 @@ document.documentElement.className += ' js';
  *
  * http://api.jqueryui.com/category/ui-core/
  */(function(e){typeof define=="function"&&define.amd?define(["jquery"],e):e(jQuery)})(function(e){function t(t,r){var i,s,o,u=t.nodeName.toLowerCase();return"area"===u?(i=t.parentNode,s=i.name,!t.href||!s||i.nodeName.toLowerCase()!=="map"?!1:(o=e("img[usemap='#"+s+"']")[0],!!o&&n(o))):(/^(input|select|textarea|button|object)$/.test(u)?!t.disabled:"a"===u?t.href||r:r)&&n(t)}function n(t){return e.expr.filters.visible(t)&&!e(t).parents().addBack().filter(function(){return e.css(this,"visibility")==="hidden"}).length}e.ui=e.ui||{},e.extend(e.ui,{version:"1.11.4",keyCode:{BACKSPACE:8,COMMA:188,DELETE:46,DOWN:40,END:35,ENTER:13,ESCAPE:27,HOME:36,LEFT:37,PAGE_DOWN:34,PAGE_UP:33,PERIOD:190,RIGHT:39,SPACE:32,TAB:9,UP:38}}),e.fn.extend({scrollParent:function(t){var n=this.css("position"),r=n==="absolute",i=t?/(auto|scroll|hidden)/:/(auto|scroll)/,s=this.parents().filter(function(){var t=e(this);return r&&t.css("position")==="static"?!1:i.test(t.css("overflow")+t.css("overflow-y")+t.css("overflow-x"))}).eq(0);return n==="fixed"||!s.length?e(this[0].ownerDocument||document):s},uniqueId:function(){var e=0;return function(){return this.each(function(){this.id||(this.id="ui-id-"+ ++e)})}}(),removeUniqueId:function(){return this.each(function(){/^ui-id-\d+$/.test(this.id)&&e(this).removeAttr("id")})}}),e.extend(e.expr[":"],{data:e.expr.createPseudo?e.expr.createPseudo(function(t){return function(n){return!!e.data(n,t)}}):function(t,n,r){return!!e.data(t,r[3])},focusable:function(n){return t(n,!isNaN(e.attr(n,"tabindex")))},tabbable:function(n){var r=e.attr(n,"tabindex"),i=isNaN(r);return(i||r>=0)&&t(n,!i)}}),e("<a>").outerWidth(1).jquery||e.each(["Width","Height"],function(t,n){function o(t,n,i,s){return e.each(r,function(){n-=parseFloat(e.css(t,"padding"+this))||0,i&&(n-=parseFloat(e.css(t,"border"+this+"Width"))||0),s&&(n-=parseFloat(e.css(t,"margin"+this))||0)}),n}var r=n==="Width"?["Left","Right"]:["Top","Bottom"],i=n.toLowerCase(),s={innerWidth:e.fn.innerWidth,innerHeight:e.fn.innerHeight,outerWidth:e.fn.outerWidth,outerHeight:e.fn.outerHeight};e.fn["inner"+n]=function(t){return t===undefined?s["inner"+n].call(this):this.each(function(){e(this).css(i,o(this,t)+"px")})},e.fn["outer"+n]=function(t,r){return typeof t!="number"?s["outer"+n].call(this,t):this.each(function(){e(this).css(i,o(this,t,!0,r)+"px")})}}),e.fn.addBack||(e.fn.addBack=function(e){return this.add(e==null?this.prevObject:this.prevObject.filter(e))}),e("<a>").data("a-b","a").removeData("a-b").data("a-b")&&(e.fn.removeData=function(t){return function(n){return arguments.length?t.call(this,e.camelCase(n)):t.call(this)}}(e.fn.removeData)),e.ui.ie=!!/msie [\w.]+/.exec(navigator.userAgent.toLowerCase()),e.fn.extend({focus:function(t){return function(n,r){return typeof n=="number"?this.each(function(){var t=this;setTimeout(function(){e(t).focus(),r&&r.call(t)},n)}):t.apply(this,arguments)}}(e.fn.focus),disableSelection:function(){var e="onselectstart"in document.createElement("div")?"selectstart":"mousedown";return function(){return this.bind(e+".ui-disableSelection",function(e){e.preventDefault()})}}(),enableSelection:function(){return this.unbind(".ui-disableSelection")},zIndex:function(t){if(t!==undefined)return this.css("zIndex",t);if(this.length){var n=e(this[0]),r,i;while(n.length&&n[0]!==document){r=n.css("position");if(r==="absolute"||r==="relative"||r==="fixed"){i=parseInt(n.css("zIndex"),10);if(!isNaN(i)&&i!==0)return i}n=n.parent()}}return 0}}),e.ui.plugin={add:function(t,n,r){var i,s=e.ui[t].prototype;for(i in r)s.plugins[i]=s.plugins[i]||[],s.plugins[i].push([n,r[i]])},call:function(e,t,n,r){var i,s=e.plugins[t];if(!s)return;if(!r&&(!e.element[0].parentNode||e.element[0].parentNode.nodeType===11))return;for(i=0;i<s.length;i++)e.options[s[i][0]]&&s[i][1].apply(e.element,n)}}});;
+/*!
+ * jQuery UI Widget 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/jQuery.widget/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery"],e):e(jQuery)})(function(e){var t=0,n=Array.prototype.slice;return e.cleanData=function(t){return function(n){var r,i,s;for(s=0;(i=n[s])!=null;s++)try{r=e._data(i,"events"),r&&r.remove&&e(i).triggerHandler("remove")}catch(o){}t(n)}}(e.cleanData),e.widget=function(t,n,r){var i,s,o,u,a={},f=t.split(".")[0];return t=t.split(".")[1],i=f+"-"+t,r||(r=n,n=e.Widget),e.expr[":"][i.toLowerCase()]=function(t){return!!e.data(t,i)},e[f]=e[f]||{},s=e[f][t],o=e[f][t]=function(e,t){if(!this._createWidget)return new o(e,t);arguments.length&&this._createWidget(e,t)},e.extend(o,s,{version:r.version,_proto:e.extend({},r),_childConstructors:[]}),u=new n,u.options=e.widget.extend({},u.options),e.each(r,function(t,r){if(!e.isFunction(r)){a[t]=r;return}a[t]=function(){var e=function(){return n.prototype[t].apply(this,arguments)},i=function(e){return n.prototype[t].apply(this,e)};return function(){var t=this._super,n=this._superApply,s;return this._super=e,this._superApply=i,s=r.apply(this,arguments),this._super=t,this._superApply=n,s}}()}),o.prototype=e.widget.extend(u,{widgetEventPrefix:s?u.widgetEventPrefix||t:t},a,{constructor:o,namespace:f,widgetName:t,widgetFullName:i}),s?(e.each(s._childConstructors,function(t,n){var r=n.prototype;e.widget(r.namespace+"."+r.widgetName,o,n._proto)}),delete s._childConstructors):n._childConstructors.push(o),e.widget.bridge(t,o),o},e.widget.extend=function(t){var r=n.call(arguments,1),i=0,s=r.length,o,u;for(;i<s;i++)for(o in r[i])u=r[i][o],r[i].hasOwnProperty(o)&&u!==undefined&&(e.isPlainObject(u)?t[o]=e.isPlainObject(t[o])?e.widget.extend({},t[o],u):e.widget.extend({},u):t[o]=u);return t},e.widget.bridge=function(t,r){var i=r.prototype.widgetFullName||t;e.fn[t]=function(s){var o=typeof s=="string",u=n.call(arguments,1),a=this;return o?this.each(function(){var n,r=e.data(this,i);if(s==="instance")return a=r,!1;if(!r)return e.error("cannot call methods on "+t+" prior to initialization; "+"attempted to call method '"+s+"'");if(!e.isFunction(r[s])||s.charAt(0)==="_")return e.error("no such method '"+s+"' for "+t+" widget instance");n=r[s].apply(r,u);if(n!==r&&n!==undefined)return a=n&&n.jquery?a.pushStack(n.get()):n,!1}):(u.length&&(s=e.widget.extend.apply(null,[s].concat(u))),this.each(function(){var t=e.data(this,i);t?(t.option(s||{}),t._init&&t._init()):e.data(this,i,new r(s,this))})),a}},e.Widget=function(){},e.Widget._childConstructors=[],e.Widget.prototype={widgetName:"widget",widgetEventPrefix:"",defaultElement:"<div>",options:{disabled:!1,create:null},_createWidget:function(n,r){r=e(r||this.defaultElement||this)[0],this.element=e(r),this.uuid=t++,this.eventNamespace="."+this.widgetName+this.uuid,this.bindings=e(),this.hoverable=e(),this.focusable=e(),r!==this&&(e.data(r,this.widgetFullName,this),this._on(!0,this.element,{remove:function(e){e.target===r&&this.destroy()}}),this.document=e(r.style?r.ownerDocument:r.document||r),this.window=e(this.document[0].defaultView||this.document[0].parentWindow)),this.options=e.widget.extend({},this.options,this._getCreateOptions(),n),this._create(),this._trigger("create",null,this._getCreateEventData()),this._init()},_getCreateOptions:e.noop,_getCreateEventData:e.noop,_create:e.noop,_init:e.noop,destroy:function(){this._destroy(),this.element.unbind(this.eventNamespace).removeData(this.widgetFullName).removeData(e.camelCase(this.widgetFullName)),this.widget().unbind(this.eventNamespace).removeAttr("aria-disabled").removeClass(this.widgetFullName+"-disabled "+"ui-state-disabled"),this.bindings.unbind(this.eventNamespace),this.hoverable.removeClass("ui-state-hover"),this.focusable.removeClass("ui-state-focus")},_destroy:e.noop,widget:function(){return this.element},option:function(t,n){var r=t,i,s,o;if(arguments.length===0)return e.widget.extend({},this.options);if(typeof t=="string"){r={},i=t.split("."),t=i.shift();if(i.length){s=r[t]=e.widget.extend({},this.options[t]);for(o=0;o<i.length-1;o++)s[i[o]]=s[i[o]]||{},s=s[i[o]];t=i.pop();if(arguments.length===1)return s[t]===undefined?null:s[t];s[t]=n}else{if(arguments.length===1)return this.options[t]===undefined?null:this.options[t];r[t]=n}}return this._setOptions(r),this},_setOptions:function(e){var t;for(t in e)this._setOption(t,e[t]);return this},_setOption:function(e,t){return this.options[e]=t,e==="disabled"&&(this.widget().toggleClass(this.widgetFullName+"-disabled",!!t),t&&(this.hoverable.removeClass("ui-state-hover"),this.focusable.removeClass("ui-state-focus"))),this},enable:function(){return this._setOptions({disabled:!1})},disable:function(){return this._setOptions({disabled:!0})},_on:function(t,n,r){var i,s=this;typeof t!="boolean"&&(r=n,n=t,t=!1),r?(n=i=e(n),this.bindings=this.bindings.add(n)):(r=n,n=this.element,i=this.widget()),e.each(r,function(r,o){function u(){if(!t&&(s.options.disabled===!0||e(this).hasClass("ui-state-disabled")))return;return(typeof o=="string"?s[o]:o).apply(s,arguments)}typeof o!="string"&&(u.guid=o.guid=o.guid||u.guid||e.guid++);var a=r.match(/^([\w:-]*)\s*(.*)$/),f=a[1]+s.eventNamespace,l=a[2];l?i.delegate(l,f,u):n.bind(f,u)})},_off:function(t,n){n=(n||"").split(" ").join(this.eventNamespace+" ")+this.eventNamespace,t.unbind(n).undelegate(n),this.bindings=e(this.bindings.not(t).get()),this.focusable=e(this.focusable.not(t).get()),this.hoverable=e(this.hoverable.not(t).get())},_delay:function(e,t){function n(){return(typeof e=="string"?r[e]:e).apply(r,arguments)}var r=this;return setTimeout(n,t||0)},_hoverable:function(t){this.hoverable=this.hoverable.add(t),this._on(t,{mouseenter:function(t){e(t.currentTarget).addClass("ui-state-hover")},mouseleave:function(t){e(t.currentTarget).removeClass("ui-state-hover")}})},_focusable:function(t){this.focusable=this.focusable.add(t),this._on(t,{focusin:function(t){e(t.currentTarget).addClass("ui-state-focus")},focusout:function(t){e(t.currentTarget).removeClass("ui-state-focus")}})},_trigger:function(t,n,r){var i,s,o=this.options[t];r=r||{},n=e.Event(n),n.type=(t===this.widgetEventPrefix?t:this.widgetEventPrefix+t).toLowerCase(),n.target=this.element[0],s=n.originalEvent;if(s)for(i in s)i in n||(n[i]=s[i]);return this.element.trigger(n,r),!(e.isFunction(o)&&o.apply(this.element[0],[n].concat(r))===!1||n.isDefaultPrevented())}},e.each({show:"fadeIn",hide:"fadeOut"},function(t,n){e.Widget.prototype["_"+t]=function(r,i,s){typeof i=="string"&&(i={effect:i});var o,u=i?i===!0||typeof i=="number"?n:i.effect||n:t;i=i||{},typeof i=="number"&&(i={duration:i}),o=!e.isEmptyObject(i),i.complete=s,i.delay&&r.delay(i.delay),o&&e.effects&&e.effects.effect[u]?r[t](i):u!==t&&r[u]?r[u](i.duration,i.easing,s):r.queue(function(n){e(this)[t](),s&&s.call(r[0]),n()})}}),e.widget});;
 /**
  * @file
  * Attaches behaviors for the Contextual module.
@@ -1309,6 +1319,1853 @@ document.documentElement.className += ' js';
 ;
 /**
  * @file
+ * Autocomplete based on jQuery UI.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  var autocomplete;
+
+  /**
+   * Helper splitting terms from the autocomplete value.
+   *
+   * @function Drupal.autocomplete.splitValues
+   *
+   * @param {string} value
+   *   The value being entered by the user.
+   *
+   * @return {Array}
+   *   Array of values, split by comma.
+   */
+  function autocompleteSplitValues(value) {
+    // We will match the value against comma-separated terms.
+    var result = [];
+    var quote = false;
+    var current = '';
+    var valueLength = value.length;
+    var character;
+
+    for (var i = 0; i < valueLength; i++) {
+      character = value.charAt(i);
+      if (character === '"') {
+        current += character;
+        quote = !quote;
+      }
+      else if (character === ',' && !quote) {
+        result.push(current.trim());
+        current = '';
+      }
+      else {
+        current += character;
+      }
+    }
+    if (value.length > 0) {
+      result.push($.trim(current));
+    }
+
+    return result;
+  }
+
+  /**
+   * Returns the last value of an multi-value textfield.
+   *
+   * @function Drupal.autocomplete.extractLastTerm
+   *
+   * @param {string} terms
+   *   The value of the field.
+   *
+   * @return {string}
+   *   The last value of the input field.
+   */
+  function extractLastTerm(terms) {
+    return autocomplete.splitValues(terms).pop();
+  }
+
+  /**
+   * The search handler is called before a search is performed.
+   *
+   * @function Drupal.autocomplete.options.search
+   *
+   * @param {object} event
+   *   The event triggered.
+   *
+   * @return {bool}
+   *   Whether to perform a search or not.
+   */
+  function searchHandler(event) {
+    var options = autocomplete.options;
+
+    if (options.isComposing) {
+      return false;
+    }
+
+    var term = autocomplete.extractLastTerm(event.target.value);
+    // Abort search if the first character is in firstCharacterBlacklist.
+    if (term.length > 0 && options.firstCharacterBlacklist.indexOf(term[0]) !== -1) {
+      return false;
+    }
+    // Only search when the term is at least the minimum length.
+    return term.length >= options.minLength;
+  }
+
+  /**
+   * JQuery UI autocomplete source callback.
+   *
+   * @param {object} request
+   *   The request object.
+   * @param {function} response
+   *   The function to call with the response.
+   */
+  function sourceData(request, response) {
+    var elementId = this.element.attr('id');
+
+    if (!(elementId in autocomplete.cache)) {
+      autocomplete.cache[elementId] = {};
+    }
+
+    /**
+     * Filter through the suggestions removing all terms already tagged and
+     * display the available terms to the user.
+     *
+     * @param {object} suggestions
+     *   Suggestions returned by the server.
+     */
+    function showSuggestions(suggestions) {
+      var tagged = autocomplete.splitValues(request.term);
+      var il = tagged.length;
+      for (var i = 0; i < il; i++) {
+        var index = suggestions.indexOf(tagged[i]);
+        if (index >= 0) {
+          suggestions.splice(index, 1);
+        }
+      }
+      response(suggestions);
+    }
+
+    /**
+     * Transforms the data object into an array and update autocomplete results.
+     *
+     * @param {object} data
+     *   The data sent back from the server.
+     */
+    function sourceCallbackHandler(data) {
+      autocomplete.cache[elementId][term] = data;
+
+      // Send the new string array of terms to the jQuery UI list.
+      showSuggestions(data);
+    }
+
+    // Get the desired term and construct the autocomplete URL for it.
+    var term = autocomplete.extractLastTerm(request.term);
+
+    // Check if the term is already cached.
+    if (autocomplete.cache[elementId].hasOwnProperty(term)) {
+      showSuggestions(autocomplete.cache[elementId][term]);
+    }
+    else {
+      var options = $.extend({success: sourceCallbackHandler, data: {q: term}}, autocomplete.ajax);
+      $.ajax(this.element.attr('data-autocomplete-path'), options);
+    }
+  }
+
+  /**
+   * Handles an autocompletefocus event.
+   *
+   * @return {bool}
+   *   Always returns false.
+   */
+  function focusHandler() {
+    return false;
+  }
+
+  /**
+   * Handles an autocompleteselect event.
+   *
+   * @param {jQuery.Event} event
+   *   The event triggered.
+   * @param {object} ui
+   *   The jQuery UI settings object.
+   *
+   * @return {bool}
+   *   Returns false to indicate the event status.
+   */
+  function selectHandler(event, ui) {
+    var terms = autocomplete.splitValues(event.target.value);
+    // Remove the current input.
+    terms.pop();
+    // Add the selected item.
+    if (ui.item.value.search(',') > 0) {
+      terms.push('"' + ui.item.value + '"');
+    }
+    else {
+      terms.push(ui.item.value);
+    }
+    event.target.value = terms.join(', ');
+    // Return false to tell jQuery UI that we've filled in the value already.
+    return false;
+  }
+
+  /**
+   * Override jQuery UI _renderItem function to output HTML by default.
+   *
+   * @param {jQuery} ul
+   *   jQuery collection of the ul element.
+   * @param {object} item
+   *   The list item to append.
+   *
+   * @return {jQuery}
+   *   jQuery collection of the ul element.
+   */
+  function renderItem(ul, item) {
+    return $('<li>')
+      .append($('<a>').html(item.label))
+      .appendTo(ul);
+  }
+
+  /**
+   * Attaches the autocomplete behavior to all required fields.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches the autocomplete behaviors.
+   * @prop {Drupal~behaviorDetach} detach
+   *   Detaches the autocomplete behaviors.
+   */
+  Drupal.behaviors.autocomplete = {
+    attach: function (context) {
+      // Act on textfields with the "form-autocomplete" class.
+      var $autocomplete = $(context).find('input.form-autocomplete').once('autocomplete');
+      if ($autocomplete.length) {
+        // Allow options to be overriden per instance.
+        var blacklist = $autocomplete.attr('data-autocomplete-first-character-blacklist');
+        $.extend(autocomplete.options, {
+          firstCharacterBlacklist: (blacklist) ? blacklist : ''
+        });
+        // Use jQuery UI Autocomplete on the textfield.
+        $autocomplete.autocomplete(autocomplete.options)
+          .each(function () {
+            $(this).data('ui-autocomplete')._renderItem = autocomplete.options.renderItem;
+          });
+
+        // Use CompositionEvent to handle IME inputs. It requests remote server on "compositionend" event only.
+        $autocomplete.on('compositionstart.autocomplete', function () {
+          autocomplete.options.isComposing = true;
+        });
+        $autocomplete.on('compositionend.autocomplete', function () {
+          autocomplete.options.isComposing = false;
+        });
+      }
+    },
+    detach: function (context, settings, trigger) {
+      if (trigger === 'unload') {
+        $(context).find('input.form-autocomplete')
+          .removeOnce('autocomplete')
+          .autocomplete('destroy');
+      }
+    }
+  };
+
+  /**
+   * Autocomplete object implementation.
+   *
+   * @namespace Drupal.autocomplete
+   */
+  autocomplete = {
+    cache: {},
+    // Exposes options to allow overriding by contrib.
+    splitValues: autocompleteSplitValues,
+    extractLastTerm: extractLastTerm,
+    // jQuery UI autocomplete options.
+
+    /**
+     * JQuery UI option object.
+     *
+     * @name Drupal.autocomplete.options
+     */
+    options: {
+      source: sourceData,
+      focus: focusHandler,
+      search: searchHandler,
+      select: selectHandler,
+      renderItem: renderItem,
+      minLength: 1,
+      // Custom options, used by Drupal.autocomplete.
+      firstCharacterBlacklist: '',
+      // Custom options, indicate IME usage status.
+      isComposing: false
+    },
+    ajax: {
+      dataType: 'json'
+    }
+  };
+
+  Drupal.autocomplete = autocomplete;
+
+})(jQuery, Drupal);
+;
+/**
+ * @file
+ * Provide dragging capabilities to admin uis.
+ */
+
+/**
+ * Triggers when weights columns are toggled.
+ *
+ * @event columnschange
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * Store the state of weight columns display for all tables.
+   *
+   * Default value is to hide weight columns.
+   */
+  var showWeight = JSON.parse(localStorage.getItem('Drupal.tableDrag.showWeight'));
+
+  /**
+   * Drag and drop table rows with field manipulation.
+   *
+   * Using the drupal_attach_tabledrag() function, any table with weights or
+   * parent relationships may be made into draggable tables. Columns containing
+   * a field may optionally be hidden, providing a better user experience.
+   *
+   * Created tableDrag instances may be modified with custom behaviors by
+   * overriding the .onDrag, .onDrop, .row.onSwap, and .row.onIndent methods.
+   * See blocks.js for an example of adding additional functionality to
+   * tableDrag.
+   *
+   * @type {Drupal~behavior}
+   */
+  Drupal.behaviors.tableDrag = {
+    attach: function (context, settings) {
+      function initTableDrag(table, base) {
+        if (table.length) {
+          // Create the new tableDrag instance. Save in the Drupal variable
+          // to allow other scripts access to the object.
+          Drupal.tableDrag[base] = new Drupal.tableDrag(table[0], settings.tableDrag[base]);
+        }
+      }
+
+      for (var base in settings.tableDrag) {
+        if (settings.tableDrag.hasOwnProperty(base)) {
+          initTableDrag($(context).find('#' + base).once('tabledrag'), base);
+        }
+      }
+    }
+  };
+
+  /**
+   * Provides table and field manipulation.
+   *
+   * @constructor
+   *
+   * @param {HTMLElement} table
+   *   DOM object for the table to be made draggable.
+   * @param {object} tableSettings
+   *   Settings for the table added via drupal_add_dragtable().
+   */
+  Drupal.tableDrag = function (table, tableSettings) {
+    var self = this;
+    var $table = $(table);
+
+    /**
+     * @type {jQuery}
+     */
+    this.$table = $(table);
+
+    /**
+     *
+     * @type {HTMLElement}
+     */
+    this.table = table;
+
+    /**
+     * @type {object}
+     */
+    this.tableSettings = tableSettings;
+
+    /**
+     * Used to hold information about a current drag operation.
+     *
+     * @type {?HTMLElement}
+     */
+    this.dragObject = null;
+
+    /**
+     * Provides operations for row manipulation.
+     *
+     * @type {?HTMLElement}
+     */
+    this.rowObject = null;
+
+    /**
+     * Remember the previous element.
+     *
+     * @type {?HTMLElement}
+     */
+    this.oldRowElement = null;
+
+    /**
+     * Used to determine up or down direction from last mouse move.
+     *
+     * @type {number}
+     */
+    this.oldY = 0;
+
+    /**
+     * Whether anything in the entire table has changed.
+     *
+     * @type {bool}
+     */
+    this.changed = false;
+
+    /**
+     * Maximum amount of allowed parenting.
+     *
+     * @type {number}
+     */
+    this.maxDepth = 0;
+
+    /**
+     * Direction of the table.
+     *
+     * @type {number}
+     */
+    this.rtl = $(this.table).css('direction') === 'rtl' ? -1 : 1;
+
+    /**
+     *
+     * @type {bool}
+     */
+    this.striping = $(this.table).data('striping') === 1;
+
+    /**
+     * Configure the scroll settings.
+     *
+     * @type {object}
+     *
+     * @prop {number} amount
+     * @prop {number} interval
+     * @prop {number} trigger
+     */
+    this.scrollSettings = {amount: 4, interval: 50, trigger: 70};
+
+    /**
+     *
+     * @type {?number}
+     */
+    this.scrollInterval = null;
+
+    /**
+     *
+     * @type {number}
+     */
+    this.scrollY = 0;
+
+    /**
+     *
+     * @type {number}
+     */
+    this.windowHeight = 0;
+
+    /**
+     * Check this table's settings for parent relationships.
+     *
+     * For efficiency, large sections of code can be skipped if we don't need to
+     * track horizontal movement and indentations.
+     *
+     * @type {bool}
+     */
+    this.indentEnabled = false;
+    for (var group in tableSettings) {
+      if (tableSettings.hasOwnProperty(group)) {
+        for (var n in tableSettings[group]) {
+          if (tableSettings[group].hasOwnProperty(n)) {
+            if (tableSettings[group][n].relationship === 'parent') {
+              this.indentEnabled = true;
+            }
+            if (tableSettings[group][n].limit > 0) {
+              this.maxDepth = tableSettings[group][n].limit;
+            }
+          }
+        }
+      }
+    }
+    if (this.indentEnabled) {
+
+      /**
+       * Total width of indents, set in makeDraggable.
+       *
+       * @type {number}
+       */
+      this.indentCount = 1;
+      // Find the width of indentations to measure mouse movements against.
+      // Because the table doesn't need to start with any indentations, we
+      // manually append 2 indentations in the first draggable row, measure
+      // the offset, then remove.
+      var indent = Drupal.theme('tableDragIndentation');
+      var testRow = $('<tr/>').addClass('draggable').appendTo(table);
+      var testCell = $('<td/>').appendTo(testRow).prepend(indent).prepend(indent);
+      var $indentation = testCell.find('.js-indentation');
+
+      /**
+       *
+       * @type {number}
+       */
+      this.indentAmount = $indentation.get(1).offsetLeft - $indentation.get(0).offsetLeft;
+      testRow.remove();
+    }
+
+    // Make each applicable row draggable.
+    // Match immediate children of the parent element to allow nesting.
+    $table.find('> tr.draggable, > tbody > tr.draggable').each(function () { self.makeDraggable(this); });
+
+    // Add a link before the table for users to show or hide weight columns.
+    $table.before($('<button type="button" class="link tabledrag-toggle-weight"></button>')
+      .attr('title', Drupal.t('Re-order rows by numerical weight instead of dragging.'))
+      .on('click', $.proxy(function (e) {
+        e.preventDefault();
+        this.toggleColumns();
+      }, this))
+      .wrap('<div class="tabledrag-toggle-weight-wrapper"></div>')
+      .parent()
+    );
+
+    // Initialize the specified columns (for example, weight or parent columns)
+    // to show or hide according to user preference. This aids accessibility
+    // so that, e.g., screen reader users can choose to enter weight values and
+    // manipulate form elements directly, rather than using drag-and-drop..
+    self.initColumns();
+
+    // Add event bindings to the document. The self variable is passed along
+    // as event handlers do not have direct access to the tableDrag object.
+    $(document).on('touchmove', function (event) { return self.dragRow(event.originalEvent.touches[0], self); });
+    $(document).on('touchend', function (event) { return self.dropRow(event.originalEvent.touches[0], self); });
+    $(document).on('mousemove pointermove', function (event) { return self.dragRow(event, self); });
+    $(document).on('mouseup pointerup', function (event) { return self.dropRow(event, self); });
+
+    // React to localStorage event showing or hiding weight columns.
+    $(window).on('storage', $.proxy(function (e) {
+      // Only react to 'Drupal.tableDrag.showWeight' value change.
+      if (e.originalEvent.key === 'Drupal.tableDrag.showWeight') {
+        // This was changed in another window, get the new value for this
+        // window.
+        showWeight = JSON.parse(e.originalEvent.newValue);
+        this.displayColumns(showWeight);
+      }
+    }, this));
+  };
+
+  /**
+   * Initialize columns containing form elements to be hidden by default.
+   *
+   * Identify and mark each cell with a CSS class so we can easily toggle
+   * show/hide it. Finally, hide columns if user does not have a
+   * 'Drupal.tableDrag.showWeight' localStorage value.
+   */
+  Drupal.tableDrag.prototype.initColumns = function () {
+    var $table = this.$table;
+    var hidden;
+    var cell;
+    var columnIndex;
+    for (var group in this.tableSettings) {
+      if (this.tableSettings.hasOwnProperty(group)) {
+
+        // Find the first field in this group.
+        for (var d in this.tableSettings[group]) {
+          if (this.tableSettings[group].hasOwnProperty(d)) {
+            var field = $table.find('.' + this.tableSettings[group][d].target).eq(0);
+            if (field.length && this.tableSettings[group][d].hidden) {
+              hidden = this.tableSettings[group][d].hidden;
+              cell = field.closest('td');
+              break;
+            }
+          }
+        }
+
+        // Mark the column containing this field so it can be hidden.
+        if (hidden && cell[0]) {
+          // Add 1 to our indexes. The nth-child selector is 1 based, not 0
+          // based. Match immediate children of the parent element to allow
+          // nesting.
+          columnIndex = cell.parent().find('> td').index(cell.get(0)) + 1;
+          $table.find('> thead > tr, > tbody > tr, > tr').each(this.addColspanClass(columnIndex));
+        }
+      }
+    }
+    this.displayColumns(showWeight);
+  };
+
+  /**
+   * Mark cells that have colspan.
+   *
+   * In order to adjust the colspan instead of hiding them altogether.
+   *
+   * @param {number} columnIndex
+   *   The column index to add colspan class to.
+   *
+   * @return {function}
+   *   Function to add colspan class.
+   */
+  Drupal.tableDrag.prototype.addColspanClass = function (columnIndex) {
+    return function () {
+      // Get the columnIndex and adjust for any colspans in this row.
+      var $row = $(this);
+      var index = columnIndex;
+      var cells = $row.children();
+      var cell;
+      cells.each(function (n) {
+        if (n < index && this.colSpan && this.colSpan > 1) {
+          index -= this.colSpan - 1;
+        }
+      });
+      if (index > 0) {
+        cell = cells.filter(':nth-child(' + index + ')');
+        if (cell[0].colSpan && cell[0].colSpan > 1) {
+          // If this cell has a colspan, mark it so we can reduce the colspan.
+          cell.addClass('tabledrag-has-colspan');
+        }
+        else {
+          // Mark this cell so we can hide it.
+          cell.addClass('tabledrag-hide');
+        }
+      }
+    };
+  };
+
+  /**
+   * Hide or display weight columns. Triggers an event on change.
+   *
+   * @fires event:columnschange
+   *
+   * @param {bool} displayWeight
+   *   'true' will show weight columns.
+   */
+  Drupal.tableDrag.prototype.displayColumns = function (displayWeight) {
+    if (displayWeight) {
+      this.showColumns();
+    }
+    // Default action is to hide columns.
+    else {
+      this.hideColumns();
+    }
+    // Trigger an event to allow other scripts to react to this display change.
+    // Force the extra parameter as a bool.
+    $('table').findOnce('tabledrag').trigger('columnschange', !!displayWeight);
+  };
+
+  /**
+   * Toggle the weight column depending on 'showWeight' value.
+   *
+   * Store only default override.
+   */
+  Drupal.tableDrag.prototype.toggleColumns = function () {
+    showWeight = !showWeight;
+    this.displayColumns(showWeight);
+    if (showWeight) {
+      // Save default override.
+      localStorage.setItem('Drupal.tableDrag.showWeight', showWeight);
+    }
+    else {
+      // Reset the value to its default.
+      localStorage.removeItem('Drupal.tableDrag.showWeight');
+    }
+  };
+
+  /**
+   * Hide the columns containing weight/parent form elements.
+   *
+   * Undo showColumns().
+   */
+  Drupal.tableDrag.prototype.hideColumns = function () {
+    var $tables = $('table').findOnce('tabledrag');
+    // Hide weight/parent cells and headers.
+    $tables.find('.tabledrag-hide').css('display', 'none');
+    // Show TableDrag handles.
+    $tables.find('.tabledrag-handle').css('display', '');
+    // Reduce the colspan of any effected multi-span columns.
+    $tables.find('.tabledrag-has-colspan').each(function () {
+      this.colSpan = this.colSpan - 1;
+    });
+    // Change link text.
+    $('.tabledrag-toggle-weight').text(Drupal.t('Show row weights'));
+  };
+
+  /**
+   * Show the columns containing weight/parent form elements.
+   *
+   * Undo hideColumns().
+   */
+  Drupal.tableDrag.prototype.showColumns = function () {
+    var $tables = $('table').findOnce('tabledrag');
+    // Show weight/parent cells and headers.
+    $tables.find('.tabledrag-hide').css('display', '');
+    // Hide TableDrag handles.
+    $tables.find('.tabledrag-handle').css('display', 'none');
+    // Increase the colspan for any columns where it was previously reduced.
+    $tables.find('.tabledrag-has-colspan').each(function () {
+      this.colSpan = this.colSpan + 1;
+    });
+    // Change link text.
+    $('.tabledrag-toggle-weight').text(Drupal.t('Hide row weights'));
+  };
+
+  /**
+   * Find the target used within a particular row and group.
+   *
+   * @param {string} group
+   *   Group selector.
+   * @param {HTMLElement} row
+   *   The row HTML element.
+   *
+   * @return {object}
+   *   The table row settings.
+   */
+  Drupal.tableDrag.prototype.rowSettings = function (group, row) {
+    var field = $(row).find('.' + group);
+    var tableSettingsGroup = this.tableSettings[group];
+    for (var delta in tableSettingsGroup) {
+      if (tableSettingsGroup.hasOwnProperty(delta)) {
+        var targetClass = tableSettingsGroup[delta].target;
+        if (field.is('.' + targetClass)) {
+          // Return a copy of the row settings.
+          var rowSettings = {};
+          for (var n in tableSettingsGroup[delta]) {
+            if (tableSettingsGroup[delta].hasOwnProperty(n)) {
+              rowSettings[n] = tableSettingsGroup[delta][n];
+            }
+          }
+          return rowSettings;
+        }
+      }
+    }
+  };
+
+  /**
+   * Take an item and add event handlers to make it become draggable.
+   *
+   * @param {HTMLElement} item
+   *   The item to add event handlers to.
+   */
+  Drupal.tableDrag.prototype.makeDraggable = function (item) {
+    var self = this;
+    var $item = $(item);
+    // Add a class to the title link.
+    $item.find('td:first-of-type').find('a').addClass('menu-item__link');
+    // Create the handle.
+    var handle = $('<a href="#" class="tabledrag-handle"><div class="handle">&nbsp;</div></a>').attr('title', Drupal.t('Drag to re-order'));
+    // Insert the handle after indentations (if any).
+    var $indentationLast = $item.find('td:first-of-type').find('.js-indentation').eq(-1);
+    if ($indentationLast.length) {
+      $indentationLast.after(handle);
+      // Update the total width of indentation in this entire table.
+      self.indentCount = Math.max($item.find('.js-indentation').length, self.indentCount);
+    }
+    else {
+      $item.find('td').eq(0).prepend(handle);
+    }
+
+    handle.on('mousedown touchstart pointerdown', function (event) {
+      event.preventDefault();
+      if (event.originalEvent.type === 'touchstart') {
+        event = event.originalEvent.touches[0];
+      }
+      self.dragStart(event, self, item);
+    });
+
+    // Prevent the anchor tag from jumping us to the top of the page.
+    handle.on('click', function (e) {
+      e.preventDefault();
+    });
+
+    // Set blur cleanup when a handle is focused.
+    handle.on('focus', function () {
+      self.safeBlur = true;
+    });
+
+    // On blur, fire the same function as a touchend/mouseup. This is used to
+    // update values after a row has been moved through the keyboard support.
+    handle.on('blur', function (event) {
+      if (self.rowObject && self.safeBlur) {
+        self.dropRow(event, self);
+      }
+    });
+
+    // Add arrow-key support to the handle.
+    handle.on('keydown', function (event) {
+      // If a rowObject doesn't yet exist and this isn't the tab key.
+      if (event.keyCode !== 9 && !self.rowObject) {
+        self.rowObject = new self.row(item, 'keyboard', self.indentEnabled, self.maxDepth, true);
+      }
+
+      var keyChange = false;
+      var groupHeight;
+
+      /* eslint-disable no-fallthrough */
+
+      switch (event.keyCode) {
+        // Left arrow.
+        case 37:
+        // Safari left arrow.
+        case 63234:
+          keyChange = true;
+          self.rowObject.indent(-1 * self.rtl);
+          break;
+
+        // Up arrow.
+        case 38:
+        // Safari up arrow.
+        case 63232:
+          var $previousRow = $(self.rowObject.element).prev('tr:first-of-type');
+          var previousRow = $previousRow.get(0);
+          while (previousRow && $previousRow.is(':hidden')) {
+            $previousRow = $(previousRow).prev('tr:first-of-type');
+            previousRow = $previousRow.get(0);
+          }
+          if (previousRow) {
+            // Do not allow the onBlur cleanup.
+            self.safeBlur = false;
+            self.rowObject.direction = 'up';
+            keyChange = true;
+
+            if ($(item).is('.tabledrag-root')) {
+              // Swap with the previous top-level row.
+              groupHeight = 0;
+              while (previousRow && $previousRow.find('.js-indentation').length) {
+                $previousRow = $(previousRow).prev('tr:first-of-type');
+                previousRow = $previousRow.get(0);
+                groupHeight += $previousRow.is(':hidden') ? 0 : previousRow.offsetHeight;
+              }
+              if (previousRow) {
+                self.rowObject.swap('before', previousRow);
+                // No need to check for indentation, 0 is the only valid one.
+                window.scrollBy(0, -groupHeight);
+              }
+            }
+            else if (self.table.tBodies[0].rows[0] !== previousRow || $previousRow.is('.draggable')) {
+              // Swap with the previous row (unless previous row is the first
+              // one and undraggable).
+              self.rowObject.swap('before', previousRow);
+              self.rowObject.interval = null;
+              self.rowObject.indent(0);
+              window.scrollBy(0, -parseInt(item.offsetHeight, 10));
+            }
+            // Regain focus after the DOM manipulation.
+            handle.trigger('focus');
+          }
+          break;
+
+        // Right arrow.
+        case 39:
+        // Safari right arrow.
+        case 63235:
+          keyChange = true;
+          self.rowObject.indent(self.rtl);
+          break;
+
+        // Down arrow.
+        case 40:
+        // Safari down arrow.
+        case 63233:
+          var $nextRow = $(self.rowObject.group).eq(-1).next('tr:first-of-type');
+          var nextRow = $nextRow.get(0);
+          while (nextRow && $nextRow.is(':hidden')) {
+            $nextRow = $(nextRow).next('tr:first-of-type');
+            nextRow = $nextRow.get(0);
+          }
+          if (nextRow) {
+            // Do not allow the onBlur cleanup.
+            self.safeBlur = false;
+            self.rowObject.direction = 'down';
+            keyChange = true;
+
+            if ($(item).is('.tabledrag-root')) {
+              // Swap with the next group (necessarily a top-level one).
+              groupHeight = 0;
+              var nextGroup = new self.row(nextRow, 'keyboard', self.indentEnabled, self.maxDepth, false);
+              if (nextGroup) {
+                $(nextGroup.group).each(function () {
+                  groupHeight += $(this).is(':hidden') ? 0 : this.offsetHeight;
+                });
+                var nextGroupRow = $(nextGroup.group).eq(-1).get(0);
+                self.rowObject.swap('after', nextGroupRow);
+                // No need to check for indentation, 0 is the only valid one.
+                window.scrollBy(0, parseInt(groupHeight, 10));
+              }
+            }
+            else {
+              // Swap with the next row.
+              self.rowObject.swap('after', nextRow);
+              self.rowObject.interval = null;
+              self.rowObject.indent(0);
+              window.scrollBy(0, parseInt(item.offsetHeight, 10));
+            }
+            // Regain focus after the DOM manipulation.
+            handle.trigger('focus');
+          }
+          break;
+      }
+
+      /* eslint-enable no-fallthrough */
+
+      if (self.rowObject && self.rowObject.changed === true) {
+        $(item).addClass('drag');
+        if (self.oldRowElement) {
+          $(self.oldRowElement).removeClass('drag-previous');
+        }
+        self.oldRowElement = item;
+        if (self.striping === true) {
+          self.restripeTable();
+        }
+        self.onDrag();
+      }
+
+      // Returning false if we have an arrow key to prevent scrolling.
+      if (keyChange) {
+        return false;
+      }
+    });
+
+    // Compatibility addition, return false on keypress to prevent unwanted
+    // scrolling. IE and Safari will suppress scrolling on keydown, but all
+    // other browsers need to return false on keypress.
+    // http://www.quirksmode.org/js/keys.html
+    handle.on('keypress', function (event) {
+
+      /* eslint-disable no-fallthrough */
+
+      switch (event.keyCode) {
+        // Left arrow.
+        case 37:
+        // Up arrow.
+        case 38:
+        // Right arrow.
+        case 39:
+        // Down arrow.
+        case 40:
+          return false;
+      }
+
+      /* eslint-enable no-fallthrough */
+
+    });
+  };
+
+  /**
+   * Pointer event initiator, creates drag object and information.
+   *
+   * @param {jQuery.Event} event
+   *   The event object that trigger the drag.
+   * @param {Drupal.tableDrag} self
+   *   The drag handle.
+   * @param {HTMLElement} item
+   *   The item that that is being dragged.
+   */
+  Drupal.tableDrag.prototype.dragStart = function (event, self, item) {
+    // Create a new dragObject recording the pointer information.
+    self.dragObject = {};
+    self.dragObject.initOffset = self.getPointerOffset(item, event);
+    self.dragObject.initPointerCoords = self.pointerCoords(event);
+    if (self.indentEnabled) {
+      self.dragObject.indentPointerPos = self.dragObject.initPointerCoords;
+    }
+
+    // If there's a lingering row object from the keyboard, remove its focus.
+    if (self.rowObject) {
+      $(self.rowObject.element).find('a.tabledrag-handle').trigger('blur');
+    }
+
+    // Create a new rowObject for manipulation of this row.
+    self.rowObject = new self.row(item, 'pointer', self.indentEnabled, self.maxDepth, true);
+
+    // Save the position of the table.
+    self.table.topY = $(self.table).offset().top;
+    self.table.bottomY = self.table.topY + self.table.offsetHeight;
+
+    // Add classes to the handle and row.
+    $(item).addClass('drag');
+
+    // Set the document to use the move cursor during drag.
+    $('body').addClass('drag');
+    if (self.oldRowElement) {
+      $(self.oldRowElement).removeClass('drag-previous');
+    }
+  };
+
+  /**
+   * Pointer movement handler, bound to document.
+   *
+   * @param {jQuery.Event} event
+   *   The pointer event.
+   * @param {Drupal.tableDrag} self
+   *   The tableDrag instance.
+   *
+   * @return {bool|undefined}
+   *   Undefined if no dragObject is defined, false otherwise.
+   */
+  Drupal.tableDrag.prototype.dragRow = function (event, self) {
+    if (self.dragObject) {
+      self.currentPointerCoords = self.pointerCoords(event);
+      var y = self.currentPointerCoords.y - self.dragObject.initOffset.y;
+      var x = self.currentPointerCoords.x - self.dragObject.initOffset.x;
+
+      // Check for row swapping and vertical scrolling.
+      if (y !== self.oldY) {
+        self.rowObject.direction = y > self.oldY ? 'down' : 'up';
+        // Update the old value.
+        self.oldY = y;
+        // Check if the window should be scrolled (and how fast).
+        var scrollAmount = self.checkScroll(self.currentPointerCoords.y);
+        // Stop any current scrolling.
+        clearInterval(self.scrollInterval);
+        // Continue scrolling if the mouse has moved in the scroll direction.
+        if (scrollAmount > 0 && self.rowObject.direction === 'down' || scrollAmount < 0 && self.rowObject.direction === 'up') {
+          self.setScroll(scrollAmount);
+        }
+
+        // If we have a valid target, perform the swap and restripe the table.
+        var currentRow = self.findDropTargetRow(x, y);
+        if (currentRow) {
+          if (self.rowObject.direction === 'down') {
+            self.rowObject.swap('after', currentRow, self);
+          }
+          else {
+            self.rowObject.swap('before', currentRow, self);
+          }
+          if (self.striping === true) {
+            self.restripeTable();
+          }
+        }
+      }
+
+      // Similar to row swapping, handle indentations.
+      if (self.indentEnabled) {
+        var xDiff = self.currentPointerCoords.x - self.dragObject.indentPointerPos.x;
+        // Set the number of indentations the pointer has been moved left or
+        // right.
+        var indentDiff = Math.round(xDiff / self.indentAmount);
+        // Indent the row with our estimated diff, which may be further
+        // restricted according to the rows around this row.
+        var indentChange = self.rowObject.indent(indentDiff);
+        // Update table and pointer indentations.
+        self.dragObject.indentPointerPos.x += self.indentAmount * indentChange * self.rtl;
+        self.indentCount = Math.max(self.indentCount, self.rowObject.indents);
+      }
+
+      return false;
+    }
+  };
+
+  /**
+   * Pointerup behavior.
+   *
+   * @param {jQuery.Event} event
+   *   The pointer event.
+   * @param {Drupal.tableDrag} self
+   *   The tableDrag instance.
+   */
+  Drupal.tableDrag.prototype.dropRow = function (event, self) {
+    var droppedRow;
+    var $droppedRow;
+
+    // Drop row functionality.
+    if (self.rowObject !== null) {
+      droppedRow = self.rowObject.element;
+      $droppedRow = $(droppedRow);
+      // The row is already in the right place so we just release it.
+      if (self.rowObject.changed === true) {
+        // Update the fields in the dropped row.
+        self.updateFields(droppedRow);
+
+        // If a setting exists for affecting the entire group, update all the
+        // fields in the entire dragged group.
+        for (var group in self.tableSettings) {
+          if (self.tableSettings.hasOwnProperty(group)) {
+            var rowSettings = self.rowSettings(group, droppedRow);
+            if (rowSettings.relationship === 'group') {
+              for (var n in self.rowObject.children) {
+                if (self.rowObject.children.hasOwnProperty(n)) {
+                  self.updateField(self.rowObject.children[n], group);
+                }
+              }
+            }
+          }
+        }
+
+        self.rowObject.markChanged();
+        if (self.changed === false) {
+          $(Drupal.theme('tableDragChangedWarning')).insertBefore(self.table).hide().fadeIn('slow');
+          self.changed = true;
+        }
+      }
+
+      if (self.indentEnabled) {
+        self.rowObject.removeIndentClasses();
+      }
+      if (self.oldRowElement) {
+        $(self.oldRowElement).removeClass('drag-previous');
+      }
+      $droppedRow.removeClass('drag').addClass('drag-previous');
+      self.oldRowElement = droppedRow;
+      self.onDrop();
+      self.rowObject = null;
+    }
+
+    // Functionality specific only to pointerup events.
+    if (self.dragObject !== null) {
+      self.dragObject = null;
+      $('body').removeClass('drag');
+      clearInterval(self.scrollInterval);
+    }
+  };
+
+  /**
+   * Get the coordinates from the event (allowing for browser differences).
+   *
+   * @param {jQuery.Event} event
+   *   The pointer event.
+   *
+   * @return {object}
+   *   An object with `x` and `y` keys indicating the position.
+   */
+  Drupal.tableDrag.prototype.pointerCoords = function (event) {
+    if (event.pageX || event.pageY) {
+      return {x: event.pageX, y: event.pageY};
+    }
+    return {
+      x: event.clientX + document.body.scrollLeft - document.body.clientLeft,
+      y: event.clientY + document.body.scrollTop - document.body.clientTop
+    };
+  };
+
+  /**
+   * Get the event offset from the target element.
+   *
+   * Given a target element and a pointer event, get the event offset from that
+   * element. To do this we need the element's position and the target position.
+   *
+   * @param {HTMLElement} target
+   *   The target HTML element.
+   * @param {jQuery.Event} event
+   *   The pointer event.
+   *
+   * @return {object}
+   *   An object with `x` and `y` keys indicating the position.
+   */
+  Drupal.tableDrag.prototype.getPointerOffset = function (target, event) {
+    var docPos = $(target).offset();
+    var pointerPos = this.pointerCoords(event);
+    return {x: pointerPos.x - docPos.left, y: pointerPos.y - docPos.top};
+  };
+
+  /**
+   * Find the row the mouse is currently over.
+   *
+   * This row is then taken and swapped with the one being dragged.
+   *
+   * @param {number} x
+   *   The x coordinate of the mouse on the page (not the screen).
+   * @param {number} y
+   *   The y coordinate of the mouse on the page (not the screen).
+   *
+   * @return {*}
+   *   The drop target row, if found.
+   */
+  Drupal.tableDrag.prototype.findDropTargetRow = function (x, y) {
+    var rows = $(this.table.tBodies[0].rows).not(':hidden');
+    for (var n = 0; n < rows.length; n++) {
+      var row = rows[n];
+      var $row = $(row);
+      var rowY = $row.offset().top;
+      var rowHeight;
+      // Because Safari does not report offsetHeight on table rows, but does on
+      // table cells, grab the firstChild of the row and use that instead.
+      // http://jacob.peargrove.com/blog/2006/technical/table-row-offsettop-bug-in-safari.
+      if (row.offsetHeight === 0) {
+        rowHeight = parseInt(row.firstChild.offsetHeight, 10) / 2;
+      }
+      // Other browsers.
+      else {
+        rowHeight = parseInt(row.offsetHeight, 10) / 2;
+      }
+
+      // Because we always insert before, we need to offset the height a bit.
+      if ((y > (rowY - rowHeight)) && (y < (rowY + rowHeight))) {
+        if (this.indentEnabled) {
+          // Check that this row is not a child of the row being dragged.
+          for (n in this.rowObject.group) {
+            if (this.rowObject.group[n] === row) {
+              return null;
+            }
+          }
+        }
+        else {
+          // Do not allow a row to be swapped with itself.
+          if (row === this.rowObject.element) {
+            return null;
+          }
+        }
+
+        // Check that swapping with this row is allowed.
+        if (!this.rowObject.isValidSwap(row)) {
+          return null;
+        }
+
+        // We may have found the row the mouse just passed over, but it doesn't
+        // take into account hidden rows. Skip backwards until we find a
+        // draggable row.
+        while ($row.is(':hidden') && $row.prev('tr').is(':hidden')) {
+          $row = $row.prev('tr:first-of-type');
+          row = $row.get(0);
+        }
+        return row;
+      }
+    }
+    return null;
+  };
+
+  /**
+   * After the row is dropped, update the table fields.
+   *
+   * @param {HTMLElement} changedRow
+   *   DOM object for the row that was just dropped.
+   */
+  Drupal.tableDrag.prototype.updateFields = function (changedRow) {
+    for (var group in this.tableSettings) {
+      if (this.tableSettings.hasOwnProperty(group)) {
+        // Each group may have a different setting for relationship, so we find
+        // the source rows for each separately.
+        this.updateField(changedRow, group);
+      }
+    }
+  };
+
+  /**
+   * After the row is dropped, update a single table field.
+   *
+   * @param {HTMLElement} changedRow
+   *   DOM object for the row that was just dropped.
+   * @param {string} group
+   *   The settings group on which field updates will occur.
+   */
+  Drupal.tableDrag.prototype.updateField = function (changedRow, group) {
+    var rowSettings = this.rowSettings(group, changedRow);
+    var $changedRow = $(changedRow);
+    var sourceRow;
+    var $previousRow;
+    var previousRow;
+    var useSibling;
+    // Set the row as its own target.
+    if (rowSettings.relationship === 'self' || rowSettings.relationship === 'group') {
+      sourceRow = changedRow;
+    }
+    // Siblings are easy, check previous and next rows.
+    else if (rowSettings.relationship === 'sibling') {
+      $previousRow = $changedRow.prev('tr:first-of-type');
+      previousRow = $previousRow.get(0);
+      var $nextRow = $changedRow.next('tr:first-of-type');
+      var nextRow = $nextRow.get(0);
+      sourceRow = changedRow;
+      if ($previousRow.is('.draggable') && $previousRow.find('.' + group).length) {
+        if (this.indentEnabled) {
+          if ($previousRow.find('.js-indentations').length === $changedRow.find('.js-indentations').length) {
+            sourceRow = previousRow;
+          }
+        }
+        else {
+          sourceRow = previousRow;
+        }
+      }
+      else if ($nextRow.is('.draggable') && $nextRow.find('.' + group).length) {
+        if (this.indentEnabled) {
+          if ($nextRow.find('.js-indentations').length === $changedRow.find('.js-indentations').length) {
+            sourceRow = nextRow;
+          }
+        }
+        else {
+          sourceRow = nextRow;
+        }
+      }
+    }
+    // Parents, look up the tree until we find a field not in this group.
+    // Go up as many parents as indentations in the changed row.
+    else if (rowSettings.relationship === 'parent') {
+      $previousRow = $changedRow.prev('tr');
+      previousRow = $previousRow;
+      while ($previousRow.length && $previousRow.find('.js-indentation').length >= this.rowObject.indents) {
+        $previousRow = $previousRow.prev('tr');
+        previousRow = $previousRow;
+      }
+      // If we found a row.
+      if ($previousRow.length) {
+        sourceRow = $previousRow.get(0);
+      }
+      // Otherwise we went all the way to the left of the table without finding
+      // a parent, meaning this item has been placed at the root level.
+      else {
+        // Use the first row in the table as source, because it's guaranteed to
+        // be at the root level. Find the first item, then compare this row
+        // against it as a sibling.
+        sourceRow = $(this.table).find('tr.draggable:first-of-type').get(0);
+        if (sourceRow === this.rowObject.element) {
+          sourceRow = $(this.rowObject.group[this.rowObject.group.length - 1]).next('tr.draggable').get(0);
+        }
+        useSibling = true;
+      }
+    }
+
+    // Because we may have moved the row from one category to another,
+    // take a look at our sibling and borrow its sources and targets.
+    this.copyDragClasses(sourceRow, changedRow, group);
+    rowSettings = this.rowSettings(group, changedRow);
+
+    // In the case that we're looking for a parent, but the row is at the top
+    // of the tree, copy our sibling's values.
+    if (useSibling) {
+      rowSettings.relationship = 'sibling';
+      rowSettings.source = rowSettings.target;
+    }
+
+    var targetClass = '.' + rowSettings.target;
+    var targetElement = $changedRow.find(targetClass).get(0);
+
+    // Check if a target element exists in this row.
+    if (targetElement) {
+      var sourceClass = '.' + rowSettings.source;
+      var sourceElement = $(sourceClass, sourceRow).get(0);
+      switch (rowSettings.action) {
+        case 'depth':
+          // Get the depth of the target row.
+          targetElement.value = $(sourceElement).closest('tr').find('.js-indentation').length;
+          break;
+
+        case 'match':
+          // Update the value.
+          targetElement.value = sourceElement.value;
+          break;
+
+        case 'order':
+          var siblings = this.rowObject.findSiblings(rowSettings);
+          if ($(targetElement).is('select')) {
+            // Get a list of acceptable values.
+            var values = [];
+            $(targetElement).find('option').each(function () {
+              values.push(this.value);
+            });
+            var maxVal = values[values.length - 1];
+            // Populate the values in the siblings.
+            $(siblings).find(targetClass).each(function () {
+              // If there are more items than possible values, assign the
+              // maximum value to the row.
+              if (values.length > 0) {
+                this.value = values.shift();
+              }
+              else {
+                this.value = maxVal;
+              }
+            });
+          }
+          else {
+            // Assume a numeric input field.
+            var weight = parseInt($(siblings[0]).find(targetClass).val(), 10) || 0;
+            $(siblings).find(targetClass).each(function () {
+              this.value = weight;
+              weight++;
+            });
+          }
+          break;
+      }
+    }
+  };
+
+  /**
+   * Copy all tableDrag related classes from one row to another.
+   *
+   * Copy all special tableDrag classes from one row's form elements to a
+   * different one, removing any special classes that the destination row
+   * may have had.
+   *
+   * @param {HTMLElement} sourceRow
+   *   The element for the source row.
+   * @param {HTMLElement} targetRow
+   *   The element for the target row.
+   * @param {string} group
+   *   The group selector.
+   */
+  Drupal.tableDrag.prototype.copyDragClasses = function (sourceRow, targetRow, group) {
+    var sourceElement = $(sourceRow).find('.' + group);
+    var targetElement = $(targetRow).find('.' + group);
+    if (sourceElement.length && targetElement.length) {
+      targetElement[0].className = sourceElement[0].className;
+    }
+  };
+
+  /**
+   * Check the suggested scroll of the table.
+   *
+   * @param {number} cursorY
+   *   The Y position of the cursor.
+   *
+   * @return {number}
+   *   The suggested scroll.
+   */
+  Drupal.tableDrag.prototype.checkScroll = function (cursorY) {
+    var de = document.documentElement;
+    var b = document.body;
+
+    var windowHeight = this.windowHeight = window.innerHeight || (de.clientHeight && de.clientWidth !== 0 ? de.clientHeight : b.offsetHeight);
+    var scrollY;
+    if (document.all) {
+      scrollY = this.scrollY = !de.scrollTop ? b.scrollTop : de.scrollTop;
+    }
+    else {
+      scrollY = this.scrollY = window.pageYOffset ? window.pageYOffset : window.scrollY;
+    }
+    var trigger = this.scrollSettings.trigger;
+    var delta = 0;
+
+    // Return a scroll speed relative to the edge of the screen.
+    if (cursorY - scrollY > windowHeight - trigger) {
+      delta = trigger / (windowHeight + scrollY - cursorY);
+      delta = (delta > 0 && delta < trigger) ? delta : trigger;
+      return delta * this.scrollSettings.amount;
+    }
+    else if (cursorY - scrollY < trigger) {
+      delta = trigger / (cursorY - scrollY);
+      delta = (delta > 0 && delta < trigger) ? delta : trigger;
+      return -delta * this.scrollSettings.amount;
+    }
+  };
+
+  /**
+   * Set the scroll for the table.
+   *
+   * @param {number} scrollAmount
+   *   The amount of scroll to apply to the window.
+   */
+  Drupal.tableDrag.prototype.setScroll = function (scrollAmount) {
+    var self = this;
+
+    this.scrollInterval = setInterval(function () {
+      // Update the scroll values stored in the object.
+      self.checkScroll(self.currentPointerCoords.y);
+      var aboveTable = self.scrollY > self.table.topY;
+      var belowTable = self.scrollY + self.windowHeight < self.table.bottomY;
+      if (scrollAmount > 0 && belowTable || scrollAmount < 0 && aboveTable) {
+        window.scrollBy(0, scrollAmount);
+      }
+    }, this.scrollSettings.interval);
+  };
+
+  /**
+   * Command to restripe table properly.
+   */
+  Drupal.tableDrag.prototype.restripeTable = function () {
+    // :even and :odd are reversed because jQuery counts from 0 and
+    // we count from 1, so we're out of sync.
+    // Match immediate children of the parent element to allow nesting.
+    $(this.table).find('> tbody > tr.draggable:visible, > tr.draggable:visible')
+      .removeClass('odd even')
+      .filter(':odd').addClass('even').end()
+      .filter(':even').addClass('odd');
+  };
+
+  /**
+   * Stub function. Allows a custom handler when a row begins dragging.
+   *
+   * @return {null}
+   *   Returns null when the stub function is used.
+   */
+  Drupal.tableDrag.prototype.onDrag = function () {
+    return null;
+  };
+
+  /**
+   * Stub function. Allows a custom handler when a row is dropped.
+   *
+   * @return {null}
+   *   Returns null when the stub function is used.
+   */
+  Drupal.tableDrag.prototype.onDrop = function () {
+    return null;
+  };
+
+  /**
+   * Constructor to make a new object to manipulate a table row.
+   *
+   * @param {HTMLElement} tableRow
+   *   The DOM element for the table row we will be manipulating.
+   * @param {string} method
+   *   The method in which this row is being moved. Either 'keyboard' or
+   *   'mouse'.
+   * @param {bool} indentEnabled
+   *   Whether the containing table uses indentations. Used for optimizations.
+   * @param {number} maxDepth
+   *   The maximum amount of indentations this row may contain.
+   * @param {bool} addClasses
+   *   Whether we want to add classes to this row to indicate child
+   *   relationships.
+   */
+  Drupal.tableDrag.prototype.row = function (tableRow, method, indentEnabled, maxDepth, addClasses) {
+    var $tableRow = $(tableRow);
+
+    this.element = tableRow;
+    this.method = method;
+    this.group = [tableRow];
+    this.groupDepth = $tableRow.find('.js-indentation').length;
+    this.changed = false;
+    this.table = $tableRow.closest('table')[0];
+    this.indentEnabled = indentEnabled;
+    this.maxDepth = maxDepth;
+    // Direction the row is being moved.
+    this.direction = '';
+    if (this.indentEnabled) {
+      this.indents = $tableRow.find('.js-indentation').length;
+      this.children = this.findChildren(addClasses);
+      this.group = $.merge(this.group, this.children);
+      // Find the depth of this entire group.
+      for (var n = 0; n < this.group.length; n++) {
+        this.groupDepth = Math.max($(this.group[n]).find('.js-indentation').length, this.groupDepth);
+      }
+    }
+  };
+
+  /**
+   * Find all children of rowObject by indentation.
+   *
+   * @param {bool} addClasses
+   *   Whether we want to add classes to this row to indicate child
+   *   relationships.
+   *
+   * @return {Array}
+   *   An array of children of the row.
+   */
+  Drupal.tableDrag.prototype.row.prototype.findChildren = function (addClasses) {
+    var parentIndentation = this.indents;
+    var currentRow = $(this.element, this.table).next('tr.draggable');
+    var rows = [];
+    var child = 0;
+
+    function rowIndentation(indentNum, el) {
+      var self = $(el);
+      if (child === 1 && (indentNum === parentIndentation)) {
+        self.addClass('tree-child-first');
+      }
+      if (indentNum === parentIndentation) {
+        self.addClass('tree-child');
+      }
+      else if (indentNum > parentIndentation) {
+        self.addClass('tree-child-horizontal');
+      }
+    }
+
+    while (currentRow.length) {
+      // A greater indentation indicates this is a child.
+      if (currentRow.find('.js-indentation').length > parentIndentation) {
+        child++;
+        rows.push(currentRow[0]);
+        if (addClasses) {
+          currentRow.find('.js-indentation').each(rowIndentation);
+        }
+      }
+      else {
+        break;
+      }
+      currentRow = currentRow.next('tr.draggable');
+    }
+    if (addClasses && rows.length) {
+      $(rows[rows.length - 1]).find('.js-indentation:nth-child(' + (parentIndentation + 1) + ')').addClass('tree-child-last');
+    }
+    return rows;
+  };
+
+  /**
+   * Ensure that two rows are allowed to be swapped.
+   *
+   * @param {HTMLElement} row
+   *   DOM object for the row being considered for swapping.
+   *
+   * @return {bool}
+   *   Whether the swap is a valid swap or not.
+   */
+  Drupal.tableDrag.prototype.row.prototype.isValidSwap = function (row) {
+    var $row = $(row);
+    if (this.indentEnabled) {
+      var prevRow;
+      var nextRow;
+      if (this.direction === 'down') {
+        prevRow = row;
+        nextRow = $row.next('tr').get(0);
+      }
+      else {
+        prevRow = $row.prev('tr').get(0);
+        nextRow = row;
+      }
+      this.interval = this.validIndentInterval(prevRow, nextRow);
+
+      // We have an invalid swap if the valid indentations interval is empty.
+      if (this.interval.min > this.interval.max) {
+        return false;
+      }
+    }
+
+    // Do not let an un-draggable first row have anything put before it.
+    if (this.table.tBodies[0].rows[0] === row && $row.is(':not(.draggable)')) {
+      return false;
+    }
+
+    return true;
+  };
+
+  /**
+   * Perform the swap between two rows.
+   *
+   * @param {string} position
+   *   Whether the swap will occur 'before' or 'after' the given row.
+   * @param {HTMLElement} row
+   *   DOM element what will be swapped with the row group.
+   */
+  Drupal.tableDrag.prototype.row.prototype.swap = function (position, row) {
+    // Makes sure only DOM object are passed to Drupal.detachBehaviors().
+    this.group.forEach(function (row) {
+      Drupal.detachBehaviors(row, drupalSettings, 'move');
+    });
+    $(row)[position](this.group);
+    // Makes sure only DOM object are passed to Drupal.attachBehaviors()s.
+    this.group.forEach(function (row) {
+      Drupal.attachBehaviors(row, drupalSettings);
+    });
+    this.changed = true;
+    this.onSwap(row);
+  };
+
+  /**
+   * Determine the valid indentations interval for the row at a given position.
+   *
+   * @param {?HTMLElement} prevRow
+   *   DOM object for the row before the tested position
+   *   (or null for first position in the table).
+   * @param {?HTMLElement} nextRow
+   *   DOM object for the row after the tested position
+   *   (or null for last position in the table).
+   *
+   * @return {object}
+   *   An object with the keys `min` and `max` to indicate the valid indent
+   *   interval.
+   */
+  Drupal.tableDrag.prototype.row.prototype.validIndentInterval = function (prevRow, nextRow) {
+    var $prevRow = $(prevRow);
+    var minIndent;
+    var maxIndent;
+
+    // Minimum indentation:
+    // Do not orphan the next row.
+    minIndent = nextRow ? $(nextRow).find('.js-indentation').length : 0;
+
+    // Maximum indentation:
+    if (!prevRow || $prevRow.is(':not(.draggable)') || $(this.element).is('.tabledrag-root')) {
+      // Do not indent:
+      // - the first row in the table,
+      // - rows dragged below a non-draggable row,
+      // - 'root' rows.
+      maxIndent = 0;
+    }
+    else {
+      // Do not go deeper than as a child of the previous row.
+      maxIndent = $prevRow.find('.js-indentation').length + ($prevRow.is('.tabledrag-leaf') ? 0 : 1);
+      // Limit by the maximum allowed depth for the table.
+      if (this.maxDepth) {
+        maxIndent = Math.min(maxIndent, this.maxDepth - (this.groupDepth - this.indents));
+      }
+    }
+
+    return {min: minIndent, max: maxIndent};
+  };
+
+  /**
+   * Indent a row within the legal bounds of the table.
+   *
+   * @param {number} indentDiff
+   *   The number of additional indentations proposed for the row (can be
+   *   positive or negative). This number will be adjusted to nearest valid
+   *   indentation level for the row.
+   *
+   * @return {number}
+   *   The number of indentations applied.
+   */
+  Drupal.tableDrag.prototype.row.prototype.indent = function (indentDiff) {
+    var $group = $(this.group);
+    // Determine the valid indentations interval if not available yet.
+    if (!this.interval) {
+      var prevRow = $(this.element).prev('tr').get(0);
+      var nextRow = $group.eq(-1).next('tr').get(0);
+      this.interval = this.validIndentInterval(prevRow, nextRow);
+    }
+
+    // Adjust to the nearest valid indentation.
+    var indent = this.indents + indentDiff;
+    indent = Math.max(indent, this.interval.min);
+    indent = Math.min(indent, this.interval.max);
+    indentDiff = indent - this.indents;
+
+    for (var n = 1; n <= Math.abs(indentDiff); n++) {
+      // Add or remove indentations.
+      if (indentDiff < 0) {
+        $group.find('.js-indentation:first-of-type').remove();
+        this.indents--;
+      }
+      else {
+        $group.find('td:first-of-type').prepend(Drupal.theme('tableDragIndentation'));
+        this.indents++;
+      }
+    }
+    if (indentDiff) {
+      // Update indentation for this row.
+      this.changed = true;
+      this.groupDepth += indentDiff;
+      this.onIndent();
+    }
+
+    return indentDiff;
+  };
+
+  /**
+   * Find all siblings for a row.
+   *
+   * According to its subgroup or indentation. Note that the passed-in row is
+   * included in the list of siblings.
+   *
+   * @param {object} rowSettings
+   *   The field settings we're using to identify what constitutes a sibling.
+   *
+   * @return {Array}
+   *   An array of siblings.
+   */
+  Drupal.tableDrag.prototype.row.prototype.findSiblings = function (rowSettings) {
+    var siblings = [];
+    var directions = ['prev', 'next'];
+    var rowIndentation = this.indents;
+    var checkRowIndentation;
+    for (var d = 0; d < directions.length; d++) {
+      var checkRow = $(this.element)[directions[d]]();
+      while (checkRow.length) {
+        // Check that the sibling contains a similar target field.
+        if (checkRow.find('.' + rowSettings.target)) {
+          // Either add immediately if this is a flat table, or check to ensure
+          // that this row has the same level of indentation.
+          if (this.indentEnabled) {
+            checkRowIndentation = checkRow.find('.js-indentation').length;
+          }
+
+          if (!(this.indentEnabled) || (checkRowIndentation === rowIndentation)) {
+            siblings.push(checkRow[0]);
+          }
+          else if (checkRowIndentation < rowIndentation) {
+            // No need to keep looking for siblings when we get to a parent.
+            break;
+          }
+        }
+        else {
+          break;
+        }
+        checkRow = checkRow[directions[d]]();
+      }
+      // Since siblings are added in reverse order for previous, reverse the
+      // completed list of previous siblings. Add the current row and continue.
+      if (directions[d] === 'prev') {
+        siblings.reverse();
+        siblings.push(this.element);
+      }
+    }
+    return siblings;
+  };
+
+  /**
+   * Remove indentation helper classes from the current row group.
+   */
+  Drupal.tableDrag.prototype.row.prototype.removeIndentClasses = function () {
+    for (var n in this.children) {
+      if (this.children.hasOwnProperty(n)) {
+        $(this.children[n]).find('.js-indentation')
+          .removeClass('tree-child')
+          .removeClass('tree-child-first')
+          .removeClass('tree-child-last')
+          .removeClass('tree-child-horizontal');
+      }
+    }
+  };
+
+  /**
+   * Add an asterisk or other marker to the changed row.
+   */
+  Drupal.tableDrag.prototype.row.prototype.markChanged = function () {
+    var marker = Drupal.theme('tableDragChangedMarker');
+    var cell = $(this.element).find('td:first-of-type');
+    if (cell.find('abbr.tabledrag-changed').length === 0) {
+      cell.append(marker);
+    }
+  };
+
+  /**
+   * Stub function. Allows a custom handler when a row is indented.
+   *
+   * @return {null}
+   *   Returns null when the stub function is used.
+   */
+  Drupal.tableDrag.prototype.row.prototype.onIndent = function () {
+    return null;
+  };
+
+  /**
+   * Stub function. Allows a custom handler when a row is swapped.
+   *
+   * @param {HTMLElement} swappedRow
+   *   The element for the swapped row.
+   *
+   * @return {null}
+   *   Returns null when the stub function is used.
+   */
+  Drupal.tableDrag.prototype.row.prototype.onSwap = function (swappedRow) {
+    return null;
+  };
+
+  $.extend(Drupal.theme, /** @lends Drupal.theme */{
+
+    /**
+     * @return {string}
+     *  Markup for the marker.
+     */
+    tableDragChangedMarker: function () {
+      return '<abbr class="warning tabledrag-changed" title="' + Drupal.t('Changed') + '">*</abbr>';
+    },
+
+    /**
+     * @return {string}
+     *   Markup for the indentation.
+     */
+    tableDragIndentation: function () {
+      return '<div class="js-indentation indentation">&nbsp;</div>';
+    },
+
+    /**
+     * @return {string}
+     *   Markup for the warning.
+     */
+    tableDragChangedWarning: function () {
+      return '<div class="tabledrag-changed-warning messages messages--warning" role="alert">' + Drupal.theme('tableDragChangedMarker') + ' ' + Drupal.t('You have unsaved changes.') + '</div>';
+    }
+  });
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
  * Attaches behaviors for Drupal's active link marking.
  */
 
@@ -1378,7 +3235,7 @@ document.documentElement.className += ' js';
 ;
 /**
  * @file
- * Drupal's states library.
+ * Dropbutton feature.
  */
 
 (function ($, Drupal) {
@@ -1386,718 +3243,227 @@ document.documentElement.className += ' js';
   'use strict';
 
   /**
-   * The base States namespace.
-   *
-   * Having the local states variable allows us to use the States namespace
-   * without having to always declare "Drupal.states".
-   *
-   * @namespace Drupal.states
-   */
-  var states = Drupal.states = {
-
-    /**
-     * An array of functions that should be postponed.
-     */
-    postponed: []
-  };
-
-  /**
-   * Attaches the states.
+   * Process elements with the .dropbutton class on page load.
    *
    * @type {Drupal~behavior}
    *
    * @prop {Drupal~behaviorAttach} attach
-   *   Attaches states behaviors.
+   *   Attaches dropButton behaviors.
    */
-  Drupal.behaviors.states = {
+  Drupal.behaviors.dropButton = {
     attach: function (context, settings) {
-      var $states = $(context).find('[data-drupal-states]');
-      var config;
-      var state;
-      var il = $states.length;
-      for (var i = 0; i < il; i++) {
-        config = JSON.parse($states[i].getAttribute('data-drupal-states'));
-        for (state in config) {
-          if (config.hasOwnProperty(state)) {
-            new states.Dependent({
-              element: $($states[i]),
-              state: states.State.sanitize(state),
-              constraints: config[state]
-            });
-          }
+      var $dropbuttons = $(context).find('.dropbutton-wrapper').once('dropbutton');
+      if ($dropbuttons.length) {
+        // Adds the delegated handler that will toggle dropdowns on click.
+        var $body = $('body').once('dropbutton-click');
+        if ($body.length) {
+          $body.on('click', '.dropbutton-toggle', dropbuttonClickHandler);
         }
-      }
-
-      // Execute all postponed functions now.
-      while (states.postponed.length) {
-        (states.postponed.shift())();
+        // Initialize all buttons.
+        var il = $dropbuttons.length;
+        for (var i = 0; i < il; i++) {
+          DropButton.dropbuttons.push(new DropButton($dropbuttons[i], settings.dropbutton));
+        }
       }
     }
   };
 
   /**
-   * Object representing an element that depends on other elements.
+   * Delegated callback for opening and closing dropbutton secondary actions.
    *
-   * @constructor Drupal.states.Dependent
+   * @function Drupal.DropButton~dropbuttonClickHandler
    *
-   * @param {object} args
-   *   Object with the following keys (all of which are required)
-   * @param {jQuery} args.element
-   *   A jQuery object of the dependent element
-   * @param {Drupal.states.State} args.state
-   *   A State object describing the state that is dependent
-   * @param {object} args.constraints
-   *   An object with dependency specifications. Lists all elements that this
-   *   element depends on. It can be nested and can contain
-   *   arbitrary AND and OR clauses.
+   * @param {jQuery.Event} e
+   *   The event triggered.
    */
-  states.Dependent = function (args) {
-    $.extend(this, {values: {}, oldValue: null}, args);
-
-    this.dependees = this.getDependees();
-    for (var selector in this.dependees) {
-      if (this.dependees.hasOwnProperty(selector)) {
-        this.initializeDependee(selector, this.dependees[selector]);
-      }
-    }
-  };
+  function dropbuttonClickHandler(e) {
+    e.preventDefault();
+    $(e.target).closest('.dropbutton-wrapper').toggleClass('open');
+  }
 
   /**
-   * Comparison functions for comparing the value of an element with the
-   * specification from the dependency settings. If the object type can't be
-   * found in this list, the === operator is used by default.
+   * A DropButton presents an HTML list as a button with a primary action.
    *
-   * @name Drupal.states.Dependent.comparisons
+   * All secondary actions beyond the first in the list are presented in a
+   * dropdown list accessible through a toggle arrow associated with the button.
    *
-   * @prop {function} RegExp
-   * @prop {function} Function
-   * @prop {function} Number
+   * @constructor Drupal.DropButton
+   *
+   * @param {HTMLElement} dropbutton
+   *   A DOM element.
+   * @param {object} settings
+   *   A list of options including:
+   * @param {string} settings.title
+   *   The text inside the toggle link element. This text is hidden
+   *   from visual UAs.
    */
-  states.Dependent.comparisons = {
-    RegExp: function (reference, value) {
-      return reference.test(value);
-    },
-    Function: function (reference, value) {
-      // The "reference" variable is a comparison function.
-      return reference(value);
-    },
-    Number: function (reference, value) {
-      // If "reference" is a number and "value" is a string, then cast
-      // reference as a string before applying the strict comparison in
-      // compare().
-      // Otherwise numeric keys in the form's #states array fail to match
-      // string values returned from jQuery's val().
-      return (typeof value === 'string') ? compare(reference.toString(), value) : compare(reference, value);
-    }
-  };
-
-  states.Dependent.prototype = {
+  function DropButton(dropbutton, settings) {
+    // Merge defaults with settings.
+    var options = $.extend({title: Drupal.t('List additional actions')}, settings);
+    var $dropbutton = $(dropbutton);
 
     /**
-     * Initializes one of the elements this dependent depends on.
-     *
-     * @memberof Drupal.states.Dependent#
-     *
-     * @param {string} selector
-     *   The CSS selector describing the dependee.
-     * @param {object} dependeeStates
-     *   The list of states that have to be monitored for tracking the
-     *   dependee's compliance status.
+     * @type {jQuery}
      */
-    initializeDependee: function (selector, dependeeStates) {
-      var state;
-      var self = this;
-
-      function stateEventHandler(e) {
-        self.update(e.data.selector, e.data.state, e.value);
-      }
-
-      // Cache for the states of this dependee.
-      this.values[selector] = {};
-
-      for (var i in dependeeStates) {
-        if (dependeeStates.hasOwnProperty(i)) {
-          state = dependeeStates[i];
-          // Make sure we're not initializing this selector/state combination
-          // twice.
-          if ($.inArray(state, dependeeStates) === -1) {
-            continue;
-          }
-
-          state = states.State.sanitize(state);
-
-          // Initialize the value of this state.
-          this.values[selector][state.name] = null;
-
-          // Monitor state changes of the specified state for this dependee.
-          $(selector).on('state:' + state, {selector: selector, state: state}, stateEventHandler);
-
-          // Make sure the event we just bound ourselves to is actually fired.
-          new states.Trigger({selector: selector, state: state});
-        }
-      }
-    },
+    this.$dropbutton = $dropbutton;
 
     /**
-     * Compares a value with a reference value.
-     *
-     * @memberof Drupal.states.Dependent#
-     *
-     * @param {object} reference
-     *   The value used for reference.
-     * @param {string} selector
-     *   CSS selector describing the dependee.
-     * @param {Drupal.states.State} state
-     *   A State object describing the dependee's updated state.
-     *
-     * @return {bool}
-     *   true or false.
+     * @type {jQuery}
      */
-    compare: function (reference, selector, state) {
-      var value = this.values[selector][state.name];
-      if (reference.constructor.name in states.Dependent.comparisons) {
-        // Use a custom compare function for certain reference value types.
-        return states.Dependent.comparisons[reference.constructor.name](reference, value);
-      }
-      else {
-        // Do a plain comparison otherwise.
-        return compare(reference, value);
-      }
-    },
+    this.$list = $dropbutton.find('.dropbutton');
 
     /**
-     * Update the value of a dependee's state.
+     * Find actions and mark them.
      *
-     * @memberof Drupal.states.Dependent#
-     *
-     * @param {string} selector
-     *   CSS selector describing the dependee.
-     * @param {Drupal.states.state} state
-     *   A State object describing the dependee's updated state.
-     * @param {string} value
-     *   The new value for the dependee's updated state.
+     * @type {jQuery}
      */
-    update: function (selector, state, value) {
-      // Only act when the 'new' value is actually new.
-      if (value !== this.values[selector][state.name]) {
-        this.values[selector][state.name] = value;
-        this.reevaluate();
-      }
-    },
+    this.$actions = this.$list.find('li').addClass('dropbutton-action');
 
-    /**
-     * Triggers change events in case a state changed.
-     *
-     * @memberof Drupal.states.Dependent#
-     */
-    reevaluate: function () {
-      // Check whether any constraint for this dependent state is satisfied.
-      var value = this.verifyConstraints(this.constraints);
+    // Add the special dropdown only if there are hidden actions.
+    if (this.$actions.length > 1) {
+      // Identify the first element of the collection.
+      var $primary = this.$actions.slice(0, 1);
+      // Identify the secondary actions.
+      var $secondary = this.$actions.slice(1);
+      $secondary.addClass('secondary-action');
+      // Add toggle link.
+      $primary.after(Drupal.theme('dropbuttonToggle', options));
+      // Bind mouse events.
+      this.$dropbutton
+        .addClass('dropbutton-multiple')
+        .on({
 
-      // Only invoke a state change event when the value actually changed.
-      if (value !== this.oldValue) {
-        // Store the new value so that we can compare later whether the value
-        // actually changed.
-        this.oldValue = value;
+          /**
+           * Adds a timeout to close the dropdown on mouseleave.
+           *
+           * @ignore
+           */
+          'mouseleave.dropbutton': $.proxy(this.hoverOut, this),
 
-        // Normalize the value to match the normalized state name.
-        value = invert(value, this.state.invert);
+          /**
+           * Clears timeout when mouseout of the dropdown.
+           *
+           * @ignore
+           */
+          'mouseenter.dropbutton': $.proxy(this.hoverIn, this),
 
-        // By adding "trigger: true", we ensure that state changes don't go into
-        // infinite loops.
-        this.element.trigger({type: 'state:' + this.state, value: value, trigger: true});
-      }
-    },
+          /**
+           * Similar to mouseleave/mouseenter, but for keyboard navigation.
+           *
+           * @ignore
+           */
+          'focusout.dropbutton': $.proxy(this.focusOut, this),
 
-    /**
-     * Evaluates child constraints to determine if a constraint is satisfied.
-     *
-     * @memberof Drupal.states.Dependent#
-     *
-     * @param {object|Array} constraints
-     *   A constraint object or an array of constraints.
-     * @param {string} selector
-     *   The selector for these constraints. If undefined, there isn't yet a
-     *   selector that these constraints apply to. In that case, the keys of the
-     *   object are interpreted as the selector if encountered.
-     *
-     * @return {bool}
-     *   true or false, depending on whether these constraints are satisfied.
-     */
-    verifyConstraints: function (constraints, selector) {
-      var result;
-      if ($.isArray(constraints)) {
-        // This constraint is an array (OR or XOR).
-        var hasXor = $.inArray('xor', constraints) === -1;
-        var len = constraints.length;
-        for (var i = 0; i < len; i++) {
-          if (constraints[i] !== 'xor') {
-            var constraint = this.checkConstraints(constraints[i], selector, i);
-            // Return if this is OR and we have a satisfied constraint or if
-            // this is XOR and we have a second satisfied constraint.
-            if (constraint && (hasXor || result)) {
-              return hasXor;
-            }
-            result = result || constraint;
-          }
-        }
-      }
-      // Make sure we don't try to iterate over things other than objects. This
-      // shouldn't normally occur, but in case the condition definition is
-      // bogus, we don't want to end up with an infinite loop.
-      else if ($.isPlainObject(constraints)) {
-        // This constraint is an object (AND).
-        for (var n in constraints) {
-          if (constraints.hasOwnProperty(n)) {
-            result = ternary(result, this.checkConstraints(constraints[n], selector, n));
-            // False and anything else will evaluate to false, so return when
-            // any false condition is found.
-            if (result === false) { return false; }
-          }
-        }
-      }
-      return result;
-    },
-
-    /**
-     * Checks whether the value matches the requirements for this constraint.
-     *
-     * @memberof Drupal.states.Dependent#
-     *
-     * @param {string|Array|object} value
-     *   Either the value of a state or an array/object of constraints. In the
-     *   latter case, resolving the constraint continues.
-     * @param {string} [selector]
-     *   The selector for this constraint. If undefined, there isn't yet a
-     *   selector that this constraint applies to. In that case, the state key
-     *   is propagates to a selector and resolving continues.
-     * @param {Drupal.states.State} [state]
-     *   The state to check for this constraint. If undefined, resolving
-     *   continues. If both selector and state aren't undefined and valid
-     *   non-numeric strings, a lookup for the actual value of that selector's
-     *   state is performed. This parameter is not a State object but a pristine
-     *   state string.
-     *
-     * @return {bool}
-     *   true or false, depending on whether this constraint is satisfied.
-     */
-    checkConstraints: function (value, selector, state) {
-      // Normalize the last parameter. If it's non-numeric, we treat it either
-      // as a selector (in case there isn't one yet) or as a trigger/state.
-      if (typeof state !== 'string' || (/[0-9]/).test(state[0])) {
-        state = null;
-      }
-      else if (typeof selector === 'undefined') {
-        // Propagate the state to the selector when there isn't one yet.
-        selector = state;
-        state = null;
-      }
-
-      if (state !== null) {
-        // Constraints is the actual constraints of an element to check for.
-        state = states.State.sanitize(state);
-        return invert(this.compare(value, selector, state), state.invert);
-      }
-      else {
-        // Resolve this constraint as an AND/OR operator.
-        return this.verifyConstraints(value, selector);
-      }
-    },
-
-    /**
-     * Gathers information about all required triggers.
-     *
-     * @memberof Drupal.states.Dependent#
-     *
-     * @return {object}
-     *   An object describing the required triggers.
-     */
-    getDependees: function () {
-      var cache = {};
-      // Swivel the lookup function so that we can record all available
-      // selector- state combinations for initialization.
-      var _compare = this.compare;
-      this.compare = function (reference, selector, state) {
-        (cache[selector] || (cache[selector] = [])).push(state.name);
-        // Return nothing (=== undefined) so that the constraint loops are not
-        // broken.
-      };
-
-      // This call doesn't actually verify anything but uses the resolving
-      // mechanism to go through the constraints array, trying to look up each
-      // value. Since we swivelled the compare function, this comparison returns
-      // undefined and lookup continues until the very end. Instead of lookup up
-      // the value, we record that combination of selector and state so that we
-      // can initialize all triggers.
-      this.verifyConstraints(this.constraints);
-      // Restore the original function.
-      this.compare = _compare;
-
-      return cache;
-    }
-  };
-
-  /**
-   * @constructor Drupal.states.Trigger
-   *
-   * @param {object} args
-   *   Trigger arguments.
-   */
-  states.Trigger = function (args) {
-    $.extend(this, args);
-
-    if (this.state in states.Trigger.states) {
-      this.element = $(this.selector);
-
-      // Only call the trigger initializer when it wasn't yet attached to this
-      // element. Otherwise we'd end up with duplicate events.
-      if (!this.element.data('trigger:' + this.state)) {
-        this.initialize();
-      }
-    }
-  };
-
-  states.Trigger.prototype = {
-
-    /**
-     * @memberof Drupal.states.Trigger#
-     */
-    initialize: function () {
-      var trigger = states.Trigger.states[this.state];
-
-      if (typeof trigger === 'function') {
-        // We have a custom trigger initialization function.
-        trigger.call(window, this.element);
-      }
-      else {
-        for (var event in trigger) {
-          if (trigger.hasOwnProperty(event)) {
-            this.defaultTrigger(event, trigger[event]);
-          }
-        }
-      }
-
-      // Mark this trigger as initialized for this element.
-      this.element.data('trigger:' + this.state, true);
-    },
-
-    /**
-     * @memberof Drupal.states.Trigger#
-     *
-     * @param {jQuery.Event} event
-     *   The event triggered.
-     * @param {function} valueFn
-     *   The function to call.
-     */
-    defaultTrigger: function (event, valueFn) {
-      var oldValue = valueFn.call(this.element);
-
-      // Attach the event callback.
-      this.element.on(event, $.proxy(function (e) {
-        var value = valueFn.call(this.element, e);
-        // Only trigger the event if the value has actually changed.
-        if (oldValue !== value) {
-          this.element.trigger({type: 'state:' + this.state, value: value, oldValue: oldValue});
-          oldValue = value;
-        }
-      }, this));
-
-      states.postponed.push($.proxy(function () {
-        // Trigger the event once for initialization purposes.
-        this.element.trigger({type: 'state:' + this.state, value: oldValue, oldValue: null});
-      }, this));
-    }
-  };
-
-  /**
-   * This list of states contains functions that are used to monitor the state
-   * of an element. Whenever an element depends on the state of another element,
-   * one of these trigger functions is added to the dependee so that the
-   * dependent element can be updated.
-   *
-   * @name Drupal.states.Trigger.states
-   *
-   * @prop empty
-   * @prop checked
-   * @prop value
-   * @prop collapsed
-   */
-  states.Trigger.states = {
-    // 'empty' describes the state to be monitored.
-    empty: {
-      // 'keyup' is the (native DOM) event that we watch for.
-      keyup: function () {
-        // The function associated with that trigger returns the new value for
-        // the state.
-        return this.val() === '';
-      }
-    },
-
-    checked: {
-      change: function () {
-        // prop() and attr() only takes the first element into account. To
-        // support selectors matching multiple checkboxes, iterate over all and
-        // return whether any is checked.
-        var checked = false;
-        this.each(function () {
-          // Use prop() here as we want a boolean of the checkbox state.
-          // @see http://api.jquery.com/prop/
-          checked = $(this).prop('checked');
-          // Break the each() loop if this is checked.
-          return !checked;
+          /**
+           * @ignore
+           */
+          'focusin.dropbutton': $.proxy(this.focusIn, this)
         });
-        return checked;
-      }
-    },
-
-    // For radio buttons, only return the value if the radio button is selected.
-    value: {
-      keyup: function () {
-        // Radio buttons share the same :input[name="key"] selector.
-        if (this.length > 1) {
-          // Initial checked value of radios is undefined, so we return false.
-          return this.filter(':checked').val() || false;
-        }
-        return this.val();
-      },
-      change: function () {
-        // Radio buttons share the same :input[name="key"] selector.
-        if (this.length > 1) {
-          // Initial checked value of radios is undefined, so we return false.
-          return this.filter(':checked').val() || false;
-        }
-        return this.val();
-      }
-    },
-
-    collapsed: {
-      collapsed: function (e) {
-        return (typeof e !== 'undefined' && 'value' in e) ? e.value : !this.is('[open]');
-      }
-    }
-  };
-
-  /**
-   * A state object is used for describing the state and performing aliasing.
-   *
-   * @constructor Drupal.states.State
-   *
-   * @param {string} state
-   *   The name of the state.
-   */
-  states.State = function (state) {
-
-    /**
-     * Original unresolved name.
-     */
-    this.pristine = this.name = state;
-
-    // Normalize the state name.
-    var process = true;
-    do {
-      // Iteratively remove exclamation marks and invert the value.
-      while (this.name.charAt(0) === '!') {
-        this.name = this.name.substring(1);
-        this.invert = !this.invert;
-      }
-
-      // Replace the state with its normalized name.
-      if (this.name in states.State.aliases) {
-        this.name = states.State.aliases[this.name];
-      }
-      else {
-        process = false;
-      }
-    } while (process);
-  };
-
-  /**
-   * Creates a new State object by sanitizing the passed value.
-   *
-   * @name Drupal.states.State.sanitize
-   *
-   * @param {string|Drupal.states.State} state
-   *   A state object or the name of a state.
-   *
-   * @return {Drupal.states.state}
-   *   A state object.
-   */
-  states.State.sanitize = function (state) {
-    if (state instanceof states.State) {
-      return state;
     }
     else {
-      return new states.State(state);
+      this.$dropbutton.addClass('dropbutton-single');
     }
-  };
+  }
 
   /**
-   * This list of aliases is used to normalize states and associates negated
-   * names with their respective inverse state.
-   *
-   * @name Drupal.states.State.aliases
+   * Extend the DropButton constructor.
    */
-  states.State.aliases = {
-    enabled: '!disabled',
-    invisible: '!visible',
-    invalid: '!valid',
-    untouched: '!touched',
-    optional: '!required',
-    filled: '!empty',
-    unchecked: '!checked',
-    irrelevant: '!relevant',
-    expanded: '!collapsed',
-    open: '!collapsed',
-    closed: 'collapsed',
-    readwrite: '!readonly'
-  };
-
-  states.State.prototype = {
-
+  $.extend(DropButton, /** @lends Drupal.DropButton */{
     /**
-     * @memberof Drupal.states.State#
-     */
-    invert: false,
-
-    /**
-     * Ensures that just using the state object returns the name.
+     * Store all processed DropButtons.
      *
-     * @memberof Drupal.states.State#
+     * @type {Array.<Drupal.DropButton>}
+     */
+    dropbuttons: []
+  });
+
+  /**
+   * Extend the DropButton prototype.
+   */
+  $.extend(DropButton.prototype, /** @lends Drupal.DropButton# */{
+
+    /**
+     * Toggle the dropbutton open and closed.
+     *
+     * @param {bool} [show]
+     *   Force the dropbutton to open by passing true or to close by
+     *   passing false.
+     */
+    toggle: function (show) {
+      var isBool = typeof show === 'boolean';
+      show = isBool ? show : !this.$dropbutton.hasClass('open');
+      this.$dropbutton.toggleClass('open', show);
+    },
+
+    /**
+     * @method
+     */
+    hoverIn: function () {
+      // Clear any previous timer we were using.
+      if (this.timerID) {
+        window.clearTimeout(this.timerID);
+      }
+    },
+
+    /**
+     * @method
+     */
+    hoverOut: function () {
+      // Wait half a second before closing.
+      this.timerID = window.setTimeout($.proxy(this, 'close'), 500);
+    },
+
+    /**
+     * @method
+     */
+    open: function () {
+      this.toggle(true);
+    },
+
+    /**
+     * @method
+     */
+    close: function () {
+      this.toggle(false);
+    },
+
+    /**
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    focusOut: function (e) {
+      this.hoverOut.call(this, e);
+    },
+
+    /**
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    focusIn: function (e) {
+      this.hoverIn.call(this, e);
+    }
+  });
+
+  $.extend(Drupal.theme, /** @lends Drupal.theme */{
+
+    /**
+     * A toggle is an interactive element often bound to a click handler.
+     *
+     * @param {object} options
+     *   Options object.
+     * @param {string} [options.title]
+     *   The HTML anchor title attribute and text for the inner span element.
      *
      * @return {string}
-     *   The name of the state.
+     *   A string representing a DOM fragment.
      */
-    toString: function () {
-      return this.name;
-    }
-  };
-
-  /**
-   * Global state change handlers. These are bound to "document" to cover all
-   * elements whose state changes. Events sent to elements within the page
-   * bubble up to these handlers. We use this system so that themes and modules
-   * can override these state change handlers for particular parts of a page.
-   */
-
-  var $document = $(document);
-  $document.on('state:disabled', function (e) {
-    // Only act when this change was triggered by a dependency and not by the
-    // element monitoring itself.
-    if (e.trigger) {
-      $(e.target)
-        .prop('disabled', e.value)
-        .closest('.js-form-item, .js-form-submit, .js-form-wrapper').toggleClass('form-disabled', e.value)
-        .find('select, input, textarea').prop('disabled', e.value);
-
-      // Note: WebKit nightlies don't reflect that change correctly.
-      // See https://bugs.webkit.org/show_bug.cgi?id=23789
+    dropbuttonToggle: function (options) {
+      return '<li class="dropbutton-toggle"><button type="button"><span class="dropbutton-arrow"><span class="visually-hidden">' + options.title + '</span></span></button></li>';
     }
   });
 
-  $document.on('state:required', function (e) {
-    if (e.trigger) {
-      if (e.value) {
-        var label = 'label' + (e.target.id ? '[for=' + e.target.id + ']' : '');
-        var $label = $(e.target).attr({'required': 'required', 'aria-required': 'aria-required'}).closest('.js-form-item, .js-form-wrapper').find(label);
-        // Avoids duplicate required markers on initialization.
-        if (!$label.hasClass('js-form-required').length) {
-          $label.addClass('js-form-required form-required');
-        }
-      }
-      else {
-        $(e.target).removeAttr('required aria-required').closest('.js-form-item, .js-form-wrapper').find('label.js-form-required').removeClass('js-form-required form-required');
-      }
-    }
-  });
-
-  $document.on('state:visible', function (e) {
-    if (e.trigger) {
-      $(e.target).closest('.js-form-item, .js-form-submit, .js-form-wrapper').toggle(e.value);
-    }
-  });
-
-  $document.on('state:checked', function (e) {
-    if (e.trigger) {
-      $(e.target).prop('checked', e.value);
-    }
-  });
-
-  $document.on('state:collapsed', function (e) {
-    if (e.trigger) {
-      if ($(e.target).is('[open]') === e.value) {
-        $(e.target).find('> summary').trigger('click');
-      }
-    }
-  });
-
-  /**
-   * These are helper functions implementing addition "operators" and don't
-   * implement any logic that is particular to states.
-   */
-
-  /**
-   * Bitwise AND with a third undefined state.
-   *
-   * @function Drupal.states~ternary
-   *
-   * @param {*} a
-   *   Value a.
-   * @param {*} b
-   *   Value b
-   *
-   * @return {bool}
-   *   The result.
-   */
-  function ternary(a, b) {
-    if (typeof a === 'undefined') {
-      return b;
-    }
-    else if (typeof b === 'undefined') {
-      return a;
-    }
-    else {
-      return a && b;
-    }
-  }
-
-  /**
-   * Inverts a (if it's not undefined) when invertState is true.
-   *
-   * @function Drupal.states~invert
-   *
-   * @param {*} a
-   *   The value to maybe invert.
-   * @param {bool} invertState
-   *   Whether to invert state or not.
-   *
-   * @return {bool}
-   *   The result.
-   */
-  function invert(a, invertState) {
-    return (invertState && typeof a !== 'undefined') ? !a : a;
-  }
-
-  /**
-   * Compares two values while ignoring undefined values.
-   *
-   * @function Drupal.states~compare
-   *
-   * @param {*} a
-   *   Value a.
-   * @param {*} b
-   *   Value b.
-   *
-   * @return {bool}
-   *   The comparison result.
-   */
-  function compare(a, b) {
-    if (a === b) {
-      return typeof a === 'undefined' ? a : true;
-    }
-    else {
-      return typeof a === 'undefined' || typeof b === 'undefined';
-    }
-  }
+  // Expose constructor in the public space.
+  Drupal.DropButton = DropButton;
 
 })(jQuery, Drupal);
 ;
@@ -2409,6 +3775,120 @@ Drupal.debounce = function (func, wait, immediate) {
 ;
 /**
  * @file
+ * Defines Javascript behaviors for the block_content module.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * Sets summaries about revision and translation of entities.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches summary behaviour entity form tabs.
+   *
+   *   Specifically, it updates summaries to the revision information and the
+   *   translation options.
+   */
+  Drupal.behaviors.entityContentDetailsSummaries = {
+    attach: function (context) {
+      var $context = $(context);
+      $context.find('.entity-content-form-revision-information').drupalSetSummary(function (context) {
+        var $revisionContext = $(context);
+        var revisionCheckbox = $revisionContext.find('.js-form-item-revision input');
+
+        // Return 'New revision' if the 'Create new revision' checkbox is checked,
+        // or if the checkbox doesn't exist, but the revision log does. For users
+        // without the "Administer content" permission the checkbox won't appear,
+        // but the revision log will if the content type is set to auto-revision.
+        if (revisionCheckbox.is(':checked') || (!revisionCheckbox.length && $revisionContext.find('.js-form-item-revision-log textarea').length)) {
+          return Drupal.t('New revision');
+        }
+
+        return Drupal.t('No revision');
+      });
+
+      $context.find('details.entity-translation-options').drupalSetSummary(function (context) {
+        var $translationContext = $(context);
+        var translate;
+        var $checkbox = $translationContext.find('.js-form-item-translation-translate input');
+
+        if ($checkbox.length) {
+          translate = $checkbox.is(':checked') ? Drupal.t('Needs to be updated') : Drupal.t('Does not need to be updated');
+        }
+        else {
+          $checkbox = $translationContext.find('.js-form-item-translation-retranslate input');
+          translate = $checkbox.is(':checked') ? Drupal.t('Flag other translations as outdated') : Drupal.t('Do not flag other translations as outdated');
+        }
+
+        return translate;
+      });
+    }
+  };
+
+})(jQuery, Drupal);
+;
+/**
+ * @file
+ * Defines Javascript behaviors for the node module.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * Behaviors for tabs in the node edit form.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches summary behavior for tabs in the node edit form.
+   */
+  Drupal.behaviors.nodeDetailsSummaries = {
+    attach: function (context) {
+      var $context = $(context);
+
+      $context.find('.node-form-author').drupalSetSummary(function (context) {
+        var $authorContext = $(context);
+        var name = $authorContext.find('.field--name-uid input').val();
+        var date = $authorContext.find('.field--name-created input').val();
+
+        if (name && date) {
+          return Drupal.t('By @name on @date', {'@name': name, '@date': date});
+        }
+        else if (name) {
+          return Drupal.t('By @name', {'@name': name});
+        }
+        else if (date) {
+          return Drupal.t('Authored on @date', {'@date': date});
+        }
+      });
+
+      $context.find('.node-form-options').drupalSetSummary(function (context) {
+        var $optionsContext = $(context);
+        var vals = [];
+
+        if ($optionsContext.find('input').is(':checked')) {
+          $optionsContext.find('input:checked').next('label').each(function () {
+            vals.push(Drupal.checkPlain($.trim($(this).text())));
+          });
+          return vals.join(', ');
+        }
+        else {
+          return Drupal.t('Not promoted');
+        }
+      });
+    }
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
  * Add aria attribute handling for details and summary elements.
  */
 
@@ -2586,273 +4066,160 @@ Drupal.debounce = function (func, wait, immediate) {
 ;
 /**
  * @file
- * Provides JavaScript additions to the managed file field type.
- *
- * This file provides progress bar support (if available), popup windows for
- * file previews, and disabling of other file fields during Ajax uploads (which
- * prevents separate file fields from accidentally uploading files).
+ * Datepicker JavaScript for the Locale module.
  */
 
-(function ($, Drupal) {
+(function ($, Drupal, drupalSettings) {
 
   'use strict';
 
   /**
-   * Attach behaviors to the file fields passed in the settings.
+   * Attaches language support to the jQuery UI datepicker component.
    *
    * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Attaches validation for file extensions.
-   * @prop {Drupal~behaviorDetach} detach
-   *   Detaches validation for file extensions.
    */
-  Drupal.behaviors.fileValidateAutoAttach = {
+  Drupal.behaviors.localeDatepicker = {
     attach: function (context, settings) {
-      var $context = $(context);
-      var elements;
-
-      function initFileValidation(selector) {
-        $context.find(selector)
-          .once('fileValidate')
-          .on('change.fileValidate', {extensions: elements[selector]}, Drupal.file.validateExtension);
-      }
-
-      if (settings.file && settings.file.elements) {
-        elements = settings.file.elements;
-        Object.keys(elements).forEach(initFileValidation);
-      }
-    },
-    detach: function (context, settings, trigger) {
-      var $context = $(context);
-      var elements;
-
-      function removeFileValidation(selector) {
-        $context.find(selector)
-          .removeOnce('fileValidate')
-          .off('change.fileValidate', Drupal.file.validateExtension);
-      }
-
-      if (trigger === 'unload' && settings.file && settings.file.elements) {
-        elements = settings.file.elements;
-        Object.keys(elements).forEach(removeFileValidation);
-      }
+      // This code accesses drupalSettings and localized strings via Drupal.t().
+      // So this code should run after these are initialized. By placing it in an
+      // attach behavior this is assured.
+      $.datepicker.regional['drupal-locale'] = $.extend({
+        closeText: Drupal.t('Done'),
+        prevText: Drupal.t('Prev'),
+        nextText: Drupal.t('Next'),
+        currentText: Drupal.t('Today'),
+        monthNames: [
+          Drupal.t('January', {}, {context: 'Long month name'}),
+          Drupal.t('February', {}, {context: 'Long month name'}),
+          Drupal.t('March', {}, {context: 'Long month name'}),
+          Drupal.t('April', {}, {context: 'Long month name'}),
+          Drupal.t('May', {}, {context: 'Long month name'}),
+          Drupal.t('June', {}, {context: 'Long month name'}),
+          Drupal.t('July', {}, {context: 'Long month name'}),
+          Drupal.t('August', {}, {context: 'Long month name'}),
+          Drupal.t('September', {}, {context: 'Long month name'}),
+          Drupal.t('October', {}, {context: 'Long month name'}),
+          Drupal.t('November', {}, {context: 'Long month name'}),
+          Drupal.t('December', {}, {context: 'Long month name'})
+        ],
+        monthNamesShort: [
+          Drupal.t('Jan'),
+          Drupal.t('Feb'),
+          Drupal.t('Mar'),
+          Drupal.t('Apr'),
+          Drupal.t('May'),
+          Drupal.t('Jun'),
+          Drupal.t('Jul'),
+          Drupal.t('Aug'),
+          Drupal.t('Sep'),
+          Drupal.t('Oct'),
+          Drupal.t('Nov'),
+          Drupal.t('Dec')
+        ],
+        dayNames: [
+          Drupal.t('Sunday'),
+          Drupal.t('Monday'),
+          Drupal.t('Tuesday'),
+          Drupal.t('Wednesday'),
+          Drupal.t('Thursday'),
+          Drupal.t('Friday'),
+          Drupal.t('Saturday')
+        ],
+        dayNamesShort: [
+          Drupal.t('Sun'),
+          Drupal.t('Mon'),
+          Drupal.t('Tue'),
+          Drupal.t('Wed'),
+          Drupal.t('Thu'),
+          Drupal.t('Fri'),
+          Drupal.t('Sat')
+        ],
+        dayNamesMin: [
+          Drupal.t('Su'),
+          Drupal.t('Mo'),
+          Drupal.t('Tu'),
+          Drupal.t('We'),
+          Drupal.t('Th'),
+          Drupal.t('Fr'),
+          Drupal.t('Sa')
+        ],
+        dateFormat: Drupal.t('mm/dd/yy'),
+        firstDay: 0,
+        isRTL: 0
+      }, drupalSettings.jquery.ui.datepicker);
+      $.datepicker.setDefaults($.datepicker.regional['drupal-locale']);
     }
   };
 
-  /**
-   * Attach behaviors to file element auto upload.
-   *
-   * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Attaches triggers for the upload button.
-   * @prop {Drupal~behaviorDetach} detach
-   *   Detaches auto file upload trigger.
-   */
-  Drupal.behaviors.fileAutoUpload = {
-    attach: function (context) {
-      $(context).find('input[type="file"]').once('auto-file-upload').on('change.autoFileUpload', Drupal.file.triggerUploadButton);
-    },
-    detach: function (context, setting, trigger) {
-      if (trigger === 'unload') {
-        $(context).find('input[type="file"]').removeOnce('auto-file-upload').off('.autoFileUpload');
-      }
-    }
-  };
-
-  /**
-   * Attach behaviors to the file upload and remove buttons.
-   *
-   * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Attaches form submit events.
-   * @prop {Drupal~behaviorDetach} detach
-   *   Detaches form submit events.
-   */
-  Drupal.behaviors.fileButtons = {
-    attach: function (context) {
-      var $context = $(context);
-      $context.find('.js-form-submit').on('mousedown', Drupal.file.disableFields);
-      $context.find('.js-form-managed-file .js-form-submit').on('mousedown', Drupal.file.progressBar);
-    },
-    detach: function (context) {
-      var $context = $(context);
-      $context.find('.js-form-submit').off('mousedown', Drupal.file.disableFields);
-      $context.find('.js-form-managed-file .js-form-submit').off('mousedown', Drupal.file.progressBar);
-    }
-  };
-
-  /**
-   * Attach behaviors to links within managed file elements for preview windows.
-   *
-   * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Attaches triggers.
-   * @prop {Drupal~behaviorDetach} detach
-   *   Detaches triggers.
-   */
-  Drupal.behaviors.filePreviewLinks = {
-    attach: function (context) {
-      $(context).find('div.js-form-managed-file .file a').on('click', Drupal.file.openInNewWindow);
-    },
-    detach: function (context) {
-      $(context).find('div.js-form-managed-file .file a').off('click', Drupal.file.openInNewWindow);
-    }
-  };
-
-  /**
-   * File upload utility functions.
-   *
-   * @namespace
-   */
-  Drupal.file = Drupal.file || {
-
-    /**
-     * Client-side file input validation of file extensions.
-     *
-     * @name Drupal.file.validateExtension
-     *
-     * @param {jQuery.Event} event
-     *   The event triggered. For example `change.fileValidate`.
-     */
-    validateExtension: function (event) {
-      event.preventDefault();
-      // Remove any previous errors.
-      $('.file-upload-js-error').remove();
-
-      // Add client side validation for the input[type=file].
-      var extensionPattern = event.data.extensions.replace(/,\s*/g, '|');
-      if (extensionPattern.length > 1 && this.value.length > 0) {
-        var acceptableMatch = new RegExp('\\.(' + extensionPattern + ')$', 'gi');
-        if (!acceptableMatch.test(this.value)) {
-          var error = Drupal.t('The selected file %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions.', {
-            // According to the specifications of HTML5, a file upload control
-            // should not reveal the real local path to the file that a user
-            // has selected. Some web browsers implement this restriction by
-            // replacing the local path with "C:\fakepath\", which can cause
-            // confusion by leaving the user thinking perhaps Drupal could not
-            // find the file because it messed up the file path. To avoid this
-            // confusion, therefore, we strip out the bogus fakepath string.
-            '%filename': this.value.replace('C:\\fakepath\\', ''),
-            '%extensions': extensionPattern.replace(/\|/g, ', ')
-          });
-          $(this).closest('div.js-form-managed-file').prepend('<div class="messages messages--error file-upload-js-error" aria-live="polite">' + error + '</div>');
-          this.value = '';
-          // Cancel all other change event handlers.
-          event.stopImmediatePropagation();
-        }
-      }
-    },
-
-    /**
-     * Trigger the upload_button mouse event to auto-upload as a managed file.
-     *
-     * @name Drupal.file.triggerUploadButton
-     *
-     * @param {jQuery.Event} event
-     *   The event triggered. For example `change.autoFileUpload`.
-     */
-    triggerUploadButton: function (event) {
-      $(event.target).closest('.js-form-managed-file').find('.js-form-submit').trigger('mousedown');
-    },
-
-    /**
-     * Prevent file uploads when using buttons not intended to upload.
-     *
-     * @name Drupal.file.disableFields
-     *
-     * @param {jQuery.Event} event
-     *   The event triggered, most likely a `mousedown` event.
-     */
-    disableFields: function (event) {
-      var $clickedButton = $(this).findOnce('ajax');
-
-      // Only disable upload fields for Ajax buttons.
-      if (!$clickedButton.length) {
-        return;
-      }
-
-      // Check if we're working with an "Upload" button.
-      var $enabledFields = [];
-      if ($clickedButton.closest('div.js-form-managed-file').length > 0) {
-        $enabledFields = $clickedButton.closest('div.js-form-managed-file').find('input.js-form-file');
-      }
-
-      // Temporarily disable upload fields other than the one we're currently
-      // working with. Filter out fields that are already disabled so that they
-      // do not get enabled when we re-enable these fields at the end of
-      // behavior processing. Re-enable in a setTimeout set to a relatively
-      // short amount of time (1 second). All the other mousedown handlers
-      // (like Drupal's Ajax behaviors) are executed before any timeout
-      // functions are called, so we don't have to worry about the fields being
-      // re-enabled too soon. @todo If the previous sentence is true, why not
-      // set the timeout to 0?
-      var $fieldsToTemporarilyDisable = $('div.js-form-managed-file input.js-form-file').not($enabledFields).not(':disabled');
-      $fieldsToTemporarilyDisable.prop('disabled', true);
-      setTimeout(function () {
-        $fieldsToTemporarilyDisable.prop('disabled', false);
-      }, 1000);
-    },
-
-    /**
-     * Add progress bar support if possible.
-     *
-     * @name Drupal.file.progressBar
-     *
-     * @param {jQuery.Event} event
-     *   The event triggered, most likely a `mousedown` event.
-     */
-    progressBar: function (event) {
-      var $clickedButton = $(this);
-      var $progressId = $clickedButton.closest('div.js-form-managed-file').find('input.file-progress');
-      if ($progressId.length) {
-        var originalName = $progressId.attr('name');
-
-        // Replace the name with the required identifier.
-        $progressId.attr('name', originalName.match(/APC_UPLOAD_PROGRESS|UPLOAD_IDENTIFIER/)[0]);
-
-        // Restore the original name after the upload begins.
-        setTimeout(function () {
-          $progressId.attr('name', originalName);
-        }, 1000);
-      }
-      // Show the progress bar if the upload takes longer than half a second.
-      setTimeout(function () {
-        $clickedButton.closest('div.js-form-managed-file').find('div.ajax-progress-bar').slideDown();
-      }, 500);
-    },
-
-    /**
-     * Open links to files within forms in a new window.
-     *
-     * @name Drupal.file.openInNewWindow
-     *
-     * @param {jQuery.Event} event
-     *   The event triggered, most likely a `click` event.
-     */
-    openInNewWindow: function (event) {
-      event.preventDefault();
-      $(this).attr('target', '_blank');
-      window.open(this.href, 'filePreview', 'toolbar=0,scrollbars=1,location=1,statusbar=1,menubar=0,resizable=1,width=500,height=550');
-    }
-  };
-
-})(jQuery, Drupal);
+})(jQuery, Drupal, drupalSettings);
 ;
 /*!
- * jQuery Form Plugin
- * version: 3.51.0-2014.06.20
- * Requires jQuery v1.5 or later
- * Copyright (c) 2014 M. Alsup
- * Examples and documentation at: http://malsup.com/jquery/form/
- * Project repository: https://github.com/malsup/form
- * Dual licensed under the MIT and GPL licenses.
- * https://github.com/malsup/form#copyright-and-license
+ * jQuery UI Datepicker 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/datepicker/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery","./core"],e):e(jQuery)})(function(e){function n(e){var t,n;while(e.length&&e[0]!==document){t=e.css("position");if(t==="absolute"||t==="relative"||t==="fixed"){n=parseInt(e.css("zIndex"),10);if(!isNaN(n)&&n!==0)return n}e=e.parent()}return 0}function r(){this._curInst=null,this._keyEvent=!1,this._disabledInputs=[],this._datepickerShowing=!1,this._inDialog=!1,this._mainDivId="ui-datepicker-div",this._inlineClass="ui-datepicker-inline",this._appendClass="ui-datepicker-append",this._triggerClass="ui-datepicker-trigger",this._dialogClass="ui-datepicker-dialog",this._disableClass="ui-datepicker-disabled",this._unselectableClass="ui-datepicker-unselectable",this._currentClass="ui-datepicker-current-day",this._dayOverClass="ui-datepicker-days-cell-over",this.regional=[],this.regional[""]={closeText:"Done",prevText:"Prev",nextText:"Next",currentText:"Today",monthNames:["January","February","March","April","May","June","July","August","September","October","November","December"],monthNamesShort:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],dayNames:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],dayNamesShort:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],dayNamesMin:["Su","Mo","Tu","We","Th","Fr","Sa"],weekHeader:"Wk",dateFormat:"mm/dd/yy",firstDay:0,isRTL:!1,showMonthAfterYear:!1,yearSuffix:""},this._defaults={showOn:"focus",showAnim:"fadeIn",showOptions:{},defaultDate:null,appendText:"",buttonText:"...",buttonImage:"",buttonImageOnly:!1,hideIfNoPrevNext:!1,navigationAsDateFormat:!1,gotoCurrent:!1,changeMonth:!1,changeYear:!1,yearRange:"c-10:c+10",showOtherMonths:!1,selectOtherMonths:!1,showWeek:!1,calculateWeek:this.iso8601Week,shortYearCutoff:"+10",minDate:null,maxDate:null,duration:"fast",beforeShowDay:null,beforeShow:null,onSelect:null,onChangeMonthYear:null,onClose:null,numberOfMonths:1,showCurrentAtPos:0,stepMonths:1,stepBigMonths:12,altField:"",altFormat:"",constrainInput:!0,showButtonPanel:!1,autoSize:!1,disabled:!1},e.extend(this._defaults,this.regional[""]),this.regional.en=e.extend(!0,{},this.regional[""]),this.regional["en-US"]=e.extend(!0,{},this.regional.en),this.dpDiv=i(e("<div id='"+this._mainDivId+"' class='ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all'></div>"))}function i(t){var n="button, .ui-datepicker-prev, .ui-datepicker-next, .ui-datepicker-calendar td a";return t.delegate(n,"mouseout",function(){e(this).removeClass("ui-state-hover"),this.className.indexOf("ui-datepicker-prev")!==-1&&e(this).removeClass("ui-datepicker-prev-hover"),this.className.indexOf("ui-datepicker-next")!==-1&&e(this).removeClass("ui-datepicker-next-hover")}).delegate(n,"mouseover",s)}function s(){e.datepicker._isDisabledDatepicker(t.inline?t.dpDiv.parent()[0]:t.input[0])||(e(this).parents(".ui-datepicker-calendar").find("a").removeClass("ui-state-hover"),e(this).addClass("ui-state-hover"),this.className.indexOf("ui-datepicker-prev")!==-1&&e(this).addClass("ui-datepicker-prev-hover"),this.className.indexOf("ui-datepicker-next")!==-1&&e(this).addClass("ui-datepicker-next-hover"))}function o(t,n){e.extend(t,n);for(var r in n)n[r]==null&&(t[r]=n[r]);return t}e.extend(e.ui,{datepicker:{version:"1.11.4"}});var t;return e.extend(r.prototype,{markerClassName:"hasDatepicker",maxRows:4,_widgetDatepicker:function(){return this.dpDiv},setDefaults:function(e){return o(this._defaults,e||{}),this},_attachDatepicker:function(t,n){var r,i,s;r=t.nodeName.toLowerCase(),i=r==="div"||r==="span",t.id||(this.uuid+=1,t.id="dp"+this.uuid),s=this._newInst(e(t),i),s.settings=e.extend({},n||{}),r==="input"?this._connectDatepicker(t,s):i&&this._inlineDatepicker(t,s)},_newInst:function(t,n){var r=t[0].id.replace(/([^A-Za-z0-9_\-])/g,"\\\\$1");return{id:r,input:t,selectedDay:0,selectedMonth:0,selectedYear:0,drawMonth:0,drawYear:0,inline:n,dpDiv:n?i(e("<div class='"+this._inlineClass+" ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all'></div>")):this.dpDiv}},_connectDatepicker:function(t,n){var r=e(t);n.append=e([]),n.trigger=e([]);if(r.hasClass(this.markerClassName))return;this._attachments(r,n),r.addClass(this.markerClassName).keydown(this._doKeyDown).keypress(this._doKeyPress).keyup(this._doKeyUp),this._autoSize(n),e.data(t,"datepicker",n),n.settings.disabled&&this._disableDatepicker(t)},_attachments:function(t,n){var r,i,s,o=this._get(n,"appendText"),u=this._get(n,"isRTL");n.append&&n.append.remove(),o&&(n.append=e("<span class='"+this._appendClass+"'>"+o+"</span>"),t[u?"before":"after"](n.append)),t.unbind("focus",this._showDatepicker),n.trigger&&n.trigger.remove(),r=this._get(n,"showOn"),(r==="focus"||r==="both")&&t.focus(this._showDatepicker);if(r==="button"||r==="both")i=this._get(n,"buttonText"),s=this._get(n,"buttonImage"),n.trigger=e(this._get(n,"buttonImageOnly")?e("<img/>").addClass(this._triggerClass).attr({src:s,alt:i,title:i}):e("<button type='button'></button>").addClass(this._triggerClass).html(s?e("<img/>").attr({src:s,alt:i,title:i}):i)),t[u?"before":"after"](n.trigger),n.trigger.click(function(){return e.datepicker._datepickerShowing&&e.datepicker._lastInput===t[0]?e.datepicker._hideDatepicker():e.datepicker._datepickerShowing&&e.datepicker._lastInput!==t[0]?(e.datepicker._hideDatepicker(),e.datepicker._showDatepicker(t[0])):e.datepicker._showDatepicker(t[0]),!1})},_autoSize:function(e){if(this._get(e,"autoSize")&&!e.inline){var t,n,r,i,s=new Date(2009,11,20),o=this._get(e,"dateFormat");o.match(/[DM]/)&&(t=function(e){n=0,r=0;for(i=0;i<e.length;i++)e[i].length>n&&(n=e[i].length,r=i);return r},s.setMonth(t(this._get(e,o.match(/MM/)?"monthNames":"monthNamesShort"))),s.setDate(t(this._get(e,o.match(/DD/)?"dayNames":"dayNamesShort"))+20-s.getDay())),e.input.attr("size",this._formatDate(e,s).length)}},_inlineDatepicker:function(t,n){var r=e(t);if(r.hasClass(this.markerClassName))return;r.addClass(this.markerClassName).append(n.dpDiv),e.data(t,"datepicker",n),this._setDate(n,this._getDefaultDate(n),!0),this._updateDatepicker(n),this._updateAlternate(n),n.settings.disabled&&this._disableDatepicker(t),n.dpDiv.css("display","block")},_dialogDatepicker:function(t,n,r,i,s){var u,a,f,l,c,h=this._dialogInst;return h||(this.uuid+=1,u="dp"+this.uuid,this._dialogInput=e("<input type='text' id='"+u+"' style='position: absolute; top: -100px; width: 0px;'/>"),this._dialogInput.keydown(this._doKeyDown),e("body").append(this._dialogInput),h=this._dialogInst=this._newInst(this._dialogInput,!1),h.settings={},e.data(this._dialogInput[0],"datepicker",h)),o(h.settings,i||{}),n=n&&n.constructor===Date?this._formatDate(h,n):n,this._dialogInput.val(n),this._pos=s?s.length?s:[s.pageX,s.pageY]:null,this._pos||(a=document.documentElement.clientWidth,f=document.documentElement.clientHeight,l=document.documentElement.scrollLeft||document.body.scrollLeft,c=document.documentElement.scrollTop||document.body.scrollTop,this._pos=[a/2-100+l,f/2-150+c]),this._dialogInput.css("left",this._pos[0]+20+"px").css("top",this._pos[1]+"px"),h.settings.onSelect=r,this._inDialog=!0,this.dpDiv.addClass(this._dialogClass),this._showDatepicker(this._dialogInput[0]),e.blockUI&&e.blockUI(this.dpDiv),e.data(this._dialogInput[0],"datepicker",h),this},_destroyDatepicker:function(n){var r,i=e(n),s=e.data(n,"datepicker");if(!i.hasClass(this.markerClassName))return;r=n.nodeName.toLowerCase(),e.removeData(n,"datepicker"),r==="input"?(s.append.remove(),s.trigger.remove(),i.removeClass(this.markerClassName).unbind("focus",this._showDatepicker).unbind("keydown",this._doKeyDown).unbind("keypress",this._doKeyPress).unbind("keyup",this._doKeyUp)):(r==="div"||r==="span")&&i.removeClass(this.markerClassName).empty(),t===s&&(t=null)},_enableDatepicker:function(t){var n,r,i=e(t),s=e.data(t,"datepicker");if(!i.hasClass(this.markerClassName))return;n=t.nodeName.toLowerCase();if(n==="input")t.disabled=!1,s.trigger.filter("button").each(function(){this.disabled=!1}).end().filter("img").css({opacity:"1.0",cursor:""});else if(n==="div"||n==="span")r=i.children("."+this._inlineClass),r.children().removeClass("ui-state-disabled"),r.find("select.ui-datepicker-month, select.ui-datepicker-year").prop("disabled",!1);this._disabledInputs=e.map(this._disabledInputs,function(e){return e===t?null:e})},_disableDatepicker:function(t){var n,r,i=e(t),s=e.data(t,"datepicker");if(!i.hasClass(this.markerClassName))return;n=t.nodeName.toLowerCase();if(n==="input")t.disabled=!0,s.trigger.filter("button").each(function(){this.disabled=!0}).end().filter("img").css({opacity:"0.5",cursor:"default"});else if(n==="div"||n==="span")r=i.children("."+this._inlineClass),r.children().addClass("ui-state-disabled"),r.find("select.ui-datepicker-month, select.ui-datepicker-year").prop("disabled",!0);this._disabledInputs=e.map(this._disabledInputs,function(e){return e===t?null:e}),this._disabledInputs[this._disabledInputs.length]=t},_isDisabledDatepicker:function(e){if(!e)return!1;for(var t=0;t<this._disabledInputs.length;t++)if(this._disabledInputs[t]===e)return!0;return!1},_getInst:function(t){try{return e.data(t,"datepicker")}catch(n){throw"Missing instance data for this datepicker"}},_optionDatepicker:function(t,n,r){var i,s,u,a,f=this._getInst(t);if(arguments.length===2&&typeof n=="string")return n==="defaults"?e.extend({},e.datepicker._defaults):f?n==="all"?e.extend({},f.settings):this._get(f,n):null;i=n||{},typeof n=="string"&&(i={},i[n]=r),f&&(this._curInst===f&&this._hideDatepicker(),s=this._getDateDatepicker(t,!0),u=this._getMinMaxDate(f,"min"),a=this._getMinMaxDate(f,"max"),o(f.settings,i),u!==null&&i.dateFormat!==undefined&&i.minDate===undefined&&(f.settings.minDate=this._formatDate(f,u)),a!==null&&i.dateFormat!==undefined&&i.maxDate===undefined&&(f.settings.maxDate=this._formatDate(f,a)),"disabled"in i&&(i.disabled?this._disableDatepicker(t):this._enableDatepicker(t)),this._attachments(e(t),f),this._autoSize(f),this._setDate(f,s),this._updateAlternate(f),this._updateDatepicker(f))},_changeDatepicker:function(e,t,n){this._optionDatepicker(e,t,n)},_refreshDatepicker:function(e){var t=this._getInst(e);t&&this._updateDatepicker(t)},_setDateDatepicker:function(e,t){var n=this._getInst(e);n&&(this._setDate(n,t),this._updateDatepicker(n),this._updateAlternate(n))},_getDateDatepicker:function(e,t){var n=this._getInst(e);return n&&!n.inline&&this._setDateFromField(n,t),n?this._getDate(n):null},_doKeyDown:function(t){var n,r,i,s=e.datepicker._getInst(t.target),o=!0,u=s.dpDiv.is(".ui-datepicker-rtl");s._keyEvent=!0;if(e.datepicker._datepickerShowing)switch(t.keyCode){case 9:e.datepicker._hideDatepicker(),o=!1;break;case 13:return i=e("td."+e.datepicker._dayOverClass+":not(."+e.datepicker._currentClass+")",s.dpDiv),i[0]&&e.datepicker._selectDay(t.target,s.selectedMonth,s.selectedYear,i[0]),n=e.datepicker._get(s,"onSelect"),n?(r=e.datepicker._formatDate(s),n.apply(s.input?s.input[0]:null,[r,s])):e.datepicker._hideDatepicker(),!1;case 27:e.datepicker._hideDatepicker();break;case 33:e.datepicker._adjustDate(t.target,t.ctrlKey?-e.datepicker._get(s,"stepBigMonths"):-e.datepicker._get(s,"stepMonths"),"M");break;case 34:e.datepicker._adjustDate(t.target,t.ctrlKey?+e.datepicker._get(s,"stepBigMonths"):+e.datepicker._get(s,"stepMonths"),"M");break;case 35:(t.ctrlKey||t.metaKey)&&e.datepicker._clearDate(t.target),o=t.ctrlKey||t.metaKey;break;case 36:(t.ctrlKey||t.metaKey)&&e.datepicker._gotoToday(t.target),o=t.ctrlKey||t.metaKey;break;case 37:(t.ctrlKey||t.metaKey)&&e.datepicker._adjustDate(t.target,u?1:-1,"D"),o=t.ctrlKey||t.metaKey,t.originalEvent.altKey&&e.datepicker._adjustDate(t.target,t.ctrlKey?-e.datepicker._get(s,"stepBigMonths"):-e.datepicker._get(s,"stepMonths"),"M");break;case 38:(t.ctrlKey||t.metaKey)&&e.datepicker._adjustDate(t.target,-7,"D"),o=t.ctrlKey||t.metaKey;break;case 39:(t.ctrlKey||t.metaKey)&&e.datepicker._adjustDate(t.target,u?-1:1,"D"),o=t.ctrlKey||t.metaKey,t.originalEvent.altKey&&e.datepicker._adjustDate(t.target,t.ctrlKey?+e.datepicker._get(s,"stepBigMonths"):+e.datepicker._get(s,"stepMonths"),"M");break;case 40:(t.ctrlKey||t.metaKey)&&e.datepicker._adjustDate(t.target,7,"D"),o=t.ctrlKey||t.metaKey;break;default:o=!1}else t.keyCode===36&&t.ctrlKey?e.datepicker._showDatepicker(this):o=!1;o&&(t.preventDefault(),t.stopPropagation())},_doKeyPress:function(t){var n,r,i=e.datepicker._getInst(t.target);if(e.datepicker._get(i,"constrainInput"))return n=e.datepicker._possibleChars(e.datepicker._get(i,"dateFormat")),r=String.fromCharCode(t.charCode==null?t.keyCode:t.charCode),t.ctrlKey||t.metaKey||r<" "||!n||n.indexOf(r)>-1},_doKeyUp:function(t){var n,r=e.datepicker._getInst(t.target);if(r.input.val()!==r.lastVal)try{n=e.datepicker.parseDate(e.datepicker._get(r,"dateFormat"),r.input?r.input.val():null,e.datepicker._getFormatConfig(r)),n&&(e.datepicker._setDateFromField(r),e.datepicker._updateAlternate(r),e.datepicker._updateDatepicker(r))}catch(i){}return!0},_showDatepicker:function(t){t=t.target||t,t.nodeName.toLowerCase()!=="input"&&(t=e("input",t.parentNode)[0]);if(e.datepicker._isDisabledDatepicker(t)||e.datepicker._lastInput===t)return;var r,i,s,u,a,f,l;r=e.datepicker._getInst(t),e.datepicker._curInst&&e.datepicker._curInst!==r&&(e.datepicker._curInst.dpDiv.stop(!0,!0),r&&e.datepicker._datepickerShowing&&e.datepicker._hideDatepicker(e.datepicker._curInst.input[0])),i=e.datepicker._get(r,"beforeShow"),s=i?i.apply(t,[t,r]):{};if(s===!1)return;o(r.settings,s),r.lastVal=null,e.datepicker._lastInput=t,e.datepicker._setDateFromField(r),e.datepicker._inDialog&&(t.value=""),e.datepicker._pos||(e.datepicker._pos=e.datepicker._findPos(t),e.datepicker._pos[1]+=t.offsetHeight),u=!1,e(t).parents().each(function(){return u|=e(this).css("position")==="fixed",!u}),a={left:e.datepicker._pos[0],top:e.datepicker._pos[1]},e.datepicker._pos=null,r.dpDiv.empty(),r.dpDiv.css({position:"absolute",display:"block",top:"-1000px"}),e.datepicker._updateDatepicker(r),a=e.datepicker._checkOffset(r,a,u),r.dpDiv.css({position:e.datepicker._inDialog&&e.blockUI?"static":u?"fixed":"absolute",display:"none",left:a.left+"px",top:a.top+"px"}),r.inline||(f=e.datepicker._get(r,"showAnim"),l=e.datepicker._get(r,"duration"),r.dpDiv.css("z-index",n(e(t))+1),e.datepicker._datepickerShowing=!0,e.effects&&e.effects.effect[f]?r.dpDiv.show(f,e.datepicker._get(r,"showOptions"),l):r.dpDiv[f||"show"](f?l:null),e.datepicker._shouldFocusInput(r)&&r.input.focus(),e.datepicker._curInst=r)},_updateDatepicker:function(n){this.maxRows=4,t=n,n.dpDiv.empty().append(this._generateHTML(n)),this._attachHandlers(n);var r,i=this._getNumberOfMonths(n),o=i[1],u=17,a=n.dpDiv.find("."+this._dayOverClass+" a");a.length>0&&s.apply(a.get(0)),n.dpDiv.removeClass("ui-datepicker-multi-2 ui-datepicker-multi-3 ui-datepicker-multi-4").width(""),o>1&&n.dpDiv.addClass("ui-datepicker-multi-"+o).css("width",u*o+"em"),n.dpDiv[(i[0]!==1||i[1]!==1?"add":"remove")+"Class"]("ui-datepicker-multi"),n.dpDiv[(this._get(n,"isRTL")?"add":"remove")+"Class"]("ui-datepicker-rtl"),n===e.datepicker._curInst&&e.datepicker._datepickerShowing&&e.datepicker._shouldFocusInput(n)&&n.input.focus(),n.yearshtml&&(r=n.yearshtml,setTimeout(function(){r===n.yearshtml&&n.yearshtml&&n.dpDiv.find("select.ui-datepicker-year:first").replaceWith(n.yearshtml),r=n.yearshtml=null},0))},_shouldFocusInput:function(e){return e.input&&e.input.is(":visible")&&!e.input.is(":disabled")&&!e.input.is(":focus")},_checkOffset:function(t,n,r){var i=t.dpDiv.outerWidth(),s=t.dpDiv.outerHeight(),o=t.input?t.input.outerWidth():0,u=t.input?t.input.outerHeight():0,a=document.documentElement.clientWidth+(r?0:e(document).scrollLeft()),f=document.documentElement.clientHeight+(r?0:e(document).scrollTop());return n.left-=this._get(t,"isRTL")?i-o:0,n.left-=r&&n.left===t.input.offset().left?e(document).scrollLeft():0,n.top-=r&&n.top===t.input.offset().top+u?e(document).scrollTop():0,n.left-=Math.min(n.left,n.left+i>a&&a>i?Math.abs(n.left+i-a):0),n.top-=Math.min(n.top,n.top+s>f&&f>s?Math.abs(s+u):0),n},_findPos:function(t){var n,r=this._getInst(t),i=this._get(r,"isRTL");while(t&&(t.type==="hidden"||t.nodeType!==1||e.expr.filters.hidden(t)))t=t[i?"previousSibling":"nextSibling"];return n=e(t).offset(),[n.left,n.top]},_hideDatepicker:function(t){var n,r,i,s,o=this._curInst;if(!o||t&&o!==e.data(t,"datepicker"))return;this._datepickerShowing&&(n=this._get(o,"showAnim"),r=this._get(o,"duration"),i=function(){e.datepicker._tidyDialog(o)},e.effects&&(e.effects.effect[n]||e.effects[n])?o.dpDiv.hide(n,e.datepicker._get(o,"showOptions"),r,i):o.dpDiv[n==="slideDown"?"slideUp":n==="fadeIn"?"fadeOut":"hide"](n?r:null,i),n||i(),this._datepickerShowing=!1,s=this._get(o,"onClose"),s&&s.apply(o.input?o.input[0]:null,[o.input?o.input.val():"",o]),this._lastInput=null,this._inDialog&&(this._dialogInput.css({position:"absolute",left:"0",top:"-100px"}),e.blockUI&&(e.unblockUI(),e("body").append(this.dpDiv))),this._inDialog=!1)},_tidyDialog:function(e){e.dpDiv.removeClass(this._dialogClass).unbind(".ui-datepicker-calendar")},_checkExternalClick:function(t){if(!e.datepicker._curInst)return;var n=e(t.target),r=e.datepicker._getInst(n[0]);(n[0].id!==e.datepicker._mainDivId&&n.parents("#"+e.datepicker._mainDivId).length===0&&!n.hasClass(e.datepicker.markerClassName)&&!n.closest("."+e.datepicker._triggerClass).length&&e.datepicker._datepickerShowing&&(!e.datepicker._inDialog||!e.blockUI)||n.hasClass(e.datepicker.markerClassName)&&e.datepicker._curInst!==r)&&e.datepicker._hideDatepicker()},_adjustDate:function(t,n,r){var i=e(t),s=this._getInst(i[0]);if(this._isDisabledDatepicker(i[0]))return;this._adjustInstDate(s,n+(r==="M"?this._get(s,"showCurrentAtPos"):0),r),this._updateDatepicker(s)},_gotoToday:function(t){var n,r=e(t),i=this._getInst(r[0]);this._get(i,"gotoCurrent")&&i.currentDay?(i.selectedDay=i.currentDay,i.drawMonth=i.selectedMonth=i.currentMonth,i.drawYear=i.selectedYear=i.currentYear):(n=new Date,i.selectedDay=n.getDate(),i.drawMonth=i.selectedMonth=n.getMonth(),i.drawYear=i.selectedYear=n.getFullYear()),this._notifyChange(i),this._adjustDate(r)},_selectMonthYear:function(t,n,r){var i=e(t),s=this._getInst(i[0]);s["selected"+(r==="M"?"Month":"Year")]=s["draw"+(r==="M"?"Month":"Year")]=parseInt(n.options[n.selectedIndex].value,10),this._notifyChange(s),this._adjustDate(i)},_selectDay:function(t,n,r,i){var s,o=e(t);if(e(i).hasClass(this._unselectableClass)||this._isDisabledDatepicker(o[0]))return;s=this._getInst(o[0]),s.selectedDay=s.currentDay=e("a",i).html(),s.selectedMonth=s.currentMonth=n,s.selectedYear=s.currentYear=r,this._selectDate(t,this._formatDate(s,s.currentDay,s.currentMonth,s.currentYear))},_clearDate:function(t){var n=e(t);this._selectDate(n,"")},_selectDate:function(t,n){var r,i=e(t),s=this._getInst(i[0]);n=n!=null?n:this._formatDate(s),s.input&&s.input.val(n),this._updateAlternate(s),r=this._get(s,"onSelect"),r?r.apply(s.input?s.input[0]:null,[n,s]):s.input&&s.input.trigger("change"),s.inline?this._updateDatepicker(s):(this._hideDatepicker(),this._lastInput=s.input[0],typeof s.input[0]!="object"&&s.input.focus(),this._lastInput=null)},_updateAlternate:function(t){var n,r,i,s=this._get(t,"altField");s&&(n=this._get(t,"altFormat")||this._get(t,"dateFormat"),r=this._getDate(t),i=this.formatDate(n,r,this._getFormatConfig(t)),e(s).each(function(){e(this).val(i)}))},noWeekends:function(e){var t=e.getDay();return[t>0&&t<6,""]},iso8601Week:function(e){var t,n=new Date(e.getTime());return n.setDate(n.getDate()+4-(n.getDay()||7)),t=n.getTime(),n.setMonth(0),n.setDate(1),Math.floor(Math.round((t-n)/864e5)/7)+1},parseDate:function(t,n,r){if(t==null||n==null)throw"Invalid arguments";n=typeof n=="object"?n.toString():n+"";if(n==="")return null;var i,s,o,u=0,a=(r?r.shortYearCutoff:null)||this._defaults.shortYearCutoff,f=typeof a!="string"?a:(new Date).getFullYear()%100+parseInt(a,10),l=(r?r.dayNamesShort:null)||this._defaults.dayNamesShort,c=(r?r.dayNames:null)||this._defaults.dayNames,h=(r?r.monthNamesShort:null)||this._defaults.monthNamesShort,p=(r?r.monthNames:null)||this._defaults.monthNames,d=-1,v=-1,m=-1,g=-1,y=!1,b,w=function(e){var n=i+1<t.length&&t.charAt(i+1)===e;return n&&i++,n},E=function(e){var t=w(e),r=e==="@"?14:e==="!"?20:e==="y"&&t?4:e==="o"?3:2,i=e==="y"?r:1,s=new RegExp("^\\d{"+i+","+r+"}"),o=n.substring(u).match(s);if(!o)throw"Missing number at position "+u;return u+=o[0].length,parseInt(o[0],10)},S=function(t,r,i){var s=-1,o=e.map(w(t)?i:r,function(e,t){return[[t,e]]}).sort(function(e,t){return-(e[1].length-t[1].length)});e.each(o,function(e,t){var r=t[1];if(n.substr(u,r.length).toLowerCase()===r.toLowerCase())return s=t[0],u+=r.length,!1});if(s!==-1)return s+1;throw"Unknown name at position "+u},x=function(){if(n.charAt(u)!==t.charAt(i))throw"Unexpected literal at position "+u;u++};for(i=0;i<t.length;i++)if(y)t.charAt(i)==="'"&&!w("'")?y=!1:x();else switch(t.charAt(i)){case"d":m=E("d");break;case"D":S("D",l,c);break;case"o":g=E("o");break;case"m":v=E("m");break;case"M":v=S("M",h,p);break;case"y":d=E("y");break;case"@":b=new Date(E("@")),d=b.getFullYear(),v=b.getMonth()+1,m=b.getDate();break;case"!":b=new Date((E("!")-this._ticksTo1970)/1e4),d=b.getFullYear(),v=b.getMonth()+1,m=b.getDate();break;case"'":w("'")?x():y=!0;break;default:x()}if(u<n.length){o=n.substr(u);if(!/^\s+/.test(o))throw"Extra/unparsed characters found in date: "+o}d===-1?d=(new Date).getFullYear():d<100&&(d+=(new Date).getFullYear()-(new Date).getFullYear()%100+(d<=f?0:-100));if(g>-1){v=1,m=g;do{s=this._getDaysInMonth(d,v-1);if(m<=s)break;v++,m-=s}while(!0)}b=this._daylightSavingAdjust(new Date(d,v-1,m));if(b.getFullYear()!==d||b.getMonth()+1!==v||b.getDate()!==m)throw"Invalid date";return b},ATOM:"yy-mm-dd",COOKIE:"D, dd M yy",ISO_8601:"yy-mm-dd",RFC_822:"D, d M y",RFC_850:"DD, dd-M-y",RFC_1036:"D, d M y",RFC_1123:"D, d M yy",RFC_2822:"D, d M yy",RSS:"D, d M y",TICKS:"!",TIMESTAMP:"@",W3C:"yy-mm-dd",_ticksTo1970:(718685+Math.floor(492.5)-Math.floor(19.7)+Math.floor(4.925))*24*60*60*1e7,formatDate:function(e,t,n){if(!t)return"";var r,i=(n?n.dayNamesShort:null)||this._defaults.dayNamesShort,s=(n?n.dayNames:null)||this._defaults.dayNames,o=(n?n.monthNamesShort:null)||this._defaults.monthNamesShort,u=(n?n.monthNames:null)||this._defaults.monthNames,a=function(t){var n=r+1<e.length&&e.charAt(r+1)===t;return n&&r++,n},f=function(e,t,n){var r=""+t;if(a(e))while(r.length<n)r="0"+r;return r},l=function(e,t,n,r){return a(e)?r[t]:n[t]},c="",h=!1;if(t)for(r=0;r<e.length;r++)if(h)e.charAt(r)==="'"&&!a("'")?h=!1:c+=e.charAt(r);else switch(e.charAt(r)){case"d":c+=f("d",t.getDate(),2);break;case"D":c+=l("D",t.getDay(),i,s);break;case"o":c+=f("o",Math.round(((new Date(t.getFullYear(),t.getMonth(),t.getDate())).getTime()-(new Date(t.getFullYear(),0,0)).getTime())/864e5),3);break;case"m":c+=f("m",t.getMonth()+1,2);break;case"M":c+=l("M",t.getMonth(),o,u);break;case"y":c+=a("y")?t.getFullYear():(t.getYear()%100<10?"0":"")+t.getYear()%100;break;case"@":c+=t.getTime();break;case"!":c+=t.getTime()*1e4+this._ticksTo1970;break;case"'":a("'")?c+="'":h=!0;break;default:c+=e.charAt(r)}return c},_possibleChars:function(e){var t,n="",r=!1,i=function(n){var r=t+1<e.length&&e.charAt(t+1)===n;return r&&t++,r};for(t=0;t<e.length;t++)if(r)e.charAt(t)==="'"&&!i("'")?r=!1:n+=e.charAt(t);else switch(e.charAt(t)){case"d":case"m":case"y":case"@":n+="0123456789";break;case"D":case"M":return null;case"'":i("'")?n+="'":r=!0;break;default:n+=e.charAt(t)}return n},_get:function(e,t){return e.settings[t]!==undefined?e.settings[t]:this._defaults[t]},_setDateFromField:function(e,t){if(e.input.val()===e.lastVal)return;var n=this._get(e,"dateFormat"),r=e.lastVal=e.input?e.input.val():null,i=this._getDefaultDate(e),s=i,o=this._getFormatConfig(e);try{s=this.parseDate(n,r,o)||i}catch(u){r=t?"":r}e.selectedDay=s.getDate(),e.drawMonth=e.selectedMonth=s.getMonth(),e.drawYear=e.selectedYear=s.getFullYear(),e.currentDay=r?s.getDate():0,e.currentMonth=r?s.getMonth():0,e.currentYear=r?s.getFullYear():0,this._adjustInstDate(e)},_getDefaultDate:function(e){return this._restrictMinMax(e,this._determineDate(e,this._get(e,"defaultDate"),new Date))},_determineDate:function(t,n,r){var i=function(e){var t=new Date;return t.setDate(t.getDate()+e),t},s=function(n){try{return e.datepicker.parseDate(e.datepicker._get(t,"dateFormat"),n,e.datepicker._getFormatConfig(t))}catch(r){}var i=(n.toLowerCase().match(/^c/)?e.datepicker._getDate(t):null)||new Date,s=i.getFullYear(),o=i.getMonth(),u=i.getDate(),a=/([+\-]?[0-9]+)\s*(d|D|w|W|m|M|y|Y)?/g,f=a.exec(n);while(f){switch(f[2]||"d"){case"d":case"D":u+=parseInt(f[1],10);break;case"w":case"W":u+=parseInt(f[1],10)*7;break;case"m":case"M":o+=parseInt(f[1],10),u=Math.min(u,e.datepicker._getDaysInMonth(s,o));break;case"y":case"Y":s+=parseInt(f[1],10),u=Math.min(u,e.datepicker._getDaysInMonth(s,o))}f=a.exec(n)}return new Date(s,o,u)},o=n==null||n===""?r:typeof n=="string"?s(n):typeof n=="number"?isNaN(n)?r:i(n):new Date(n.getTime());return o=o&&o.toString()==="Invalid Date"?r:o,o&&(o.setHours(0),o.setMinutes(0),o.setSeconds(0),o.setMilliseconds(0)),this._daylightSavingAdjust(o)},_daylightSavingAdjust:function(e){return e?(e.setHours(e.getHours()>12?e.getHours()+2:0),e):null},_setDate:function(e,t,n){var r=!t,i=e.selectedMonth,s=e.selectedYear,o=this._restrictMinMax(e,this._determineDate(e,t,new Date));e.selectedDay=e.currentDay=o.getDate(),e.drawMonth=e.selectedMonth=e.currentMonth=o.getMonth(),e.drawYear=e.selectedYear=e.currentYear=o.getFullYear(),(i!==e.selectedMonth||s!==e.selectedYear)&&!n&&this._notifyChange(e),this._adjustInstDate(e),e.input&&e.input.val(r?"":this._formatDate(e))},_getDate:function(e){var t=!e.currentYear||e.input&&e.input.val()===""?null:this._daylightSavingAdjust(new Date(e.currentYear,e.currentMonth,e.currentDay));return t},_attachHandlers:function(t){var n=this._get(t,"stepMonths"),r="#"+t.id.replace(/\\\\/g,"\\");t.dpDiv.find("[data-handler]").map(function(){var t={prev:function(){e.datepicker._adjustDate(r,-n,"M")},next:function(){e.datepicker._adjustDate(r,+n,"M")},hide:function(){e.datepicker._hideDatepicker()},today:function(){e.datepicker._gotoToday(r)},selectDay:function(){return e.datepicker._selectDay(r,+this.getAttribute("data-month"),+this.getAttribute("data-year"),this),!1},selectMonth:function(){return e.datepicker._selectMonthYear(r,this,"M"),!1},selectYear:function(){return e.datepicker._selectMonthYear(r,this,"Y"),!1}};e(this).bind(this.getAttribute("data-event"),t[this.getAttribute("data-handler")])})},_generateHTML:function(e){var t,n,r,i,s,o,u,a,f,l,c,h,p,d,v,m,g,y,b,w,E,S,x,T,N,C,k,L,A,O,M,_,D,P,H,B,j,F,I,q=new Date,R=this._daylightSavingAdjust(new Date(q.getFullYear(),q.getMonth(),q.getDate())),U=this._get(e,"isRTL"),z=this._get(e,"showButtonPanel"),W=this._get(e,"hideIfNoPrevNext"),X=this._get(e,"navigationAsDateFormat"),V=this._getNumberOfMonths(e),$=this._get(e,"showCurrentAtPos"),J=this._get(e,"stepMonths"),K=V[0]!==1||V[1]!==1,Q=this._daylightSavingAdjust(e.currentDay?new Date(e.currentYear,e.currentMonth,e.currentDay):new Date(9999,9,9)),G=this._getMinMaxDate(e,"min"),Y=this._getMinMaxDate(e,"max"),Z=e.drawMonth-$,et=e.drawYear;Z<0&&(Z+=12,et--);if(Y){t=this._daylightSavingAdjust(new Date(Y.getFullYear(),Y.getMonth()-V[0]*V[1]+1,Y.getDate())),t=G&&t<G?G:t;while(this._daylightSavingAdjust(new Date(et,Z,1))>t)Z--,Z<0&&(Z=11,et--)}e.drawMonth=Z,e.drawYear=et,n=this._get(e,"prevText"),n=X?this.formatDate(n,this._daylightSavingAdjust(new Date(et,Z-J,1)),this._getFormatConfig(e)):n,r=this._canAdjustMonth(e,-1,et,Z)?"<a class='ui-datepicker-prev ui-corner-all' data-handler='prev' data-event='click' title='"+n+"'><span class='ui-icon ui-icon-circle-triangle-"+(U?"e":"w")+"'>"+n+"</span></a>":W?"":"<a class='ui-datepicker-prev ui-corner-all ui-state-disabled' title='"+n+"'><span class='ui-icon ui-icon-circle-triangle-"+(U?"e":"w")+"'>"+n+"</span></a>",i=this._get(e,"nextText"),i=X?this.formatDate(i,this._daylightSavingAdjust(new Date(et,Z+J,1)),this._getFormatConfig(e)):i,s=this._canAdjustMonth(e,1,et,Z)?"<a class='ui-datepicker-next ui-corner-all' data-handler='next' data-event='click' title='"+i+"'><span class='ui-icon ui-icon-circle-triangle-"+(U?"w":"e")+"'>"+i+"</span></a>":W?"":"<a class='ui-datepicker-next ui-corner-all ui-state-disabled' title='"+i+"'><span class='ui-icon ui-icon-circle-triangle-"+(U?"w":"e")+"'>"+i+"</span></a>",o=this._get(e,"currentText"),u=this._get(e,"gotoCurrent")&&e.currentDay?Q:R,o=X?this.formatDate(o,u,this._getFormatConfig(e)):o,a=e.inline?"":"<button type='button' class='ui-datepicker-close ui-state-default ui-priority-primary ui-corner-all' data-handler='hide' data-event='click'>"+this._get(e,"closeText")+"</button>",f=z?"<div class='ui-datepicker-buttonpane ui-widget-content'>"+(U?a:"")+(this._isInRange(e,u)?"<button type='button' class='ui-datepicker-current ui-state-default ui-priority-secondary ui-corner-all' data-handler='today' data-event='click'>"+o+"</button>":"")+(U?"":a)+"</div>":"",l=parseInt(this._get(e,"firstDay"),10),l=isNaN(l)?0:l,c=this._get(e,"showWeek"),h=this._get(e,"dayNames"),p=this._get(e,"dayNamesMin"),d=this._get(e,"monthNames"),v=this._get(e,"monthNamesShort"),m=this._get(e,"beforeShowDay"),g=this._get(e,"showOtherMonths"),y=this._get(e,"selectOtherMonths"),b=this._getDefaultDate(e),w="",E;for(S=0;S<V[0];S++){x="",this.maxRows=4;for(T=0;T<V[1];T++){N=this._daylightSavingAdjust(new Date(et,Z,e.selectedDay)),C=" ui-corner-all",k="";if(K){k+="<div class='ui-datepicker-group";if(V[1]>1)switch(T){case 0:k+=" ui-datepicker-group-first",C=" ui-corner-"+(U?"right":"left");break;case V[1]-1:k+=" ui-datepicker-group-last",C=" ui-corner-"+(U?"left":"right");break;default:k+=" ui-datepicker-group-middle",C=""}k+="'>"}k+="<div class='ui-datepicker-header ui-widget-header ui-helper-clearfix"+C+"'>"+(/all|left/.test(C)&&S===0?U?s:r:"")+(/all|right/.test(C)&&S===0?U?r:s:"")+this._generateMonthYearHeader(e,Z,et,G,Y,S>0||T>0,d,v)+"</div><table class='ui-datepicker-calendar'><thead>"+"<tr>",L=c?"<th class='ui-datepicker-week-col'>"+this._get(e,"weekHeader")+"</th>":"";for(E=0;E<7;E++)A=(E+l)%7,L+="<th scope='col'"+((E+l+6)%7>=5?" class='ui-datepicker-week-end'":"")+">"+"<span title='"+h[A]+"'>"+p[A]+"</span></th>";k+=L+"</tr></thead><tbody>",O=this._getDaysInMonth(et,Z),et===e.selectedYear&&Z===e.selectedMonth&&(e.selectedDay=Math.min(e.selectedDay,O)),M=(this._getFirstDayOfMonth(et,Z)-l+7)%7,_=Math.ceil((M+O)/7),D=K?this.maxRows>_?this.maxRows:_:_,this.maxRows=D,P=this._daylightSavingAdjust(new Date(et,Z,1-M));for(H=0;H<D;H++){k+="<tr>",B=c?"<td class='ui-datepicker-week-col'>"+this._get(e,"calculateWeek")(P)+"</td>":"";for(E=0;E<7;E++)j=m?m.apply(e.input?e.input[0]:null,[P]):[!0,""],F=P.getMonth()!==Z,I=F&&!y||!j[0]||G&&P<G||Y&&P>Y,B+="<td class='"+((E+l+6)%7>=5?" ui-datepicker-week-end":"")+(F?" ui-datepicker-other-month":"")+(P.getTime()===N.getTime()&&Z===e.selectedMonth&&e._keyEvent||b.getTime()===P.getTime()&&b.getTime()===N.getTime()?" "+this._dayOverClass:"")+(I?" "+this._unselectableClass+" ui-state-disabled":"")+(F&&!g?"":" "+j[1]+(P.getTime()===Q.getTime()?" "+this._currentClass:"")+(P.getTime()===R.getTime()?" ui-datepicker-today":""))+"'"+((!F||g)&&j[2]?" title='"+j[2].replace(/'/g,"&#39;")+"'":"")+(I?"":" data-handler='selectDay' data-event='click' data-month='"+P.getMonth()+"' data-year='"+P.getFullYear()+"'")+">"+(F&&!g?"&#xa0;":I?"<span class='ui-state-default'>"+P.getDate()+"</span>":"<a class='ui-state-default"+(P.getTime()===R.getTime()?" ui-state-highlight":"")+(P.getTime()===Q.getTime()?" ui-state-active":"")+(F?" ui-priority-secondary":"")+"' href='#'>"+P.getDate()+"</a>")+"</td>",P.setDate(P.getDate()+1),P=this._daylightSavingAdjust(P);k+=B+"</tr>"}Z++,Z>11&&(Z=0,et++),k+="</tbody></table>"+(K?"</div>"+(V[0]>0&&T===V[1]-1?"<div class='ui-datepicker-row-break'></div>":""):""),x+=k}w+=x}return w+=f,e._keyEvent=!1,w},_generateMonthYearHeader:function(e,t,n,r,i,s,o,u){var a,f,l,c,h,p,d,v,m=this._get(e,"changeMonth"),g=this._get(e,"changeYear"),y=this._get(e,"showMonthAfterYear"),b="<div class='ui-datepicker-title'>",w="";if(s||!m)w+="<span class='ui-datepicker-month'>"+o[t]+"</span>";else{a=r&&r.getFullYear()===n,f=i&&i.getFullYear()===n,w+="<select class='ui-datepicker-month' data-handler='selectMonth' data-event='change'>";for(l=0;l<12;l++)(!a||l>=r.getMonth())&&(!f||l<=i.getMonth())&&(w+="<option value='"+l+"'"+(l===t?" selected='selected'":"")+">"+u[l]+"</option>");w+="</select>"}y||(b+=w+(s||!m||!g?"&#xa0;":""));if(!e.yearshtml){e.yearshtml="";if(s||!g)b+="<span class='ui-datepicker-year'>"+
+n+"</span>";else{c=this._get(e,"yearRange").split(":"),h=(new Date).getFullYear(),p=function(e){var t=e.match(/c[+\-].*/)?n+parseInt(e.substring(1),10):e.match(/[+\-].*/)?h+parseInt(e,10):parseInt(e,10);return isNaN(t)?h:t},d=p(c[0]),v=Math.max(d,p(c[1]||"")),d=r?Math.max(d,r.getFullYear()):d,v=i?Math.min(v,i.getFullYear()):v,e.yearshtml+="<select class='ui-datepicker-year' data-handler='selectYear' data-event='change'>";for(;d<=v;d++)e.yearshtml+="<option value='"+d+"'"+(d===n?" selected='selected'":"")+">"+d+"</option>";e.yearshtml+="</select>",b+=e.yearshtml,e.yearshtml=null}}return b+=this._get(e,"yearSuffix"),y&&(b+=(s||!m||!g?"&#xa0;":"")+w),b+="</div>",b},_adjustInstDate:function(e,t,n){var r=e.drawYear+(n==="Y"?t:0),i=e.drawMonth+(n==="M"?t:0),s=Math.min(e.selectedDay,this._getDaysInMonth(r,i))+(n==="D"?t:0),o=this._restrictMinMax(e,this._daylightSavingAdjust(new Date(r,i,s)));e.selectedDay=o.getDate(),e.drawMonth=e.selectedMonth=o.getMonth(),e.drawYear=e.selectedYear=o.getFullYear(),(n==="M"||n==="Y")&&this._notifyChange(e)},_restrictMinMax:function(e,t){var n=this._getMinMaxDate(e,"min"),r=this._getMinMaxDate(e,"max"),i=n&&t<n?n:t;return r&&i>r?r:i},_notifyChange:function(e){var t=this._get(e,"onChangeMonthYear");t&&t.apply(e.input?e.input[0]:null,[e.selectedYear,e.selectedMonth+1,e])},_getNumberOfMonths:function(e){var t=this._get(e,"numberOfMonths");return t==null?[1,1]:typeof t=="number"?[1,t]:t},_getMinMaxDate:function(e,t){return this._determineDate(e,this._get(e,t+"Date"),null)},_getDaysInMonth:function(e,t){return 32-this._daylightSavingAdjust(new Date(e,t,32)).getDate()},_getFirstDayOfMonth:function(e,t){return(new Date(e,t,1)).getDay()},_canAdjustMonth:function(e,t,n,r){var i=this._getNumberOfMonths(e),s=this._daylightSavingAdjust(new Date(n,r+(t<0?t:i[0]*i[1]),1));return t<0&&s.setDate(this._getDaysInMonth(s.getFullYear(),s.getMonth())),this._isInRange(e,s)},_isInRange:function(e,t){var n,r,i=this._getMinMaxDate(e,"min"),s=this._getMinMaxDate(e,"max"),o=null,u=null,a=this._get(e,"yearRange");return a&&(n=a.split(":"),r=(new Date).getFullYear(),o=parseInt(n[0],10),u=parseInt(n[1],10),n[0].match(/[+\-].*/)&&(o+=r),n[1].match(/[+\-].*/)&&(u+=r)),(!i||t.getTime()>=i.getTime())&&(!s||t.getTime()<=s.getTime())&&(!o||t.getFullYear()>=o)&&(!u||t.getFullYear()<=u)},_getFormatConfig:function(e){var t=this._get(e,"shortYearCutoff");return t=typeof t!="string"?t:(new Date).getFullYear()%100+parseInt(t,10),{shortYearCutoff:t,dayNamesShort:this._get(e,"dayNamesShort"),dayNames:this._get(e,"dayNames"),monthNamesShort:this._get(e,"monthNamesShort"),monthNames:this._get(e,"monthNames")}},_formatDate:function(e,t,n,r){t||(e.currentDay=e.selectedDay,e.currentMonth=e.selectedMonth,e.currentYear=e.selectedYear);var i=t?typeof t=="object"?t:this._daylightSavingAdjust(new Date(r,n,t)):this._daylightSavingAdjust(new Date(e.currentYear,e.currentMonth,e.currentDay));return this.formatDate(this._get(e,"dateFormat"),i,this._getFormatConfig(e))}}),e.fn.datepicker=function(t){if(!this.length)return this;e.datepicker.initialized||(e(document).mousedown(e.datepicker._checkExternalClick),e.datepicker.initialized=!0),e("#"+e.datepicker._mainDivId).length===0&&e("body").append(e.datepicker.dpDiv);var n=Array.prototype.slice.call(arguments,1);return typeof t!="string"||t!=="isDisabled"&&t!=="getDate"&&t!=="widget"?t==="option"&&arguments.length===2&&typeof arguments[1]=="string"?e.datepicker["_"+t+"Datepicker"].apply(e.datepicker,[this[0]].concat(n)):this.each(function(){typeof t=="string"?e.datepicker["_"+t+"Datepicker"].apply(e.datepicker,[this].concat(n)):e.datepicker._attachDatepicker(this,t)}):e.datepicker["_"+t+"Datepicker"].apply(e.datepicker,[this[0]].concat(n))},e.datepicker=new r,e.datepicker.initialized=!1,e.datepicker.uuid=(new Date).getTime(),e.datepicker.version="1.11.4",e.datepicker});;
+/**
+ * @file
+ * Polyfill for HTML5 date input.
  */
-!function(e){"use strict";"function"==typeof define&&define.amd?define(["jquery"],e):e("undefined"!=typeof jQuery?jQuery:window.Zepto)}(function(e){"use strict";function t(t){var r=t.data;t.isDefaultPrevented()||(t.preventDefault(),e(t.target).ajaxSubmit(r))}function r(t){var r=t.target,a=e(r);if(!a.is("[type=submit],[type=image]")){var n=a.closest("[type=submit]");if(0===n.length)return;r=n[0]}var i=this;if(i.clk=r,"image"==r.type)if(void 0!==t.offsetX)i.clk_x=t.offsetX,i.clk_y=t.offsetY;else if("function"==typeof e.fn.offset){var o=a.offset();i.clk_x=t.pageX-o.left,i.clk_y=t.pageY-o.top}else i.clk_x=t.pageX-r.offsetLeft,i.clk_y=t.pageY-r.offsetTop;setTimeout(function(){i.clk=i.clk_x=i.clk_y=null},100)}function a(){if(e.fn.ajaxSubmit.debug){var t="[jquery.form] "+Array.prototype.join.call(arguments,"");window.console&&window.console.log?window.console.log(t):window.opera&&window.opera.postError&&window.opera.postError(t)}}var n={};n.fileapi=void 0!==e("<input type='file'/>").get(0).files,n.formdata=void 0!==window.FormData;var i=!!e.fn.prop;e.fn.attr2=function(){if(!i)return this.attr.apply(this,arguments);var e=this.prop.apply(this,arguments);return e&&e.jquery||"string"==typeof e?e:this.attr.apply(this,arguments)},e.fn.ajaxSubmit=function(t){function r(r){var a,n,i=e.param(r,t.traditional).split("&"),o=i.length,s=[];for(a=0;o>a;a++)i[a]=i[a].replace(/\+/g," "),n=i[a].split("="),s.push([decodeURIComponent(n[0]),decodeURIComponent(n[1])]);return s}function o(a){for(var n=new FormData,i=0;i<a.length;i++)n.append(a[i].name,a[i].value);if(t.extraData){var o=r(t.extraData);for(i=0;i<o.length;i++)o[i]&&n.append(o[i][0],o[i][1])}t.data=null;var s=e.extend(!0,{},e.ajaxSettings,t,{contentType:!1,processData:!1,cache:!1,type:u||"POST"});t.uploadProgress&&(s.xhr=function(){var r=e.ajaxSettings.xhr();return r.upload&&r.upload.addEventListener("progress",function(e){var r=0,a=e.loaded||e.position,n=e.total;e.lengthComputable&&(r=Math.ceil(a/n*100)),t.uploadProgress(e,a,n,r)},!1),r}),s.data=null;var c=s.beforeSend;return s.beforeSend=function(e,r){r.data=t.formData?t.formData:n,c&&c.call(this,e,r)},e.ajax(s)}function s(r){function n(e){var t=null;try{e.contentWindow&&(t=e.contentWindow.document)}catch(r){a("cannot get iframe.contentWindow document: "+r)}if(t)return t;try{t=e.contentDocument?e.contentDocument:e.document}catch(r){a("cannot get iframe.contentDocument: "+r),t=e.document}return t}function o(){function t(){try{var e=n(g).readyState;a("state = "+e),e&&"uninitialized"==e.toLowerCase()&&setTimeout(t,50)}catch(r){a("Server abort: ",r," (",r.name,")"),s(k),j&&clearTimeout(j),j=void 0}}var r=f.attr2("target"),i=f.attr2("action"),o="multipart/form-data",c=f.attr("enctype")||f.attr("encoding")||o;w.setAttribute("target",p),(!u||/post/i.test(u))&&w.setAttribute("method","POST"),i!=m.url&&w.setAttribute("action",m.url),m.skipEncodingOverride||u&&!/post/i.test(u)||f.attr({encoding:"multipart/form-data",enctype:"multipart/form-data"}),m.timeout&&(j=setTimeout(function(){T=!0,s(D)},m.timeout));var l=[];try{if(m.extraData)for(var d in m.extraData)m.extraData.hasOwnProperty(d)&&l.push(e.isPlainObject(m.extraData[d])&&m.extraData[d].hasOwnProperty("name")&&m.extraData[d].hasOwnProperty("value")?e('<input type="hidden" name="'+m.extraData[d].name+'">').val(m.extraData[d].value).appendTo(w)[0]:e('<input type="hidden" name="'+d+'">').val(m.extraData[d]).appendTo(w)[0]);m.iframeTarget||v.appendTo("body"),g.attachEvent?g.attachEvent("onload",s):g.addEventListener("load",s,!1),setTimeout(t,15);try{w.submit()}catch(h){var x=document.createElement("form").submit;x.apply(w)}}finally{w.setAttribute("action",i),w.setAttribute("enctype",c),r?w.setAttribute("target",r):f.removeAttr("target"),e(l).remove()}}function s(t){if(!x.aborted&&!F){if(M=n(g),M||(a("cannot access response document"),t=k),t===D&&x)return x.abort("timeout"),void S.reject(x,"timeout");if(t==k&&x)return x.abort("server abort"),void S.reject(x,"error","server abort");if(M&&M.location.href!=m.iframeSrc||T){g.detachEvent?g.detachEvent("onload",s):g.removeEventListener("load",s,!1);var r,i="success";try{if(T)throw"timeout";var o="xml"==m.dataType||M.XMLDocument||e.isXMLDoc(M);if(a("isXml="+o),!o&&window.opera&&(null===M.body||!M.body.innerHTML)&&--O)return a("requeing onLoad callback, DOM not available"),void setTimeout(s,250);var u=M.body?M.body:M.documentElement;x.responseText=u?u.innerHTML:null,x.responseXML=M.XMLDocument?M.XMLDocument:M,o&&(m.dataType="xml"),x.getResponseHeader=function(e){var t={"content-type":m.dataType};return t[e.toLowerCase()]},u&&(x.status=Number(u.getAttribute("status"))||x.status,x.statusText=u.getAttribute("statusText")||x.statusText);var c=(m.dataType||"").toLowerCase(),l=/(json|script|text)/.test(c);if(l||m.textarea){var f=M.getElementsByTagName("textarea")[0];if(f)x.responseText=f.value,x.status=Number(f.getAttribute("status"))||x.status,x.statusText=f.getAttribute("statusText")||x.statusText;else if(l){var p=M.getElementsByTagName("pre")[0],h=M.getElementsByTagName("body")[0];p?x.responseText=p.textContent?p.textContent:p.innerText:h&&(x.responseText=h.textContent?h.textContent:h.innerText)}}else"xml"==c&&!x.responseXML&&x.responseText&&(x.responseXML=X(x.responseText));try{E=_(x,c,m)}catch(y){i="parsererror",x.error=r=y||i}}catch(y){a("error caught: ",y),i="error",x.error=r=y||i}x.aborted&&(a("upload aborted"),i=null),x.status&&(i=x.status>=200&&x.status<300||304===x.status?"success":"error"),"success"===i?(m.success&&m.success.call(m.context,E,"success",x),S.resolve(x.responseText,"success",x),d&&e.event.trigger("ajaxSuccess",[x,m])):i&&(void 0===r&&(r=x.statusText),m.error&&m.error.call(m.context,x,i,r),S.reject(x,"error",r),d&&e.event.trigger("ajaxError",[x,m,r])),d&&e.event.trigger("ajaxComplete",[x,m]),d&&!--e.active&&e.event.trigger("ajaxStop"),m.complete&&m.complete.call(m.context,x,i),F=!0,m.timeout&&clearTimeout(j),setTimeout(function(){m.iframeTarget?v.attr("src",m.iframeSrc):v.remove(),x.responseXML=null},100)}}}var c,l,m,d,p,v,g,x,y,b,T,j,w=f[0],S=e.Deferred();if(S.abort=function(e){x.abort(e)},r)for(l=0;l<h.length;l++)c=e(h[l]),i?c.prop("disabled",!1):c.removeAttr("disabled");if(m=e.extend(!0,{},e.ajaxSettings,t),m.context=m.context||m,p="jqFormIO"+(new Date).getTime(),m.iframeTarget?(v=e(m.iframeTarget),b=v.attr2("name"),b?p=b:v.attr2("name",p)):(v=e('<iframe name="'+p+'" src="'+m.iframeSrc+'" />'),v.css({position:"absolute",top:"-1000px",left:"-1000px"})),g=v[0],x={aborted:0,responseText:null,responseXML:null,status:0,statusText:"n/a",getAllResponseHeaders:function(){},getResponseHeader:function(){},setRequestHeader:function(){},abort:function(t){var r="timeout"===t?"timeout":"aborted";a("aborting upload... "+r),this.aborted=1;try{g.contentWindow.document.execCommand&&g.contentWindow.document.execCommand("Stop")}catch(n){}v.attr("src",m.iframeSrc),x.error=r,m.error&&m.error.call(m.context,x,r,t),d&&e.event.trigger("ajaxError",[x,m,r]),m.complete&&m.complete.call(m.context,x,r)}},d=m.global,d&&0===e.active++&&e.event.trigger("ajaxStart"),d&&e.event.trigger("ajaxSend",[x,m]),m.beforeSend&&m.beforeSend.call(m.context,x,m)===!1)return m.global&&e.active--,S.reject(),S;if(x.aborted)return S.reject(),S;y=w.clk,y&&(b=y.name,b&&!y.disabled&&(m.extraData=m.extraData||{},m.extraData[b]=y.value,"image"==y.type&&(m.extraData[b+".x"]=w.clk_x,m.extraData[b+".y"]=w.clk_y)));var D=1,k=2,A=e("meta[name=csrf-token]").attr("content"),L=e("meta[name=csrf-param]").attr("content");L&&A&&(m.extraData=m.extraData||{},m.extraData[L]=A),m.forceSync?o():setTimeout(o,10);var E,M,F,O=50,X=e.parseXML||function(e,t){return window.ActiveXObject?(t=new ActiveXObject("Microsoft.XMLDOM"),t.async="false",t.loadXML(e)):t=(new DOMParser).parseFromString(e,"text/xml"),t&&t.documentElement&&"parsererror"!=t.documentElement.nodeName?t:null},C=e.parseJSON||function(e){return window.eval("("+e+")")},_=function(t,r,a){var n=t.getResponseHeader("content-type")||"",i="xml"===r||!r&&n.indexOf("xml")>=0,o=i?t.responseXML:t.responseText;return i&&"parsererror"===o.documentElement.nodeName&&e.error&&e.error("parsererror"),a&&a.dataFilter&&(o=a.dataFilter(o,r)),"string"==typeof o&&("json"===r||!r&&n.indexOf("json")>=0?o=C(o):("script"===r||!r&&n.indexOf("javascript")>=0)&&e.globalEval(o)),o};return S}if(!this.length)return a("ajaxSubmit: skipping submit process - no element selected"),this;var u,c,l,f=this;"function"==typeof t?t={success:t}:void 0===t&&(t={}),u=t.type||this.attr2("method"),c=t.url||this.attr2("action"),l="string"==typeof c?e.trim(c):"",l=l||window.location.href||"",l&&(l=(l.match(/^([^#]+)/)||[])[1]),t=e.extend(!0,{url:l,success:e.ajaxSettings.success,type:u||e.ajaxSettings.type,iframeSrc:/^https/i.test(window.location.href||"")?"javascript:false":"about:blank"},t);var m={};if(this.trigger("form-pre-serialize",[this,t,m]),m.veto)return a("ajaxSubmit: submit vetoed via form-pre-serialize trigger"),this;if(t.beforeSerialize&&t.beforeSerialize(this,t)===!1)return a("ajaxSubmit: submit aborted via beforeSerialize callback"),this;var d=t.traditional;void 0===d&&(d=e.ajaxSettings.traditional);var p,h=[],v=this.formToArray(t.semantic,h);if(t.data&&(t.extraData=t.data,p=e.param(t.data,d)),t.beforeSubmit&&t.beforeSubmit(v,this,t)===!1)return a("ajaxSubmit: submit aborted via beforeSubmit callback"),this;if(this.trigger("form-submit-validate",[v,this,t,m]),m.veto)return a("ajaxSubmit: submit vetoed via form-submit-validate trigger"),this;var g=e.param(v,d);p&&(g=g?g+"&"+p:p),"GET"==t.type.toUpperCase()?(t.url+=(t.url.indexOf("?")>=0?"&":"?")+g,t.data=null):t.data=g;var x=[];if(t.resetForm&&x.push(function(){f.resetForm()}),t.clearForm&&x.push(function(){f.clearForm(t.includeHidden)}),!t.dataType&&t.target){var y=t.success||function(){};x.push(function(r){var a=t.replaceTarget?"replaceWith":"html";e(t.target)[a](r).each(y,arguments)})}else t.success&&x.push(t.success);if(t.success=function(e,r,a){for(var n=t.context||this,i=0,o=x.length;o>i;i++)x[i].apply(n,[e,r,a||f,f])},t.error){var b=t.error;t.error=function(e,r,a){var n=t.context||this;b.apply(n,[e,r,a,f])}}if(t.complete){var T=t.complete;t.complete=function(e,r){var a=t.context||this;T.apply(a,[e,r,f])}}var j=e("input[type=file]:enabled",this).filter(function(){return""!==e(this).val()}),w=j.length>0,S="multipart/form-data",D=f.attr("enctype")==S||f.attr("encoding")==S,k=n.fileapi&&n.formdata;a("fileAPI :"+k);var A,L=(w||D)&&!k;t.iframe!==!1&&(t.iframe||L)?t.closeKeepAlive?e.get(t.closeKeepAlive,function(){A=s(v)}):A=s(v):A=(w||D)&&k?o(v):e.ajax(t),f.removeData("jqxhr").data("jqxhr",A);for(var E=0;E<h.length;E++)h[E]=null;return this.trigger("form-submit-notify",[this,t]),this},e.fn.ajaxForm=function(n){if(n=n||{},n.delegation=n.delegation&&e.isFunction(e.fn.on),!n.delegation&&0===this.length){var i={s:this.selector,c:this.context};return!e.isReady&&i.s?(a("DOM not ready, queuing ajaxForm"),e(function(){e(i.s,i.c).ajaxForm(n)}),this):(a("terminating; zero elements found by selector"+(e.isReady?"":" (DOM not ready)")),this)}return n.delegation?(e(document).off("submit.form-plugin",this.selector,t).off("click.form-plugin",this.selector,r).on("submit.form-plugin",this.selector,n,t).on("click.form-plugin",this.selector,n,r),this):this.ajaxFormUnbind().bind("submit.form-plugin",n,t).bind("click.form-plugin",n,r)},e.fn.ajaxFormUnbind=function(){return this.unbind("submit.form-plugin click.form-plugin")},e.fn.formToArray=function(t,r){var a=[];if(0===this.length)return a;var i,o=this[0],s=this.attr("id"),u=t?o.getElementsByTagName("*"):o.elements;if(u&&!/MSIE [678]/.test(navigator.userAgent)&&(u=e(u).get()),s&&(i=e(':input[form="'+s+'"]').get(),i.length&&(u=(u||[]).concat(i))),!u||!u.length)return a;var c,l,f,m,d,p,h;for(c=0,p=u.length;p>c;c++)if(d=u[c],f=d.name,f&&!d.disabled)if(t&&o.clk&&"image"==d.type)o.clk==d&&(a.push({name:f,value:e(d).val(),type:d.type}),a.push({name:f+".x",value:o.clk_x},{name:f+".y",value:o.clk_y}));else if(m=e.fieldValue(d,!0),m&&m.constructor==Array)for(r&&r.push(d),l=0,h=m.length;h>l;l++)a.push({name:f,value:m[l]});else if(n.fileapi&&"file"==d.type){r&&r.push(d);var v=d.files;if(v.length)for(l=0;l<v.length;l++)a.push({name:f,value:v[l],type:d.type});else a.push({name:f,value:"",type:d.type})}else null!==m&&"undefined"!=typeof m&&(r&&r.push(d),a.push({name:f,value:m,type:d.type,required:d.required}));if(!t&&o.clk){var g=e(o.clk),x=g[0];f=x.name,f&&!x.disabled&&"image"==x.type&&(a.push({name:f,value:g.val()}),a.push({name:f+".x",value:o.clk_x},{name:f+".y",value:o.clk_y}))}return a},e.fn.formSerialize=function(t){return e.param(this.formToArray(t))},e.fn.fieldSerialize=function(t){var r=[];return this.each(function(){var a=this.name;if(a){var n=e.fieldValue(this,t);if(n&&n.constructor==Array)for(var i=0,o=n.length;o>i;i++)r.push({name:a,value:n[i]});else null!==n&&"undefined"!=typeof n&&r.push({name:this.name,value:n})}}),e.param(r)},e.fn.fieldValue=function(t){for(var r=[],a=0,n=this.length;n>a;a++){var i=this[a],o=e.fieldValue(i,t);null===o||"undefined"==typeof o||o.constructor==Array&&!o.length||(o.constructor==Array?e.merge(r,o):r.push(o))}return r},e.fieldValue=function(t,r){var a=t.name,n=t.type,i=t.tagName.toLowerCase();if(void 0===r&&(r=!0),r&&(!a||t.disabled||"reset"==n||"button"==n||("checkbox"==n||"radio"==n)&&!t.checked||("submit"==n||"image"==n)&&t.form&&t.form.clk!=t||"select"==i&&-1==t.selectedIndex))return null;if("select"==i){var o=t.selectedIndex;if(0>o)return null;for(var s=[],u=t.options,c="select-one"==n,l=c?o+1:u.length,f=c?o:0;l>f;f++){var m=u[f];if(m.selected){var d=m.value;if(d||(d=m.attributes&&m.attributes.value&&!m.attributes.value.specified?m.text:m.value),c)return d;s.push(d)}}return s}return e(t).val()},e.fn.clearForm=function(t){return this.each(function(){e("input,select,textarea",this).clearFields(t)})},e.fn.clearFields=e.fn.clearInputs=function(t){var r=/^(?:color|date|datetime|email|month|number|password|range|search|tel|text|time|url|week)$/i;return this.each(function(){var a=this.type,n=this.tagName.toLowerCase();r.test(a)||"textarea"==n?this.value="":"checkbox"==a||"radio"==a?this.checked=!1:"select"==n?this.selectedIndex=-1:"file"==a?/MSIE/.test(navigator.userAgent)?e(this).replaceWith(e(this).clone(!0)):e(this).val(""):t&&(t===!0&&/hidden/.test(a)||"string"==typeof t&&e(this).is(t))&&(this.value="")})},e.fn.resetForm=function(){return this.each(function(){("function"==typeof this.reset||"object"==typeof this.reset&&!this.reset.nodeType)&&this.reset()})},e.fn.enable=function(e){return void 0===e&&(e=!0),this.each(function(){this.disabled=!e})},e.fn.selected=function(t){return void 0===t&&(t=!0),this.each(function(){var r=this.type;if("checkbox"==r||"radio"==r)this.checked=t;else if("option"==this.tagName.toLowerCase()){var a=e(this).parent("select");t&&a[0]&&"select-one"==a[0].type&&a.find("option").selected(!1),this.selected=t}})},e.fn.ajaxSubmit.debug=!1});
+
+(function ($, Modernizr, Drupal) {
+
+  'use strict';
+
+  /**
+   * Attach datepicker fallback on date elements.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches the behavior. Accepts in `settings.date` an object listing
+   *   elements to process, keyed by the HTML ID of the form element containing
+   *   the human-readable value. Each element is an datepicker settings object.
+   * @prop {Drupal~behaviorDetach} detach
+   *   Detach the behavior destroying datepickers on effected elements.
+   */
+  Drupal.behaviors.date = {
+    attach: function (context, settings) {
+      var $context = $(context);
+      // Skip if date are supported by the browser.
+      if (Modernizr.inputtypes.date === true) {
+        return;
+      }
+      $context.find('input[data-drupal-date-format]').once('datePicker').each(function () {
+        var $input = $(this);
+        var datepickerSettings = {};
+        var dateFormat = $input.data('drupalDateFormat');
+        // The date format is saved in PHP style, we need to convert to jQuery
+        // datepicker.
+        datepickerSettings.dateFormat = dateFormat
+          .replace('Y', 'yy')
+          .replace('m', 'mm')
+          .replace('d', 'dd');
+        // Add min and max date if set on the input.
+        if ($input.attr('min')) {
+          datepickerSettings.minDate = $input.attr('min');
+        }
+        if ($input.attr('max')) {
+          datepickerSettings.maxDate = $input.attr('max');
+        }
+        $input.datepicker(datepickerSettings);
+      });
+    },
+    detach: function (context, settings, trigger) {
+      if (trigger === 'unload') {
+        $(context).find('input[data-drupal-date-format]').findOnce('datePicker').datepicker('destroy');
+      }
+    }
+  };
+
+})(jQuery, Modernizr, Drupal);
 ;
 /**
  * @file
@@ -4368,6 +5735,1328 @@ Drupal.debounce = function (func, wait, immediate) {
   };
 
 })(jQuery, window, Drupal, drupalSettings);
+;
+/*!
+ * jQuery UI Position 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/position/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery"],e):e(jQuery)})(function(e){return function(){function h(e,t,n){return[parseFloat(e[0])*(l.test(e[0])?t/100:1),parseFloat(e[1])*(l.test(e[1])?n/100:1)]}function p(t,n){return parseInt(e.css(t,n),10)||0}function d(t){var n=t[0];return n.nodeType===9?{width:t.width(),height:t.height(),offset:{top:0,left:0}}:e.isWindow(n)?{width:t.width(),height:t.height(),offset:{top:t.scrollTop(),left:t.scrollLeft()}}:n.preventDefault?{width:0,height:0,offset:{top:n.pageY,left:n.pageX}}:{width:t.outerWidth(),height:t.outerHeight(),offset:t.offset()}}e.ui=e.ui||{};var t,n,r=Math.max,i=Math.abs,s=Math.round,o=/left|center|right/,u=/top|center|bottom/,a=/[\+\-]\d+(\.[\d]+)?%?/,f=/^\w+/,l=/%$/,c=e.fn.position;e.position={scrollbarWidth:function(){if(t!==undefined)return t;var n,r,i=e("<div style='display:block;position:absolute;width:50px;height:50px;overflow:hidden;'><div style='height:100px;width:auto;'></div></div>"),s=i.children()[0];return e("body").append(i),n=s.offsetWidth,i.css("overflow","scroll"),r=s.offsetWidth,n===r&&(r=i[0].clientWidth),i.remove(),t=n-r},getScrollInfo:function(t){var n=t.isWindow||t.isDocument?"":t.element.css("overflow-x"),r=t.isWindow||t.isDocument?"":t.element.css("overflow-y"),i=n==="scroll"||n==="auto"&&t.width<t.element[0].scrollWidth,s=r==="scroll"||r==="auto"&&t.height<t.element[0].scrollHeight;return{width:s?e.position.scrollbarWidth():0,height:i?e.position.scrollbarWidth():0}},getWithinInfo:function(t){var n=e(t||window),r=e.isWindow(n[0]),i=!!n[0]&&n[0].nodeType===9;return{element:n,isWindow:r,isDocument:i,offset:n.offset()||{left:0,top:0},scrollLeft:n.scrollLeft(),scrollTop:n.scrollTop(),width:r||i?n.width():n.outerWidth(),height:r||i?n.height():n.outerHeight()}}},e.fn.position=function(t){if(!t||!t.of)return c.apply(this,arguments);t=e.extend({},t);var l,v,m,g,y,b,w=e(t.of),E=e.position.getWithinInfo(t.within),S=e.position.getScrollInfo(E),x=(t.collision||"flip").split(" "),T={};return b=d(w),w[0].preventDefault&&(t.at="left top"),v=b.width,m=b.height,g=b.offset,y=e.extend({},g),e.each(["my","at"],function(){var e=(t[this]||"").split(" "),n,r;e.length===1&&(e=o.test(e[0])?e.concat(["center"]):u.test(e[0])?["center"].concat(e):["center","center"]),e[0]=o.test(e[0])?e[0]:"center",e[1]=u.test(e[1])?e[1]:"center",n=a.exec(e[0]),r=a.exec(e[1]),T[this]=[n?n[0]:0,r?r[0]:0],t[this]=[f.exec(e[0])[0],f.exec(e[1])[0]]}),x.length===1&&(x[1]=x[0]),t.at[0]==="right"?y.left+=v:t.at[0]==="center"&&(y.left+=v/2),t.at[1]==="bottom"?y.top+=m:t.at[1]==="center"&&(y.top+=m/2),l=h(T.at,v,m),y.left+=l[0],y.top+=l[1],this.each(function(){var o,u,a=e(this),f=a.outerWidth(),c=a.outerHeight(),d=p(this,"marginLeft"),b=p(this,"marginTop"),N=f+d+p(this,"marginRight")+S.width,C=c+b+p(this,"marginBottom")+S.height,k=e.extend({},y),L=h(T.my,a.outerWidth(),a.outerHeight());t.my[0]==="right"?k.left-=f:t.my[0]==="center"&&(k.left-=f/2),t.my[1]==="bottom"?k.top-=c:t.my[1]==="center"&&(k.top-=c/2),k.left+=L[0],k.top+=L[1],n||(k.left=s(k.left),k.top=s(k.top)),o={marginLeft:d,marginTop:b},e.each(["left","top"],function(n,r){e.ui.position[x[n]]&&e.ui.position[x[n]][r](k,{targetWidth:v,targetHeight:m,elemWidth:f,elemHeight:c,collisionPosition:o,collisionWidth:N,collisionHeight:C,offset:[l[0]+L[0],l[1]+L[1]],my:t.my,at:t.at,within:E,elem:a})}),t.using&&(u=function(e){var n=g.left-k.left,s=n+v-f,o=g.top-k.top,u=o+m-c,l={target:{element:w,left:g.left,top:g.top,width:v,height:m},element:{element:a,left:k.left,top:k.top,width:f,height:c},horizontal:s<0?"left":n>0?"right":"center",vertical:u<0?"top":o>0?"bottom":"middle"};v<f&&i(n+s)<v&&(l.horizontal="center"),m<c&&i(o+u)<m&&(l.vertical="middle"),r(i(n),i(s))>r(i(o),i(u))?l.important="horizontal":l.important="vertical",t.using.call(this,e,l)}),a.offset(e.extend(k,{using:u}))})},e.ui.position={fit:{left:function(e,t){var n=t.within,i=n.isWindow?n.scrollLeft:n.offset.left,s=n.width,o=e.left-t.collisionPosition.marginLeft,u=i-o,a=o+t.collisionWidth-s-i,f;t.collisionWidth>s?u>0&&a<=0?(f=e.left+u+t.collisionWidth-s-i,e.left+=u-f):a>0&&u<=0?e.left=i:u>a?e.left=i+s-t.collisionWidth:e.left=i:u>0?e.left+=u:a>0?e.left-=a:e.left=r(e.left-o,e.left)},top:function(e,t){var n=t.within,i=n.isWindow?n.scrollTop:n.offset.top,s=t.within.height,o=e.top-t.collisionPosition.marginTop,u=i-o,a=o+t.collisionHeight-s-i,f;t.collisionHeight>s?u>0&&a<=0?(f=e.top+u+t.collisionHeight-s-i,e.top+=u-f):a>0&&u<=0?e.top=i:u>a?e.top=i+s-t.collisionHeight:e.top=i:u>0?e.top+=u:a>0?e.top-=a:e.top=r(e.top-o,e.top)}},flip:{left:function(e,t){var n=t.within,r=n.offset.left+n.scrollLeft,s=n.width,o=n.isWindow?n.scrollLeft:n.offset.left,u=e.left-t.collisionPosition.marginLeft,a=u-o,f=u+t.collisionWidth-s-o,l=t.my[0]==="left"?-t.elemWidth:t.my[0]==="right"?t.elemWidth:0,c=t.at[0]==="left"?t.targetWidth:t.at[0]==="right"?-t.targetWidth:0,h=-2*t.offset[0],p,d;if(a<0){p=e.left+l+c+h+t.collisionWidth-s-r;if(p<0||p<i(a))e.left+=l+c+h}else if(f>0){d=e.left-t.collisionPosition.marginLeft+l+c+h-o;if(d>0||i(d)<f)e.left+=l+c+h}},top:function(e,t){var n=t.within,r=n.offset.top+n.scrollTop,s=n.height,o=n.isWindow?n.scrollTop:n.offset.top,u=e.top-t.collisionPosition.marginTop,a=u-o,f=u+t.collisionHeight-s-o,l=t.my[1]==="top",c=l?-t.elemHeight:t.my[1]==="bottom"?t.elemHeight:0,h=t.at[1]==="top"?t.targetHeight:t.at[1]==="bottom"?-t.targetHeight:0,p=-2*t.offset[1],d,v;if(a<0){v=e.top+c+h+p+t.collisionHeight-s-r;if(v<0||v<i(a))e.top+=c+h+p}else if(f>0){d=e.top-t.collisionPosition.marginTop+c+h+p-o;if(d>0||i(d)<f)e.top+=c+h+p}}},flipfit:{left:function(){e.ui.position.flip.left.apply(this,arguments),e.ui.position.fit.left.apply(this,arguments)},top:function(){e.ui.position.flip.top.apply(this,arguments),e.ui.position.fit.top.apply(this,arguments)}}},function(){var t,r,i,s,o,u=document.getElementsByTagName("body")[0],a=document.createElement("div");t=document.createElement(u?"div":"body"),i={visibility:"hidden",width:0,height:0,border:0,margin:0,background:"none"},u&&e.extend(i,{position:"absolute",left:"-1000px",top:"-1000px"});for(o in i)t.style[o]=i[o];t.appendChild(a),r=u||document.documentElement,r.insertBefore(t,r.firstChild),a.style.cssText="position: absolute; left: 10.7432222px;",s=e(a).offset().left,n=s>10&&s<11,t.innerHTML="",r.removeChild(t)}()}(),e.ui.position});;
+/*!
+ * jQuery UI Menu 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/menu/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery","./core","./widget","./position"],e):e(jQuery)})(function(e){return e.widget("ui.menu",{version:"1.11.4",defaultElement:"<ul>",delay:300,options:{icons:{submenu:"ui-icon-carat-1-e"},items:"> *",menus:"ul",position:{my:"left-1 top",at:"right top"},role:"menu",blur:null,focus:null,select:null},_create:function(){this.activeMenu=this.element,this.mouseHandled=!1,this.element.uniqueId().addClass("ui-menu ui-widget ui-widget-content").toggleClass("ui-menu-icons",!!this.element.find(".ui-icon").length).attr({role:this.options.role,tabIndex:0}),this.options.disabled&&this.element.addClass("ui-state-disabled").attr("aria-disabled","true"),this._on({"mousedown .ui-menu-item":function(e){e.preventDefault()},"click .ui-menu-item":function(t){var n=e(t.target);!this.mouseHandled&&n.not(".ui-state-disabled").length&&(this.select(t),t.isPropagationStopped()||(this.mouseHandled=!0),n.has(".ui-menu").length?this.expand(t):!this.element.is(":focus")&&e(this.document[0].activeElement).closest(".ui-menu").length&&(this.element.trigger("focus",[!0]),this.active&&this.active.parents(".ui-menu").length===1&&clearTimeout(this.timer)))},"mouseenter .ui-menu-item":function(t){if(this.previousFilter)return;var n=e(t.currentTarget);n.siblings(".ui-state-active").removeClass("ui-state-active"),this.focus(t,n)},mouseleave:"collapseAll","mouseleave .ui-menu":"collapseAll",focus:function(e,t){var n=this.active||this.element.find(this.options.items).eq(0);t||this.focus(e,n)},blur:function(t){this._delay(function(){e.contains(this.element[0],this.document[0].activeElement)||this.collapseAll(t)})},keydown:"_keydown"}),this.refresh(),this._on(this.document,{click:function(e){this._closeOnDocumentClick(e)&&this.collapseAll(e),this.mouseHandled=!1}})},_destroy:function(){this.element.removeAttr("aria-activedescendant").find(".ui-menu").addBack().removeClass("ui-menu ui-widget ui-widget-content ui-menu-icons ui-front").removeAttr("role").removeAttr("tabIndex").removeAttr("aria-labelledby").removeAttr("aria-expanded").removeAttr("aria-hidden").removeAttr("aria-disabled").removeUniqueId().show(),this.element.find(".ui-menu-item").removeClass("ui-menu-item").removeAttr("role").removeAttr("aria-disabled").removeUniqueId().removeClass("ui-state-hover").removeAttr("tabIndex").removeAttr("role").removeAttr("aria-haspopup").children().each(function(){var t=e(this);t.data("ui-menu-submenu-carat")&&t.remove()}),this.element.find(".ui-menu-divider").removeClass("ui-menu-divider ui-widget-content")},_keydown:function(t){var n,r,i,s,o=!0;switch(t.keyCode){case e.ui.keyCode.PAGE_UP:this.previousPage(t);break;case e.ui.keyCode.PAGE_DOWN:this.nextPage(t);break;case e.ui.keyCode.HOME:this._move("first","first",t);break;case e.ui.keyCode.END:this._move("last","last",t);break;case e.ui.keyCode.UP:this.previous(t);break;case e.ui.keyCode.DOWN:this.next(t);break;case e.ui.keyCode.LEFT:this.collapse(t);break;case e.ui.keyCode.RIGHT:this.active&&!this.active.is(".ui-state-disabled")&&this.expand(t);break;case e.ui.keyCode.ENTER:case e.ui.keyCode.SPACE:this._activate(t);break;case e.ui.keyCode.ESCAPE:this.collapse(t);break;default:o=!1,r=this.previousFilter||"",i=String.fromCharCode(t.keyCode),s=!1,clearTimeout(this.filterTimer),i===r?s=!0:i=r+i,n=this._filterMenuItems(i),n=s&&n.index(this.active.next())!==-1?this.active.nextAll(".ui-menu-item"):n,n.length||(i=String.fromCharCode(t.keyCode),n=this._filterMenuItems(i)),n.length?(this.focus(t,n),this.previousFilter=i,this.filterTimer=this._delay(function(){delete this.previousFilter},1e3)):delete this.previousFilter}o&&t.preventDefault()},_activate:function(e){this.active.is(".ui-state-disabled")||(this.active.is("[aria-haspopup='true']")?this.expand(e):this.select(e))},refresh:function(){var t,n,r=this,i=this.options.icons.submenu,s=this.element.find(this.options.menus);this.element.toggleClass("ui-menu-icons",!!this.element.find(".ui-icon").length),s.filter(":not(.ui-menu)").addClass("ui-menu ui-widget ui-widget-content ui-front").hide().attr({role:this.options.role,"aria-hidden":"true","aria-expanded":"false"}).each(function(){var t=e(this),n=t.parent(),r=e("<span>").addClass("ui-menu-icon ui-icon "+i).data("ui-menu-submenu-carat",!0);n.attr("aria-haspopup","true").prepend(r),t.attr("aria-labelledby",n.attr("id"))}),t=s.add(this.element),n=t.find(this.options.items),n.not(".ui-menu-item").each(function(){var t=e(this);r._isDivider(t)&&t.addClass("ui-widget-content ui-menu-divider")}),n.not(".ui-menu-item, .ui-menu-divider").addClass("ui-menu-item").uniqueId().attr({tabIndex:-1,role:this._itemRole()}),n.filter(".ui-state-disabled").attr("aria-disabled","true"),this.active&&!e.contains(this.element[0],this.active[0])&&this.blur()},_itemRole:function(){return{menu:"menuitem",listbox:"option"}[this.options.role]},_setOption:function(e,t){e==="icons"&&this.element.find(".ui-menu-icon").removeClass(this.options.icons.submenu).addClass(t.submenu),e==="disabled"&&this.element.toggleClass("ui-state-disabled",!!t).attr("aria-disabled",t),this._super(e,t)},focus:function(e,t){var n,r;this.blur(e,e&&e.type==="focus"),this._scrollIntoView(t),this.active=t.first(),r=this.active.addClass("ui-state-focus").removeClass("ui-state-active"),this.options.role&&this.element.attr("aria-activedescendant",r.attr("id")),this.active.parent().closest(".ui-menu-item").addClass("ui-state-active"),e&&e.type==="keydown"?this._close():this.timer=this._delay(function(){this._close()},this.delay),n=t.children(".ui-menu"),n.length&&e&&/^mouse/.test(e.type)&&this._startOpening(n),this.activeMenu=t.parent(),this._trigger("focus",e,{item:t})},_scrollIntoView:function(t){var n,r,i,s,o,u;this._hasScroll()&&(n=parseFloat(e.css(this.activeMenu[0],"borderTopWidth"))||0,r=parseFloat(e.css(this.activeMenu[0],"paddingTop"))||0,i=t.offset().top-this.activeMenu.offset().top-n-r,s=this.activeMenu.scrollTop(),o=this.activeMenu.height(),u=t.outerHeight(),i<0?this.activeMenu.scrollTop(s+i):i+u>o&&this.activeMenu.scrollTop(s+i-o+u))},blur:function(e,t){t||clearTimeout(this.timer);if(!this.active)return;this.active.removeClass("ui-state-focus"),this.active=null,this._trigger("blur",e,{item:this.active})},_startOpening:function(e){clearTimeout(this.timer);if(e.attr("aria-hidden")!=="true")return;this.timer=this._delay(function(){this._close(),this._open(e)},this.delay)},_open:function(t){var n=e.extend({of:this.active},this.options.position);clearTimeout(this.timer),this.element.find(".ui-menu").not(t.parents(".ui-menu")).hide().attr("aria-hidden","true"),t.show().removeAttr("aria-hidden").attr("aria-expanded","true").position(n)},collapseAll:function(t,n){clearTimeout(this.timer),this.timer=this._delay(function(){var r=n?this.element:e(t&&t.target).closest(this.element.find(".ui-menu"));r.length||(r=this.element),this._close(r),this.blur(t),this.activeMenu=r},this.delay)},_close:function(e){e||(e=this.active?this.active.parent():this.element),e.find(".ui-menu").hide().attr("aria-hidden","true").attr("aria-expanded","false").end().find(".ui-state-active").not(".ui-state-focus").removeClass("ui-state-active")},_closeOnDocumentClick:function(t){return!e(t.target).closest(".ui-menu").length},_isDivider:function(e){return!/[^\-\u2014\u2013\s]/.test(e.text())},collapse:function(e){var t=this.active&&this.active.parent().closest(".ui-menu-item",this.element);t&&t.length&&(this._close(),this.focus(e,t))},expand:function(e){var t=this.active&&this.active.children(".ui-menu ").find(this.options.items).first();t&&t.length&&(this._open(t.parent()),this._delay(function(){this.focus(e,t)}))},next:function(e){this._move("next","first",e)},previous:function(e){this._move("prev","last",e)},isFirstItem:function(){return this.active&&!this.active.prevAll(".ui-menu-item").length},isLastItem:function(){return this.active&&!this.active.nextAll(".ui-menu-item").length},_move:function(e,t,n){var r;this.active&&(e==="first"||e==="last"?r=this.active[e==="first"?"prevAll":"nextAll"](".ui-menu-item").eq(-1):r=this.active[e+"All"](".ui-menu-item").eq(0));if(!r||!r.length||!this.active)r=this.activeMenu.find(this.options.items)[t]();this.focus(n,r)},nextPage:function(t){var n,r,i;if(!this.active){this.next(t);return}if(this.isLastItem())return;this._hasScroll()?(r=this.active.offset().top,i=this.element.height(),this.active.nextAll(".ui-menu-item").each(function(){return n=e(this),n.offset().top-r-i<0}),this.focus(t,n)):this.focus(t,this.activeMenu.find(this.options.items)[this.active?"last":"first"]())},previousPage:function(t){var n,r,i;if(!this.active){this.next(t);return}if(this.isFirstItem())return;this._hasScroll()?(r=this.active.offset().top,i=this.element.height(),this.active.prevAll(".ui-menu-item").each(function(){return n=e(this),n.offset().top-r+i>0}),this.focus(t,n)):this.focus(t,this.activeMenu.find(this.options.items).first())},_hasScroll:function(){return this.element.outerHeight()<this.element.prop("scrollHeight")},select:function(t){this.active=this.active||e(t.target).closest(".ui-menu-item");var n={item:this.active};this.active.has(".ui-menu").length||this.collapseAll(t,!0),this._trigger("select",t,n)},_filterMenuItems:function(t){var n=t.replace(/[\-\[\]{}()*+?.,\\\^$|#\s]/g,"\\$&"),r=new RegExp("^"+n,"i");return this.activeMenu.find(this.options.items).filter(".ui-menu-item").filter(function(){return r.test(e.trim(e(this).text()))})}})});;
+/*!
+ * jQuery UI Autocomplete 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/autocomplete/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery","./core","./widget","./position","./menu"],e):e(jQuery)})(function(e){return e.widget("ui.autocomplete",{version:"1.11.4",defaultElement:"<input>",options:{appendTo:null,autoFocus:!1,delay:300,minLength:1,position:{my:"left top",at:"left bottom",collision:"none"},source:null,change:null,close:null,focus:null,open:null,response:null,search:null,select:null},requestIndex:0,pending:0,_create:function(){var t,n,r,i=this.element[0].nodeName.toLowerCase(),s=i==="textarea",o=i==="input";this.isMultiLine=s?!0:o?!1:this.element.prop("isContentEditable"),this.valueMethod=this.element[s||o?"val":"text"],this.isNewMenu=!0,this.element.addClass("ui-autocomplete-input").attr("autocomplete","off"),this._on(this.element,{keydown:function(i){if(this.element.prop("readOnly")){t=!0,r=!0,n=!0;return}t=!1,r=!1,n=!1;var s=e.ui.keyCode;switch(i.keyCode){case s.PAGE_UP:t=!0,this._move("previousPage",i);break;case s.PAGE_DOWN:t=!0,this._move("nextPage",i);break;case s.UP:t=!0,this._keyEvent("previous",i);break;case s.DOWN:t=!0,this._keyEvent("next",i);break;case s.ENTER:this.menu.active&&(t=!0,i.preventDefault(),this.menu.select(i));break;case s.TAB:this.menu.active&&this.menu.select(i);break;case s.ESCAPE:this.menu.element.is(":visible")&&(this.isMultiLine||this._value(this.term),this.close(i),i.preventDefault());break;default:n=!0,this._searchTimeout(i)}},keypress:function(r){if(t){t=!1,(!this.isMultiLine||this.menu.element.is(":visible"))&&r.preventDefault();return}if(n)return;var i=e.ui.keyCode;switch(r.keyCode){case i.PAGE_UP:this._move("previousPage",r);break;case i.PAGE_DOWN:this._move("nextPage",r);break;case i.UP:this._keyEvent("previous",r);break;case i.DOWN:this._keyEvent("next",r)}},input:function(e){if(r){r=!1,e.preventDefault();return}this._searchTimeout(e)},focus:function(){this.selectedItem=null,this.previous=this._value()},blur:function(e){if(this.cancelBlur){delete this.cancelBlur;return}clearTimeout(this.searching),this.close(e),this._change(e)}}),this._initSource(),this.menu=e("<ul>").addClass("ui-autocomplete ui-front").appendTo(this._appendTo()).menu({role:null}).hide().menu("instance"),this._on(this.menu.element,{mousedown:function(t){t.preventDefault(),this.cancelBlur=!0,this._delay(function(){delete this.cancelBlur});var n=this.menu.element[0];e(t.target).closest(".ui-menu-item").length||this._delay(function(){var t=this;this.document.one("mousedown",function(r){r.target!==t.element[0]&&r.target!==n&&!e.contains(n,r.target)&&t.close()})})},menufocus:function(t,n){var r,i;if(this.isNewMenu){this.isNewMenu=!1;if(t.originalEvent&&/^mouse/.test(t.originalEvent.type)){this.menu.blur(),this.document.one("mousemove",function(){e(t.target).trigger(t.originalEvent)});return}}i=n.item.data("ui-autocomplete-item"),!1!==this._trigger("focus",t,{item:i})&&t.originalEvent&&/^key/.test(t.originalEvent.type)&&this._value(i.value),r=n.item.attr("aria-label")||i.value,r&&e.trim(r).length&&(this.liveRegion.children().hide(),e("<div>").text(r).appendTo(this.liveRegion))},menuselect:function(e,t){var n=t.item.data("ui-autocomplete-item"),r=this.previous;this.element[0]!==this.document[0].activeElement&&(this.element.focus(),this.previous=r,this._delay(function(){this.previous=r,this.selectedItem=n})),!1!==this._trigger("select",e,{item:n})&&this._value(n.value),this.term=this._value(),this.close(e),this.selectedItem=n}}),this.liveRegion=e("<span>",{role:"status","aria-live":"assertive","aria-relevant":"additions"}).addClass("ui-helper-hidden-accessible").appendTo(this.document[0].body),this._on(this.window,{beforeunload:function(){this.element.removeAttr("autocomplete")}})},_destroy:function(){clearTimeout(this.searching),this.element.removeClass("ui-autocomplete-input").removeAttr("autocomplete"),this.menu.element.remove(),this.liveRegion.remove()},_setOption:function(e,t){this._super(e,t),e==="source"&&this._initSource(),e==="appendTo"&&this.menu.element.appendTo(this._appendTo()),e==="disabled"&&t&&this.xhr&&this.xhr.abort()},_appendTo:function(){var t=this.options.appendTo;t&&(t=t.jquery||t.nodeType?e(t):this.document.find(t).eq(0));if(!t||!t[0])t=this.element.closest(".ui-front");return t.length||(t=this.document[0].body),t},_initSource:function(){var t,n,r=this;e.isArray(this.options.source)?(t=this.options.source,this.source=function(n,r){r(e.ui.autocomplete.filter(t,n.term))}):typeof this.options.source=="string"?(n=this.options.source,this.source=function(t,i){r.xhr&&r.xhr.abort(),r.xhr=e.ajax({url:n,data:t,dataType:"json",success:function(e){i(e)},error:function(){i([])}})}):this.source=this.options.source},_searchTimeout:function(e){clearTimeout(this.searching),this.searching=this._delay(function(){var t=this.term===this._value(),n=this.menu.element.is(":visible"),r=e.altKey||e.ctrlKey||e.metaKey||e.shiftKey;if(!t||t&&!n&&!r)this.selectedItem=null,this.search(null,e)},this.options.delay)},search:function(e,t){e=e!=null?e:this._value(),this.term=this._value();if(e.length<this.options.minLength)return this.close(t);if(this._trigger("search",t)===!1)return;return this._search(e)},_search:function(e){this.pending++,this.element.addClass("ui-autocomplete-loading"),this.cancelSearch=!1,this.source({term:e},this._response())},_response:function(){var t=++this.requestIndex;return e.proxy(function(e){t===this.requestIndex&&this.__response(e),this.pending--,this.pending||this.element.removeClass("ui-autocomplete-loading")},this)},__response:function(e){e&&(e=this._normalize(e)),this._trigger("response",null,{content:e}),!this.options.disabled&&e&&e.length&&!this.cancelSearch?(this._suggest(e),this._trigger("open")):this._close()},close:function(e){this.cancelSearch=!0,this._close(e)},_close:function(e){this.menu.element.is(":visible")&&(this.menu.element.hide(),this.menu.blur(),this.isNewMenu=!0,this._trigger("close",e))},_change:function(e){this.previous!==this._value()&&this._trigger("change",e,{item:this.selectedItem})},_normalize:function(t){return t.length&&t[0].label&&t[0].value?t:e.map(t,function(t){return typeof t=="string"?{label:t,value:t}:e.extend({},t,{label:t.label||t.value,value:t.value||t.label})})},_suggest:function(t){var n=this.menu.element.empty();this._renderMenu(n,t),this.isNewMenu=!0,this.menu.refresh(),n.show(),this._resizeMenu(),n.position(e.extend({of:this.element},this.options.position)),this.options.autoFocus&&this.menu.next()},_resizeMenu:function(){var e=this.menu.element;e.outerWidth(Math.max(e.width("").outerWidth()+1,this.element.outerWidth()))},_renderMenu:function(t,n){var r=this;e.each(n,function(e,n){r._renderItemData(t,n)})},_renderItemData:function(e,t){return this._renderItem(e,t).data("ui-autocomplete-item",t)},_renderItem:function(t,n){return e("<li>").text(n.label).appendTo(t)},_move:function(e,t){if(!this.menu.element.is(":visible")){this.search(null,t);return}if(this.menu.isFirstItem()&&/^previous/.test(e)||this.menu.isLastItem()&&/^next/.test(e)){this.isMultiLine||this._value(this.term),this.menu.blur();return}this.menu[e](t)},widget:function(){return this.menu.element},_value:function(){return this.valueMethod.apply(this.element,arguments)},_keyEvent:function(e,t){if(!this.isMultiLine||this.menu.element.is(":visible"))this._move(e,t),t.preventDefault()}}),e.extend(e.ui.autocomplete,{escapeRegex:function(e){return e.replace(/[\-\[\]{}()*+?.,\\\^$|#\s]/g,"\\$&")},filter:function(t,n){var r=new RegExp(e.ui.autocomplete.escapeRegex(n),"i");return e.grep(t,function(e){return r.test(e.label||e.value||e)})}}),e.widget("ui.autocomplete",e.ui.autocomplete,{options:{messages:{noResults:"No search results.",results:function(e){return e+(e>1?" results are":" result is")+" available, use up and down arrow keys to navigate."}}},__response:function(t){var n;this._superApply(arguments);if(this.options.disabled||this.cancelSearch)return;t&&t.length?n=this.options.messages.results(t.length):n=this.options.messages.noResults,this.liveRegion.children().hide(),e("<div>").text(n).appendTo(this.liveRegion)}}),e.ui.autocomplete});;
+/**
+ * @file
+ * Attaches behaviors for the Path module.
+ */
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * Behaviors for settings summaries on path edit forms.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches summary behavior on path edit forms.
+   */
+  Drupal.behaviors.pathDetailsSummaries = {
+    attach: function (context) {
+      $(context).find('.path-form').drupalSetSummary(function (context) {
+        var path = $('.js-form-item-path-0-alias input').val();
+
+        return path ?
+          Drupal.t('Alias: @alias', {'@alias': path}) :
+          Drupal.t('No alias');
+      });
+    }
+  };
+
+})(jQuery, Drupal);
+;
+/**
+ * @file
+ * Menu UI behaviors.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * Set a summary on the menu link form.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Find the form and call `drupalSetSummary` on it.
+   */
+  Drupal.behaviors.menuUiDetailsSummaries = {
+    attach: function (context) {
+      $(context).find('.menu-link-form').drupalSetSummary(function (context) {
+        var $context = $(context);
+        if ($context.find('.js-form-item-menu-enabled input').is(':checked')) {
+          return Drupal.checkPlain($context.find('.js-form-item-menu-title input').val());
+        }
+        else {
+          return Drupal.t('Not in menu');
+        }
+      });
+    }
+  };
+
+  /**
+   * Automatically fill in a menu link title, if possible.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches change and keyup behavior for automatically filling out menu
+   *   link titles.
+   */
+  Drupal.behaviors.menuUiLinkAutomaticTitle = {
+    attach: function (context) {
+      var $context = $(context);
+      $context.find('.menu-link-form').each(function () {
+        var $this = $(this);
+        // Try to find menu settings widget elements as well as a 'title' field
+        // in the form, but play nicely with user permissions and form
+        // alterations.
+        var $checkbox = $this.find('.js-form-item-menu-enabled input');
+        var $link_title = $context.find('.js-form-item-menu-title input');
+        var $title = $this.closest('form').find('.js-form-item-title-0-value input');
+        // Bail out if we do not have all required fields.
+        if (!($checkbox.length && $link_title.length && $title.length)) {
+          return;
+        }
+        // If there is a link title already, mark it as overridden. The user
+        // expects that toggling the checkbox twice will take over the node's
+        // title.
+        if ($checkbox.is(':checked') && $link_title.val().length) {
+          $link_title.data('menuLinkAutomaticTitleOverridden', true);
+        }
+        // Whenever the value is changed manually, disable this behavior.
+        $link_title.on('keyup', function () {
+          $link_title.data('menuLinkAutomaticTitleOverridden', true);
+        });
+        // Global trigger on checkbox (do not fill-in a value when disabled).
+        $checkbox.on('change', function () {
+          if ($checkbox.is(':checked')) {
+            if (!$link_title.data('menuLinkAutomaticTitleOverridden')) {
+              $link_title.val($title.val());
+            }
+          }
+          else {
+            $link_title.val('');
+            $link_title.removeData('menuLinkAutomaticTitleOverridden');
+          }
+          $checkbox.closest('.vertical-tabs-pane').trigger('summaryUpdated');
+          $checkbox.trigger('formUpdated');
+        });
+        // Take over any title change.
+        $title.on('keyup', function () {
+          if (!$link_title.data('menuLinkAutomaticTitleOverridden') && $checkbox.is(':checked')) {
+            $link_title.val($title.val());
+            $link_title.val($title.val()).trigger('formUpdated');
+          }
+        });
+      });
+    }
+  };
+
+})(jQuery, Drupal);
+;
+/**
+ * @file
+ * Drupal's states library.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * The base States namespace.
+   *
+   * Having the local states variable allows us to use the States namespace
+   * without having to always declare "Drupal.states".
+   *
+   * @namespace Drupal.states
+   */
+  var states = Drupal.states = {
+
+    /**
+     * An array of functions that should be postponed.
+     */
+    postponed: []
+  };
+
+  /**
+   * Attaches the states.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches states behaviors.
+   */
+  Drupal.behaviors.states = {
+    attach: function (context, settings) {
+      var $states = $(context).find('[data-drupal-states]');
+      var config;
+      var state;
+      var il = $states.length;
+      for (var i = 0; i < il; i++) {
+        config = JSON.parse($states[i].getAttribute('data-drupal-states'));
+        for (state in config) {
+          if (config.hasOwnProperty(state)) {
+            new states.Dependent({
+              element: $($states[i]),
+              state: states.State.sanitize(state),
+              constraints: config[state]
+            });
+          }
+        }
+      }
+
+      // Execute all postponed functions now.
+      while (states.postponed.length) {
+        (states.postponed.shift())();
+      }
+    }
+  };
+
+  /**
+   * Object representing an element that depends on other elements.
+   *
+   * @constructor Drupal.states.Dependent
+   *
+   * @param {object} args
+   *   Object with the following keys (all of which are required)
+   * @param {jQuery} args.element
+   *   A jQuery object of the dependent element
+   * @param {Drupal.states.State} args.state
+   *   A State object describing the state that is dependent
+   * @param {object} args.constraints
+   *   An object with dependency specifications. Lists all elements that this
+   *   element depends on. It can be nested and can contain
+   *   arbitrary AND and OR clauses.
+   */
+  states.Dependent = function (args) {
+    $.extend(this, {values: {}, oldValue: null}, args);
+
+    this.dependees = this.getDependees();
+    for (var selector in this.dependees) {
+      if (this.dependees.hasOwnProperty(selector)) {
+        this.initializeDependee(selector, this.dependees[selector]);
+      }
+    }
+  };
+
+  /**
+   * Comparison functions for comparing the value of an element with the
+   * specification from the dependency settings. If the object type can't be
+   * found in this list, the === operator is used by default.
+   *
+   * @name Drupal.states.Dependent.comparisons
+   *
+   * @prop {function} RegExp
+   * @prop {function} Function
+   * @prop {function} Number
+   */
+  states.Dependent.comparisons = {
+    RegExp: function (reference, value) {
+      return reference.test(value);
+    },
+    Function: function (reference, value) {
+      // The "reference" variable is a comparison function.
+      return reference(value);
+    },
+    Number: function (reference, value) {
+      // If "reference" is a number and "value" is a string, then cast
+      // reference as a string before applying the strict comparison in
+      // compare().
+      // Otherwise numeric keys in the form's #states array fail to match
+      // string values returned from jQuery's val().
+      return (typeof value === 'string') ? compare(reference.toString(), value) : compare(reference, value);
+    }
+  };
+
+  states.Dependent.prototype = {
+
+    /**
+     * Initializes one of the elements this dependent depends on.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string} selector
+     *   The CSS selector describing the dependee.
+     * @param {object} dependeeStates
+     *   The list of states that have to be monitored for tracking the
+     *   dependee's compliance status.
+     */
+    initializeDependee: function (selector, dependeeStates) {
+      var state;
+      var self = this;
+
+      function stateEventHandler(e) {
+        self.update(e.data.selector, e.data.state, e.value);
+      }
+
+      // Cache for the states of this dependee.
+      this.values[selector] = {};
+
+      for (var i in dependeeStates) {
+        if (dependeeStates.hasOwnProperty(i)) {
+          state = dependeeStates[i];
+          // Make sure we're not initializing this selector/state combination
+          // twice.
+          if ($.inArray(state, dependeeStates) === -1) {
+            continue;
+          }
+
+          state = states.State.sanitize(state);
+
+          // Initialize the value of this state.
+          this.values[selector][state.name] = null;
+
+          // Monitor state changes of the specified state for this dependee.
+          $(selector).on('state:' + state, {selector: selector, state: state}, stateEventHandler);
+
+          // Make sure the event we just bound ourselves to is actually fired.
+          new states.Trigger({selector: selector, state: state});
+        }
+      }
+    },
+
+    /**
+     * Compares a value with a reference value.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {object} reference
+     *   The value used for reference.
+     * @param {string} selector
+     *   CSS selector describing the dependee.
+     * @param {Drupal.states.State} state
+     *   A State object describing the dependee's updated state.
+     *
+     * @return {bool}
+     *   true or false.
+     */
+    compare: function (reference, selector, state) {
+      var value = this.values[selector][state.name];
+      if (reference.constructor.name in states.Dependent.comparisons) {
+        // Use a custom compare function for certain reference value types.
+        return states.Dependent.comparisons[reference.constructor.name](reference, value);
+      }
+      else {
+        // Do a plain comparison otherwise.
+        return compare(reference, value);
+      }
+    },
+
+    /**
+     * Update the value of a dependee's state.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string} selector
+     *   CSS selector describing the dependee.
+     * @param {Drupal.states.state} state
+     *   A State object describing the dependee's updated state.
+     * @param {string} value
+     *   The new value for the dependee's updated state.
+     */
+    update: function (selector, state, value) {
+      // Only act when the 'new' value is actually new.
+      if (value !== this.values[selector][state.name]) {
+        this.values[selector][state.name] = value;
+        this.reevaluate();
+      }
+    },
+
+    /**
+     * Triggers change events in case a state changed.
+     *
+     * @memberof Drupal.states.Dependent#
+     */
+    reevaluate: function () {
+      // Check whether any constraint for this dependent state is satisfied.
+      var value = this.verifyConstraints(this.constraints);
+
+      // Only invoke a state change event when the value actually changed.
+      if (value !== this.oldValue) {
+        // Store the new value so that we can compare later whether the value
+        // actually changed.
+        this.oldValue = value;
+
+        // Normalize the value to match the normalized state name.
+        value = invert(value, this.state.invert);
+
+        // By adding "trigger: true", we ensure that state changes don't go into
+        // infinite loops.
+        this.element.trigger({type: 'state:' + this.state, value: value, trigger: true});
+      }
+    },
+
+    /**
+     * Evaluates child constraints to determine if a constraint is satisfied.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {object|Array} constraints
+     *   A constraint object or an array of constraints.
+     * @param {string} selector
+     *   The selector for these constraints. If undefined, there isn't yet a
+     *   selector that these constraints apply to. In that case, the keys of the
+     *   object are interpreted as the selector if encountered.
+     *
+     * @return {bool}
+     *   true or false, depending on whether these constraints are satisfied.
+     */
+    verifyConstraints: function (constraints, selector) {
+      var result;
+      if ($.isArray(constraints)) {
+        // This constraint is an array (OR or XOR).
+        var hasXor = $.inArray('xor', constraints) === -1;
+        var len = constraints.length;
+        for (var i = 0; i < len; i++) {
+          if (constraints[i] !== 'xor') {
+            var constraint = this.checkConstraints(constraints[i], selector, i);
+            // Return if this is OR and we have a satisfied constraint or if
+            // this is XOR and we have a second satisfied constraint.
+            if (constraint && (hasXor || result)) {
+              return hasXor;
+            }
+            result = result || constraint;
+          }
+        }
+      }
+      // Make sure we don't try to iterate over things other than objects. This
+      // shouldn't normally occur, but in case the condition definition is
+      // bogus, we don't want to end up with an infinite loop.
+      else if ($.isPlainObject(constraints)) {
+        // This constraint is an object (AND).
+        for (var n in constraints) {
+          if (constraints.hasOwnProperty(n)) {
+            result = ternary(result, this.checkConstraints(constraints[n], selector, n));
+            // False and anything else will evaluate to false, so return when
+            // any false condition is found.
+            if (result === false) { return false; }
+          }
+        }
+      }
+      return result;
+    },
+
+    /**
+     * Checks whether the value matches the requirements for this constraint.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string|Array|object} value
+     *   Either the value of a state or an array/object of constraints. In the
+     *   latter case, resolving the constraint continues.
+     * @param {string} [selector]
+     *   The selector for this constraint. If undefined, there isn't yet a
+     *   selector that this constraint applies to. In that case, the state key
+     *   is propagates to a selector and resolving continues.
+     * @param {Drupal.states.State} [state]
+     *   The state to check for this constraint. If undefined, resolving
+     *   continues. If both selector and state aren't undefined and valid
+     *   non-numeric strings, a lookup for the actual value of that selector's
+     *   state is performed. This parameter is not a State object but a pristine
+     *   state string.
+     *
+     * @return {bool}
+     *   true or false, depending on whether this constraint is satisfied.
+     */
+    checkConstraints: function (value, selector, state) {
+      // Normalize the last parameter. If it's non-numeric, we treat it either
+      // as a selector (in case there isn't one yet) or as a trigger/state.
+      if (typeof state !== 'string' || (/[0-9]/).test(state[0])) {
+        state = null;
+      }
+      else if (typeof selector === 'undefined') {
+        // Propagate the state to the selector when there isn't one yet.
+        selector = state;
+        state = null;
+      }
+
+      if (state !== null) {
+        // Constraints is the actual constraints of an element to check for.
+        state = states.State.sanitize(state);
+        return invert(this.compare(value, selector, state), state.invert);
+      }
+      else {
+        // Resolve this constraint as an AND/OR operator.
+        return this.verifyConstraints(value, selector);
+      }
+    },
+
+    /**
+     * Gathers information about all required triggers.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @return {object}
+     *   An object describing the required triggers.
+     */
+    getDependees: function () {
+      var cache = {};
+      // Swivel the lookup function so that we can record all available
+      // selector- state combinations for initialization.
+      var _compare = this.compare;
+      this.compare = function (reference, selector, state) {
+        (cache[selector] || (cache[selector] = [])).push(state.name);
+        // Return nothing (=== undefined) so that the constraint loops are not
+        // broken.
+      };
+
+      // This call doesn't actually verify anything but uses the resolving
+      // mechanism to go through the constraints array, trying to look up each
+      // value. Since we swivelled the compare function, this comparison returns
+      // undefined and lookup continues until the very end. Instead of lookup up
+      // the value, we record that combination of selector and state so that we
+      // can initialize all triggers.
+      this.verifyConstraints(this.constraints);
+      // Restore the original function.
+      this.compare = _compare;
+
+      return cache;
+    }
+  };
+
+  /**
+   * @constructor Drupal.states.Trigger
+   *
+   * @param {object} args
+   *   Trigger arguments.
+   */
+  states.Trigger = function (args) {
+    $.extend(this, args);
+
+    if (this.state in states.Trigger.states) {
+      this.element = $(this.selector);
+
+      // Only call the trigger initializer when it wasn't yet attached to this
+      // element. Otherwise we'd end up with duplicate events.
+      if (!this.element.data('trigger:' + this.state)) {
+        this.initialize();
+      }
+    }
+  };
+
+  states.Trigger.prototype = {
+
+    /**
+     * @memberof Drupal.states.Trigger#
+     */
+    initialize: function () {
+      var trigger = states.Trigger.states[this.state];
+
+      if (typeof trigger === 'function') {
+        // We have a custom trigger initialization function.
+        trigger.call(window, this.element);
+      }
+      else {
+        for (var event in trigger) {
+          if (trigger.hasOwnProperty(event)) {
+            this.defaultTrigger(event, trigger[event]);
+          }
+        }
+      }
+
+      // Mark this trigger as initialized for this element.
+      this.element.data('trigger:' + this.state, true);
+    },
+
+    /**
+     * @memberof Drupal.states.Trigger#
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered.
+     * @param {function} valueFn
+     *   The function to call.
+     */
+    defaultTrigger: function (event, valueFn) {
+      var oldValue = valueFn.call(this.element);
+
+      // Attach the event callback.
+      this.element.on(event, $.proxy(function (e) {
+        var value = valueFn.call(this.element, e);
+        // Only trigger the event if the value has actually changed.
+        if (oldValue !== value) {
+          this.element.trigger({type: 'state:' + this.state, value: value, oldValue: oldValue});
+          oldValue = value;
+        }
+      }, this));
+
+      states.postponed.push($.proxy(function () {
+        // Trigger the event once for initialization purposes.
+        this.element.trigger({type: 'state:' + this.state, value: oldValue, oldValue: null});
+      }, this));
+    }
+  };
+
+  /**
+   * This list of states contains functions that are used to monitor the state
+   * of an element. Whenever an element depends on the state of another element,
+   * one of these trigger functions is added to the dependee so that the
+   * dependent element can be updated.
+   *
+   * @name Drupal.states.Trigger.states
+   *
+   * @prop empty
+   * @prop checked
+   * @prop value
+   * @prop collapsed
+   */
+  states.Trigger.states = {
+    // 'empty' describes the state to be monitored.
+    empty: {
+      // 'keyup' is the (native DOM) event that we watch for.
+      keyup: function () {
+        // The function associated with that trigger returns the new value for
+        // the state.
+        return this.val() === '';
+      }
+    },
+
+    checked: {
+      change: function () {
+        // prop() and attr() only takes the first element into account. To
+        // support selectors matching multiple checkboxes, iterate over all and
+        // return whether any is checked.
+        var checked = false;
+        this.each(function () {
+          // Use prop() here as we want a boolean of the checkbox state.
+          // @see http://api.jquery.com/prop/
+          checked = $(this).prop('checked');
+          // Break the each() loop if this is checked.
+          return !checked;
+        });
+        return checked;
+      }
+    },
+
+    // For radio buttons, only return the value if the radio button is selected.
+    value: {
+      keyup: function () {
+        // Radio buttons share the same :input[name="key"] selector.
+        if (this.length > 1) {
+          // Initial checked value of radios is undefined, so we return false.
+          return this.filter(':checked').val() || false;
+        }
+        return this.val();
+      },
+      change: function () {
+        // Radio buttons share the same :input[name="key"] selector.
+        if (this.length > 1) {
+          // Initial checked value of radios is undefined, so we return false.
+          return this.filter(':checked').val() || false;
+        }
+        return this.val();
+      }
+    },
+
+    collapsed: {
+      collapsed: function (e) {
+        return (typeof e !== 'undefined' && 'value' in e) ? e.value : !this.is('[open]');
+      }
+    }
+  };
+
+  /**
+   * A state object is used for describing the state and performing aliasing.
+   *
+   * @constructor Drupal.states.State
+   *
+   * @param {string} state
+   *   The name of the state.
+   */
+  states.State = function (state) {
+
+    /**
+     * Original unresolved name.
+     */
+    this.pristine = this.name = state;
+
+    // Normalize the state name.
+    var process = true;
+    do {
+      // Iteratively remove exclamation marks and invert the value.
+      while (this.name.charAt(0) === '!') {
+        this.name = this.name.substring(1);
+        this.invert = !this.invert;
+      }
+
+      // Replace the state with its normalized name.
+      if (this.name in states.State.aliases) {
+        this.name = states.State.aliases[this.name];
+      }
+      else {
+        process = false;
+      }
+    } while (process);
+  };
+
+  /**
+   * Creates a new State object by sanitizing the passed value.
+   *
+   * @name Drupal.states.State.sanitize
+   *
+   * @param {string|Drupal.states.State} state
+   *   A state object or the name of a state.
+   *
+   * @return {Drupal.states.state}
+   *   A state object.
+   */
+  states.State.sanitize = function (state) {
+    if (state instanceof states.State) {
+      return state;
+    }
+    else {
+      return new states.State(state);
+    }
+  };
+
+  /**
+   * This list of aliases is used to normalize states and associates negated
+   * names with their respective inverse state.
+   *
+   * @name Drupal.states.State.aliases
+   */
+  states.State.aliases = {
+    enabled: '!disabled',
+    invisible: '!visible',
+    invalid: '!valid',
+    untouched: '!touched',
+    optional: '!required',
+    filled: '!empty',
+    unchecked: '!checked',
+    irrelevant: '!relevant',
+    expanded: '!collapsed',
+    open: '!collapsed',
+    closed: 'collapsed',
+    readwrite: '!readonly'
+  };
+
+  states.State.prototype = {
+
+    /**
+     * @memberof Drupal.states.State#
+     */
+    invert: false,
+
+    /**
+     * Ensures that just using the state object returns the name.
+     *
+     * @memberof Drupal.states.State#
+     *
+     * @return {string}
+     *   The name of the state.
+     */
+    toString: function () {
+      return this.name;
+    }
+  };
+
+  /**
+   * Global state change handlers. These are bound to "document" to cover all
+   * elements whose state changes. Events sent to elements within the page
+   * bubble up to these handlers. We use this system so that themes and modules
+   * can override these state change handlers for particular parts of a page.
+   */
+
+  var $document = $(document);
+  $document.on('state:disabled', function (e) {
+    // Only act when this change was triggered by a dependency and not by the
+    // element monitoring itself.
+    if (e.trigger) {
+      $(e.target)
+        .prop('disabled', e.value)
+        .closest('.js-form-item, .js-form-submit, .js-form-wrapper').toggleClass('form-disabled', e.value)
+        .find('select, input, textarea').prop('disabled', e.value);
+
+      // Note: WebKit nightlies don't reflect that change correctly.
+      // See https://bugs.webkit.org/show_bug.cgi?id=23789
+    }
+  });
+
+  $document.on('state:required', function (e) {
+    if (e.trigger) {
+      if (e.value) {
+        var label = 'label' + (e.target.id ? '[for=' + e.target.id + ']' : '');
+        var $label = $(e.target).attr({'required': 'required', 'aria-required': 'aria-required'}).closest('.js-form-item, .js-form-wrapper').find(label);
+        // Avoids duplicate required markers on initialization.
+        if (!$label.hasClass('js-form-required').length) {
+          $label.addClass('js-form-required form-required');
+        }
+      }
+      else {
+        $(e.target).removeAttr('required aria-required').closest('.js-form-item, .js-form-wrapper').find('label.js-form-required').removeClass('js-form-required form-required');
+      }
+    }
+  });
+
+  $document.on('state:visible', function (e) {
+    if (e.trigger) {
+      $(e.target).closest('.js-form-item, .js-form-submit, .js-form-wrapper').toggle(e.value);
+    }
+  });
+
+  $document.on('state:checked', function (e) {
+    if (e.trigger) {
+      $(e.target).prop('checked', e.value);
+    }
+  });
+
+  $document.on('state:collapsed', function (e) {
+    if (e.trigger) {
+      if ($(e.target).is('[open]') === e.value) {
+        $(e.target).find('> summary').trigger('click');
+      }
+    }
+  });
+
+  /**
+   * These are helper functions implementing addition "operators" and don't
+   * implement any logic that is particular to states.
+   */
+
+  /**
+   * Bitwise AND with a third undefined state.
+   *
+   * @function Drupal.states~ternary
+   *
+   * @param {*} a
+   *   Value a.
+   * @param {*} b
+   *   Value b
+   *
+   * @return {bool}
+   *   The result.
+   */
+  function ternary(a, b) {
+    if (typeof a === 'undefined') {
+      return b;
+    }
+    else if (typeof b === 'undefined') {
+      return a;
+    }
+    else {
+      return a && b;
+    }
+  }
+
+  /**
+   * Inverts a (if it's not undefined) when invertState is true.
+   *
+   * @function Drupal.states~invert
+   *
+   * @param {*} a
+   *   The value to maybe invert.
+   * @param {bool} invertState
+   *   Whether to invert state or not.
+   *
+   * @return {bool}
+   *   The result.
+   */
+  function invert(a, invertState) {
+    return (invertState && typeof a !== 'undefined') ? !a : a;
+  }
+
+  /**
+   * Compares two values while ignoring undefined values.
+   *
+   * @function Drupal.states~compare
+   *
+   * @param {*} a
+   *   Value a.
+   * @param {*} b
+   *   Value b.
+   *
+   * @return {bool}
+   *   The comparison result.
+   */
+  function compare(a, b) {
+    if (a === b) {
+      return typeof a === 'undefined' ? a : true;
+    }
+    else {
+      return typeof a === 'undefined' || typeof b === 'undefined';
+    }
+  }
+
+})(jQuery, Drupal);
+;
+/*!
+ * jQuery Form Plugin
+ * version: 3.51.0-2014.06.20
+ * Requires jQuery v1.5 or later
+ * Copyright (c) 2014 M. Alsup
+ * Examples and documentation at: http://malsup.com/jquery/form/
+ * Project repository: https://github.com/malsup/form
+ * Dual licensed under the MIT and GPL licenses.
+ * https://github.com/malsup/form#copyright-and-license
+ */
+!function(e){"use strict";"function"==typeof define&&define.amd?define(["jquery"],e):e("undefined"!=typeof jQuery?jQuery:window.Zepto)}(function(e){"use strict";function t(t){var r=t.data;t.isDefaultPrevented()||(t.preventDefault(),e(t.target).ajaxSubmit(r))}function r(t){var r=t.target,a=e(r);if(!a.is("[type=submit],[type=image]")){var n=a.closest("[type=submit]");if(0===n.length)return;r=n[0]}var i=this;if(i.clk=r,"image"==r.type)if(void 0!==t.offsetX)i.clk_x=t.offsetX,i.clk_y=t.offsetY;else if("function"==typeof e.fn.offset){var o=a.offset();i.clk_x=t.pageX-o.left,i.clk_y=t.pageY-o.top}else i.clk_x=t.pageX-r.offsetLeft,i.clk_y=t.pageY-r.offsetTop;setTimeout(function(){i.clk=i.clk_x=i.clk_y=null},100)}function a(){if(e.fn.ajaxSubmit.debug){var t="[jquery.form] "+Array.prototype.join.call(arguments,"");window.console&&window.console.log?window.console.log(t):window.opera&&window.opera.postError&&window.opera.postError(t)}}var n={};n.fileapi=void 0!==e("<input type='file'/>").get(0).files,n.formdata=void 0!==window.FormData;var i=!!e.fn.prop;e.fn.attr2=function(){if(!i)return this.attr.apply(this,arguments);var e=this.prop.apply(this,arguments);return e&&e.jquery||"string"==typeof e?e:this.attr.apply(this,arguments)},e.fn.ajaxSubmit=function(t){function r(r){var a,n,i=e.param(r,t.traditional).split("&"),o=i.length,s=[];for(a=0;o>a;a++)i[a]=i[a].replace(/\+/g," "),n=i[a].split("="),s.push([decodeURIComponent(n[0]),decodeURIComponent(n[1])]);return s}function o(a){for(var n=new FormData,i=0;i<a.length;i++)n.append(a[i].name,a[i].value);if(t.extraData){var o=r(t.extraData);for(i=0;i<o.length;i++)o[i]&&n.append(o[i][0],o[i][1])}t.data=null;var s=e.extend(!0,{},e.ajaxSettings,t,{contentType:!1,processData:!1,cache:!1,type:u||"POST"});t.uploadProgress&&(s.xhr=function(){var r=e.ajaxSettings.xhr();return r.upload&&r.upload.addEventListener("progress",function(e){var r=0,a=e.loaded||e.position,n=e.total;e.lengthComputable&&(r=Math.ceil(a/n*100)),t.uploadProgress(e,a,n,r)},!1),r}),s.data=null;var c=s.beforeSend;return s.beforeSend=function(e,r){r.data=t.formData?t.formData:n,c&&c.call(this,e,r)},e.ajax(s)}function s(r){function n(e){var t=null;try{e.contentWindow&&(t=e.contentWindow.document)}catch(r){a("cannot get iframe.contentWindow document: "+r)}if(t)return t;try{t=e.contentDocument?e.contentDocument:e.document}catch(r){a("cannot get iframe.contentDocument: "+r),t=e.document}return t}function o(){function t(){try{var e=n(g).readyState;a("state = "+e),e&&"uninitialized"==e.toLowerCase()&&setTimeout(t,50)}catch(r){a("Server abort: ",r," (",r.name,")"),s(k),j&&clearTimeout(j),j=void 0}}var r=f.attr2("target"),i=f.attr2("action"),o="multipart/form-data",c=f.attr("enctype")||f.attr("encoding")||o;w.setAttribute("target",p),(!u||/post/i.test(u))&&w.setAttribute("method","POST"),i!=m.url&&w.setAttribute("action",m.url),m.skipEncodingOverride||u&&!/post/i.test(u)||f.attr({encoding:"multipart/form-data",enctype:"multipart/form-data"}),m.timeout&&(j=setTimeout(function(){T=!0,s(D)},m.timeout));var l=[];try{if(m.extraData)for(var d in m.extraData)m.extraData.hasOwnProperty(d)&&l.push(e.isPlainObject(m.extraData[d])&&m.extraData[d].hasOwnProperty("name")&&m.extraData[d].hasOwnProperty("value")?e('<input type="hidden" name="'+m.extraData[d].name+'">').val(m.extraData[d].value).appendTo(w)[0]:e('<input type="hidden" name="'+d+'">').val(m.extraData[d]).appendTo(w)[0]);m.iframeTarget||v.appendTo("body"),g.attachEvent?g.attachEvent("onload",s):g.addEventListener("load",s,!1),setTimeout(t,15);try{w.submit()}catch(h){var x=document.createElement("form").submit;x.apply(w)}}finally{w.setAttribute("action",i),w.setAttribute("enctype",c),r?w.setAttribute("target",r):f.removeAttr("target"),e(l).remove()}}function s(t){if(!x.aborted&&!F){if(M=n(g),M||(a("cannot access response document"),t=k),t===D&&x)return x.abort("timeout"),void S.reject(x,"timeout");if(t==k&&x)return x.abort("server abort"),void S.reject(x,"error","server abort");if(M&&M.location.href!=m.iframeSrc||T){g.detachEvent?g.detachEvent("onload",s):g.removeEventListener("load",s,!1);var r,i="success";try{if(T)throw"timeout";var o="xml"==m.dataType||M.XMLDocument||e.isXMLDoc(M);if(a("isXml="+o),!o&&window.opera&&(null===M.body||!M.body.innerHTML)&&--O)return a("requeing onLoad callback, DOM not available"),void setTimeout(s,250);var u=M.body?M.body:M.documentElement;x.responseText=u?u.innerHTML:null,x.responseXML=M.XMLDocument?M.XMLDocument:M,o&&(m.dataType="xml"),x.getResponseHeader=function(e){var t={"content-type":m.dataType};return t[e.toLowerCase()]},u&&(x.status=Number(u.getAttribute("status"))||x.status,x.statusText=u.getAttribute("statusText")||x.statusText);var c=(m.dataType||"").toLowerCase(),l=/(json|script|text)/.test(c);if(l||m.textarea){var f=M.getElementsByTagName("textarea")[0];if(f)x.responseText=f.value,x.status=Number(f.getAttribute("status"))||x.status,x.statusText=f.getAttribute("statusText")||x.statusText;else if(l){var p=M.getElementsByTagName("pre")[0],h=M.getElementsByTagName("body")[0];p?x.responseText=p.textContent?p.textContent:p.innerText:h&&(x.responseText=h.textContent?h.textContent:h.innerText)}}else"xml"==c&&!x.responseXML&&x.responseText&&(x.responseXML=X(x.responseText));try{E=_(x,c,m)}catch(y){i="parsererror",x.error=r=y||i}}catch(y){a("error caught: ",y),i="error",x.error=r=y||i}x.aborted&&(a("upload aborted"),i=null),x.status&&(i=x.status>=200&&x.status<300||304===x.status?"success":"error"),"success"===i?(m.success&&m.success.call(m.context,E,"success",x),S.resolve(x.responseText,"success",x),d&&e.event.trigger("ajaxSuccess",[x,m])):i&&(void 0===r&&(r=x.statusText),m.error&&m.error.call(m.context,x,i,r),S.reject(x,"error",r),d&&e.event.trigger("ajaxError",[x,m,r])),d&&e.event.trigger("ajaxComplete",[x,m]),d&&!--e.active&&e.event.trigger("ajaxStop"),m.complete&&m.complete.call(m.context,x,i),F=!0,m.timeout&&clearTimeout(j),setTimeout(function(){m.iframeTarget?v.attr("src",m.iframeSrc):v.remove(),x.responseXML=null},100)}}}var c,l,m,d,p,v,g,x,y,b,T,j,w=f[0],S=e.Deferred();if(S.abort=function(e){x.abort(e)},r)for(l=0;l<h.length;l++)c=e(h[l]),i?c.prop("disabled",!1):c.removeAttr("disabled");if(m=e.extend(!0,{},e.ajaxSettings,t),m.context=m.context||m,p="jqFormIO"+(new Date).getTime(),m.iframeTarget?(v=e(m.iframeTarget),b=v.attr2("name"),b?p=b:v.attr2("name",p)):(v=e('<iframe name="'+p+'" src="'+m.iframeSrc+'" />'),v.css({position:"absolute",top:"-1000px",left:"-1000px"})),g=v[0],x={aborted:0,responseText:null,responseXML:null,status:0,statusText:"n/a",getAllResponseHeaders:function(){},getResponseHeader:function(){},setRequestHeader:function(){},abort:function(t){var r="timeout"===t?"timeout":"aborted";a("aborting upload... "+r),this.aborted=1;try{g.contentWindow.document.execCommand&&g.contentWindow.document.execCommand("Stop")}catch(n){}v.attr("src",m.iframeSrc),x.error=r,m.error&&m.error.call(m.context,x,r,t),d&&e.event.trigger("ajaxError",[x,m,r]),m.complete&&m.complete.call(m.context,x,r)}},d=m.global,d&&0===e.active++&&e.event.trigger("ajaxStart"),d&&e.event.trigger("ajaxSend",[x,m]),m.beforeSend&&m.beforeSend.call(m.context,x,m)===!1)return m.global&&e.active--,S.reject(),S;if(x.aborted)return S.reject(),S;y=w.clk,y&&(b=y.name,b&&!y.disabled&&(m.extraData=m.extraData||{},m.extraData[b]=y.value,"image"==y.type&&(m.extraData[b+".x"]=w.clk_x,m.extraData[b+".y"]=w.clk_y)));var D=1,k=2,A=e("meta[name=csrf-token]").attr("content"),L=e("meta[name=csrf-param]").attr("content");L&&A&&(m.extraData=m.extraData||{},m.extraData[L]=A),m.forceSync?o():setTimeout(o,10);var E,M,F,O=50,X=e.parseXML||function(e,t){return window.ActiveXObject?(t=new ActiveXObject("Microsoft.XMLDOM"),t.async="false",t.loadXML(e)):t=(new DOMParser).parseFromString(e,"text/xml"),t&&t.documentElement&&"parsererror"!=t.documentElement.nodeName?t:null},C=e.parseJSON||function(e){return window.eval("("+e+")")},_=function(t,r,a){var n=t.getResponseHeader("content-type")||"",i="xml"===r||!r&&n.indexOf("xml")>=0,o=i?t.responseXML:t.responseText;return i&&"parsererror"===o.documentElement.nodeName&&e.error&&e.error("parsererror"),a&&a.dataFilter&&(o=a.dataFilter(o,r)),"string"==typeof o&&("json"===r||!r&&n.indexOf("json")>=0?o=C(o):("script"===r||!r&&n.indexOf("javascript")>=0)&&e.globalEval(o)),o};return S}if(!this.length)return a("ajaxSubmit: skipping submit process - no element selected"),this;var u,c,l,f=this;"function"==typeof t?t={success:t}:void 0===t&&(t={}),u=t.type||this.attr2("method"),c=t.url||this.attr2("action"),l="string"==typeof c?e.trim(c):"",l=l||window.location.href||"",l&&(l=(l.match(/^([^#]+)/)||[])[1]),t=e.extend(!0,{url:l,success:e.ajaxSettings.success,type:u||e.ajaxSettings.type,iframeSrc:/^https/i.test(window.location.href||"")?"javascript:false":"about:blank"},t);var m={};if(this.trigger("form-pre-serialize",[this,t,m]),m.veto)return a("ajaxSubmit: submit vetoed via form-pre-serialize trigger"),this;if(t.beforeSerialize&&t.beforeSerialize(this,t)===!1)return a("ajaxSubmit: submit aborted via beforeSerialize callback"),this;var d=t.traditional;void 0===d&&(d=e.ajaxSettings.traditional);var p,h=[],v=this.formToArray(t.semantic,h);if(t.data&&(t.extraData=t.data,p=e.param(t.data,d)),t.beforeSubmit&&t.beforeSubmit(v,this,t)===!1)return a("ajaxSubmit: submit aborted via beforeSubmit callback"),this;if(this.trigger("form-submit-validate",[v,this,t,m]),m.veto)return a("ajaxSubmit: submit vetoed via form-submit-validate trigger"),this;var g=e.param(v,d);p&&(g=g?g+"&"+p:p),"GET"==t.type.toUpperCase()?(t.url+=(t.url.indexOf("?")>=0?"&":"?")+g,t.data=null):t.data=g;var x=[];if(t.resetForm&&x.push(function(){f.resetForm()}),t.clearForm&&x.push(function(){f.clearForm(t.includeHidden)}),!t.dataType&&t.target){var y=t.success||function(){};x.push(function(r){var a=t.replaceTarget?"replaceWith":"html";e(t.target)[a](r).each(y,arguments)})}else t.success&&x.push(t.success);if(t.success=function(e,r,a){for(var n=t.context||this,i=0,o=x.length;o>i;i++)x[i].apply(n,[e,r,a||f,f])},t.error){var b=t.error;t.error=function(e,r,a){var n=t.context||this;b.apply(n,[e,r,a,f])}}if(t.complete){var T=t.complete;t.complete=function(e,r){var a=t.context||this;T.apply(a,[e,r,f])}}var j=e("input[type=file]:enabled",this).filter(function(){return""!==e(this).val()}),w=j.length>0,S="multipart/form-data",D=f.attr("enctype")==S||f.attr("encoding")==S,k=n.fileapi&&n.formdata;a("fileAPI :"+k);var A,L=(w||D)&&!k;t.iframe!==!1&&(t.iframe||L)?t.closeKeepAlive?e.get(t.closeKeepAlive,function(){A=s(v)}):A=s(v):A=(w||D)&&k?o(v):e.ajax(t),f.removeData("jqxhr").data("jqxhr",A);for(var E=0;E<h.length;E++)h[E]=null;return this.trigger("form-submit-notify",[this,t]),this},e.fn.ajaxForm=function(n){if(n=n||{},n.delegation=n.delegation&&e.isFunction(e.fn.on),!n.delegation&&0===this.length){var i={s:this.selector,c:this.context};return!e.isReady&&i.s?(a("DOM not ready, queuing ajaxForm"),e(function(){e(i.s,i.c).ajaxForm(n)}),this):(a("terminating; zero elements found by selector"+(e.isReady?"":" (DOM not ready)")),this)}return n.delegation?(e(document).off("submit.form-plugin",this.selector,t).off("click.form-plugin",this.selector,r).on("submit.form-plugin",this.selector,n,t).on("click.form-plugin",this.selector,n,r),this):this.ajaxFormUnbind().bind("submit.form-plugin",n,t).bind("click.form-plugin",n,r)},e.fn.ajaxFormUnbind=function(){return this.unbind("submit.form-plugin click.form-plugin")},e.fn.formToArray=function(t,r){var a=[];if(0===this.length)return a;var i,o=this[0],s=this.attr("id"),u=t?o.getElementsByTagName("*"):o.elements;if(u&&!/MSIE [678]/.test(navigator.userAgent)&&(u=e(u).get()),s&&(i=e(':input[form="'+s+'"]').get(),i.length&&(u=(u||[]).concat(i))),!u||!u.length)return a;var c,l,f,m,d,p,h;for(c=0,p=u.length;p>c;c++)if(d=u[c],f=d.name,f&&!d.disabled)if(t&&o.clk&&"image"==d.type)o.clk==d&&(a.push({name:f,value:e(d).val(),type:d.type}),a.push({name:f+".x",value:o.clk_x},{name:f+".y",value:o.clk_y}));else if(m=e.fieldValue(d,!0),m&&m.constructor==Array)for(r&&r.push(d),l=0,h=m.length;h>l;l++)a.push({name:f,value:m[l]});else if(n.fileapi&&"file"==d.type){r&&r.push(d);var v=d.files;if(v.length)for(l=0;l<v.length;l++)a.push({name:f,value:v[l],type:d.type});else a.push({name:f,value:"",type:d.type})}else null!==m&&"undefined"!=typeof m&&(r&&r.push(d),a.push({name:f,value:m,type:d.type,required:d.required}));if(!t&&o.clk){var g=e(o.clk),x=g[0];f=x.name,f&&!x.disabled&&"image"==x.type&&(a.push({name:f,value:g.val()}),a.push({name:f+".x",value:o.clk_x},{name:f+".y",value:o.clk_y}))}return a},e.fn.formSerialize=function(t){return e.param(this.formToArray(t))},e.fn.fieldSerialize=function(t){var r=[];return this.each(function(){var a=this.name;if(a){var n=e.fieldValue(this,t);if(n&&n.constructor==Array)for(var i=0,o=n.length;o>i;i++)r.push({name:a,value:n[i]});else null!==n&&"undefined"!=typeof n&&r.push({name:this.name,value:n})}}),e.param(r)},e.fn.fieldValue=function(t){for(var r=[],a=0,n=this.length;n>a;a++){var i=this[a],o=e.fieldValue(i,t);null===o||"undefined"==typeof o||o.constructor==Array&&!o.length||(o.constructor==Array?e.merge(r,o):r.push(o))}return r},e.fieldValue=function(t,r){var a=t.name,n=t.type,i=t.tagName.toLowerCase();if(void 0===r&&(r=!0),r&&(!a||t.disabled||"reset"==n||"button"==n||("checkbox"==n||"radio"==n)&&!t.checked||("submit"==n||"image"==n)&&t.form&&t.form.clk!=t||"select"==i&&-1==t.selectedIndex))return null;if("select"==i){var o=t.selectedIndex;if(0>o)return null;for(var s=[],u=t.options,c="select-one"==n,l=c?o+1:u.length,f=c?o:0;l>f;f++){var m=u[f];if(m.selected){var d=m.value;if(d||(d=m.attributes&&m.attributes.value&&!m.attributes.value.specified?m.text:m.value),c)return d;s.push(d)}}return s}return e(t).val()},e.fn.clearForm=function(t){return this.each(function(){e("input,select,textarea",this).clearFields(t)})},e.fn.clearFields=e.fn.clearInputs=function(t){var r=/^(?:color|date|datetime|email|month|number|password|range|search|tel|text|time|url|week)$/i;return this.each(function(){var a=this.type,n=this.tagName.toLowerCase();r.test(a)||"textarea"==n?this.value="":"checkbox"==a||"radio"==a?this.checked=!1:"select"==n?this.selectedIndex=-1:"file"==a?/MSIE/.test(navigator.userAgent)?e(this).replaceWith(e(this).clone(!0)):e(this).val(""):t&&(t===!0&&/hidden/.test(a)||"string"==typeof t&&e(this).is(t))&&(this.value="")})},e.fn.resetForm=function(){return this.each(function(){("function"==typeof this.reset||"object"==typeof this.reset&&!this.reset.nodeType)&&this.reset()})},e.fn.enable=function(e){return void 0===e&&(e=!0),this.each(function(){this.disabled=!e})},e.fn.selected=function(t){return void 0===t&&(t=!0),this.each(function(){var r=this.type;if("checkbox"==r||"radio"==r)this.checked=t;else if("option"==this.tagName.toLowerCase()){var a=e(this).parent("select");t&&a[0]&&"select-one"==a[0].type&&a.find("option").selected(!1),this.selected=t}})},e.fn.ajaxSubmit.debug=!1});
+;
+/**
+ * @file
+ * Responsive table functionality.
+ */
+
+(function ($, Drupal, window) {
+
+  'use strict';
+
+  /**
+   * Attach the tableResponsive function to {@link Drupal.behaviors}.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches tableResponsive functionality.
+   */
+  Drupal.behaviors.tableResponsive = {
+    attach: function (context, settings) {
+      var $tables = $(context).find('table.responsive-enabled').once('tableresponsive');
+      if ($tables.length) {
+        var il = $tables.length;
+        for (var i = 0; i < il; i++) {
+          TableResponsive.tables.push(new TableResponsive($tables[i]));
+        }
+      }
+    }
+  };
+
+  /**
+   * The TableResponsive object optimizes table presentation for screen size.
+   *
+   * A responsive table hides columns at small screen sizes, leaving the most
+   * important columns visible to the end user. Users should not be prevented
+   * from accessing all columns, however. This class adds a toggle to a table
+   * with hidden columns that exposes the columns. Exposing the columns will
+   * likely break layouts, but it provides the user with a means to access
+   * data, which is a guiding principle of responsive design.
+   *
+   * @constructor Drupal.TableResponsive
+   *
+   * @param {HTMLElement} table
+   *   The table element to initialize the responsive table on.
+   */
+  function TableResponsive(table) {
+    this.table = table;
+    this.$table = $(table);
+    this.showText = Drupal.t('Show all columns');
+    this.hideText = Drupal.t('Hide lower priority columns');
+    // Store a reference to the header elements of the table so that the DOM is
+    // traversed only once to find them.
+    this.$headers = this.$table.find('th');
+    // Add a link before the table for users to show or hide weight columns.
+    this.$link = $('<button type="button" class="link tableresponsive-toggle"></button>')
+      .attr('title', Drupal.t('Show table cells that were hidden to make the table fit within a small screen.'))
+      .on('click', $.proxy(this, 'eventhandlerToggleColumns'));
+
+    this.$table.before($('<div class="tableresponsive-toggle-columns"></div>').append(this.$link));
+
+    // Attach a resize handler to the window.
+    $(window)
+      .on('resize.tableresponsive', $.proxy(this, 'eventhandlerEvaluateColumnVisibility'))
+      .trigger('resize.tableresponsive');
+  }
+
+  /**
+   * Extend the TableResponsive function with a list of managed tables.
+   */
+  $.extend(TableResponsive, /** @lends Drupal.TableResponsive */{
+
+    /**
+     * Store all created instances.
+     *
+     * @type {Array.<Drupal.TableResponsive>}
+     */
+    tables: []
+  });
+
+  /**
+   * Associates an action link with the table that will show hidden columns.
+   *
+   * Columns are assumed to be hidden if their header has the class priority-low
+   * or priority-medium.
+   */
+  $.extend(TableResponsive.prototype, /** @lends Drupal.TableResponsive# */{
+
+    /**
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    eventhandlerEvaluateColumnVisibility: function (e) {
+      var pegged = parseInt(this.$link.data('pegged'), 10);
+      var hiddenLength = this.$headers.filter('.priority-medium:hidden, .priority-low:hidden').length;
+      // If the table has hidden columns, associate an action link with the
+      // table to show the columns.
+      if (hiddenLength > 0) {
+        this.$link.show().text(this.showText);
+      }
+      // When the toggle is pegged, its presence is maintained because the user
+      // has interacted with it. This is necessary to keep the link visible if
+      // the user adjusts screen size and changes the visibility of columns.
+      if (!pegged && hiddenLength === 0) {
+        this.$link.hide().text(this.hideText);
+      }
+    },
+
+    /**
+     * Toggle the visibility of columns based on their priority.
+     *
+     * Columns are classed with either 'priority-low' or 'priority-medium'.
+     *
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    eventhandlerToggleColumns: function (e) {
+      e.preventDefault();
+      var self = this;
+      var $hiddenHeaders = this.$headers.filter('.priority-medium:hidden, .priority-low:hidden');
+      this.$revealedCells = this.$revealedCells || $();
+      // Reveal hidden columns.
+      if ($hiddenHeaders.length > 0) {
+        $hiddenHeaders.each(function (index, element) {
+          var $header = $(this);
+          var position = $header.prevAll('th').length;
+          self.$table.find('tbody tr').each(function () {
+            var $cells = $(this).find('td').eq(position);
+            $cells.show();
+            // Keep track of the revealed cells, so they can be hidden later.
+            self.$revealedCells = $().add(self.$revealedCells).add($cells);
+          });
+          $header.show();
+          // Keep track of the revealed headers, so they can be hidden later.
+          self.$revealedCells = $().add(self.$revealedCells).add($header);
+        });
+        this.$link.text(this.hideText).data('pegged', 1);
+      }
+      // Hide revealed columns.
+      else {
+        this.$revealedCells.hide();
+        // Strip the 'display:none' declaration from the style attributes of
+        // the table cells that .hide() added.
+        this.$revealedCells.each(function (index, element) {
+          var $cell = $(this);
+          var properties = $cell.attr('style').split(';');
+          var newProps = [];
+          // The hide method adds display none to the element. The element
+          // should be returned to the same state it was in before the columns
+          // were revealed, so it is necessary to remove the display none value
+          // from the style attribute.
+          var match = /^display\s*\:\s*none$/;
+          for (var i = 0; i < properties.length; i++) {
+            var prop = properties[i];
+            prop.trim();
+            // Find the display:none property and remove it.
+            var isDisplayNone = match.exec(prop);
+            if (isDisplayNone) {
+              continue;
+            }
+            newProps.push(prop);
+          }
+          // Return the rest of the style attribute values to the element.
+          $cell.attr('style', newProps.join(';'));
+        });
+        this.$link.text(this.showText).data('pegged', 0);
+        // Refresh the toggle link.
+        $(window).trigger('resize.tableresponsive');
+      }
+    }
+  });
+
+  // Make the TableResponsive object available in the Drupal namespace.
+  Drupal.TableResponsive = TableResponsive;
+
+})(jQuery, Drupal, window);
+;
+/**
+ * @file
+ * Provides JavaScript additions to the managed file field type.
+ *
+ * This file provides progress bar support (if available), popup windows for
+ * file previews, and disabling of other file fields during Ajax uploads (which
+ * prevents separate file fields from accidentally uploading files).
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * Attach behaviors to the file fields passed in the settings.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches validation for file extensions.
+   * @prop {Drupal~behaviorDetach} detach
+   *   Detaches validation for file extensions.
+   */
+  Drupal.behaviors.fileValidateAutoAttach = {
+    attach: function (context, settings) {
+      var $context = $(context);
+      var elements;
+
+      function initFileValidation(selector) {
+        $context.find(selector)
+          .once('fileValidate')
+          .on('change.fileValidate', {extensions: elements[selector]}, Drupal.file.validateExtension);
+      }
+
+      if (settings.file && settings.file.elements) {
+        elements = settings.file.elements;
+        Object.keys(elements).forEach(initFileValidation);
+      }
+    },
+    detach: function (context, settings, trigger) {
+      var $context = $(context);
+      var elements;
+
+      function removeFileValidation(selector) {
+        $context.find(selector)
+          .removeOnce('fileValidate')
+          .off('change.fileValidate', Drupal.file.validateExtension);
+      }
+
+      if (trigger === 'unload' && settings.file && settings.file.elements) {
+        elements = settings.file.elements;
+        Object.keys(elements).forEach(removeFileValidation);
+      }
+    }
+  };
+
+  /**
+   * Attach behaviors to file element auto upload.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches triggers for the upload button.
+   * @prop {Drupal~behaviorDetach} detach
+   *   Detaches auto file upload trigger.
+   */
+  Drupal.behaviors.fileAutoUpload = {
+    attach: function (context) {
+      $(context).find('input[type="file"]').once('auto-file-upload').on('change.autoFileUpload', Drupal.file.triggerUploadButton);
+    },
+    detach: function (context, setting, trigger) {
+      if (trigger === 'unload') {
+        $(context).find('input[type="file"]').removeOnce('auto-file-upload').off('.autoFileUpload');
+      }
+    }
+  };
+
+  /**
+   * Attach behaviors to the file upload and remove buttons.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches form submit events.
+   * @prop {Drupal~behaviorDetach} detach
+   *   Detaches form submit events.
+   */
+  Drupal.behaviors.fileButtons = {
+    attach: function (context) {
+      var $context = $(context);
+      $context.find('.js-form-submit').on('mousedown', Drupal.file.disableFields);
+      $context.find('.js-form-managed-file .js-form-submit').on('mousedown', Drupal.file.progressBar);
+    },
+    detach: function (context) {
+      var $context = $(context);
+      $context.find('.js-form-submit').off('mousedown', Drupal.file.disableFields);
+      $context.find('.js-form-managed-file .js-form-submit').off('mousedown', Drupal.file.progressBar);
+    }
+  };
+
+  /**
+   * Attach behaviors to links within managed file elements for preview windows.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches triggers.
+   * @prop {Drupal~behaviorDetach} detach
+   *   Detaches triggers.
+   */
+  Drupal.behaviors.filePreviewLinks = {
+    attach: function (context) {
+      $(context).find('div.js-form-managed-file .file a').on('click', Drupal.file.openInNewWindow);
+    },
+    detach: function (context) {
+      $(context).find('div.js-form-managed-file .file a').off('click', Drupal.file.openInNewWindow);
+    }
+  };
+
+  /**
+   * File upload utility functions.
+   *
+   * @namespace
+   */
+  Drupal.file = Drupal.file || {
+
+    /**
+     * Client-side file input validation of file extensions.
+     *
+     * @name Drupal.file.validateExtension
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered. For example `change.fileValidate`.
+     */
+    validateExtension: function (event) {
+      event.preventDefault();
+      // Remove any previous errors.
+      $('.file-upload-js-error').remove();
+
+      // Add client side validation for the input[type=file].
+      var extensionPattern = event.data.extensions.replace(/,\s*/g, '|');
+      if (extensionPattern.length > 1 && this.value.length > 0) {
+        var acceptableMatch = new RegExp('\\.(' + extensionPattern + ')$', 'gi');
+        if (!acceptableMatch.test(this.value)) {
+          var error = Drupal.t('The selected file %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions.', {
+            // According to the specifications of HTML5, a file upload control
+            // should not reveal the real local path to the file that a user
+            // has selected. Some web browsers implement this restriction by
+            // replacing the local path with "C:\fakepath\", which can cause
+            // confusion by leaving the user thinking perhaps Drupal could not
+            // find the file because it messed up the file path. To avoid this
+            // confusion, therefore, we strip out the bogus fakepath string.
+            '%filename': this.value.replace('C:\\fakepath\\', ''),
+            '%extensions': extensionPattern.replace(/\|/g, ', ')
+          });
+          $(this).closest('div.js-form-managed-file').prepend('<div class="messages messages--error file-upload-js-error" aria-live="polite">' + error + '</div>');
+          this.value = '';
+          // Cancel all other change event handlers.
+          event.stopImmediatePropagation();
+        }
+      }
+    },
+
+    /**
+     * Trigger the upload_button mouse event to auto-upload as a managed file.
+     *
+     * @name Drupal.file.triggerUploadButton
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered. For example `change.autoFileUpload`.
+     */
+    triggerUploadButton: function (event) {
+      $(event.target).closest('.js-form-managed-file').find('.js-form-submit').trigger('mousedown');
+    },
+
+    /**
+     * Prevent file uploads when using buttons not intended to upload.
+     *
+     * @name Drupal.file.disableFields
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered, most likely a `mousedown` event.
+     */
+    disableFields: function (event) {
+      var $clickedButton = $(this).findOnce('ajax');
+
+      // Only disable upload fields for Ajax buttons.
+      if (!$clickedButton.length) {
+        return;
+      }
+
+      // Check if we're working with an "Upload" button.
+      var $enabledFields = [];
+      if ($clickedButton.closest('div.js-form-managed-file').length > 0) {
+        $enabledFields = $clickedButton.closest('div.js-form-managed-file').find('input.js-form-file');
+      }
+
+      // Temporarily disable upload fields other than the one we're currently
+      // working with. Filter out fields that are already disabled so that they
+      // do not get enabled when we re-enable these fields at the end of
+      // behavior processing. Re-enable in a setTimeout set to a relatively
+      // short amount of time (1 second). All the other mousedown handlers
+      // (like Drupal's Ajax behaviors) are executed before any timeout
+      // functions are called, so we don't have to worry about the fields being
+      // re-enabled too soon. @todo If the previous sentence is true, why not
+      // set the timeout to 0?
+      var $fieldsToTemporarilyDisable = $('div.js-form-managed-file input.js-form-file').not($enabledFields).not(':disabled');
+      $fieldsToTemporarilyDisable.prop('disabled', true);
+      setTimeout(function () {
+        $fieldsToTemporarilyDisable.prop('disabled', false);
+      }, 1000);
+    },
+
+    /**
+     * Add progress bar support if possible.
+     *
+     * @name Drupal.file.progressBar
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered, most likely a `mousedown` event.
+     */
+    progressBar: function (event) {
+      var $clickedButton = $(this);
+      var $progressId = $clickedButton.closest('div.js-form-managed-file').find('input.file-progress');
+      if ($progressId.length) {
+        var originalName = $progressId.attr('name');
+
+        // Replace the name with the required identifier.
+        $progressId.attr('name', originalName.match(/APC_UPLOAD_PROGRESS|UPLOAD_IDENTIFIER/)[0]);
+
+        // Restore the original name after the upload begins.
+        setTimeout(function () {
+          $progressId.attr('name', originalName);
+        }, 1000);
+      }
+      // Show the progress bar if the upload takes longer than half a second.
+      setTimeout(function () {
+        $clickedButton.closest('div.js-form-managed-file').find('div.ajax-progress-bar').slideDown();
+      }, 500);
+    },
+
+    /**
+     * Open links to files within forms in a new window.
+     *
+     * @name Drupal.file.openInNewWindow
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered, most likely a `click` event.
+     */
+    openInNewWindow: function (event) {
+      event.preventDefault();
+      $(this).attr('target', '_blank');
+      window.open(this.href, 'filePreview', 'toolbar=0,scrollbars=1,location=1,statusbar=1,menubar=0,resizable=1,width=500,height=550');
+    }
+  };
+
+})(jQuery, Drupal);
 ;
 window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.styleMedia||window.media;if(!e){var t=document.createElement("style"),i=document.getElementsByTagName("script")[0],n=null;t.type="text/css";t.id="matchmediajs-test";i.parentNode.insertBefore(t,i);n="getComputedStyle"in window&&window.getComputedStyle(t,null)||t.currentStyle;e={matchMedium:function(e){var i="@media "+e+"{ #matchmediajs-test { width: 1px; } }";if(t.styleSheet){t.styleSheet.cssText=i}else{t.textContent=i}return n.width==="1px"}}}return function(t){return{matches:e.matchMedium(t||"all"),media:t||"all"}}}());
 ;

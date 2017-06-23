@@ -45,7 +45,7 @@ void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!=
   }
 })();
 ;
-window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","closed":"cerrado","Save":"Guardar","Open":"Abierta","OK":"OK","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Extend":"Ampliar","Hide":"Ocultar","Quick edit":"Edici\u00f3n r\u00e1pida","@label":"@label","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","Collapse":"Plegar","You have unsaved changes":"Usted tiene cambios no guaradados","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","List additional actions":"Lista adicional de acciones","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!"}},"pluralFormula":{"1":0,"default":1}};;
+window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","Next":"Siguiente","closed":"cerrado","Cancel":"Cancelar","Edit":"Editar","Link":"Enlace","Image":"Imagen","Save":"Guardar","Open":"Abierta","Sunday":"Domingo","Monday":"Lunes","Tuesday":"Martes","Wednesday":"Mi\u00e9rcoles","Thursday":"Jueves","Friday":"Viernes","Saturday":"S\u00e1bado","Add":"Agregar","Keywords":"Palabras clave","Continue":"Continuar","Done":"Hecho","OK":"OK","Prev":"Previo","Mon":"Lun","Tue":"Mar","Wed":"Mi\u00e9","Thu":"Jue","Fri":"Vie","Sat":"S\u00e1b","Sun":"Dom","May":"Mayo","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Today":"Hoy","Jan":"Ene","Feb":"Feb","Mar":"Mar","Apr":"Abr","Jun":"Jun","Jul":"Jul","Aug":"Ago","Sep":"Sep","Oct":"Oct","Nov":"Nov","Dec":"Dic","Extend":"Ampliar","Su":"Do","Mo":"Lu","Tu":"Ma","We":"Mi","Th":"Ju","Fr":"Vi","Sa":"Sa","Not published":"No publicado","Loading...":"Cargando...","Hide":"Ocultar","Unlink":"Desvincular","Not promoted":"No publicado en p\u00e1gina principal","mm\/dd\/yy":"mm\/dd\/yy","Quick edit":"Edici\u00f3n r\u00e1pida","Edit Link":"Editar enlace","Remove group":"Eliminar grupo","By @name on @date":"Por @name en @date","By @name":"Por @name","Not in menu":"No est\u00e1 en un men\u00fa","Alias: @alias":"Alias: @alias","No alias":"Sin alias","@label":"@label","New revision":"Nueva revisi\u00f3n","Drag to re-order":"Arrastre para reordenar","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","No revision":"Sin revisi\u00f3n","Requires a title":"Necesita un t\u00edtulo","Not restricted":"Sin restricci\u00f3n","(active tab)":"(solapa activa)","Restricted to certain pages":"Restringido a algunas p\u00e1ginas","The block cannot be placed in this region.":"El bloque no se puede colocar en esta regi\u00f3n.","Hide summary":"Ocultar resumen","Edit summary":"Editar resumen","Don\u0027t display post information":"No mostrar informaci\u00f3n del env\u00edo","Collapse":"Plegar","The selected file %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions.":"El archivo seleccionado %filename no se puede subir al srvidor. Solo se permiten archivos con las siguientes extensiones: %extensions.","Re-order rows by numerical weight instead of dragging.":"Reordenar las filas por peso num\u00e9rico en lugar de arrastrar.","Show row weights":"Mostrar pesos de la fila","Hide row weights":"Ocultar pesos de la fila","Apply (all displays)":"Aplicar (todas las presentaciones)","Apply (this display)":"Aplicar (esta presentaci\u00f3n)","Revert to default":"Volver al valor inicial","You have unsaved changes":"Usted tiene cambios no guaradados","Needs to be updated":"Necesita ser actualizado","Does not need to be updated":"No necesita ser actualizado","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","List additional actions":"Lista adicional de acciones","Flag other translations as outdated":"Marcar las otras traducciones como desfasadas","Do not flag other translations as outdated":"No marcar las otras traducciones como desfasadas","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","You have unsaved changes.":"Tiene cambios sin guardar.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Changing the text format to %text_format will permanently remove content that is not allowed in that text format.\u003Cbr\u003E\u003Cbr\u003ESave your changes before switching the text format to avoid losing data.":"Cambiar el formato de texto a %text_format eliminar\u00e1 permanentemente el contenido que no est\u00e1 permitido en ese formato de texto.\u003Cbr\u003E\u003Cbr\u003EGuarde sus datos antes de cambiar el formato de texto para evitar perder datos.","Change text format?":"\u00bfCambiar el formato de texto?","Rich Text Editor, !label field":"Editor de texto con formato, campo !label","Leave preview?":"\u00bfSalir de la vista previa?","Leave preview":"Salir de la vista previa","Leaving the preview will cause unsaved changes to be lost. Are you sure you want to leave the preview?":"La salida de la vista previa provocar\u00e1 la p\u00e9rdida de los cambios no guardados. \u00bfEst\u00e1 seguro de que desea abandonar la vista previa?","CTRL+Left click will prevent this dialog from showing and proceed to the clicked link.":"CTRL+Clic izquierdo evitar\u00e1 que aparezca este di\u00e1logo e ir\u00e1 directamente al enlace pulsado.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!","Authored on @date":"Escrito el @date","Latitude":"Latitud","Longitude":"Longitud","No location data found. Reason: POSITION_UNAVAILABLE.":"No se encontraron datos de localizaci\u00f3n. Razon: POSICION_NO_DISPONIBLE","No location data found. Reason: TIMEOUT.":"No se encontraron datos de localizaci\u00f3n. Razon: TIEMPO EXPIRADO"},"Long month name":{"January":"Enero","February":"Febrero","March":"Marzo","April":"Abril","May":"Mayo","June":"Junio","July":"Julio","August":"Agosto","September":"Septiembre","October":"Octubre","November":"Noviembre","December":"Diciembre"}},"pluralFormula":{"1":0,"default":1}};;
 /**
  * @file
  * Defines the Drupal JavaScript API.
@@ -1378,417 +1378,6 @@ document.documentElement.className += ' js';
 ;
 /**
  * @file
- * Responsive table functionality.
- */
-
-(function ($, Drupal, window) {
-
-  'use strict';
-
-  /**
-   * Attach the tableResponsive function to {@link Drupal.behaviors}.
-   *
-   * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Attaches tableResponsive functionality.
-   */
-  Drupal.behaviors.tableResponsive = {
-    attach: function (context, settings) {
-      var $tables = $(context).find('table.responsive-enabled').once('tableresponsive');
-      if ($tables.length) {
-        var il = $tables.length;
-        for (var i = 0; i < il; i++) {
-          TableResponsive.tables.push(new TableResponsive($tables[i]));
-        }
-      }
-    }
-  };
-
-  /**
-   * The TableResponsive object optimizes table presentation for screen size.
-   *
-   * A responsive table hides columns at small screen sizes, leaving the most
-   * important columns visible to the end user. Users should not be prevented
-   * from accessing all columns, however. This class adds a toggle to a table
-   * with hidden columns that exposes the columns. Exposing the columns will
-   * likely break layouts, but it provides the user with a means to access
-   * data, which is a guiding principle of responsive design.
-   *
-   * @constructor Drupal.TableResponsive
-   *
-   * @param {HTMLElement} table
-   *   The table element to initialize the responsive table on.
-   */
-  function TableResponsive(table) {
-    this.table = table;
-    this.$table = $(table);
-    this.showText = Drupal.t('Show all columns');
-    this.hideText = Drupal.t('Hide lower priority columns');
-    // Store a reference to the header elements of the table so that the DOM is
-    // traversed only once to find them.
-    this.$headers = this.$table.find('th');
-    // Add a link before the table for users to show or hide weight columns.
-    this.$link = $('<button type="button" class="link tableresponsive-toggle"></button>')
-      .attr('title', Drupal.t('Show table cells that were hidden to make the table fit within a small screen.'))
-      .on('click', $.proxy(this, 'eventhandlerToggleColumns'));
-
-    this.$table.before($('<div class="tableresponsive-toggle-columns"></div>').append(this.$link));
-
-    // Attach a resize handler to the window.
-    $(window)
-      .on('resize.tableresponsive', $.proxy(this, 'eventhandlerEvaluateColumnVisibility'))
-      .trigger('resize.tableresponsive');
-  }
-
-  /**
-   * Extend the TableResponsive function with a list of managed tables.
-   */
-  $.extend(TableResponsive, /** @lends Drupal.TableResponsive */{
-
-    /**
-     * Store all created instances.
-     *
-     * @type {Array.<Drupal.TableResponsive>}
-     */
-    tables: []
-  });
-
-  /**
-   * Associates an action link with the table that will show hidden columns.
-   *
-   * Columns are assumed to be hidden if their header has the class priority-low
-   * or priority-medium.
-   */
-  $.extend(TableResponsive.prototype, /** @lends Drupal.TableResponsive# */{
-
-    /**
-     * @param {jQuery.Event} e
-     *   The event triggered.
-     */
-    eventhandlerEvaluateColumnVisibility: function (e) {
-      var pegged = parseInt(this.$link.data('pegged'), 10);
-      var hiddenLength = this.$headers.filter('.priority-medium:hidden, .priority-low:hidden').length;
-      // If the table has hidden columns, associate an action link with the
-      // table to show the columns.
-      if (hiddenLength > 0) {
-        this.$link.show().text(this.showText);
-      }
-      // When the toggle is pegged, its presence is maintained because the user
-      // has interacted with it. This is necessary to keep the link visible if
-      // the user adjusts screen size and changes the visibility of columns.
-      if (!pegged && hiddenLength === 0) {
-        this.$link.hide().text(this.hideText);
-      }
-    },
-
-    /**
-     * Toggle the visibility of columns based on their priority.
-     *
-     * Columns are classed with either 'priority-low' or 'priority-medium'.
-     *
-     * @param {jQuery.Event} e
-     *   The event triggered.
-     */
-    eventhandlerToggleColumns: function (e) {
-      e.preventDefault();
-      var self = this;
-      var $hiddenHeaders = this.$headers.filter('.priority-medium:hidden, .priority-low:hidden');
-      this.$revealedCells = this.$revealedCells || $();
-      // Reveal hidden columns.
-      if ($hiddenHeaders.length > 0) {
-        $hiddenHeaders.each(function (index, element) {
-          var $header = $(this);
-          var position = $header.prevAll('th').length;
-          self.$table.find('tbody tr').each(function () {
-            var $cells = $(this).find('td').eq(position);
-            $cells.show();
-            // Keep track of the revealed cells, so they can be hidden later.
-            self.$revealedCells = $().add(self.$revealedCells).add($cells);
-          });
-          $header.show();
-          // Keep track of the revealed headers, so they can be hidden later.
-          self.$revealedCells = $().add(self.$revealedCells).add($header);
-        });
-        this.$link.text(this.hideText).data('pegged', 1);
-      }
-      // Hide revealed columns.
-      else {
-        this.$revealedCells.hide();
-        // Strip the 'display:none' declaration from the style attributes of
-        // the table cells that .hide() added.
-        this.$revealedCells.each(function (index, element) {
-          var $cell = $(this);
-          var properties = $cell.attr('style').split(';');
-          var newProps = [];
-          // The hide method adds display none to the element. The element
-          // should be returned to the same state it was in before the columns
-          // were revealed, so it is necessary to remove the display none value
-          // from the style attribute.
-          var match = /^display\s*\:\s*none$/;
-          for (var i = 0; i < properties.length; i++) {
-            var prop = properties[i];
-            prop.trim();
-            // Find the display:none property and remove it.
-            var isDisplayNone = match.exec(prop);
-            if (isDisplayNone) {
-              continue;
-            }
-            newProps.push(prop);
-          }
-          // Return the rest of the style attribute values to the element.
-          $cell.attr('style', newProps.join(';'));
-        });
-        this.$link.text(this.showText).data('pegged', 0);
-        // Refresh the toggle link.
-        $(window).trigger('resize.tableresponsive');
-      }
-    }
-  });
-
-  // Make the TableResponsive object available in the Drupal namespace.
-  Drupal.TableResponsive = TableResponsive;
-
-})(jQuery, Drupal, window);
-;
-/**
- * @file
- * Dropbutton feature.
- */
-
-(function ($, Drupal) {
-
-  'use strict';
-
-  /**
-   * Process elements with the .dropbutton class on page load.
-   *
-   * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Attaches dropButton behaviors.
-   */
-  Drupal.behaviors.dropButton = {
-    attach: function (context, settings) {
-      var $dropbuttons = $(context).find('.dropbutton-wrapper').once('dropbutton');
-      if ($dropbuttons.length) {
-        // Adds the delegated handler that will toggle dropdowns on click.
-        var $body = $('body').once('dropbutton-click');
-        if ($body.length) {
-          $body.on('click', '.dropbutton-toggle', dropbuttonClickHandler);
-        }
-        // Initialize all buttons.
-        var il = $dropbuttons.length;
-        for (var i = 0; i < il; i++) {
-          DropButton.dropbuttons.push(new DropButton($dropbuttons[i], settings.dropbutton));
-        }
-      }
-    }
-  };
-
-  /**
-   * Delegated callback for opening and closing dropbutton secondary actions.
-   *
-   * @function Drupal.DropButton~dropbuttonClickHandler
-   *
-   * @param {jQuery.Event} e
-   *   The event triggered.
-   */
-  function dropbuttonClickHandler(e) {
-    e.preventDefault();
-    $(e.target).closest('.dropbutton-wrapper').toggleClass('open');
-  }
-
-  /**
-   * A DropButton presents an HTML list as a button with a primary action.
-   *
-   * All secondary actions beyond the first in the list are presented in a
-   * dropdown list accessible through a toggle arrow associated with the button.
-   *
-   * @constructor Drupal.DropButton
-   *
-   * @param {HTMLElement} dropbutton
-   *   A DOM element.
-   * @param {object} settings
-   *   A list of options including:
-   * @param {string} settings.title
-   *   The text inside the toggle link element. This text is hidden
-   *   from visual UAs.
-   */
-  function DropButton(dropbutton, settings) {
-    // Merge defaults with settings.
-    var options = $.extend({title: Drupal.t('List additional actions')}, settings);
-    var $dropbutton = $(dropbutton);
-
-    /**
-     * @type {jQuery}
-     */
-    this.$dropbutton = $dropbutton;
-
-    /**
-     * @type {jQuery}
-     */
-    this.$list = $dropbutton.find('.dropbutton');
-
-    /**
-     * Find actions and mark them.
-     *
-     * @type {jQuery}
-     */
-    this.$actions = this.$list.find('li').addClass('dropbutton-action');
-
-    // Add the special dropdown only if there are hidden actions.
-    if (this.$actions.length > 1) {
-      // Identify the first element of the collection.
-      var $primary = this.$actions.slice(0, 1);
-      // Identify the secondary actions.
-      var $secondary = this.$actions.slice(1);
-      $secondary.addClass('secondary-action');
-      // Add toggle link.
-      $primary.after(Drupal.theme('dropbuttonToggle', options));
-      // Bind mouse events.
-      this.$dropbutton
-        .addClass('dropbutton-multiple')
-        .on({
-
-          /**
-           * Adds a timeout to close the dropdown on mouseleave.
-           *
-           * @ignore
-           */
-          'mouseleave.dropbutton': $.proxy(this.hoverOut, this),
-
-          /**
-           * Clears timeout when mouseout of the dropdown.
-           *
-           * @ignore
-           */
-          'mouseenter.dropbutton': $.proxy(this.hoverIn, this),
-
-          /**
-           * Similar to mouseleave/mouseenter, but for keyboard navigation.
-           *
-           * @ignore
-           */
-          'focusout.dropbutton': $.proxy(this.focusOut, this),
-
-          /**
-           * @ignore
-           */
-          'focusin.dropbutton': $.proxy(this.focusIn, this)
-        });
-    }
-    else {
-      this.$dropbutton.addClass('dropbutton-single');
-    }
-  }
-
-  /**
-   * Extend the DropButton constructor.
-   */
-  $.extend(DropButton, /** @lends Drupal.DropButton */{
-    /**
-     * Store all processed DropButtons.
-     *
-     * @type {Array.<Drupal.DropButton>}
-     */
-    dropbuttons: []
-  });
-
-  /**
-   * Extend the DropButton prototype.
-   */
-  $.extend(DropButton.prototype, /** @lends Drupal.DropButton# */{
-
-    /**
-     * Toggle the dropbutton open and closed.
-     *
-     * @param {bool} [show]
-     *   Force the dropbutton to open by passing true or to close by
-     *   passing false.
-     */
-    toggle: function (show) {
-      var isBool = typeof show === 'boolean';
-      show = isBool ? show : !this.$dropbutton.hasClass('open');
-      this.$dropbutton.toggleClass('open', show);
-    },
-
-    /**
-     * @method
-     */
-    hoverIn: function () {
-      // Clear any previous timer we were using.
-      if (this.timerID) {
-        window.clearTimeout(this.timerID);
-      }
-    },
-
-    /**
-     * @method
-     */
-    hoverOut: function () {
-      // Wait half a second before closing.
-      this.timerID = window.setTimeout($.proxy(this, 'close'), 500);
-    },
-
-    /**
-     * @method
-     */
-    open: function () {
-      this.toggle(true);
-    },
-
-    /**
-     * @method
-     */
-    close: function () {
-      this.toggle(false);
-    },
-
-    /**
-     * @param {jQuery.Event} e
-     *   The event triggered.
-     */
-    focusOut: function (e) {
-      this.hoverOut.call(this, e);
-    },
-
-    /**
-     * @param {jQuery.Event} e
-     *   The event triggered.
-     */
-    focusIn: function (e) {
-      this.hoverIn.call(this, e);
-    }
-  });
-
-  $.extend(Drupal.theme, /** @lends Drupal.theme */{
-
-    /**
-     * A toggle is an interactive element often bound to a click handler.
-     *
-     * @param {object} options
-     *   Options object.
-     * @param {string} [options.title]
-     *   The HTML anchor title attribute and text for the inner span element.
-     *
-     * @return {string}
-     *   A string representing a DOM fragment.
-     */
-    dropbuttonToggle: function (options) {
-      return '<li class="dropbutton-toggle"><button type="button"><span class="dropbutton-arrow"><span class="visually-hidden">' + options.title + '</span></span></button></li>';
-    }
-  });
-
-  // Expose constructor in the public space.
-  Drupal.DropButton = DropButton;
-
-})(jQuery, Drupal);
-;
-window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.styleMedia||window.media;if(!e){var t=document.createElement("style"),i=document.getElementsByTagName("script")[0],n=null;t.type="text/css";t.id="matchmediajs-test";i.parentNode.insertBefore(t,i);n="getComputedStyle"in window&&window.getComputedStyle(t,null)||t.currentStyle;e={matchMedium:function(e){var i="@media "+e+"{ #matchmediajs-test { width: 1px; } }";if(t.styleSheet){t.styleSheet.cssText=i}else{t.textContent=i}return n.width==="1px"}}}return function(t){return{matches:e.matchMedium(t||"all"),media:t||"all"}}}());
-;
-/**
- * @file
  * Adapted from underscore.js with the addition Drupal namespace.
  */
 
@@ -1840,59 +1429,1158 @@ Drupal.debounce = function (func, wait, immediate) {
   };
 };
 ;
+/*! jquery.cookie v1.4.1 | MIT */
+!function(a){"function"==typeof define&&define.amd?define(["jquery"],a):"object"==typeof exports?a(require("jquery")):a(jQuery)}(function(a){function b(a){return h.raw?a:encodeURIComponent(a)}function c(a){return h.raw?a:decodeURIComponent(a)}function d(a){return b(h.json?JSON.stringify(a):String(a))}function e(a){0===a.indexOf('"')&&(a=a.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,"\\"));try{return a=decodeURIComponent(a.replace(g," ")),h.json?JSON.parse(a):a}catch(b){}}function f(b,c){var d=h.raw?b:e(b);return a.isFunction(c)?c(d):d}var g=/\+/g,h=a.cookie=function(e,g,i){if(void 0!==g&&!a.isFunction(g)){if(i=a.extend({},h.defaults,i),"number"==typeof i.expires){var j=i.expires,k=i.expires=new Date;k.setTime(+k+864e5*j)}return document.cookie=[b(e),"=",d(g),i.expires?"; expires="+i.expires.toUTCString():"",i.path?"; path="+i.path:"",i.domain?"; domain="+i.domain:"",i.secure?"; secure":""].join("")}for(var l=e?void 0:{},m=document.cookie?document.cookie.split("; "):[],n=0,o=m.length;o>n;n++){var p=m[n].split("="),q=c(p.shift()),r=p.join("=");if(e&&e===q){l=f(r,g);break}e||void 0===(r=f(r))||(l[q]=r)}return l};h.defaults={},a.removeCookie=function(b,c){return void 0===a.cookie(b)?!1:(a.cookie(b,"",a.extend({},c,{expires:-1})),!a.cookie(b))}});;
 /**
  * @file
- * Responsive navigation tabs.
- *
- * This also supports collapsible navigable is the 'is-collapsible' class is
- * added to the main element, and a target element is included.
+ * Form features.
  */
-(function ($, Drupal) {
+
+/**
+ * Triggers when a value in the form changed.
+ *
+ * The event triggers when content is typed or pasted in a text field, before
+ * the change event triggers.
+ *
+ * @event formUpdated
+ */
+
+(function ($, Drupal, debounce) {
 
   'use strict';
 
-  function init(i, tab) {
-    var $tab = $(tab);
-    var $target = $tab.find('[data-drupal-nav-tabs-target]');
-    var isCollapsible = $tab.hasClass('is-collapsible');
+  /**
+   * Retrieves the summary for the first element.
+   *
+   * @return {string}
+   *   The text of the summary.
+   */
+  $.fn.drupalGetSummary = function () {
+    var callback = this.data('summaryCallback');
+    return (this[0] && callback) ? $.trim(callback(this[0])) : '';
+  };
 
-    function openMenu(e) {
-      $target.toggleClass('is-open');
+  /**
+   * Sets the summary for all matched elements.
+   *
+   * @param {function} callback
+   *   Either a function that will be called each time the summary is
+   *   retrieved or a string (which is returned each time).
+   *
+   * @return {jQuery}
+   *   jQuery collection of the current element.
+   *
+   * @fires event:summaryUpdated
+   *
+   * @listens event:formUpdated
+   */
+  $.fn.drupalSetSummary = function (callback) {
+    var self = this;
+
+    // To facilitate things, the callback should always be a function. If it's
+    // not, we wrap it into an anonymous function which just returns the value.
+    if (typeof callback !== 'function') {
+      var val = callback;
+      callback = function () { return val; };
     }
 
-    function handleResize(e) {
-      $tab.addClass('is-horizontal');
-      var $tabs = $tab.find('.tabs');
-      var isHorizontal = $tabs.outerHeight() <= $tabs.find('.tabs__tab').outerHeight();
-      $tab.toggleClass('is-horizontal', isHorizontal);
-      if (isCollapsible) {
-        $tab.toggleClass('is-collapse-enabled', !isHorizontal);
+    return this
+      .data('summaryCallback', callback)
+      // To prevent duplicate events, the handlers are first removed and then
+      // (re-)added.
+      .off('formUpdated.summary')
+      .on('formUpdated.summary', function () {
+        self.trigger('summaryUpdated');
+      })
+      // The actual summaryUpdated handler doesn't fire when the callback is
+      // changed, so we have to do this manually.
+      .trigger('summaryUpdated');
+  };
+
+  /**
+   * Prevents consecutive form submissions of identical form values.
+   *
+   * Repetitive form submissions that would submit the identical form values
+   * are prevented, unless the form values are different to the previously
+   * submitted values.
+   *
+   * This is a simplified re-implementation of a user-agent behavior that
+   * should be natively supported by major web browsers, but at this time, only
+   * Firefox has a built-in protection.
+   *
+   * A form value-based approach ensures that the constraint is triggered for
+   * consecutive, identical form submissions only. Compared to that, a form
+   * button-based approach would (1) rely on [visible] buttons to exist where
+   * technically not required and (2) require more complex state management if
+   * there are multiple buttons in a form.
+   *
+   * This implementation is based on form-level submit events only and relies
+   * on jQuery's serialize() method to determine submitted form values. As such,
+   * the following limitations exist:
+   *
+   * - Event handlers on form buttons that preventDefault() do not receive a
+   *   double-submit protection. That is deemed to be fine, since such button
+   *   events typically trigger reversible client-side or server-side
+   *   operations that are local to the context of a form only.
+   * - Changed values in advanced form controls, such as file inputs, are not
+   *   part of the form values being compared between consecutive form submits
+   *   (due to limitations of jQuery.serialize()). That is deemed to be
+   *   acceptable, because if the user forgot to attach a file, then the size of
+   *   HTTP payload will most likely be small enough to be fully passed to the
+   *   server endpoint within (milli)seconds. If a user mistakenly attached a
+   *   wrong file and is technically versed enough to cancel the form submission
+   *   (and HTTP payload) in order to attach a different file, then that
+   *   edge-case is not supported here.
+   *
+   * Lastly, all forms submitted via HTTP GET are idempotent by definition of
+   * HTTP standards, so excluded in this implementation.
+   *
+   * @type {Drupal~behavior}
+   */
+  Drupal.behaviors.formSingleSubmit = {
+    attach: function () {
+      function onFormSubmit(e) {
+        var $form = $(e.currentTarget);
+        var formValues = $form.serialize();
+        var previousValues = $form.attr('data-drupal-form-submit-last');
+        if (previousValues === formValues) {
+          e.preventDefault();
+        }
+        else {
+          $form.attr('data-drupal-form-submit-last', formValues);
+        }
       }
-      if (isHorizontal) {
-        $target.removeClass('is-open');
-      }
+
+      $('body').once('form-single-submit')
+        .on('submit.singleSubmit', 'form:not([method~="GET"])', onFormSubmit);
     }
+  };
 
-    $tab.addClass('position-container is-horizontal-enabled');
-
-    $tab.on('click.tabs', '[data-drupal-nav-tabs-trigger]', openMenu);
-    $(window).on('resize.tabs', Drupal.debounce(handleResize, 150)).trigger('resize.tabs');
+  /**
+   * Sends a 'formUpdated' event each time a form element is modified.
+   *
+   * @param {HTMLElement} element
+   *   The element to trigger a form updated event on.
+   *
+   * @fires event:formUpdated
+   */
+  function triggerFormUpdated(element) {
+    $(element).trigger('formUpdated');
   }
 
   /**
-   * Initialise the tabs JS.
+   * Collects the IDs of all form fields in the given form.
+   *
+   * @param {HTMLFormElement} form
+   *   The form element to search.
+   *
+   * @return {Array}
+   *   Array of IDs for form fields.
    */
-  Drupal.behaviors.navTabs = {
-    attach: function (context, settings) {
-      var $tabs = $(context).find('[data-drupal-nav-tabs]');
-      if ($tabs.length) {
-        var notSmartPhone = window.matchMedia('(min-width: 300px)');
-        if (notSmartPhone.matches) {
-          $tabs.once('nav-tabs').each(init);
+  function fieldsList(form) {
+    var $fieldList = $(form).find('[name]').map(function (index, element) {
+      // We use id to avoid name duplicates on radio fields and filter out
+      // elements with a name but no id.
+      return element.getAttribute('id');
+    });
+    // Return a true array.
+    return $.makeArray($fieldList);
+  }
+
+  /**
+   * Triggers the 'formUpdated' event on form elements when they are modified.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches formUpdated behaviors.
+   * @prop {Drupal~behaviorDetach} detach
+   *   Detaches formUpdated behaviors.
+   *
+   * @fires event:formUpdated
+   */
+  Drupal.behaviors.formUpdated = {
+    attach: function (context) {
+      var $context = $(context);
+      var contextIsForm = $context.is('form');
+      var $forms = (contextIsForm ? $context : $context.find('form')).once('form-updated');
+      var formFields;
+
+      if ($forms.length) {
+        // Initialize form behaviors, use $.makeArray to be able to use native
+        // forEach array method and have the callback parameters in the right
+        // order.
+        $.makeArray($forms).forEach(function (form) {
+          var events = 'change.formUpdated input.formUpdated ';
+          var eventHandler = debounce(function (event) { triggerFormUpdated(event.target); }, 300);
+          formFields = fieldsList(form).join(',');
+
+          form.setAttribute('data-drupal-form-fields', formFields);
+          $(form).on(events, eventHandler);
+        });
+      }
+      // On ajax requests context is the form element.
+      if (contextIsForm) {
+        formFields = fieldsList(context).join(',');
+        // @todo replace with form.getAttribute() when #1979468 is in.
+        var currentFields = $(context).attr('data-drupal-form-fields');
+        // If there has been a change in the fields or their order, trigger
+        // formUpdated.
+        if (formFields !== currentFields) {
+          triggerFormUpdated(context);
+        }
+      }
+
+    },
+    detach: function (context, settings, trigger) {
+      var $context = $(context);
+      var contextIsForm = $context.is('form');
+      if (trigger === 'unload') {
+        var $forms = (contextIsForm ? $context : $context.find('form')).removeOnce('form-updated');
+        if ($forms.length) {
+          $.makeArray($forms).forEach(function (form) {
+            form.removeAttribute('data-drupal-form-fields');
+            $(form).off('.formUpdated');
+          });
         }
       }
     }
   };
+
+  /**
+   * Prepopulate form fields with information from the visitor browser.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches the behavior for filling user info from browser.
+   */
+  Drupal.behaviors.fillUserInfoFromBrowser = {
+    attach: function (context, settings) {
+      var userInfo = ['name', 'mail', 'homepage'];
+      var $forms = $('[data-user-info-from-browser]').once('user-info-from-browser');
+      if ($forms.length) {
+        userInfo.map(function (info) {
+          var $element = $forms.find('[name=' + info + ']');
+          var browserData = localStorage.getItem('Drupal.visitor.' + info);
+          var emptyOrDefault = ($element.val() === '' || ($element.attr('data-drupal-default-value') === $element.val()));
+          if ($element.length && emptyOrDefault && browserData) {
+            $element.val(browserData);
+          }
+        });
+      }
+      $forms.on('submit', function () {
+        userInfo.map(function (info) {
+          var $element = $forms.find('[name=' + info + ']');
+          if ($element.length) {
+            localStorage.setItem('Drupal.visitor.' + info, $element.val());
+          }
+        });
+      });
+    }
+  };
+
+})(jQuery, Drupal, Drupal.debounce);
+;
+/**
+ * @file
+ * Add aria attribute handling for details and summary elements.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * Handles `aria-expanded` and `aria-pressed` attributes on details elements.
+   *
+   * @type {Drupal~behavior}
+   */
+  Drupal.behaviors.detailsAria = {
+    attach: function () {
+      $('body').once('detailsAria').on('click.detailsAria', 'summary', function (event) {
+        var $summary = $(event.currentTarget);
+        var open = $(event.currentTarget.parentNode).attr('open') === 'open' ? 'false' : 'true';
+
+        $summary.attr({
+          'aria-expanded': open,
+          'aria-pressed': open
+        });
+      });
+    }
+  };
+
+})(jQuery, Drupal);
+;
+/**
+ * @file
+ * Polyfill for HTML5 details elements.
+ */
+
+(function ($, Modernizr, Drupal) {
+
+  'use strict';
+
+  /**
+   * The collapsible details object represents a single details element.
+   *
+   * @constructor Drupal.CollapsibleDetails
+   *
+   * @param {HTMLElement} node
+   *   The details element.
+   */
+  function CollapsibleDetails(node) {
+    this.$node = $(node);
+    this.$node.data('details', this);
+    // Expand details if there are errors inside, or if it contains an
+    // element that is targeted by the URI fragment identifier.
+    var anchor = location.hash && location.hash !== '#' ? ', ' + location.hash : '';
+    if (this.$node.find('.error' + anchor).length) {
+      this.$node.attr('open', true);
+    }
+    // Initialize and setup the summary,
+    this.setupSummary();
+    // Initialize and setup the legend.
+    this.setupLegend();
+  }
+
+  $.extend(CollapsibleDetails, /** @lends Drupal.CollapsibleDetails */{
+
+    /**
+     * Holds references to instantiated CollapsibleDetails objects.
+     *
+     * @type {Array.<Drupal.CollapsibleDetails>}
+     */
+    instances: []
+  });
+
+  $.extend(CollapsibleDetails.prototype, /** @lends Drupal.CollapsibleDetails# */{
+
+    /**
+     * Initialize and setup summary events and markup.
+     *
+     * @fires event:summaryUpdated
+     *
+     * @listens event:summaryUpdated
+     */
+    setupSummary: function () {
+      this.$summary = $('<span class="summary"></span>');
+      this.$node
+        .on('summaryUpdated', $.proxy(this.onSummaryUpdated, this))
+        .trigger('summaryUpdated');
+    },
+
+    /**
+     * Initialize and setup legend markup.
+     */
+    setupLegend: function () {
+      // Turn the summary into a clickable link.
+      var $legend = this.$node.find('> summary');
+
+      $('<span class="details-summary-prefix visually-hidden"></span>')
+        .append(this.$node.attr('open') ? Drupal.t('Hide') : Drupal.t('Show'))
+        .prependTo($legend)
+        .after(document.createTextNode(' '));
+
+      // .wrapInner() does not retain bound events.
+      $('<a class="details-title"></a>')
+        .attr('href', '#' + this.$node.attr('id'))
+        .prepend($legend.contents())
+        .appendTo($legend);
+
+      $legend
+        .append(this.$summary)
+        .on('click', $.proxy(this.onLegendClick, this));
+    },
+
+    /**
+     * Handle legend clicks.
+     *
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    onLegendClick: function (e) {
+      this.toggle();
+      e.preventDefault();
+    },
+
+    /**
+     * Update summary.
+     */
+    onSummaryUpdated: function () {
+      var text = $.trim(this.$node.drupalGetSummary());
+      this.$summary.html(text ? ' (' + text + ')' : '');
+    },
+
+    /**
+     * Toggle the visibility of a details element using smooth animations.
+     */
+    toggle: function () {
+      var isOpen = !!this.$node.attr('open');
+      var $summaryPrefix = this.$node.find('> summary span.details-summary-prefix');
+      if (isOpen) {
+        $summaryPrefix.html(Drupal.t('Show'));
+      }
+      else {
+        $summaryPrefix.html(Drupal.t('Hide'));
+      }
+      // Delay setting the attribute to emulate chrome behavior and make
+      // details-aria.js work as expected with this polyfill.
+      setTimeout(function () {
+        this.$node.attr('open', !isOpen);
+      }.bind(this), 0);
+    }
+  });
+
+  /**
+   * Polyfill HTML5 details element.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behavior for the details element.
+   */
+  Drupal.behaviors.collapse = {
+    attach: function (context) {
+      if (Modernizr.details) {
+        return;
+      }
+      var $collapsibleDetails = $(context).find('details').once('collapse').addClass('collapse-processed');
+      if ($collapsibleDetails.length) {
+        for (var i = 0; i < $collapsibleDetails.length; i++) {
+          CollapsibleDetails.instances.push(new CollapsibleDetails($collapsibleDetails[i]));
+        }
+      }
+    }
+  };
+
+  // Expose constructor in the public space.
+  Drupal.CollapsibleDetails = CollapsibleDetails;
+
+})(jQuery, Modernizr, Drupal);
+;
+/**
+ * @file
+ * Drupal's states library.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * The base States namespace.
+   *
+   * Having the local states variable allows us to use the States namespace
+   * without having to always declare "Drupal.states".
+   *
+   * @namespace Drupal.states
+   */
+  var states = Drupal.states = {
+
+    /**
+     * An array of functions that should be postponed.
+     */
+    postponed: []
+  };
+
+  /**
+   * Attaches the states.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches states behaviors.
+   */
+  Drupal.behaviors.states = {
+    attach: function (context, settings) {
+      var $states = $(context).find('[data-drupal-states]');
+      var config;
+      var state;
+      var il = $states.length;
+      for (var i = 0; i < il; i++) {
+        config = JSON.parse($states[i].getAttribute('data-drupal-states'));
+        for (state in config) {
+          if (config.hasOwnProperty(state)) {
+            new states.Dependent({
+              element: $($states[i]),
+              state: states.State.sanitize(state),
+              constraints: config[state]
+            });
+          }
+        }
+      }
+
+      // Execute all postponed functions now.
+      while (states.postponed.length) {
+        (states.postponed.shift())();
+      }
+    }
+  };
+
+  /**
+   * Object representing an element that depends on other elements.
+   *
+   * @constructor Drupal.states.Dependent
+   *
+   * @param {object} args
+   *   Object with the following keys (all of which are required)
+   * @param {jQuery} args.element
+   *   A jQuery object of the dependent element
+   * @param {Drupal.states.State} args.state
+   *   A State object describing the state that is dependent
+   * @param {object} args.constraints
+   *   An object with dependency specifications. Lists all elements that this
+   *   element depends on. It can be nested and can contain
+   *   arbitrary AND and OR clauses.
+   */
+  states.Dependent = function (args) {
+    $.extend(this, {values: {}, oldValue: null}, args);
+
+    this.dependees = this.getDependees();
+    for (var selector in this.dependees) {
+      if (this.dependees.hasOwnProperty(selector)) {
+        this.initializeDependee(selector, this.dependees[selector]);
+      }
+    }
+  };
+
+  /**
+   * Comparison functions for comparing the value of an element with the
+   * specification from the dependency settings. If the object type can't be
+   * found in this list, the === operator is used by default.
+   *
+   * @name Drupal.states.Dependent.comparisons
+   *
+   * @prop {function} RegExp
+   * @prop {function} Function
+   * @prop {function} Number
+   */
+  states.Dependent.comparisons = {
+    RegExp: function (reference, value) {
+      return reference.test(value);
+    },
+    Function: function (reference, value) {
+      // The "reference" variable is a comparison function.
+      return reference(value);
+    },
+    Number: function (reference, value) {
+      // If "reference" is a number and "value" is a string, then cast
+      // reference as a string before applying the strict comparison in
+      // compare().
+      // Otherwise numeric keys in the form's #states array fail to match
+      // string values returned from jQuery's val().
+      return (typeof value === 'string') ? compare(reference.toString(), value) : compare(reference, value);
+    }
+  };
+
+  states.Dependent.prototype = {
+
+    /**
+     * Initializes one of the elements this dependent depends on.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string} selector
+     *   The CSS selector describing the dependee.
+     * @param {object} dependeeStates
+     *   The list of states that have to be monitored for tracking the
+     *   dependee's compliance status.
+     */
+    initializeDependee: function (selector, dependeeStates) {
+      var state;
+      var self = this;
+
+      function stateEventHandler(e) {
+        self.update(e.data.selector, e.data.state, e.value);
+      }
+
+      // Cache for the states of this dependee.
+      this.values[selector] = {};
+
+      for (var i in dependeeStates) {
+        if (dependeeStates.hasOwnProperty(i)) {
+          state = dependeeStates[i];
+          // Make sure we're not initializing this selector/state combination
+          // twice.
+          if ($.inArray(state, dependeeStates) === -1) {
+            continue;
+          }
+
+          state = states.State.sanitize(state);
+
+          // Initialize the value of this state.
+          this.values[selector][state.name] = null;
+
+          // Monitor state changes of the specified state for this dependee.
+          $(selector).on('state:' + state, {selector: selector, state: state}, stateEventHandler);
+
+          // Make sure the event we just bound ourselves to is actually fired.
+          new states.Trigger({selector: selector, state: state});
+        }
+      }
+    },
+
+    /**
+     * Compares a value with a reference value.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {object} reference
+     *   The value used for reference.
+     * @param {string} selector
+     *   CSS selector describing the dependee.
+     * @param {Drupal.states.State} state
+     *   A State object describing the dependee's updated state.
+     *
+     * @return {bool}
+     *   true or false.
+     */
+    compare: function (reference, selector, state) {
+      var value = this.values[selector][state.name];
+      if (reference.constructor.name in states.Dependent.comparisons) {
+        // Use a custom compare function for certain reference value types.
+        return states.Dependent.comparisons[reference.constructor.name](reference, value);
+      }
+      else {
+        // Do a plain comparison otherwise.
+        return compare(reference, value);
+      }
+    },
+
+    /**
+     * Update the value of a dependee's state.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string} selector
+     *   CSS selector describing the dependee.
+     * @param {Drupal.states.state} state
+     *   A State object describing the dependee's updated state.
+     * @param {string} value
+     *   The new value for the dependee's updated state.
+     */
+    update: function (selector, state, value) {
+      // Only act when the 'new' value is actually new.
+      if (value !== this.values[selector][state.name]) {
+        this.values[selector][state.name] = value;
+        this.reevaluate();
+      }
+    },
+
+    /**
+     * Triggers change events in case a state changed.
+     *
+     * @memberof Drupal.states.Dependent#
+     */
+    reevaluate: function () {
+      // Check whether any constraint for this dependent state is satisfied.
+      var value = this.verifyConstraints(this.constraints);
+
+      // Only invoke a state change event when the value actually changed.
+      if (value !== this.oldValue) {
+        // Store the new value so that we can compare later whether the value
+        // actually changed.
+        this.oldValue = value;
+
+        // Normalize the value to match the normalized state name.
+        value = invert(value, this.state.invert);
+
+        // By adding "trigger: true", we ensure that state changes don't go into
+        // infinite loops.
+        this.element.trigger({type: 'state:' + this.state, value: value, trigger: true});
+      }
+    },
+
+    /**
+     * Evaluates child constraints to determine if a constraint is satisfied.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {object|Array} constraints
+     *   A constraint object or an array of constraints.
+     * @param {string} selector
+     *   The selector for these constraints. If undefined, there isn't yet a
+     *   selector that these constraints apply to. In that case, the keys of the
+     *   object are interpreted as the selector if encountered.
+     *
+     * @return {bool}
+     *   true or false, depending on whether these constraints are satisfied.
+     */
+    verifyConstraints: function (constraints, selector) {
+      var result;
+      if ($.isArray(constraints)) {
+        // This constraint is an array (OR or XOR).
+        var hasXor = $.inArray('xor', constraints) === -1;
+        var len = constraints.length;
+        for (var i = 0; i < len; i++) {
+          if (constraints[i] !== 'xor') {
+            var constraint = this.checkConstraints(constraints[i], selector, i);
+            // Return if this is OR and we have a satisfied constraint or if
+            // this is XOR and we have a second satisfied constraint.
+            if (constraint && (hasXor || result)) {
+              return hasXor;
+            }
+            result = result || constraint;
+          }
+        }
+      }
+      // Make sure we don't try to iterate over things other than objects. This
+      // shouldn't normally occur, but in case the condition definition is
+      // bogus, we don't want to end up with an infinite loop.
+      else if ($.isPlainObject(constraints)) {
+        // This constraint is an object (AND).
+        for (var n in constraints) {
+          if (constraints.hasOwnProperty(n)) {
+            result = ternary(result, this.checkConstraints(constraints[n], selector, n));
+            // False and anything else will evaluate to false, so return when
+            // any false condition is found.
+            if (result === false) { return false; }
+          }
+        }
+      }
+      return result;
+    },
+
+    /**
+     * Checks whether the value matches the requirements for this constraint.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string|Array|object} value
+     *   Either the value of a state or an array/object of constraints. In the
+     *   latter case, resolving the constraint continues.
+     * @param {string} [selector]
+     *   The selector for this constraint. If undefined, there isn't yet a
+     *   selector that this constraint applies to. In that case, the state key
+     *   is propagates to a selector and resolving continues.
+     * @param {Drupal.states.State} [state]
+     *   The state to check for this constraint. If undefined, resolving
+     *   continues. If both selector and state aren't undefined and valid
+     *   non-numeric strings, a lookup for the actual value of that selector's
+     *   state is performed. This parameter is not a State object but a pristine
+     *   state string.
+     *
+     * @return {bool}
+     *   true or false, depending on whether this constraint is satisfied.
+     */
+    checkConstraints: function (value, selector, state) {
+      // Normalize the last parameter. If it's non-numeric, we treat it either
+      // as a selector (in case there isn't one yet) or as a trigger/state.
+      if (typeof state !== 'string' || (/[0-9]/).test(state[0])) {
+        state = null;
+      }
+      else if (typeof selector === 'undefined') {
+        // Propagate the state to the selector when there isn't one yet.
+        selector = state;
+        state = null;
+      }
+
+      if (state !== null) {
+        // Constraints is the actual constraints of an element to check for.
+        state = states.State.sanitize(state);
+        return invert(this.compare(value, selector, state), state.invert);
+      }
+      else {
+        // Resolve this constraint as an AND/OR operator.
+        return this.verifyConstraints(value, selector);
+      }
+    },
+
+    /**
+     * Gathers information about all required triggers.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @return {object}
+     *   An object describing the required triggers.
+     */
+    getDependees: function () {
+      var cache = {};
+      // Swivel the lookup function so that we can record all available
+      // selector- state combinations for initialization.
+      var _compare = this.compare;
+      this.compare = function (reference, selector, state) {
+        (cache[selector] || (cache[selector] = [])).push(state.name);
+        // Return nothing (=== undefined) so that the constraint loops are not
+        // broken.
+      };
+
+      // This call doesn't actually verify anything but uses the resolving
+      // mechanism to go through the constraints array, trying to look up each
+      // value. Since we swivelled the compare function, this comparison returns
+      // undefined and lookup continues until the very end. Instead of lookup up
+      // the value, we record that combination of selector and state so that we
+      // can initialize all triggers.
+      this.verifyConstraints(this.constraints);
+      // Restore the original function.
+      this.compare = _compare;
+
+      return cache;
+    }
+  };
+
+  /**
+   * @constructor Drupal.states.Trigger
+   *
+   * @param {object} args
+   *   Trigger arguments.
+   */
+  states.Trigger = function (args) {
+    $.extend(this, args);
+
+    if (this.state in states.Trigger.states) {
+      this.element = $(this.selector);
+
+      // Only call the trigger initializer when it wasn't yet attached to this
+      // element. Otherwise we'd end up with duplicate events.
+      if (!this.element.data('trigger:' + this.state)) {
+        this.initialize();
+      }
+    }
+  };
+
+  states.Trigger.prototype = {
+
+    /**
+     * @memberof Drupal.states.Trigger#
+     */
+    initialize: function () {
+      var trigger = states.Trigger.states[this.state];
+
+      if (typeof trigger === 'function') {
+        // We have a custom trigger initialization function.
+        trigger.call(window, this.element);
+      }
+      else {
+        for (var event in trigger) {
+          if (trigger.hasOwnProperty(event)) {
+            this.defaultTrigger(event, trigger[event]);
+          }
+        }
+      }
+
+      // Mark this trigger as initialized for this element.
+      this.element.data('trigger:' + this.state, true);
+    },
+
+    /**
+     * @memberof Drupal.states.Trigger#
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered.
+     * @param {function} valueFn
+     *   The function to call.
+     */
+    defaultTrigger: function (event, valueFn) {
+      var oldValue = valueFn.call(this.element);
+
+      // Attach the event callback.
+      this.element.on(event, $.proxy(function (e) {
+        var value = valueFn.call(this.element, e);
+        // Only trigger the event if the value has actually changed.
+        if (oldValue !== value) {
+          this.element.trigger({type: 'state:' + this.state, value: value, oldValue: oldValue});
+          oldValue = value;
+        }
+      }, this));
+
+      states.postponed.push($.proxy(function () {
+        // Trigger the event once for initialization purposes.
+        this.element.trigger({type: 'state:' + this.state, value: oldValue, oldValue: null});
+      }, this));
+    }
+  };
+
+  /**
+   * This list of states contains functions that are used to monitor the state
+   * of an element. Whenever an element depends on the state of another element,
+   * one of these trigger functions is added to the dependee so that the
+   * dependent element can be updated.
+   *
+   * @name Drupal.states.Trigger.states
+   *
+   * @prop empty
+   * @prop checked
+   * @prop value
+   * @prop collapsed
+   */
+  states.Trigger.states = {
+    // 'empty' describes the state to be monitored.
+    empty: {
+      // 'keyup' is the (native DOM) event that we watch for.
+      keyup: function () {
+        // The function associated with that trigger returns the new value for
+        // the state.
+        return this.val() === '';
+      }
+    },
+
+    checked: {
+      change: function () {
+        // prop() and attr() only takes the first element into account. To
+        // support selectors matching multiple checkboxes, iterate over all and
+        // return whether any is checked.
+        var checked = false;
+        this.each(function () {
+          // Use prop() here as we want a boolean of the checkbox state.
+          // @see http://api.jquery.com/prop/
+          checked = $(this).prop('checked');
+          // Break the each() loop if this is checked.
+          return !checked;
+        });
+        return checked;
+      }
+    },
+
+    // For radio buttons, only return the value if the radio button is selected.
+    value: {
+      keyup: function () {
+        // Radio buttons share the same :input[name="key"] selector.
+        if (this.length > 1) {
+          // Initial checked value of radios is undefined, so we return false.
+          return this.filter(':checked').val() || false;
+        }
+        return this.val();
+      },
+      change: function () {
+        // Radio buttons share the same :input[name="key"] selector.
+        if (this.length > 1) {
+          // Initial checked value of radios is undefined, so we return false.
+          return this.filter(':checked').val() || false;
+        }
+        return this.val();
+      }
+    },
+
+    collapsed: {
+      collapsed: function (e) {
+        return (typeof e !== 'undefined' && 'value' in e) ? e.value : !this.is('[open]');
+      }
+    }
+  };
+
+  /**
+   * A state object is used for describing the state and performing aliasing.
+   *
+   * @constructor Drupal.states.State
+   *
+   * @param {string} state
+   *   The name of the state.
+   */
+  states.State = function (state) {
+
+    /**
+     * Original unresolved name.
+     */
+    this.pristine = this.name = state;
+
+    // Normalize the state name.
+    var process = true;
+    do {
+      // Iteratively remove exclamation marks and invert the value.
+      while (this.name.charAt(0) === '!') {
+        this.name = this.name.substring(1);
+        this.invert = !this.invert;
+      }
+
+      // Replace the state with its normalized name.
+      if (this.name in states.State.aliases) {
+        this.name = states.State.aliases[this.name];
+      }
+      else {
+        process = false;
+      }
+    } while (process);
+  };
+
+  /**
+   * Creates a new State object by sanitizing the passed value.
+   *
+   * @name Drupal.states.State.sanitize
+   *
+   * @param {string|Drupal.states.State} state
+   *   A state object or the name of a state.
+   *
+   * @return {Drupal.states.state}
+   *   A state object.
+   */
+  states.State.sanitize = function (state) {
+    if (state instanceof states.State) {
+      return state;
+    }
+    else {
+      return new states.State(state);
+    }
+  };
+
+  /**
+   * This list of aliases is used to normalize states and associates negated
+   * names with their respective inverse state.
+   *
+   * @name Drupal.states.State.aliases
+   */
+  states.State.aliases = {
+    enabled: '!disabled',
+    invisible: '!visible',
+    invalid: '!valid',
+    untouched: '!touched',
+    optional: '!required',
+    filled: '!empty',
+    unchecked: '!checked',
+    irrelevant: '!relevant',
+    expanded: '!collapsed',
+    open: '!collapsed',
+    closed: 'collapsed',
+    readwrite: '!readonly'
+  };
+
+  states.State.prototype = {
+
+    /**
+     * @memberof Drupal.states.State#
+     */
+    invert: false,
+
+    /**
+     * Ensures that just using the state object returns the name.
+     *
+     * @memberof Drupal.states.State#
+     *
+     * @return {string}
+     *   The name of the state.
+     */
+    toString: function () {
+      return this.name;
+    }
+  };
+
+  /**
+   * Global state change handlers. These are bound to "document" to cover all
+   * elements whose state changes. Events sent to elements within the page
+   * bubble up to these handlers. We use this system so that themes and modules
+   * can override these state change handlers for particular parts of a page.
+   */
+
+  var $document = $(document);
+  $document.on('state:disabled', function (e) {
+    // Only act when this change was triggered by a dependency and not by the
+    // element monitoring itself.
+    if (e.trigger) {
+      $(e.target)
+        .prop('disabled', e.value)
+        .closest('.js-form-item, .js-form-submit, .js-form-wrapper').toggleClass('form-disabled', e.value)
+        .find('select, input, textarea').prop('disabled', e.value);
+
+      // Note: WebKit nightlies don't reflect that change correctly.
+      // See https://bugs.webkit.org/show_bug.cgi?id=23789
+    }
+  });
+
+  $document.on('state:required', function (e) {
+    if (e.trigger) {
+      if (e.value) {
+        var label = 'label' + (e.target.id ? '[for=' + e.target.id + ']' : '');
+        var $label = $(e.target).attr({'required': 'required', 'aria-required': 'aria-required'}).closest('.js-form-item, .js-form-wrapper').find(label);
+        // Avoids duplicate required markers on initialization.
+        if (!$label.hasClass('js-form-required').length) {
+          $label.addClass('js-form-required form-required');
+        }
+      }
+      else {
+        $(e.target).removeAttr('required aria-required').closest('.js-form-item, .js-form-wrapper').find('label.js-form-required').removeClass('js-form-required form-required');
+      }
+    }
+  });
+
+  $document.on('state:visible', function (e) {
+    if (e.trigger) {
+      $(e.target).closest('.js-form-item, .js-form-submit, .js-form-wrapper').toggle(e.value);
+    }
+  });
+
+  $document.on('state:checked', function (e) {
+    if (e.trigger) {
+      $(e.target).prop('checked', e.value);
+    }
+  });
+
+  $document.on('state:collapsed', function (e) {
+    if (e.trigger) {
+      if ($(e.target).is('[open]') === e.value) {
+        $(e.target).find('> summary').trigger('click');
+      }
+    }
+  });
+
+  /**
+   * These are helper functions implementing addition "operators" and don't
+   * implement any logic that is particular to states.
+   */
+
+  /**
+   * Bitwise AND with a third undefined state.
+   *
+   * @function Drupal.states~ternary
+   *
+   * @param {*} a
+   *   Value a.
+   * @param {*} b
+   *   Value b
+   *
+   * @return {bool}
+   *   The result.
+   */
+  function ternary(a, b) {
+    if (typeof a === 'undefined') {
+      return b;
+    }
+    else if (typeof b === 'undefined') {
+      return a;
+    }
+    else {
+      return a && b;
+    }
+  }
+
+  /**
+   * Inverts a (if it's not undefined) when invertState is true.
+   *
+   * @function Drupal.states~invert
+   *
+   * @param {*} a
+   *   The value to maybe invert.
+   * @param {bool} invertState
+   *   Whether to invert state or not.
+   *
+   * @return {bool}
+   *   The result.
+   */
+  function invert(a, invertState) {
+    return (invertState && typeof a !== 'undefined') ? !a : a;
+  }
+
+  /**
+   * Compares two values while ignoring undefined values.
+   *
+   * @function Drupal.states~compare
+   *
+   * @param {*} a
+   *   Value a.
+   * @param {*} b
+   *   Value b.
+   *
+   * @return {bool}
+   *   The comparison result.
+   */
+  function compare(a, b) {
+    if (a === b) {
+      return typeof a === 'undefined' ? a : true;
+    }
+    else {
+      return typeof a === 'undefined' || typeof b === 'undefined';
+    }
+  }
 
 })(jQuery, Drupal);
 ;
@@ -3532,6 +4220,8 @@ Drupal.debounce = function (func, wait, immediate) {
   };
 }(Drupal, Drupal.debounce));
 ;
+window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.styleMedia||window.media;if(!e){var t=document.createElement("style"),i=document.getElementsByTagName("script")[0],n=null;t.type="text/css";t.id="matchmediajs-test";i.parentNode.insertBefore(t,i);n="getComputedStyle"in window&&window.getComputedStyle(t,null)||t.currentStyle;e={matchMedium:function(e){var i="@media "+e+"{ #matchmediajs-test { width: 1px; } }";if(t.styleSheet){t.styleSheet.cssText=i}else{t.textContent=i}return n.width==="1px"}}}return function(t){return{matches:e.matchMedium(t||"all"),media:t||"all"}}}());
+;
 (function(){if(window.matchMedia&&window.matchMedia("all").addListener){return false}var e=window.matchMedia,i=e("only all").matches,n=false,t=0,a=[],r=function(i){clearTimeout(t);t=setTimeout(function(){for(var i=0,n=a.length;i<n;i++){var t=a[i].mql,r=a[i].listeners||[],o=e(t.media).matches;if(o!==t.matches){t.matches=o;for(var s=0,l=r.length;s<l;s++){r[s].call(window,t)}}}},30)};window.matchMedia=function(t){var o=e(t),s=[],l=0;o.addListener=function(e){if(!i){return}if(!n){n=true;window.addEventListener("resize",r,true)}if(l===0){l=a.push({mql:o,listeners:s})}s.push(e)};o.removeListener=function(e){for(var i=0,n=s.length;i<n;i++){if(s[i]===e){s.splice(i,1)}}};return o}})();
 ;
 /**
@@ -4883,8 +5573,6 @@ Drupal.debounce = function (func, wait, immediate) {
 
 }(jQuery, Drupal, drupalSettings, Backbone));
 ;
-/*! jquery.cookie v1.4.1 | MIT */
-!function(a){"function"==typeof define&&define.amd?define(["jquery"],a):"object"==typeof exports?a(require("jquery")):a(jQuery)}(function(a){function b(a){return h.raw?a:encodeURIComponent(a)}function c(a){return h.raw?a:decodeURIComponent(a)}function d(a){return b(h.json?JSON.stringify(a):String(a))}function e(a){0===a.indexOf('"')&&(a=a.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,"\\"));try{return a=decodeURIComponent(a.replace(g," ")),h.json?JSON.parse(a):a}catch(b){}}function f(b,c){var d=h.raw?b:e(b);return a.isFunction(c)?c(d):d}var g=/\+/g,h=a.cookie=function(e,g,i){if(void 0!==g&&!a.isFunction(g)){if(i=a.extend({},h.defaults,i),"number"==typeof i.expires){var j=i.expires,k=i.expires=new Date;k.setTime(+k+864e5*j)}return document.cookie=[b(e),"=",d(g),i.expires?"; expires="+i.expires.toUTCString():"",i.path?"; path="+i.path:"",i.domain?"; domain="+i.domain:"",i.secure?"; secure":""].join("")}for(var l=e?void 0:{},m=document.cookie?document.cookie.split("; "):[],n=0,o=m.length;o>n;n++){var p=m[n].split("="),q=c(p.shift()),r=p.join("=");if(e&&e===q){l=f(r,g);break}e||void 0===(r=f(r))||(l[q]=r)}return l};h.defaults={},a.removeCookie=function(b,c){return void 0===a.cookie(b)?!1:(a.cookie(b,"",a.extend({},c,{expires:-1})),!a.cookie(b))}});;
 /* jQuery Foundation Joyride Plugin 2.1 | Copyright 2012, ZURB | www.opensource.org/licenses/mit-license.php */
 (function(e,t,n){"use strict";var r={version:"2.0.3",tipLocation:"bottom",nubPosition:"auto",scroll:!0,scrollSpeed:300,timer:0,autoStart:!1,startTimerOnClick:!0,startOffset:0,nextButton:!0,tipAnimation:"fade",pauseAfter:[],tipAnimationFadeSpeed:300,cookieMonster:!1,cookieName:"joyride",cookieDomain:!1,cookiePath:!1,localStorage:!1,localStorageKey:"joyride",tipContainer:"body",modal:!1,expose:!1,postExposeCallback:e.noop,preRideCallback:e.noop,postRideCallback:e.noop,preStepCallback:e.noop,postStepCallback:e.noop,template:{link:'<a href="#close" class="joyride-close-tip">X</a>',timer:'<div class="joyride-timer-indicator-wrap"><span class="joyride-timer-indicator"></span></div>',tip:'<div class="joyride-tip-guide"><span class="joyride-nub"></span></div>',wrapper:'<div class="joyride-content-wrapper" role="dialog"></div>',button:'<a href="#" class="joyride-next-tip"></a>',modal:'<div class="joyride-modal-bg"></div>',expose:'<div class="joyride-expose-wrapper"></div>',exposeCover:'<div class="joyride-expose-cover"></div>'}},i=i||!1,s={},o={init:function(n){return this.each(function(){e.isEmptyObject(s)?(s=e.extend(!0,r,n),s.document=t.document,s.$document=e(s.document),s.$window=e(t),s.$content_el=e(this),s.$body=e(s.tipContainer),s.body_offset=e(s.tipContainer).position(),s.$tip_content=e("> li",s.$content_el),s.paused=!1,s.attempts=0,s.tipLocationPatterns={top:["bottom"],bottom:[],left:["right","top","bottom"],right:["left","top","bottom"]},o.jquery_check(),e.isFunction(e.cookie)||(s.cookieMonster=!1),(!s.cookieMonster||!e.cookie(s.cookieName))&&(!s.localStorage||!o.support_localstorage()||!localStorage.getItem(s.localStorageKey))&&(s.$tip_content.each(function(t){o.create({$li:e(this),index:t})}),s.autoStart&&(!s.startTimerOnClick&&s.timer>0?(o.show("init"),o.startTimer()):o.show("init"))),s.$document.on("click.joyride",".joyride-next-tip, .joyride-modal-bg",function(e){e.preventDefault(),s.$li.next().length<1?o.end():s.timer>0?(clearTimeout(s.automate),o.hide(),o.show(),o.startTimer()):(o.hide(),o.show())}),s.$document.on("click.joyride",".joyride-close-tip",function(e){e.preventDefault(),o.end()}),s.$window.bind("resize.joyride",function(t){if(s.$li){if(s.exposed&&s.exposed.length>0){var n=e(s.exposed);n.each(function(){var t=e(this);o.un_expose(t),o.expose(t)})}o.is_phone()?o.pos_phone():o.pos_default()}})):o.restart()})},resume:function(){o.set_li(),o.show()},nextTip:function(){s.$li.next().length<1?o.end():s.timer>0?(clearTimeout(s.automate),o.hide(),o.show(),o.startTimer()):(o.hide(),o.show())},tip_template:function(t){var n,r,i;return t.tip_class=t.tip_class||"",n=e(s.template.tip).addClass(t.tip_class),r=e.trim(e(t.li).html())+o.button_text(t.button_text)+s.template.link+o.timer_instance(t.index),i=e(s.template.wrapper),t.li.attr("data-aria-labelledby")&&i.attr("aria-labelledby",t.li.attr("data-aria-labelledby")),t.li.attr("data-aria-describedby")&&i.attr("aria-describedby",t.li.attr("data-aria-describedby")),n.append(i),n.first().attr("data-index",t.index),e(".joyride-content-wrapper",n).append(r),n[0]},timer_instance:function(t){var n;return t===0&&s.startTimerOnClick&&s.timer>0||s.timer===0?n="":n=o.outerHTML(e(s.template.timer)[0]),n},button_text:function(t){return s.nextButton?(t=e.trim(t)||"Next",t=o.outerHTML(e(s.template.button).append(t)[0])):t="",t},create:function(t){var n=t.$li.attr("data-button")||t.$li.attr("data-text"),r=t.$li.attr("class"),i=e(o.tip_template({tip_class:r,index:t.index,button_text:n,li:t.$li}));e(s.tipContainer).append(i)},show:function(t){var r={},i,u=[],a=0,f,l=null;if(s.$li===n||e.inArray(s.$li.index(),s.pauseAfter)===-1){s.paused?s.paused=!1:o.set_li(t),s.attempts=0;if(s.$li.length&&s.$target.length>0){t&&(s.preRideCallback(s.$li.index(),s.$next_tip),s.modal&&o.show_modal()),s.preStepCallback(s.$li.index(),s.$next_tip),u=(s.$li.data("options")||":").split(";"),a=u.length;for(i=a-1;i>=0;i--)f=u[i].split(":"),f.length===2&&(r[e.trim(f[0])]=e.trim(f[1]));s.tipSettings=e.extend({},s,r),s.tipSettings.tipLocationPattern=s.tipLocationPatterns[s.tipSettings.tipLocation],s.modal&&s.expose&&o.expose(),!/body/i.test(s.$target.selector)&&s.scroll&&o.scroll_to(),o.is_phone()?o.pos_phone(!0):o.pos_default(!0),l=e(".joyride-timer-indicator",s.$next_tip),/pop/i.test(s.tipAnimation)?(l.outerWidth(0),s.timer>0?(s.$next_tip.show(),l.animate({width:e(".joyride-timer-indicator-wrap",s.$next_tip).outerWidth()},s.timer)):s.$next_tip.show()):/fade/i.test(s.tipAnimation)&&(l.outerWidth(0),s.timer>0?(s.$next_tip.fadeIn(s.tipAnimationFadeSpeed),s.$next_tip.show(),l.animate({width:e(".joyride-timer-indicator-wrap",s.$next_tip).outerWidth()},s.timer)):s.$next_tip.fadeIn(s.tipAnimationFadeSpeed)),s.$current_tip=s.$next_tip,e(".joyride-next-tip",s.$current_tip).focus(),o.tabbable(s.$current_tip)}else s.$li&&s.$target.length<1?o.show():o.end()}else s.paused=!0},is_phone:function(){return i?i.mq("only screen and (max-width: 767px)"):s.$window.width()<767?!0:!1},support_localstorage:function(){return i?i.localstorage:!!t.localStorage},hide:function(){s.modal&&s.expose&&o.un_expose(),s.modal||e(".joyride-modal-bg").hide(),s.$current_tip.hide(),s.postStepCallback(s.$li.index(),s.$current_tip)},set_li:function(e){e?(s.$li=s.$tip_content.eq(s.startOffset),o.set_next_tip(),s.$current_tip=s.$next_tip):(s.$li=s.$li.next(),o.set_next_tip()),o.set_target()},set_next_tip:function(){s.$next_tip=e(".joyride-tip-guide[data-index="+s.$li.index()+"]")},set_target:function(){var t=s.$li.attr("data-class"),n=s.$li.attr("data-id"),r=function(){return n?e(s.document.getElementById(n)):t?e("."+t).filter(":visible").first():e("body")};s.$target=r()},scroll_to:function(){var t,n;t=s.$window.height()/2,n=Math.ceil(s.$target.offset().top-t+s.$next_tip.outerHeight()),e("html, body").stop().animate({scrollTop:n},s.scrollSpeed)},paused:function(){return e.inArray(s.$li.index()+1,s.pauseAfter)===-1?!0:!1},destroy:function(){e.isEmptyObject(s)||s.$document.off(".joyride"),e(t).off(".joyride"),e(".joyride-close-tip, .joyride-next-tip, .joyride-modal-bg").off(".joyride"),e(".joyride-tip-guide, .joyride-modal-bg").remove(),clearTimeout(s.automate),s={}},restart:function(){s.autoStart?(o.hide(),s.$li=n,o.show("init")):(!s.startTimerOnClick&&s.timer>0?(o.show("init"),o.startTimer()):o.show("init"),s.autoStart=!0)},pos_default:function(t){var n=Math.ceil(s.$window.height()/2),r=s.$next_tip.offset(),i=e(".joyride-nub",s.$next_tip),u=Math.ceil(i.outerWidth()/2),a=Math.ceil(i.outerHeight()/2),f=t||!1;f&&(s.$next_tip.css("visibility","hidden"),s.$next_tip.show());if(!/body/i.test(s.$target.selector)){var l=s.tipSettings.tipAdjustmentY?parseInt(s.tipSettings.tipAdjustmentY):0,c=s.tipSettings.tipAdjustmentX?parseInt(s.tipSettings.tipAdjustmentX):0;o.bottom()?(s.$next_tip.css({top:s.$target.offset().top+a+s.$target.outerHeight()+l,left:s.$target.offset().left+c}),/right/i.test(s.tipSettings.nubPosition)&&s.$next_tip.css("left",s.$target.offset().left-s.$next_tip.outerWidth()+s.$target.outerWidth()),o.nub_position(i,s.tipSettings.nubPosition,"top")):o.top()?(s.$next_tip.css({top:s.$target.offset().top-s.$next_tip.outerHeight()-a+l,left:s.$target.offset().left+c}),o.nub_position(i,s.tipSettings.nubPosition,"bottom")):o.right()?(s.$next_tip.css({top:s.$target.offset().top+l,left:s.$target.outerWidth()+s.$target.offset().left+u+c}),o.nub_position(i,s.tipSettings.nubPosition,"left")):o.left()&&(s.$next_tip.css({top:s.$target.offset().top+l,left:s.$target.offset().left-s.$next_tip.outerWidth()-u+c}),o.nub_position(i,s.tipSettings.nubPosition,"right")),!o.visible(o.corners(s.$next_tip))&&s.attempts<s.tipSettings.tipLocationPattern.length&&(i.removeClass("bottom").removeClass("top").removeClass("right").removeClass("left"),s.tipSettings.tipLocation=s.tipSettings.tipLocationPattern[s.attempts],s.attempts++,o.pos_default(!0))}else s.$li.length&&o.pos_modal(i);f&&(s.$next_tip.hide(),s.$next_tip.css("visibility","visible"))},pos_phone:function(t){var n=s.$next_tip.outerHeight(),r=s.$next_tip.offset(),i=s.$target.outerHeight(),u=e(".joyride-nub",s.$next_tip),a=Math.ceil(u.outerHeight()/2),f=t||!1;u.removeClass("bottom").removeClass("top").removeClass("right").removeClass("left"),f&&(s.$next_tip.css("visibility","hidden"),s.$next_tip.show()),/body/i.test(s.$target.selector)?s.$li.length&&o.pos_modal(u):o.top()?(s.$next_tip.offset({top:s.$target.offset().top-n-a}),u.addClass("bottom")):(s.$next_tip.offset({top:s.$target.offset().top+i+a}),u.addClass("top")),f&&(s.$next_tip.hide(),s.$next_tip.css("visibility","visible"))},pos_modal:function(e){o.center(),e.hide(),o.show_modal()},show_modal:function(){e(".joyride-modal-bg").length<1&&e("body").append(s.template.modal).show(),/pop/i.test(s.tipAnimation)?e(".joyride-modal-bg").show():e(".joyride-modal-bg").fadeIn(s.tipAnimationFadeSpeed)},expose:function(){var n,r,i,u,a="expose-"+Math.floor(Math.random()*1e4);if(arguments.length>0&&arguments[0]instanceof e)i=arguments[0];else{if(!s.$target||!!/body/i.test(s.$target.selector))return!1;i=s.$target}if(i.length<1)return t.console&&console.error("element not valid",i),!1;n=e(s.template.expose),s.$body.append(n),n.css({top:i.offset().top,left:i.offset().left,width:i.outerWidth(!0),height:i.outerHeight(!0)}),r=e(s.template.exposeCover),u={zIndex:i.css("z-index"),position:i.css("position")},i.css("z-index",n.css("z-index")*1+1),u.position=="static"&&i.css("position","relative"),i.data("expose-css",u),r.css({top:i.offset().top,left:i.offset().left,width:i.outerWidth(!0),height:i.outerHeight(!0)}),s.$body.append(r),n.addClass(a),r.addClass(a),s.tipSettings.exposeClass&&(n.addClass(s.tipSettings.exposeClass),r.addClass(s.tipSettings.exposeClass)),i.data("expose",a),s.postExposeCallback(s.$li.index(),s.$next_tip,i),o.add_exposed(i)},un_expose:function(){var n,r,i,u,a=!1;if(arguments.length>0&&arguments[0]instanceof e)r=arguments[0];else{if(!s.$target||!!/body/i.test(s.$target.selector))return!1;r=s.$target}if(r.length<1)return t.console&&console.error("element not valid",r),!1;n=r.data("expose"),i=e("."+n),arguments.length>1&&(a=arguments[1]),a===!0?e(".joyride-expose-wrapper,.joyride-expose-cover").remove():i.remove(),u=r.data("expose-css"),u.zIndex=="auto"?r.css("z-index",""):r.css("z-index",u.zIndex),u.position!=r.css("position")&&(u.position=="static"?r.css("position",""):r.css("position",u.position)),r.removeData("expose"),r.removeData("expose-z-index"),o.remove_exposed(r)},add_exposed:function(t){s.exposed=s.exposed||[],t instanceof e?s.exposed.push(t[0]):typeof t=="string"&&s.exposed.push(t)},remove_exposed:function(t){var n;t instanceof e?n=t[0]:typeof t=="string"&&(n=t),s.exposed=s.exposed||[];for(var r=0;r<s.exposed.length;r++)if(s.exposed[r]==n){s.exposed.splice(r,1);return}},center:function(){var e=s.$window;return s.$next_tip.css({top:(e.height()-s.$next_tip.outerHeight())/2+e.scrollTop(),left:(e.width()-s.$next_tip.outerWidth())/2+e.scrollLeft()}),!0},bottom:function(){return/bottom/i.test(s.tipSettings.tipLocation)},top:function(){return/top/i.test(s.tipSettings.tipLocation)},right:function(){return/right/i.test(s.tipSettings.tipLocation)},left:function(){return/left/i.test(s.tipSettings.tipLocation)},corners:function(e){var t=s.$window,n=t.height()/2,r=Math.ceil(s.$target.offset().top-n+s.$next_tip.outerHeight()),i=t.width()+t.scrollLeft(),o=t.height()+r,u=t.height()+t.scrollTop(),a=t.scrollTop();return r<a&&(r<0?a=0:a=r),o>u&&(u=o),[e.offset().top<a,i<e.offset().left+e.outerWidth(),u<e.offset().top+e.outerHeight(),t.scrollLeft()>e.offset().left]},visible:function(e){var t=e.length;while(t--)if(e[t])return!1;return!0},nub_position:function(e,t,n){t==="auto"?e.addClass(n):e.addClass(t)},startTimer:function(){s.$li.length?s.automate=setTimeout(function(){o.hide(),o.show(),o.startTimer()},s.timer):clearTimeout(s.automate)},end:function(){s.cookieMonster&&e.cookie(s.cookieName,"ridden",{expires:365,domain:s.cookieDomain,path:s.cookiePath}),s.localStorage&&localStorage.setItem(s.localStorageKey,!0),s.timer>0&&clearTimeout(s.automate),s.modal&&s.expose&&o.un_expose(),s.$current_tip&&s.$current_tip.hide(),s.$li&&(s.postStepCallback(s.$li.index(),s.$current_tip),s.postRideCallback(s.$li.index(),s.$current_tip)),e(".joyride-modal-bg").hide()},jquery_check:function(){return e.isFunction(e.fn.on)?!0:(e.fn.on=function(e,t,n){return this.delegate(t,e,n)},e.fn.off=function(e,t,n){return this.undelegate(t,e,n)},!1)},outerHTML:function(e){return e.outerHTML||(new XMLSerializer).serializeToString(e)},version:function(){return s.version},tabbable:function(t){e(t).on("keydown",function(n){if(!n.isDefaultPrevented()&&n.keyCode&&n.keyCode===27){n.preventDefault(),o.end();return}if(n.keyCode!==9)return;var r=e(t).find(":tabbable"),i=r.filter(":first"),s=r.filter(":last");n.target===s[0]&&!n.shiftKey?(i.focus(1),n.preventDefault()):n.target===i[0]&&n.shiftKey&&(s.focus(1),n.preventDefault())})}};e.fn.joyride=function(t){if(o[t])return o[t].apply(this,Array.prototype.slice.call(arguments,1));if(typeof t=="object"||!t)return o.init.apply(this,arguments);e.error("Method "+t+" does not exist on jQuery.joyride")}})(jQuery,this);
 ;
@@ -5965,4 +6653,60 @@ Drupal.debounce = function (func, wait, immediate) {
   };
 
 })(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Responsive navigation tabs.
+ *
+ * This also supports collapsible navigable is the 'is-collapsible' class is
+ * added to the main element, and a target element is included.
+ */
+(function ($, Drupal) {
+
+  'use strict';
+
+  function init(i, tab) {
+    var $tab = $(tab);
+    var $target = $tab.find('[data-drupal-nav-tabs-target]');
+    var isCollapsible = $tab.hasClass('is-collapsible');
+
+    function openMenu(e) {
+      $target.toggleClass('is-open');
+    }
+
+    function handleResize(e) {
+      $tab.addClass('is-horizontal');
+      var $tabs = $tab.find('.tabs');
+      var isHorizontal = $tabs.outerHeight() <= $tabs.find('.tabs__tab').outerHeight();
+      $tab.toggleClass('is-horizontal', isHorizontal);
+      if (isCollapsible) {
+        $tab.toggleClass('is-collapse-enabled', !isHorizontal);
+      }
+      if (isHorizontal) {
+        $target.removeClass('is-open');
+      }
+    }
+
+    $tab.addClass('position-container is-horizontal-enabled');
+
+    $tab.on('click.tabs', '[data-drupal-nav-tabs-trigger]', openMenu);
+    $(window).on('resize.tabs', Drupal.debounce(handleResize, 150)).trigger('resize.tabs');
+  }
+
+  /**
+   * Initialise the tabs JS.
+   */
+  Drupal.behaviors.navTabs = {
+    attach: function (context, settings) {
+      var $tabs = $(context).find('[data-drupal-nav-tabs]');
+      if ($tabs.length) {
+        var notSmartPhone = window.matchMedia('(min-width: 300px)');
+        if (notSmartPhone.matches) {
+          $tabs.once('nav-tabs').each(init);
+        }
+      }
+    }
+  };
+
+})(jQuery, Drupal);
 ;
