@@ -45,7 +45,7 @@ void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!=
   }
 })();
 ;
-window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","closed":"cerrado","Save":"Guardar","Open":"Abierta","OK":"OK","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Extend":"Ampliar","Hide":"Ocultar","Quick edit":"Edici\u00f3n r\u00e1pida","@label":"@label","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","Collapse":"Plegar","You have unsaved changes":"Usted tiene cambios no guaradados","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!"}},"pluralFormula":{"1":0,"default":1}};;
+window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","Next":"Siguiente","closed":"cerrado","Cancel":"Cancelar","Edit":"Editar","Link":"Enlace","Image":"Imagen","Save":"Guardar","Open":"Abierta","Sunday":"Domingo","Monday":"Lunes","Tuesday":"Martes","Wednesday":"Mi\u00e9rcoles","Thursday":"Jueves","Friday":"Viernes","Saturday":"S\u00e1bado","Add":"Agregar","Keywords":"Palabras clave","Continue":"Continuar","Done":"Hecho","OK":"OK","Prev":"Previo","Mon":"Lun","Tue":"Mar","Wed":"Mi\u00e9","Thu":"Jue","Fri":"Vie","Sat":"S\u00e1b","Sun":"Dom","May":"Mayo","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Today":"Hoy","Jan":"Ene","Feb":"Feb","Mar":"Mar","Apr":"Abr","Jun":"Jun","Jul":"Jul","Aug":"Ago","Sep":"Sep","Oct":"Oct","Nov":"Nov","Dec":"Dic","Extend":"Ampliar","Su":"Do","Mo":"Lu","Tu":"Ma","We":"Mi","Th":"Ju","Fr":"Vi","Sa":"Sa","Not published":"No publicado","Loading...":"Cargando...","Hide":"Ocultar","Unlink":"Desvincular","Not promoted":"No publicado en p\u00e1gina principal","mm\/dd\/yy":"mm\/dd\/yy","Quick edit":"Edici\u00f3n r\u00e1pida","Edit Link":"Editar enlace","Remove group":"Eliminar grupo","By @name on @date":"Por @name en @date","By @name":"Por @name","Not in menu":"No est\u00e1 en un men\u00fa","Alias: @alias":"Alias: @alias","No alias":"Sin alias","@label":"@label","New revision":"Nueva revisi\u00f3n","Drag to re-order":"Arrastre para reordenar","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","No revision":"Sin revisi\u00f3n","Requires a title":"Necesita un t\u00edtulo","Not restricted":"Sin restricci\u00f3n","(active tab)":"(solapa activa)","Restricted to certain pages":"Restringido a algunas p\u00e1ginas","The block cannot be placed in this region.":"El bloque no se puede colocar en esta regi\u00f3n.","Hide summary":"Ocultar resumen","Edit summary":"Editar resumen","Don\u0027t display post information":"No mostrar informaci\u00f3n del env\u00edo","Collapse":"Plegar","The selected file %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions.":"El archivo seleccionado %filename no se puede subir al srvidor. Solo se permiten archivos con las siguientes extensiones: %extensions.","Re-order rows by numerical weight instead of dragging.":"Reordenar las filas por peso num\u00e9rico en lugar de arrastrar.","Show row weights":"Mostrar pesos de la fila","Hide row weights":"Ocultar pesos de la fila","Apply (all displays)":"Aplicar (todas las presentaciones)","Apply (this display)":"Aplicar (esta presentaci\u00f3n)","Revert to default":"Volver al valor inicial","You have unsaved changes":"Usted tiene cambios no guaradados","Needs to be updated":"Necesita ser actualizado","Does not need to be updated":"No necesita ser actualizado","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","List additional actions":"Lista adicional de acciones","Flag other translations as outdated":"Marcar las otras traducciones como desfasadas","Do not flag other translations as outdated":"No marcar las otras traducciones como desfasadas","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","You have unsaved changes.":"Tiene cambios sin guardar.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Changing the text format to %text_format will permanently remove content that is not allowed in that text format.\u003Cbr\u003E\u003Cbr\u003ESave your changes before switching the text format to avoid losing data.":"Cambiar el formato de texto a %text_format eliminar\u00e1 permanentemente el contenido que no est\u00e1 permitido en ese formato de texto.\u003Cbr\u003E\u003Cbr\u003EGuarde sus datos antes de cambiar el formato de texto para evitar perder datos.","Change text format?":"\u00bfCambiar el formato de texto?","Rich Text Editor, !label field":"Editor de texto con formato, campo !label","Leave preview?":"\u00bfSalir de la vista previa?","Leave preview":"Salir de la vista previa","Leaving the preview will cause unsaved changes to be lost. Are you sure you want to leave the preview?":"La salida de la vista previa provocar\u00e1 la p\u00e9rdida de los cambios no guardados. \u00bfEst\u00e1 seguro de que desea abandonar la vista previa?","CTRL+Left click will prevent this dialog from showing and proceed to the clicked link.":"CTRL+Clic izquierdo evitar\u00e1 que aparezca este di\u00e1logo e ir\u00e1 directamente al enlace pulsado.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!","Authored on @date":"Escrito el @date","Latitude":"Latitud","Longitude":"Longitud","No location data found. Reason: POSITION_UNAVAILABLE.":"No se encontraron datos de localizaci\u00f3n. Razon: POSICION_NO_DISPONIBLE","No location data found. Reason: TIMEOUT.":"No se encontraron datos de localizaci\u00f3n. Razon: TIEMPO EXPIRADO"},"Long month name":{"January":"Enero","February":"Febrero","March":"Marzo","April":"Abril","May":"Mayo","June":"Junio","July":"Julio","August":"Agosto","September":"Septiembre","October":"Octubre","November":"Noviembre","December":"Diciembre"}},"pluralFormula":{"1":0,"default":1}};;
 /**
  * @file
  * Defines the Drupal JavaScript API.
@@ -660,6 +660,16 @@ document.documentElement.className += ' js';
  *
  * http://api.jqueryui.com/category/ui-core/
  */(function(e){typeof define=="function"&&define.amd?define(["jquery"],e):e(jQuery)})(function(e){function t(t,r){var i,s,o,u=t.nodeName.toLowerCase();return"area"===u?(i=t.parentNode,s=i.name,!t.href||!s||i.nodeName.toLowerCase()!=="map"?!1:(o=e("img[usemap='#"+s+"']")[0],!!o&&n(o))):(/^(input|select|textarea|button|object)$/.test(u)?!t.disabled:"a"===u?t.href||r:r)&&n(t)}function n(t){return e.expr.filters.visible(t)&&!e(t).parents().addBack().filter(function(){return e.css(this,"visibility")==="hidden"}).length}e.ui=e.ui||{},e.extend(e.ui,{version:"1.11.4",keyCode:{BACKSPACE:8,COMMA:188,DELETE:46,DOWN:40,END:35,ENTER:13,ESCAPE:27,HOME:36,LEFT:37,PAGE_DOWN:34,PAGE_UP:33,PERIOD:190,RIGHT:39,SPACE:32,TAB:9,UP:38}}),e.fn.extend({scrollParent:function(t){var n=this.css("position"),r=n==="absolute",i=t?/(auto|scroll|hidden)/:/(auto|scroll)/,s=this.parents().filter(function(){var t=e(this);return r&&t.css("position")==="static"?!1:i.test(t.css("overflow")+t.css("overflow-y")+t.css("overflow-x"))}).eq(0);return n==="fixed"||!s.length?e(this[0].ownerDocument||document):s},uniqueId:function(){var e=0;return function(){return this.each(function(){this.id||(this.id="ui-id-"+ ++e)})}}(),removeUniqueId:function(){return this.each(function(){/^ui-id-\d+$/.test(this.id)&&e(this).removeAttr("id")})}}),e.extend(e.expr[":"],{data:e.expr.createPseudo?e.expr.createPseudo(function(t){return function(n){return!!e.data(n,t)}}):function(t,n,r){return!!e.data(t,r[3])},focusable:function(n){return t(n,!isNaN(e.attr(n,"tabindex")))},tabbable:function(n){var r=e.attr(n,"tabindex"),i=isNaN(r);return(i||r>=0)&&t(n,!i)}}),e("<a>").outerWidth(1).jquery||e.each(["Width","Height"],function(t,n){function o(t,n,i,s){return e.each(r,function(){n-=parseFloat(e.css(t,"padding"+this))||0,i&&(n-=parseFloat(e.css(t,"border"+this+"Width"))||0),s&&(n-=parseFloat(e.css(t,"margin"+this))||0)}),n}var r=n==="Width"?["Left","Right"]:["Top","Bottom"],i=n.toLowerCase(),s={innerWidth:e.fn.innerWidth,innerHeight:e.fn.innerHeight,outerWidth:e.fn.outerWidth,outerHeight:e.fn.outerHeight};e.fn["inner"+n]=function(t){return t===undefined?s["inner"+n].call(this):this.each(function(){e(this).css(i,o(this,t)+"px")})},e.fn["outer"+n]=function(t,r){return typeof t!="number"?s["outer"+n].call(this,t):this.each(function(){e(this).css(i,o(this,t,!0,r)+"px")})}}),e.fn.addBack||(e.fn.addBack=function(e){return this.add(e==null?this.prevObject:this.prevObject.filter(e))}),e("<a>").data("a-b","a").removeData("a-b").data("a-b")&&(e.fn.removeData=function(t){return function(n){return arguments.length?t.call(this,e.camelCase(n)):t.call(this)}}(e.fn.removeData)),e.ui.ie=!!/msie [\w.]+/.exec(navigator.userAgent.toLowerCase()),e.fn.extend({focus:function(t){return function(n,r){return typeof n=="number"?this.each(function(){var t=this;setTimeout(function(){e(t).focus(),r&&r.call(t)},n)}):t.apply(this,arguments)}}(e.fn.focus),disableSelection:function(){var e="onselectstart"in document.createElement("div")?"selectstart":"mousedown";return function(){return this.bind(e+".ui-disableSelection",function(e){e.preventDefault()})}}(),enableSelection:function(){return this.unbind(".ui-disableSelection")},zIndex:function(t){if(t!==undefined)return this.css("zIndex",t);if(this.length){var n=e(this[0]),r,i;while(n.length&&n[0]!==document){r=n.css("position");if(r==="absolute"||r==="relative"||r==="fixed"){i=parseInt(n.css("zIndex"),10);if(!isNaN(i)&&i!==0)return i}n=n.parent()}}return 0}}),e.ui.plugin={add:function(t,n,r){var i,s=e.ui[t].prototype;for(i in r)s.plugins[i]=s.plugins[i]||[],s.plugins[i].push([n,r[i]])},call:function(e,t,n,r){var i,s=e.plugins[t];if(!s)return;if(!r&&(!e.element[0].parentNode||e.element[0].parentNode.nodeType===11))return;for(i=0;i<s.length;i++)e.options[s[i][0]]&&s[i][1].apply(e.element,n)}}});;
+/*!
+ * jQuery UI Widget 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/jQuery.widget/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery"],e):e(jQuery)})(function(e){var t=0,n=Array.prototype.slice;return e.cleanData=function(t){return function(n){var r,i,s;for(s=0;(i=n[s])!=null;s++)try{r=e._data(i,"events"),r&&r.remove&&e(i).triggerHandler("remove")}catch(o){}t(n)}}(e.cleanData),e.widget=function(t,n,r){var i,s,o,u,a={},f=t.split(".")[0];return t=t.split(".")[1],i=f+"-"+t,r||(r=n,n=e.Widget),e.expr[":"][i.toLowerCase()]=function(t){return!!e.data(t,i)},e[f]=e[f]||{},s=e[f][t],o=e[f][t]=function(e,t){if(!this._createWidget)return new o(e,t);arguments.length&&this._createWidget(e,t)},e.extend(o,s,{version:r.version,_proto:e.extend({},r),_childConstructors:[]}),u=new n,u.options=e.widget.extend({},u.options),e.each(r,function(t,r){if(!e.isFunction(r)){a[t]=r;return}a[t]=function(){var e=function(){return n.prototype[t].apply(this,arguments)},i=function(e){return n.prototype[t].apply(this,e)};return function(){var t=this._super,n=this._superApply,s;return this._super=e,this._superApply=i,s=r.apply(this,arguments),this._super=t,this._superApply=n,s}}()}),o.prototype=e.widget.extend(u,{widgetEventPrefix:s?u.widgetEventPrefix||t:t},a,{constructor:o,namespace:f,widgetName:t,widgetFullName:i}),s?(e.each(s._childConstructors,function(t,n){var r=n.prototype;e.widget(r.namespace+"."+r.widgetName,o,n._proto)}),delete s._childConstructors):n._childConstructors.push(o),e.widget.bridge(t,o),o},e.widget.extend=function(t){var r=n.call(arguments,1),i=0,s=r.length,o,u;for(;i<s;i++)for(o in r[i])u=r[i][o],r[i].hasOwnProperty(o)&&u!==undefined&&(e.isPlainObject(u)?t[o]=e.isPlainObject(t[o])?e.widget.extend({},t[o],u):e.widget.extend({},u):t[o]=u);return t},e.widget.bridge=function(t,r){var i=r.prototype.widgetFullName||t;e.fn[t]=function(s){var o=typeof s=="string",u=n.call(arguments,1),a=this;return o?this.each(function(){var n,r=e.data(this,i);if(s==="instance")return a=r,!1;if(!r)return e.error("cannot call methods on "+t+" prior to initialization; "+"attempted to call method '"+s+"'");if(!e.isFunction(r[s])||s.charAt(0)==="_")return e.error("no such method '"+s+"' for "+t+" widget instance");n=r[s].apply(r,u);if(n!==r&&n!==undefined)return a=n&&n.jquery?a.pushStack(n.get()):n,!1}):(u.length&&(s=e.widget.extend.apply(null,[s].concat(u))),this.each(function(){var t=e.data(this,i);t?(t.option(s||{}),t._init&&t._init()):e.data(this,i,new r(s,this))})),a}},e.Widget=function(){},e.Widget._childConstructors=[],e.Widget.prototype={widgetName:"widget",widgetEventPrefix:"",defaultElement:"<div>",options:{disabled:!1,create:null},_createWidget:function(n,r){r=e(r||this.defaultElement||this)[0],this.element=e(r),this.uuid=t++,this.eventNamespace="."+this.widgetName+this.uuid,this.bindings=e(),this.hoverable=e(),this.focusable=e(),r!==this&&(e.data(r,this.widgetFullName,this),this._on(!0,this.element,{remove:function(e){e.target===r&&this.destroy()}}),this.document=e(r.style?r.ownerDocument:r.document||r),this.window=e(this.document[0].defaultView||this.document[0].parentWindow)),this.options=e.widget.extend({},this.options,this._getCreateOptions(),n),this._create(),this._trigger("create",null,this._getCreateEventData()),this._init()},_getCreateOptions:e.noop,_getCreateEventData:e.noop,_create:e.noop,_init:e.noop,destroy:function(){this._destroy(),this.element.unbind(this.eventNamespace).removeData(this.widgetFullName).removeData(e.camelCase(this.widgetFullName)),this.widget().unbind(this.eventNamespace).removeAttr("aria-disabled").removeClass(this.widgetFullName+"-disabled "+"ui-state-disabled"),this.bindings.unbind(this.eventNamespace),this.hoverable.removeClass("ui-state-hover"),this.focusable.removeClass("ui-state-focus")},_destroy:e.noop,widget:function(){return this.element},option:function(t,n){var r=t,i,s,o;if(arguments.length===0)return e.widget.extend({},this.options);if(typeof t=="string"){r={},i=t.split("."),t=i.shift();if(i.length){s=r[t]=e.widget.extend({},this.options[t]);for(o=0;o<i.length-1;o++)s[i[o]]=s[i[o]]||{},s=s[i[o]];t=i.pop();if(arguments.length===1)return s[t]===undefined?null:s[t];s[t]=n}else{if(arguments.length===1)return this.options[t]===undefined?null:this.options[t];r[t]=n}}return this._setOptions(r),this},_setOptions:function(e){var t;for(t in e)this._setOption(t,e[t]);return this},_setOption:function(e,t){return this.options[e]=t,e==="disabled"&&(this.widget().toggleClass(this.widgetFullName+"-disabled",!!t),t&&(this.hoverable.removeClass("ui-state-hover"),this.focusable.removeClass("ui-state-focus"))),this},enable:function(){return this._setOptions({disabled:!1})},disable:function(){return this._setOptions({disabled:!0})},_on:function(t,n,r){var i,s=this;typeof t!="boolean"&&(r=n,n=t,t=!1),r?(n=i=e(n),this.bindings=this.bindings.add(n)):(r=n,n=this.element,i=this.widget()),e.each(r,function(r,o){function u(){if(!t&&(s.options.disabled===!0||e(this).hasClass("ui-state-disabled")))return;return(typeof o=="string"?s[o]:o).apply(s,arguments)}typeof o!="string"&&(u.guid=o.guid=o.guid||u.guid||e.guid++);var a=r.match(/^([\w:-]*)\s*(.*)$/),f=a[1]+s.eventNamespace,l=a[2];l?i.delegate(l,f,u):n.bind(f,u)})},_off:function(t,n){n=(n||"").split(" ").join(this.eventNamespace+" ")+this.eventNamespace,t.unbind(n).undelegate(n),this.bindings=e(this.bindings.not(t).get()),this.focusable=e(this.focusable.not(t).get()),this.hoverable=e(this.hoverable.not(t).get())},_delay:function(e,t){function n(){return(typeof e=="string"?r[e]:e).apply(r,arguments)}var r=this;return setTimeout(n,t||0)},_hoverable:function(t){this.hoverable=this.hoverable.add(t),this._on(t,{mouseenter:function(t){e(t.currentTarget).addClass("ui-state-hover")},mouseleave:function(t){e(t.currentTarget).removeClass("ui-state-hover")}})},_focusable:function(t){this.focusable=this.focusable.add(t),this._on(t,{focusin:function(t){e(t.currentTarget).addClass("ui-state-focus")},focusout:function(t){e(t.currentTarget).removeClass("ui-state-focus")}})},_trigger:function(t,n,r){var i,s,o=this.options[t];r=r||{},n=e.Event(n),n.type=(t===this.widgetEventPrefix?t:this.widgetEventPrefix+t).toLowerCase(),n.target=this.element[0],s=n.originalEvent;if(s)for(i in s)i in n||(n[i]=s[i]);return this.element.trigger(n,r),!(e.isFunction(o)&&o.apply(this.element[0],[n].concat(r))===!1||n.isDefaultPrevented())}},e.each({show:"fadeIn",hide:"fadeOut"},function(t,n){e.Widget.prototype["_"+t]=function(r,i,s){typeof i=="string"&&(i={effect:i});var o,u=i?i===!0||typeof i=="number"?n:i.effect||n:t;i=i||{},typeof i=="number"&&(i={duration:i}),o=!e.isEmptyObject(i),i.complete=s,i.delay&&r.delay(i.delay),o&&e.effects&&e.effects.effect[u]?r[t](i):u!==t&&r[u]?r[u](i.duration,i.easing,s):r.queue(function(n){e(this)[t](),s&&s.call(r[0]),n()})}}),e.widget});;
 /**
  * @file
  * Attaches behaviors for the Contextual module.
@@ -1309,6 +1319,295 @@ document.documentElement.className += ' js';
 ;
 /**
  * @file
+ * Autocomplete based on jQuery UI.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  var autocomplete;
+
+  /**
+   * Helper splitting terms from the autocomplete value.
+   *
+   * @function Drupal.autocomplete.splitValues
+   *
+   * @param {string} value
+   *   The value being entered by the user.
+   *
+   * @return {Array}
+   *   Array of values, split by comma.
+   */
+  function autocompleteSplitValues(value) {
+    // We will match the value against comma-separated terms.
+    var result = [];
+    var quote = false;
+    var current = '';
+    var valueLength = value.length;
+    var character;
+
+    for (var i = 0; i < valueLength; i++) {
+      character = value.charAt(i);
+      if (character === '"') {
+        current += character;
+        quote = !quote;
+      }
+      else if (character === ',' && !quote) {
+        result.push(current.trim());
+        current = '';
+      }
+      else {
+        current += character;
+      }
+    }
+    if (value.length > 0) {
+      result.push($.trim(current));
+    }
+
+    return result;
+  }
+
+  /**
+   * Returns the last value of an multi-value textfield.
+   *
+   * @function Drupal.autocomplete.extractLastTerm
+   *
+   * @param {string} terms
+   *   The value of the field.
+   *
+   * @return {string}
+   *   The last value of the input field.
+   */
+  function extractLastTerm(terms) {
+    return autocomplete.splitValues(terms).pop();
+  }
+
+  /**
+   * The search handler is called before a search is performed.
+   *
+   * @function Drupal.autocomplete.options.search
+   *
+   * @param {object} event
+   *   The event triggered.
+   *
+   * @return {bool}
+   *   Whether to perform a search or not.
+   */
+  function searchHandler(event) {
+    var options = autocomplete.options;
+
+    if (options.isComposing) {
+      return false;
+    }
+
+    var term = autocomplete.extractLastTerm(event.target.value);
+    // Abort search if the first character is in firstCharacterBlacklist.
+    if (term.length > 0 && options.firstCharacterBlacklist.indexOf(term[0]) !== -1) {
+      return false;
+    }
+    // Only search when the term is at least the minimum length.
+    return term.length >= options.minLength;
+  }
+
+  /**
+   * JQuery UI autocomplete source callback.
+   *
+   * @param {object} request
+   *   The request object.
+   * @param {function} response
+   *   The function to call with the response.
+   */
+  function sourceData(request, response) {
+    var elementId = this.element.attr('id');
+
+    if (!(elementId in autocomplete.cache)) {
+      autocomplete.cache[elementId] = {};
+    }
+
+    /**
+     * Filter through the suggestions removing all terms already tagged and
+     * display the available terms to the user.
+     *
+     * @param {object} suggestions
+     *   Suggestions returned by the server.
+     */
+    function showSuggestions(suggestions) {
+      var tagged = autocomplete.splitValues(request.term);
+      var il = tagged.length;
+      for (var i = 0; i < il; i++) {
+        var index = suggestions.indexOf(tagged[i]);
+        if (index >= 0) {
+          suggestions.splice(index, 1);
+        }
+      }
+      response(suggestions);
+    }
+
+    /**
+     * Transforms the data object into an array and update autocomplete results.
+     *
+     * @param {object} data
+     *   The data sent back from the server.
+     */
+    function sourceCallbackHandler(data) {
+      autocomplete.cache[elementId][term] = data;
+
+      // Send the new string array of terms to the jQuery UI list.
+      showSuggestions(data);
+    }
+
+    // Get the desired term and construct the autocomplete URL for it.
+    var term = autocomplete.extractLastTerm(request.term);
+
+    // Check if the term is already cached.
+    if (autocomplete.cache[elementId].hasOwnProperty(term)) {
+      showSuggestions(autocomplete.cache[elementId][term]);
+    }
+    else {
+      var options = $.extend({success: sourceCallbackHandler, data: {q: term}}, autocomplete.ajax);
+      $.ajax(this.element.attr('data-autocomplete-path'), options);
+    }
+  }
+
+  /**
+   * Handles an autocompletefocus event.
+   *
+   * @return {bool}
+   *   Always returns false.
+   */
+  function focusHandler() {
+    return false;
+  }
+
+  /**
+   * Handles an autocompleteselect event.
+   *
+   * @param {jQuery.Event} event
+   *   The event triggered.
+   * @param {object} ui
+   *   The jQuery UI settings object.
+   *
+   * @return {bool}
+   *   Returns false to indicate the event status.
+   */
+  function selectHandler(event, ui) {
+    var terms = autocomplete.splitValues(event.target.value);
+    // Remove the current input.
+    terms.pop();
+    // Add the selected item.
+    if (ui.item.value.search(',') > 0) {
+      terms.push('"' + ui.item.value + '"');
+    }
+    else {
+      terms.push(ui.item.value);
+    }
+    event.target.value = terms.join(', ');
+    // Return false to tell jQuery UI that we've filled in the value already.
+    return false;
+  }
+
+  /**
+   * Override jQuery UI _renderItem function to output HTML by default.
+   *
+   * @param {jQuery} ul
+   *   jQuery collection of the ul element.
+   * @param {object} item
+   *   The list item to append.
+   *
+   * @return {jQuery}
+   *   jQuery collection of the ul element.
+   */
+  function renderItem(ul, item) {
+    return $('<li>')
+      .append($('<a>').html(item.label))
+      .appendTo(ul);
+  }
+
+  /**
+   * Attaches the autocomplete behavior to all required fields.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches the autocomplete behaviors.
+   * @prop {Drupal~behaviorDetach} detach
+   *   Detaches the autocomplete behaviors.
+   */
+  Drupal.behaviors.autocomplete = {
+    attach: function (context) {
+      // Act on textfields with the "form-autocomplete" class.
+      var $autocomplete = $(context).find('input.form-autocomplete').once('autocomplete');
+      if ($autocomplete.length) {
+        // Allow options to be overriden per instance.
+        var blacklist = $autocomplete.attr('data-autocomplete-first-character-blacklist');
+        $.extend(autocomplete.options, {
+          firstCharacterBlacklist: (blacklist) ? blacklist : ''
+        });
+        // Use jQuery UI Autocomplete on the textfield.
+        $autocomplete.autocomplete(autocomplete.options)
+          .each(function () {
+            $(this).data('ui-autocomplete')._renderItem = autocomplete.options.renderItem;
+          });
+
+        // Use CompositionEvent to handle IME inputs. It requests remote server on "compositionend" event only.
+        $autocomplete.on('compositionstart.autocomplete', function () {
+          autocomplete.options.isComposing = true;
+        });
+        $autocomplete.on('compositionend.autocomplete', function () {
+          autocomplete.options.isComposing = false;
+        });
+      }
+    },
+    detach: function (context, settings, trigger) {
+      if (trigger === 'unload') {
+        $(context).find('input.form-autocomplete')
+          .removeOnce('autocomplete')
+          .autocomplete('destroy');
+      }
+    }
+  };
+
+  /**
+   * Autocomplete object implementation.
+   *
+   * @namespace Drupal.autocomplete
+   */
+  autocomplete = {
+    cache: {},
+    // Exposes options to allow overriding by contrib.
+    splitValues: autocompleteSplitValues,
+    extractLastTerm: extractLastTerm,
+    // jQuery UI autocomplete options.
+
+    /**
+     * JQuery UI option object.
+     *
+     * @name Drupal.autocomplete.options
+     */
+    options: {
+      source: sourceData,
+      focus: focusHandler,
+      search: searchHandler,
+      select: selectHandler,
+      renderItem: renderItem,
+      minLength: 1,
+      // Custom options, used by Drupal.autocomplete.
+      firstCharacterBlacklist: '',
+      // Custom options, indicate IME usage status.
+      isComposing: false
+    },
+    ajax: {
+      dataType: 'json'
+    }
+  };
+
+  Drupal.autocomplete = autocomplete;
+
+})(jQuery, Drupal);
+;
+/**
+ * @file
  * Attaches behaviors for Drupal's active link marking.
  */
 
@@ -1376,6 +1675,18 @@ document.documentElement.className += ' js';
 
 })(Drupal, drupalSettings);
 ;
+/*!
+ * jQuery Form Plugin
+ * version: 3.51.0-2014.06.20
+ * Requires jQuery v1.5 or later
+ * Copyright (c) 2014 M. Alsup
+ * Examples and documentation at: http://malsup.com/jquery/form/
+ * Project repository: https://github.com/malsup/form
+ * Dual licensed under the MIT and GPL licenses.
+ * https://github.com/malsup/form#copyright-and-license
+ */
+!function(e){"use strict";"function"==typeof define&&define.amd?define(["jquery"],e):e("undefined"!=typeof jQuery?jQuery:window.Zepto)}(function(e){"use strict";function t(t){var r=t.data;t.isDefaultPrevented()||(t.preventDefault(),e(t.target).ajaxSubmit(r))}function r(t){var r=t.target,a=e(r);if(!a.is("[type=submit],[type=image]")){var n=a.closest("[type=submit]");if(0===n.length)return;r=n[0]}var i=this;if(i.clk=r,"image"==r.type)if(void 0!==t.offsetX)i.clk_x=t.offsetX,i.clk_y=t.offsetY;else if("function"==typeof e.fn.offset){var o=a.offset();i.clk_x=t.pageX-o.left,i.clk_y=t.pageY-o.top}else i.clk_x=t.pageX-r.offsetLeft,i.clk_y=t.pageY-r.offsetTop;setTimeout(function(){i.clk=i.clk_x=i.clk_y=null},100)}function a(){if(e.fn.ajaxSubmit.debug){var t="[jquery.form] "+Array.prototype.join.call(arguments,"");window.console&&window.console.log?window.console.log(t):window.opera&&window.opera.postError&&window.opera.postError(t)}}var n={};n.fileapi=void 0!==e("<input type='file'/>").get(0).files,n.formdata=void 0!==window.FormData;var i=!!e.fn.prop;e.fn.attr2=function(){if(!i)return this.attr.apply(this,arguments);var e=this.prop.apply(this,arguments);return e&&e.jquery||"string"==typeof e?e:this.attr.apply(this,arguments)},e.fn.ajaxSubmit=function(t){function r(r){var a,n,i=e.param(r,t.traditional).split("&"),o=i.length,s=[];for(a=0;o>a;a++)i[a]=i[a].replace(/\+/g," "),n=i[a].split("="),s.push([decodeURIComponent(n[0]),decodeURIComponent(n[1])]);return s}function o(a){for(var n=new FormData,i=0;i<a.length;i++)n.append(a[i].name,a[i].value);if(t.extraData){var o=r(t.extraData);for(i=0;i<o.length;i++)o[i]&&n.append(o[i][0],o[i][1])}t.data=null;var s=e.extend(!0,{},e.ajaxSettings,t,{contentType:!1,processData:!1,cache:!1,type:u||"POST"});t.uploadProgress&&(s.xhr=function(){var r=e.ajaxSettings.xhr();return r.upload&&r.upload.addEventListener("progress",function(e){var r=0,a=e.loaded||e.position,n=e.total;e.lengthComputable&&(r=Math.ceil(a/n*100)),t.uploadProgress(e,a,n,r)},!1),r}),s.data=null;var c=s.beforeSend;return s.beforeSend=function(e,r){r.data=t.formData?t.formData:n,c&&c.call(this,e,r)},e.ajax(s)}function s(r){function n(e){var t=null;try{e.contentWindow&&(t=e.contentWindow.document)}catch(r){a("cannot get iframe.contentWindow document: "+r)}if(t)return t;try{t=e.contentDocument?e.contentDocument:e.document}catch(r){a("cannot get iframe.contentDocument: "+r),t=e.document}return t}function o(){function t(){try{var e=n(g).readyState;a("state = "+e),e&&"uninitialized"==e.toLowerCase()&&setTimeout(t,50)}catch(r){a("Server abort: ",r," (",r.name,")"),s(k),j&&clearTimeout(j),j=void 0}}var r=f.attr2("target"),i=f.attr2("action"),o="multipart/form-data",c=f.attr("enctype")||f.attr("encoding")||o;w.setAttribute("target",p),(!u||/post/i.test(u))&&w.setAttribute("method","POST"),i!=m.url&&w.setAttribute("action",m.url),m.skipEncodingOverride||u&&!/post/i.test(u)||f.attr({encoding:"multipart/form-data",enctype:"multipart/form-data"}),m.timeout&&(j=setTimeout(function(){T=!0,s(D)},m.timeout));var l=[];try{if(m.extraData)for(var d in m.extraData)m.extraData.hasOwnProperty(d)&&l.push(e.isPlainObject(m.extraData[d])&&m.extraData[d].hasOwnProperty("name")&&m.extraData[d].hasOwnProperty("value")?e('<input type="hidden" name="'+m.extraData[d].name+'">').val(m.extraData[d].value).appendTo(w)[0]:e('<input type="hidden" name="'+d+'">').val(m.extraData[d]).appendTo(w)[0]);m.iframeTarget||v.appendTo("body"),g.attachEvent?g.attachEvent("onload",s):g.addEventListener("load",s,!1),setTimeout(t,15);try{w.submit()}catch(h){var x=document.createElement("form").submit;x.apply(w)}}finally{w.setAttribute("action",i),w.setAttribute("enctype",c),r?w.setAttribute("target",r):f.removeAttr("target"),e(l).remove()}}function s(t){if(!x.aborted&&!F){if(M=n(g),M||(a("cannot access response document"),t=k),t===D&&x)return x.abort("timeout"),void S.reject(x,"timeout");if(t==k&&x)return x.abort("server abort"),void S.reject(x,"error","server abort");if(M&&M.location.href!=m.iframeSrc||T){g.detachEvent?g.detachEvent("onload",s):g.removeEventListener("load",s,!1);var r,i="success";try{if(T)throw"timeout";var o="xml"==m.dataType||M.XMLDocument||e.isXMLDoc(M);if(a("isXml="+o),!o&&window.opera&&(null===M.body||!M.body.innerHTML)&&--O)return a("requeing onLoad callback, DOM not available"),void setTimeout(s,250);var u=M.body?M.body:M.documentElement;x.responseText=u?u.innerHTML:null,x.responseXML=M.XMLDocument?M.XMLDocument:M,o&&(m.dataType="xml"),x.getResponseHeader=function(e){var t={"content-type":m.dataType};return t[e.toLowerCase()]},u&&(x.status=Number(u.getAttribute("status"))||x.status,x.statusText=u.getAttribute("statusText")||x.statusText);var c=(m.dataType||"").toLowerCase(),l=/(json|script|text)/.test(c);if(l||m.textarea){var f=M.getElementsByTagName("textarea")[0];if(f)x.responseText=f.value,x.status=Number(f.getAttribute("status"))||x.status,x.statusText=f.getAttribute("statusText")||x.statusText;else if(l){var p=M.getElementsByTagName("pre")[0],h=M.getElementsByTagName("body")[0];p?x.responseText=p.textContent?p.textContent:p.innerText:h&&(x.responseText=h.textContent?h.textContent:h.innerText)}}else"xml"==c&&!x.responseXML&&x.responseText&&(x.responseXML=X(x.responseText));try{E=_(x,c,m)}catch(y){i="parsererror",x.error=r=y||i}}catch(y){a("error caught: ",y),i="error",x.error=r=y||i}x.aborted&&(a("upload aborted"),i=null),x.status&&(i=x.status>=200&&x.status<300||304===x.status?"success":"error"),"success"===i?(m.success&&m.success.call(m.context,E,"success",x),S.resolve(x.responseText,"success",x),d&&e.event.trigger("ajaxSuccess",[x,m])):i&&(void 0===r&&(r=x.statusText),m.error&&m.error.call(m.context,x,i,r),S.reject(x,"error",r),d&&e.event.trigger("ajaxError",[x,m,r])),d&&e.event.trigger("ajaxComplete",[x,m]),d&&!--e.active&&e.event.trigger("ajaxStop"),m.complete&&m.complete.call(m.context,x,i),F=!0,m.timeout&&clearTimeout(j),setTimeout(function(){m.iframeTarget?v.attr("src",m.iframeSrc):v.remove(),x.responseXML=null},100)}}}var c,l,m,d,p,v,g,x,y,b,T,j,w=f[0],S=e.Deferred();if(S.abort=function(e){x.abort(e)},r)for(l=0;l<h.length;l++)c=e(h[l]),i?c.prop("disabled",!1):c.removeAttr("disabled");if(m=e.extend(!0,{},e.ajaxSettings,t),m.context=m.context||m,p="jqFormIO"+(new Date).getTime(),m.iframeTarget?(v=e(m.iframeTarget),b=v.attr2("name"),b?p=b:v.attr2("name",p)):(v=e('<iframe name="'+p+'" src="'+m.iframeSrc+'" />'),v.css({position:"absolute",top:"-1000px",left:"-1000px"})),g=v[0],x={aborted:0,responseText:null,responseXML:null,status:0,statusText:"n/a",getAllResponseHeaders:function(){},getResponseHeader:function(){},setRequestHeader:function(){},abort:function(t){var r="timeout"===t?"timeout":"aborted";a("aborting upload... "+r),this.aborted=1;try{g.contentWindow.document.execCommand&&g.contentWindow.document.execCommand("Stop")}catch(n){}v.attr("src",m.iframeSrc),x.error=r,m.error&&m.error.call(m.context,x,r,t),d&&e.event.trigger("ajaxError",[x,m,r]),m.complete&&m.complete.call(m.context,x,r)}},d=m.global,d&&0===e.active++&&e.event.trigger("ajaxStart"),d&&e.event.trigger("ajaxSend",[x,m]),m.beforeSend&&m.beforeSend.call(m.context,x,m)===!1)return m.global&&e.active--,S.reject(),S;if(x.aborted)return S.reject(),S;y=w.clk,y&&(b=y.name,b&&!y.disabled&&(m.extraData=m.extraData||{},m.extraData[b]=y.value,"image"==y.type&&(m.extraData[b+".x"]=w.clk_x,m.extraData[b+".y"]=w.clk_y)));var D=1,k=2,A=e("meta[name=csrf-token]").attr("content"),L=e("meta[name=csrf-param]").attr("content");L&&A&&(m.extraData=m.extraData||{},m.extraData[L]=A),m.forceSync?o():setTimeout(o,10);var E,M,F,O=50,X=e.parseXML||function(e,t){return window.ActiveXObject?(t=new ActiveXObject("Microsoft.XMLDOM"),t.async="false",t.loadXML(e)):t=(new DOMParser).parseFromString(e,"text/xml"),t&&t.documentElement&&"parsererror"!=t.documentElement.nodeName?t:null},C=e.parseJSON||function(e){return window.eval("("+e+")")},_=function(t,r,a){var n=t.getResponseHeader("content-type")||"",i="xml"===r||!r&&n.indexOf("xml")>=0,o=i?t.responseXML:t.responseText;return i&&"parsererror"===o.documentElement.nodeName&&e.error&&e.error("parsererror"),a&&a.dataFilter&&(o=a.dataFilter(o,r)),"string"==typeof o&&("json"===r||!r&&n.indexOf("json")>=0?o=C(o):("script"===r||!r&&n.indexOf("javascript")>=0)&&e.globalEval(o)),o};return S}if(!this.length)return a("ajaxSubmit: skipping submit process - no element selected"),this;var u,c,l,f=this;"function"==typeof t?t={success:t}:void 0===t&&(t={}),u=t.type||this.attr2("method"),c=t.url||this.attr2("action"),l="string"==typeof c?e.trim(c):"",l=l||window.location.href||"",l&&(l=(l.match(/^([^#]+)/)||[])[1]),t=e.extend(!0,{url:l,success:e.ajaxSettings.success,type:u||e.ajaxSettings.type,iframeSrc:/^https/i.test(window.location.href||"")?"javascript:false":"about:blank"},t);var m={};if(this.trigger("form-pre-serialize",[this,t,m]),m.veto)return a("ajaxSubmit: submit vetoed via form-pre-serialize trigger"),this;if(t.beforeSerialize&&t.beforeSerialize(this,t)===!1)return a("ajaxSubmit: submit aborted via beforeSerialize callback"),this;var d=t.traditional;void 0===d&&(d=e.ajaxSettings.traditional);var p,h=[],v=this.formToArray(t.semantic,h);if(t.data&&(t.extraData=t.data,p=e.param(t.data,d)),t.beforeSubmit&&t.beforeSubmit(v,this,t)===!1)return a("ajaxSubmit: submit aborted via beforeSubmit callback"),this;if(this.trigger("form-submit-validate",[v,this,t,m]),m.veto)return a("ajaxSubmit: submit vetoed via form-submit-validate trigger"),this;var g=e.param(v,d);p&&(g=g?g+"&"+p:p),"GET"==t.type.toUpperCase()?(t.url+=(t.url.indexOf("?")>=0?"&":"?")+g,t.data=null):t.data=g;var x=[];if(t.resetForm&&x.push(function(){f.resetForm()}),t.clearForm&&x.push(function(){f.clearForm(t.includeHidden)}),!t.dataType&&t.target){var y=t.success||function(){};x.push(function(r){var a=t.replaceTarget?"replaceWith":"html";e(t.target)[a](r).each(y,arguments)})}else t.success&&x.push(t.success);if(t.success=function(e,r,a){for(var n=t.context||this,i=0,o=x.length;o>i;i++)x[i].apply(n,[e,r,a||f,f])},t.error){var b=t.error;t.error=function(e,r,a){var n=t.context||this;b.apply(n,[e,r,a,f])}}if(t.complete){var T=t.complete;t.complete=function(e,r){var a=t.context||this;T.apply(a,[e,r,f])}}var j=e("input[type=file]:enabled",this).filter(function(){return""!==e(this).val()}),w=j.length>0,S="multipart/form-data",D=f.attr("enctype")==S||f.attr("encoding")==S,k=n.fileapi&&n.formdata;a("fileAPI :"+k);var A,L=(w||D)&&!k;t.iframe!==!1&&(t.iframe||L)?t.closeKeepAlive?e.get(t.closeKeepAlive,function(){A=s(v)}):A=s(v):A=(w||D)&&k?o(v):e.ajax(t),f.removeData("jqxhr").data("jqxhr",A);for(var E=0;E<h.length;E++)h[E]=null;return this.trigger("form-submit-notify",[this,t]),this},e.fn.ajaxForm=function(n){if(n=n||{},n.delegation=n.delegation&&e.isFunction(e.fn.on),!n.delegation&&0===this.length){var i={s:this.selector,c:this.context};return!e.isReady&&i.s?(a("DOM not ready, queuing ajaxForm"),e(function(){e(i.s,i.c).ajaxForm(n)}),this):(a("terminating; zero elements found by selector"+(e.isReady?"":" (DOM not ready)")),this)}return n.delegation?(e(document).off("submit.form-plugin",this.selector,t).off("click.form-plugin",this.selector,r).on("submit.form-plugin",this.selector,n,t).on("click.form-plugin",this.selector,n,r),this):this.ajaxFormUnbind().bind("submit.form-plugin",n,t).bind("click.form-plugin",n,r)},e.fn.ajaxFormUnbind=function(){return this.unbind("submit.form-plugin click.form-plugin")},e.fn.formToArray=function(t,r){var a=[];if(0===this.length)return a;var i,o=this[0],s=this.attr("id"),u=t?o.getElementsByTagName("*"):o.elements;if(u&&!/MSIE [678]/.test(navigator.userAgent)&&(u=e(u).get()),s&&(i=e(':input[form="'+s+'"]').get(),i.length&&(u=(u||[]).concat(i))),!u||!u.length)return a;var c,l,f,m,d,p,h;for(c=0,p=u.length;p>c;c++)if(d=u[c],f=d.name,f&&!d.disabled)if(t&&o.clk&&"image"==d.type)o.clk==d&&(a.push({name:f,value:e(d).val(),type:d.type}),a.push({name:f+".x",value:o.clk_x},{name:f+".y",value:o.clk_y}));else if(m=e.fieldValue(d,!0),m&&m.constructor==Array)for(r&&r.push(d),l=0,h=m.length;h>l;l++)a.push({name:f,value:m[l]});else if(n.fileapi&&"file"==d.type){r&&r.push(d);var v=d.files;if(v.length)for(l=0;l<v.length;l++)a.push({name:f,value:v[l],type:d.type});else a.push({name:f,value:"",type:d.type})}else null!==m&&"undefined"!=typeof m&&(r&&r.push(d),a.push({name:f,value:m,type:d.type,required:d.required}));if(!t&&o.clk){var g=e(o.clk),x=g[0];f=x.name,f&&!x.disabled&&"image"==x.type&&(a.push({name:f,value:g.val()}),a.push({name:f+".x",value:o.clk_x},{name:f+".y",value:o.clk_y}))}return a},e.fn.formSerialize=function(t){return e.param(this.formToArray(t))},e.fn.fieldSerialize=function(t){var r=[];return this.each(function(){var a=this.name;if(a){var n=e.fieldValue(this,t);if(n&&n.constructor==Array)for(var i=0,o=n.length;o>i;i++)r.push({name:a,value:n[i]});else null!==n&&"undefined"!=typeof n&&r.push({name:this.name,value:n})}}),e.param(r)},e.fn.fieldValue=function(t){for(var r=[],a=0,n=this.length;n>a;a++){var i=this[a],o=e.fieldValue(i,t);null===o||"undefined"==typeof o||o.constructor==Array&&!o.length||(o.constructor==Array?e.merge(r,o):r.push(o))}return r},e.fieldValue=function(t,r){var a=t.name,n=t.type,i=t.tagName.toLowerCase();if(void 0===r&&(r=!0),r&&(!a||t.disabled||"reset"==n||"button"==n||("checkbox"==n||"radio"==n)&&!t.checked||("submit"==n||"image"==n)&&t.form&&t.form.clk!=t||"select"==i&&-1==t.selectedIndex))return null;if("select"==i){var o=t.selectedIndex;if(0>o)return null;for(var s=[],u=t.options,c="select-one"==n,l=c?o+1:u.length,f=c?o:0;l>f;f++){var m=u[f];if(m.selected){var d=m.value;if(d||(d=m.attributes&&m.attributes.value&&!m.attributes.value.specified?m.text:m.value),c)return d;s.push(d)}}return s}return e(t).val()},e.fn.clearForm=function(t){return this.each(function(){e("input,select,textarea",this).clearFields(t)})},e.fn.clearFields=e.fn.clearInputs=function(t){var r=/^(?:color|date|datetime|email|month|number|password|range|search|tel|text|time|url|week)$/i;return this.each(function(){var a=this.type,n=this.tagName.toLowerCase();r.test(a)||"textarea"==n?this.value="":"checkbox"==a||"radio"==a?this.checked=!1:"select"==n?this.selectedIndex=-1:"file"==a?/MSIE/.test(navigator.userAgent)?e(this).replaceWith(e(this).clone(!0)):e(this).val(""):t&&(t===!0&&/hidden/.test(a)||"string"==typeof t&&e(this).is(t))&&(this.value="")})},e.fn.resetForm=function(){return this.each(function(){("function"==typeof this.reset||"object"==typeof this.reset&&!this.reset.nodeType)&&this.reset()})},e.fn.enable=function(e){return void 0===e&&(e=!0),this.each(function(){this.disabled=!e})},e.fn.selected=function(t){return void 0===t&&(t=!0),this.each(function(){var r=this.type;if("checkbox"==r||"radio"==r)this.checked=t;else if("option"==this.tagName.toLowerCase()){var a=e(this).parent("select");t&&a[0]&&"select-one"==a[0].type&&a.find("option").selected(!1),this.selected=t}})},e.fn.ajaxSubmit.debug=!1});
+;
 /**
  * @file
  * Adapted from underscore.js with the addition Drupal namespace.
@@ -1428,231 +1739,6 @@ Drupal.debounce = function (func, wait, immediate) {
     return result;
   };
 };
-;
-/**
- * @file
- * Adds an HTML element and method to trigger audio UAs to read system messages.
- *
- * Use {@link Drupal.announce} to indicate to screen reader users that an
- * element on the page has changed state. For instance, if clicking a link
- * loads 10 more items into a list, one might announce the change like this.
- *
- * @example
- * $('#search-list')
- *   .on('itemInsert', function (event, data) {
- *     // Insert the new items.
- *     $(data.container.el).append(data.items.el);
- *     // Announce the change to the page contents.
- *     Drupal.announce(Drupal.t('@count items added to @container',
- *       {'@count': data.items.length, '@container': data.container.title}
- *     ));
- *   });
- */
-
-(function (Drupal, debounce) {
-
-  'use strict';
-
-  var liveElement;
-  var announcements = [];
-
-  /**
-   * Builds a div element with the aria-live attribute and add it to the DOM.
-   *
-   * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Attaches the behavior for drupalAnnouce.
-   */
-  Drupal.behaviors.drupalAnnounce = {
-    attach: function (context) {
-      // Create only one aria-live element.
-      if (!liveElement) {
-        liveElement = document.createElement('div');
-        liveElement.id = 'drupal-live-announce';
-        liveElement.className = 'visually-hidden';
-        liveElement.setAttribute('aria-live', 'polite');
-        liveElement.setAttribute('aria-busy', 'false');
-        document.body.appendChild(liveElement);
-      }
-    }
-  };
-
-  /**
-   * Concatenates announcements to a single string; appends to the live region.
-   */
-  function announce() {
-    var text = [];
-    var priority = 'polite';
-    var announcement;
-
-    // Create an array of announcement strings to be joined and appended to the
-    // aria live region.
-    var il = announcements.length;
-    for (var i = 0; i < il; i++) {
-      announcement = announcements.pop();
-      text.unshift(announcement.text);
-      // If any of the announcements has a priority of assertive then the group
-      // of joined announcements will have this priority.
-      if (announcement.priority === 'assertive') {
-        priority = 'assertive';
-      }
-    }
-
-    if (text.length) {
-      // Clear the liveElement so that repeated strings will be read.
-      liveElement.innerHTML = '';
-      // Set the busy state to true until the node changes are complete.
-      liveElement.setAttribute('aria-busy', 'true');
-      // Set the priority to assertive, or default to polite.
-      liveElement.setAttribute('aria-live', priority);
-      // Print the text to the live region. Text should be run through
-      // Drupal.t() before being passed to Drupal.announce().
-      liveElement.innerHTML = text.join('\n');
-      // The live text area is updated. Allow the AT to announce the text.
-      liveElement.setAttribute('aria-busy', 'false');
-    }
-  }
-
-  /**
-   * Triggers audio UAs to read the supplied text.
-   *
-   * The aria-live region will only read the text that currently populates its
-   * text node. Replacing text quickly in rapid calls to announce results in
-   * only the text from the most recent call to {@link Drupal.announce} being
-   * read. By wrapping the call to announce in a debounce function, we allow for
-   * time for multiple calls to {@link Drupal.announce} to queue up their
-   * messages. These messages are then joined and append to the aria-live region
-   * as one text node.
-   *
-   * @param {string} text
-   *   A string to be read by the UA.
-   * @param {string} [priority='polite']
-   *   A string to indicate the priority of the message. Can be either
-   *   'polite' or 'assertive'.
-   *
-   * @return {function}
-   *   The return of the call to debounce.
-   *
-   * @see http://www.w3.org/WAI/PF/aria-practices/#liveprops
-   */
-  Drupal.announce = function (text, priority) {
-    // Save the text and priority into a closure variable. Multiple simultaneous
-    // announcements will be concatenated and read in sequence.
-    announcements.push({
-      text: text,
-      priority: priority
-    });
-    // Immediately invoke the function that debounce returns. 200 ms is right at
-    // the cusp where humans notice a pause, so we will wait
-    // at most this much time before the set of queued announcements is read.
-    return (debounce(announce, 200)());
-  };
-}(Drupal, Drupal.debounce));
-;
-/**
- * @file
- * Module page behaviors.
- */
-
-(function ($, Drupal, debounce) {
-
-  'use strict';
-
-  /**
-   * Filters the module list table by a text input search string.
-   *
-   * Additionally accounts for multiple tables being wrapped in "package" details
-   * elements.
-   *
-   * Text search input: input.table-filter-text
-   * Target table:      input.table-filter-text[data-table]
-   * Source text:       .table-filter-text-source, .module-name, .module-description
-   *
-   * @type {Drupal~behavior}
-   */
-  Drupal.behaviors.tableFilterByText = {
-    attach: function (context, settings) {
-      var $input = $('input.table-filter-text').once('table-filter-text');
-      var $table = $($input.attr('data-table'));
-      var $rowsAndDetails;
-      var $rows;
-      var $details;
-      var searching = false;
-
-      function hidePackageDetails(index, element) {
-        var $packDetails = $(element);
-        var $visibleRows = $packDetails.find('tbody tr:visible');
-        $packDetails.toggle($visibleRows.length > 0);
-      }
-
-      function filterModuleList(e) {
-        var query = $(e.target).val();
-        // Case insensitive expression to find query at the beginning of a word.
-        var re = new RegExp('\\b' + query, 'i');
-
-        function showModuleRow(index, row) {
-          var $row = $(row);
-          var $sources = $row.find('.table-filter-text-source, .module-name, .module-description');
-          var textMatch = $sources.text().search(re) !== -1;
-          $row.closest('tr').toggle(textMatch);
-        }
-        // Search over all rows and packages.
-        $rowsAndDetails.show();
-
-        // Filter if the length of the query is at least 2 characters.
-        if (query.length >= 2) {
-          searching = true;
-          $rows.each(showModuleRow);
-
-          // Note that we first open all <details> to be able to use ':visible'.
-          // Mark the <details> elements that were closed before filtering, so
-          // they can be reclosed when filtering is removed.
-          $details.not('[open]').attr('data-drupal-system-state', 'forced-open');
-
-          // Hide the package <details> if they don't have any visible rows.
-          // Note that we first show() all <details> to be able to use ':visible'.
-          $details.attr('open', true).each(hidePackageDetails);
-
-          Drupal.announce(
-            Drupal.t(
-              '!modules modules are available in the modified list.',
-              {'!modules': $rowsAndDetails.find('tbody tr:visible').length}
-            )
-          );
-        }
-        else if (searching) {
-          searching = false;
-          $rowsAndDetails.show();
-          // Return <details> elements that had been closed before filtering
-          // to a closed state.
-          $details.filter('[data-drupal-system-state="forced-open"]')
-            .removeAttr('data-drupal-system-state')
-            .attr('open', false);
-        }
-      }
-
-      function preventEnterKey(event) {
-        if (event.which === 13) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-      }
-
-      if ($table.length) {
-        $rowsAndDetails = $table.find('tr, details');
-        $rows = $table.find('tbody tr');
-        $details = $rowsAndDetails.filter('.package-listing');
-
-        $input.on({
-          keyup: debounce(filterModuleList, 200),
-          keydown: preventEnterKey
-        });
-      }
-    }
-  };
-
-}(jQuery, Drupal, Drupal.debounce));
 ;
 /*! jquery.cookie v1.4.1 | MIT */
 !function(a){"function"==typeof define&&define.amd?define(["jquery"],a):"object"==typeof exports?a(require("jquery")):a(jQuery)}(function(a){function b(a){return h.raw?a:encodeURIComponent(a)}function c(a){return h.raw?a:decodeURIComponent(a)}function d(a){return b(h.json?JSON.stringify(a):String(a))}function e(a){0===a.indexOf('"')&&(a=a.slice(1,-1).replace(/\\"/g,'"').replace(/\\\\/g,"\\"));try{return a=decodeURIComponent(a.replace(g," ")),h.json?JSON.parse(a):a}catch(b){}}function f(b,c){var d=h.raw?b:e(b);return a.isFunction(c)?c(d):d}var g=/\+/g,h=a.cookie=function(e,g,i){if(void 0!==g&&!a.isFunction(g)){if(i=a.extend({},h.defaults,i),"number"==typeof i.expires){var j=i.expires,k=i.expires=new Date;k.setTime(+k+864e5*j)}return document.cookie=[b(e),"=",d(g),i.expires?"; expires="+i.expires.toUTCString():"",i.path?"; path="+i.path:"",i.domain?"; domain="+i.domain:"",i.secure?"; secure":""].join("")}for(var l=e?void 0:{},m=document.cookie?document.cookie.split("; "):[],n=0,o=m.length;o>n;n++){var p=m[n].split("="),q=c(p.shift()),r=p.join("=");if(e&&e===q){l=f(r,g);break}e||void 0===(r=f(r))||(l[q]=r)}return l};h.defaults={},a.removeCookie=function(b,c){return void 0===a.cookie(b)?!1:(a.cookie(b,"",a.extend({},c,{expires:-1})),!a.cookie(b))}});;
@@ -1906,183 +1992,6 @@ Drupal.debounce = function (func, wait, immediate) {
   };
 
 })(jQuery, Drupal, Drupal.debounce);
-;
-/**
- * @file
- * Add aria attribute handling for details and summary elements.
- */
-
-(function ($, Drupal) {
-
-  'use strict';
-
-  /**
-   * Handles `aria-expanded` and `aria-pressed` attributes on details elements.
-   *
-   * @type {Drupal~behavior}
-   */
-  Drupal.behaviors.detailsAria = {
-    attach: function () {
-      $('body').once('detailsAria').on('click.detailsAria', 'summary', function (event) {
-        var $summary = $(event.currentTarget);
-        var open = $(event.currentTarget.parentNode).attr('open') === 'open' ? 'false' : 'true';
-
-        $summary.attr({
-          'aria-expanded': open,
-          'aria-pressed': open
-        });
-      });
-    }
-  };
-
-})(jQuery, Drupal);
-;
-/**
- * @file
- * Polyfill for HTML5 details elements.
- */
-
-(function ($, Modernizr, Drupal) {
-
-  'use strict';
-
-  /**
-   * The collapsible details object represents a single details element.
-   *
-   * @constructor Drupal.CollapsibleDetails
-   *
-   * @param {HTMLElement} node
-   *   The details element.
-   */
-  function CollapsibleDetails(node) {
-    this.$node = $(node);
-    this.$node.data('details', this);
-    // Expand details if there are errors inside, or if it contains an
-    // element that is targeted by the URI fragment identifier.
-    var anchor = location.hash && location.hash !== '#' ? ', ' + location.hash : '';
-    if (this.$node.find('.error' + anchor).length) {
-      this.$node.attr('open', true);
-    }
-    // Initialize and setup the summary,
-    this.setupSummary();
-    // Initialize and setup the legend.
-    this.setupLegend();
-  }
-
-  $.extend(CollapsibleDetails, /** @lends Drupal.CollapsibleDetails */{
-
-    /**
-     * Holds references to instantiated CollapsibleDetails objects.
-     *
-     * @type {Array.<Drupal.CollapsibleDetails>}
-     */
-    instances: []
-  });
-
-  $.extend(CollapsibleDetails.prototype, /** @lends Drupal.CollapsibleDetails# */{
-
-    /**
-     * Initialize and setup summary events and markup.
-     *
-     * @fires event:summaryUpdated
-     *
-     * @listens event:summaryUpdated
-     */
-    setupSummary: function () {
-      this.$summary = $('<span class="summary"></span>');
-      this.$node
-        .on('summaryUpdated', $.proxy(this.onSummaryUpdated, this))
-        .trigger('summaryUpdated');
-    },
-
-    /**
-     * Initialize and setup legend markup.
-     */
-    setupLegend: function () {
-      // Turn the summary into a clickable link.
-      var $legend = this.$node.find('> summary');
-
-      $('<span class="details-summary-prefix visually-hidden"></span>')
-        .append(this.$node.attr('open') ? Drupal.t('Hide') : Drupal.t('Show'))
-        .prependTo($legend)
-        .after(document.createTextNode(' '));
-
-      // .wrapInner() does not retain bound events.
-      $('<a class="details-title"></a>')
-        .attr('href', '#' + this.$node.attr('id'))
-        .prepend($legend.contents())
-        .appendTo($legend);
-
-      $legend
-        .append(this.$summary)
-        .on('click', $.proxy(this.onLegendClick, this));
-    },
-
-    /**
-     * Handle legend clicks.
-     *
-     * @param {jQuery.Event} e
-     *   The event triggered.
-     */
-    onLegendClick: function (e) {
-      this.toggle();
-      e.preventDefault();
-    },
-
-    /**
-     * Update summary.
-     */
-    onSummaryUpdated: function () {
-      var text = $.trim(this.$node.drupalGetSummary());
-      this.$summary.html(text ? ' (' + text + ')' : '');
-    },
-
-    /**
-     * Toggle the visibility of a details element using smooth animations.
-     */
-    toggle: function () {
-      var isOpen = !!this.$node.attr('open');
-      var $summaryPrefix = this.$node.find('> summary span.details-summary-prefix');
-      if (isOpen) {
-        $summaryPrefix.html(Drupal.t('Show'));
-      }
-      else {
-        $summaryPrefix.html(Drupal.t('Hide'));
-      }
-      // Delay setting the attribute to emulate chrome behavior and make
-      // details-aria.js work as expected with this polyfill.
-      setTimeout(function () {
-        this.$node.attr('open', !isOpen);
-      }.bind(this), 0);
-    }
-  });
-
-  /**
-   * Polyfill HTML5 details element.
-   *
-   * @type {Drupal~behavior}
-   *
-   * @prop {Drupal~behaviorAttach} attach
-   *   Attaches behavior for the details element.
-   */
-  Drupal.behaviors.collapse = {
-    attach: function (context) {
-      if (Modernizr.details) {
-        return;
-      }
-      var $collapsibleDetails = $(context).find('details').once('collapse').addClass('collapse-processed');
-      if ($collapsibleDetails.length) {
-        for (var i = 0; i < $collapsibleDetails.length; i++) {
-          CollapsibleDetails.instances.push(new CollapsibleDetails($collapsibleDetails[i]));
-        }
-      }
-    }
-  };
-
-  // Expose constructor in the public space.
-  Drupal.CollapsibleDetails = CollapsibleDetails;
-
-})(jQuery, Modernizr, Drupal);
 ;
 /**
  * @file
@@ -3598,6 +3507,3147 @@ Drupal.debounce = function (func, wait, immediate) {
   };
 
 })(jQuery, window, Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Dropbutton feature.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * Process elements with the .dropbutton class on page load.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches dropButton behaviors.
+   */
+  Drupal.behaviors.dropButton = {
+    attach: function (context, settings) {
+      var $dropbuttons = $(context).find('.dropbutton-wrapper').once('dropbutton');
+      if ($dropbuttons.length) {
+        // Adds the delegated handler that will toggle dropdowns on click.
+        var $body = $('body').once('dropbutton-click');
+        if ($body.length) {
+          $body.on('click', '.dropbutton-toggle', dropbuttonClickHandler);
+        }
+        // Initialize all buttons.
+        var il = $dropbuttons.length;
+        for (var i = 0; i < il; i++) {
+          DropButton.dropbuttons.push(new DropButton($dropbuttons[i], settings.dropbutton));
+        }
+      }
+    }
+  };
+
+  /**
+   * Delegated callback for opening and closing dropbutton secondary actions.
+   *
+   * @function Drupal.DropButton~dropbuttonClickHandler
+   *
+   * @param {jQuery.Event} e
+   *   The event triggered.
+   */
+  function dropbuttonClickHandler(e) {
+    e.preventDefault();
+    $(e.target).closest('.dropbutton-wrapper').toggleClass('open');
+  }
+
+  /**
+   * A DropButton presents an HTML list as a button with a primary action.
+   *
+   * All secondary actions beyond the first in the list are presented in a
+   * dropdown list accessible through a toggle arrow associated with the button.
+   *
+   * @constructor Drupal.DropButton
+   *
+   * @param {HTMLElement} dropbutton
+   *   A DOM element.
+   * @param {object} settings
+   *   A list of options including:
+   * @param {string} settings.title
+   *   The text inside the toggle link element. This text is hidden
+   *   from visual UAs.
+   */
+  function DropButton(dropbutton, settings) {
+    // Merge defaults with settings.
+    var options = $.extend({title: Drupal.t('List additional actions')}, settings);
+    var $dropbutton = $(dropbutton);
+
+    /**
+     * @type {jQuery}
+     */
+    this.$dropbutton = $dropbutton;
+
+    /**
+     * @type {jQuery}
+     */
+    this.$list = $dropbutton.find('.dropbutton');
+
+    /**
+     * Find actions and mark them.
+     *
+     * @type {jQuery}
+     */
+    this.$actions = this.$list.find('li').addClass('dropbutton-action');
+
+    // Add the special dropdown only if there are hidden actions.
+    if (this.$actions.length > 1) {
+      // Identify the first element of the collection.
+      var $primary = this.$actions.slice(0, 1);
+      // Identify the secondary actions.
+      var $secondary = this.$actions.slice(1);
+      $secondary.addClass('secondary-action');
+      // Add toggle link.
+      $primary.after(Drupal.theme('dropbuttonToggle', options));
+      // Bind mouse events.
+      this.$dropbutton
+        .addClass('dropbutton-multiple')
+        .on({
+
+          /**
+           * Adds a timeout to close the dropdown on mouseleave.
+           *
+           * @ignore
+           */
+          'mouseleave.dropbutton': $.proxy(this.hoverOut, this),
+
+          /**
+           * Clears timeout when mouseout of the dropdown.
+           *
+           * @ignore
+           */
+          'mouseenter.dropbutton': $.proxy(this.hoverIn, this),
+
+          /**
+           * Similar to mouseleave/mouseenter, but for keyboard navigation.
+           *
+           * @ignore
+           */
+          'focusout.dropbutton': $.proxy(this.focusOut, this),
+
+          /**
+           * @ignore
+           */
+          'focusin.dropbutton': $.proxy(this.focusIn, this)
+        });
+    }
+    else {
+      this.$dropbutton.addClass('dropbutton-single');
+    }
+  }
+
+  /**
+   * Extend the DropButton constructor.
+   */
+  $.extend(DropButton, /** @lends Drupal.DropButton */{
+    /**
+     * Store all processed DropButtons.
+     *
+     * @type {Array.<Drupal.DropButton>}
+     */
+    dropbuttons: []
+  });
+
+  /**
+   * Extend the DropButton prototype.
+   */
+  $.extend(DropButton.prototype, /** @lends Drupal.DropButton# */{
+
+    /**
+     * Toggle the dropbutton open and closed.
+     *
+     * @param {bool} [show]
+     *   Force the dropbutton to open by passing true or to close by
+     *   passing false.
+     */
+    toggle: function (show) {
+      var isBool = typeof show === 'boolean';
+      show = isBool ? show : !this.$dropbutton.hasClass('open');
+      this.$dropbutton.toggleClass('open', show);
+    },
+
+    /**
+     * @method
+     */
+    hoverIn: function () {
+      // Clear any previous timer we were using.
+      if (this.timerID) {
+        window.clearTimeout(this.timerID);
+      }
+    },
+
+    /**
+     * @method
+     */
+    hoverOut: function () {
+      // Wait half a second before closing.
+      this.timerID = window.setTimeout($.proxy(this, 'close'), 500);
+    },
+
+    /**
+     * @method
+     */
+    open: function () {
+      this.toggle(true);
+    },
+
+    /**
+     * @method
+     */
+    close: function () {
+      this.toggle(false);
+    },
+
+    /**
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    focusOut: function (e) {
+      this.hoverOut.call(this, e);
+    },
+
+    /**
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    focusIn: function (e) {
+      this.hoverIn.call(this, e);
+    }
+  });
+
+  $.extend(Drupal.theme, /** @lends Drupal.theme */{
+
+    /**
+     * A toggle is an interactive element often bound to a click handler.
+     *
+     * @param {object} options
+     *   Options object.
+     * @param {string} [options.title]
+     *   The HTML anchor title attribute and text for the inner span element.
+     *
+     * @return {string}
+     *   A string representing a DOM fragment.
+     */
+    dropbuttonToggle: function (options) {
+      return '<li class="dropbutton-toggle"><button type="button"><span class="dropbutton-arrow"><span class="visually-hidden">' + options.title + '</span></span></button></li>';
+    }
+  });
+
+  // Expose constructor in the public space.
+  Drupal.DropButton = DropButton;
+
+})(jQuery, Drupal);
+;
+/**
+ * @file
+ * Some basic behaviors and utility functions for Views.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * @namespace
+   */
+  Drupal.Views = {};
+
+  /**
+   * Helper function to parse a querystring.
+   *
+   * @param {string} query
+   *   The querystring to parse.
+   *
+   * @return {object}
+   *   A map of query parameters.
+   */
+  Drupal.Views.parseQueryString = function (query) {
+    var args = {};
+    var pos = query.indexOf('?');
+    if (pos !== -1) {
+      query = query.substring(pos + 1);
+    }
+    var pair;
+    var pairs = query.split('&');
+    for (var i = 0; i < pairs.length; i++) {
+      pair = pairs[i].split('=');
+      // Ignore the 'q' path argument, if present.
+      if (pair[0] !== 'q' && pair[1]) {
+        args[decodeURIComponent(pair[0].replace(/\+/g, ' '))] = decodeURIComponent(pair[1].replace(/\+/g, ' '));
+      }
+    }
+    return args;
+  };
+
+  /**
+   * Helper function to return a view's arguments based on a path.
+   *
+   * @param {string} href
+   *   The href to check.
+   * @param {string} viewPath
+   *   The views path to check.
+   *
+   * @return {object}
+   *   An object containing `view_args` and `view_path`.
+   */
+  Drupal.Views.parseViewArgs = function (href, viewPath) {
+    var returnObj = {};
+    var path = Drupal.Views.getPath(href);
+    // Get viewPath url without baseUrl portion.
+    var viewHref = Drupal.url(viewPath).substring(drupalSettings.path.baseUrl.length);
+    // Ensure we have a correct path.
+    if (viewHref && path.substring(0, viewHref.length + 1) === viewHref + '/') {
+      returnObj.view_args = decodeURIComponent(path.substring(viewHref.length + 1, path.length));
+      returnObj.view_path = path;
+    }
+    return returnObj;
+  };
+
+  /**
+   * Strip off the protocol plus domain from an href.
+   *
+   * @param {string} href
+   *   The href to strip.
+   *
+   * @return {string}
+   *   The href without the protocol and domain.
+   */
+  Drupal.Views.pathPortion = function (href) {
+    // Remove e.g. http://example.com if present.
+    var protocol = window.location.protocol;
+    if (href.substring(0, protocol.length) === protocol) {
+      // 2 is the length of the '//' that normally follows the protocol.
+      href = href.substring(href.indexOf('/', protocol.length + 2));
+    }
+    return href;
+  };
+
+  /**
+   * Return the Drupal path portion of an href.
+   *
+   * @param {string} href
+   *   The href to check.
+   *
+   * @return {string}
+   *   An internal path.
+   */
+  Drupal.Views.getPath = function (href) {
+    href = Drupal.Views.pathPortion(href);
+    href = href.substring(drupalSettings.path.baseUrl.length, href.length);
+    // 3 is the length of the '?q=' added to the url without clean urls.
+    if (href.substring(0, 3) === '?q=') {
+      href = href.substring(3, href.length);
+    }
+    var chars = ['#', '?', '&'];
+    for (var i = 0; i < chars.length; i++) {
+      if (href.indexOf(chars[i]) > -1) {
+        href = href.substr(0, href.indexOf(chars[i]));
+      }
+    }
+    return href;
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Handles AJAX fetching of views, including filter submission and response.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * Attaches the AJAX behavior to exposed filters forms and key View links.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches ajaxView functionality to relevant elements.
+   */
+  Drupal.behaviors.ViewsAjaxView = {};
+  Drupal.behaviors.ViewsAjaxView.attach = function () {
+    if (drupalSettings && drupalSettings.views && drupalSettings.views.ajaxViews) {
+      var ajaxViews = drupalSettings.views.ajaxViews;
+      for (var i in ajaxViews) {
+        if (ajaxViews.hasOwnProperty(i)) {
+          Drupal.views.instances[i] = new Drupal.views.ajaxView(ajaxViews[i]);
+        }
+      }
+    }
+  };
+
+  /**
+   * @namespace
+   */
+  Drupal.views = {};
+
+  /**
+   * @type {object.<string, Drupal.views.ajaxView>}
+   */
+  Drupal.views.instances = {};
+
+  /**
+   * Javascript object for a certain view.
+   *
+   * @constructor
+   *
+   * @param {object} settings
+   *   Settings object for the ajax view.
+   * @param {string} settings.view_dom_id
+   *   The DOM id of the view.
+   */
+  Drupal.views.ajaxView = function (settings) {
+    var selector = '.js-view-dom-id-' + settings.view_dom_id;
+    this.$view = $(selector);
+
+    // Retrieve the path to use for views' ajax.
+    var ajax_path = drupalSettings.views.ajax_path;
+
+    // If there are multiple views this might've ended up showing up multiple
+    // times.
+    if (ajax_path.constructor.toString().indexOf('Array') !== -1) {
+      ajax_path = ajax_path[0];
+    }
+
+    // Check if there are any GET parameters to send to views.
+    var queryString = window.location.search || '';
+    if (queryString !== '') {
+      // Remove the question mark and Drupal path component if any.
+      queryString = queryString.slice(1).replace(/q=[^&]+&?|&?render=[^&]+/, '');
+      if (queryString !== '') {
+        // If there is a '?' in ajax_path, clean url are on and & should be
+        // used to add parameters.
+        queryString = ((/\?/.test(ajax_path)) ? '&' : '?') + queryString;
+      }
+    }
+
+    this.element_settings = {
+      url: ajax_path + queryString,
+      submit: settings,
+      setClick: true,
+      event: 'click',
+      selector: selector,
+      progress: {type: 'fullscreen'}
+    };
+
+    this.settings = settings;
+
+    // Add the ajax to exposed forms.
+    this.$exposed_form = $('form#views-exposed-form-' + settings.view_name.replace(/_/g, '-') + '-' + settings.view_display_id.replace(/_/g, '-'));
+    this.$exposed_form.once('exposed-form').each($.proxy(this.attachExposedFormAjax, this));
+
+    // Add the ajax to pagers.
+    this.$view
+      // Don't attach to nested views. Doing so would attach multiple behaviors
+      // to a given element.
+      .filter($.proxy(this.filterNestedViews, this))
+      .once('ajax-pager').each($.proxy(this.attachPagerAjax, this));
+
+    // Add a trigger to update this view specifically. In order to trigger a
+    // refresh use the following code.
+    //
+    // @code
+    // $('.view-name').trigger('RefreshView');
+    // @endcode
+    var self_settings = $.extend({}, this.element_settings, {
+      event: 'RefreshView',
+      base: this.selector,
+      element: this.$view.get(0)
+    });
+    this.refreshViewAjax = Drupal.ajax(self_settings);
+  };
+
+  /**
+   * @method
+   */
+  Drupal.views.ajaxView.prototype.attachExposedFormAjax = function () {
+    var that = this;
+    this.exposedFormAjax = [];
+    // Exclude the reset buttons so no AJAX behaviours are bound. Many things
+    // break during the form reset phase if using AJAX.
+    $('input[type=submit], input[type=image]', this.$exposed_form).not('[data-drupal-selector=edit-reset]').each(function (index) {
+      var self_settings = $.extend({}, that.element_settings, {
+        base: $(this).attr('id'),
+        element: this
+      });
+      that.exposedFormAjax[index] = Drupal.ajax(self_settings);
+    });
+  };
+
+  /**
+   * @return {bool}
+   *   If there is at least one parent with a view class return false.
+   */
+  Drupal.views.ajaxView.prototype.filterNestedViews = function () {
+    // If there is at least one parent with a view class, this view
+    // is nested (e.g., an attachment). Bail.
+    return !this.$view.parents('.view').length;
+  };
+
+  /**
+   * Attach the ajax behavior to each link.
+   */
+  Drupal.views.ajaxView.prototype.attachPagerAjax = function () {
+    this.$view.find('ul.js-pager__items > li > a, th.views-field a, .attachment .views-summary a')
+      .each($.proxy(this.attachPagerLinkAjax, this));
+  };
+
+  /**
+   * Attach the ajax behavior to a singe link.
+   *
+   * @param {string} [id]
+   *   The ID of the link.
+   * @param {HTMLElement} link
+   *   The link element.
+   */
+  Drupal.views.ajaxView.prototype.attachPagerLinkAjax = function (id, link) {
+    var $link = $(link);
+    var viewData = {};
+    var href = $link.attr('href');
+    // Construct an object using the settings defaults and then overriding
+    // with data specific to the link.
+    $.extend(
+      viewData,
+      this.settings,
+      Drupal.Views.parseQueryString(href),
+      // Extract argument data from the URL.
+      Drupal.Views.parseViewArgs(href, this.settings.view_base_path)
+    );
+
+    var self_settings = $.extend({}, this.element_settings, {
+      submit: viewData,
+      base: false,
+      element: link
+    });
+    this.pagerAjax = Drupal.ajax(self_settings);
+  };
+
+  /**
+   * Views scroll to top ajax command.
+   *
+   * @param {Drupal.Ajax} [ajax]
+   *   A {@link Drupal.ajax} object.
+   * @param {object} response
+   *   Ajax response.
+   * @param {string} response.selector
+   *   Selector to use.
+   */
+  Drupal.AjaxCommands.prototype.viewsScrollTop = function (ajax, response) {
+    // Scroll to the top of the view. This will allow users
+    // to browse newly loaded content after e.g. clicking a pager
+    // link.
+    var offset = $(response.selector).offset();
+    // We can't guarantee that the scrollable object should be
+    // the body, as the view could be embedded in something
+    // more complex such as a modal popup. Recurse up the DOM
+    // and scroll the first element that has a non-zero top.
+    var scrollTarget = response.selector;
+    while ($(scrollTarget).scrollTop() === 0 && $(scrollTarget).parent()) {
+      scrollTarget = $(scrollTarget).parent();
+    }
+    // Only scroll upward.
+    if (offset.top - 10 < $(scrollTarget).scrollTop()) {
+      $(scrollTarget).animate({scrollTop: (offset.top - 10)}, 500);
+    }
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Handles AJAX submission and response in Views UI.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * Ajax command for highlighting elements.
+   *
+   * @param {Drupal.Ajax} [ajax]
+   *   An Ajax object.
+   * @param {object} response
+   *   The Ajax response.
+   * @param {string} response.selector
+   *   The selector in question.
+   * @param {number} [status]
+   *   The HTTP status code.
+   */
+  Drupal.AjaxCommands.prototype.viewsHighlight = function (ajax, response, status) {
+    $('.hilited').removeClass('hilited');
+    $(response.selector).addClass('hilited');
+  };
+
+  /**
+   * Ajax command to set the form submit action in the views modal edit form.
+   *
+   * @param {Drupal.Ajax} [ajax]
+   *   An Ajax object.
+   * @param {object} response
+   *   The Ajax response. Contains .url
+   * @param {string} [status]
+   *   The XHR status code?
+   */
+  Drupal.AjaxCommands.prototype.viewsSetForm = function (ajax, response, status) {
+    var $form = $('.js-views-ui-dialog form');
+    // Identify the button that was clicked so that .ajaxSubmit() can use it.
+    // We need to do this for both .click() and .mousedown() since JavaScript
+    // code might trigger either behavior.
+    var $submit_buttons = $form.find('input[type=submit].js-form-submit, button.js-form-submit').once('views-ajax-submit');
+    $submit_buttons.on('click mousedown', function () {
+      this.form.clk = this;
+    });
+    $form.once('views-ajax-submit').each(function () {
+      var $form = $(this);
+      var element_settings = {
+        url: response.url,
+        event: 'submit',
+        base: $form.attr('id'),
+        element: this
+      };
+      var ajaxForm = Drupal.ajax(element_settings);
+      ajaxForm.$form = $form;
+    });
+  };
+
+  /**
+   * Ajax command to show certain buttons in the views edit form.
+   *
+   * @param {Drupal.Ajax} [ajax]
+   *   An Ajax object.
+   * @param {object} response
+   *   The Ajax response.
+   * @param {bool} response.changed
+   *   Whether the state changed for the buttons or not.
+   * @param {number} [status]
+   *   The HTTP status code.
+   */
+  Drupal.AjaxCommands.prototype.viewsShowButtons = function (ajax, response, status) {
+    $('div.views-edit-view div.form-actions').removeClass('js-hide');
+    if (response.changed) {
+      $('div.views-edit-view div.view-changed.messages').removeClass('js-hide');
+    }
+  };
+
+  /**
+   * Ajax command for triggering preview.
+   *
+   * @param {Drupal.Ajax} [ajax]
+   *   An Ajax object.
+   * @param {object} [response]
+   *   The Ajax response.
+   * @param {number} [status]
+   *   The HTTP status code.
+   */
+  Drupal.AjaxCommands.prototype.viewsTriggerPreview = function (ajax, response, status) {
+    if ($('input#edit-displays-live-preview').is(':checked')) {
+      $('#preview-submit').trigger('click');
+    }
+  };
+
+  /**
+   * Ajax command to replace the title of a page.
+   *
+   * @param {Drupal.Ajax} [ajax]
+   *   An Ajax object.
+   * @param {object} response
+   *   The Ajax response.
+   * @param {string} response.siteName
+   *   The site name.
+   * @param {string} response.title
+   *   The new page title.
+   * @param {number} [status]
+   *   The HTTP status code.
+   */
+  Drupal.AjaxCommands.prototype.viewsReplaceTitle = function (ajax, response, status) {
+    var doc = document;
+    // For the <title> element, make a best-effort attempt to replace the page
+    // title and leave the site name alone. If the theme doesn't use the site
+    // name in the <title> element, this will fail.
+    var oldTitle = doc.title;
+    // Escape the site name, in case it has special characters in it, so we can
+    // use it in our regex.
+    var escapedSiteName = response.siteName.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
+    var re = new RegExp('.+ (.) ' + escapedSiteName);
+    doc.title = oldTitle.replace(re, response.title + ' $1 ' + response.siteName);
+
+    $('h1.page-title').text(response.title);
+  };
+
+  /**
+   * Get rid of irritating tabledrag messages.
+   *
+   * @return {Array}
+   *   An array of messages. Always empty array, to get rid of the messages.
+   */
+  Drupal.theme.tableDragChangedWarning = function () {
+    return [];
+  };
+
+  /**
+   * Trigger preview when the "live preview" checkbox is checked.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behavior to trigger live preview if the live preview option is
+   *   checked.
+   */
+  Drupal.behaviors.livePreview = {
+    attach: function (context) {
+      $('input#edit-displays-live-preview', context).once('views-ajax').on('click', function () {
+        if ($(this).is(':checked')) {
+          $('#preview-submit').trigger('click');
+        }
+      });
+    }
+  };
+
+  /**
+   * Sync preview display.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behavior to sync the preview display when needed.
+   */
+  Drupal.behaviors.syncPreviewDisplay = {
+    attach: function (context) {
+      $('#views-tabset a').once('views-ajax').on('click', function () {
+        var href = $(this).attr('href');
+        // Cut of #views-tabset.
+        var display_id = href.substr(11);
+        // Set the form element.
+        $('#views-live-preview #preview-display-id').val(display_id);
+      });
+    }
+  };
+
+  /**
+   * Ajax behaviors for the views_ui module.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches ajax behaviors to the elements with the classes in question.
+   */
+  Drupal.behaviors.viewsAjax = {
+    collapseReplaced: false,
+    attach: function (context, settings) {
+      var base_element_settings = {
+        event: 'click',
+        progress: {type: 'fullscreen'}
+      };
+      // Bind AJAX behaviors to all items showing the class.
+      $('a.views-ajax-link', context).once('views-ajax').each(function () {
+        var element_settings = base_element_settings;
+        element_settings.base = $(this).attr('id');
+        element_settings.element = this;
+        // Set the URL to go to the anchor.
+        if ($(this).attr('href')) {
+          element_settings.url = $(this).attr('href');
+        }
+        Drupal.ajax(element_settings);
+      });
+
+      $('div#views-live-preview a')
+        .once('views-ajax').each(function () {
+          // We don't bind to links without a URL.
+          if (!$(this).attr('href')) {
+            return true;
+          }
+
+          var element_settings = base_element_settings;
+          // Set the URL to go to the anchor.
+          element_settings.url = $(this).attr('href');
+          if (Drupal.Views.getPath(element_settings.url).substring(0, 21) !== 'admin/structure/views') {
+            return true;
+          }
+
+          element_settings.wrapper = 'views-preview-wrapper';
+          element_settings.method = 'replaceWith';
+          element_settings.base = $(this).attr('id');
+          element_settings.element = this;
+          Drupal.ajax(element_settings);
+        });
+
+      // Within a live preview, make exposed widget form buttons re-trigger the
+      // Preview button.
+      // @todo Revisit this after fixing Views UI to display a Preview outside
+      //   of the main Edit form.
+      $('div#views-live-preview input[type=submit]')
+        .once('views-ajax').each(function (event) {
+          $(this).on('click', function () {
+            this.form.clk = this;
+            return true;
+          });
+          var element_settings = base_element_settings;
+          // Set the URL to go to the anchor.
+          element_settings.url = $(this.form).attr('action');
+          if (Drupal.Views.getPath(element_settings.url).substring(0, 21) !== 'admin/structure/views') {
+            return true;
+          }
+
+          element_settings.wrapper = 'views-preview-wrapper';
+          element_settings.method = 'replaceWith';
+          element_settings.event = 'click';
+          element_settings.base = $(this).attr('id');
+          element_settings.element = this;
+
+          Drupal.ajax(element_settings);
+        });
+
+    }
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Views dialog behaviors.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  function handleDialogResize(e) {
+    var $modal = $(e.currentTarget);
+    var $viewsOverride = $modal.find('[data-drupal-views-offset]');
+    var $scroll = $modal.find('[data-drupal-views-scroll]');
+    var offset = 0;
+    var modalHeight;
+    if ($scroll.length) {
+      // Add a class to do some styles adjustments.
+      $modal.closest('.views-ui-dialog').addClass('views-ui-dialog-scroll');
+      // Let scroll element take all the height available.
+      $scroll.css({overflow: 'visible', height: 'auto'});
+      modalHeight = $modal.height();
+      $viewsOverride.each(function () { offset += $(this).outerHeight(); });
+
+      // Take internal padding into account.
+      var scrollOffset = $scroll.outerHeight() - $scroll.height();
+      $scroll.height(modalHeight - offset - scrollOffset);
+      // Reset scrolling properties.
+      $modal.css('overflow', 'hidden');
+      $scroll.css('overflow', 'auto');
+    }
+  }
+
+  /**
+   * Functionality for views modals.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches modal functionality for views.
+   * @prop {Drupal~behaviorDetach} detach
+   *   Detaches the modal functionality.
+   */
+  Drupal.behaviors.viewsModalContent = {
+    attach: function (context) {
+      $('body').once('viewsDialog').on('dialogContentResize.viewsDialog', '.ui-dialog-content', handleDialogResize);
+      // When expanding details, make sure the modal is resized.
+      $(context).find('.scroll').once('detailsUpdate').on('click', 'summary', function (e) {
+        $(e.currentTarget).trigger('dialogContentResize');
+      });
+    },
+    detach: function (context, settings, trigger) {
+      if (trigger === 'unload') {
+        $('body').removeOnce('viewsDialog').off('.viewsDialog');
+      }
+    }
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Some basic behaviors and utility functions for Views UI.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * @namespace
+   */
+  Drupal.viewsUi = {};
+
+  /**
+   * Improve the user experience of the views edit interface.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches toggling of SQL rewrite warning on the corresponding checkbox.
+   */
+  Drupal.behaviors.viewsUiEditView = {
+    attach: function () {
+      // Only show the SQL rewrite warning when the user has chosen the
+      // corresponding checkbox.
+      $('[data-drupal-selector="edit-query-options-disable-sql-rewrite"]').on('click', function () {
+        $('.sql-rewrite-warning').toggleClass('js-hide');
+      });
+    }
+  };
+
+  /**
+   * In the add view wizard, use the view name to prepopulate form fields such
+   * as page title and menu link.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behavior for prepopulating page title and menu links, based on
+   *   view name.
+   */
+  Drupal.behaviors.viewsUiAddView = {
+    attach: function (context) {
+      var $context = $(context);
+      // Set up regular expressions to allow only numbers, letters, and dashes.
+      var exclude = new RegExp('[^a-z0-9\\-]+', 'g');
+      var replace = '-';
+      var suffix;
+
+      // The page title, block title, and menu link fields can all be
+      // prepopulated with the view name - no regular expression needed.
+      var $fields = $context.find('[id^="edit-page-title"], [id^="edit-block-title"], [id^="edit-page-link-properties-title"]');
+      if ($fields.length) {
+        if (!this.fieldsFiller) {
+          this.fieldsFiller = new Drupal.viewsUi.FormFieldFiller($fields);
+        }
+        else {
+          // After an AJAX response, this.fieldsFiller will still have event
+          // handlers bound to the old version of the form fields (which don't
+          // exist anymore). The event handlers need to be unbound and then
+          // rebound to the new markup. Note that jQuery.live is difficult to
+          // make work in this case because the IDs of the form fields change
+          // on every AJAX response.
+          this.fieldsFiller.rebind($fields);
+        }
+      }
+
+      // Prepopulate the path field with a URLified version of the view name.
+      var $pathField = $context.find('[id^="edit-page-path"]');
+      if ($pathField.length) {
+        if (!this.pathFiller) {
+          this.pathFiller = new Drupal.viewsUi.FormFieldFiller($pathField, exclude, replace);
+        }
+        else {
+          this.pathFiller.rebind($pathField);
+        }
+      }
+
+      // Populate the RSS feed field with a URLified version of the view name,
+      // and an .xml suffix (to make it unique).
+      var $feedField = $context.find('[id^="edit-page-feed-properties-path"]');
+      if ($feedField.length) {
+        if (!this.feedFiller) {
+          suffix = '.xml';
+          this.feedFiller = new Drupal.viewsUi.FormFieldFiller($feedField, exclude, replace, suffix);
+        }
+        else {
+          this.feedFiller.rebind($feedField);
+        }
+      }
+    }
+  };
+
+  /**
+   * Constructor for the {@link Drupal.viewsUi.FormFieldFiller} object.
+   *
+   * Prepopulates a form field based on the view name.
+   *
+   * @constructor
+   *
+   * @param {jQuery} $target
+   *   A jQuery object representing the form field or fields to prepopulate.
+   * @param {bool} [exclude=false]
+   *   A regular expression representing characters to exclude from
+   *   the target field.
+   * @param {string} [replace='']
+   *   A string to use as the replacement value for disallowed characters.
+   * @param {string} [suffix='']
+   *   A suffix to append at the end of the target field content.
+   */
+  Drupal.viewsUi.FormFieldFiller = function ($target, exclude, replace, suffix) {
+
+    /**
+     *
+     * @type {jQuery}
+     */
+    this.source = $('#edit-label');
+
+    /**
+     *
+     * @type {jQuery}
+     */
+    this.target = $target;
+
+    /**
+     *
+     * @type {bool}
+     */
+    this.exclude = exclude || false;
+
+    /**
+     *
+     * @type {string}
+     */
+    this.replace = replace || '';
+
+    /**
+     *
+     * @type {string}
+     */
+    this.suffix = suffix || '';
+
+    // Create bound versions of this instance's object methods to use as event
+    // handlers. This will let us easily unbind those specific handlers later
+    // on. NOTE: jQuery.proxy will not work for this because it assumes we want
+    // only one bound version of an object method, whereas we need one version
+    // per object instance.
+    var self = this;
+
+    /**
+     * Populate the target form field with the altered source field value.
+     *
+     * @return {*}
+     *   The result of the _populate call, which should be undefined.
+     */
+    this.populate = function () { return self._populate.call(self); };
+
+    /**
+     * Stop prepopulating the form fields.
+     *
+     * @return {*}
+     *   The result of the _unbind call, which should be undefined.
+     */
+    this.unbind = function () { return self._unbind.call(self); };
+
+    this.bind();
+    // Object constructor; no return value.
+  };
+
+  $.extend(Drupal.viewsUi.FormFieldFiller.prototype, /** @lends Drupal.viewsUi.FormFieldFiller# */{
+
+    /**
+     * Bind the form-filling behavior.
+     */
+    bind: function () {
+      this.unbind();
+      // Populate the form field when the source changes.
+      this.source.on('keyup.viewsUi change.viewsUi', this.populate);
+      // Quit populating the field as soon as it gets focus.
+      this.target.on('focus.viewsUi', this.unbind);
+    },
+
+    /**
+     * Get the source form field value as altered by the passed-in parameters.
+     *
+     * @return {string}
+     *   The source form field value.
+     */
+    getTransliterated: function () {
+      var from = this.source.val();
+      if (this.exclude) {
+        from = from.toLowerCase().replace(this.exclude, this.replace);
+      }
+      return from;
+    },
+
+    /**
+     * Populate the target form field with the altered source field value.
+     */
+    _populate: function () {
+      var transliterated = this.getTransliterated();
+      var suffix = this.suffix;
+      this.target.each(function (i) {
+        // Ensure that the maxlength is not exceeded by prepopulating the field.
+        var maxlength = $(this).attr('maxlength') - suffix.length;
+        $(this).val(transliterated.substr(0, maxlength) + suffix);
+      });
+    },
+
+    /**
+     * Stop prepopulating the form fields.
+     */
+    _unbind: function () {
+      this.source.off('keyup.viewsUi change.viewsUi', this.populate);
+      this.target.off('focus.viewsUi', this.unbind);
+    },
+
+    /**
+     * Bind event handlers to new form fields, after they're replaced via Ajax.
+     *
+     * @param {jQuery} $fields
+     *   Fields to rebind functionality to.
+     */
+    rebind: function ($fields) {
+      this.target = $fields;
+      this.bind();
+    }
+  });
+
+  /**
+   * Adds functionality for the add item form.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches the functionality in {@link Drupal.viewsUi.AddItemForm} to the
+   *   forms in question.
+   */
+  Drupal.behaviors.addItemForm = {
+    attach: function (context) {
+      var $context = $(context);
+      var $form = $context;
+      // The add handler form may have an id of views-ui-add-handler-form--n.
+      if (!$context.is('form[id^="views-ui-add-handler-form"]')) {
+        $form = $context.find('form[id^="views-ui-add-handler-form"]');
+      }
+      if ($form.once('views-ui-add-handler-form').length) {
+        // If we we have an unprocessed views-ui-add-handler-form, let's
+        // instantiate.
+        new Drupal.viewsUi.AddItemForm($form);
+      }
+    }
+  };
+
+  /**
+   * Constructs a new AddItemForm.
+   *
+   * @constructor
+   *
+   * @param {jQuery} $form
+   *   The form element used.
+   */
+  Drupal.viewsUi.AddItemForm = function ($form) {
+
+    /**
+     *
+     * @type {jQuery}
+     */
+    this.$form = $form;
+    this.$form.find('.views-filterable-options :checkbox').on('click', $.proxy(this.handleCheck, this));
+
+    /**
+     * Find the wrapper of the displayed text.
+     */
+    this.$selected_div = this.$form.find('.views-selected-options').parent();
+    this.$selected_div.hide();
+
+    /**
+     *
+     * @type {Array}
+     */
+    this.checkedItems = [];
+  };
+
+  /**
+   * Handles a checkbox check.
+   *
+   * @param {jQuery.Event} event
+   *   The event triggered.
+   */
+  Drupal.viewsUi.AddItemForm.prototype.handleCheck = function (event) {
+    var $target = $(event.target);
+    var label = $.trim($target.closest('td').next().html());
+    // Add/remove the checked item to the list.
+    if ($target.is(':checked')) {
+      this.$selected_div.show().css('display', 'block');
+      this.checkedItems.push(label);
+    }
+    else {
+      var position = $.inArray(label, this.checkedItems);
+      // Delete the item from the list and make sure that the list doesn't have
+      // undefined items left.
+      for (var i = 0; i < this.checkedItems.length; i++) {
+        if (i === position) {
+          this.checkedItems.splice(i, 1);
+          i--;
+          break;
+        }
+      }
+      // Hide it again if none item is selected.
+      if (this.checkedItems.length === 0) {
+        this.$selected_div.hide();
+      }
+    }
+    this.refreshCheckedItems();
+  };
+
+  /**
+   * Refresh the display of the checked items.
+   */
+  Drupal.viewsUi.AddItemForm.prototype.refreshCheckedItems = function () {
+    // Perhaps we should precache the text div, too.
+    this.$selected_div.find('.views-selected-options')
+      .html(this.checkedItems.join(', '))
+      .trigger('dialogContentResize');
+  };
+
+  /**
+   * The input field items that add displays must be rendered as `<input>`
+   * elements. The following behavior detaches the `<input>` elements from the
+   * DOM, wraps them in an unordered list, then appends them to the list of
+   * tabs.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Fixes the input elements needed.
+   */
+  Drupal.behaviors.viewsUiRenderAddViewButton = {
+    attach: function (context) {
+      // Build the add display menu and pull the display input buttons into it.
+      var $menu = $(context).find('#views-display-menu-tabs').once('views-ui-render-add-view-button');
+      if (!$menu.length) {
+        return;
+      }
+
+      var $addDisplayDropdown = $('<li class="add"><a href="#"><span class="icon add"></span>' + Drupal.t('Add') + '</a><ul class="action-list" style="display:none;"></ul></li>');
+      var $displayButtons = $menu.nextAll('input.add-display').detach();
+      $displayButtons.appendTo($addDisplayDropdown.find('.action-list')).wrap('<li>')
+        .parent().eq(0).addClass('first').end().eq(-1).addClass('last');
+      // Remove the 'Add ' prefix from the button labels since they're being
+      // placed in an 'Add' dropdown. @todo This assumes English, but so does
+      // $addDisplayDropdown above. Add support for translation.
+      $displayButtons.each(function () {
+        var label = $(this).val();
+        if (label.substr(0, 4) === 'Add ') {
+          $(this).val(label.substr(4));
+        }
+      });
+      $addDisplayDropdown.appendTo($menu);
+
+      // Add the click handler for the add display button.
+      $menu.find('li.add > a').on('click', function (event) {
+        event.preventDefault();
+        var $trigger = $(this);
+        Drupal.behaviors.viewsUiRenderAddViewButton.toggleMenu($trigger);
+      });
+      // Add a mouseleave handler to close the dropdown when the user mouses
+      // away from the item. We use mouseleave instead of mouseout because
+      // the user is going to trigger mouseout when she moves from the trigger
+      // link to the sub menu items.
+      // We use the live binder because the open class on this item will be
+      // toggled on and off and we want the handler to take effect in the cases
+      // that the class is present, but not when it isn't.
+      $('li.add', $menu).on('mouseleave', function (event) {
+        var $this = $(this);
+        var $trigger = $this.children('a[href="#"]');
+        if ($this.children('.action-list').is(':visible')) {
+          Drupal.behaviors.viewsUiRenderAddViewButton.toggleMenu($trigger);
+        }
+      });
+    }
+  };
+
+  /**
+   * Toggle menu visibility.
+   *
+   * @param {jQuery} $trigger
+   *   The element where the toggle was triggered.
+   *
+   *
+   * @note [@jessebeach] I feel like the following should be a more generic
+   *   function and not written specifically for this UI, but I'm not sure
+   *   where to put it.
+   */
+  Drupal.behaviors.viewsUiRenderAddViewButton.toggleMenu = function ($trigger) {
+    $trigger.parent().toggleClass('open');
+    $trigger.next().slideToggle('fast');
+  };
+
+  /**
+   * Add search options to the views ui.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches {@link Drupal.viewsUi.OptionsSearch} to the views ui filter
+   *   options.
+   */
+  Drupal.behaviors.viewsUiSearchOptions = {
+    attach: function (context) {
+      var $context = $(context);
+      var $form = $context;
+      // The add handler form may have an id of views-ui-add-handler-form--n.
+      if (!$context.is('form[id^="views-ui-add-handler-form"]')) {
+        $form = $context.find('form[id^="views-ui-add-handler-form"]');
+      }
+      // Make sure we don't add more than one event handler to the same form.
+      if ($form.once('views-ui-filter-options').length) {
+        new Drupal.viewsUi.OptionsSearch($form);
+      }
+    }
+  };
+
+  /**
+   * Constructor for the viewsUi.OptionsSearch object.
+   *
+   * The OptionsSearch object filters the available options on a form according
+   * to the user's search term. Typing in "taxonomy" will show only those
+   * options containing "taxonomy" in their label.
+   *
+   * @constructor
+   *
+   * @param {jQuery} $form
+   *   The form element.
+   */
+  Drupal.viewsUi.OptionsSearch = function ($form) {
+
+    /**
+     *
+     * @type {jQuery}
+     */
+    this.$form = $form;
+
+    // Click on the title checks the box.
+    this.$form.on('click', 'td.title', function (event) {
+      var $target = $(event.currentTarget);
+      $target.closest('tr').find('input').trigger('click');
+    });
+
+    var searchBoxSelector = '[data-drupal-selector="edit-override-controls-options-search"]';
+    var controlGroupSelector = '[data-drupal-selector="edit-override-controls-group"]';
+    this.$form.on('formUpdated', searchBoxSelector + ',' + controlGroupSelector, $.proxy(this.handleFilter, this));
+
+    this.$searchBox = this.$form.find(searchBoxSelector);
+    this.$controlGroup = this.$form.find(controlGroupSelector);
+
+    /**
+     * Get a list of option labels and their corresponding divs and maintain it
+     * in memory, so we have as little overhead as possible at keyup time.
+     */
+    this.options = this.getOptions(this.$form.find('.filterable-option'));
+
+    // Trap the ENTER key in the search box so that it doesn't submit the form.
+    this.$searchBox.on('keypress', function (event) {
+      if (event.which === 13) {
+        event.preventDefault();
+      }
+    });
+  };
+
+  $.extend(Drupal.viewsUi.OptionsSearch.prototype, /** @lends Drupal.viewsUi.OptionsSearch# */{
+
+    /**
+     * Assemble a list of all the filterable options on the form.
+     *
+     * @param {jQuery} $allOptions
+     *   A jQuery object representing the rows of filterable options to be
+     *   shown and hidden depending on the user's search terms.
+     *
+     * @return {Array}
+     *   An array of all the filterable options.
+     */
+    getOptions: function ($allOptions) {
+      var $title;
+      var $description;
+      var $option;
+      var options = [];
+      var length = $allOptions.length;
+      for (var i = 0; i < length; i++) {
+        $option = $($allOptions[i]);
+        $title = $option.find('.title');
+        $description = $option.find('.description');
+        options[i] = {
+          // Search on the lowercase version of the title text + description.
+          searchText: $title.text().toLowerCase() + ' ' + $description.text().toLowerCase(),
+          // Maintain a reference to the jQuery object for each row, so we don't
+          // have to create a new object inside the performance-sensitive keyup
+          // handler.
+          $div: $option
+        };
+      }
+      return options;
+    },
+
+    /**
+     * Filter handler for the search box and type select that hides or shows the relevant
+     * options.
+     *
+     * @param {jQuery.Event} event
+     *   The formUpdated event.
+     */
+    handleFilter: function (event) {
+      // Determine the user's search query. The search text has been converted
+      // to lowercase.
+      var search = this.$searchBox.val().toLowerCase();
+      var words = search.split(' ');
+      // Get selected Group
+      var group = this.$controlGroup.val();
+
+      // Search through the search texts in the form for matching text.
+      this.options.forEach(function (option) {
+        function hasWord(word) {
+          return option.searchText.indexOf(word) !== -1;
+        }
+
+        var found = true;
+        // Each word in the search string has to match the item in order for the
+        // item to be shown.
+        if (search) {
+          found = words.every(hasWord);
+        }
+        if (found && group !== 'all') {
+          found = option.$div.hasClass(group);
+        }
+
+        option.$div.toggle(found);
+      });
+
+      // Adapt dialog to content size.
+      $(event.target).trigger('dialogContentResize');
+    }
+  });
+
+  /**
+   * Preview functionality in the views edit form.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches the preview functionality to the view edit form.
+   */
+  Drupal.behaviors.viewsUiPreview = {
+    attach: function (context) {
+      // Only act on the edit view form.
+      var $contextualFiltersBucket = $(context).find('.views-display-column .views-ui-display-tab-bucket.argument');
+      if ($contextualFiltersBucket.length === 0) {
+        return;
+      }
+
+      // If the display has no contextual filters, hide the form where you
+      // enter the contextual filters for the live preview. If it has contextual
+      // filters, show the form.
+      var $contextualFilters = $contextualFiltersBucket.find('.views-display-setting a');
+      if ($contextualFilters.length) {
+        $('#preview-args').parent().show();
+      }
+      else {
+        $('#preview-args').parent().hide();
+      }
+
+      // Executes an initial preview.
+      if ($('#edit-displays-live-preview').once('edit-displays-live-preview').is(':checked')) {
+        $('#preview-submit').once('edit-displays-live-preview').trigger('click');
+      }
+    }
+  };
+
+  /**
+   * Rearranges the filters.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attach handlers to make it possible to rearange the filters in the form
+   *   in question.
+   *   @see Drupal.viewsUi.RearrangeFilterHandler
+   */
+  Drupal.behaviors.viewsUiRearrangeFilter = {
+    attach: function (context) {
+      // Only act on the rearrange filter form.
+      if (typeof Drupal.tableDrag === 'undefined' || typeof Drupal.tableDrag['views-rearrange-filters'] === 'undefined') {
+        return;
+      }
+      var $context = $(context);
+      var $table = $context.find('#views-rearrange-filters').once('views-rearrange-filters');
+      var $operator = $context.find('.js-form-item-filter-groups-operator').once('views-rearrange-filters');
+      if ($table.length) {
+        new Drupal.viewsUi.RearrangeFilterHandler($table, $operator);
+      }
+    }
+  };
+
+  /**
+   * Improve the UI of the rearrange filters dialog box.
+   *
+   * @constructor
+   *
+   * @param {jQuery} $table
+   *   The table in the filter form.
+   * @param {jQuery} $operator
+   *   The filter groups operator element.
+   */
+  Drupal.viewsUi.RearrangeFilterHandler = function ($table, $operator) {
+
+    /**
+     * Keep a reference to the `<table>` being altered and to the div containing
+     * the filter groups operator dropdown (if it exists).
+     */
+    this.table = $table;
+
+    /**
+     *
+     * @type {jQuery}
+     */
+    this.operator = $operator;
+
+    /**
+     *
+     * @type {bool}
+     */
+    this.hasGroupOperator = this.operator.length > 0;
+
+    /**
+     * Keep a reference to all draggable rows within the table.
+     *
+     * @type {jQuery}
+     */
+    this.draggableRows = $table.find('.draggable');
+
+    /**
+     * Keep a reference to the buttons for adding and removing filter groups.
+     *
+     * @type {jQuery}
+     */
+    this.addGroupButton = $('input#views-add-group');
+
+    /**
+     * @type {jQuery}
+     */
+    this.removeGroupButtons = $table.find('input.views-remove-group');
+
+    // Add links that duplicate the functionality of the (hidden) add and remove
+    // buttons.
+    this.insertAddRemoveFilterGroupLinks();
+
+    // When there is a filter groups operator dropdown on the page, create
+    // duplicates of the dropdown between each pair of filter groups.
+    if (this.hasGroupOperator) {
+
+      /**
+       * @type {jQuery}
+       */
+      this.dropdowns = this.duplicateGroupsOperator();
+      this.syncGroupsOperators();
+    }
+
+    // Add methods to the tableDrag instance to account for operator cells
+    // (which span multiple rows), the operator labels next to each filter
+    // (e.g., "And" or "Or"), the filter groups, and other special aspects of
+    // this tableDrag instance.
+    this.modifyTableDrag();
+
+    // Initialize the operator labels (e.g., "And" or "Or") that are displayed
+    // next to the filters in each group, and bind a handler so that they change
+    // based on the values of the operator dropdown within that group.
+    this.redrawOperatorLabels();
+    $table.find('.views-group-title select')
+      .once('views-rearrange-filter-handler')
+      .on('change.views-rearrange-filter-handler', $.proxy(this, 'redrawOperatorLabels'));
+
+    // Bind handlers so that when a "Remove" link is clicked, we:
+    // - Update the rowspans of cells containing an operator dropdown (since
+    //   they need to change to reflect the number of rows in each group).
+    // - Redraw the operator labels next to the filters in the group (since the
+    //   filter that is currently displayed last in each group is not supposed
+    //   to have a label display next to it).
+    $table.find('a.views-groups-remove-link')
+      .once('views-rearrange-filter-handler')
+      .on('click.views-rearrange-filter-handler', $.proxy(this, 'updateRowspans'))
+      .on('click.views-rearrange-filter-handler', $.proxy(this, 'redrawOperatorLabels'));
+  };
+
+  $.extend(Drupal.viewsUi.RearrangeFilterHandler.prototype, /** @lends Drupal.viewsUi.RearrangeFilterHandler# */{
+
+    /**
+     * Insert links that allow filter groups to be added and removed.
+     */
+    insertAddRemoveFilterGroupLinks: function () {
+
+      // Insert a link for adding a new group at the top of the page, and make
+      // it match the action link styling used in a typical page.html.twig.
+      // Since Drupal does not provide a theme function for this markup this is
+      // the best we can do.
+      $('<ul class="action-links"><li><a id="views-add-group-link" href="#">' + this.addGroupButton.val() + '</a></li></ul>')
+        .prependTo(this.table.parent())
+        // When the link is clicked, dynamically click the hidden form button
+        // for adding a new filter group.
+        .once('views-rearrange-filter-handler')
+        .find('#views-add-group-link')
+        .on('click.views-rearrange-filter-handler', $.proxy(this, 'clickAddGroupButton'));
+
+      // Find each (visually hidden) button for removing a filter group and
+      // insert a link next to it.
+      var length = this.removeGroupButtons.length;
+      var i;
+      for (i = 0; i < length; i++) {
+        var $removeGroupButton = $(this.removeGroupButtons[i]);
+        var buttonId = $removeGroupButton.attr('id');
+        $('<a href="#" class="views-remove-group-link">' + Drupal.t('Remove group') + '</a>')
+          .insertBefore($removeGroupButton)
+          // When the link is clicked, dynamically click the corresponding form
+          // button.
+          .once('views-rearrange-filter-handler')
+          .on('click.views-rearrange-filter-handler', {buttonId: buttonId}, $.proxy(this, 'clickRemoveGroupButton'));
+      }
+    },
+
+    /**
+     * Dynamically click the button that adds a new filter group.
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered.
+     */
+    clickAddGroupButton: function (event) {
+      this.addGroupButton.trigger('mousedown');
+      event.preventDefault();
+    },
+
+    /**
+     * Dynamically click a button for removing a filter group.
+     *
+     * @param {jQuery.Event} event
+     *   Event being triggered, with event.data.buttonId set to the ID of the
+     *   form button that should be clicked.
+     */
+    clickRemoveGroupButton: function (event) {
+      this.table.find('#' + event.data.buttonId).trigger('mousedown');
+      event.preventDefault();
+    },
+
+    /**
+     * Move the groups operator so that it's between the first two groups, and
+     * duplicate it between any subsequent groups.
+     *
+     * @return {jQuery}
+     *   An operator element.
+     */
+    duplicateGroupsOperator: function () {
+      var dropdowns;
+      var newRow;
+      var titleRow;
+
+      var titleRows = $('tr.views-group-title').once('duplicateGroupsOperator');
+
+      if (!titleRows.length) {
+        return this.operator;
+      }
+
+      // Get rid of the explanatory text around the operator; its placement is
+      // explanatory enough.
+      this.operator.find('label').add('div.description').addClass('visually-hidden');
+      this.operator.find('select').addClass('form-select');
+
+      // Keep a list of the operator dropdowns, so we can sync their behavior
+      // later.
+      dropdowns = this.operator;
+
+      // Move the operator to a new row just above the second group.
+      titleRow = $('tr#views-group-title-2');
+      newRow = $('<tr class="filter-group-operator-row"><td colspan="5"></td></tr>');
+      newRow.find('td').append(this.operator);
+      newRow.insertBefore(titleRow);
+      var length = titleRows.length;
+      // Starting with the third group, copy the operator to a new row above the
+      // group title.
+      for (var i = 2; i < length; i++) {
+        titleRow = $(titleRows[i]);
+        // Make a copy of the operator dropdown and put it in a new table row.
+        var fakeOperator = this.operator.clone();
+        fakeOperator.attr('id', '');
+        newRow = $('<tr class="filter-group-operator-row"><td colspan="5"></td></tr>');
+        newRow.find('td').append(fakeOperator);
+        newRow.insertBefore(titleRow);
+        dropdowns.add(fakeOperator);
+      }
+
+      return dropdowns;
+    },
+
+    /**
+     * Make the duplicated groups operators change in sync with each other.
+     */
+    syncGroupsOperators: function () {
+      if (this.dropdowns.length < 2) {
+        // We only have one dropdown (or none at all), so there's nothing to
+        // sync.
+        return;
+      }
+
+      this.dropdowns.on('change', $.proxy(this, 'operatorChangeHandler'));
+    },
+
+    /**
+     * Click handler for the operators that appear between filter groups.
+     *
+     * Forces all operator dropdowns to have the same value.
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered.
+     */
+    operatorChangeHandler: function (event) {
+      var $target = $(event.target);
+      var operators = this.dropdowns.find('select').not($target);
+
+      // Change the other operators to match this new value.
+      operators.val($target.val());
+    },
+
+    /**
+     * @method
+     */
+    modifyTableDrag: function () {
+      var tableDrag = Drupal.tableDrag['views-rearrange-filters'];
+      var filterHandler = this;
+
+      /**
+       * Override the row.onSwap method from tabledrag.js.
+       *
+       * When a row is dragged to another place in the table, several things
+       * need to occur.
+       * - The row needs to be moved so that it's within one of the filter
+       * groups.
+       * - The operator cells that span multiple rows need their rowspan
+       * attributes updated to reflect the number of rows in each group.
+       * - The operator labels that are displayed next to each filter need to
+       * be redrawn, to account for the row's new location.
+       */
+      tableDrag.row.prototype.onSwap = function () {
+        if (filterHandler.hasGroupOperator) {
+          // Make sure the row that just got moved (this.group) is inside one
+          // of the filter groups (i.e. below an empty marker row or a
+          // draggable). If it isn't, move it down one.
+          var thisRow = $(this.group);
+          var previousRow = thisRow.prev('tr');
+          if (previousRow.length && !previousRow.hasClass('group-message') && !previousRow.hasClass('draggable')) {
+            // Move the dragged row down one.
+            var next = thisRow.next();
+            if (next.is('tr')) {
+              this.swap('after', next);
+            }
+          }
+          filterHandler.updateRowspans();
+        }
+        // Redraw the operator labels that are displayed next to each filter, to
+        // account for the row's new location.
+        filterHandler.redrawOperatorLabels();
+      };
+
+      /**
+       * Override the onDrop method from tabledrag.js.
+       */
+      tableDrag.onDrop = function () {
+        // If the tabledrag change marker (i.e., the "*") has been inserted
+        // inside a row after the operator label (i.e., "And" or "Or")
+        // rearrange the items so the operator label continues to appear last.
+        var changeMarker = $(this.oldRowElement).find('.tabledrag-changed');
+        if (changeMarker.length) {
+          // Search for occurrences of the operator label before the change
+          // marker, and reverse them.
+          var operatorLabel = changeMarker.prevAll('.views-operator-label');
+          if (operatorLabel.length) {
+            operatorLabel.insertAfter(changeMarker);
+          }
+        }
+
+        // Make sure the "group" dropdown is properly updated when rows are
+        // dragged into an empty filter group. This is borrowed heavily from
+        // the block.js implementation of tableDrag.onDrop().
+        var groupRow = $(this.rowObject.element).prevAll('tr.group-message').get(0);
+        var groupName = groupRow.className.replace(/([^ ]+[ ]+)*group-([^ ]+)-message([ ]+[^ ]+)*/, '$2');
+        var groupField = $('select.views-group-select', this.rowObject.element);
+        if ($(this.rowObject.element).prev('tr').is('.group-message') && !groupField.is('.views-group-select-' + groupName)) {
+          var oldGroupName = groupField.attr('class').replace(/([^ ]+[ ]+)*views-group-select-([^ ]+)([ ]+[^ ]+)*/, '$2');
+          groupField.removeClass('views-group-select-' + oldGroupName).addClass('views-group-select-' + groupName);
+          groupField.val(groupName);
+        }
+      };
+    },
+
+    /**
+     * Redraw the operator labels that are displayed next to each filter.
+     */
+    redrawOperatorLabels: function () {
+      for (var i = 0; i < this.draggableRows.length; i++) {
+        // Within the row, the operator labels are displayed inside the first
+        // table cell (next to the filter name).
+        var $draggableRow = $(this.draggableRows[i]);
+        var $firstCell = $draggableRow.find('td').eq(0);
+        if ($firstCell.length) {
+          // The value of the operator label ("And" or "Or") is taken from the
+          // first operator dropdown we encounter, going backwards from the
+          // current row. This dropdown is the one associated with the current
+          // row's filter group.
+          var operatorValue = $draggableRow.prevAll('.views-group-title').find('option:selected').html();
+          var operatorLabel = '<span class="views-operator-label">' + operatorValue + '</span>';
+          // If the next visible row after this one is a draggable filter row,
+          // display the operator label next to the current row. (Checking for
+          // visibility is necessary here since the "Remove" links hide the
+          // removed row but don't actually remove it from the document).
+          var $nextRow = $draggableRow.nextAll(':visible').eq(0);
+          var $existingOperatorLabel = $firstCell.find('.views-operator-label');
+          if ($nextRow.hasClass('draggable')) {
+            // If an operator label was already there, replace it with the new
+            // one.
+            if ($existingOperatorLabel.length) {
+              $existingOperatorLabel.replaceWith(operatorLabel);
+            }
+            // Otherwise, append the operator label to the end of the table
+            // cell.
+            else {
+              $firstCell.append(operatorLabel);
+            }
+          }
+          // If the next row doesn't contain a filter, then this is the last row
+          // in the group. We don't want to display the operator there (since
+          // operators should only display between two related filters, e.g.
+          // "filter1 AND filter2 AND filter3"). So we remove any existing label
+          // that this row has.
+          else {
+            $existingOperatorLabel.remove();
+          }
+        }
+      }
+    },
+
+    /**
+     * Update the rowspan attribute of each cell containing an operator
+     * dropdown.
+     */
+    updateRowspans: function () {
+      var $row;
+      var $currentEmptyRow;
+      var draggableCount;
+      var $operatorCell;
+      var rows = $(this.table).find('tr');
+      var length = rows.length;
+      for (var i = 0; i < length; i++) {
+        $row = $(rows[i]);
+        if ($row.hasClass('views-group-title')) {
+          // This row is a title row.
+          // Keep a reference to the cell containing the dropdown operator.
+          $operatorCell = $row.find('td.group-operator');
+          // Assume this filter group is empty, until we find otherwise.
+          draggableCount = 0;
+          $currentEmptyRow = $row.next('tr');
+          $currentEmptyRow.removeClass('group-populated').addClass('group-empty');
+          // The cell with the dropdown operator should span the title row and
+          // the "this group is empty" row.
+          $operatorCell.attr('rowspan', 2);
+        }
+        else if ($row.hasClass('draggable') && $row.is(':visible')) {
+          // We've found a visible filter row, so we now know the group isn't
+          // empty.
+          draggableCount++;
+          $currentEmptyRow.removeClass('group-empty').addClass('group-populated');
+          // The operator cell should span all draggable rows, plus the title.
+          $operatorCell.attr('rowspan', draggableCount + 1);
+        }
+      }
+    }
+  });
+
+  /**
+   * Add a select all checkbox, which checks each checkbox at once.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches select all functionality to the views filter form.
+   */
+  Drupal.behaviors.viewsFilterConfigSelectAll = {
+    attach: function (context) {
+      var $context = $(context);
+
+      var $selectAll = $context.find('.js-form-item-options-value-all').once('filterConfigSelectAll');
+      var $selectAllCheckbox = $selectAll.find('input[type=checkbox]');
+      var $checkboxes = $selectAll.closest('.form-checkboxes').find('.js-form-type-checkbox:not(.js-form-item-options-value-all) input[type="checkbox"]');
+
+      if ($selectAll.length) {
+         // Show the select all checkbox.
+        $selectAll.show();
+        $selectAllCheckbox.on('click', function () {
+          // Update all checkbox beside the select all checkbox.
+          $checkboxes.prop('checked', $(this).is(':checked'));
+        });
+
+        // Uncheck the select all checkbox if any of the others are unchecked.
+        $checkboxes.on('click', function () {
+          if ($(this).is('checked') === false) {
+            $selectAllCheckbox.prop('checked', false);
+          }
+        });
+      }
+    }
+  };
+
+  /**
+   * Remove icon class from elements that are themed as buttons or dropbuttons.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Removes the icon class from certain views elements.
+   */
+  Drupal.behaviors.viewsRemoveIconClass = {
+    attach: function (context) {
+      $(context).find('.dropbutton').once('dropbutton-icon').find('.icon').removeClass('icon');
+    }
+  };
+
+  /**
+   * Change "Expose filter" buttons into checkboxes.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Changes buttons into checkboxes via {@link Drupal.viewsUi.Checkboxifier}.
+   */
+  Drupal.behaviors.viewsUiCheckboxify = {
+    attach: function (context, settings) {
+      var $buttons = $('[data-drupal-selector="edit-options-expose-button-button"], [data-drupal-selector="edit-options-group-button-button"]').once('views-ui-checkboxify');
+      var length = $buttons.length;
+      var i;
+      for (i = 0; i < length; i++) {
+        new Drupal.viewsUi.Checkboxifier($buttons[i]);
+      }
+    }
+  };
+
+  /**
+   * Change the default widget to select the default group according to the
+   * selected widget for the exposed group.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Changes the default widget based on user input.
+   */
+  Drupal.behaviors.viewsUiChangeDefaultWidget = {
+    attach: function (context) {
+      var $context = $(context);
+
+      function changeDefaultWidget(event) {
+        if ($(event.target).prop('checked')) {
+          $context.find('input.default-radios').parent().hide();
+          $context.find('td.any-default-radios-row').parent().hide();
+          $context.find('input.default-checkboxes').parent().show();
+        }
+        else {
+          $context.find('input.default-checkboxes').parent().hide();
+          $context.find('td.any-default-radios-row').parent().show();
+          $context.find('input.default-radios').parent().show();
+        }
+      }
+
+      // Update on widget change.
+      $context.find('input[name="options[group_info][multiple]"]')
+        .on('change', changeDefaultWidget)
+        // Update the first time the form is rendered.
+        .trigger('change');
+    }
+  };
+
+  /**
+   * Attaches expose filter button to a checkbox that triggers its click event.
+   *
+   * @constructor
+   *
+   * @param {HTMLElement} button
+   *   The DOM object representing the button to be checkboxified.
+   */
+  Drupal.viewsUi.Checkboxifier = function (button) {
+    this.$button = $(button);
+    this.$parent = this.$button.parent('div.views-expose, div.views-grouped');
+    this.$input = this.$parent.find('input:checkbox, input:radio');
+    // Hide the button and its description.
+    this.$button.hide();
+    this.$parent.find('.exposed-description, .grouped-description').hide();
+
+    this.$input.on('click', $.proxy(this, 'clickHandler'));
+
+  };
+
+  /**
+   * When the checkbox is checked or unchecked, simulate a button press.
+   *
+   * @param {jQuery.Event} e
+   *   The event triggered.
+   */
+  Drupal.viewsUi.Checkboxifier.prototype.clickHandler = function (e) {
+    this.$button
+      .trigger('click')
+      .trigger('submit');
+  };
+
+  /**
+   * Change the Apply button text based upon the override select state.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behavior to change the Apply button according to the current
+   *   state.
+   */
+  Drupal.behaviors.viewsUiOverrideSelect = {
+    attach: function (context) {
+      $(context).find('[data-drupal-selector="edit-override-dropdown"]').once('views-ui-override-button-text').each(function () {
+        // Closures! :(
+        var $context = $(context);
+        var $submit = $context.find('[id^=edit-submit]');
+        var old_value = $submit.val();
+
+        $submit.once('views-ui-override-button-text')
+          .on('mouseup', function () {
+            $(this).val(old_value);
+            return true;
+          });
+
+        $(this).on('change', function () {
+          var $this = $(this);
+          if ($this.val() === 'default') {
+            $submit.val(Drupal.t('Apply (all displays)'));
+          }
+          else if ($this.val() === 'default_revert') {
+            $submit.val(Drupal.t('Revert to default'));
+          }
+          else {
+            $submit.val(Drupal.t('Apply (this display)'));
+          }
+          var $dialog = $context.closest('.ui-dialog-content');
+          $dialog.trigger('dialogButtonsChange');
+        })
+          .trigger('change');
+      });
+
+    }
+  };
+
+  /**
+   * Functionality for the remove link in the views UI.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches behavior for the remove view and remove display links.
+   */
+  Drupal.behaviors.viewsUiHandlerRemoveLink = {
+    attach: function (context) {
+      var $context = $(context);
+      // Handle handler deletion by looking for the hidden checkbox and hiding
+      // the row.
+      $context.find('a.views-remove-link').once('views').on('click', function (event) {
+        var id = $(this).attr('id').replace('views-remove-link-', '');
+        $context.find('#views-row-' + id).hide();
+        $context.find('#views-removed-' + id).prop('checked', true);
+        event.preventDefault();
+      });
+
+      // Handle display deletion by looking for the hidden checkbox and hiding
+      // the row.
+      $context.find('a.display-remove-link').once('display').on('click', function (event) {
+        var id = $(this).attr('id').replace('display-remove-link-', '');
+        $context.find('#display-row-' + id).hide();
+        $context.find('#display-removed-' + id).prop('checked', true);
+        event.preventDefault();
+      });
+    }
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Drupal's states library.
+ */
+
+(function ($, Drupal) {
+
+  'use strict';
+
+  /**
+   * The base States namespace.
+   *
+   * Having the local states variable allows us to use the States namespace
+   * without having to always declare "Drupal.states".
+   *
+   * @namespace Drupal.states
+   */
+  var states = Drupal.states = {
+
+    /**
+     * An array of functions that should be postponed.
+     */
+    postponed: []
+  };
+
+  /**
+   * Attaches the states.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches states behaviors.
+   */
+  Drupal.behaviors.states = {
+    attach: function (context, settings) {
+      var $states = $(context).find('[data-drupal-states]');
+      var config;
+      var state;
+      var il = $states.length;
+      for (var i = 0; i < il; i++) {
+        config = JSON.parse($states[i].getAttribute('data-drupal-states'));
+        for (state in config) {
+          if (config.hasOwnProperty(state)) {
+            new states.Dependent({
+              element: $($states[i]),
+              state: states.State.sanitize(state),
+              constraints: config[state]
+            });
+          }
+        }
+      }
+
+      // Execute all postponed functions now.
+      while (states.postponed.length) {
+        (states.postponed.shift())();
+      }
+    }
+  };
+
+  /**
+   * Object representing an element that depends on other elements.
+   *
+   * @constructor Drupal.states.Dependent
+   *
+   * @param {object} args
+   *   Object with the following keys (all of which are required)
+   * @param {jQuery} args.element
+   *   A jQuery object of the dependent element
+   * @param {Drupal.states.State} args.state
+   *   A State object describing the state that is dependent
+   * @param {object} args.constraints
+   *   An object with dependency specifications. Lists all elements that this
+   *   element depends on. It can be nested and can contain
+   *   arbitrary AND and OR clauses.
+   */
+  states.Dependent = function (args) {
+    $.extend(this, {values: {}, oldValue: null}, args);
+
+    this.dependees = this.getDependees();
+    for (var selector in this.dependees) {
+      if (this.dependees.hasOwnProperty(selector)) {
+        this.initializeDependee(selector, this.dependees[selector]);
+      }
+    }
+  };
+
+  /**
+   * Comparison functions for comparing the value of an element with the
+   * specification from the dependency settings. If the object type can't be
+   * found in this list, the === operator is used by default.
+   *
+   * @name Drupal.states.Dependent.comparisons
+   *
+   * @prop {function} RegExp
+   * @prop {function} Function
+   * @prop {function} Number
+   */
+  states.Dependent.comparisons = {
+    RegExp: function (reference, value) {
+      return reference.test(value);
+    },
+    Function: function (reference, value) {
+      // The "reference" variable is a comparison function.
+      return reference(value);
+    },
+    Number: function (reference, value) {
+      // If "reference" is a number and "value" is a string, then cast
+      // reference as a string before applying the strict comparison in
+      // compare().
+      // Otherwise numeric keys in the form's #states array fail to match
+      // string values returned from jQuery's val().
+      return (typeof value === 'string') ? compare(reference.toString(), value) : compare(reference, value);
+    }
+  };
+
+  states.Dependent.prototype = {
+
+    /**
+     * Initializes one of the elements this dependent depends on.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string} selector
+     *   The CSS selector describing the dependee.
+     * @param {object} dependeeStates
+     *   The list of states that have to be monitored for tracking the
+     *   dependee's compliance status.
+     */
+    initializeDependee: function (selector, dependeeStates) {
+      var state;
+      var self = this;
+
+      function stateEventHandler(e) {
+        self.update(e.data.selector, e.data.state, e.value);
+      }
+
+      // Cache for the states of this dependee.
+      this.values[selector] = {};
+
+      for (var i in dependeeStates) {
+        if (dependeeStates.hasOwnProperty(i)) {
+          state = dependeeStates[i];
+          // Make sure we're not initializing this selector/state combination
+          // twice.
+          if ($.inArray(state, dependeeStates) === -1) {
+            continue;
+          }
+
+          state = states.State.sanitize(state);
+
+          // Initialize the value of this state.
+          this.values[selector][state.name] = null;
+
+          // Monitor state changes of the specified state for this dependee.
+          $(selector).on('state:' + state, {selector: selector, state: state}, stateEventHandler);
+
+          // Make sure the event we just bound ourselves to is actually fired.
+          new states.Trigger({selector: selector, state: state});
+        }
+      }
+    },
+
+    /**
+     * Compares a value with a reference value.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {object} reference
+     *   The value used for reference.
+     * @param {string} selector
+     *   CSS selector describing the dependee.
+     * @param {Drupal.states.State} state
+     *   A State object describing the dependee's updated state.
+     *
+     * @return {bool}
+     *   true or false.
+     */
+    compare: function (reference, selector, state) {
+      var value = this.values[selector][state.name];
+      if (reference.constructor.name in states.Dependent.comparisons) {
+        // Use a custom compare function for certain reference value types.
+        return states.Dependent.comparisons[reference.constructor.name](reference, value);
+      }
+      else {
+        // Do a plain comparison otherwise.
+        return compare(reference, value);
+      }
+    },
+
+    /**
+     * Update the value of a dependee's state.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string} selector
+     *   CSS selector describing the dependee.
+     * @param {Drupal.states.state} state
+     *   A State object describing the dependee's updated state.
+     * @param {string} value
+     *   The new value for the dependee's updated state.
+     */
+    update: function (selector, state, value) {
+      // Only act when the 'new' value is actually new.
+      if (value !== this.values[selector][state.name]) {
+        this.values[selector][state.name] = value;
+        this.reevaluate();
+      }
+    },
+
+    /**
+     * Triggers change events in case a state changed.
+     *
+     * @memberof Drupal.states.Dependent#
+     */
+    reevaluate: function () {
+      // Check whether any constraint for this dependent state is satisfied.
+      var value = this.verifyConstraints(this.constraints);
+
+      // Only invoke a state change event when the value actually changed.
+      if (value !== this.oldValue) {
+        // Store the new value so that we can compare later whether the value
+        // actually changed.
+        this.oldValue = value;
+
+        // Normalize the value to match the normalized state name.
+        value = invert(value, this.state.invert);
+
+        // By adding "trigger: true", we ensure that state changes don't go into
+        // infinite loops.
+        this.element.trigger({type: 'state:' + this.state, value: value, trigger: true});
+      }
+    },
+
+    /**
+     * Evaluates child constraints to determine if a constraint is satisfied.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {object|Array} constraints
+     *   A constraint object or an array of constraints.
+     * @param {string} selector
+     *   The selector for these constraints. If undefined, there isn't yet a
+     *   selector that these constraints apply to. In that case, the keys of the
+     *   object are interpreted as the selector if encountered.
+     *
+     * @return {bool}
+     *   true or false, depending on whether these constraints are satisfied.
+     */
+    verifyConstraints: function (constraints, selector) {
+      var result;
+      if ($.isArray(constraints)) {
+        // This constraint is an array (OR or XOR).
+        var hasXor = $.inArray('xor', constraints) === -1;
+        var len = constraints.length;
+        for (var i = 0; i < len; i++) {
+          if (constraints[i] !== 'xor') {
+            var constraint = this.checkConstraints(constraints[i], selector, i);
+            // Return if this is OR and we have a satisfied constraint or if
+            // this is XOR and we have a second satisfied constraint.
+            if (constraint && (hasXor || result)) {
+              return hasXor;
+            }
+            result = result || constraint;
+          }
+        }
+      }
+      // Make sure we don't try to iterate over things other than objects. This
+      // shouldn't normally occur, but in case the condition definition is
+      // bogus, we don't want to end up with an infinite loop.
+      else if ($.isPlainObject(constraints)) {
+        // This constraint is an object (AND).
+        for (var n in constraints) {
+          if (constraints.hasOwnProperty(n)) {
+            result = ternary(result, this.checkConstraints(constraints[n], selector, n));
+            // False and anything else will evaluate to false, so return when
+            // any false condition is found.
+            if (result === false) { return false; }
+          }
+        }
+      }
+      return result;
+    },
+
+    /**
+     * Checks whether the value matches the requirements for this constraint.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @param {string|Array|object} value
+     *   Either the value of a state or an array/object of constraints. In the
+     *   latter case, resolving the constraint continues.
+     * @param {string} [selector]
+     *   The selector for this constraint. If undefined, there isn't yet a
+     *   selector that this constraint applies to. In that case, the state key
+     *   is propagates to a selector and resolving continues.
+     * @param {Drupal.states.State} [state]
+     *   The state to check for this constraint. If undefined, resolving
+     *   continues. If both selector and state aren't undefined and valid
+     *   non-numeric strings, a lookup for the actual value of that selector's
+     *   state is performed. This parameter is not a State object but a pristine
+     *   state string.
+     *
+     * @return {bool}
+     *   true or false, depending on whether this constraint is satisfied.
+     */
+    checkConstraints: function (value, selector, state) {
+      // Normalize the last parameter. If it's non-numeric, we treat it either
+      // as a selector (in case there isn't one yet) or as a trigger/state.
+      if (typeof state !== 'string' || (/[0-9]/).test(state[0])) {
+        state = null;
+      }
+      else if (typeof selector === 'undefined') {
+        // Propagate the state to the selector when there isn't one yet.
+        selector = state;
+        state = null;
+      }
+
+      if (state !== null) {
+        // Constraints is the actual constraints of an element to check for.
+        state = states.State.sanitize(state);
+        return invert(this.compare(value, selector, state), state.invert);
+      }
+      else {
+        // Resolve this constraint as an AND/OR operator.
+        return this.verifyConstraints(value, selector);
+      }
+    },
+
+    /**
+     * Gathers information about all required triggers.
+     *
+     * @memberof Drupal.states.Dependent#
+     *
+     * @return {object}
+     *   An object describing the required triggers.
+     */
+    getDependees: function () {
+      var cache = {};
+      // Swivel the lookup function so that we can record all available
+      // selector- state combinations for initialization.
+      var _compare = this.compare;
+      this.compare = function (reference, selector, state) {
+        (cache[selector] || (cache[selector] = [])).push(state.name);
+        // Return nothing (=== undefined) so that the constraint loops are not
+        // broken.
+      };
+
+      // This call doesn't actually verify anything but uses the resolving
+      // mechanism to go through the constraints array, trying to look up each
+      // value. Since we swivelled the compare function, this comparison returns
+      // undefined and lookup continues until the very end. Instead of lookup up
+      // the value, we record that combination of selector and state so that we
+      // can initialize all triggers.
+      this.verifyConstraints(this.constraints);
+      // Restore the original function.
+      this.compare = _compare;
+
+      return cache;
+    }
+  };
+
+  /**
+   * @constructor Drupal.states.Trigger
+   *
+   * @param {object} args
+   *   Trigger arguments.
+   */
+  states.Trigger = function (args) {
+    $.extend(this, args);
+
+    if (this.state in states.Trigger.states) {
+      this.element = $(this.selector);
+
+      // Only call the trigger initializer when it wasn't yet attached to this
+      // element. Otherwise we'd end up with duplicate events.
+      if (!this.element.data('trigger:' + this.state)) {
+        this.initialize();
+      }
+    }
+  };
+
+  states.Trigger.prototype = {
+
+    /**
+     * @memberof Drupal.states.Trigger#
+     */
+    initialize: function () {
+      var trigger = states.Trigger.states[this.state];
+
+      if (typeof trigger === 'function') {
+        // We have a custom trigger initialization function.
+        trigger.call(window, this.element);
+      }
+      else {
+        for (var event in trigger) {
+          if (trigger.hasOwnProperty(event)) {
+            this.defaultTrigger(event, trigger[event]);
+          }
+        }
+      }
+
+      // Mark this trigger as initialized for this element.
+      this.element.data('trigger:' + this.state, true);
+    },
+
+    /**
+     * @memberof Drupal.states.Trigger#
+     *
+     * @param {jQuery.Event} event
+     *   The event triggered.
+     * @param {function} valueFn
+     *   The function to call.
+     */
+    defaultTrigger: function (event, valueFn) {
+      var oldValue = valueFn.call(this.element);
+
+      // Attach the event callback.
+      this.element.on(event, $.proxy(function (e) {
+        var value = valueFn.call(this.element, e);
+        // Only trigger the event if the value has actually changed.
+        if (oldValue !== value) {
+          this.element.trigger({type: 'state:' + this.state, value: value, oldValue: oldValue});
+          oldValue = value;
+        }
+      }, this));
+
+      states.postponed.push($.proxy(function () {
+        // Trigger the event once for initialization purposes.
+        this.element.trigger({type: 'state:' + this.state, value: oldValue, oldValue: null});
+      }, this));
+    }
+  };
+
+  /**
+   * This list of states contains functions that are used to monitor the state
+   * of an element. Whenever an element depends on the state of another element,
+   * one of these trigger functions is added to the dependee so that the
+   * dependent element can be updated.
+   *
+   * @name Drupal.states.Trigger.states
+   *
+   * @prop empty
+   * @prop checked
+   * @prop value
+   * @prop collapsed
+   */
+  states.Trigger.states = {
+    // 'empty' describes the state to be monitored.
+    empty: {
+      // 'keyup' is the (native DOM) event that we watch for.
+      keyup: function () {
+        // The function associated with that trigger returns the new value for
+        // the state.
+        return this.val() === '';
+      }
+    },
+
+    checked: {
+      change: function () {
+        // prop() and attr() only takes the first element into account. To
+        // support selectors matching multiple checkboxes, iterate over all and
+        // return whether any is checked.
+        var checked = false;
+        this.each(function () {
+          // Use prop() here as we want a boolean of the checkbox state.
+          // @see http://api.jquery.com/prop/
+          checked = $(this).prop('checked');
+          // Break the each() loop if this is checked.
+          return !checked;
+        });
+        return checked;
+      }
+    },
+
+    // For radio buttons, only return the value if the radio button is selected.
+    value: {
+      keyup: function () {
+        // Radio buttons share the same :input[name="key"] selector.
+        if (this.length > 1) {
+          // Initial checked value of radios is undefined, so we return false.
+          return this.filter(':checked').val() || false;
+        }
+        return this.val();
+      },
+      change: function () {
+        // Radio buttons share the same :input[name="key"] selector.
+        if (this.length > 1) {
+          // Initial checked value of radios is undefined, so we return false.
+          return this.filter(':checked').val() || false;
+        }
+        return this.val();
+      }
+    },
+
+    collapsed: {
+      collapsed: function (e) {
+        return (typeof e !== 'undefined' && 'value' in e) ? e.value : !this.is('[open]');
+      }
+    }
+  };
+
+  /**
+   * A state object is used for describing the state and performing aliasing.
+   *
+   * @constructor Drupal.states.State
+   *
+   * @param {string} state
+   *   The name of the state.
+   */
+  states.State = function (state) {
+
+    /**
+     * Original unresolved name.
+     */
+    this.pristine = this.name = state;
+
+    // Normalize the state name.
+    var process = true;
+    do {
+      // Iteratively remove exclamation marks and invert the value.
+      while (this.name.charAt(0) === '!') {
+        this.name = this.name.substring(1);
+        this.invert = !this.invert;
+      }
+
+      // Replace the state with its normalized name.
+      if (this.name in states.State.aliases) {
+        this.name = states.State.aliases[this.name];
+      }
+      else {
+        process = false;
+      }
+    } while (process);
+  };
+
+  /**
+   * Creates a new State object by sanitizing the passed value.
+   *
+   * @name Drupal.states.State.sanitize
+   *
+   * @param {string|Drupal.states.State} state
+   *   A state object or the name of a state.
+   *
+   * @return {Drupal.states.state}
+   *   A state object.
+   */
+  states.State.sanitize = function (state) {
+    if (state instanceof states.State) {
+      return state;
+    }
+    else {
+      return new states.State(state);
+    }
+  };
+
+  /**
+   * This list of aliases is used to normalize states and associates negated
+   * names with their respective inverse state.
+   *
+   * @name Drupal.states.State.aliases
+   */
+  states.State.aliases = {
+    enabled: '!disabled',
+    invisible: '!visible',
+    invalid: '!valid',
+    untouched: '!touched',
+    optional: '!required',
+    filled: '!empty',
+    unchecked: '!checked',
+    irrelevant: '!relevant',
+    expanded: '!collapsed',
+    open: '!collapsed',
+    closed: 'collapsed',
+    readwrite: '!readonly'
+  };
+
+  states.State.prototype = {
+
+    /**
+     * @memberof Drupal.states.State#
+     */
+    invert: false,
+
+    /**
+     * Ensures that just using the state object returns the name.
+     *
+     * @memberof Drupal.states.State#
+     *
+     * @return {string}
+     *   The name of the state.
+     */
+    toString: function () {
+      return this.name;
+    }
+  };
+
+  /**
+   * Global state change handlers. These are bound to "document" to cover all
+   * elements whose state changes. Events sent to elements within the page
+   * bubble up to these handlers. We use this system so that themes and modules
+   * can override these state change handlers for particular parts of a page.
+   */
+
+  var $document = $(document);
+  $document.on('state:disabled', function (e) {
+    // Only act when this change was triggered by a dependency and not by the
+    // element monitoring itself.
+    if (e.trigger) {
+      $(e.target)
+        .prop('disabled', e.value)
+        .closest('.js-form-item, .js-form-submit, .js-form-wrapper').toggleClass('form-disabled', e.value)
+        .find('select, input, textarea').prop('disabled', e.value);
+
+      // Note: WebKit nightlies don't reflect that change correctly.
+      // See https://bugs.webkit.org/show_bug.cgi?id=23789
+    }
+  });
+
+  $document.on('state:required', function (e) {
+    if (e.trigger) {
+      if (e.value) {
+        var label = 'label' + (e.target.id ? '[for=' + e.target.id + ']' : '');
+        var $label = $(e.target).attr({'required': 'required', 'aria-required': 'aria-required'}).closest('.js-form-item, .js-form-wrapper').find(label);
+        // Avoids duplicate required markers on initialization.
+        if (!$label.hasClass('js-form-required').length) {
+          $label.addClass('js-form-required form-required');
+        }
+      }
+      else {
+        $(e.target).removeAttr('required aria-required').closest('.js-form-item, .js-form-wrapper').find('label.js-form-required').removeClass('js-form-required form-required');
+      }
+    }
+  });
+
+  $document.on('state:visible', function (e) {
+    if (e.trigger) {
+      $(e.target).closest('.js-form-item, .js-form-submit, .js-form-wrapper').toggle(e.value);
+    }
+  });
+
+  $document.on('state:checked', function (e) {
+    if (e.trigger) {
+      $(e.target).prop('checked', e.value);
+    }
+  });
+
+  $document.on('state:collapsed', function (e) {
+    if (e.trigger) {
+      if ($(e.target).is('[open]') === e.value) {
+        $(e.target).find('> summary').trigger('click');
+      }
+    }
+  });
+
+  /**
+   * These are helper functions implementing addition "operators" and don't
+   * implement any logic that is particular to states.
+   */
+
+  /**
+   * Bitwise AND with a third undefined state.
+   *
+   * @function Drupal.states~ternary
+   *
+   * @param {*} a
+   *   Value a.
+   * @param {*} b
+   *   Value b
+   *
+   * @return {bool}
+   *   The result.
+   */
+  function ternary(a, b) {
+    if (typeof a === 'undefined') {
+      return b;
+    }
+    else if (typeof b === 'undefined') {
+      return a;
+    }
+    else {
+      return a && b;
+    }
+  }
+
+  /**
+   * Inverts a (if it's not undefined) when invertState is true.
+   *
+   * @function Drupal.states~invert
+   *
+   * @param {*} a
+   *   The value to maybe invert.
+   * @param {bool} invertState
+   *   Whether to invert state or not.
+   *
+   * @return {bool}
+   *   The result.
+   */
+  function invert(a, invertState) {
+    return (invertState && typeof a !== 'undefined') ? !a : a;
+  }
+
+  /**
+   * Compares two values while ignoring undefined values.
+   *
+   * @function Drupal.states~compare
+   *
+   * @param {*} a
+   *   Value a.
+   * @param {*} b
+   *   Value b.
+   *
+   * @return {bool}
+   *   The comparison result.
+   */
+  function compare(a, b) {
+    if (a === b) {
+      return typeof a === 'undefined' ? a : true;
+    }
+    else {
+      return typeof a === 'undefined' || typeof b === 'undefined';
+    }
+  }
+
+})(jQuery, Drupal);
+;
+/*!
+ * jQuery UI Position 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/position/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery"],e):e(jQuery)})(function(e){return function(){function h(e,t,n){return[parseFloat(e[0])*(l.test(e[0])?t/100:1),parseFloat(e[1])*(l.test(e[1])?n/100:1)]}function p(t,n){return parseInt(e.css(t,n),10)||0}function d(t){var n=t[0];return n.nodeType===9?{width:t.width(),height:t.height(),offset:{top:0,left:0}}:e.isWindow(n)?{width:t.width(),height:t.height(),offset:{top:t.scrollTop(),left:t.scrollLeft()}}:n.preventDefault?{width:0,height:0,offset:{top:n.pageY,left:n.pageX}}:{width:t.outerWidth(),height:t.outerHeight(),offset:t.offset()}}e.ui=e.ui||{};var t,n,r=Math.max,i=Math.abs,s=Math.round,o=/left|center|right/,u=/top|center|bottom/,a=/[\+\-]\d+(\.[\d]+)?%?/,f=/^\w+/,l=/%$/,c=e.fn.position;e.position={scrollbarWidth:function(){if(t!==undefined)return t;var n,r,i=e("<div style='display:block;position:absolute;width:50px;height:50px;overflow:hidden;'><div style='height:100px;width:auto;'></div></div>"),s=i.children()[0];return e("body").append(i),n=s.offsetWidth,i.css("overflow","scroll"),r=s.offsetWidth,n===r&&(r=i[0].clientWidth),i.remove(),t=n-r},getScrollInfo:function(t){var n=t.isWindow||t.isDocument?"":t.element.css("overflow-x"),r=t.isWindow||t.isDocument?"":t.element.css("overflow-y"),i=n==="scroll"||n==="auto"&&t.width<t.element[0].scrollWidth,s=r==="scroll"||r==="auto"&&t.height<t.element[0].scrollHeight;return{width:s?e.position.scrollbarWidth():0,height:i?e.position.scrollbarWidth():0}},getWithinInfo:function(t){var n=e(t||window),r=e.isWindow(n[0]),i=!!n[0]&&n[0].nodeType===9;return{element:n,isWindow:r,isDocument:i,offset:n.offset()||{left:0,top:0},scrollLeft:n.scrollLeft(),scrollTop:n.scrollTop(),width:r||i?n.width():n.outerWidth(),height:r||i?n.height():n.outerHeight()}}},e.fn.position=function(t){if(!t||!t.of)return c.apply(this,arguments);t=e.extend({},t);var l,v,m,g,y,b,w=e(t.of),E=e.position.getWithinInfo(t.within),S=e.position.getScrollInfo(E),x=(t.collision||"flip").split(" "),T={};return b=d(w),w[0].preventDefault&&(t.at="left top"),v=b.width,m=b.height,g=b.offset,y=e.extend({},g),e.each(["my","at"],function(){var e=(t[this]||"").split(" "),n,r;e.length===1&&(e=o.test(e[0])?e.concat(["center"]):u.test(e[0])?["center"].concat(e):["center","center"]),e[0]=o.test(e[0])?e[0]:"center",e[1]=u.test(e[1])?e[1]:"center",n=a.exec(e[0]),r=a.exec(e[1]),T[this]=[n?n[0]:0,r?r[0]:0],t[this]=[f.exec(e[0])[0],f.exec(e[1])[0]]}),x.length===1&&(x[1]=x[0]),t.at[0]==="right"?y.left+=v:t.at[0]==="center"&&(y.left+=v/2),t.at[1]==="bottom"?y.top+=m:t.at[1]==="center"&&(y.top+=m/2),l=h(T.at,v,m),y.left+=l[0],y.top+=l[1],this.each(function(){var o,u,a=e(this),f=a.outerWidth(),c=a.outerHeight(),d=p(this,"marginLeft"),b=p(this,"marginTop"),N=f+d+p(this,"marginRight")+S.width,C=c+b+p(this,"marginBottom")+S.height,k=e.extend({},y),L=h(T.my,a.outerWidth(),a.outerHeight());t.my[0]==="right"?k.left-=f:t.my[0]==="center"&&(k.left-=f/2),t.my[1]==="bottom"?k.top-=c:t.my[1]==="center"&&(k.top-=c/2),k.left+=L[0],k.top+=L[1],n||(k.left=s(k.left),k.top=s(k.top)),o={marginLeft:d,marginTop:b},e.each(["left","top"],function(n,r){e.ui.position[x[n]]&&e.ui.position[x[n]][r](k,{targetWidth:v,targetHeight:m,elemWidth:f,elemHeight:c,collisionPosition:o,collisionWidth:N,collisionHeight:C,offset:[l[0]+L[0],l[1]+L[1]],my:t.my,at:t.at,within:E,elem:a})}),t.using&&(u=function(e){var n=g.left-k.left,s=n+v-f,o=g.top-k.top,u=o+m-c,l={target:{element:w,left:g.left,top:g.top,width:v,height:m},element:{element:a,left:k.left,top:k.top,width:f,height:c},horizontal:s<0?"left":n>0?"right":"center",vertical:u<0?"top":o>0?"bottom":"middle"};v<f&&i(n+s)<v&&(l.horizontal="center"),m<c&&i(o+u)<m&&(l.vertical="middle"),r(i(n),i(s))>r(i(o),i(u))?l.important="horizontal":l.important="vertical",t.using.call(this,e,l)}),a.offset(e.extend(k,{using:u}))})},e.ui.position={fit:{left:function(e,t){var n=t.within,i=n.isWindow?n.scrollLeft:n.offset.left,s=n.width,o=e.left-t.collisionPosition.marginLeft,u=i-o,a=o+t.collisionWidth-s-i,f;t.collisionWidth>s?u>0&&a<=0?(f=e.left+u+t.collisionWidth-s-i,e.left+=u-f):a>0&&u<=0?e.left=i:u>a?e.left=i+s-t.collisionWidth:e.left=i:u>0?e.left+=u:a>0?e.left-=a:e.left=r(e.left-o,e.left)},top:function(e,t){var n=t.within,i=n.isWindow?n.scrollTop:n.offset.top,s=t.within.height,o=e.top-t.collisionPosition.marginTop,u=i-o,a=o+t.collisionHeight-s-i,f;t.collisionHeight>s?u>0&&a<=0?(f=e.top+u+t.collisionHeight-s-i,e.top+=u-f):a>0&&u<=0?e.top=i:u>a?e.top=i+s-t.collisionHeight:e.top=i:u>0?e.top+=u:a>0?e.top-=a:e.top=r(e.top-o,e.top)}},flip:{left:function(e,t){var n=t.within,r=n.offset.left+n.scrollLeft,s=n.width,o=n.isWindow?n.scrollLeft:n.offset.left,u=e.left-t.collisionPosition.marginLeft,a=u-o,f=u+t.collisionWidth-s-o,l=t.my[0]==="left"?-t.elemWidth:t.my[0]==="right"?t.elemWidth:0,c=t.at[0]==="left"?t.targetWidth:t.at[0]==="right"?-t.targetWidth:0,h=-2*t.offset[0],p,d;if(a<0){p=e.left+l+c+h+t.collisionWidth-s-r;if(p<0||p<i(a))e.left+=l+c+h}else if(f>0){d=e.left-t.collisionPosition.marginLeft+l+c+h-o;if(d>0||i(d)<f)e.left+=l+c+h}},top:function(e,t){var n=t.within,r=n.offset.top+n.scrollTop,s=n.height,o=n.isWindow?n.scrollTop:n.offset.top,u=e.top-t.collisionPosition.marginTop,a=u-o,f=u+t.collisionHeight-s-o,l=t.my[1]==="top",c=l?-t.elemHeight:t.my[1]==="bottom"?t.elemHeight:0,h=t.at[1]==="top"?t.targetHeight:t.at[1]==="bottom"?-t.targetHeight:0,p=-2*t.offset[1],d,v;if(a<0){v=e.top+c+h+p+t.collisionHeight-s-r;if(v<0||v<i(a))e.top+=c+h+p}else if(f>0){d=e.top-t.collisionPosition.marginTop+c+h+p-o;if(d>0||i(d)<f)e.top+=c+h+p}}},flipfit:{left:function(){e.ui.position.flip.left.apply(this,arguments),e.ui.position.fit.left.apply(this,arguments)},top:function(){e.ui.position.flip.top.apply(this,arguments),e.ui.position.fit.top.apply(this,arguments)}}},function(){var t,r,i,s,o,u=document.getElementsByTagName("body")[0],a=document.createElement("div");t=document.createElement(u?"div":"body"),i={visibility:"hidden",width:0,height:0,border:0,margin:0,background:"none"},u&&e.extend(i,{position:"absolute",left:"-1000px",top:"-1000px"});for(o in i)t.style[o]=i[o];t.appendChild(a),r=u||document.documentElement,r.insertBefore(t,r.firstChild),a.style.cssText="position: absolute; left: 10.7432222px;",s=e(a).offset().left,n=s>10&&s<11,t.innerHTML="",r.removeChild(t)}()}(),e.ui.position});;
+/*!
+ * jQuery UI Menu 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/menu/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery","./core","./widget","./position"],e):e(jQuery)})(function(e){return e.widget("ui.menu",{version:"1.11.4",defaultElement:"<ul>",delay:300,options:{icons:{submenu:"ui-icon-carat-1-e"},items:"> *",menus:"ul",position:{my:"left-1 top",at:"right top"},role:"menu",blur:null,focus:null,select:null},_create:function(){this.activeMenu=this.element,this.mouseHandled=!1,this.element.uniqueId().addClass("ui-menu ui-widget ui-widget-content").toggleClass("ui-menu-icons",!!this.element.find(".ui-icon").length).attr({role:this.options.role,tabIndex:0}),this.options.disabled&&this.element.addClass("ui-state-disabled").attr("aria-disabled","true"),this._on({"mousedown .ui-menu-item":function(e){e.preventDefault()},"click .ui-menu-item":function(t){var n=e(t.target);!this.mouseHandled&&n.not(".ui-state-disabled").length&&(this.select(t),t.isPropagationStopped()||(this.mouseHandled=!0),n.has(".ui-menu").length?this.expand(t):!this.element.is(":focus")&&e(this.document[0].activeElement).closest(".ui-menu").length&&(this.element.trigger("focus",[!0]),this.active&&this.active.parents(".ui-menu").length===1&&clearTimeout(this.timer)))},"mouseenter .ui-menu-item":function(t){if(this.previousFilter)return;var n=e(t.currentTarget);n.siblings(".ui-state-active").removeClass("ui-state-active"),this.focus(t,n)},mouseleave:"collapseAll","mouseleave .ui-menu":"collapseAll",focus:function(e,t){var n=this.active||this.element.find(this.options.items).eq(0);t||this.focus(e,n)},blur:function(t){this._delay(function(){e.contains(this.element[0],this.document[0].activeElement)||this.collapseAll(t)})},keydown:"_keydown"}),this.refresh(),this._on(this.document,{click:function(e){this._closeOnDocumentClick(e)&&this.collapseAll(e),this.mouseHandled=!1}})},_destroy:function(){this.element.removeAttr("aria-activedescendant").find(".ui-menu").addBack().removeClass("ui-menu ui-widget ui-widget-content ui-menu-icons ui-front").removeAttr("role").removeAttr("tabIndex").removeAttr("aria-labelledby").removeAttr("aria-expanded").removeAttr("aria-hidden").removeAttr("aria-disabled").removeUniqueId().show(),this.element.find(".ui-menu-item").removeClass("ui-menu-item").removeAttr("role").removeAttr("aria-disabled").removeUniqueId().removeClass("ui-state-hover").removeAttr("tabIndex").removeAttr("role").removeAttr("aria-haspopup").children().each(function(){var t=e(this);t.data("ui-menu-submenu-carat")&&t.remove()}),this.element.find(".ui-menu-divider").removeClass("ui-menu-divider ui-widget-content")},_keydown:function(t){var n,r,i,s,o=!0;switch(t.keyCode){case e.ui.keyCode.PAGE_UP:this.previousPage(t);break;case e.ui.keyCode.PAGE_DOWN:this.nextPage(t);break;case e.ui.keyCode.HOME:this._move("first","first",t);break;case e.ui.keyCode.END:this._move("last","last",t);break;case e.ui.keyCode.UP:this.previous(t);break;case e.ui.keyCode.DOWN:this.next(t);break;case e.ui.keyCode.LEFT:this.collapse(t);break;case e.ui.keyCode.RIGHT:this.active&&!this.active.is(".ui-state-disabled")&&this.expand(t);break;case e.ui.keyCode.ENTER:case e.ui.keyCode.SPACE:this._activate(t);break;case e.ui.keyCode.ESCAPE:this.collapse(t);break;default:o=!1,r=this.previousFilter||"",i=String.fromCharCode(t.keyCode),s=!1,clearTimeout(this.filterTimer),i===r?s=!0:i=r+i,n=this._filterMenuItems(i),n=s&&n.index(this.active.next())!==-1?this.active.nextAll(".ui-menu-item"):n,n.length||(i=String.fromCharCode(t.keyCode),n=this._filterMenuItems(i)),n.length?(this.focus(t,n),this.previousFilter=i,this.filterTimer=this._delay(function(){delete this.previousFilter},1e3)):delete this.previousFilter}o&&t.preventDefault()},_activate:function(e){this.active.is(".ui-state-disabled")||(this.active.is("[aria-haspopup='true']")?this.expand(e):this.select(e))},refresh:function(){var t,n,r=this,i=this.options.icons.submenu,s=this.element.find(this.options.menus);this.element.toggleClass("ui-menu-icons",!!this.element.find(".ui-icon").length),s.filter(":not(.ui-menu)").addClass("ui-menu ui-widget ui-widget-content ui-front").hide().attr({role:this.options.role,"aria-hidden":"true","aria-expanded":"false"}).each(function(){var t=e(this),n=t.parent(),r=e("<span>").addClass("ui-menu-icon ui-icon "+i).data("ui-menu-submenu-carat",!0);n.attr("aria-haspopup","true").prepend(r),t.attr("aria-labelledby",n.attr("id"))}),t=s.add(this.element),n=t.find(this.options.items),n.not(".ui-menu-item").each(function(){var t=e(this);r._isDivider(t)&&t.addClass("ui-widget-content ui-menu-divider")}),n.not(".ui-menu-item, .ui-menu-divider").addClass("ui-menu-item").uniqueId().attr({tabIndex:-1,role:this._itemRole()}),n.filter(".ui-state-disabled").attr("aria-disabled","true"),this.active&&!e.contains(this.element[0],this.active[0])&&this.blur()},_itemRole:function(){return{menu:"menuitem",listbox:"option"}[this.options.role]},_setOption:function(e,t){e==="icons"&&this.element.find(".ui-menu-icon").removeClass(this.options.icons.submenu).addClass(t.submenu),e==="disabled"&&this.element.toggleClass("ui-state-disabled",!!t).attr("aria-disabled",t),this._super(e,t)},focus:function(e,t){var n,r;this.blur(e,e&&e.type==="focus"),this._scrollIntoView(t),this.active=t.first(),r=this.active.addClass("ui-state-focus").removeClass("ui-state-active"),this.options.role&&this.element.attr("aria-activedescendant",r.attr("id")),this.active.parent().closest(".ui-menu-item").addClass("ui-state-active"),e&&e.type==="keydown"?this._close():this.timer=this._delay(function(){this._close()},this.delay),n=t.children(".ui-menu"),n.length&&e&&/^mouse/.test(e.type)&&this._startOpening(n),this.activeMenu=t.parent(),this._trigger("focus",e,{item:t})},_scrollIntoView:function(t){var n,r,i,s,o,u;this._hasScroll()&&(n=parseFloat(e.css(this.activeMenu[0],"borderTopWidth"))||0,r=parseFloat(e.css(this.activeMenu[0],"paddingTop"))||0,i=t.offset().top-this.activeMenu.offset().top-n-r,s=this.activeMenu.scrollTop(),o=this.activeMenu.height(),u=t.outerHeight(),i<0?this.activeMenu.scrollTop(s+i):i+u>o&&this.activeMenu.scrollTop(s+i-o+u))},blur:function(e,t){t||clearTimeout(this.timer);if(!this.active)return;this.active.removeClass("ui-state-focus"),this.active=null,this._trigger("blur",e,{item:this.active})},_startOpening:function(e){clearTimeout(this.timer);if(e.attr("aria-hidden")!=="true")return;this.timer=this._delay(function(){this._close(),this._open(e)},this.delay)},_open:function(t){var n=e.extend({of:this.active},this.options.position);clearTimeout(this.timer),this.element.find(".ui-menu").not(t.parents(".ui-menu")).hide().attr("aria-hidden","true"),t.show().removeAttr("aria-hidden").attr("aria-expanded","true").position(n)},collapseAll:function(t,n){clearTimeout(this.timer),this.timer=this._delay(function(){var r=n?this.element:e(t&&t.target).closest(this.element.find(".ui-menu"));r.length||(r=this.element),this._close(r),this.blur(t),this.activeMenu=r},this.delay)},_close:function(e){e||(e=this.active?this.active.parent():this.element),e.find(".ui-menu").hide().attr("aria-hidden","true").attr("aria-expanded","false").end().find(".ui-state-active").not(".ui-state-focus").removeClass("ui-state-active")},_closeOnDocumentClick:function(t){return!e(t.target).closest(".ui-menu").length},_isDivider:function(e){return!/[^\-\u2014\u2013\s]/.test(e.text())},collapse:function(e){var t=this.active&&this.active.parent().closest(".ui-menu-item",this.element);t&&t.length&&(this._close(),this.focus(e,t))},expand:function(e){var t=this.active&&this.active.children(".ui-menu ").find(this.options.items).first();t&&t.length&&(this._open(t.parent()),this._delay(function(){this.focus(e,t)}))},next:function(e){this._move("next","first",e)},previous:function(e){this._move("prev","last",e)},isFirstItem:function(){return this.active&&!this.active.prevAll(".ui-menu-item").length},isLastItem:function(){return this.active&&!this.active.nextAll(".ui-menu-item").length},_move:function(e,t,n){var r;this.active&&(e==="first"||e==="last"?r=this.active[e==="first"?"prevAll":"nextAll"](".ui-menu-item").eq(-1):r=this.active[e+"All"](".ui-menu-item").eq(0));if(!r||!r.length||!this.active)r=this.activeMenu.find(this.options.items)[t]();this.focus(n,r)},nextPage:function(t){var n,r,i;if(!this.active){this.next(t);return}if(this.isLastItem())return;this._hasScroll()?(r=this.active.offset().top,i=this.element.height(),this.active.nextAll(".ui-menu-item").each(function(){return n=e(this),n.offset().top-r-i<0}),this.focus(t,n)):this.focus(t,this.activeMenu.find(this.options.items)[this.active?"last":"first"]())},previousPage:function(t){var n,r,i;if(!this.active){this.next(t);return}if(this.isFirstItem())return;this._hasScroll()?(r=this.active.offset().top,i=this.element.height(),this.active.prevAll(".ui-menu-item").each(function(){return n=e(this),n.offset().top-r+i>0}),this.focus(t,n)):this.focus(t,this.activeMenu.find(this.options.items).first())},_hasScroll:function(){return this.element.outerHeight()<this.element.prop("scrollHeight")},select:function(t){this.active=this.active||e(t.target).closest(".ui-menu-item");var n={item:this.active};this.active.has(".ui-menu").length||this.collapseAll(t,!0),this._trigger("select",t,n)},_filterMenuItems:function(t){var n=t.replace(/[\-\[\]{}()*+?.,\\\^$|#\s]/g,"\\$&"),r=new RegExp("^"+n,"i");return this.activeMenu.find(this.options.items).filter(".ui-menu-item").filter(function(){return r.test(e.trim(e(this).text()))})}})});;
+/*!
+ * jQuery UI Autocomplete 1.11.4
+ * http://jqueryui.com
+ *
+ * Copyright jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/autocomplete/
+ */(function(e){typeof define=="function"&&define.amd?define(["jquery","./core","./widget","./position","./menu"],e):e(jQuery)})(function(e){return e.widget("ui.autocomplete",{version:"1.11.4",defaultElement:"<input>",options:{appendTo:null,autoFocus:!1,delay:300,minLength:1,position:{my:"left top",at:"left bottom",collision:"none"},source:null,change:null,close:null,focus:null,open:null,response:null,search:null,select:null},requestIndex:0,pending:0,_create:function(){var t,n,r,i=this.element[0].nodeName.toLowerCase(),s=i==="textarea",o=i==="input";this.isMultiLine=s?!0:o?!1:this.element.prop("isContentEditable"),this.valueMethod=this.element[s||o?"val":"text"],this.isNewMenu=!0,this.element.addClass("ui-autocomplete-input").attr("autocomplete","off"),this._on(this.element,{keydown:function(i){if(this.element.prop("readOnly")){t=!0,r=!0,n=!0;return}t=!1,r=!1,n=!1;var s=e.ui.keyCode;switch(i.keyCode){case s.PAGE_UP:t=!0,this._move("previousPage",i);break;case s.PAGE_DOWN:t=!0,this._move("nextPage",i);break;case s.UP:t=!0,this._keyEvent("previous",i);break;case s.DOWN:t=!0,this._keyEvent("next",i);break;case s.ENTER:this.menu.active&&(t=!0,i.preventDefault(),this.menu.select(i));break;case s.TAB:this.menu.active&&this.menu.select(i);break;case s.ESCAPE:this.menu.element.is(":visible")&&(this.isMultiLine||this._value(this.term),this.close(i),i.preventDefault());break;default:n=!0,this._searchTimeout(i)}},keypress:function(r){if(t){t=!1,(!this.isMultiLine||this.menu.element.is(":visible"))&&r.preventDefault();return}if(n)return;var i=e.ui.keyCode;switch(r.keyCode){case i.PAGE_UP:this._move("previousPage",r);break;case i.PAGE_DOWN:this._move("nextPage",r);break;case i.UP:this._keyEvent("previous",r);break;case i.DOWN:this._keyEvent("next",r)}},input:function(e){if(r){r=!1,e.preventDefault();return}this._searchTimeout(e)},focus:function(){this.selectedItem=null,this.previous=this._value()},blur:function(e){if(this.cancelBlur){delete this.cancelBlur;return}clearTimeout(this.searching),this.close(e),this._change(e)}}),this._initSource(),this.menu=e("<ul>").addClass("ui-autocomplete ui-front").appendTo(this._appendTo()).menu({role:null}).hide().menu("instance"),this._on(this.menu.element,{mousedown:function(t){t.preventDefault(),this.cancelBlur=!0,this._delay(function(){delete this.cancelBlur});var n=this.menu.element[0];e(t.target).closest(".ui-menu-item").length||this._delay(function(){var t=this;this.document.one("mousedown",function(r){r.target!==t.element[0]&&r.target!==n&&!e.contains(n,r.target)&&t.close()})})},menufocus:function(t,n){var r,i;if(this.isNewMenu){this.isNewMenu=!1;if(t.originalEvent&&/^mouse/.test(t.originalEvent.type)){this.menu.blur(),this.document.one("mousemove",function(){e(t.target).trigger(t.originalEvent)});return}}i=n.item.data("ui-autocomplete-item"),!1!==this._trigger("focus",t,{item:i})&&t.originalEvent&&/^key/.test(t.originalEvent.type)&&this._value(i.value),r=n.item.attr("aria-label")||i.value,r&&e.trim(r).length&&(this.liveRegion.children().hide(),e("<div>").text(r).appendTo(this.liveRegion))},menuselect:function(e,t){var n=t.item.data("ui-autocomplete-item"),r=this.previous;this.element[0]!==this.document[0].activeElement&&(this.element.focus(),this.previous=r,this._delay(function(){this.previous=r,this.selectedItem=n})),!1!==this._trigger("select",e,{item:n})&&this._value(n.value),this.term=this._value(),this.close(e),this.selectedItem=n}}),this.liveRegion=e("<span>",{role:"status","aria-live":"assertive","aria-relevant":"additions"}).addClass("ui-helper-hidden-accessible").appendTo(this.document[0].body),this._on(this.window,{beforeunload:function(){this.element.removeAttr("autocomplete")}})},_destroy:function(){clearTimeout(this.searching),this.element.removeClass("ui-autocomplete-input").removeAttr("autocomplete"),this.menu.element.remove(),this.liveRegion.remove()},_setOption:function(e,t){this._super(e,t),e==="source"&&this._initSource(),e==="appendTo"&&this.menu.element.appendTo(this._appendTo()),e==="disabled"&&t&&this.xhr&&this.xhr.abort()},_appendTo:function(){var t=this.options.appendTo;t&&(t=t.jquery||t.nodeType?e(t):this.document.find(t).eq(0));if(!t||!t[0])t=this.element.closest(".ui-front");return t.length||(t=this.document[0].body),t},_initSource:function(){var t,n,r=this;e.isArray(this.options.source)?(t=this.options.source,this.source=function(n,r){r(e.ui.autocomplete.filter(t,n.term))}):typeof this.options.source=="string"?(n=this.options.source,this.source=function(t,i){r.xhr&&r.xhr.abort(),r.xhr=e.ajax({url:n,data:t,dataType:"json",success:function(e){i(e)},error:function(){i([])}})}):this.source=this.options.source},_searchTimeout:function(e){clearTimeout(this.searching),this.searching=this._delay(function(){var t=this.term===this._value(),n=this.menu.element.is(":visible"),r=e.altKey||e.ctrlKey||e.metaKey||e.shiftKey;if(!t||t&&!n&&!r)this.selectedItem=null,this.search(null,e)},this.options.delay)},search:function(e,t){e=e!=null?e:this._value(),this.term=this._value();if(e.length<this.options.minLength)return this.close(t);if(this._trigger("search",t)===!1)return;return this._search(e)},_search:function(e){this.pending++,this.element.addClass("ui-autocomplete-loading"),this.cancelSearch=!1,this.source({term:e},this._response())},_response:function(){var t=++this.requestIndex;return e.proxy(function(e){t===this.requestIndex&&this.__response(e),this.pending--,this.pending||this.element.removeClass("ui-autocomplete-loading")},this)},__response:function(e){e&&(e=this._normalize(e)),this._trigger("response",null,{content:e}),!this.options.disabled&&e&&e.length&&!this.cancelSearch?(this._suggest(e),this._trigger("open")):this._close()},close:function(e){this.cancelSearch=!0,this._close(e)},_close:function(e){this.menu.element.is(":visible")&&(this.menu.element.hide(),this.menu.blur(),this.isNewMenu=!0,this._trigger("close",e))},_change:function(e){this.previous!==this._value()&&this._trigger("change",e,{item:this.selectedItem})},_normalize:function(t){return t.length&&t[0].label&&t[0].value?t:e.map(t,function(t){return typeof t=="string"?{label:t,value:t}:e.extend({},t,{label:t.label||t.value,value:t.value||t.label})})},_suggest:function(t){var n=this.menu.element.empty();this._renderMenu(n,t),this.isNewMenu=!0,this.menu.refresh(),n.show(),this._resizeMenu(),n.position(e.extend({of:this.element},this.options.position)),this.options.autoFocus&&this.menu.next()},_resizeMenu:function(){var e=this.menu.element;e.outerWidth(Math.max(e.width("").outerWidth()+1,this.element.outerWidth()))},_renderMenu:function(t,n){var r=this;e.each(n,function(e,n){r._renderItemData(t,n)})},_renderItemData:function(e,t){return this._renderItem(e,t).data("ui-autocomplete-item",t)},_renderItem:function(t,n){return e("<li>").text(n.label).appendTo(t)},_move:function(e,t){if(!this.menu.element.is(":visible")){this.search(null,t);return}if(this.menu.isFirstItem()&&/^previous/.test(e)||this.menu.isLastItem()&&/^next/.test(e)){this.isMultiLine||this._value(this.term),this.menu.blur();return}this.menu[e](t)},widget:function(){return this.menu.element},_value:function(){return this.valueMethod.apply(this.element,arguments)},_keyEvent:function(e,t){if(!this.isMultiLine||this.menu.element.is(":visible"))this._move(e,t),t.preventDefault()}}),e.extend(e.ui.autocomplete,{escapeRegex:function(e){return e.replace(/[\-\[\]{}()*+?.,\\\^$|#\s]/g,"\\$&")},filter:function(t,n){var r=new RegExp(e.ui.autocomplete.escapeRegex(n),"i");return e.grep(t,function(e){return r.test(e.label||e.value||e)})}}),e.widget("ui.autocomplete",e.ui.autocomplete,{options:{messages:{noResults:"No search results.",results:function(e){return e+(e>1?" results are":" result is")+" available, use up and down arrow keys to navigate."}}},__response:function(t){var n;this._superApply(arguments);if(this.options.disabled||this.cancelSearch)return;t&&t.length?n=this.options.messages.results(t.length):n=this.options.messages.noResults,this.liveRegion.children().hide(),e("<div>").text(n).appendTo(this.liveRegion)}}),e.ui.autocomplete});;
+/**
+ * @file
+ * Machine name functionality.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  /**
+   * Attach the machine-readable name form element behavior.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches machine-name behaviors.
+   */
+  Drupal.behaviors.machineName = {
+
+    /**
+     * Attaches the behavior.
+     *
+     * @param {Element} context
+     *   The context for attaching the behavior.
+     * @param {object} settings
+     *   Settings object.
+     * @param {object} settings.machineName
+     *   A list of elements to process, keyed by the HTML ID of the form
+     *   element containing the human-readable value. Each element is an object
+     *   defining the following properties:
+     *   - target: The HTML ID of the machine name form element.
+     *   - suffix: The HTML ID of a container to show the machine name preview
+     *     in (usually a field suffix after the human-readable name
+     *     form element).
+     *   - label: The label to show for the machine name preview.
+     *   - replace_pattern: A regular expression (without modifiers) matching
+     *     disallowed characters in the machine name; e.g., '[^a-z0-9]+'.
+     *   - replace: A character to replace disallowed characters with; e.g.,
+     *     '_' or '-'.
+     *   - standalone: Whether the preview should stay in its own element
+     *     rather than the suffix of the source element.
+     *   - field_prefix: The #field_prefix of the form element.
+     *   - field_suffix: The #field_suffix of the form element.
+     */
+    attach: function (context, settings) {
+      var self = this;
+      var $context = $(context);
+      var timeout = null;
+      var xhr = null;
+
+      function clickEditHandler(e) {
+        var data = e.data;
+        data.$wrapper.removeClass('visually-hidden');
+        data.$target.trigger('focus');
+        data.$suffix.hide();
+        data.$source.off('.machineName');
+      }
+
+      function machineNameHandler(e) {
+        var data = e.data;
+        var options = data.options;
+        var baseValue = $(e.target).val();
+
+        var rx = new RegExp(options.replace_pattern, 'g');
+        var expected = baseValue.toLowerCase().replace(rx, options.replace).substr(0, options.maxlength);
+
+        // Abort the last pending request because the label has changed and it
+        // is no longer valid.
+        if (xhr && xhr.readystate !== 4) {
+          xhr.abort();
+          xhr = null;
+        }
+
+        // Wait 300 milliseconds for Ajax request since the last event to update
+        // the machine name i.e., after the user has stopped typing.
+        if (timeout) {
+          clearTimeout(timeout);
+          timeout = null;
+        }
+        if (baseValue.toLowerCase() !== expected) {
+          timeout = setTimeout(function () {
+            xhr = self.transliterate(baseValue, options).done(function (machine) {
+              self.showMachineName(machine.substr(0, options.maxlength), data);
+            });
+          }, 300);
+        }
+        else {
+          self.showMachineName(expected, data);
+        }
+      }
+
+      Object.keys(settings.machineName).forEach(function (source_id) {
+        var machine = '';
+        var eventData;
+        var options = settings.machineName[source_id];
+
+        var $source = $context.find(source_id).addClass('machine-name-source').once('machine-name');
+        var $target = $context.find(options.target).addClass('machine-name-target');
+        var $suffix = $context.find(options.suffix);
+        var $wrapper = $target.closest('.js-form-item');
+        // All elements have to exist.
+        if (!$source.length || !$target.length || !$suffix.length || !$wrapper.length) {
+          return;
+        }
+        // Skip processing upon a form validation error on the machine name.
+        if ($target.hasClass('error')) {
+          return;
+        }
+        // Figure out the maximum length for the machine name.
+        options.maxlength = $target.attr('maxlength');
+        // Hide the form item container of the machine name form element.
+        $wrapper.addClass('visually-hidden');
+        // Determine the initial machine name value. Unless the machine name
+        // form element is disabled or not empty, the initial default value is
+        // based on the human-readable form element value.
+        if ($target.is(':disabled') || $target.val() !== '') {
+          machine = $target.val();
+        }
+        else if ($source.val() !== '') {
+          machine = self.transliterate($source.val(), options);
+        }
+        // Append the machine name preview to the source field.
+        var $preview = $('<span class="machine-name-value">' + options.field_prefix + Drupal.checkPlain(machine) + options.field_suffix + '</span>');
+        $suffix.empty();
+        if (options.label) {
+          $suffix.append('<span class="machine-name-label">' + options.label + ': </span>');
+        }
+        $suffix.append($preview);
+
+        // If the machine name cannot be edited, stop further processing.
+        if ($target.is(':disabled')) {
+          return;
+        }
+
+        eventData = {
+          $source: $source,
+          $target: $target,
+          $suffix: $suffix,
+          $wrapper: $wrapper,
+          $preview: $preview,
+          options: options
+        };
+        // If it is editable, append an edit link.
+        var $link = $('<span class="admin-link"><button type="button" class="link">' + Drupal.t('Edit') + '</button></span>').on('click', eventData, clickEditHandler);
+        $suffix.append($link);
+
+        // Preview the machine name in realtime when the human-readable name
+        // changes, but only if there is no machine name yet; i.e., only upon
+        // initial creation, not when editing.
+        if ($target.val() === '') {
+          $source.on('formUpdated.machineName', eventData, machineNameHandler)
+            // Initialize machine name preview.
+            .trigger('formUpdated.machineName');
+        }
+
+        // Add a listener for an invalid event on the machine name input
+        // to show its container and focus it.
+        $target.on('invalid', eventData, clickEditHandler);
+      });
+    },
+
+    showMachineName: function (machine, data) {
+      var settings = data.options;
+      // Set the machine name to the transliterated value.
+      if (machine !== '') {
+        if (machine !== settings.replace) {
+          data.$target.val(machine);
+          data.$preview.html(settings.field_prefix + Drupal.checkPlain(machine) + settings.field_suffix);
+        }
+        data.$suffix.show();
+      }
+      else {
+        data.$suffix.hide();
+        data.$target.val(machine);
+        data.$preview.empty();
+      }
+    },
+
+    /**
+     * Transliterate a human-readable name to a machine name.
+     *
+     * @param {string} source
+     *   A string to transliterate.
+     * @param {object} settings
+     *   The machine name settings for the corresponding field.
+     * @param {string} settings.replace_pattern
+     *   A regular expression (without modifiers) matching disallowed characters
+     *   in the machine name; e.g., '[^a-z0-9]+'.
+     * @param {string} settings.replace_token
+     *   A token to validate the regular expression.
+     * @param {string} settings.replace
+     *   A character to replace disallowed characters with; e.g., '_' or '-'.
+     * @param {number} settings.maxlength
+     *   The maximum length of the machine name.
+     *
+     * @return {jQuery}
+     *   The transliterated source string.
+     */
+    transliterate: function (source, settings) {
+      return $.get(Drupal.url('machine_name/transliterate'), {
+        text: source,
+        langcode: drupalSettings.langcode,
+        replace_pattern: settings.replace_pattern,
+        replace_token: settings.replace_token,
+        replace: settings.replace,
+        lowercase: true
+      });
+    }
+  };
+
+})(jQuery, Drupal, drupalSettings);
+;
+/**
+ * @file
+ * Adds an HTML element and method to trigger audio UAs to read system messages.
+ *
+ * Use {@link Drupal.announce} to indicate to screen reader users that an
+ * element on the page has changed state. For instance, if clicking a link
+ * loads 10 more items into a list, one might announce the change like this.
+ *
+ * @example
+ * $('#search-list')
+ *   .on('itemInsert', function (event, data) {
+ *     // Insert the new items.
+ *     $(data.container.el).append(data.items.el);
+ *     // Announce the change to the page contents.
+ *     Drupal.announce(Drupal.t('@count items added to @container',
+ *       {'@count': data.items.length, '@container': data.container.title}
+ *     ));
+ *   });
+ */
+
+(function (Drupal, debounce) {
+
+  'use strict';
+
+  var liveElement;
+  var announcements = [];
+
+  /**
+   * Builds a div element with the aria-live attribute and add it to the DOM.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches the behavior for drupalAnnouce.
+   */
+  Drupal.behaviors.drupalAnnounce = {
+    attach: function (context) {
+      // Create only one aria-live element.
+      if (!liveElement) {
+        liveElement = document.createElement('div');
+        liveElement.id = 'drupal-live-announce';
+        liveElement.className = 'visually-hidden';
+        liveElement.setAttribute('aria-live', 'polite');
+        liveElement.setAttribute('aria-busy', 'false');
+        document.body.appendChild(liveElement);
+      }
+    }
+  };
+
+  /**
+   * Concatenates announcements to a single string; appends to the live region.
+   */
+  function announce() {
+    var text = [];
+    var priority = 'polite';
+    var announcement;
+
+    // Create an array of announcement strings to be joined and appended to the
+    // aria live region.
+    var il = announcements.length;
+    for (var i = 0; i < il; i++) {
+      announcement = announcements.pop();
+      text.unshift(announcement.text);
+      // If any of the announcements has a priority of assertive then the group
+      // of joined announcements will have this priority.
+      if (announcement.priority === 'assertive') {
+        priority = 'assertive';
+      }
+    }
+
+    if (text.length) {
+      // Clear the liveElement so that repeated strings will be read.
+      liveElement.innerHTML = '';
+      // Set the busy state to true until the node changes are complete.
+      liveElement.setAttribute('aria-busy', 'true');
+      // Set the priority to assertive, or default to polite.
+      liveElement.setAttribute('aria-live', priority);
+      // Print the text to the live region. Text should be run through
+      // Drupal.t() before being passed to Drupal.announce().
+      liveElement.innerHTML = text.join('\n');
+      // The live text area is updated. Allow the AT to announce the text.
+      liveElement.setAttribute('aria-busy', 'false');
+    }
+  }
+
+  /**
+   * Triggers audio UAs to read the supplied text.
+   *
+   * The aria-live region will only read the text that currently populates its
+   * text node. Replacing text quickly in rapid calls to announce results in
+   * only the text from the most recent call to {@link Drupal.announce} being
+   * read. By wrapping the call to announce in a debounce function, we allow for
+   * time for multiple calls to {@link Drupal.announce} to queue up their
+   * messages. These messages are then joined and append to the aria-live region
+   * as one text node.
+   *
+   * @param {string} text
+   *   A string to be read by the UA.
+   * @param {string} [priority='polite']
+   *   A string to indicate the priority of the message. Can be either
+   *   'polite' or 'assertive'.
+   *
+   * @return {function}
+   *   The return of the call to debounce.
+   *
+   * @see http://www.w3.org/WAI/PF/aria-practices/#liveprops
+   */
+  Drupal.announce = function (text, priority) {
+    // Save the text and priority into a closure variable. Multiple simultaneous
+    // announcements will be concatenated and read in sequence.
+    announcements.push({
+      text: text,
+      priority: priority
+    });
+    // Immediately invoke the function that debounce returns. 200 ms is right at
+    // the cusp where humans notice a pause, so we will wait
+    // at most this much time before the set of queued announcements is read.
+    return (debounce(announce, 200)());
+  };
+}(Drupal, Drupal.debounce));
 ;
 window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.styleMedia||window.media;if(!e){var t=document.createElement("style"),i=document.getElementsByTagName("script")[0],n=null;t.type="text/css";t.id="matchmediajs-test";i.parentNode.insertBefore(t,i);n="getComputedStyle"in window&&window.getComputedStyle(t,null)||t.currentStyle;e={matchMedium:function(e){var i="@media "+e+"{ #matchmediajs-test { width: 1px; } }";if(t.styleSheet){t.styleSheet.cssText=i}else{t.textContent=i}return n.width==="1px"}}}return function(t){return{matches:e.matchMedium(t||"all"),media:t||"all"}}}());
 ;
@@ -6032,60 +9082,4 @@ window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.style
   };
 
 })(jQuery, Drupal, drupalSettings);
-;
-/**
- * @file
- * Responsive navigation tabs.
- *
- * This also supports collapsible navigable is the 'is-collapsible' class is
- * added to the main element, and a target element is included.
- */
-(function ($, Drupal) {
-
-  'use strict';
-
-  function init(i, tab) {
-    var $tab = $(tab);
-    var $target = $tab.find('[data-drupal-nav-tabs-target]');
-    var isCollapsible = $tab.hasClass('is-collapsible');
-
-    function openMenu(e) {
-      $target.toggleClass('is-open');
-    }
-
-    function handleResize(e) {
-      $tab.addClass('is-horizontal');
-      var $tabs = $tab.find('.tabs');
-      var isHorizontal = $tabs.outerHeight() <= $tabs.find('.tabs__tab').outerHeight();
-      $tab.toggleClass('is-horizontal', isHorizontal);
-      if (isCollapsible) {
-        $tab.toggleClass('is-collapse-enabled', !isHorizontal);
-      }
-      if (isHorizontal) {
-        $target.removeClass('is-open');
-      }
-    }
-
-    $tab.addClass('position-container is-horizontal-enabled');
-
-    $tab.on('click.tabs', '[data-drupal-nav-tabs-trigger]', openMenu);
-    $(window).on('resize.tabs', Drupal.debounce(handleResize, 150)).trigger('resize.tabs');
-  }
-
-  /**
-   * Initialise the tabs JS.
-   */
-  Drupal.behaviors.navTabs = {
-    attach: function (context, settings) {
-      var $tabs = $(context).find('[data-drupal-nav-tabs]');
-      if ($tabs.length) {
-        var notSmartPhone = window.matchMedia('(min-width: 300px)');
-        if (notSmartPhone.matches) {
-          $tabs.once('nav-tabs').each(init);
-        }
-      }
-    }
-  };
-
-})(jQuery, Drupal);
 ;

@@ -45,7 +45,7 @@ void 0!==c?e&&"set"in e&&void 0!==(d=e.set(a,c,b))?d:a[b]=c:e&&"get"in e&&null!=
   }
 })();
 ;
-window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","closed":"cerrado","Save":"Guardar","Open":"Abierta","OK":"OK","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Extend":"Ampliar","Hide":"Ocultar","Quick edit":"Edici\u00f3n r\u00e1pida","@label":"@label","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","Collapse":"Plegar","You have unsaved changes":"Usted tiene cambios no guaradados","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","Network problem!":"Problema de red!"}},"pluralFormula":{"1":0,"default":1}};;
+window.drupalTranslations = {"strings":{"":{"An AJAX HTTP error occurred.":"Hubo un error HTTP AJAX.","HTTP Result Code: !status":"C\u00f3digo de Resultado HTTP: !status","An AJAX HTTP request terminated abnormally.":"Una solicitud HTTP de AJAX termin\u00f3 de manera anormal.","Debugging information follows.":"A continuaci\u00f3n se detalla la informaci\u00f3n de depuraci\u00f3n.","Path: !uri":"Ruta: !uri","StatusText: !statusText":"StatusText: !statusText","ResponseText: !responseText":"ResponseText: !responseText","ReadyState: !readyState":"ReadyState: !readyState","CustomMessage: !customMessage":"CustomMessage: !customMessage","Please wait...":"Espere, por favor...","The response failed verification so will not be processed.":"La respuesta de verificaci\u00f3n fall\u00f3, por lo que no se procesar\u00e1.","The callback URL is not local and not trusted: !url":"La URL de llamada no es local y no es confiable: !url","Changed":"Cambiado","Home":"Inicio","Next":"Siguiente","closed":"cerrado","Cancel":"Cancelar","Edit":"Editar","Link":"Enlace","Image":"Imagen","Save":"Guardar","Open":"Abierta","Sunday":"Domingo","Monday":"Lunes","Tuesday":"Martes","Wednesday":"Mi\u00e9rcoles","Thursday":"Jueves","Friday":"Viernes","Saturday":"S\u00e1bado","Add":"Agregar","Keywords":"Palabras clave","Continue":"Continuar","Done":"Hecho","OK":"OK","Prev":"Previo","Mon":"Lun","Tue":"Mar","Wed":"Mi\u00e9","Thu":"Jue","Fri":"Vie","Sat":"S\u00e1b","Sun":"Dom","May":"Mayo","Close":"Cerrar","Show":"Mostrar","Select all rows in this table":"Seleccionar todas las filas de esta tabla","Deselect all rows in this table":"Quitar la selecci\u00f3n a todas las filas de esta tabla","Today":"Hoy","Jan":"Ene","Feb":"Feb","Mar":"Mar","Apr":"Abr","Jun":"Jun","Jul":"Jul","Aug":"Ago","Sep":"Sep","Oct":"Oct","Nov":"Nov","Dec":"Dic","Extend":"Ampliar","Su":"Do","Mo":"Lu","Tu":"Ma","We":"Mi","Th":"Ju","Fr":"Vi","Sa":"Sa","Not published":"No publicado","Loading...":"Cargando...","Hide":"Ocultar","Unlink":"Desvincular","Not promoted":"No publicado en p\u00e1gina principal","mm\/dd\/yy":"mm\/dd\/yy","Quick edit":"Edici\u00f3n r\u00e1pida","Edit Link":"Editar enlace","Remove group":"Eliminar grupo","By @name on @date":"Por @name en @date","By @name":"Por @name","Not in menu":"No est\u00e1 en un men\u00fa","Alias: @alias":"Alias: @alias","No alias":"Sin alias","@label":"@label","New revision":"Nueva revisi\u00f3n","Drag to re-order":"Arrastre para reordenar","Discard changes":"\u00bfDescartar cambios?","Saving":"Guardando","No revision":"Sin revisi\u00f3n","Requires a title":"Necesita un t\u00edtulo","Not restricted":"Sin restricci\u00f3n","(active tab)":"(solapa activa)","Restricted to certain pages":"Restringido a algunas p\u00e1ginas","The block cannot be placed in this region.":"El bloque no se puede colocar en esta regi\u00f3n.","Hide summary":"Ocultar resumen","Edit summary":"Editar resumen","Don\u0027t display post information":"No mostrar informaci\u00f3n del env\u00edo","Collapse":"Plegar","The selected file %filename cannot be uploaded. Only files with the following extensions are allowed: %extensions.":"El archivo seleccionado %filename no se puede subir al srvidor. Solo se permiten archivos con las siguientes extensiones: %extensions.","Re-order rows by numerical weight instead of dragging.":"Reordenar las filas por peso num\u00e9rico en lugar de arrastrar.","Show row weights":"Mostrar pesos de la fila","Hide row weights":"Ocultar pesos de la fila","Apply (all displays)":"Aplicar (todas las presentaciones)","Apply (this display)":"Aplicar (esta presentaci\u00f3n)","Revert to default":"Volver al valor inicial","You have unsaved changes":"Usted tiene cambios no guaradados","Needs to be updated":"Necesita ser actualizado","Does not need to be updated":"No necesita ser actualizado","Show all columns":"Mostrar todas las columnas","Show table cells that were hidden to make the table fit within a small screen.":"Mostrar celdas de tablas que estaban ocultas para que la tabla se ajuste a una pantalla peque\u00f1a.","List additional actions":"Lista adicional de acciones","Flag other translations as outdated":"Marcar las otras traducciones como desfasadas","Do not flag other translations as outdated":"No marcar las otras traducciones como desfasadas","opened":"abierto","Horizontal orientation":"Orientaci\u00f3n horizontal","Vertical orientation":"Orientaci\u00f3n vertical","Tray orientation changed to @orientation.":"La orientaci\u00f3n de la bandeja se ha cambiado a @orientation.","You have unsaved changes.":"Tiene cambios sin guardar.","@action @title configuration options":"@action @title opciones de configuraci\u00f3n","Tabbing is no longer constrained by the Contextual module.":"Tabulando (Tabbing) ya no se ver\u00e1 limitado por el m\u00f3dulo Contextual (Contextual).","Tabbing is constrained to a set of @contextualsCount and the edit mode toggle.":"La tabulaci\u00f3n est\u00e1 restringida a un conjunto de @contextualsCount y al cambio a modo de edici\u00f3n.","Press the esc key to exit.":"Presionar tecla esc para salir.","@count contextual link\u0003@count contextual links":"@count enlace contextual\u0003@count enlaces contextuales","!tour_item of !total":"!tour_item de !total","End tour":"Final del recorrido","Discard changes?":"\u00bfDescartar cambios?","The toolbar cannot be set to a horizontal orientation when it is locked.":"La barra de herramientas no puede ser puesta en orientaci\u00f3n horizontal cuando esta bloqueada.","Could not load the form for \u003Cq\u003E@field-label\u003C\/q\u003E, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"No se pudo cargar el formulario para \u003Cq\u003E@field-label\u003C\/q\u003E, ya sea debido a un problema en el sitio, ya por un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Your changes to \u003Cq\u003E@entity-title\u003C\/q\u003E could not be saved, either due to a website problem or a network connection problem.\u003Cbr\u003EPlease try again.":"Los cambios en \u003Cq\u003E@entity-title\u003C\/q\u003E no podr\u00e1n salvarse, debido a un problema en el sitio web o un problema de conexi\u00f3n de red.\u003Cbr\u003EPor favor, int\u00e9ntelo de nuevo.","Changing the text format to %text_format will permanently remove content that is not allowed in that text format.\u003Cbr\u003E\u003Cbr\u003ESave your changes before switching the text format to avoid losing data.":"Cambiar el formato de texto a %text_format eliminar\u00e1 permanentemente el contenido que no est\u00e1 permitido en ese formato de texto.\u003Cbr\u003E\u003Cbr\u003EGuarde sus datos antes de cambiar el formato de texto para evitar perder datos.","Change text format?":"\u00bfCambiar el formato de texto?","Rich Text Editor, !label field":"Editor de texto con formato, campo !label","Leave preview?":"\u00bfSalir de la vista previa?","Leave preview":"Salir de la vista previa","Leaving the preview will cause unsaved changes to be lost. Are you sure you want to leave the preview?":"La salida de la vista previa provocar\u00e1 la p\u00e9rdida de los cambios no guardados. \u00bfEst\u00e1 seguro de que desea abandonar la vista previa?","CTRL+Left click will prevent this dialog from showing and proceed to the clicked link.":"CTRL+Clic izquierdo evitar\u00e1 que aparezca este di\u00e1logo e ir\u00e1 directamente al enlace pulsado.","Tray \u0022@tray\u0022 @action.":"Bandeja \u0022@tray\u0022 @action","Tray @action.":"Bandeja @action.","Hide lower priority columns":"Ocultar columnas de menor prioridad","!modules modules are available in the modified list.":"!modules m\u00f3dulos est\u00e1n disponibles en la lista modificada.","Network problem!":"Problema de red!","Authored on @date":"Escrito el @date","Latitude":"Latitud","Longitude":"Longitud","No location data found. Reason: POSITION_UNAVAILABLE.":"No se encontraron datos de localizaci\u00f3n. Razon: POSICION_NO_DISPONIBLE","No location data found. Reason: TIMEOUT.":"No se encontraron datos de localizaci\u00f3n. Razon: TIEMPO EXPIRADO"},"Long month name":{"January":"Enero","February":"Febrero","March":"Marzo","April":"Abril","May":"Mayo","June":"Junio","July":"Julio","August":"Agosto","September":"Septiembre","October":"Octubre","November":"Noviembre","December":"Diciembre"}},"pluralFormula":{"1":0,"default":1}};;
 /**
  * @file
  * Defines the Drupal JavaScript API.
@@ -1375,6 +1375,88 @@ document.documentElement.className += ' js';
   };
 
 })(Drupal, drupalSettings);
+;
+/**
+ * @file
+ * System behaviors.
+ */
+
+(function ($, Drupal, drupalSettings) {
+
+  'use strict';
+
+  // Cache IDs in an array for ease of use.
+  var ids = [];
+
+  /**
+   * Attaches field copy behavior from input fields to other input fields.
+   *
+   * When a field is filled out, apply its value to other fields that will
+   * likely use the same value. In the installer this is used to populate the
+   * administrator email address with the same value as the site email address.
+   *
+   * @type {Drupal~behavior}
+   *
+   * @prop {Drupal~behaviorAttach} attach
+   *   Attaches the field copy behavior to an input field.
+   */
+  Drupal.behaviors.copyFieldValue = {
+    attach: function (context) {
+      // List of fields IDs on which to bind the event listener.
+      // Create an array of IDs to use with jQuery.
+      for (var sourceId in drupalSettings.copyFieldValue) {
+        if (drupalSettings.copyFieldValue.hasOwnProperty(sourceId)) {
+          ids.push(sourceId);
+        }
+      }
+      if (ids.length) {
+        // Listen to value:copy events on all dependent fields.
+        // We have to use body and not document because of the way jQuery events
+        // bubble up the DOM tree.
+        $('body').once('copy-field-values').on('value:copy', this.valueTargetCopyHandler);
+        // Listen on all source elements.
+        $('#' + ids.join(', #')).once('copy-field-values').on('blur', this.valueSourceBlurHandler);
+      }
+    },
+    detach: function (context, settings, trigger) {
+      if (trigger === 'unload' && ids.length) {
+        $('body').removeOnce('copy-field-values').off('value:copy');
+        $('#' + ids.join(', #')).removeOnce('copy-field-values').off('blur');
+      }
+    },
+
+    /**
+     * Event handler that fill the target element with the specified value.
+     *
+     * @param {jQuery.Event} e
+     *   Event object.
+     * @param {string} value
+     *   Custom value from jQuery trigger.
+     */
+    valueTargetCopyHandler: function (e, value) {
+      var $target = $(e.target);
+      if ($target.val() === '') {
+        $target.val(value);
+      }
+    },
+
+    /**
+     * Handler for a Blur event on a source field.
+     *
+     * This event handler will trigger a 'value:copy' event on all dependent
+     * fields.
+     *
+     * @param {jQuery.Event} e
+     *   The event triggered.
+     */
+    valueSourceBlurHandler: function (e) {
+      var value = $(e.target).val();
+      var targetIds = drupalSettings.copyFieldValue[e.target.id];
+      $('#' + targetIds.join(', #')).trigger('value:copy', value);
+    }
+  };
+
+})(jQuery, Drupal, drupalSettings);
 ;
 /**
  * @file
@@ -5928,60 +6010,4 @@ window.matchMedia||(window.matchMedia=function(){"use strict";var e=window.style
   };
 
 })(jQuery, Drupal, drupalSettings);
-;
-/**
- * @file
- * Responsive navigation tabs.
- *
- * This also supports collapsible navigable is the 'is-collapsible' class is
- * added to the main element, and a target element is included.
- */
-(function ($, Drupal) {
-
-  'use strict';
-
-  function init(i, tab) {
-    var $tab = $(tab);
-    var $target = $tab.find('[data-drupal-nav-tabs-target]');
-    var isCollapsible = $tab.hasClass('is-collapsible');
-
-    function openMenu(e) {
-      $target.toggleClass('is-open');
-    }
-
-    function handleResize(e) {
-      $tab.addClass('is-horizontal');
-      var $tabs = $tab.find('.tabs');
-      var isHorizontal = $tabs.outerHeight() <= $tabs.find('.tabs__tab').outerHeight();
-      $tab.toggleClass('is-horizontal', isHorizontal);
-      if (isCollapsible) {
-        $tab.toggleClass('is-collapse-enabled', !isHorizontal);
-      }
-      if (isHorizontal) {
-        $target.removeClass('is-open');
-      }
-    }
-
-    $tab.addClass('position-container is-horizontal-enabled');
-
-    $tab.on('click.tabs', '[data-drupal-nav-tabs-trigger]', openMenu);
-    $(window).on('resize.tabs', Drupal.debounce(handleResize, 150)).trigger('resize.tabs');
-  }
-
-  /**
-   * Initialise the tabs JS.
-   */
-  Drupal.behaviors.navTabs = {
-    attach: function (context, settings) {
-      var $tabs = $(context).find('[data-drupal-nav-tabs]');
-      if ($tabs.length) {
-        var notSmartPhone = window.matchMedia('(min-width: 300px)');
-        if (notSmartPhone.matches) {
-          $tabs.once('nav-tabs').each(init);
-        }
-      }
-    }
-  };
-
-})(jQuery, Drupal);
 ;
